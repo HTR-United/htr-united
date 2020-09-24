@@ -43,4 +43,4 @@ Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-
 
 ### Vous n'en avez pas
 
-Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](LIEN VERS ISSUES AVEC TEMPLATE AJOUT D'UN DÉPÔT) et nous serons heureux de vous aider à créer et partager votre dépôt, sur HTR-United. Des compétences en `git` sont bienvenues mais, si vous voulez partager des données, on vous aidera, c'est le but de cette organisation !
+Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](https://github.com/HTR-United/htr-united/issues/new) et nous serons heureux de vous aider à créer et partager votre dépôt, sur HTR-United. Des compétences en `git` sont bienvenues mais, si vous voulez partager des données, on vous aidera, c'est le but de cette organisation !
