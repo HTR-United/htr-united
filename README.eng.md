@@ -2,7 +2,7 @@ HTR-United
 =========
 
 ## What is HTR-United
-HTR-United is an Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of French texts from the 18th to the 21st century**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
+HTR-United is an Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
 
 ## Only data?
 
@@ -16,9 +16,9 @@ There are two cases:
 2. [You don't have one and prefer to help the organization directly](#you-dont-have-one)
     
 ### You already have data in a repository
-It's rather convinient: you stay in control, and there's no issue with joining the organization. However, if you want your dataset to gain visibility, it seems important to us that you describe here. In deed, if you take benefit from data or models provided on HTR-United, you may as well contribute!
+It's rather convinient: you stay in control, and there's no issue with joining the organization. However, if you want your dataset to gain visibility, it seems important to us that you describe it here. In deed, if you take benefit from data or models provided by HTR-United, you may as well contribute!
 
-To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a like formated as follows:
+To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a line formated as follows:
 
 ```yaml
         name: "Title"
