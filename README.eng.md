@@ -4,6 +4,16 @@ HTR-United
 ## What is HTR-United
 HTR-United is a Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
 
+## What is shared?
+
+Datasets shared or referenced with HTR-United must, at minimum, take the form of:
+- an ensemble of ALTO XML and/or PAGE XML files containing either only informations on the segmentation, either the segmentation and the corresponding transcription;
+- an ensemble of corresponding images. They can be shared in the form of a simple permalink to ressources hosted somewhere else, or can be the contact information necessary to request access to the images. It must be possible to recompose the link between the XML files and the image without any intermediary process;
+- a documentation on the transcription practices followed for the segmentation and the transcription. In the cases of a Github repository, this documentation must be summarized in the README.
+
+A corpus can be sub-diveded into smaller ensembles if it seems necessary.
+
+
 ## Only data?
 
 Eventually, this organization will also aim at sharing -under free licenses- models suited for requested HTR processors. This will make it possible for projects with smaller capacities to benefit from ready-to-use models. Thus, if you share your data, and according to the rythm followed by the other members, you will soon be able to use such models.
