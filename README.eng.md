@@ -2,7 +2,17 @@ HTR-United
 =========
 
 ## What is HTR-United
-HTR-United is an Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of French texts from the 18th to the 21st century**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
+HTR-United is a Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
+
+## What is shared?
+
+Datasets shared or referenced with HTR-United must, at minimum, take the form of:
+- an ensemble of ALTO XML and/or PAGE XML files containing either only informations on the segmentation, either the segmentation and the corresponding transcription;
+- an ensemble of corresponding images. They can be shared in the form of a simple permalink to ressources hosted somewhere else, or can be the contact information necessary to request access to the images. It must be possible to recompose the link between the XML files and the image without any intermediary process;
+- a documentation on the transcription practices followed for the segmentation and the transcription. In the cases of a Github repository, this documentation must be summarized in the README.
+
+A corpus can be sub-diveded into smaller ensembles if it seems necessary.
+
 
 ## Only data?
 
@@ -16,9 +26,9 @@ There are two cases:
 2. [You don't have one and prefer to help the organization directly](#you-dont-have-one)
     
 ### You already have data in a repository
-It's rather convinient: you stay in control, and there's no issue with joining the organization. However, if you want your dataset to gain visibility, it seems important to us that you describe here. In deed, if you take benefit from data or models provided on HTR-United, you may as well contribute!
+It's rather convinient: you stay in control, and there's no issue with joining the organization. However, if you want your dataset to gain visibility, it seems important to us that you describe it here. In deed, if you take benefit from data or models provided by HTR-United, you may as well contribute!
 
-To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a like formated as follows:
+To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a line formated as follows:
 
 ```yaml
         name: "Title"
