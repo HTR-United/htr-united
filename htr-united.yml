@@ -1,0 +1,30 @@
+name: htr-united
+description: 'HTR Ground Truth Resources'
+entries:
+    -
+        id: '00000001'
+        title : 'tapuscorpus'
+        url: 'https://github.com/HTR-United/tapuscorpus'
+        description: 'Ground Truth dataset for French typewritten OCR (20th century documents)'
+        language: French
+        time: 1900--1999
+        hands: 30
+        license:
+            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+        format: 'XML-Page'
+        volume:
+            - {count: "150", metric: data.metric}
+    -
+        id: '00000002'
+        title : 'timeuscorpus'
+        url: 'https://github.com/HTR-United/timeuscorpus'
+        description: 'Ground Truth datasets for French 18th and 19th administrative documents'
+        language: French
+        time: 1858--1858
+        hands: 1
+        license:
+            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+        format: 'XML-Page'
+        volume:
+            - {count: "159", metric: data.metric}
+        
