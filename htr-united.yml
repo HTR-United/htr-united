@@ -12,7 +12,7 @@ entries:
             - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
         format: 'XML-Page'
         volume:
-            - {count: "150", metric: Pages}
+            - {count: "150", metric: pages}
     -
         title : 'timeuscorpus'
         url: 'https://github.com/HTR-United/timeuscorpus'
@@ -24,5 +24,5 @@ entries:
             - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
         format: 'XML-Page'
         volume:
-            - {count: "159", metric: Pages}
+            - {count: "159", metric: pages}
         
