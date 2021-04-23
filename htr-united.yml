@@ -25,4 +25,16 @@ entries:
         format: 'XML-Page'
         volume:
             - {count: "159", metric: pages}
+     -
+        title: 'dahncorpus'
+        url: 'https://github.com/HTR-United/dahncorpus'
+        description: 'Ground Truth dataset for French 20th typewritten OCR'
+        language: French
+        time: 1914--1924
+        hands: 2
+        license:
+            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+        format: 'ALTO' or 'XML-Page'
+        volume:
+            - {count: "527", metric: pages}       
         
