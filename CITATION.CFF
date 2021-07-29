@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Chagué
+    given-names: Alix
+    orcid: https://orcid.org/0000-0002-0136-4434
+  - family-names: Clérice
+    given-names: Thibault
+    orcid: https://orcid.org/0000-0003-1852-9204
+  - family-names: Chiffoleau
+    given-names: Floriane
+title: "HTR United, a centralization effort of HTR and OCR ground-truth repositories for French languages"
