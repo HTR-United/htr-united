@@ -1,0 +1,31 @@
+title : 'OCR17plus'
+url: 'https://github.com/e-ditiones/OCR17plus'
+project-name: 'E-ditiones'
+project-website: 'https://e-ditiones.huma-num.fr/'
+authors:
+    - name: 'Gabay'
+      surname: 'Simon'
+      roles:
+      - 'transcriber'
+      - 'project-manager'
+      - 'support'
+    - name: 'Jahan'
+      surname: 'Claire'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+description: 'Imprimés classiques'
+language: 'frm'
+#other-languages:
+#    - "Optional"
+script: 'Latin'
+script-type: 'only-typed'
+time: 1600--1700
+hands: 
+    - count: '1'
+      precision: 'exact'
+license:
+    - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+format: 'Alto-XML'
+volume:
+    - {count: "500", metric: "pages"}
