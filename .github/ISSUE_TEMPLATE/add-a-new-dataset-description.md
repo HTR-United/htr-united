@@ -6,6 +6,13 @@ labels: project
 assignees: ''
 
 ---
+## Autonomy
+
+Check applicable situation:
+
+- [ ] I know how to make a Pull Request and will create the corresponding directory and files under "[htr-united/catalog/](https://github.com/HTR-United/htr-united/tree/master/catalog)"
+- [ ] I don't know how to do a Pull Request, I need assistance to add the description of my dataset under "[htr-united/catalog/](https://github.com/HTR-United/htr-united/tree/master/catalog)"
+
 
 ## Description of the dataset
 
@@ -25,13 +32,6 @@ assignees: ''
 ```
 [paste description here]
 ```
-
-### Autonomy
-
-Check applicable situation:
-
-- [ ] I know how to make a Pull Request and will create the corresponding directory and files under "[htr-united/catalog/](https://github.com/HTR-United/htr-united/tree/master/catalog)"
-- [ ] I don't know how to do a Pull Request, I need assistance to add the description of my dataset under "[htr-united/catalog/](https://github.com/HTR-United/htr-united/tree/master/catalog)"
 
 ---
 
