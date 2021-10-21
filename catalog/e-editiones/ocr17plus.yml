@@ -1,3 +1,4 @@
+schema: https://htr-united.github.io/2021-10-15/schema.json
 title : 'OCR17plus'
 url: 'https://github.com/e-ditiones/OCR17plus'
 project-name: 'E-ditiones'
@@ -15,17 +16,22 @@ authors:
       - 'transcriber'
       - 'aligner'
 description: 'Imprimés classiques'
-language: 'frm'
-#other-languages:
-#    - "Optional"
-script: 'Latin'
+language:
+    - 'frm'
+script: 
+    - 'Latn'
 script-type: 'only-typed'
-time: 1600--1700
+time: 
+    notBefore: "1600"
+    notAfter: "1700"
 hands: 
-    - count: '1'
-      precision: 'exact'
+    count: '1-per-folder'
+    precision: 'exact'
 license:
     - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
 format: 'Alto-XML'
 volume:
-    - {count: "500", metric: "pages"}
+    - {count: 25628, metric: "lines"}
+    - {count: 965, metric: "files"}
+    - {count: 3923, metric: "regions"}
+    - {count: 686335, metric: "characters"}
