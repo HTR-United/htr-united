@@ -48,6 +48,10 @@ format: 'Alto-XML'
 volume:
   - count: 169
     metric: "pages"
+  - count: 19022
+    metric: "lines"
+  - count: 641401
+    metric: "characters"
 transcription-guidelines: >
     Transcription diplomatique.
     Les accolades n'ont pas été segmentées.
