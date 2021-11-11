@@ -1,40 +1,326 @@
-name: htr-united
-description: 'HTR Ground Truth Resources'
-entries:
-    -
-        title : 'tapuscorpus'
-        url: 'https://github.com/HTR-United/tapuscorpus'
-        description: 'Ground Truth dataset for French typewritten OCR (20th century documents)'
-        language: French
-        time: 1900--1999
-        hands: 30
-        license:
-            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-        format: 'XML-Page'
-        volume:
-            - {count: "150", metric: pages}
-    -
-        title : 'timeuscorpus'
-        url: 'https://github.com/HTR-United/timeuscorpus'
-        description: 'Ground Truth datasets for French 18th and 19th administrative documents'
-        language: French
-        time: 1858--1858
-        hands: 1
-        license:
-            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-        format: 'XML-Page'
-        volume:
-            - {count: "159", metric: pages}
-     -
-        title: 'dahncorpus'
-        url: 'https://github.com/HTR-United/dahncorpus'
-        description: 'Ground Truth dataset for French 20th typewritten OCR'
-        language: French
-        time: 1914--1924
-        hands: 2
-        license:
-            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-        format: 'ALTO' or 'XML-Page'
-        volume:
-            - {count: "527", metric: pages}       
-        
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: GenAuto TD Corpus
+  url: https://github.com/jpmjpmjpm/genauto-td-htr.git
+  project-name: GenAuto
+  project-website: ''
+  authors:
+  - name: Boutet
+    surname: "Jean-Fran\xE7ois"
+    roles:
+    - transcriber
+    - aligner
+  - name: Merx
+    surname: Jean-Pierre
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+  description: "150 transcribed images from \"Tables D\xE9cennales\" French Civil\
+    \ Registry. Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1792'
+    notAfter: '1902'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 300
+    metric: pages
+  - count: 150
+    metric: images
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
+    \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
+  url: http://dx.doi.org/10.34847/nkl.acb724xs
+  project-name: 'Groupe annuaires et adresses - Consortium Huma-num Paris Time Machine
+
+    '
+  project-website: https://paris-timemachine.huma-num.fr/groupe-adresses-et-annuaires/
+  authors:
+  - name: Elgarrista
+    surname: Gabriela
+    roles:
+    - transcriber
+    - quality-control
+  - name: "M\xE9lanie-Becquet"
+    surname: "Fr\xE9d\xE9rique"
+    roles:
+    - project-manager
+    - quality-control
+  - name: Brando
+    surname: Carmen
+    roles:
+    - project-manager
+    - quality-control
+  description: "Annuaire des propri\xE9taires et des propri\xE9t\xE9s de Paris et\
+    \ du d\xE9partement de la Seine. Lien dans le catalogue de la BNF : https://catalogue.bnf.fr/ark:/12148/cb32697229h.\
+    \ Cr\xE9dits : Biblioth\xE8que nationale de France. Donn\xE9es v\xE9rit\xE9 de\
+    \ terrain r\xE9sultant de la transcription et la segmentation manuelle d\u2019\
+    un \xE9chantillon de 169 pages des annuaires appartenant aux volumes 1898 et 1923.\
+    \ Un mod\xE8le de transcription HTR+ a \xE9t\xE9 entrain\xE9 \xE0 partir de cet\
+    \ \xE9chantillon gr\xE2ce \xE0 Transkribus et est disponible sur cette plateforme\
+    \ en mode public. Ce mod\xE8le est valable pour transcrire automatiquement les\
+    \ volumes de 1903 et 1913 et tout autre document imprim\xE9 \xE0 deux colonnes\
+    \ et en utilisant l'alphabet latin et particuli\xE8rement en fran\xE7ais. Le choix\
+    \ de l'\xE9chantillon est fait par crit\xE8re alphab\xE9tique car c'est le mode\
+    \ d'organisation de l'information dans ce document. Les accolades pr\xE9sentes\
+    \ dans le document n'ont pas \xE9t\xE9 segment\xE9es. 118 pages pour entrainer\
+    \ et 51 pages pour validation.\nContexte et financement : Subvention DAHN (Dispositif\
+    \ de soutien \xE0 l'archivistique et aux humanit\xE9s num\xE9riques) par le MESRI.\
+    \ Equipes : Consortium Paris Time Machine - TGIR Humanum EHESS / CNRS / LATTICE\
+    \ / INRIA Contact si besoin d'anonymiser les noms de personnes : carmen.brando@ehess.fr.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1898'
+    notAfter: '1923'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: Etalab
+    url: https://fr.wikipedia.org/wiki/Etalab
+  format: Alto-XML
+  volume:
+  - count: 169
+    metric: pages
+  - count: 19022
+    metric: lines
+  - count: 641401
+    metric: characters
+  transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas \xE9\
+    t\xE9 segment\xE9es.\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: OCR17plus
+  url: https://github.com/e-ditiones/OCR17plus
+  project-name: E-ditiones
+  project-website: https://e-ditiones.huma-num.fr/
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - transcriber
+    - project-manager
+    - support
+  - name: Jahan
+    surname: Claire
+    roles:
+    - transcriber
+    - aligner
+  description: "Imprim\xE9s classiques"
+  language:
+  - frm
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1600'
+    notAfter: '1700'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 25628
+    metric: lines
+  - count: 965
+    metric: files
+  - count: 3923
+    metric: regions
+  - count: 686335
+    metric: characters
+- schema: https://htr-united.github.io/2021-10-15/schema.json
+  title: tapuscorpus
+  url: https://github.com/HTR-United/tapuscorpus.git
+  project-name: HTR-United
+  project-website: https://htr-united.github.io/
+  authors:
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - transcriber
+    - project-manager
+  description: Various French typewritten documents from the 20th century
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - count: 4115
+    metric: lines
+  - count: 150
+    metric: pages
+  - count: 126189
+    metric: characters
+- schema: https://htr-united.github.io/2021-10-15/schema.json
+  title: timeuscorpus
+  url: https://github.com/HTR-United/timeuscorpus
+  project-name: ANR TIME US
+  project-website: https://timeus.hypotheses.org/
+  authors:
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - transcriber
+    - aligner
+    - support
+  - name: Riondet
+    surname: Charles
+    roles:
+    - support
+  - name: Le Fourner
+    surname: Victoria
+    roles:
+    - transcriber
+  - name: Bey
+    surname: Laura
+    roles:
+    - transcriber
+  - name: Vanneau
+    surname: Laurie
+    roles:
+    - transcriber
+  - name: Skilbeck-Gaborit
+    surname: Eden
+    roles:
+    - transcriber
+  - name: Meissel
+    surname: Nina
+    roles:
+    - transcriber
+  - name: Genero
+    surname: Jean-Damien
+    roles:
+    - aligner
+  - name: Champougny
+    surname: Kevin
+    roles:
+    - transcriber
+  - name: Albert
+    surname: "Ana\xEFs"
+    roles:
+    - project-manager
+  - name: Martini
+    surname: Manuela
+    roles:
+    - project-manager
+  description: Ground-Truth for French 19th century pre-printed documents created
+    by administrative services.
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1858'
+    notAfter: '1858'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - count: 159
+    metric: pages
+- title: Cremma Medieval
+  url: https://github.com/HTR-United/cremma-medieval
+  description: The cremma-medieval repository was created in order to make available
+    transcription corpora for training HTR models for medieval manuscripts from the
+    12th to the 14th century.
+  language: Old French
+  script: Latin
+  time: 1200--1400
+  hands: 11
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: '18385'
+    metric: lines
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Early Modern Books
+  url: https://github.com/HTR-United/cremma-16-17-print
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - transcriber
+    - project-manager
+  description: Collection of book samples in early print forms, 16th to 17th century,
+    in Latin and pre-orthographic French.
+  language:
+  - frm
+  - lat
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1500'
+    notAfter: '1779'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 2603
+  - metric: characters
+    count: 83728
+  - metric: regions
+    count: 451
+  - metric: files
+    count: 98
+  sources:
+  - reference: Omnia Andreae Alciati v.c. emblemata cum commentariis
+    link: http://pid.emory.edu/ark:/25593/b70rv
+  - reference: "15.. \tHistoria de duobus amantibus Eurialo et Lucretia "
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k533863
+  - reference: "1520 \tEpigrammata clarissimi disertissimique viri Thomae Mori..."
+    link: https://doi.org/10.3931/e-rara-74397
+  - reference: "'1550 \tLa description de l'isle d'Utopie, o\xFA est comprins '\n"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k6566444g
+  - reference: "1779 \tZoologia Danica, seu, Animalium Daniae et Norvegiae "
+    link: https://archive.org/details/zoologiadanicase01mlle
+  - reference: '''L''Achileyde de Stace... traduction en vers, avec ...''
+
+      '
+    link: https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k3103841
+  - reference: "1681 \tVigili\xE6 Rhetorum, Et Somnia Poetarvm, Symbolic\xE8"
+    link: http://diglib.hab.de/drucke/qun-607-5/start.htm
+  - reference: "Aneau, Barth\xE9lemy: Picta Poesis - Lugduni : Pesnot, 1564"
+    link: http://diglib.hab.de/drucke/231-5-poet/start.htm
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
+  transcription-guidelines: Kept abbreviation and transcribed long s as long s
