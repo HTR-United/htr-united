@@ -19,15 +19,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install https://github.com/HTR-United/HTRUC/archive/refs/heads/main.zip
+        pip install htruc==0.0.1
     - name: Run HTRUC
       run: |
-        htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml
+        htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add htr-united.yml
+        git add htr-united.yml graph.png statistics.csv
         git commit -m "[Automatic] Update of the Catalog"
     - name: Push changes
       uses: ad-m/github-push-action@master
