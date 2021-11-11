@@ -6,7 +6,7 @@ name: HTRUC
 on: [push, pull_request]
 
 jobs:
-  test:
+  catalog:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -20,7 +20,7 @@ jobs:
         pip install https://github.com/HTR-United/HTRUC/archive/refs/heads/main.zip
     - name: Run HTRUC
       run: |
-        htruc make  ./catalog/**/*.y*ml --access_token ${{ secrets. GITHUB_TOKEN }} --graph_csv data.csv --statistics statistics.csv --output htr-united.yml
+        htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph_csv data.csv --statistics statistics.csv --output htr-united.yml
         cat data.csv
         cat statistics.csv
         cat catalog.yml
