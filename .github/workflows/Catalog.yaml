@@ -2,8 +2,10 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: HTRUC Catalog
-
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   catalog:
@@ -21,6 +23,14 @@ jobs:
     - name: Run HTRUC
       run: |
         htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml
-        cat data.csv
-        cat statistics.csv
-        cat htr-united.yml
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add htr-united.yml
+        git commit -m "[Automatic] Update of the Catalog
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
