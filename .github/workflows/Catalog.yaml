@@ -5,7 +5,7 @@ name: HTRUC Catalog
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   catalog:
