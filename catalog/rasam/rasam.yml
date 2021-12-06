@@ -31,7 +31,7 @@ description: >
 language:
   - ara
 script: 
-  - ara
+  - Arab
 script-type: 'only-manuscript'
 time: 
   notBefore: "1700"
