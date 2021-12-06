@@ -317,6 +317,42 @@
   - count: 159
     metric: pages
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: dahncorpus
+  url: https://github.com/HTR-United/dahncorpus
+  project-name: DAHN
+  project-website: https://digitalintellectuals.hypotheses.org/category/dahn
+  authors:
+  - surname: Floriane
+    name: Chiffoleau
+    roles:
+    - project-manager
+    - aligner
+  description: Ground Truth dataset for French 20th typewritten OCR
+  license:
+  - url: https://creativecommons.org/licenses/by/4.0/
+    name: CC-BY 4.0
+  format: Alto-XML
+  script:
+  - Latn
+  volume:
+  - count: 527
+    metric: pages
+  - count: 12482
+    metric: lines
+  - count: 546
+    metric: regions
+  - count: 472992
+    metric: characters
+  language:
+  - fra
+  time:
+    notBefore: '1914'
+    notAfter: '1924'
+  hands:
+    count: less-than-11
+    precision: exact
+  script-type: only-typed
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Cremma Medieval
   url: https://github.com/HTR-United/cremma-medieval
   description: 'The cremma-medieval repository was created in order to make available
@@ -510,3 +546,60 @@
     \ with \xA5. The lines containing printed text are associated with the type \"\
     printed\" and the signatures are associated with the type \"signature\". Thus\
     \ they can both be removed from the dataset if necessary. '\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: lectaurep-repertoires
+  url: https://github.com/HTR-United/lectaurep-repertoires
+  project-name: 'LECTAUREP''
+
+    '
+  project-website: https://lectaurep.hypotheses.org/
+  authors:
+  - name: Durand
+    surname: Marc
+    roles:
+    - transcriber
+    - aligner
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+  - name: Rostaing
+    surname: "Aur\xE9lia"
+    roles:
+    - project-manager
+    - quality-control
+  description: "Ground truth for various Parisian registries of notary deeds written\
+    \ in French during the 19th century. The information is organized following pre-preinted\
+    \ tables (with printed headers) and contain many names, addresses, numbers and\
+    \ abbreviations. \n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1907'
+    notAfter: '1908'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: regions
+    count: 327
+  - metric: pages
+    count: 35
+  - metric: lines
+    count: 7388
+  - metric: characters
+    count: 128679
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-repertoires/main/CITATION.cff
+  transcription-guidelines: 'See README in repository''
+
+    '
