@@ -316,22 +316,36 @@
   volume:
   - count: 159
     metric: pages
-- title: Cremma Medieval
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Cremma Medieval
   url: https://github.com/HTR-United/cremma-medieval
-  description: The cremma-medieval repository was created in order to make available
+  description: 'The cremma-medieval repository was created in order to make available
     transcription corpora for training HTR models for medieval manuscripts from the
     12th to the 14th century.
-  language: Old French
-  script: Latin
-  time: 1200--1400
-  hands: 11
+
+    '
+  language:
+  - fro
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1400'
+  hands:
+    count: 1-per-folder
+    precision: estimated
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: '18385'
+  - count: 18385
     metric: lines
+  - count: 1795
+    metric: regions
+  - count: 481735
+    metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Early Modern Books
   url: https://github.com/HTR-United/cremma-16-17-print
@@ -390,6 +404,54 @@
     link: http://diglib.hab.de/drucke/231-5-poet/start.htm
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: lectaurep-bronod
+  url: https://github.com/HTR-United/lectaurep-bronod
+  project-name: 'LECTAUREP''
+
+    '
+  project-website: https://lectaurep.hypotheses.org/
+  authors:
+  - name: Limon-Bonnet
+    surname: "Marie-Fran\xE7oise"
+    roles:
+    - transcriber
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - support
+  description: "Lectaurep-Bronod, ground truth for Maitre Bronod\u2019s documents\
+    \ (French XVIIIth century) \n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1742'
+    notAfter: '1745'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: pages
+    count: 100
+  - metric: lines
+    count: 3708
+  - metric: regions
+    count: 100
+  - metric: characters
+    count: 182895
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff?token=AH6GHJ34UV3JX2AP26UDYNDBT6R2U
+  transcription-guidelines: "Transcription fid\xE8le aux manuscrits : la casse et\
+    \ les abr\xE9viations sont respect\xE9es. Les portions de texte suscrites sont\
+    \ pr\xE9c\xE9d\xE9es d'un symbole ^. Pas de traitement particulier des \xE9ventuels\
+    \ s longs.'\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: lectaurep-mariages-et-divorces
   url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
