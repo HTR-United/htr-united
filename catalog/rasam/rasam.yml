@@ -31,13 +31,13 @@ description: >
 language:
   - ara
 script: 
-  - maghrebi arabic
+  - ara
 script-type: 'only-manuscript'
 time: 
   notBefore: "1700"
   notAfter: "1899"
 hands: 
-  count: 4
+  count: 'less-than-11'
   precision: 'exact'
 license:
   - {name: 'Apache-2.0 License', url: 'https://www.apache.org/licenses/LICENSE-2.0'}
