@@ -210,7 +210,7 @@
     metric: regions
   - count: 686335
     metric: characters
-- schema: https://htr-united.github.io/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: tapuscorpus
   url: https://github.com/HTR-United/tapuscorpus.git
   project-name: HTR-United
@@ -244,7 +244,7 @@
     metric: pages
   - count: 126189
     metric: characters
-- schema: https://htr-united.github.io/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: timeuscorpus
   url: https://github.com/HTR-United/timeuscorpus
   project-name: ANR TIME US
