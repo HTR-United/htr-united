@@ -1,5 +1,9 @@
+<img src="https://raw.githubusercontent.com/HTR-United/htr-united.github.io/master/assets/images/logo_htr-united.png" width=150 align=right>
+
 HTR-United
 =========
+
+![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
 
 ## What is HTR-United
 HTR-United is a Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
