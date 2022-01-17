@@ -1,14 +1,14 @@
 ,uri,title,start,end,metric,count,format,script-type
 0,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
 1,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
-2,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
-3,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
-4,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
-5,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
-6,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-7,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-8,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-9,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+2,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
+3,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+4,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+5,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+6,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+7,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
+8,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
+9,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
 10,HTR-United/tapuscorpus,tapuscorpus,1900,1999,lines,4115,Page-XML,only-typed
 11,HTR-United/tapuscorpus,tapuscorpus,1900,1999,pages,150,Page-XML,only-typed
 12,HTR-United/tapuscorpus,tapuscorpus,1900,1999,characters,126189,Page-XML,only-typed
