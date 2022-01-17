@@ -1,5 +1,9 @@
+<img src="https://raw.githubusercontent.com/HTR-United/htr-united.github.io/master/assets/images/logo_htr-united.png" width=150 align=right>
+
 HTR-United
 =========
+
+![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
 
 ## Qu'est-ce que HTR-United
 
