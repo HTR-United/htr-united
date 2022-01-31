@@ -57,3 +57,8 @@ Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-
 ### Vous n'en avez pas
 
 Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](https://github.com/HTR-United/htr-united/issues/new) et nous serons heureux de vous aider à créer et partager votre dépôt, sur HTR-United. Des compétences en `git` sont bienvenues mais, si vous voulez partager des données, on vous aidera, c'est le but de cette organisation !
+
+
+### Publications
+
+- Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
