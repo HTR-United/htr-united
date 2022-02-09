@@ -1,0 +1,54 @@
+schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+title: De la généalogie des dieux
+url: 'https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace'
+project-name: ENC - Bonnes pratiques du developpement collaboratif
+authors:
+    - name: 'Vlachou Efstathiou'
+      surname: 'Malamatenia'
+      roles:
+      - 'transcriber'
+      - 'project-manager'
+    - name: 'Leroy'
+      surname: 'Noé'
+      roles:
+      - 'transcriber'
+      - 'project-manager'
+    - name: 'Maulu'
+      surname: 'Marco'
+      roles:
+      - 'project-manager'
+      - 'quality-control'
+description: >
+  This repository hosts all the documents, including transcriptions, bibliographical 
+  references and introduction that serve the team Boccace for the validation of the course "Bonnes pratiques du developpement collaboratif : initiation à Git" 
+  (prof. Thibault Clérice), of the first semester - Master Humanités Numériques ENC-PSL 2021-2022. 
+  At the same time it and constitutes part of the biannual project "Per un’edizione digitale della Genealogia deorum gentilium" 
+  di Boccaccio" (dir. F. Duval, M. Maulu). Financed in 2021, this project foresees to put on line in XML format the unpublished 
+  translation in Middle French entitled "De la genealogie des dieux".
+language:
+  - frm
+  - lat
+script: 
+  - Latn
+script-type: 'only-typed'
+time: 
+  notBefore: "1472"
+  notAfter: "1498"
+hands: 
+  count: '1-per-folder'
+  precision: 'exact'
+license:
+  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+format: 'Alto-XML'
+volume:
+  - metric: 'pages'
+    count: 52
+sources:
+  - reference: 'Laurent Premierfait, Boccace (1498), "De la genealogie des dieux", Paris, A. Vérard.'
+    link: 'https://gallica.bnf.fr/ark:/12148/bpt6k105063r?rk=21459;2 '
+citation-file-link: 'https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff'
+transcription-guidelines: >
+    No development of abbreviations. Special characters are used for the graphemic transcription, compatible with the Unicode mufi qnd the special character table of cremma-medieval.  
+    No correction of orthography errors, BUT proper transcription of inversed letters (for Inc59) such as character "n" printed as "u" in several cases. 
+    Spaces were added freely for word separation according to dictionaries of middle French and Latin (latin forms verified on Collatinus). 
+    For more documentation regarding the transcription norms and guidelines head to the repository and the report file.''
