@@ -341,9 +341,11 @@
   - count: 686335
     metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: tapuscorpus
-  url: https://github.com/HTR-United/tapuscorpus.git
-  project-name: HTR-United
+  title: Tapus Corpus
+  url: https://github.com/HTR-United/lectaurep-repertoires
+  project-name: 'HTR-United
+
+    '
   project-website: https://htr-united.github.io/
   authors:
   - name: "Chagu\xE9"
@@ -351,7 +353,10 @@
     roles:
     - transcriber
     - project-manager
-  description: Various French typewritten documents from the 20th century
+  description: 'Ground truth based on a variety of French typewritten documents from
+    the 20th century. Contains exerpts plays, poems, letters and administrative reports.
+
+    '
   language:
   - fra
   script:
@@ -368,12 +373,20 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Page-XML
   volume:
-  - count: 4115
-    metric: lines
-  - count: 150
-    metric: pages
-  - count: 126189
-    metric: characters
+  - metric: pages
+    count: 150
+  - metric: lines
+    count: 4115
+  - metric: characters
+    count: 126189
+  sources:
+  - reference: "Chagu\xE9, A. (2021). Tapuscorpus (Version 1.0) [Computer software].\
+      \ https://doi.org/10.5072/zenodo.977649"
+    link: ''
+  citation-file-link: https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff
+  transcription-guidelines: 'See README in repository.
+
+    '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: timeuscorpus
   url: https://github.com/HTR-United/timeuscorpus
@@ -447,7 +460,7 @@
   - count: 159
     metric: pages
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: dahncorpus
+  title: DAHN Corpus
   url: https://github.com/HTR-United/dahncorpus
   project-name: DAHN
   project-website: https://digitalintellectuals.hypotheses.org/category/dahn
@@ -457,7 +470,7 @@
     roles:
     - project-manager
     - aligner
-  description: Ground Truth dataset for French 20th typewritten OCR
+  description: OCR ground Truth dataset based on French 20th typewritten letters
   license:
   - url: https://creativecommons.org/licenses/by/4.0/
     name: CC-BY 4.0
@@ -571,24 +584,25 @@
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: lectaurep-bronod
+  title: Notaire de Paris - Bronod
   url: https://github.com/HTR-United/lectaurep-bronod
-  project-name: 'LECTAUREP''
+  project-name: 'LECTAUREP
 
     '
   project-website: https://lectaurep.hypotheses.org/
   authors:
   - name: Limon-Bonnet
-    surname: "Marie-Fran\xE7oise"
+    surname: "Fran\xE7oise"
     roles:
     - transcriber
+    - aligner
     - quality-control
   - name: "Chagu\xE9"
     surname: Alix
     roles:
     - support
-  description: "Lectaurep-Bronod, ground truth for Maitre Bronod\u2019s documents\
-    \ (French XVIIIth century) \n"
+  description: "Ground truth for Ma\xEEtre Bronod\u2019s registers, notary in Paris\
+    \ during the 18th century.\n"
   language:
   - fra
   script:
@@ -606,22 +620,27 @@
   format: Page-XML
   volume:
   - metric: pages
-    count: 100
+    count: 200
+  - metric: files
+    count: 50
   - metric: lines
     count: 3708
-  - metric: regions
-    count: 100
   - metric: characters
     count: 182895
-  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff?token=AH6GHJ34UV3JX2AP26UDYNDBT6R2U
+  sources:
+  - reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre
+      Bronod\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software].
+      https://doi.org/10.5072/zenodo.977735
+    link: ''
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff
   transcription-guidelines: "Transcription fid\xE8le aux manuscrits : la casse et\
     \ les abr\xE9viations sont respect\xE9es. Les portions de texte suscrites sont\
-    \ pr\xE9c\xE9d\xE9es d'un symbole ^. Pas de traitement particulier des \xE9ventuels\
-    \ s longs.'\n"
+    \ pr\xE9c\xE9d\xE9es d'un symbole `^`. Pas de traitement particulier des \xE9\
+    ventuels s longs.'\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Notaires de Paris - Mariages et Divorces
   url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
-  project-name: 'LECTAUREP''
+  project-name: 'LECTAUREP
 
     '
   project-website: https://lectaurep.hypotheses.org/
@@ -682,11 +701,11 @@
     \ portions of text are signaled by `^` and many signatures are transcription with\
     \ \xA5. The lines containing printed text are associated with the type `printed`\
     \ and the signatures are associated with the type `signature`. Thus they can both\
-    \ be removed from the dataset if necessary.\n"
+    \ be removed from the dataset if necessary.'\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: lectaurep-repertoires
+  title: "Notaire de Paris - R\xE9pertoires"
   url: https://github.com/HTR-United/lectaurep-repertoires
-  project-name: 'LECTAUREP''
+  project-name: 'LECTAUREP
 
     '
   project-website: https://lectaurep.hypotheses.org/
@@ -706,6 +725,7 @@
   - name: Rostaing
     surname: "Aur\xE9lia"
     roles:
+    - transcriber
     - project-manager
     - quality-control
   description: "Ground truth for various Parisian registries of notary deeds written\
@@ -728,15 +748,22 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Page-XML
   volume:
+  - metric: pages
+    count: 35
   - metric: regions
     count: 327
-  - metric: pages
+  - metric: files
     count: 35
   - metric: lines
     count: 7388
   - metric: characters
     count: 128679
-  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-repertoires/main/CITATION.cff
-  transcription-guidelines: 'See README in repository''
+  sources:
+  - reference: "Rostaing, A., Durand, M., & Chagu\xE9, A. (2021). lectaurep-repertoires,\
+      \ ground truth for various Parisian registries of notary deeds (French 19th\
+      \ and 20th centuries) (Version 1.0.0) [Computer software]. https://doi.org/10.5072/zenodo.977691"
+    link: ''
+  citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
+  transcription-guidelines: 'See README in repository.
 
     '
