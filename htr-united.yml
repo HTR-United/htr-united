@@ -619,9 +619,9 @@
     \ pr\xE9c\xE9d\xE9es d'un symbole ^. Pas de traitement particulier des \xE9ventuels\
     \ s longs.'\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: lectaurep-mariages-et-divorces
+  title: Notaires de Paris - Mariages et Divorces
   url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
-  project-name: 'LECTAUREP
+  project-name: 'LECTAUREP''
 
     '
   project-website: https://lectaurep.hypotheses.org/
@@ -631,17 +631,18 @@
     roles:
     - transcriber
     - aligner
+  - name: Rostaing
+    surname: "Aur\xE9lia"
+    roles:
+    - project-manager
+    - quality-control
+    - support
   - name: "Chagu\xE9"
     surname: Alix
     roles:
     - project-manager
     - quality-control
     - support
-  - name: Rostaing
-    surname: "Aur\xE9lia"
-    roles:
-    - project-manager
-    - quality-control
   description: "Ground truth for the Registres des Contrats de Mariages et des S\xE9\
     parations et Divorces in Paris. The documents are written in Franch during the\
     \ 19th century, contain many names and addresses. The information is organized\
@@ -665,17 +666,23 @@
   volume:
   - metric: pages
     count: 105
-  - metric: characters
-    count: 325458
   - metric: lines
     count: 20305
-  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff?token=AH6GHJ3WMLOGBJ2XIH4QI6LBVXQQ6
+  - metric: characters
+    count: 325458
+  sources:
+  - reference: "Rostaing, A., Denis, N., & Chagu\xE9, A. (2021). Lectaurep-Mariages-et-Divorces:\
+      \ ground truth for the Enregistrements des Contrats de Mariages et des S\xE9\
+      parations et Divorces in Paris (French 19th century)  (Version 1.0) [Computer\
+      \ software]. https://doi.org/10.5072/zenodo.977697"
+    link: ''
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff
   transcription-guidelines: "The transcription respects what is written (abbreviations\
     \ are not developed, capitalization follows 19th century practices). Superscripted\
-    \ portions of text are signaled by \"^\" and many signatures are transcription\
-    \ with \xA5. The lines containing printed text are associated with the type \"\
-    printed\" and the signatures are associated with the type \"signature\". Thus\
-    \ they can both be removed from the dataset if necessary. '\n"
+    \ portions of text are signaled by `^` and many signatures are transcription with\
+    \ \xA5. The lines containing printed text are associated with the type `printed`\
+    \ and the signatures are associated with the type `signature`. Thus they can both\
+    \ be removed from the dataset if necessary.\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: lectaurep-repertoires
   url: https://github.com/HTR-United/lectaurep-repertoires
