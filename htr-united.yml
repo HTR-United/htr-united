@@ -388,7 +388,7 @@
 
     '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: timeuscorpus
+  title: TIMEUS Corpus
   url: https://github.com/HTR-United/timeuscorpus
   project-name: ANR TIME US
   project-website: https://timeus.hypotheses.org/
@@ -584,7 +584,7 @@
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Notaire de Paris - Bronod
+  title: Notaires de Paris - Bronod
   url: https://github.com/HTR-United/lectaurep-bronod
   project-name: 'LECTAUREP
 
@@ -703,7 +703,7 @@
     \ and the signatures are associated with the type `signature`. Thus they can both\
     \ be removed from the dataset if necessary.'\n"
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Notaire de Paris - R\xE9pertoires"
+  title: "Notaires de Paris - R\xE9pertoires"
   url: https://github.com/HTR-United/lectaurep-repertoires
   project-name: 'LECTAUREP
 
