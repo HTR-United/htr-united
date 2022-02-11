@@ -210,6 +210,64 @@
 
     '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: BiblIA
+  url: https://zenodo.org/record/5167263
+  project-name: 'Scripta PSL
+
+    '
+  project-website: https://escripta.hypotheses.org/
+  authors:
+  - name: "St\xF6kl Ben Ezra"
+    surname: Daniel
+    roles:
+    - transcriber
+    - project-manager
+  - name: Brown-DeVost
+    surname: Bronson
+  - name: Jablonski
+    surname: Pawel
+  - name: Kiessling
+    surname: Benjamin
+  - name: Lolli
+    surname: Elena
+  - name: Lapin
+    surname: Hayim
+  description: "This dataset for Handwritten Text Recognition includes layout segmentation\
+    \ (regions, toplines and linepolygons) and unicode-transcriptions in alto 4.2\
+    \ XML for 202 images of Medieval Hebrew manuscripts from the Biblioth\xE8que nationale\
+    \ de France (BnF, National Library of France) and the Biblioteca Apostolica Vaticana\
+    \ (BAV, Vatican Library) corresponding to the article \"BiblIA - a General Model\
+    \ for Medieval Hebrew Manuscripts and an Open Annotated Dataset\" by Daniel St\xF6\
+    kl Ben Ezra, Bronson Brown-DeVost, Pawel Jablonski, Benjamin Kiessling, Elena\
+    \ Lolli, and Hayim Lapin, published in HIP@ICDAR 2021 held in Lausanne, September\
+    \ 2021.\n"
+  language:
+  - heb
+  script:
+  - Hebr
+  script-type: only-manuscript
+  time:
+    notBefore: '1000'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 202
+  - metric: pages
+    count: 202
+  transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
+    \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
+    \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
+    \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
+    \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
+    \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
     \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
   url: http://dx.doi.org/10.34847/nkl.acb724xs
