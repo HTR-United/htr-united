@@ -101,6 +101,49 @@
 
     '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Shakespeare-Scott translations
+  url: https://github.com/millawell/ocr-data
+  project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
+    setting''
+
+    '
+  project-website: https://github.com/millawell/ocr-data
+  authors:
+  - name: Lassner
+    surname: David
+  - name: Coburger
+    surname: Julius
+  - name: Neudecker
+    surname: Clemens
+  - name: Baillot
+    surname: Anne
+  description: "Ground truth data in German and English of Shakespeare and Scott prints\
+    \ in original and different translations. \n"
+  language:
+  - eng
+  - deu
+  script:
+  - Latn
+  - Latf
+  script-type: only-typed
+  time:
+    notBefore: '1815'
+    notAfter: '1852'
+  hands:
+    count: unknown
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 5354
+  sources:
+  - reference: ''
+    link: https://zfdg.de/sb005_006
+  citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
   project-website: https://calfa.fr/blog/26
