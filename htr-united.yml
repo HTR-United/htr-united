@@ -685,6 +685,54 @@
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 18e
+  url: https://github.com/HTR-United/CREMMA-MSS-18
+  project-name: CREMMA
+  authors:
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - transcriber
+    - aligner
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 18th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1700'
+    notAfter: '1799'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 4395
+  - metric: files
+    count: 7
+  - metric: lines
+    count: 152
+  - metric: regions
+    count: 19
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Notaires de Paris - Bronod
   url: https://github.com/HTR-United/lectaurep-bronod
   project-name: 'LECTAUREP
@@ -868,3 +916,35 @@
   transcription-guidelines: 'See README in repository.
 
     '
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Repository\u2019s Title"
+  url: Link to your data repository
+  project-name: 'Your project name
+
+    '
+  project-website: Link to your project
+  authors:
+  - name: Author Name
+    surname: Author Firstname
+    roles:
+    - transcriber
+  description: "Description \n"
+  language:
+  - eng
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1300'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 10
