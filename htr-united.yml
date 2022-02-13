@@ -320,8 +320,8 @@
     count: less-than-11
     precision: estimated
   license:
-  - name: Etalab
-    url: https://fr.wikipedia.org/wiki/Etalab
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
   format: Alto-XML
   volume:
   - count: 169
@@ -685,6 +685,135 @@
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "CREMMA Manuscrits m\xE9di\xE9vaux latins"
+  url: https://github.com/HTR-United/CREMMA-Medieval-LAT
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Middle Ages'' manuscripts in Latin.
+
+    '
+  language:
+  - lat
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1000'
+    notAfter: '1450'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 15e
+  url: https://github.com/HTR-United/CREMMA-MSS-15
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 15th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1400'
+    notAfter: '1499'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 17e
+  url: https://github.com/HTR-United/CREMMA-MSS-17
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 17th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1600'
+    notAfter: '1699'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 18e
   url: https://github.com/HTR-United/CREMMA-MSS-18
   project-name: CREMMA
@@ -724,13 +853,99 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 4395
+    count: 6715
   - metric: files
-    count: 7
+    count: 11
   - metric: lines
-    count: 152
+    count: 237
   - metric: regions
-    count: 19
+    count: 29
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 19e
+  url: https://github.com/HTR-United/CREMMA-MSS-19
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 19th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1800'
+    notAfter: '1899'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 20e
+  url: https://github.com/HTR-United/CREMMA-MSS-20
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 20th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Notaires de Paris - Bronod
