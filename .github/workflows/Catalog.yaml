@@ -29,9 +29,5 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add htr-united.yml graph.png statistics.csv catalog.json
-        git commit -m "[Automatic] Update of the Catalog"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        git commit -m "[Automatic] Update of the Catalog" || echo "Nothing to commit"
+        git push
