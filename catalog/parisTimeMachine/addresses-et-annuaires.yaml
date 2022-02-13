@@ -43,7 +43,8 @@ hands:
   count: 'less-than-11'
   precision: 'estimated'
 license:
-  - {name: 'Etalab', url: 'https://fr.wikipedia.org/wiki/Etalab'}
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
 format: 'Alto-XML'
 volume:
   - count: 169
