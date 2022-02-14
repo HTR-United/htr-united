@@ -7,10 +7,11 @@ on:
     branches:
       - master
   workflow_dispatch: #Allows for manual triggering
-
 jobs:
   catalog:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
@@ -31,3 +32,7 @@ jobs:
         git add htr-united.yml graph.png statistics.csv catalog.json
         git commit -m "[Automatic] Update of the Catalog" || echo "Nothing to commit"
         git push
+    - uses: rymndhng/release-on-push-action@master
+      with:
+        bump_version_scheme: minor
+        use_github_release_notes: true
