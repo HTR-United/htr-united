@@ -1,0 +1,65 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Projet Notre-Dame
+url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+  '
+authors:
+- name: Doat
+  surname: Soline
+  roles:
+  - transcriber
+- name: Menu
+  surname: Ariane
+  roles:
+  - transcriber
+- name: Falcoz
+  surname: Elsa
+  roles:
+  - transcriber
+- name: Faure
+  surname: Margaux
+  roles:
+  - transcriber
+- name: "Mazou\xE9"
+  surname: "Ana\xEFs"
+  roles:
+  - transcriber
+description: "Le Projet Notre-Dame consiste en une transcription des journaux quotidiens\
+  \ de l\u2019ann\xE9e 1860 (https://mediatheque-patrimoine.culture.gouv.fr/sites/mediatheque/files/jnd_1860.pdf)\
+  \ des travaux de restauration effectu\xE9s de 1844 \xE0 1865 \xE0 la cath\xE9drale\
+  \ Notre-Dame de Paris sous la direction d'Eug\xE8ne Viollet-le-Duc et Jean-Baptiste\
+  \ Lassus. Celle-ci a \xE9t\xE9 effectu\xE9e sur eScriptorium \xE0 partir de la num\xE9\
+  risation des journaux des travaux (https://mediatheque-patrimoine.culture.gouv.fr/travaux-de-notre-dame-de-paris-1844-1865)\
+  \ r\xE9alis\xE9e par la M\xE9diath\xE8que de l'architecture et du patrimoine. \n"
+language:
+- fra
+script:
+- Latn
+script-type: only-manuscript
+time:
+  notBefore: '1860'
+  notAfter: '1860'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame/main/CITATION.cff
+transcription-guidelines: "- respect des majuscules et minuscules - respect des ligatures\
+  \ (par exemple, transcrire \"ch\u0153ur\") - mot qui est barr\xE9 : \u96BE (une\
+  \ seule fois par mot) mais seulement s'ils sont totalement/\xE0 moiti\xE9 illisibles.\
+  \ Les restranscrire entre accolades {} s'ils sont lisibles.  - Pour mettre en exergue\
+  \ les doutes de transcription : \n    - mot incertain: [incertain]\n    - mot que\
+  \ l'on ne parvient pas \xE0 transcrire : [??]\n"
+volume:
+- metric: characters
+  count: 29286
+- metric: files
+  count: 12
+- metric: lines
+  count: 735
+- metric: regions
+  count: 86
