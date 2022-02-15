@@ -21,18 +21,18 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install htruc==0.0.1
+        pip install htruc==0.0.4"
     - name: Run HTRUC
       run: |
-        htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json
+        htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add htr-united.yml graph.png statistics.csv catalog.json
         git commit -m "[Automatic] Update of the Catalog" || echo "Nothing to commit"
-        git push
+        git push || echo "Nothing to push"
     - uses: rymndhng/release-on-push-action@master
       with:
-        bump_version_scheme: minor
+        bump_version_scheme: patch
         use_github_release_notes: true
