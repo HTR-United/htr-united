@@ -1,0 +1,49 @@
+schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+title: Memorials for Jane Lathrop Stanford
+url: 'https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford'
+project-name: >
+    ENC - Bonnes pratiques du developpement collaboratif
+authors:
+    - name: 'Guimarães'
+      surname: 'Ingrid'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+    - name: 'Maurel'
+      surname: 'Perrine'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+    - name: 'Ozturk'
+      surname: 'Yagmur'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+description: >
+  Les données sources ont été téléversées sur le site From the page par les Archives de l’Université Stanford qui en sont les propriétaires. Elles ont ensuite été retranscrites par des bénévoles anonymes ; c’est leur travail nous a servi de base pour corriger nos propres retranscriptions. Les documents sources choisies sont des lettres de différents auteurs portant sur les obsèques de Jane Lathrop Stanford.  Les lettres sélectionnées étaient les lettres : 42, 43, 46, 49, 50, 54, 57 à 60, 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80 à 93 [section 2, retranscrites par Ingrid GUIMARÃES] ; 241 à 242  [section 3, retranscrites par Yagmur OZTURK].
+language:
+  - eng
+script: 
+  - Latn
+script-type: 'evenly-mixed'
+time: 
+  notBefore: "1905"
+  notAfter: "1905"
+hands: 
+  count: '1-per-file'
+  precision: 'estimated'
+license:
+  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+format: 'Alto-XML'
+citation-file-link: 'https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF'
+transcription-guidelines: >
+    Notre retranscription en elle-même a cherché à retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les erreurs éventuelles intrinsèques au document. Il convient toutefois de noter que dans certains cas, les documents présentaient des mentions imprécises qui n’avaient pas été prises en compte par les retranscriptions originelles, ou alors qui avaient été soulignées comme étant une retranscription incertaine. Nous avons alors fait le choix d’être plus exhaustif que la retranscription originelle si possible, et nous avons parfois fait des choix de retranscription différents sur la base de notre ressenti visuel lors du travail. En raison de ces choix, la taille d’une page s’est donc parfois avérée rallongée par rapport à l’estimation première.'
+volume:
+    - count: 770
+      metric: "lines"
+    - count: 41
+      metric: "files"
+    - count: 44
+      metric: "regions"
+    - count: 17863
+      metric: "characters"
