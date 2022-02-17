@@ -1,0 +1,60 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Projet Exposition universelle de 1878
+url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
+
+  '
+authors:
+- name: Christensen
+  surname: Kelly
+  roles:
+  - transcriber
+- name: Davoury
+  surname: Baudoin
+  roles:
+  - transcriber
+- name: Anahi
+  surname: Haedo
+  roles:
+  - transcriber
+- name: Kervegan
+  surname: Paul
+  roles:
+  - transcriber
+- name: Sanchez-Oeconomo
+  surname: Esteban
+  roles:
+  - transcriber
+description: "Le Congr\xE8s international des sciences ethnographiques de 1878 a eu\
+  \ lieu \xE0 l\u2019occasion de l'Exposition universelle de 1878, \xE0 Paris. \xC9\
+  dit\xE9 en 1881 par l'Imprimerie nationale, le compte rendu de ce congr\xE8s a \xE9\
+  t\xE9 mis \xE0 disposition par le Conservatoire num\xE9rique des Arts et M\xE9tiers.\n"
+language:
+- fra
+script:
+- Latn
+- Grek
+- Deva
+- Arab
+script-type: only-typed
+time:
+  notBefore: '1881'
+  notAfter: '1881'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles/main/CITATION.cff
+transcription-guidelines: "Diplomatique, mais pas allograph\xE9tique."
+volume:
+- metric: characters
+  count: 155022
+- metric: files
+  count: 56
+- metric: lines
+  count: 2620
+- metric: regions
+  count: 158
