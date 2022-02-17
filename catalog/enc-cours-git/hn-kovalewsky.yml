@@ -1,41 +1,49 @@
-schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
-title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien"
-url: 'https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893'
-project-name: >
-    ENC - Bonnes pratiques du developpement collaboratif
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier\
+  \ oss\xE9tien"
+url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+  '
 authors:
-    - name: 'L’Eveque'
-      surname: 'Zoé'
-      roles:
-      - 'transcriber'
-    - name: 'Ekaterina'
-      surname: 'Kate'
-      roles:
-      - 'transcriber'
-    - name: 'Kasparian'
-      surname: 'Anahide'
-      roles:
-      - 'transcriber'
-description: >
-  Nous avons choisi de transcrire le deuxième chapitre de l’ouvrage de Maxime Kovalewsky : 
-  Coutume contemporaine et loi ancienne : droit coutumier ossétien, éclairé par l’histoire comparée. Paris, L. Larose, 1893. 
+- name: "L\u2019Eveque"
+  surname: "Zo\xE9"
+  roles:
+  - transcriber
+- name: Ekaterina
+  surname: Kate
+  roles:
+  - transcriber
+- name: Kasparian
+  surname: Anahide
+  roles:
+  - transcriber
+description: "Nous avons choisi de transcrire le deuxi\xE8me chapitre de l\u2019ouvrage\
+  \ de Maxime Kovalewsky :  Coutume contemporaine et loi ancienne : droit coutumier\
+  \ oss\xE9tien, \xE9clair\xE9 par l\u2019histoire compar\xE9e. Paris, L. Larose,\
+  \ 1893. \n"
 language:
-  - fra
-script: 
-  - Latn
-script-type: 'only-typed'
-time: 
-  notBefore: "1893"
-  notAfter: "1893"
-hands: 
+- fra
+script:
+- Latn
+script-type: only-typed
+time:
+  notBefore: '1893'
+  notAfter: '1893'
+hands:
   count: '1'
-  precision: 'exact'
+  precision: exact
 license:
-  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: 'Alto-XML'
-citation-file-link: 'https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF'
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF
 volume:
-    - {count: 983, metric: "lines"}
-    - {count: 28, metric: "files"}
-    - {count: 72, metric: "regions"}
-    - {count: 45626, metric: "characters"}
+- metric: characters
+  count: 45626
+- metric: files
+  count: 28
+- metric: lines
+  count: 983
+- metric: regions
+  count: 72

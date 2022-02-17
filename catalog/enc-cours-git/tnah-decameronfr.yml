@@ -44,9 +44,7 @@ license:
   url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
-transcription-guidelines: 'Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
-
-  '
+transcription-guidelines: 'Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md'
 volume:
 - metric: characters
   count: 19821
