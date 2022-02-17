@@ -1,0 +1,75 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Argus des Brevets
+url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif'
+authors:
+- name: De Craene
+  surname: Valentin
+  roles:
+  - transcriber
+- name: Humeau
+  surname: Maxime
+  roles:
+  - transcriber
+- name: Reignier
+  surname: Virgile
+  roles:
+  - transcriber
+description: "L\u2019argus des brevets de 1910 se pr\xE9sente sous la forme d\u2019\
+  un imprim\xE9 contemporain, organis\xE9 en rubriques regroupant de mani\xE8re chronologique\
+  \ puis th\xE9matique les brevets d\xE9pos\xE9s en France. Cette \xE9num\xE9ration\
+  \ et pr\xE9sentation succincte des brevets est r\xE9partie en deux colonnes et pr\xE9\
+  sente des abr\xE9viations normalis\xE9es. D\xE8s lors, ce pr\xE9sent guide de contribution\
+  \ au projet entend pr\xE9senter l\u2019ensemble des normes de transcriptions adopt\xE9\
+  es au cours de ce projet de transcription, r\xE9alis\xE9 sur la plateforme E-scriptorium,\
+  \ dans le cadre du cours Git du master TNAH \xE0 l\u2019ENC.\n"
+language:
+- fra
+script:
+- Latn
+script-type: only-typed
+time:
+  notBefore: '1910'
+  notAfter: '1910'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets/main/CITATION.cff
+transcription-guidelines: "En premier lieu, nous avons d\xE9cid\xE9 de fonder notre\
+  \ transcription sur les recommandations publi\xE9es dans l\u2019ouvrage *L\u2019\
+  \xE9dition critique des textes contemporains, XIXe-XXIe si\xE8cle*, par Christine\
+  \ Nougaret, Elisabeth Parinet et Florence Clavaud. N\xE9anmoins, certaines adaptations\
+  \ ont \xE9t\xE9 n\xE9cessaires afin de fournir un jeu de donn\xE9es issue de la\
+  \ transcription, qui soit \xE0 la fois proche du document source et exploitable\
+  \ par la suite. Ainsi, concernant les abr\xE9viations, nous avons d\xE9cid\xE9 de\
+  \ conserver la graphie originale au sein de la transcription. Ce choix fut guid\xE9\
+  \ par deux \xE9l\xE9ments : d\u2019une part, la volont\xE9 de conserver une graphie\
+  \ int\xE8gre, afin de fournir aux chercheurs s\u2019int\xE9ressant \xE0 ce sujet\
+  \ un texte facilement exploitable de mani\xE8re automatique, comme par exemple une\
+  \ analyse quantitative des types de soci\xE9t\xE9s (anonymes, familiales,\u2026\
+  ) d\xE9posant des brevets. Cette d\xE9cision fut motiv\xE9e par la facilit\xE9 de\
+  \ r\xE9solution et compr\xE9hension des abr\xE9viations par le lecteur. D'autre\
+  \ part, il nous semble que cette approche permettrait une r\xE9utilisation g\xE9\
+  n\xE9rales des donn\xE9es, telle qu'un processus d'apprentissage machine.\nNous\
+  \ avons \xE9t\xE9 amen\xE9 \xE0 r\xE9aliser certains choix relevant de la transcription\
+  \ et de l\u2019\xE9dition du document. Pour ce faire, nous nous sommes r\xE9f\xE9\
+  r\xE9 au *Lexique typographique en usage \xE0 l\u2019Imprimerie nationale* : - les\
+  \ tirets en fin de ligne faisant la c\xE9sure au sein des mots ont \xE9t\xE9 r\xE9\
+  tablis (ex : direc-tion). - les num\xE9ros de page en haut de page ont \xE9t\xE9\
+  \ transcris ainsi : \xAB _ N _ \xBB o\xF9 N correspond au num\xE9ro de page. - en\
+  \ cas de caract\xE8res mal imprim\xE9s ou us\xE9s, ceux-ci ont \xE9t\xE9 r\xE9tablis\
+  \ dans la mesure o\xF9 ils sont facilement interpr\xE9tables (mais non devinables)\
+  \ par le lecteur. \n"
+volume:
+- metric: characters
+  count: 55156
+- metric: files
+  count: 17
+- metric: lines
+  count: 1962
+- metric: regions
+  count: 86

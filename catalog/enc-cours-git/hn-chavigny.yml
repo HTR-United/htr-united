@@ -1,0 +1,59 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Chateau de Chavigny
+url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
+project-name: ENC - Bonnes pratiques du developpement collaboratif
+authors:
+- name: Pascual
+  surname: Margot
+  roles:
+  - transcriber
+- name: "Franchet d\\u0027Esp\xE8rey"
+  surname: Louis-Fiacre
+  roles:
+  - transcriber
+  - digitization
+- name: Gabay
+  surname: Simon
+  roles:
+  - quality-control
+description: "Le document sur lequel nous travaillons porte sur le Ch\xE2teau de Chavigny\
+  \ \xE0 Lern\xE9 en Touraine. Au XVI\xE8me si\xE8cle, c\u2019est la famille des seigneurs\
+  \ Leroy qui poss\xE8de ce ch\xE2teau. Avant 1568, en pleine guerre de religion,\
+  \ Fran\xE7ois Leroy, du parti du roi et des catholiques, participe \xE0 la capture\
+  \ et la ran\xE7on du prince de Cond\xE9, du parti protestant. En 1568, Fran\xE7\
+  ois Leroy, en tant que capitaine de 50 lances au service du roi, part en campagne\
+  \ avec lui.  L'objectif est de transcrire cinq feuillets d'un manuscrit \xE0 l'aide\
+  \ d'eScriptorium. Le but \xE9tant d'apprendre \xE0 utiliser git et github pour mener\
+  \ \xE0 bien notre premier projet collaboratif.\n"
+language:
+- frm
+script:
+- Latn
+script-type: only-manuscript
+time:
+  notBefore: '1568'
+  notAfter: '1599'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN-2021-ChateauChavigny/main/CITATION.cff
+transcription-guidelines: "- Gestion des abbr\xE9viations: \n    - Si d\xE9veloppement\
+  \ (pas toujours), les d\xE9velopper entre crochets.\n    - L'orthographe originale\
+  \ et les abr\xE9viations doivent \xEAtre conserv\xE9es.\n- Gestion des \xE9checs\
+  \ de transcription de caract\xE8re : lorsqu'un qu'un caract\xE8re nous para\xEE\
+  t non sur, nous pr\xE9f\xE9rons mettre un [?] pour indiquer qu'il y a un caract\xE8\
+  re non transcrit dans un mot. Pour plusieurs caract\xE8res, faire autant de ? que\
+  \ de caract\xE8re non reconnu : tel [???] pour 3 caract\xE8res.\n"
+volume:
+- metric: characters
+  count: 9126
+- metric: files
+  count: 6
+- metric: lines
+  count: 253
+- metric: regions
+  count: 22

@@ -1,0 +1,68 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Memorials for Jane Lathrop Stanford
+url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+  '
+authors:
+- name: "Guimar\xE3es"
+  surname: Ingrid
+  roles:
+  - transcriber
+  - aligner
+- name: Maurel
+  surname: Perrine
+  roles:
+  - transcriber
+  - aligner
+- name: Ozturk
+  surname: Yagmur
+  roles:
+  - transcriber
+  - aligner
+description: "Les donn\xE9es sources ont \xE9t\xE9 t\xE9l\xE9vers\xE9es sur le site\
+  \ From the page par les Archives de l\u2019Universit\xE9 Stanford qui en sont les\
+  \ propri\xE9taires. Elles ont ensuite \xE9t\xE9 retranscrites par des b\xE9n\xE9\
+  voles anonymes ; c\u2019est leur travail nous a servi de base pour corriger nos\
+  \ propres retranscriptions. Les documents sources choisies sont des lettres de diff\xE9\
+  rents auteurs portant sur les obs\xE8ques de Jane Lathrop Stanford.  Les lettres\
+  \ s\xE9lectionn\xE9es \xE9taient les lettres : 42, 43, 46, 49, 50, 54, 57 \xE0 60,\
+  \ 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80 \xE0 93 [section\
+  \ 2, retranscrites par Ingrid GUIMAR\xC3ES] ; 241 \xE0 242  [section 3, retranscrites\
+  \ par Yagmur OZTURK].\n"
+language:
+- eng
+script:
+- Latn
+script-type: evenly-mixed
+time:
+  notBefore: '1905'
+  notAfter: '1905'
+hands:
+  count: 1-per-file
+  precision: estimated
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
+transcription-guidelines: "Notre retranscription en elle-m\xEAme a cherch\xE9 \xE0\
+  \ retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les\
+  \ erreurs \xE9ventuelles intrins\xE8ques au document. Il convient toutefois de noter\
+  \ que dans certains cas, les documents pr\xE9sentaient des mentions impr\xE9cises\
+  \ qui n\u2019avaient pas \xE9t\xE9 prises en compte par les retranscriptions originelles,\
+  \ ou alors qui avaient \xE9t\xE9 soulign\xE9es comme \xE9tant une retranscription\
+  \ incertaine. Nous avons alors fait le choix d\u2019\xEAtre plus exhaustif que la\
+  \ retranscription originelle si possible, et nous avons parfois fait des choix de\
+  \ retranscription diff\xE9rents sur la base de notre ressenti visuel lors du travail.\
+  \ En raison de ces choix, la taille d\u2019une page s\u2019est donc parfois av\xE9\
+  r\xE9e rallong\xE9e par rapport \xE0 l\u2019estimation premi\xE8re.'\n"
+volume:
+- metric: characters
+  count: 18063
+- metric: files
+  count: 41
+- metric: lines
+  count: 770
+- metric: regions
+  count: 51

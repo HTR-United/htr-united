@@ -1,0 +1,64 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: OCR Corse
+url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
+project-name: ENC - Bonnes pratiques du developpement collaboratif
+authors:
+- name: Sarbach-Pulicani
+  surname: Vincent
+  roles:
+  - transcriber
+  - project-manager
+- name: "Sa\xEFag"
+  surname: Violette
+- name: Escoda
+  surname: Adrien
+  roles:
+  - transcriber
+- name: Miaille
+  surname: "Th\xE9ophile"
+  roles:
+  - transcriber
+  - project-manager
+description: "Le premier ouvrage s\u2019intitule *Ponten\xF4vu* a \xE9t\xE9 \xE9crit\
+  \ par Petru Rocca et publi\xE9 par la \"Stamparia di a Muvra\" en 1927. Il s'agit\
+  \ d'un recueil de po\xE8mes en corse et en fran\xE7ais dont les th\xE8mes varient.\
+  \ *A Muvra* est un journal autonomiste corse d'influence maurassienne qui a exist\xE9\
+  \ pendant toute la p\xE9riode de l'entre-deux-guerres. Se revendiquant comme \xE9\
+  tant une revue culturelle, la dimension politique de la revue (incarn\xE9e par le\
+  \ PCA, ou Partitu corsu d'azione), en a fait un mouvement controvers\xE9. C'est\
+  \ dans ce contexte de lutte politique et d'\xE9veil culturel corse que s'inscrit\
+  \ ce recueil.\nLe second ouvrage s'intitule *A nostra Santa Fede - Catechismu Corsu*,\
+  \ \xE9crit par Ageniu Grimaldi en 1926 sous le pseudonyme de Saveriu Malaspina.\
+  \ Proche de Petru Rocca, ce-dernier est l'un des th\xE9oriciens de l'autonomisme\
+  \ corse de l'entre-deux-guerres et fid\xE8le muvriste. Dans l'ouvrage, il est fait\
+  \ mention notamment de la fa\xE7on dont un vrai corse doit se comproter vis-\xE0\
+  -vis de sa foi envers Dieu et son \xEEle. Bien qu'il ne s'agisse pas r\xE9ellement\
+  \ d'un recueil de po\xE8mes, le style d'\xE9criture de cet ouvrage est particuli\xE8\
+  rement int\xE9ressant. Il reprend un style qui se rapproche des \xE9crits bibliques.\n"
+language:
+- cos
+- fra
+script:
+- Latn
+script-type: only-typed
+time:
+  notBefore: '1926'
+  notAfter: '1927'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
+transcription-guidelines: ''
+volume:
+- metric: characters
+  count: 40957
+- metric: files
+  count: 47
+- metric: lines
+  count: 1664
+- metric: regions
+  count: 146

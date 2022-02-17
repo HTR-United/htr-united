@@ -1,0 +1,67 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: Projet Correspondance Berlioz
+url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
+
+  '
+authors:
+- name: "C\xE9ard"
+  surname: Lien
+  roles:
+  - transcriber
+- name: Sajdak
+  surname: "C\xE9cile"
+  roles:
+  - transcriber
+- name: Lebreton
+  surname: Fanny
+  roles:
+  - transcriber
+description: "Nous avons choisi de travailler sur la correspondance active de Hector\
+  \ Berlioz adress\xE9e \xE0 sa s\u0153ur Anne-Marguerite \"Nanci\" Berlioz. L\u2019\
+  ensemble des lettres adress\xE9es \xE0 Nanci Berlioz repr\xE9sentait un volume trop\
+  \ important pour notre projet, aussi nous les avons s\xE9lectionn\xE9es, par souci\
+  \ de coh\xE9rence, selon un ordre chronologique (voir le tableau de gestion) pour\
+  \ la liste exacte des lettres transcrites).\n"
+language:
+- fra
+script:
+- Latn
+script-type: only-manuscript
+time:
+  notBefore: '1823'
+  notAfter: '1844'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz/main/CITATION.cff
+transcription-guidelines: "**Orthographe :** - Aucune modification op\xE9r\xE9e sur\
+  \ l'orthographe, m\xEAme en pr\xE9sence de fautes. - L'orthographe ancienne est\
+  \ laiss\xE9e telle quelle.  - Aucune restitution des accents manquants. Aucune correction\
+  \ des accents fautifs. Restitution de la bonne graphie de l'accent, lorsque nous\
+  \ consid\xE9rons qu'il y a une variation de la graphie de celui-ci \xE0 cause de\
+  \ la rapidit\xE9 d'\xE9criture.    - Aucune restitution des traits d'union manquants.\
+  \ - S\xE9paration des mots coll\xE9s d\xE8s lors que la ligature entre ces mots\
+  \ semble due \xE0 la rapidit\xE9 de l'\xE9criture.\n**Abr\xE9viations :** - Aucune\
+  \ r\xE9solution d'abr\xE9viation. - Utilisation du symbole mon\xE9taire de la livre\
+  \ tournois \u2192 **\u20B6** (Unicode U+20B6).\n**Mots en exposant :** - Restitution\
+  \ seulement du mot sans le mettre en exposant.\n**Majuscules et minuscules :** -\
+  \  Aucune restitution des majuscules, m\xEAme lorsqu'elles sont absentes en d\xE9\
+  but de phrase ou de nom propre.\n**Ponctuation :** - Aucune restitution de la ponctuation\
+  \ manquante. Aucune correction de la ponctuation fautive.  - Emploi du tiret cadratin\
+  \ (\u2014, unicode U+2014) de part et d'autre d'une incise.  - Emploi du tiret demi-cadratin\
+  \ (\u2013, unicode U+2013) pour marquer le changement d\u2019interlocuteur dans\
+  \ les dialogues et devant les \xE9l\xE9ments des listes/ \xE9num\xE9rations.\n"
+volume:
+- metric: characters
+  count: 13474
+- metric: files
+  count: 16
+- metric: lines
+  count: 367
+- metric: regions
+  count: 64

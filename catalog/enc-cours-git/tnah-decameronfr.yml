@@ -1,0 +1,56 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: DecameronFR
+url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
+project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+  '
+authors:
+- name: Biay
+  surname: "S\xE9bastien"
+  roles:
+  - transcriber
+- name: Cappe
+  surname: "Zo\xE9"
+  roles:
+  - transcriber
+- name: Konstantinova
+  surname: Kristina
+  roles:
+  - transcriber
+- name: Boby
+  surname: Victor
+  roles:
+  - transcriber
+  - aligner
+description: "Le projet vise \xE0 la consitution de v\xE9rit\xE9s de terrain pour\
+  \ l\u2019entra\xEEnement de mod\xE8les HTR \xE0 partir d'un manuscrit fran\xE7ais\
+  \ des ann\xE9es 1430-1455 : le manuscrit 5070 de la Biblioth\xE8que de l'Arsenal\
+  \ (reproduit sur Gallica). Ce manuscrit contient la traduction fran\xE7aise du Decameron\
+  \ de Boccace par Laurent de Premierfait. Nos v\xE9rit\xE9s de terrain recouvrent\
+  \ la description de la peste \xE0 Florence situ\xE9e dans le prologue de l'ouvrage.\n"
+language:
+- frm
+script:
+- Latn
+script-type: only-manuscript
+time:
+  notBefore: '1430'
+  notAfter: '1455'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
+transcription-guidelines: 'Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md'
+volume:
+- metric: characters
+  count: 19821
+- metric: files
+  count: 9
+- metric: lines
+  count: 751
+- metric: regions
+  count: 41
