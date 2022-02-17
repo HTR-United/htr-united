@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install htruc==0.0.4"
+        pip install "htruc==0.0.4"
     - name: Run HTRUC
       run: |
         htruc make  ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json
