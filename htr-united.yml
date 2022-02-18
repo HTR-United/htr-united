@@ -206,8 +206,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - metric: pages
-    count: 52
+  - metric: characters
+    count: 109409
+  - metric: files
+    count: 47
+  - metric: lines
+    count: 3656
+  - metric: regions
+    count: 292
   sources:
   - reference: "Laurent Premierfait, Boccace (1498), \"De la genealogie des dieux\"\
       , Paris, A. V\xE9rard."
