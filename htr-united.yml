@@ -1706,3 +1706,52 @@
   transcription-guidelines: 'See README in repository.
 
     '
+- schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+  title: Gwalther Handwriting Ground Truth
+  url: 'https://zenodo.org/record/4780947#.YhJJ-VvMLUQ'
+
+
+  authors:
+    - name: 'Ströbel'
+      surname: 'Phillip Benjamin'
+      roles:
+      - 'aligner'
+      - 'quality-control'
+      - 'support'
+    - name: 'Stotz'
+      surname: 'Peter'
+      roles:
+      - 'transcriber'
+  description: "This is ground truth for Rudolph Gwalther’s (1519-1586) handwriting\
+              \taken from his book "Lateinische Gedichte", where he accumulated\
+              \writings between 1540 and 1580\
+              \Data collection and ground truth creation:\
+              \At the time we collected the data, we found 150 images with\
+              \corresponding transcriptions by Peter Stotz on e-manuscripta\
+              \(reference: Gwalther, Rudolf: Lateinische Gedichte. Zürich\
+              \1540-1580. Zentralbibliothek Zürich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750 / Public Domain Mark) .\
+              \We removed 8 images with too many corrections or vertical texts.\
+              \Next, we uploaded the images into the Transkribus platform,\
+              \applied the line recognition tool and manually copied the\
+              \transcribed text lines into the recognised line boxes. During\
+              \this process, we made some corrections, which were mainly\
+              due to inconsistencies in punctuation and capitalised letters.\"
+  language:
+    - lat
+  script: 
+    - Latn
+  script-type: 'only-manuscript'
+  time: 
+    notBefore: "1540"
+    notAfter: "1580"
+  hands: 
+    count: '1'
+    precision: 'estimated'
+  license:
+    - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
+  format: 'Alto-XML'
+  volume:
+    - metric: 'lines'
+      count: 4600
+    
+ 
