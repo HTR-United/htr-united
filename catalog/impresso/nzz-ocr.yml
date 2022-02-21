@@ -28,8 +28,7 @@ authors:
       - 'transcriber'
 description: >
   The Neue Zürcher Zeitung (NZZ) has been publishing in black letter from its very first issue in 1780 until 1947. From this time period, we randomly sampled one frontpage per year, resulting in a total of 167 pages. We chose frontpages because they typically contain highly relevant material and because we want to make sure not to sample pages containing exclusively advertisements or stock information. During certain periods, the NZZ was published several times a day, and there were supplements, too. Due to incomplete metadata, the sampling included frontpages from supplements.
-
-We then manually corrected the pages, so it can be used as a ground truth to improve the OCR of black letter in historical newspapers.i
+  We then manually corrected the pages, so it can be used as a ground truth to improve the OCR of black letter in historical newspapers.i
 language:
   - deu
 script: 
