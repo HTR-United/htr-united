@@ -45,6 +45,14 @@ format: 'Page-XML'
 volume:
   - metric: 'pages'
     count: 300
+  - count: 7540
+    metric: "lines"
+  - count: 300
+    metric: "files"
+  - count: 676
+    metric: "regions"
+  - count: 403034
+    metric: "characters"
 sources:
   - reference: 'Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin, B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi. In International Conference on Document Analysis and Recognition (pp. 265-281). Springer, Cham'
     link: 'https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19'

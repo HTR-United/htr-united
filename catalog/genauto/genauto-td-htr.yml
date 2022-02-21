@@ -35,3 +35,8 @@ format: 'Alto-XML'
 volume:
     - {count: 300, metric: "pages"}
     - {count: 150, metric: "images"}
+    - {count: 150, metric: "files"}
+    - {count: 186366, metric: "characters"}
+    - {count: 21557, metric: "lines"}
+    - {count: 608, metric: "regions"}
+
