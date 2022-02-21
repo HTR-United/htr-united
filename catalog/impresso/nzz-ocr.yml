@@ -43,3 +43,8 @@ hands:
 license:
   - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
 format: 'Alto-XML'
+volume:
+    - {count: 43173, metric: "lines"}
+    - {count: 167, metric: "files"}
+    - {count: 6318, metric: "regions"}
+    - {count: 1768146, metric: "characters"}
