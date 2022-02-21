@@ -37,6 +37,14 @@
     metric: pages
   - count: 150
     metric: images
+  - count: 150
+    metric: files
+  - count: 186366
+    metric: characters
+  - count: 21557
+    metric: lines
+  - count: 608
+    metric: regions
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: DecameronFR
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
@@ -714,6 +722,12 @@
   volume:
   - metric: lines
     count: 5354
+  - metric: files
+    count: 131
+  - metric: regions
+    count: 131
+  - metric: characters
+    count: 192264
   sources:
   - reference: ''
     link: https://zfdg.de/sb005_006
@@ -827,6 +841,14 @@
   volume:
   - metric: pages
     count: 300
+  - count: 7540
+    metric: lines
+  - count: 300
+    metric: files
+  - count: 676
+    metric: regions
+  - count: 403034
+    metric: characters
   sources:
   - reference: "Vidal-Gor\xE8ne, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,\
       \ B. (2021, September). RASAM\u2013A Dataset for the Recognition and Analysis\
@@ -889,6 +911,12 @@
     count: 202
   - metric: pages
     count: 202
+  - metric: lines
+    count: 12461
+  - metric: regions
+    count: 509
+  - metric: characters
+    count: 278641
   transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
     \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
     \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
