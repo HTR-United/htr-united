@@ -34,5 +34,7 @@ license:
   - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
 format: 'Alto-XML'
 volume:
-  - metric: 'lines'
-    count: 4600
+    - {count: 4040, metric: "lines"}
+    - {count: 142, metric: "files"}
+    - {count: 155, metric: "regions"}
+    - {count: 144301, metric: "characters"}
