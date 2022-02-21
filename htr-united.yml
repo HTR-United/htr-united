@@ -719,6 +719,59 @@
     link: https://zfdg.de/sb005_006
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Gwalther Handwriting Ground Truth
+  url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
+  project-name: 'Bullinger digital''
+
+    '
+  project-website: https://www.bullinger-digital.ch/
+  authors:
+  - name: "Str\xF6bel"
+    surname: Phillip Benjamin
+    roles:
+    - aligner
+    - quality-control
+    - support
+  - name: Stotz
+    surname: Peter
+    roles:
+    - transcriber
+  description: "This is ground truth for Rudolph Gwalther\u2019s (1519-1586) handwriting\
+    \ taken from his book \"Lateinische\" Gedichte\", where he accumulated writings\
+    \ between 1540 and 1580. Data collection and ground truth creation:   At the time\
+    \ we collected the data, we found 150 images with corresponding transcriptions\
+    \ by Peter Stotz on e-manuscripta (reference: Gwalther, Rudolf: Lateinische Gedichte.\
+    \ Z\xFCrich, 1540-1580. Zentralbibliothek Z\xFCrich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750\
+    \ / Public Domain Mark) . We removed 8 images with too many corrections or vertical\
+    \ texts. Next, we uploaded the images into the Transkribus platform, applied the\
+    \ line recognition tool and manually copied the transcribed text lines into the\
+    \ recognised line boxes. During this process, we made some corrections, which\
+    \ were mainly due to inconsistencies in punctuation and capitalised letters.\n"
+  language:
+  - lat
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1540'
+    notAfter: '1580'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 4040
+    metric: lines
+  - count: 142
+    metric: files
+  - count: 155
+    metric: regions
+  - count: 144301
+    metric: characters
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
   project-website: https://calfa.fr/blog/26
@@ -842,6 +895,69 @@
     \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
     \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
     \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Ground truth for Neue Z\xFCrcher Zeitung black letter period"
+  url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
+  project-name: 'impresso''
+
+    '
+  project-website: https://impresso-project.ch/
+  authors:
+  - name: "Str\xF6bel"
+    surname: Phillip Benjamin
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Clematide
+    surname: Simon
+    roles:
+    - transcriber
+    - quality-control
+  - name: Watter
+    surname: Camille
+    roles:
+    - transcriber
+  - name: Meraner
+    surname: Isabell
+    roles:
+    - transcriber
+  description: "The Neue Z\xFCrcher Zeitung (NZZ) has been publishing in black letter\
+    \ from its very first issue in 1780 until 1947. From this time period, we randomly\
+    \ sampled one frontpage per year, resulting in a total of 167 pages. We chose\
+    \ frontpages because they typically contain highly relevant material and because\
+    \ we want to make sure not to sample pages containing exclusively advertisements\
+    \ or stock information. During certain periods, the NZZ was published several\
+    \ times a day, and there were supplements, too. Due to incomplete metadata, the\
+    \ sampling included frontpages from supplements. We then manually corrected the\
+    \ pages, so it can be used as a ground truth to improve the OCR of black letter\
+    \ in historical newspapers.i\n"
+  language:
+  - deu
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1780'
+    notAfter: '1946'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 43173
+    metric: lines
+  - count: 167
+    metric: files
+  - count: 6318
+    metric: regions
+  - count: 1768146
+    metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
     \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
@@ -1230,14 +1346,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - metric: lines
-    count: 2603
   - metric: characters
     count: 83728
-  - metric: regions
-    count: 451
   - metric: files
     count: 98
+  - metric: lines
+    count: 2603
+  - metric: regions
+    count: 451
   sources:
   - reference: Omnia Andreae Alciati v.c. emblemata cum commentariis
     link: http://pid.emory.edu/ark:/25593/b70rv
@@ -1428,13 +1544,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 11995
+    count: 13711
   - metric: files
-    count: 20
+    count: 21
   - metric: lines
-    count: 437
+    count: 465
   - metric: regions
-    count: 52
+    count: 53
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 19e

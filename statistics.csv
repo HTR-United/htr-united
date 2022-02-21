@@ -42,68 +42,76 @@
 40,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,lines,770,Alto-XML,evenly-mixed
 41,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,regions,51,Alto-XML,evenly-mixed
 42,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
-43,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
-44,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
-45,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
-46,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
-47,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
-48,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
-49,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
-50,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
-51,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,45,Alto-XML,only-manuscript
-52,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,16909,Alto-XML,only-manuscript
-53,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-54,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-55,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-56,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
-57,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
-58,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
-59,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,126189,Page-XML,only-typed
-60,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
-61,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
-62,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
-63,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
-64,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,472992,Alto-XML,only-typed
-65,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,lines,18385,Alto-XML,only-manuscript
-66,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,regions,1795,Alto-XML,only-manuscript
-67,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,characters,481735,Alto-XML,only-manuscript
-68,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
-69,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,83728,Alto-XML,only-typed
-70,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
-71,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
-72,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,lines,0,Alto-XML,only-manuscript
-73,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,files,0,Alto-XML,only-manuscript
-74,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,regions,0,Alto-XML,only-manuscript
-75,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,characters,0,Alto-XML,only-manuscript
-76,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
-77,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
-78,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
-79,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
-80,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,0,Alto-XML,only-manuscript
-81,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,0,Alto-XML,only-manuscript
-82,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,0,Alto-XML,only-manuscript
-83,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,0,Alto-XML,only-manuscript
-84,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,11995,Alto-XML,only-manuscript
-85,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,20,Alto-XML,only-manuscript
-86,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,437,Alto-XML,only-manuscript
-87,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,52,Alto-XML,only-manuscript
-88,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,0,Alto-XML,only-manuscript
-89,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,0,Alto-XML,only-manuscript
-90,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,0,Alto-XML,only-manuscript
-91,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,0,Alto-XML,only-manuscript
-92,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,0,Alto-XML,only-manuscript
-93,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,0,Alto-XML,only-manuscript
-94,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,0,Alto-XML,only-manuscript
-95,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,0,Alto-XML,only-manuscript
-96,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
-97,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,50,Page-XML,only-manuscript
-98,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
-99,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,182895,Page-XML,only-manuscript
-100,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
-101,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
-102,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,325458,Page-XML,mainly-manuscript
-103,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,pages,35,Page-XML,only-manuscript
-104,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,regions,327,Page-XML,only-manuscript
-105,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,files,35,Page-XML,only-manuscript
-106,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,lines,7388,Page-XML,only-manuscript
-107,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,characters,128679,Page-XML,only-manuscript
+43,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
+44,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
+45,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
+46,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
+47,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
+48,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
+49,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
+50,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
+51,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
+52,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
+53,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
+54,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
+55,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
+56,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
+57,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
+58,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
+59,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,45,Alto-XML,only-manuscript
+60,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,16909,Alto-XML,only-manuscript
+61,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+62,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+63,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+64,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+65,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
+66,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
+67,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,126189,Page-XML,only-typed
+68,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
+69,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
+70,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
+71,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
+72,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,472992,Alto-XML,only-typed
+73,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,lines,18385,Alto-XML,only-manuscript
+74,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,regions,1795,Alto-XML,only-manuscript
+75,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,characters,481735,Alto-XML,only-manuscript
+76,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,83728,Alto-XML,only-typed
+77,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
+78,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
+79,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
+80,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,lines,0,Alto-XML,only-manuscript
+81,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,files,0,Alto-XML,only-manuscript
+82,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,regions,0,Alto-XML,only-manuscript
+83,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,characters,0,Alto-XML,only-manuscript
+84,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
+85,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
+86,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
+87,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
+88,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,0,Alto-XML,only-manuscript
+89,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,0,Alto-XML,only-manuscript
+90,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,0,Alto-XML,only-manuscript
+91,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,0,Alto-XML,only-manuscript
+92,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,13711,Alto-XML,only-manuscript
+93,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,21,Alto-XML,only-manuscript
+94,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,465,Alto-XML,only-manuscript
+95,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,53,Alto-XML,only-manuscript
+96,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,0,Alto-XML,only-manuscript
+97,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,0,Alto-XML,only-manuscript
+98,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,0,Alto-XML,only-manuscript
+99,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,0,Alto-XML,only-manuscript
+100,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,0,Alto-XML,only-manuscript
+101,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,0,Alto-XML,only-manuscript
+102,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,0,Alto-XML,only-manuscript
+103,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,0,Alto-XML,only-manuscript
+104,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
+105,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,50,Page-XML,only-manuscript
+106,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
+107,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,182895,Page-XML,only-manuscript
+108,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
+109,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
+110,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,325458,Page-XML,mainly-manuscript
+111,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,pages,35,Page-XML,only-manuscript
+112,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,regions,327,Page-XML,only-manuscript
+113,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,files,35,Page-XML,only-manuscript
+114,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,lines,7388,Page-XML,only-manuscript
+115,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,characters,128679,Page-XML,only-manuscript
