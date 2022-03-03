@@ -62,3 +62,8 @@ Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](https://githu
 ### Publications
 
 - Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
+
+
+---
+
+Logo by [Alix Chagué](https://alix-tz.github.io).
