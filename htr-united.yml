@@ -987,6 +987,73 @@
   - count: 1768146
     metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: FoNDUE Spanish chapbooks 19th c. Dataset
+  url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
+  authors:
+  - name: Carta
+    surname: Constance
+    roles:
+    - transcriber
+    - project-manager
+  - name: Leblanc
+    surname: "\xC9lina"
+    roles:
+    - digitization
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - digitization
+  - name: Palacios
+    surname: Belinda
+    roles:
+    - transcriber
+    - quality-control
+  - name: Bermudez
+    surname: Luana
+    roles:
+    - transcriber
+    - quality-control
+  description: Digital editions of the second part of the Genevan Spanish chapbooks
+    collection (19th c.).
+  project-name: Desenrollando El Cordel
+  project-website: https://github.com/DesenrollandoElCordel
+  language:
+  - cat
+  - spa
+  - lat
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1770'
+    notAfter: '1920'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502
+  - reference: ''
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502
+  volume:
+  - metric: characters
+    count: 270718
+  - metric: lines
+    count: 12526
+  - metric: pages
+    count: 198
+  citation-file-link: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff
+  transcription-guidelines: "Les r\xE8gles de transcription suivante ont \xE9t\xE9\
+    \ adopt\xE9es :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter\
+    \ la ponctuation ;\n- Respecter les espaces ;\n- Respecter les retours \xE0 la\
+    \ ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019\
+    il y en a) ;\n- Supprimer le bruit (t\xE2ches qui ont \xE9t\xE9 prises pour du\
+    \ texte par l\u2019OCR)."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
     \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
   url: http://dx.doi.org/10.34847/nkl.acb724xs
