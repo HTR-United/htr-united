@@ -1523,14 +1523,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 0
-    metric: lines
-  - count: 0
-    metric: files
-  - count: 0
-    metric: regions
-  - count: 0
-    metric: characters
+  - metric: characters
+    count: 14416
+  - metric: files
+    count: 20
+  - metric: lines
+    count: 383
+  - metric: regions
+    count: 46
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 18e
@@ -1572,13 +1572,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 13711
+    count: 32252
   - metric: files
-    count: 21
+    count: 37
   - metric: lines
-    count: 465
+    count: 1231
   - metric: regions
-    count: 53
+    count: 85
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 19e
@@ -1614,14 +1614,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 0
-    metric: lines
-  - count: 0
-    metric: files
-  - count: 0
-    metric: regions
-  - count: 0
-    metric: characters
+  - metric: characters
+    count: 2097
+  - metric: files
+    count: 5
+  - metric: lines
+    count: 87
+  - metric: regions
+    count: 16
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 20e
@@ -1702,14 +1702,16 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Page-XML
   volume:
-  - metric: pages
-    count: 200
-  - metric: files
-    count: 50
-  - metric: lines
-    count: 3708
   - metric: characters
     count: 182895
+  - metric: files
+    count: 100
+  - metric: lines
+    count: 3708
+  - metric: pages
+    count: 200
+  - metric: regions
+    count: 100
   sources:
   - reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre
       Bronod\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software].
@@ -1788,33 +1790,29 @@
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Notaires de Paris - R\xE9pertoires"
   url: https://github.com/HTR-United/lectaurep-repertoires
-  project-name: 'LECTAUREP
-
-    '
-  project-website: https://lectaurep.hypotheses.org/
   authors:
   - name: Durand
     surname: Marc
     roles:
     - transcriber
     - aligner
-  - name: "Chagu\xE9"
-    surname: Alix
-    roles:
-    - transcriber
-    - project-manager
-    - quality-control
-    - support
   - name: Rostaing
     surname: "Aur\xE9lia"
     roles:
     - transcriber
     - project-manager
     - quality-control
-  description: "Ground truth for various Parisian registries of notary deeds written\
-    \ in French during the 19th century. The information is organized following pre-preinted\
-    \ tables (with printed headers) and contain many names, addresses, numbers and\
-    \ abbreviations. \n"
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  description: Ground truth for various Parisian registries of notary deeds written
+    in French during the 19th century. The information is organized following pre-preinted
+    tables (with printed headers) and contain many names, addresses, numbers and abbreviations.
+  project-name: LECTAUREP
+  project-website: https://lectaurep.hypotheses.org/
   language:
   - fra
   script:
@@ -1831,22 +1829,44 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Page-XML
   volume:
-  - metric: pages
-    count: 35
-  - metric: regions
-    count: 327
+  - metric: characters
+    count: 128679
   - metric: files
     count: 35
   - metric: lines
     count: 7388
-  - metric: characters
-    count: 128679
-  sources:
-  - reference: "Rostaing, A., Durand, M., & Chagu\xE9, A. (2021). lectaurep-repertoires,\
-      \ ground truth for various Parisian registries of notary deeds (French 19th\
-      \ and 20th centuries) (Version 1.0.0) [Computer software]. https://doi.org/10.5072/zenodo.977691"
-    link: ''
+  - metric: regions
+    count: 327
   citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
-  transcription-guidelines: 'See README in repository.
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Repository\u2019s Title"
+  url: Link to your data repository
+  project-name: 'Your project name
 
     '
+  project-website: Link to your project
+  authors:
+  - name: Author Name
+    surname: Author Firstname
+    roles:
+    - transcriber
+  description: "Description \n"
+  language:
+  - eng
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1300'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 10

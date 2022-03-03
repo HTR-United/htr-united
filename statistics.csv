@@ -101,31 +101,32 @@
 99,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
 100,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
 101,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
-102,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,0,Alto-XML,only-manuscript
-103,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,0,Alto-XML,only-manuscript
-104,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,0,Alto-XML,only-manuscript
-105,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,0,Alto-XML,only-manuscript
-106,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,13711,Alto-XML,only-manuscript
-107,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,21,Alto-XML,only-manuscript
-108,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,465,Alto-XML,only-manuscript
-109,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,53,Alto-XML,only-manuscript
-110,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,0,Alto-XML,only-manuscript
-111,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,0,Alto-XML,only-manuscript
-112,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,0,Alto-XML,only-manuscript
-113,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,0,Alto-XML,only-manuscript
+102,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,14416,Alto-XML,only-manuscript
+103,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,20,Alto-XML,only-manuscript
+104,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,383,Alto-XML,only-manuscript
+105,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,46,Alto-XML,only-manuscript
+106,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,32252,Alto-XML,only-manuscript
+107,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,37,Alto-XML,only-manuscript
+108,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,1231,Alto-XML,only-manuscript
+109,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,85,Alto-XML,only-manuscript
+110,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,2097,Alto-XML,only-manuscript
+111,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,5,Alto-XML,only-manuscript
+112,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,87,Alto-XML,only-manuscript
+113,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,16,Alto-XML,only-manuscript
 114,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,0,Alto-XML,only-manuscript
 115,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,0,Alto-XML,only-manuscript
 116,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,0,Alto-XML,only-manuscript
 117,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,0,Alto-XML,only-manuscript
-118,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
-119,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,50,Page-XML,only-manuscript
+118,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,182895,Page-XML,only-manuscript
+119,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
 120,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
-121,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,182895,Page-XML,only-manuscript
-122,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
-123,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
-124,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,325458,Page-XML,mainly-manuscript
-125,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,pages,35,Page-XML,only-manuscript
-126,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,regions,327,Page-XML,only-manuscript
+121,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
+122,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
+123,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
+124,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
+125,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,325458,Page-XML,mainly-manuscript
+126,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,characters,128679,Page-XML,only-manuscript
 127,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,files,35,Page-XML,only-manuscript
 128,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,lines,7388,Page-XML,only-manuscript
-129,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,characters,128679,Page-XML,only-manuscript
+129,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1907,1908,regions,327,Page-XML,only-manuscript
+130,HTR-United/cremma-wikipedia,Repository’s Title,1500,1300,files,10,Alto-XML,only-manuscript
