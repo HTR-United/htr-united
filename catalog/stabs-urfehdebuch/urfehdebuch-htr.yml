@@ -1,0 +1,29 @@
+schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+title: >-
+  Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10,
+  Urfehdenbuch X
+url: https://doi.org/10.5281/zenodo.5153263
+authors: []
+description: >-
+  Ground Truth for "Urfehdenbuch X der Stadt Basel (1563-1569)" at Staatsarchiv
+  Basel-Stadt (StABS).
+project-website: hdl:11471/1010.2.1
+language:
+  - deu
+script:
+  - Latn
+script-type: only-manuscript
+time:
+  notBefore: '1563'
+  notAfter: '1569'
+hands:
+  count: unknown
+  precision: estimated
+license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 8000
+transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
