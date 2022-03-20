@@ -1504,14 +1504,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 0
-    metric: lines
-  - count: 0
-    metric: files
-  - count: 0
-    metric: regions
-  - count: 0
-    metric: characters
+  - metric: characters
+    count: 3588
+  - metric: files
+    count: 5
+  - metric: lines
+    count: 135
+  - metric: regions
+    count: 9
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 15e
@@ -1639,13 +1639,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 32252
+    count: 38139
   - metric: files
-    count: 37
+    count: 39
   - metric: lines
-    count: 1231
+    count: 1299
   - metric: regions
-    count: 85
+    count: 97
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 19e
@@ -1662,9 +1662,7 @@
     roles:
     - project-manager
     - quality-control
-  description: 'Manuscripts of the 19th century
-
-    '
+  description: Manuscripts of the 19th century
   language:
   - fra
   script:
@@ -1682,13 +1680,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 2097
+    count: 9340
   - metric: files
-    count: 5
+    count: 10
   - metric: lines
-    count: 87
+    count: 290
   - metric: regions
-    count: 16
+    count: 30
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 20e
