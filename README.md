@@ -3,7 +3,7 @@
 HTR-United
 =========
 
-[![FR](https://img.shields.io/badge/language-FR-informational)](./README.fr.md) ![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
+[![FR](https://img.shields.io/badge/cliquer%20pour%20voir%20en-FR-informational)](./README.fr.md) ![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
 
 ## What is HTR-United
 HTR-United is a Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
