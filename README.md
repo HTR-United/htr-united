@@ -9,17 +9,19 @@ HTR-United
 
 
 ## What is HTR-United
+
 HTR-United is a Github organization without any other form of legal personality. It aims at **gathering HTR/OCR transcriptions of all periods and style of writing, mostly but not exclusively in French**. It was born from the mere necessity -for projects- to possess potentiel ground truth to rapidly train models on smaller corpora.
 
 ## What is shared?
 
 Datasets shared or referenced with HTR-United must, at minimum, take the form of:
 - an ensemble of ALTO XML and/or PAGE XML files containing either only informations on the segmentation, either the segmentation and the corresponding transcription;
-- an ensemble of corresponding images. They can be shared in the form of a simple permalink to ressources hosted somewhere else, or can be the contact information necessary to request access to the images. It must be possible to recompose the link between the XML files and the image without any intermediary process;
-- a documentation on the transcription practices followed for the segmentation and the transcription. In the cases of a Github repository, this documentation must be summarized in the README.
+- an ensemble of corresponding images. They can be shared in the form of a simple permalink to ressources hosted somewhere else, or can be the contact information necessary to request access to the images. It must be possible to recompose the link between the XML files and the image without any intermediary process such as changing the images' names;
+- a documentation on the context in which the dataset was produced and the rules followed to segment and transcribed the documents. For Github repositories, this documentation is usually presented in the README.
 
 A corpus can be sub-diveded into smaller ensembles if it seems necessary.
 
+If you need help to compose your repository, you can check [our template](https://github.com/HTR-United/template-htr-united-datarepo)!
 
 ## Only data?
 
@@ -33,25 +35,50 @@ There are two cases:
 2. [You don't have one and prefer to help the organization directly](#you-dont-have-one)
     
 ### You already have data in a repository
+
 It's rather convinient: you stay in control, and there's no issue with joining the organization. However, if you want your dataset to gain visibility, it seems important to us that you describe it here. In deed, if you take benefit from data or models provided by HTR-United, you may as well contribute!
 
-To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a line formated as follows:
+To do so, you just need to [open an issue](https://github.com/HTR-United/htr-united/issues/new) or request an update on the deposit repository by adding a YAML file generated with [our form](https://htr-united.github.io/document-your-data.html), presented as follows:
 
 ```yaml
-        name: "Title"
-        url: 'Link to repository'
-        description: 'Description'
-        language: French
-        other-languages:
-            - "Optionel"
-        time: 1800--1897
-        hands: 5  # Number of hands
-        license:
-            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'} # Of course, you can change the licence
-        format: Alto-XML
-        volume:
-            - {count: "NUMBER OF LINES", metric: lines} # or
-            - {count: "NUMBER OF PAGES", metric: pages} # or
+    schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+    title: My Example Dataset
+    url: http://link.to.repository
+    authors:
+      - name: John
+        surname: Doe
+        roles:
+          - transcriber
+      - name: Jeanne
+        surname: Dupont
+        roles:
+          - project-manager
+    description: A short description of the content of the dataset.
+    project-name: My Awesome Project
+    project-website: http://optional.link.to.project
+    language:
+      - fra
+    script:
+      - Latn
+    script-type: only-manuscript
+    time:
+      notBefore: '1830'
+      notAfter: '1875'
+    hands:
+      count: '1'
+      precision: exact
+    license:
+      - name: CC-BY 4.0
+        url: https://creativecommons.org/licenses/by/4.0/
+    format: Page-XML
+    volume:
+      - metric: pages
+        count: 42
+      - metric: lines
+        count: 420
+      - metric: characters
+        count: 4200
+    transcription-guidelines: A presentation of the rules established for the transcription.
 ```
 
 ### You don't have one

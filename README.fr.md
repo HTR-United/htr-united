@@ -13,12 +13,16 @@ HTR-United est une organisation github sans autre forme de personnalité juridiq
 
 ## Qu'est-ce qui est partagé ?
 
+## What is shared?
+
 Les sets de données partagés ou signalés grâce à HTR-United se présentent sous la forme minimale suivante : 
 - un ensemble de fichiers XML ALTO 4 et/ou XML PAGE contenant soit uniquement des données de segmentation, soit des données de segmentation et des données de transcription ;
-- un ensemble d'images correspondantes (il peut s'agir d'un lien vers un paquet hébergé sur une autre plateforme ou bien de contacts auprès de qui demander l'accès aux images) - le lien entre les images et les fichiers XML doit pouvoir être reconstitué sans traitement intermédiaire ;
-- une documentation sur les pratiques d'annotation suivie pour la segmentation et la transcription. Dans le cas d'un répertoire Github, cette documentation se trouve résumée dans le README.
+- un ensemble d'images correspondantes (il peut s'agir d'un lien vers un paquet hébergé sur une autre plateforme ou bien de contacts auprès de qui demander l'accès aux images) - le lien entre les images et les fichiers XML doit pouvoir être reconstitué sans traitement intermédiaire, par exemple sans avoir à renommer les images ;
+- une documentation sur les pratiques d'annotation suivie pour la segmentation et la transcription. Dans le cas d'un répertoire Github, cette documentation se trouve généralement résumée dans le README.
 
 Un corpus peut être sous-divisé en plusieurs ensembles si cela est jugé nécessaire. 
+
+Si vous avez besoin d'aide pour créer et organiser votre répertoire sur Github, vous pouvez vous aider de [notre template](https://github.com/HTR-United/template-htr-united-datarepo) !
 
 ## Que des données ?
 
@@ -37,23 +41,47 @@ Il existe deux cas de figure:
 
 C'est plutôt pratique: vous gardez la main, pas de problèmes de rajout à l'organisation. Mais, histoire de faire grossir la visibilité de votre set de données, il nous parait important de le décrire ici ! En effet, si vous profitez des données de HTR-United, voire de ses modèles, autant renvoyer la pareille. 
 
-Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-united/issues/new) ou de proposer une modification sur le répertoire de dépôt en rajoutant une ligne formatée telle que:
+Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-united/issues/new) ou de proposer une modification sur le répertoire de dépôt en rajoutant un fichier YAML généré à l'aide de [notre formulaire](https://htr-united.github.io/document-your-data.html), tel que:
 
 ```yaml
-        name: "Titre"
-        url: 'Lien vers le dépôt'
-        description: 'Description'
-        language: French
-        other-languages:
-            - "Optionel"
-        time: 1800--1897
-        hands: 5  # Nombre de mains
-        license:
-            - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'} # Vous pouvez bien sûr changer la licence
-        format: Alto-XML
-        volume:
-            - {count: "NOMBRE DE LIGNES", metric: lines} # ou
-            - {count: "NOMBRE DE PAGES", metric: pages} # ou
+    schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+    title: Mon Dataset d'Exemple
+    url: http://lien.vers.repertoire
+    authors:
+      - name: John
+        surname: Doe
+        roles:
+          - transcriber
+      - name: Jeanne
+        surname: Dupont
+        roles:
+          - project-manager
+    description: Une courte description du contenu du jeu de données.
+    project-name: Mon Super Projet
+    project-website: http://lien.optionel.vers.projet
+    language:
+      - fra
+    script:
+      - Latn
+    script-type: only-manuscript
+    time:
+      notBefore: '1830'
+      notAfter: '1875'
+    hands:
+      count: '1'
+      precision: exact
+    license:
+      - name: CC-BY 4.0
+        url: https://creativecommons.org/licenses/by/4.0/
+    format: Page-XML
+    volume:
+      - metric: pages
+        count: 42
+      - metric: lines
+        count: 420
+      - metric: characters
+        count: 4200
+    transcription-guidelines: Une présentation des règles établies pour la transcription.
 ```
 
 ### Vous n'en avez pas
