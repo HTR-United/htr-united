@@ -58,6 +58,14 @@ Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-
 
 Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](https://github.com/HTR-United/htr-united/issues/new) et nous serons heureux de vous aider à créer et partager votre dépôt, sur HTR-United. Des compétences en `git` sont bienvenues mais, si vous voulez partager des données, on vous aidera, c'est le but de cette organisation !
 
+### Vue d'ensemble
+
+Il est possible de consulter le contenu du catalogue depuis notre site internet : [ici](https://htr-united.github.io/catalog.html).
+
+Voici une vue d'ensemble des périodes couvertes par les jeux de données documentés dans le catalogue d'HTR-United !
+
+![graph](./graph.png)
+
 
 ### Publications
 
