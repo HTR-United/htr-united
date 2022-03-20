@@ -84,7 +84,7 @@ To do so, you just need to [open an issue](https://github.com/HTR-United/htr-uni
 ### You don't have one
 Well, we'll be happy to get help from you. [Open an issue here](https://github.com/HTR-United/htr-united/issues/new) and we will gladly help to create and share your repository on HTR-United. Skills with `git` are appreciated but, if you want to share data, we will help you. It's the purpose of this organization!
 
-### Overview 
+## Overview 
 
 You can browse the content of the catalog from out website: [here](https://htr-united.github.io/catalog.html).
 
@@ -92,8 +92,17 @@ Here is an overview of the periods covered by the datasets documented in HTR-Uni
 
 ![graph](./graph.png)
 
+## Quality Check
 
-### Publications
+To help you improve and guarantee the quality of your dataset, we developped a series of tools which can easily be add to your repositories. Check out our [Tools](https://htr-united.github.io/tools.html) webpage to see descriptions and demos!
+
+- [HTRUC](https://github.com/HTR-United/HTRUC)
+- [HUMGenerator](https://github.com/HTR-United/htr-united-metadata-generator)
+- [HTVX](https://github.com/HTR-United/HTRVX)
+- [ChocoMufin](https://github.com/ponteIneptique/choco-mufin)
+
+
+## Publications
 
 - (FR) Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
 

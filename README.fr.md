@@ -88,7 +88,7 @@ Pour ce faire, il suffit d'[ouvrir une issue](https://github.com/HTR-United/htr-
 
 Et bien, nous serons heureux de vous aidez. [Ouvrez un ticket ici](https://github.com/HTR-United/htr-united/issues/new) et nous serons heureux de vous aider à créer et partager votre dépôt, sur HTR-United. Des compétences en `git` sont bienvenues mais, si vous voulez partager des données, on vous aidera, c'est le but de cette organisation !
 
-### Vue d'ensemble
+## Vue d'ensemble
 
 Il est possible de consulter le contenu du catalogue depuis notre site internet : [ici](https://htr-united.github.io/catalog.html).
 
@@ -96,8 +96,17 @@ Voici une vue d'ensemble des périodes couvertes par les jeux de données docume
 
 ![graph](./graph.png)
 
+## Contrôle Quality
 
-### Publications
+Pour vous aider à améliorer et assurer la qualté de vos jeux de données, nous avons développé une série d'outils qui peuvent être facilement ajoutés à votre répértoire. Allez voir notre page web sur [nos outils](https://htr-united.github.io/tools.html) pour des descriptions et des démos !
+
+- [HTRUC](https://github.com/HTR-United/HTRUC)
+- [HUMGenerator](https://github.com/HTR-United/htr-united-metadata-generator)
+- [HTVX](https://github.com/HTR-United/HTRVX)
+- [ChocoMufin](https://github.com/ponteIneptique/choco-mufin)
+
+
+## Publications
 
 - Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
 
