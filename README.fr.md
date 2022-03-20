@@ -3,7 +3,7 @@
 HTR-United
 =========
 
-![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
+[![EN](https://img.shields.io/badge/language-EN-informational)](./README.md) ![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
 
 ## Qu'est-ce que HTR-United
 
