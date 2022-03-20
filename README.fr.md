@@ -3,7 +3,9 @@
 HTR-United
 =========
 
-[![EN](https://img.shields.io/badge/click%20to%20see%20in-EN-informational)](./README.md) ![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
+[![EN](https://img.shields.io/badge/click%20to%20see%20in-EN-informational)](./README.md) [![Go to htr-united.github.io](https://img.shields.io/badge/Website-htr--united.github.io-green)](https://htr-united.github.io) 
+
+![CC BY 4.0](https://img.shields.io/badge/license-CC--BY-lightgrey)
 
 ## Qu'est-ce que HTR-United
 
