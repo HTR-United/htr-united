@@ -860,6 +860,91 @@
 
     '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10,\
+    \ Urfehdenbuch X"
+  url: https://doi.org/10.5281/zenodo.5153263
+  authors:
+  - name: Susanna
+    surname: Burghartz
+    roles:
+    - project-manager
+  - name: Calvi
+    surname: Sonia
+    roles:
+    - project-manager
+    - quality-control
+  - name: Vogeler
+    surname: Georg
+    roles:
+    - project-manager
+  - name: Baur
+    surname: Laila
+    roles:
+    - transcriber
+  - name: Egli
+    surname: Benedikt
+    roles:
+    - transcriber
+  - name: Gehrig
+    surname: Gabriela
+    roles:
+    - transcriber
+  - name: Heini
+    surname: Alexandra Isabelle
+    roles:
+    - transcriber
+  - name: Rossi
+    surname: Rosanna
+    roles:
+    - transcriber
+  - name: Siegrist
+    surname: Benjamin
+    roles:
+    - transcriber
+  - name: Wasmer
+    surname: Remo
+    roles:
+    - transcriber
+  - name: Zimmermann
+    surname: Lynn
+    roles:
+    - transcriber
+  - name: Schoch
+    surname: David
+    roles:
+    - aligner
+  - name: "D\xE4ngeli"
+    surname: Peter
+    roles:
+    - digitization
+  - name: Hodel
+    surname: Tobias
+    roles:
+    - project-manager
+    - aligner
+  description: Ground Truth for "Urfehdenbuch X der Stadt Basel (1563-1569)" at Staatsarchiv
+    Basel-Stadt (StABS).
+  project-website: hdl:11471/1010.2.1
+  language:
+  - deu
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1563'
+    notAfter: '1569'
+  hands:
+    count: unknown
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 8000
+  transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
   project-name: 'Scripta PSL
@@ -986,6 +1071,52 @@
     metric: regions
   - count: 1768146
     metric: characters
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)"
+  url: https://doi.org/10.5281/zenodo.5179361
+  authors:
+  - name: Hodel
+    surname: Tobias
+    roles:
+    - transcriber
+    - project-manager
+    - support
+  - name: Halter-Pernet
+    surname: Colette
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  - name: Teuscher
+    surname: Simon
+    roles:
+    - project-manager
+  description: "The data set is the publication of the data of the scholarly edition\
+    \ \"Urkunden und Akten des Klosters und der Hofmeisterei K\xF6nigsfelden\"."
+  project-website: https://www.koenigsfelden.uzh.ch/
+  language:
+  - lat
+  - deu
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1292'
+    notAfter: '1570'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 60000
+  transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: FoNDUE Spanish chapbooks 19th c. Dataset
   url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
