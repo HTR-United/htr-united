@@ -1360,7 +1360,7 @@
     metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Tapus Corpus
-  url: https://github.com/HTR-United/lectaurep-repertoires
+  url: https://github.com/HTR-United/tapuscorpus
   project-name: 'HTR-United
 
     '
@@ -1611,6 +1611,7 @@
     roles:
     - project-manager
     - quality-control
+    - transcriber
   - name: "Chagu\xE9"
     surname: Alix
     roles:
@@ -1636,13 +1637,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 3588
+    count: 21363
   - metric: files
-    count: 5
+    count: 20
   - metric: lines
-    count: 135
+    count: 745
   - metric: regions
-    count: 9
+    count: 71
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 15e
