@@ -2428,22 +2428,6 @@
     ais du 15e s."
   url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
   authors:
-  - name: Sagot
-    surname: "Beno\xEEt"
-    roles:
-    - project-manager
-  - name: Romary
-    surname: Laurent
-    roles:
-    - project-manager
-  - name: Bawden
-    surname: Rachel
-    roles:
-    - project-manager
-  - name: "Ortiz Su\xE1rez"
-    surname: Pedro Javier
-    roles:
-    - project-manager
   - name: Gabay
     surname: Simon
     roles:
@@ -2452,14 +2436,14 @@
     surname: Ariane
     roles:
     - project-manager
-  - name: Camps
-    surname: Jean-Baptiste
-    roles:
-    - project-manager
   - name: Leroy
     surname: "No\xE9"
     roles:
     - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
   project-name: Gallicorpora
   project-website: https://github.com/Gallicorpora
   language:
@@ -2470,7 +2454,7 @@
   script-type: evenly-mixed
   time:
     notBefore: '1400'
-    notAfter: '1600'
+    notAfter: '1500'
   hands:
     count: 1-per-folder
     precision: estimated
@@ -2489,27 +2473,13 @@
     count: 241
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
+  citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Titre dataset
-  description: Courte description du depot
-  url: https://github.com/Gallicorpora/template-depot
+  title: "Donn\xE9es HTR incunables du 15e si\xE8cle"
+  description: "Corpus d'entrainement pour l'HTR compos\xE9 d'incunable fran\xE7ais\
+    \ du 15e s."
+  url: hhttps://github.com/Gallicorpora/HTR-incunable-15e-siecle
   authors:
-  - name: Sagot
-    surname: "Beno\xEEt"
-    roles:
-    - project-manager
-  - name: Romary
-    surname: Laurent
-    roles:
-    - project-manager
-  - name: Bawden
-    surname: Rachel
-    roles:
-    - project-manager
-  - name: "Ortiz Su\xE1rez"
-    surname: Pedro Javier
-    roles:
-    - project-manager
   - name: Gabay
     surname: Simon
     roles:
@@ -2518,10 +2488,14 @@
     surname: Ariane
     roles:
     - project-manager
-  - name: Camps
-    surname: Jean-Baptiste
+  - name: Leroy
+    surname: "No\xE9"
     roles:
-    - project-manager
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
   project-name: Gallicorpora
   project-website: https://github.com/Gallicorpora
   language:
@@ -2532,7 +2506,7 @@
   script-type: evenly-mixed
   time:
     notBefore: '1400'
-    notAfter: '1900'
+    notAfter: '1500'
   hands:
     count: 1-per-folder
     precision: estimated
@@ -2549,45 +2523,31 @@
     count: 4389
   - metric: regions
     count: 246
-  transcription-guidelines: "Ajouter les r\xE9f\xE9rences des normes de transcription"
+  transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+    \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
+  citation-file-link: https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Imprim\xE9s du 16e si\xE8cle"
+  title: "Donn\xE9es imprim\xE9s du 16e si\xE8cle"
   description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 16e\
     \ si\xE8cle"
   url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
   authors:
-  - name: Pinche
-    roles:
-    - project-manager
-    surname: Ariane
   - name: Gabay
     surname: Simon
     roles:
     - project-manager
-  - name: Bawden
-    surname: Rachel
+  - name: Pinche
     roles:
     - project-manager
-  - name: "Ortiz Su\xE1rez"
-    surname: Pedro Javier
-    roles:
-    - project-manager
-  - name: Camps
-    surname: Jean-Baptiste
-    roles:
-    - project-manager
-  - name: Romary
-    surname: Laurent
-    roles:
-    - project-manager
-  - name: Sagot
-    surname: "Beno\xEEt"
-    roles:
-    - project-manager
+    surname: Ariane
   - name: Vlachou-Efstathiou
     surname: malamatenia
     roles:
     - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
   format: Alto-XML
   hands:
     count: 1-per-folder
@@ -2606,7 +2566,8 @@
   time:
     notAfter: '1599'
     notBefore: '1500'
-  transcription-guidelines: "Ajouter les r\xE9f\xE9rences des normes de transcription"
+  transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+    \ du projet Gallicorpora"
   volume:
   - metric: characters
     count: 47590
@@ -2616,44 +2577,33 @@
     count: 1476
   - metric: regions
     count: 173
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Imprim\xE9s 17e si\xE8cle"
   description: "Corpus d'entrainement pour l'HTR compos\xE9 d'imprim\xE9s fran\xE7\
     ais du 17e s."
   url: https://github.com/Gallicorpora/HTR-imprime-17e-siecle
   authors:
-  - name: Pinche
-    surname: Ariane
-    roles:
-    - project-manager
   - name: Gabay
     surname: Simon
     roles:
     - project-manager
-  - name: Bawden
-    surname: Rachel
-    roles:
-    - project-manager
-  - name: "Ortiz Su\xE1rez"
-    surname: Pedro Javier
-    roles:
-    - project-manager
-  - name: Camps
-    surname: Jean-Baptiste
-    roles:
-    - project-manager
-  - name: Romary
-    surname: Laurent
-    roles:
-    - project-manager
-  - name: Sagot
-    surname: "Beno\xEEt"
+  - name: Pinche
+    surname: Ariane
     roles:
     - project-manager
   - name: Fabert
     surname: Eliott
     roles:
     - transcriber
+  - name: Vlachou-Efstathiou
+    surname: malamatenia
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
   project-name: Gallicorpora
   project-website: https://github.com/Gallicorpora
   language:
@@ -2682,28 +2632,14 @@
   - metric: regions
     count: 152
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
-    \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
+    \ du projet gallicorpora"
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Titre dataset
-  description: Courte description du depot
-  url: https://github.com/Gallicorpora/template-depot
+  title: "Donn\xE9es imprim\\xE9s du 18e si\\xE8cle"
+  description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 18e\
+    \ si\xE8cle"
+  url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
   authors:
-  - name: Sagot
-    surname: "Beno\xEEt"
-    roles:
-    - project-manager
-  - name: Romary
-    surname: Laurent
-    roles:
-    - project-manager
-  - name: Bawden
-    surname: Rachel
-    roles:
-    - project-manager
-  - name: "Ortiz Su\xE1rez"
-    surname: Pedro Javier
-    roles:
-    - project-manager
   - name: Gabay
     surname: Simon
     roles:
@@ -2712,10 +2648,14 @@
     surname: Ariane
     roles:
     - project-manager
-  - name: Camps
-    surname: Jean-Baptiste
+  - name: Fabert
+    surname: Eliott
     roles:
-    - project-manager
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
   project-name: Gallicorpora
   project-website: https://github.com/Gallicorpora
   language:
@@ -2725,8 +2665,8 @@
   - Latn
   script-type: evenly-mixed
   time:
-    notBefore: '1400'
-    notAfter: '1900'
+    notBefore: '1699'
+    notAfter: '1700'
   hands:
     count: 1-per-folder
     precision: estimated
@@ -2743,7 +2683,9 @@
     count: 841
   - metric: regions
     count: 116
-  transcription-guidelines: "Ajouter les r\xE9f\xE9rences des normes de transcription"
+  transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+    \ du projet Gallicorpora"
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: FoNDUE MSS 18
   url: https://github.com/FoNDUE-HTR/FONDUE-MSS-18

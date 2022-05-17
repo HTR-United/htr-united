@@ -141,26 +141,26 @@
 139,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,105,Alto-XML,only-manuscript
 140,HTR-United/cremma-wikipedia,Repository’s Title,1500,1300,files,10,Alto-XML,only-manuscript
 141,Gallicorpora/template-depot,Titre dataset,1400,1900,lines,0,Alto-XML,evenly-mixed
-142,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1600,characters,98319,Alto-XML,evenly-mixed
-143,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1600,files,60,Alto-XML,evenly-mixed
-144,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1600,lines,3048,Alto-XML,evenly-mixed
-145,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1600,regions,241,Alto-XML,evenly-mixed
-146,Gallicorpora/HTR-incunable-15e-siecle,Titre dataset,1400,1900,characters,137741,Alto-XML,evenly-mixed
-147,Gallicorpora/HTR-incunable-15e-siecle,Titre dataset,1400,1900,files,94,Alto-XML,evenly-mixed
-148,Gallicorpora/HTR-incunable-15e-siecle,Titre dataset,1400,1900,lines,4389,Alto-XML,evenly-mixed
-149,Gallicorpora/HTR-incunable-15e-siecle,Titre dataset,1400,1900,regions,246,Alto-XML,evenly-mixed
-150,Gallicorpora/HTR-imprime-16e-siecle,Imprimés du 16e siècle,1500,1599,characters,47590,Alto-XML,only-typed
-151,Gallicorpora/HTR-imprime-16e-siecle,Imprimés du 16e siècle,1500,1599,files,60,Alto-XML,only-typed
-152,Gallicorpora/HTR-imprime-16e-siecle,Imprimés du 16e siècle,1500,1599,lines,1476,Alto-XML,only-typed
-153,Gallicorpora/HTR-imprime-16e-siecle,Imprimés du 16e siècle,1500,1599,regions,173,Alto-XML,only-typed
+142,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,98319,Alto-XML,evenly-mixed
+143,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,60,Alto-XML,evenly-mixed
+144,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,3048,Alto-XML,evenly-mixed
+145,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,241,Alto-XML,evenly-mixed
+146,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,137741,Alto-XML,evenly-mixed
+147,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,94,Alto-XML,evenly-mixed
+148,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,4389,Alto-XML,evenly-mixed
+149,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,246,Alto-XML,evenly-mixed
+150,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,47590,Alto-XML,only-typed
+151,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,60,Alto-XML,only-typed
+152,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,1476,Alto-XML,only-typed
+153,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,regions,173,Alto-XML,only-typed
 154,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,characters,34288,Alto-XML,only-typed
 155,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,40,Alto-XML,only-typed
 156,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,1102,Alto-XML,only-typed
 157,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,152,Alto-XML,only-typed
-158,Gallicorpora/HTR-imprime-18e-siecle,Titre dataset,1400,1900,characters,23786,Alto-XML,evenly-mixed
-159,Gallicorpora/HTR-imprime-18e-siecle,Titre dataset,1400,1900,files,40,Alto-XML,evenly-mixed
-160,Gallicorpora/HTR-imprime-18e-siecle,Titre dataset,1400,1900,lines,841,Alto-XML,evenly-mixed
-161,Gallicorpora/HTR-imprime-18e-siecle,Titre dataset,1400,1900,regions,116,Alto-XML,evenly-mixed
+158,Gallicorpora/HTR-imprime-18e-siecle,Données imprim\xE9s du 18e si\xE8cle,1699,1700,characters,23786,Alto-XML,evenly-mixed
+159,Gallicorpora/HTR-imprime-18e-siecle,Données imprim\xE9s du 18e si\xE8cle,1699,1700,files,40,Alto-XML,evenly-mixed
+160,Gallicorpora/HTR-imprime-18e-siecle,Données imprim\xE9s du 18e si\xE8cle,1699,1700,lines,841,Alto-XML,evenly-mixed
+161,Gallicorpora/HTR-imprime-18e-siecle,Données imprim\xE9s du 18e si\xE8cle,1699,1700,regions,116,Alto-XML,evenly-mixed
 162,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,lines,0,Alto-XML,only-manuscript
 163,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,regions,0,Alto-XML,only-manuscript
 164,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,characters,0,Alto-XML,only-manuscript
