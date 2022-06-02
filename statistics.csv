@@ -165,14 +165,18 @@
 163,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,40,Alto-XML,evenly-mixed
 164,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,841,Alto-XML,evenly-mixed
 165,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,116,Alto-XML,evenly-mixed
-166,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,lines,0,Alto-XML,only-manuscript
-167,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,regions,0,Alto-XML,only-manuscript
-168,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,characters,0,Alto-XML,only-manuscript
-169,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
-170,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
-171,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
-172,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
-173,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
-174,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
-175,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9327,Alto-XML,only-typed
-176,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed
+166,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90182,Alto-XML,evenly-mixed
+167,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
+168,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
+169,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
+170,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,lines,0,Alto-XML,only-manuscript
+171,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,regions,0,Alto-XML,only-manuscript
+172,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,characters,0,Alto-XML,only-manuscript
+173,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
+174,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
+175,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
+176,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
+177,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
+178,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
+179,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9327,Alto-XML,only-typed
+180,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed

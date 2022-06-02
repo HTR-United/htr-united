@@ -2725,17 +2725,23 @@
     surname: Kelly
     roles:
     - support
-  format: Alto-XML
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1500'
+    notAfter: '1599'
   hands:
     count: 1-per-folder
     precision: estimated
-  language:
-  - fra
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  project-name: Gallicorpora
-  project-website: https://github.com/Gallicorpora
+  format: Alto-XML
   volume:
   - metric: characters
     count: 90182
