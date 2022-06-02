@@ -108,7 +108,9 @@ Pour vous aider à améliorer et assurer la qualté de vos jeux de données, nou
 
 ## Publications
 
-- Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
+- (FR) Alix Chagué, Thibault Clérice, Laurent Romary. HTR-United : Mutualisons la vérité de terrain !. *DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux*, MESHS, Nov 2021, Lille, France. [⟨hal-03398740⟩](https://hal.inria.fr/hal-03398740v1)
+
+- (FR) Alix Chagué. Conditions de la mutualisation : les principes FAIR et HTR-United. Humanistica 2022, Mai 2022, Montréal, Canada. [⟨hal-03685731⟩](https://hal.inria.fr/hal-03685731v1)
 
 
 ---
