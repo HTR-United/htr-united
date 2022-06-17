@@ -1,52 +1,70 @@
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Shakespeare-Scott translations
-  url: https://github.com/millawell/ocr-data
-  project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
-    setting''
-
-    '
-  project-website: https://github.com/millawell/ocr-data
+  title: FoNDUE Spanish chapbooks 19th c. Dataset
+  url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
   authors:
-  - name: Lassner
-    surname: David
-  - name: Coburger
-    surname: Julius
-  - name: Neudecker
-    surname: Clemens
-  - name: Baillot
-    surname: Anne
-  description: "Ground truth data in German and English of Shakespeare and Scott prints\
-    \ in original and different translations. \n"
+  - name: Carta
+    surname: Constance
+    roles:
+    - transcriber
+    - project-manager
+  - name: Leblanc
+    surname: "\xC9lina"
+    roles:
+    - digitization
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - digitization
+  - name: Palacios
+    surname: Belinda
+    roles:
+    - transcriber
+    - quality-control
+  - name: Bermudez
+    surname: Luana
+    roles:
+    - transcriber
+    - quality-control
+  description: Digital editions of the second part of the Genevan Spanish chapbooks
+    collection (19th c.).
+  project-name: Desenrollando El Cordel
+  project-website: https://github.com/DesenrollandoElCordel
   language:
-  - eng
-  - deu
+  - cat
+  - spa
+  - lat
   script:
   - Latn
-  - Latf
   script-type: only-typed
   time:
-    notBefore: '1815'
-    notAfter: '1852'
+    notBefore: '1770'
+    notAfter: '1920'
   hands:
-    count: unknown
+    count: more-than-10
     precision: exact
   license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
   format: Alto-XML
-  volume:
-  - metric: lines
-    count: 5354
-  - metric: files
-    count: 131
-  - metric: regions
-    count: 131
-  - metric: characters
-    count: 192264
   sources:
   - reference: ''
-    link: https://zfdg.de/sb005_006
-  citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502
+  - reference: ''
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502
+  volume:
+  - metric: characters
+    count: 270718
+  - metric: lines
+    count: 12526
+  - metric: pages
+    count: 198
+  citation-file-link: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff
+  transcription-guidelines: "Les r\xE8gles de transcription suivante ont \xE9t\xE9\
+    \ adopt\xE9es :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter\
+    \ la ponctuation ;\n- Respecter les espaces ;\n- Respecter les retours \xE0 la\
+    \ ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019\
+    il y en a) ;\n- Supprimer le bruit (t\xE2ches qui ont \xE9t\xE9 prises pour du\
+    \ texte par l\u2019OCR)."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
@@ -122,73 +140,6 @@
 
     '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Caroline Minuscule by Rescribe
-  url: https://github.com/rescribe/carolineminuscule-groundtruth
-  project-name: Rescribe
-  project-website: https://rescribe.xyz/
-  authors:
-  - name: White
-    surname: Nick
-    roles:
-    - transcriber
-    - project-manager
-  - name: Karaisl
-    surname: Antonia
-    roles:
-    - transcriber
-    - project-manager
-  - name: "Cl\xE9rice"
-    surname: Thibault
-    roles:
-    - aligner
-  description: 'This ground truth repository is a work in process; it currently accounts
-    for a part of our complete Caroline Minuscule training pool of around 70 manuscripts
-    used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
-
-    '
-  language:
-  - lat
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '800'
-    notAfter: '1199'
-  hands:
-    count: 1-per-file
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 457
-    metric: lines
-  - count: 17
-    metric: files
-  - count: 45
-    metric: regions
-  - count: 16909
-    metric: characters
-  transcription-guidelines: "In general this meant deciding between diplomatic transcription\
-    \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
-    \ reinterpreting medieval signs into modern equivalents) with a view to specific\
-    \ categories. Read on for a summary of the rules and the respective rationale\
-    \ behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed\
-    \ with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\
-    \n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic\
-    \ where possible: Retain abbreviations and render glyphs as opposed to expanded\
-    \ versions where possible\n    \"*\" where original character isn't served: OCRopus\
-    \ (at the point in time of transcription) could not handle some of the medieval\
-    \ glyphs, even where a Unicode version was present. Abbreviations not in OCRopus\
-    \ are uniformly transcribed as \"*\", in the case of a combined character (such\
-    \ as a consonant with a macron) as the base character followed by \"*\" (e.g.\
-    \ \"t*\"). The list of accepted characters in OCRopus can be found in this repository,\
-    \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
-    \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
-    \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
-    \ numerals'\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: OCR17plus
   url: https://github.com/e-ditiones/OCR17plus
   project-name: E-ditiones
@@ -230,919 +181,6 @@
     metric: regions
   - count: 686335
     metric: characters
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: GenAuto TD Corpus
-  url: https://github.com/jpmjpmjpm/genauto-td-htr.git
-  project-name: GenAuto
-  project-website: ''
-  authors:
-  - name: Boutet
-    surname: "Jean-Fran\xE7ois"
-    roles:
-    - transcriber
-    - aligner
-  - name: Merx
-    surname: Jean-Pierre
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-  description: "150 transcribed images from \"Tables D\xE9cennales\" French Civil\
-    \ Registry. Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1792'
-    notAfter: '1902'
-  hands:
-    count: less-than-11
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 300
-    metric: pages
-  - count: 150
-    metric: images
-  - count: 150
-    metric: files
-  - count: 186366
-    metric: characters
-  - count: 21557
-    metric: lines
-  - count: 608
-    metric: regions
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: BiblIA
-  url: https://zenodo.org/record/5167263
-  project-name: 'Scripta PSL
-
-    '
-  project-website: https://escripta.hypotheses.org/
-  authors:
-  - name: "St\xF6kl Ben Ezra"
-    surname: Daniel
-    roles:
-    - transcriber
-    - project-manager
-  - name: Brown-DeVost
-    surname: Bronson
-  - name: Jablonski
-    surname: Pawel
-  - name: Kiessling
-    surname: Benjamin
-  - name: Lolli
-    surname: Elena
-  - name: Lapin
-    surname: Hayim
-  description: "This dataset for Handwritten Text Recognition includes layout segmentation\
-    \ (regions, toplines and linepolygons) and unicode-transcriptions in alto 4.2\
-    \ XML for 202 images of Medieval Hebrew manuscripts from the Biblioth\xE8que nationale\
-    \ de France (BnF, National Library of France) and the Biblioteca Apostolica Vaticana\
-    \ (BAV, Vatican Library) corresponding to the article \"BiblIA - a General Model\
-    \ for Medieval Hebrew Manuscripts and an Open Annotated Dataset\" by Daniel St\xF6\
-    kl Ben Ezra, Bronson Brown-DeVost, Pawel Jablonski, Benjamin Kiessling, Elena\
-    \ Lolli, and Hayim Lapin, published in HIP@ICDAR 2021 held in Lausanne, September\
-    \ 2021.\n"
-  language:
-  - heb
-  script:
-  - Hebr
-  script-type: only-manuscript
-  time:
-    notBefore: '1000'
-    notAfter: '1499'
-  hands:
-    count: more-than-10
-    precision: exact
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  volume:
-  - metric: files
-    count: 202
-  - metric: pages
-    count: 202
-  - metric: lines
-    count: 12461
-  - metric: regions
-    count: 509
-  - metric: characters
-    count: 278641
-  transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
-    \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
-    \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
-    \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
-    \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
-    \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)"
-  url: https://doi.org/10.5281/zenodo.5179361
-  authors:
-  - name: Hodel
-    surname: Tobias
-    roles:
-    - transcriber
-    - project-manager
-    - support
-  - name: Halter-Pernet
-    surname: Colette
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-    - quality-control
-    - digitization
-    - support
-  - name: Teuscher
-    surname: Simon
-    roles:
-    - project-manager
-  description: "The data set is the publication of the data of the scholarly edition\
-    \ \"Urkunden und Akten des Klosters und der Hofmeisterei K\xF6nigsfelden\"."
-  project-website: https://www.koenigsfelden.uzh.ch/
-  language:
-  - lat
-  - deu
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1292'
-    notAfter: '1570'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: lines
-    count: 60000
-  transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
-    \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
-  url: http://dx.doi.org/10.34847/nkl.acb724xs
-  project-name: 'Groupe annuaires et adresses - Consortium Huma-num Paris Time Machine
-
-    '
-  project-website: https://paris-timemachine.huma-num.fr/groupe-adresses-et-annuaires/
-  authors:
-  - name: Elgarrista
-    surname: Gabriela
-    roles:
-    - transcriber
-    - quality-control
-  - name: "M\xE9lanie-Becquet"
-    surname: "Fr\xE9d\xE9rique"
-    roles:
-    - project-manager
-    - quality-control
-  - name: Brando
-    surname: Carmen
-    roles:
-    - project-manager
-    - quality-control
-  description: "Annuaire des propri\xE9taires et des propri\xE9t\xE9s de Paris et\
-    \ du d\xE9partement de la Seine. Lien dans le catalogue de la BNF : https://catalogue.bnf.fr/ark:/12148/cb32697229h.\
-    \ Cr\xE9dits : Biblioth\xE8que nationale de France. Donn\xE9es v\xE9rit\xE9 de\
-    \ terrain r\xE9sultant de la transcription et la segmentation manuelle d\u2019\
-    un \xE9chantillon de 169 pages des annuaires appartenant aux volumes 1898 et 1923.\
-    \ Un mod\xE8le de transcription HTR+ a \xE9t\xE9 entrain\xE9 \xE0 partir de cet\
-    \ \xE9chantillon gr\xE2ce \xE0 Transkribus et est disponible sur cette plateforme\
-    \ en mode public. Ce mod\xE8le est valable pour transcrire automatiquement les\
-    \ volumes de 1903 et 1913 et tout autre document imprim\xE9 \xE0 deux colonnes\
-    \ et en utilisant l'alphabet latin et particuli\xE8rement en fran\xE7ais. Le choix\
-    \ de l'\xE9chantillon est fait par crit\xE8re alphab\xE9tique car c'est le mode\
-    \ d'organisation de l'information dans ce document. Les accolades pr\xE9sentes\
-    \ dans le document n'ont pas \xE9t\xE9 segment\xE9es. 118 pages pour entrainer\
-    \ et 51 pages pour validation.\nContexte et financement : Subvention DAHN (Dispositif\
-    \ de soutien \xE0 l'archivistique et aux humanit\xE9s num\xE9riques) par le MESRI.\
-    \ Equipes : Consortium Paris Time Machine - TGIR Humanum EHESS / CNRS / LATTICE\
-    \ / INRIA Contact si besoin d'anonymiser les noms de personnes : carmen.brando@ehess.fr.\n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-typed
-  time:
-    notBefore: '1898'
-    notAfter: '1923'
-  hands:
-    count: less-than-11
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  volume:
-  - count: 169
-    metric: pages
-  - count: 19022
-    metric: lines
-  - count: 641401
-    metric: characters
-  transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas \xE9\
-    t\xE9 segment\xE9es.\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Gwalther Handwriting Ground Truth
-  url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
-  project-name: 'Bullinger digital''
-
-    '
-  project-website: https://www.bullinger-digital.ch/
-  authors:
-  - name: "Str\xF6bel"
-    surname: Phillip Benjamin
-    roles:
-    - aligner
-    - quality-control
-    - support
-  - name: Stotz
-    surname: Peter
-    roles:
-    - transcriber
-  description: "This is ground truth for Rudolph Gwalther\u2019s (1519-1586) handwriting\
-    \ taken from his book \"Lateinische\" Gedichte\", where he accumulated writings\
-    \ between 1540 and 1580. Data collection and ground truth creation:   At the time\
-    \ we collected the data, we found 150 images with corresponding transcriptions\
-    \ by Peter Stotz on e-manuscripta (reference: Gwalther, Rudolf: Lateinische Gedichte.\
-    \ Z\xFCrich, 1540-1580. Zentralbibliothek Z\xFCrich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750\
-    \ / Public Domain Mark) . We removed 8 images with too many corrections or vertical\
-    \ texts. Next, we uploaded the images into the Transkribus platform, applied the\
-    \ line recognition tool and manually copied the transcribed text lines into the\
-    \ recognised line boxes. During this process, we made some corrections, which\
-    \ were mainly due to inconsistencies in punctuation and capitalised letters.\n"
-  language:
-  - lat
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1540'
-    notAfter: '1580'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 4040
-    metric: lines
-  - count: 142
-    metric: files
-  - count: 155
-    metric: regions
-  - count: 144301
-    metric: characters
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Projet Notre-Dame
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
-
-    '
-  authors:
-  - name: Doat
-    surname: Soline
-    roles:
-    - transcriber
-  - name: Menu
-    surname: Ariane
-    roles:
-    - transcriber
-  - name: Falcoz
-    surname: Elsa
-    roles:
-    - transcriber
-  - name: Faure
-    surname: Margaux
-    roles:
-    - transcriber
-  - name: "Mazou\xE9"
-    surname: "Ana\xEFs"
-    roles:
-    - transcriber
-  description: "Le Projet Notre-Dame consiste en une transcription des journaux quotidiens\
-    \ de l\u2019ann\xE9e 1860 (https://mediatheque-patrimoine.culture.gouv.fr/sites/mediatheque/files/jnd_1860.pdf)\
-    \ des travaux de restauration effectu\xE9s de 1844 \xE0 1865 \xE0 la cath\xE9\
-    drale Notre-Dame de Paris sous la direction d'Eug\xE8ne Viollet-le-Duc et Jean-Baptiste\
-    \ Lassus. Celle-ci a \xE9t\xE9 effectu\xE9e sur eScriptorium \xE0 partir de la\
-    \ num\xE9risation des journaux des travaux (https://mediatheque-patrimoine.culture.gouv.fr/travaux-de-notre-dame-de-paris-1844-1865)\
-    \ r\xE9alis\xE9e par la M\xE9diath\xE8que de l'architecture et du patrimoine.\
-    \ \n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1860'
-    notAfter: '1860'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame/main/CITATION.cff
-  transcription-guidelines: "- respect des majuscules et minuscules - respect des\
-    \ ligatures (par exemple, transcrire \"ch\u0153ur\") - mot qui est barr\xE9 :\
-    \ \u96BE (une seule fois par mot) mais seulement s'ils sont totalement/\xE0 moiti\xE9\
-    \ illisibles. Les restranscrire entre accolades {} s'ils sont lisibles.  - Pour\
-    \ mettre en exergue les doutes de transcription : \n    - mot incertain: [incertain]\n\
-    \    - mot que l'on ne parvient pas \xE0 transcrire : [??]\n"
-  volume:
-  - metric: characters
-    count: 29286
-  - metric: files
-    count: 12
-  - metric: lines
-    count: 735
-  - metric: regions
-    count: 86
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Memorials for Jane Lathrop Stanford
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
-
-    '
-  authors:
-  - name: "Guimar\xE3es"
-    surname: Ingrid
-    roles:
-    - transcriber
-    - aligner
-  - name: Maurel
-    surname: Perrine
-    roles:
-    - transcriber
-    - aligner
-  - name: Ozturk
-    surname: Yagmur
-    roles:
-    - transcriber
-    - aligner
-  description: "Les donn\xE9es sources ont \xE9t\xE9 t\xE9l\xE9vers\xE9es sur le site\
-    \ From the page par les Archives de l\u2019Universit\xE9 Stanford qui en sont\
-    \ les propri\xE9taires. Elles ont ensuite \xE9t\xE9 retranscrites par des b\xE9\
-    n\xE9voles anonymes ; c\u2019est leur travail nous a servi de base pour corriger\
-    \ nos propres retranscriptions. Les documents sources choisies sont des lettres\
-    \ de diff\xE9rents auteurs portant sur les obs\xE8ques de Jane Lathrop Stanford.\
-    \  Les lettres s\xE9lectionn\xE9es \xE9taient les lettres : 42, 43, 46, 49, 50,\
-    \ 54, 57 \xE0 60, 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80\
-    \ \xE0 93 [section 2, retranscrites par Ingrid GUIMAR\xC3ES] ; 241 \xE0 242  [section\
-    \ 3, retranscrites par Yagmur OZTURK].\n"
-  language:
-  - eng
-  script:
-  - Latn
-  script-type: evenly-mixed
-  time:
-    notBefore: '1905'
-    notAfter: '1905'
-  hands:
-    count: 1-per-file
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
-  transcription-guidelines: "Notre retranscription en elle-m\xEAme a cherch\xE9 \xE0\
-    \ retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les\
-    \ erreurs \xE9ventuelles intrins\xE8ques au document. Il convient toutefois de\
-    \ noter que dans certains cas, les documents pr\xE9sentaient des mentions impr\xE9\
-    cises qui n\u2019avaient pas \xE9t\xE9 prises en compte par les retranscriptions\
-    \ originelles, ou alors qui avaient \xE9t\xE9 soulign\xE9es comme \xE9tant une\
-    \ retranscription incertaine. Nous avons alors fait le choix d\u2019\xEAtre plus\
-    \ exhaustif que la retranscription originelle si possible, et nous avons parfois\
-    \ fait des choix de retranscription diff\xE9rents sur la base de notre ressenti\
-    \ visuel lors du travail. En raison de ces choix, la taille d\u2019une page s\u2019\
-    est donc parfois av\xE9r\xE9e rallong\xE9e par rapport \xE0 l\u2019estimation\
-    \ premi\xE8re.'\n"
-  volume:
-  - metric: characters
-    count: 18063
-  - metric: files
-    count: 41
-  - metric: lines
-    count: 770
-  - metric: regions
-    count: 51
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Projet Correspondance Berlioz
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
-
-    '
-  authors:
-  - name: "C\xE9ard"
-    surname: Lien
-    roles:
-    - transcriber
-  - name: Sajdak
-    surname: "C\xE9cile"
-    roles:
-    - transcriber
-  - name: Lebreton
-    surname: Fanny
-    roles:
-    - transcriber
-  description: "Nous avons choisi de travailler sur la correspondance active de Hector\
-    \ Berlioz adress\xE9e \xE0 sa s\u0153ur Anne-Marguerite \"Nanci\" Berlioz. L\u2019\
-    ensemble des lettres adress\xE9es \xE0 Nanci Berlioz repr\xE9sentait un volume\
-    \ trop important pour notre projet, aussi nous les avons s\xE9lectionn\xE9es,\
-    \ par souci de coh\xE9rence, selon un ordre chronologique (voir le tableau de\
-    \ gestion) pour la liste exacte des lettres transcrites).\n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1823'
-    notAfter: '1844'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz/main/CITATION.cff
-  transcription-guidelines: "**Orthographe :** - Aucune modification op\xE9r\xE9e\
-    \ sur l'orthographe, m\xEAme en pr\xE9sence de fautes. - L'orthographe ancienne\
-    \ est laiss\xE9e telle quelle.  - Aucune restitution des accents manquants. Aucune\
-    \ correction des accents fautifs. Restitution de la bonne graphie de l'accent,\
-    \ lorsque nous consid\xE9rons qu'il y a une variation de la graphie de celui-ci\
-    \ \xE0 cause de la rapidit\xE9 d'\xE9criture.    - Aucune restitution des traits\
-    \ d'union manquants. - S\xE9paration des mots coll\xE9s d\xE8s lors que la ligature\
-    \ entre ces mots semble due \xE0 la rapidit\xE9 de l'\xE9criture.\n**Abr\xE9viations\
-    \ :** - Aucune r\xE9solution d'abr\xE9viation. - Utilisation du symbole mon\xE9\
-    taire de la livre tournois \u2192 **\u20B6** (Unicode U+20B6).\n**Mots en exposant\
-    \ :** - Restitution seulement du mot sans le mettre en exposant.\n**Majuscules\
-    \ et minuscules :** -  Aucune restitution des majuscules, m\xEAme lorsqu'elles\
-    \ sont absentes en d\xE9but de phrase ou de nom propre.\n**Ponctuation :** - Aucune\
-    \ restitution de la ponctuation manquante. Aucune correction de la ponctuation\
-    \ fautive.  - Emploi du tiret cadratin (\u2014, unicode U+2014) de part et d'autre\
-    \ d'une incise.  - Emploi du tiret demi-cadratin (\u2013, unicode U+2013) pour\
-    \ marquer le changement d\u2019interlocuteur dans les dialogues et devant les\
-    \ \xE9l\xE9ments des listes/ \xE9num\xE9rations.\n"
-  volume:
-  - metric: characters
-    count: 13474
-  - metric: files
-    count: 16
-  - metric: lines
-    count: 367
-  - metric: regions
-    count: 64
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Projet Exposition universelle de 1878
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
-
-    '
-  authors:
-  - name: Christensen
-    surname: Kelly
-    roles:
-    - transcriber
-  - name: Davoury
-    surname: Baudoin
-    roles:
-    - transcriber
-  - name: Anahi
-    surname: Haedo
-    roles:
-    - transcriber
-  - name: Kervegan
-    surname: Paul
-    roles:
-    - transcriber
-  - name: Sanchez-Oeconomo
-    surname: Esteban
-    roles:
-    - transcriber
-  description: "Le Congr\xE8s international des sciences ethnographiques de 1878 a\
-    \ eu lieu \xE0 l\u2019occasion de l'Exposition universelle de 1878, \xE0 Paris.\
-    \ \xC9dit\xE9 en 1881 par l'Imprimerie nationale, le compte rendu de ce congr\xE8\
-    s a \xE9t\xE9 mis \xE0 disposition par le Conservatoire num\xE9rique des Arts\
-    \ et M\xE9tiers.\n"
-  language:
-  - fra
-  script:
-  - Latn
-  - Grek
-  - Deva
-  - Arab
-  script-type: only-typed
-  time:
-    notBefore: '1881'
-    notAfter: '1881'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles/main/CITATION.cff
-  transcription-guidelines: "Diplomatique, mais pas allograph\xE9tique."
-  volume:
-  - metric: characters
-    count: 155022
-  - metric: files
-    count: 56
-  - metric: lines
-    count: 2620
-  - metric: regions
-    count: 158
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier\
-    \ oss\xE9tien"
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
-
-    '
-  authors:
-  - name: "L\u2019Eveque"
-    surname: "Zo\xE9"
-    roles:
-    - transcriber
-  - name: Ekaterina
-    surname: Kate
-    roles:
-    - transcriber
-  - name: Kasparian
-    surname: Anahide
-    roles:
-    - transcriber
-  description: "Nous avons choisi de transcrire le deuxi\xE8me chapitre de l\u2019\
-    ouvrage de Maxime Kovalewsky :  Coutume contemporaine et loi ancienne : droit\
-    \ coutumier oss\xE9tien, \xE9clair\xE9 par l\u2019histoire compar\xE9e. Paris,\
-    \ L. Larose, 1893. \n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-typed
-  time:
-    notBefore: '1893'
-    notAfter: '1893'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF
-  volume:
-  - metric: characters
-    count: 45626
-  - metric: files
-    count: 28
-  - metric: lines
-    count: 983
-  - metric: regions
-    count: 72
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "De la g\xE9n\xE9alogie des dieux"
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: Vlachou Efstathiou
-    surname: Malamatenia
-    roles:
-    - transcriber
-    - project-manager
-  - name: Leroy
-    surname: "No\xE9"
-    roles:
-    - transcriber
-    - project-manager
-  - name: Maulu
-    surname: Marco
-    roles:
-    - project-manager
-    - quality-control
-  description: "This repository hosts all the documents, including transcriptions,\
-    \ bibliographical  references and introduction that serve the team Boccace for\
-    \ the validation of the course \"Bonnes pratiques du developpement collaboratif\
-    \ : initiation \xE0 Git\"  (prof. Thibault Cl\xE9rice), of the first semester\
-    \ - Master Humanit\xE9s Num\xE9riques ENC-PSL 2021-2022.  At the same time it\
-    \ and constitutes part of the biannual project \"Per un\u2019edizione digitale\
-    \ della Genealogia deorum gentilium\"  di Boccaccio\" (dir. F. Duval, M. Maulu).\
-    \ Financed in 2021, this project foresees to put on line in XML format the unpublished\
-    \  translation in Middle French entitled \"De la genealogie des dieux\".\n"
-  language:
-  - frm
-  - lat
-  script:
-  - Latn
-  script-type: only-typed
-  time:
-    notBefore: '1472'
-    notAfter: '1498'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 109409
-  - metric: files
-    count: 47
-  - metric: lines
-    count: 3656
-  - metric: regions
-    count: 292
-  sources:
-  - reference: "Laurent Premierfait, Boccace (1498), \"De la genealogie des dieux\"\
-      , Paris, A. V\xE9rard."
-    link: 'https://gallica.bnf.fr/ark:/12148/bpt6k105063r?rk=21459;2 '
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff
-  transcription-guidelines: 'No development of abbreviations. Special characters are
-    used for the graphemic transcription, compatible with the Unicode mufi qnd the
-    special character table of cremma-medieval.   No correction of orthography errors,
-    BUT proper transcription of inversed letters (for Inc59) such as character "n"
-    printed as "u" in several cases.  Spaces were added freely for word separation
-    according to dictionaries of middle French and Latin (latin forms verified on
-    Collatinus).  For more documentation regarding the transcription norms and guidelines
-    head to the repository and the report file.''''
-
-    '
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: OCR Corse
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: Sarbach-Pulicani
-    surname: Vincent
-    roles:
-    - transcriber
-    - project-manager
-  - name: "Sa\xEFag"
-    surname: Violette
-  - name: Escoda
-    surname: Adrien
-    roles:
-    - transcriber
-  - name: Miaille
-    surname: "Th\xE9ophile"
-    roles:
-    - transcriber
-    - project-manager
-  description: "Le premier ouvrage s\u2019intitule *Ponten\xF4vu* a \xE9t\xE9 \xE9\
-    crit par Petru Rocca et publi\xE9 par la \"Stamparia di a Muvra\" en 1927. Il\
-    \ s'agit d'un recueil de po\xE8mes en corse et en fran\xE7ais dont les th\xE8\
-    mes varient. *A Muvra* est un journal autonomiste corse d'influence maurassienne\
-    \ qui a exist\xE9 pendant toute la p\xE9riode de l'entre-deux-guerres. Se revendiquant\
-    \ comme \xE9tant une revue culturelle, la dimension politique de la revue (incarn\xE9\
-    e par le PCA, ou Partitu corsu d'azione), en a fait un mouvement controvers\xE9\
-    . C'est dans ce contexte de lutte politique et d'\xE9veil culturel corse que s'inscrit\
-    \ ce recueil.\nLe second ouvrage s'intitule *A nostra Santa Fede - Catechismu\
-    \ Corsu*, \xE9crit par Ageniu Grimaldi en 1926 sous le pseudonyme de Saveriu Malaspina.\
-    \ Proche de Petru Rocca, ce-dernier est l'un des th\xE9oriciens de l'autonomisme\
-    \ corse de l'entre-deux-guerres et fid\xE8le muvriste. Dans l'ouvrage, il est\
-    \ fait mention notamment de la fa\xE7on dont un vrai corse doit se comproter vis-\xE0\
-    -vis de sa foi envers Dieu et son \xEEle. Bien qu'il ne s'agisse pas r\xE9ellement\
-    \ d'un recueil de po\xE8mes, le style d'\xE9criture de cet ouvrage est particuli\xE8\
-    rement int\xE9ressant. Il reprend un style qui se rapproche des \xE9crits bibliques.\n"
-  language:
-  - cos
-  - fra
-  script:
-  - Latn
-  script-type: only-typed
-  time:
-    notBefore: '1926'
-    notAfter: '1927'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
-  transcription-guidelines: ''
-  volume:
-  - metric: characters
-    count: 40957
-  - metric: files
-    count: 47
-  - metric: lines
-    count: 1664
-  - metric: regions
-    count: 146
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Argus des Brevets
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: De Craene
-    surname: Valentin
-    roles:
-    - transcriber
-  - name: Humeau
-    surname: Maxime
-    roles:
-    - transcriber
-  - name: Reignier
-    surname: Virgile
-    roles:
-    - transcriber
-  description: "L\u2019argus des brevets de 1910 se pr\xE9sente sous la forme d\u2019\
-    un imprim\xE9 contemporain, organis\xE9 en rubriques regroupant de mani\xE8re\
-    \ chronologique puis th\xE9matique les brevets d\xE9pos\xE9s en France. Cette\
-    \ \xE9num\xE9ration et pr\xE9sentation succincte des brevets est r\xE9partie en\
-    \ deux colonnes et pr\xE9sente des abr\xE9viations normalis\xE9es. D\xE8s lors,\
-    \ ce pr\xE9sent guide de contribution au projet entend pr\xE9senter l\u2019ensemble\
-    \ des normes de transcriptions adopt\xE9es au cours de ce projet de transcription,\
-    \ r\xE9alis\xE9 sur la plateforme E-scriptorium, dans le cadre du cours Git du\
-    \ master TNAH \xE0 l\u2019ENC.\n"
-  language:
-  - fra
-  script:
-  - Latn
-  script-type: only-typed
-  time:
-    notBefore: '1910'
-    notAfter: '1910'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets/main/CITATION.cff
-  transcription-guidelines: "En premier lieu, nous avons d\xE9cid\xE9 de fonder notre\
-    \ transcription sur les recommandations publi\xE9es dans l\u2019ouvrage *L\u2019\
-    \xE9dition critique des textes contemporains, XIXe-XXIe si\xE8cle*, par Christine\
-    \ Nougaret, Elisabeth Parinet et Florence Clavaud. N\xE9anmoins, certaines adaptations\
-    \ ont \xE9t\xE9 n\xE9cessaires afin de fournir un jeu de donn\xE9es issue de la\
-    \ transcription, qui soit \xE0 la fois proche du document source et exploitable\
-    \ par la suite. Ainsi, concernant les abr\xE9viations, nous avons d\xE9cid\xE9\
-    \ de conserver la graphie originale au sein de la transcription. Ce choix fut\
-    \ guid\xE9 par deux \xE9l\xE9ments : d\u2019une part, la volont\xE9 de conserver\
-    \ une graphie int\xE8gre, afin de fournir aux chercheurs s\u2019int\xE9ressant\
-    \ \xE0 ce sujet un texte facilement exploitable de mani\xE8re automatique, comme\
-    \ par exemple une analyse quantitative des types de soci\xE9t\xE9s (anonymes,\
-    \ familiales,\u2026) d\xE9posant des brevets. Cette d\xE9cision fut motiv\xE9\
-    e par la facilit\xE9 de r\xE9solution et compr\xE9hension des abr\xE9viations\
-    \ par le lecteur. D'autre part, il nous semble que cette approche permettrait\
-    \ une r\xE9utilisation g\xE9n\xE9rales des donn\xE9es, telle qu'un processus d'apprentissage\
-    \ machine.\nNous avons \xE9t\xE9 amen\xE9 \xE0 r\xE9aliser certains choix relevant\
-    \ de la transcription et de l\u2019\xE9dition du document. Pour ce faire, nous\
-    \ nous sommes r\xE9f\xE9r\xE9 au *Lexique typographique en usage \xE0 l\u2019\
-    Imprimerie nationale* : - les tirets en fin de ligne faisant la c\xE9sure au sein\
-    \ des mots ont \xE9t\xE9 r\xE9tablis (ex : direc-tion). - les num\xE9ros de page\
-    \ en haut de page ont \xE9t\xE9 transcris ainsi : \xAB _ N _ \xBB o\xF9 N correspond\
-    \ au num\xE9ro de page. - en cas de caract\xE8res mal imprim\xE9s ou us\xE9s,\
-    \ ceux-ci ont \xE9t\xE9 r\xE9tablis dans la mesure o\xF9 ils sont facilement interpr\xE9\
-    tables (mais non devinables) par le lecteur. \n"
-  volume:
-  - metric: characters
-    count: 55156
-  - metric: files
-    count: 17
-  - metric: lines
-    count: 1962
-  - metric: regions
-    count: 86
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: Chateau de Chavigny
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: Pascual
-    surname: Margot
-    roles:
-    - transcriber
-  - name: "Franchet d\\u0027Esp\xE8rey"
-    surname: Louis-Fiacre
-    roles:
-    - transcriber
-    - digitization
-  - name: Gabay
-    surname: Simon
-    roles:
-    - quality-control
-  description: "Le document sur lequel nous travaillons porte sur le Ch\xE2teau de\
-    \ Chavigny \xE0 Lern\xE9 en Touraine. Au XVI\xE8me si\xE8cle, c\u2019est la famille\
-    \ des seigneurs Leroy qui poss\xE8de ce ch\xE2teau. Avant 1568, en pleine guerre\
-    \ de religion, Fran\xE7ois Leroy, du parti du roi et des catholiques, participe\
-    \ \xE0 la capture et la ran\xE7on du prince de Cond\xE9, du parti protestant.\
-    \ En 1568, Fran\xE7ois Leroy, en tant que capitaine de 50 lances au service du\
-    \ roi, part en campagne avec lui.  L'objectif est de transcrire cinq feuillets\
-    \ d'un manuscrit \xE0 l'aide d'eScriptorium. Le but \xE9tant d'apprendre \xE0\
-    \ utiliser git et github pour mener \xE0 bien notre premier projet collaboratif.\n"
-  language:
-  - frm
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1568'
-    notAfter: '1599'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN-2021-ChateauChavigny/main/CITATION.cff
-  transcription-guidelines: "- Gestion des abbr\xE9viations: \n    - Si d\xE9veloppement\
-    \ (pas toujours), les d\xE9velopper entre crochets.\n    - L'orthographe originale\
-    \ et les abr\xE9viations doivent \xEAtre conserv\xE9es.\n- Gestion des \xE9checs\
-    \ de transcription de caract\xE8re : lorsqu'un qu'un caract\xE8re nous para\xEE\
-    t non sur, nous pr\xE9f\xE9rons mettre un [?] pour indiquer qu'il y a un caract\xE8\
-    re non transcrit dans un mot. Pour plusieurs caract\xE8res, faire autant de ?\
-    \ que de caract\xE8re non reconnu : tel [???] pour 3 caract\xE8res.\n"
-  volume:
-  - metric: characters
-    count: 9126
-  - metric: files
-    count: 6
-  - metric: lines
-    count: 253
-  - metric: regions
-    count: 22
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: DecameronFR
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
-  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
-
-    '
-  authors:
-  - name: Biay
-    surname: "S\xE9bastien"
-    roles:
-    - transcriber
-  - name: Cappe
-    surname: "Zo\xE9"
-    roles:
-    - transcriber
-  - name: Konstantinova
-    surname: Kristina
-    roles:
-    - transcriber
-  - name: Boby
-    surname: Victor
-    roles:
-    - transcriber
-    - aligner
-  description: "Le projet vise \xE0 la consitution de v\xE9rit\xE9s de terrain pour\
-    \ l\u2019entra\xEEnement de mod\xE8les HTR \xE0 partir d'un manuscrit fran\xE7\
-    ais des ann\xE9es 1430-1455 : le manuscrit 5070 de la Biblioth\xE8que de l'Arsenal\
-    \ (reproduit sur Gallica). Ce manuscrit contient la traduction fran\xE7aise du\
-    \ Decameron de Boccace par Laurent de Premierfait. Nos v\xE9rit\xE9s de terrain\
-    \ recouvrent la description de la peste \xE0 Florence situ\xE9e dans le prologue\
-    \ de l'ouvrage.\n"
-  language:
-  - frm
-  script:
-  - Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1430'
-    notAfter: '1455'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
-  transcription-guidelines: Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
-  volume:
-  - metric: characters
-    count: 19821
-  - metric: files
-    count: 9
-  - metric: lines
-    count: 751
-  - metric: regions
-    count: 41
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Ground truth for Neue Z\xFCrcher Zeitung black letter period"
   url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
@@ -1207,72 +245,58 @@
   - count: 1768146
     metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: FoNDUE Spanish chapbooks 19th c. Dataset
-  url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
+  title: Gwalther Handwriting Ground Truth
+  url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
+  project-name: 'Bullinger digital''
+
+    '
+  project-website: https://www.bullinger-digital.ch/
   authors:
-  - name: Carta
-    surname: Constance
+  - name: "Str\xF6bel"
+    surname: Phillip Benjamin
     roles:
-    - transcriber
-    - project-manager
-  - name: Leblanc
-    surname: "\xC9lina"
-    roles:
-    - digitization
-  - name: Jacsont
-    surname: Pauline
-    roles:
-    - digitization
-  - name: Palacios
-    surname: Belinda
-    roles:
-    - transcriber
+    - aligner
     - quality-control
-  - name: Bermudez
-    surname: Luana
+    - support
+  - name: Stotz
+    surname: Peter
     roles:
     - transcriber
-    - quality-control
-  description: Digital editions of the second part of the Genevan Spanish chapbooks
-    collection (19th c.).
-  project-name: Desenrollando El Cordel
-  project-website: https://github.com/DesenrollandoElCordel
+  description: "This is ground truth for Rudolph Gwalther\u2019s (1519-1586) handwriting\
+    \ taken from his book \"Lateinische\" Gedichte\", where he accumulated writings\
+    \ between 1540 and 1580. Data collection and ground truth creation:   At the time\
+    \ we collected the data, we found 150 images with corresponding transcriptions\
+    \ by Peter Stotz on e-manuscripta (reference: Gwalther, Rudolf: Lateinische Gedichte.\
+    \ Z\xFCrich, 1540-1580. Zentralbibliothek Z\xFCrich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750\
+    \ / Public Domain Mark) . We removed 8 images with too many corrections or vertical\
+    \ texts. Next, we uploaded the images into the Transkribus platform, applied the\
+    \ line recognition tool and manually copied the transcribed text lines into the\
+    \ recognised line boxes. During this process, we made some corrections, which\
+    \ were mainly due to inconsistencies in punctuation and capitalised letters.\n"
   language:
-  - cat
-  - spa
   - lat
   script:
   - Latn
-  script-type: only-typed
+  script-type: only-manuscript
   time:
-    notBefore: '1770'
-    notAfter: '1920'
+    notBefore: '1540'
+    notAfter: '1580'
   hands:
-    count: more-than-10
+    count: '1'
     precision: exact
   license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  sources:
-  - reference: ''
-    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502
-  - reference: ''
-    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502
   volume:
-  - metric: characters
-    count: 270718
-  - metric: lines
-    count: 12526
-  - metric: pages
-    count: 198
-  citation-file-link: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff
-  transcription-guidelines: "Les r\xE8gles de transcription suivante ont \xE9t\xE9\
-    \ adopt\xE9es :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter\
-    \ la ponctuation ;\n- Respecter les espaces ;\n- Respecter les retours \xE0 la\
-    \ ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019\
-    il y en a) ;\n- Supprimer le bruit (t\xE2ches qui ont \xE9t\xE9 prises pour du\
-    \ texte par l\u2019OCR)."
+  - count: 4040
+    metric: lines
+  - count: 142
+    metric: files
+  - count: 155
+    metric: regions
+  - count: 144301
+    metric: characters
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10,\
     \ Urfehdenbuch X"
@@ -1358,6 +382,982 @@
   - metric: lines
     count: 8000
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: GenAuto TD Corpus
+  url: https://github.com/jpmjpmjpm/genauto-td-htr.git
+  project-name: GenAuto
+  project-website: ''
+  authors:
+  - name: Boutet
+    surname: "Jean-Fran\xE7ois"
+    roles:
+    - transcriber
+    - aligner
+  - name: Merx
+    surname: Jean-Pierre
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+  description: "150 transcribed images from \"Tables D\xE9cennales\" French Civil\
+    \ Registry. Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1792'
+    notAfter: '1902'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 300
+    metric: pages
+  - count: 150
+    metric: images
+  - count: 150
+    metric: files
+  - count: 186366
+    metric: characters
+  - count: 21557
+    metric: lines
+  - count: 608
+    metric: regions
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)"
+  url: https://doi.org/10.5281/zenodo.5179361
+  authors:
+  - name: Hodel
+    surname: Tobias
+    roles:
+    - transcriber
+    - project-manager
+    - support
+  - name: Halter-Pernet
+    surname: Colette
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  - name: Teuscher
+    surname: Simon
+    roles:
+    - project-manager
+  description: "The data set is the publication of the data of the scholarly edition\
+    \ \"Urkunden und Akten des Klosters und der Hofmeisterei K\xF6nigsfelden\"."
+  project-website: https://www.koenigsfelden.uzh.ch/
+  language:
+  - lat
+  - deu
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1292'
+    notAfter: '1570'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 60000
+  transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: BiblIA
+  url: https://zenodo.org/record/5167263
+  project-name: 'Scripta PSL
+
+    '
+  project-website: https://escripta.hypotheses.org/
+  authors:
+  - name: "St\xF6kl Ben Ezra"
+    surname: Daniel
+    roles:
+    - transcriber
+    - project-manager
+  - name: Brown-DeVost
+    surname: Bronson
+  - name: Jablonski
+    surname: Pawel
+  - name: Kiessling
+    surname: Benjamin
+  - name: Lolli
+    surname: Elena
+  - name: Lapin
+    surname: Hayim
+  description: "This dataset for Handwritten Text Recognition includes layout segmentation\
+    \ (regions, toplines and linepolygons) and unicode-transcriptions in alto 4.2\
+    \ XML for 202 images of Medieval Hebrew manuscripts from the Biblioth\xE8que nationale\
+    \ de France (BnF, National Library of France) and the Biblioteca Apostolica Vaticana\
+    \ (BAV, Vatican Library) corresponding to the article \"BiblIA - a General Model\
+    \ for Medieval Hebrew Manuscripts and an Open Annotated Dataset\" by Daniel St\xF6\
+    kl Ben Ezra, Bronson Brown-DeVost, Pawel Jablonski, Benjamin Kiessling, Elena\
+    \ Lolli, and Hayim Lapin, published in HIP@ICDAR 2021 held in Lausanne, September\
+    \ 2021.\n"
+  language:
+  - heb
+  script:
+  - Hebr
+  script-type: only-manuscript
+  time:
+    notBefore: '1000'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 202
+  - metric: pages
+    count: 202
+  - metric: lines
+    count: 12461
+  - metric: regions
+    count: 509
+  - metric: characters
+    count: 278641
+  transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
+    \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
+    \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
+    \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
+    \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
+    \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
+    \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
+  url: http://dx.doi.org/10.34847/nkl.acb724xs
+  project-name: 'Groupe annuaires et adresses - Consortium Huma-num Paris Time Machine
+
+    '
+  project-website: https://paris-timemachine.huma-num.fr/groupe-adresses-et-annuaires/
+  authors:
+  - name: Elgarrista
+    surname: Gabriela
+    roles:
+    - transcriber
+    - quality-control
+  - name: "M\xE9lanie-Becquet"
+    surname: "Fr\xE9d\xE9rique"
+    roles:
+    - project-manager
+    - quality-control
+  - name: Brando
+    surname: Carmen
+    roles:
+    - project-manager
+    - quality-control
+  description: "Annuaire des propri\xE9taires et des propri\xE9t\xE9s de Paris et\
+    \ du d\xE9partement de la Seine. Lien dans le catalogue de la BNF : https://catalogue.bnf.fr/ark:/12148/cb32697229h.\
+    \ Cr\xE9dits : Biblioth\xE8que nationale de France. Donn\xE9es v\xE9rit\xE9 de\
+    \ terrain r\xE9sultant de la transcription et la segmentation manuelle d\u2019\
+    un \xE9chantillon de 169 pages des annuaires appartenant aux volumes 1898 et 1923.\
+    \ Un mod\xE8le de transcription HTR+ a \xE9t\xE9 entrain\xE9 \xE0 partir de cet\
+    \ \xE9chantillon gr\xE2ce \xE0 Transkribus et est disponible sur cette plateforme\
+    \ en mode public. Ce mod\xE8le est valable pour transcrire automatiquement les\
+    \ volumes de 1903 et 1913 et tout autre document imprim\xE9 \xE0 deux colonnes\
+    \ et en utilisant l'alphabet latin et particuli\xE8rement en fran\xE7ais. Le choix\
+    \ de l'\xE9chantillon est fait par crit\xE8re alphab\xE9tique car c'est le mode\
+    \ d'organisation de l'information dans ce document. Les accolades pr\xE9sentes\
+    \ dans le document n'ont pas \xE9t\xE9 segment\xE9es. 118 pages pour entrainer\
+    \ et 51 pages pour validation.\nContexte et financement : Subvention DAHN (Dispositif\
+    \ de soutien \xE0 l'archivistique et aux humanit\xE9s num\xE9riques) par le MESRI.\
+    \ Equipes : Consortium Paris Time Machine - TGIR Humanum EHESS / CNRS / LATTICE\
+    \ / INRIA Contact si besoin d'anonymiser les noms de personnes : carmen.brando@ehess.fr.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1898'
+    notAfter: '1923'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - count: 169
+    metric: pages
+  - count: 19022
+    metric: lines
+  - count: 641401
+    metric: characters
+  transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas \xE9\
+    t\xE9 segment\xE9es.\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Shakespeare-Scott translations
+  url: https://github.com/millawell/ocr-data
+  project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
+    setting''
+
+    '
+  project-website: https://github.com/millawell/ocr-data
+  authors:
+  - name: Lassner
+    surname: David
+  - name: Coburger
+    surname: Julius
+  - name: Neudecker
+    surname: Clemens
+  - name: Baillot
+    surname: Anne
+  description: "Ground truth data in German and English of Shakespeare and Scott prints\
+    \ in original and different translations. \n"
+  language:
+  - eng
+  - deu
+  script:
+  - Latn
+  - Latf
+  script-type: only-typed
+  time:
+    notBefore: '1815'
+    notAfter: '1852'
+  hands:
+    count: unknown
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 5354
+  - metric: files
+    count: 131
+  - metric: regions
+    count: 131
+  - metric: characters
+    count: 192264
+  sources:
+  - reference: ''
+    link: https://zfdg.de/sb005_006
+  citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Caroline Minuscule by Rescribe
+  url: https://github.com/rescribe/carolineminuscule-groundtruth
+  project-name: Rescribe
+  project-website: https://rescribe.xyz/
+  authors:
+  - name: White
+    surname: Nick
+    roles:
+    - transcriber
+    - project-manager
+  - name: Karaisl
+    surname: Antonia
+    roles:
+    - transcriber
+    - project-manager
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - aligner
+  description: 'This ground truth repository is a work in process; it currently accounts
+    for a part of our complete Caroline Minuscule training pool of around 70 manuscripts
+    used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
+
+    '
+  language:
+  - lat
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '800'
+    notAfter: '1199'
+  hands:
+    count: 1-per-file
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 457
+    metric: lines
+  - count: 17
+    metric: files
+  - count: 45
+    metric: regions
+  - count: 16909
+    metric: characters
+  transcription-guidelines: "In general this meant deciding between diplomatic transcription\
+    \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
+    \ reinterpreting medieval signs into modern equivalents) with a view to specific\
+    \ categories. Read on for a summary of the rules and the respective rationale\
+    \ behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed\
+    \ with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\
+    \n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic\
+    \ where possible: Retain abbreviations and render glyphs as opposed to expanded\
+    \ versions where possible\n    \"*\" where original character isn't served: OCRopus\
+    \ (at the point in time of transcription) could not handle some of the medieval\
+    \ glyphs, even where a Unicode version was present. Abbreviations not in OCRopus\
+    \ are uniformly transcribed as \"*\", in the case of a combined character (such\
+    \ as a consonant with a macron) as the base character followed by \"*\" (e.g.\
+    \ \"t*\"). The list of accepted characters in OCRopus can be found in this repository,\
+    \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
+    \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
+    \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
+    \ numerals'\n"
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Chateau de Chavigny
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: Pascual
+    surname: Margot
+    roles:
+    - transcriber
+  - name: "Franchet d\\u0027Esp\xE8rey"
+    surname: Louis-Fiacre
+    roles:
+    - transcriber
+    - digitization
+  - name: Gabay
+    surname: Simon
+    roles:
+    - quality-control
+  description: "Le document sur lequel nous travaillons porte sur le Ch\xE2teau de\
+    \ Chavigny \xE0 Lern\xE9 en Touraine. Au XVI\xE8me si\xE8cle, c\u2019est la famille\
+    \ des seigneurs Leroy qui poss\xE8de ce ch\xE2teau. Avant 1568, en pleine guerre\
+    \ de religion, Fran\xE7ois Leroy, du parti du roi et des catholiques, participe\
+    \ \xE0 la capture et la ran\xE7on du prince de Cond\xE9, du parti protestant.\
+    \ En 1568, Fran\xE7ois Leroy, en tant que capitaine de 50 lances au service du\
+    \ roi, part en campagne avec lui.  L'objectif est de transcrire cinq feuillets\
+    \ d'un manuscrit \xE0 l'aide d'eScriptorium. Le but \xE9tant d'apprendre \xE0\
+    \ utiliser git et github pour mener \xE0 bien notre premier projet collaboratif.\n"
+  language:
+  - frm
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1568'
+    notAfter: '1599'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN-2021-ChateauChavigny/main/CITATION.cff
+  transcription-guidelines: "- Gestion des abbr\xE9viations: \n    - Si d\xE9veloppement\
+    \ (pas toujours), les d\xE9velopper entre crochets.\n    - L'orthographe originale\
+    \ et les abr\xE9viations doivent \xEAtre conserv\xE9es.\n- Gestion des \xE9checs\
+    \ de transcription de caract\xE8re : lorsqu'un qu'un caract\xE8re nous para\xEE\
+    t non sur, nous pr\xE9f\xE9rons mettre un [?] pour indiquer qu'il y a un caract\xE8\
+    re non transcrit dans un mot. Pour plusieurs caract\xE8res, faire autant de ?\
+    \ que de caract\xE8re non reconnu : tel [???] pour 3 caract\xE8res.\n"
+  volume:
+  - metric: characters
+    count: 9126
+  - metric: files
+    count: 6
+  - metric: lines
+    count: 253
+  - metric: regions
+    count: 22
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Projet Exposition universelle de 1878
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
+
+    '
+  authors:
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - transcriber
+  - name: Davoury
+    surname: Baudoin
+    roles:
+    - transcriber
+  - name: Anahi
+    surname: Haedo
+    roles:
+    - transcriber
+  - name: Kervegan
+    surname: Paul
+    roles:
+    - transcriber
+  - name: Sanchez-Oeconomo
+    surname: Esteban
+    roles:
+    - transcriber
+  description: "Le Congr\xE8s international des sciences ethnographiques de 1878 a\
+    \ eu lieu \xE0 l\u2019occasion de l'Exposition universelle de 1878, \xE0 Paris.\
+    \ \xC9dit\xE9 en 1881 par l'Imprimerie nationale, le compte rendu de ce congr\xE8\
+    s a \xE9t\xE9 mis \xE0 disposition par le Conservatoire num\xE9rique des Arts\
+    \ et M\xE9tiers.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  - Grek
+  - Deva
+  - Arab
+  script-type: only-typed
+  time:
+    notBefore: '1881'
+    notAfter: '1881'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles/main/CITATION.cff
+  transcription-guidelines: "Diplomatique, mais pas allograph\xE9tique."
+  volume:
+  - metric: characters
+    count: 155022
+  - metric: files
+    count: 56
+  - metric: lines
+    count: 2620
+  - metric: regions
+    count: 158
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Memorials for Jane Lathrop Stanford
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+    '
+  authors:
+  - name: "Guimar\xE3es"
+    surname: Ingrid
+    roles:
+    - transcriber
+    - aligner
+  - name: Maurel
+    surname: Perrine
+    roles:
+    - transcriber
+    - aligner
+  - name: Ozturk
+    surname: Yagmur
+    roles:
+    - transcriber
+    - aligner
+  description: "Les donn\xE9es sources ont \xE9t\xE9 t\xE9l\xE9vers\xE9es sur le site\
+    \ From the page par les Archives de l\u2019Universit\xE9 Stanford qui en sont\
+    \ les propri\xE9taires. Elles ont ensuite \xE9t\xE9 retranscrites par des b\xE9\
+    n\xE9voles anonymes ; c\u2019est leur travail nous a servi de base pour corriger\
+    \ nos propres retranscriptions. Les documents sources choisies sont des lettres\
+    \ de diff\xE9rents auteurs portant sur les obs\xE8ques de Jane Lathrop Stanford.\
+    \  Les lettres s\xE9lectionn\xE9es \xE9taient les lettres : 42, 43, 46, 49, 50,\
+    \ 54, 57 \xE0 60, 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80\
+    \ \xE0 93 [section 2, retranscrites par Ingrid GUIMAR\xC3ES] ; 241 \xE0 242  [section\
+    \ 3, retranscrites par Yagmur OZTURK].\n"
+  language:
+  - eng
+  script:
+  - Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1905'
+    notAfter: '1905'
+  hands:
+    count: 1-per-file
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
+  transcription-guidelines: "Notre retranscription en elle-m\xEAme a cherch\xE9 \xE0\
+    \ retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les\
+    \ erreurs \xE9ventuelles intrins\xE8ques au document. Il convient toutefois de\
+    \ noter que dans certains cas, les documents pr\xE9sentaient des mentions impr\xE9\
+    cises qui n\u2019avaient pas \xE9t\xE9 prises en compte par les retranscriptions\
+    \ originelles, ou alors qui avaient \xE9t\xE9 soulign\xE9es comme \xE9tant une\
+    \ retranscription incertaine. Nous avons alors fait le choix d\u2019\xEAtre plus\
+    \ exhaustif que la retranscription originelle si possible, et nous avons parfois\
+    \ fait des choix de retranscription diff\xE9rents sur la base de notre ressenti\
+    \ visuel lors du travail. En raison de ces choix, la taille d\u2019une page s\u2019\
+    est donc parfois av\xE9r\xE9e rallong\xE9e par rapport \xE0 l\u2019estimation\
+    \ premi\xE8re.'\n"
+  volume:
+  - metric: characters
+    count: 18063
+  - metric: files
+    count: 41
+  - metric: lines
+    count: 770
+  - metric: regions
+    count: 51
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: DecameronFR
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+    '
+  authors:
+  - name: Biay
+    surname: "S\xE9bastien"
+    roles:
+    - transcriber
+  - name: Cappe
+    surname: "Zo\xE9"
+    roles:
+    - transcriber
+  - name: Konstantinova
+    surname: Kristina
+    roles:
+    - transcriber
+  - name: Boby
+    surname: Victor
+    roles:
+    - transcriber
+    - aligner
+  description: "Le projet vise \xE0 la consitution de v\xE9rit\xE9s de terrain pour\
+    \ l\u2019entra\xEEnement de mod\xE8les HTR \xE0 partir d'un manuscrit fran\xE7\
+    ais des ann\xE9es 1430-1455 : le manuscrit 5070 de la Biblioth\xE8que de l'Arsenal\
+    \ (reproduit sur Gallica). Ce manuscrit contient la traduction fran\xE7aise du\
+    \ Decameron de Boccace par Laurent de Premierfait. Nos v\xE9rit\xE9s de terrain\
+    \ recouvrent la description de la peste \xE0 Florence situ\xE9e dans le prologue\
+    \ de l'ouvrage.\n"
+  language:
+  - frm
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1430'
+    notAfter: '1455'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
+  transcription-guidelines: Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
+  volume:
+  - metric: characters
+    count: 19821
+  - metric: files
+    count: 9
+  - metric: lines
+    count: 751
+  - metric: regions
+    count: 41
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "De la g\xE9n\xE9alogie des dieux"
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    roles:
+    - transcriber
+    - project-manager
+  - name: Leroy
+    surname: "No\xE9"
+    roles:
+    - transcriber
+    - project-manager
+  - name: Maulu
+    surname: Marco
+    roles:
+    - project-manager
+    - quality-control
+  description: "This repository hosts all the documents, including transcriptions,\
+    \ bibliographical  references and introduction that serve the team Boccace for\
+    \ the validation of the course \"Bonnes pratiques du developpement collaboratif\
+    \ : initiation \xE0 Git\"  (prof. Thibault Cl\xE9rice), of the first semester\
+    \ - Master Humanit\xE9s Num\xE9riques ENC-PSL 2021-2022.  At the same time it\
+    \ and constitutes part of the biannual project \"Per un\u2019edizione digitale\
+    \ della Genealogia deorum gentilium\"  di Boccaccio\" (dir. F. Duval, M. Maulu).\
+    \ Financed in 2021, this project foresees to put on line in XML format the unpublished\
+    \  translation in Middle French entitled \"De la genealogie des dieux\".\n"
+  language:
+  - frm
+  - lat
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1472'
+    notAfter: '1498'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 109409
+  - metric: files
+    count: 47
+  - metric: lines
+    count: 3656
+  - metric: regions
+    count: 292
+  sources:
+  - reference: "Laurent Premierfait, Boccace (1498), \"De la genealogie des dieux\"\
+      , Paris, A. V\xE9rard."
+    link: 'https://gallica.bnf.fr/ark:/12148/bpt6k105063r?rk=21459;2 '
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff
+  transcription-guidelines: 'No development of abbreviations. Special characters are
+    used for the graphemic transcription, compatible with the Unicode mufi qnd the
+    special character table of cremma-medieval.   No correction of orthography errors,
+    BUT proper transcription of inversed letters (for Inc59) such as character "n"
+    printed as "u" in several cases.  Spaces were added freely for word separation
+    according to dictionaries of middle French and Latin (latin forms verified on
+    Collatinus).  For more documentation regarding the transcription norms and guidelines
+    head to the repository and the report file.''''
+
+    '
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Argus des Brevets
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: De Craene
+    surname: Valentin
+    roles:
+    - transcriber
+  - name: Humeau
+    surname: Maxime
+    roles:
+    - transcriber
+  - name: Reignier
+    surname: Virgile
+    roles:
+    - transcriber
+  description: "L\u2019argus des brevets de 1910 se pr\xE9sente sous la forme d\u2019\
+    un imprim\xE9 contemporain, organis\xE9 en rubriques regroupant de mani\xE8re\
+    \ chronologique puis th\xE9matique les brevets d\xE9pos\xE9s en France. Cette\
+    \ \xE9num\xE9ration et pr\xE9sentation succincte des brevets est r\xE9partie en\
+    \ deux colonnes et pr\xE9sente des abr\xE9viations normalis\xE9es. D\xE8s lors,\
+    \ ce pr\xE9sent guide de contribution au projet entend pr\xE9senter l\u2019ensemble\
+    \ des normes de transcriptions adopt\xE9es au cours de ce projet de transcription,\
+    \ r\xE9alis\xE9 sur la plateforme E-scriptorium, dans le cadre du cours Git du\
+    \ master TNAH \xE0 l\u2019ENC.\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1910'
+    notAfter: '1910'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets/main/CITATION.cff
+  transcription-guidelines: "En premier lieu, nous avons d\xE9cid\xE9 de fonder notre\
+    \ transcription sur les recommandations publi\xE9es dans l\u2019ouvrage *L\u2019\
+    \xE9dition critique des textes contemporains, XIXe-XXIe si\xE8cle*, par Christine\
+    \ Nougaret, Elisabeth Parinet et Florence Clavaud. N\xE9anmoins, certaines adaptations\
+    \ ont \xE9t\xE9 n\xE9cessaires afin de fournir un jeu de donn\xE9es issue de la\
+    \ transcription, qui soit \xE0 la fois proche du document source et exploitable\
+    \ par la suite. Ainsi, concernant les abr\xE9viations, nous avons d\xE9cid\xE9\
+    \ de conserver la graphie originale au sein de la transcription. Ce choix fut\
+    \ guid\xE9 par deux \xE9l\xE9ments : d\u2019une part, la volont\xE9 de conserver\
+    \ une graphie int\xE8gre, afin de fournir aux chercheurs s\u2019int\xE9ressant\
+    \ \xE0 ce sujet un texte facilement exploitable de mani\xE8re automatique, comme\
+    \ par exemple une analyse quantitative des types de soci\xE9t\xE9s (anonymes,\
+    \ familiales,\u2026) d\xE9posant des brevets. Cette d\xE9cision fut motiv\xE9\
+    e par la facilit\xE9 de r\xE9solution et compr\xE9hension des abr\xE9viations\
+    \ par le lecteur. D'autre part, il nous semble que cette approche permettrait\
+    \ une r\xE9utilisation g\xE9n\xE9rales des donn\xE9es, telle qu'un processus d'apprentissage\
+    \ machine.\nNous avons \xE9t\xE9 amen\xE9 \xE0 r\xE9aliser certains choix relevant\
+    \ de la transcription et de l\u2019\xE9dition du document. Pour ce faire, nous\
+    \ nous sommes r\xE9f\xE9r\xE9 au *Lexique typographique en usage \xE0 l\u2019\
+    Imprimerie nationale* : - les tirets en fin de ligne faisant la c\xE9sure au sein\
+    \ des mots ont \xE9t\xE9 r\xE9tablis (ex : direc-tion). - les num\xE9ros de page\
+    \ en haut de page ont \xE9t\xE9 transcris ainsi : \xAB _ N _ \xBB o\xF9 N correspond\
+    \ au num\xE9ro de page. - en cas de caract\xE8res mal imprim\xE9s ou us\xE9s,\
+    \ ceux-ci ont \xE9t\xE9 r\xE9tablis dans la mesure o\xF9 ils sont facilement interpr\xE9\
+    tables (mais non devinables) par le lecteur. \n"
+  volume:
+  - metric: characters
+    count: 55156
+  - metric: files
+    count: 17
+  - metric: lines
+    count: 1962
+  - metric: regions
+    count: 86
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Projet Correspondance Berlioz
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
+
+    '
+  authors:
+  - name: "C\xE9ard"
+    surname: Lien
+    roles:
+    - transcriber
+  - name: Sajdak
+    surname: "C\xE9cile"
+    roles:
+    - transcriber
+  - name: Lebreton
+    surname: Fanny
+    roles:
+    - transcriber
+  description: "Nous avons choisi de travailler sur la correspondance active de Hector\
+    \ Berlioz adress\xE9e \xE0 sa s\u0153ur Anne-Marguerite \"Nanci\" Berlioz. L\u2019\
+    ensemble des lettres adress\xE9es \xE0 Nanci Berlioz repr\xE9sentait un volume\
+    \ trop important pour notre projet, aussi nous les avons s\xE9lectionn\xE9es,\
+    \ par souci de coh\xE9rence, selon un ordre chronologique (voir le tableau de\
+    \ gestion) pour la liste exacte des lettres transcrites).\n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1823'
+    notAfter: '1844'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz/main/CITATION.cff
+  transcription-guidelines: "**Orthographe :** - Aucune modification op\xE9r\xE9e\
+    \ sur l'orthographe, m\xEAme en pr\xE9sence de fautes. - L'orthographe ancienne\
+    \ est laiss\xE9e telle quelle.  - Aucune restitution des accents manquants. Aucune\
+    \ correction des accents fautifs. Restitution de la bonne graphie de l'accent,\
+    \ lorsque nous consid\xE9rons qu'il y a une variation de la graphie de celui-ci\
+    \ \xE0 cause de la rapidit\xE9 d'\xE9criture.    - Aucune restitution des traits\
+    \ d'union manquants. - S\xE9paration des mots coll\xE9s d\xE8s lors que la ligature\
+    \ entre ces mots semble due \xE0 la rapidit\xE9 de l'\xE9criture.\n**Abr\xE9viations\
+    \ :** - Aucune r\xE9solution d'abr\xE9viation. - Utilisation du symbole mon\xE9\
+    taire de la livre tournois \u2192 **\u20B6** (Unicode U+20B6).\n**Mots en exposant\
+    \ :** - Restitution seulement du mot sans le mettre en exposant.\n**Majuscules\
+    \ et minuscules :** -  Aucune restitution des majuscules, m\xEAme lorsqu'elles\
+    \ sont absentes en d\xE9but de phrase ou de nom propre.\n**Ponctuation :** - Aucune\
+    \ restitution de la ponctuation manquante. Aucune correction de la ponctuation\
+    \ fautive.  - Emploi du tiret cadratin (\u2014, unicode U+2014) de part et d'autre\
+    \ d'une incise.  - Emploi du tiret demi-cadratin (\u2013, unicode U+2013) pour\
+    \ marquer le changement d\u2019interlocuteur dans les dialogues et devant les\
+    \ \xE9l\xE9ments des listes/ \xE9num\xE9rations.\n"
+  volume:
+  - metric: characters
+    count: 13474
+  - metric: files
+    count: 16
+  - metric: lines
+    count: 367
+  - metric: regions
+    count: 64
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: Projet Notre-Dame
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+    '
+  authors:
+  - name: Doat
+    surname: Soline
+    roles:
+    - transcriber
+  - name: Menu
+    surname: Ariane
+    roles:
+    - transcriber
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - transcriber
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+  - name: "Mazou\xE9"
+    surname: "Ana\xEFs"
+    roles:
+    - transcriber
+  description: "Le Projet Notre-Dame consiste en une transcription des journaux quotidiens\
+    \ de l\u2019ann\xE9e 1860 (https://mediatheque-patrimoine.culture.gouv.fr/sites/mediatheque/files/jnd_1860.pdf)\
+    \ des travaux de restauration effectu\xE9s de 1844 \xE0 1865 \xE0 la cath\xE9\
+    drale Notre-Dame de Paris sous la direction d'Eug\xE8ne Viollet-le-Duc et Jean-Baptiste\
+    \ Lassus. Celle-ci a \xE9t\xE9 effectu\xE9e sur eScriptorium \xE0 partir de la\
+    \ num\xE9risation des journaux des travaux (https://mediatheque-patrimoine.culture.gouv.fr/travaux-de-notre-dame-de-paris-1844-1865)\
+    \ r\xE9alis\xE9e par la M\xE9diath\xE8que de l'architecture et du patrimoine.\
+    \ \n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1860'
+    notAfter: '1860'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame/main/CITATION.cff
+  transcription-guidelines: "- respect des majuscules et minuscules - respect des\
+    \ ligatures (par exemple, transcrire \"ch\u0153ur\") - mot qui est barr\xE9 :\
+    \ \u96BE (une seule fois par mot) mais seulement s'ils sont totalement/\xE0 moiti\xE9\
+    \ illisibles. Les restranscrire entre accolades {} s'ils sont lisibles.  - Pour\
+    \ mettre en exergue les doutes de transcription : \n    - mot incertain: [incertain]\n\
+    \    - mot que l'on ne parvient pas \xE0 transcrire : [??]\n"
+  volume:
+  - metric: characters
+    count: 29286
+  - metric: files
+    count: 12
+  - metric: lines
+    count: 735
+  - metric: regions
+    count: 86
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: OCR Corse
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: Sarbach-Pulicani
+    surname: Vincent
+    roles:
+    - transcriber
+    - project-manager
+  - name: "Sa\xEFag"
+    surname: Violette
+  - name: Escoda
+    surname: Adrien
+    roles:
+    - transcriber
+  - name: Miaille
+    surname: "Th\xE9ophile"
+    roles:
+    - transcriber
+    - project-manager
+  description: "Le premier ouvrage s\u2019intitule *Ponten\xF4vu* a \xE9t\xE9 \xE9\
+    crit par Petru Rocca et publi\xE9 par la \"Stamparia di a Muvra\" en 1927. Il\
+    \ s'agit d'un recueil de po\xE8mes en corse et en fran\xE7ais dont les th\xE8\
+    mes varient. *A Muvra* est un journal autonomiste corse d'influence maurassienne\
+    \ qui a exist\xE9 pendant toute la p\xE9riode de l'entre-deux-guerres. Se revendiquant\
+    \ comme \xE9tant une revue culturelle, la dimension politique de la revue (incarn\xE9\
+    e par le PCA, ou Partitu corsu d'azione), en a fait un mouvement controvers\xE9\
+    . C'est dans ce contexte de lutte politique et d'\xE9veil culturel corse que s'inscrit\
+    \ ce recueil.\nLe second ouvrage s'intitule *A nostra Santa Fede - Catechismu\
+    \ Corsu*, \xE9crit par Ageniu Grimaldi en 1926 sous le pseudonyme de Saveriu Malaspina.\
+    \ Proche de Petru Rocca, ce-dernier est l'un des th\xE9oriciens de l'autonomisme\
+    \ corse de l'entre-deux-guerres et fid\xE8le muvriste. Dans l'ouvrage, il est\
+    \ fait mention notamment de la fa\xE7on dont un vrai corse doit se comproter vis-\xE0\
+    -vis de sa foi envers Dieu et son \xEEle. Bien qu'il ne s'agisse pas r\xE9ellement\
+    \ d'un recueil de po\xE8mes, le style d'\xE9criture de cet ouvrage est particuli\xE8\
+    rement int\xE9ressant. Il reprend un style qui se rapproche des \xE9crits bibliques.\n"
+  language:
+  - cos
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1926'
+    notAfter: '1927'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
+  transcription-guidelines: ''
+  volume:
+  - metric: characters
+    count: 40957
+  - metric: files
+    count: 47
+  - metric: lines
+    count: 1664
+  - metric: regions
+    count: 146
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier\
+    \ oss\xE9tien"
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif
+
+    '
+  authors:
+  - name: "L\u2019Eveque"
+    surname: "Zo\xE9"
+    roles:
+    - transcriber
+  - name: Ekaterina
+    surname: Kate
+    roles:
+    - transcriber
+  - name: Kasparian
+    surname: Anahide
+    roles:
+    - transcriber
+  description: "Nous avons choisi de transcrire le deuxi\xE8me chapitre de l\u2019\
+    ouvrage de Maxime Kovalewsky :  Coutume contemporaine et loi ancienne : droit\
+    \ coutumier oss\xE9tien, \xE9clair\xE9 par l\u2019histoire compar\xE9e. Paris,\
+    \ L. Larose, 1893. \n"
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-typed
+  time:
+    notBefore: '1893'
+    notAfter: '1893'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF
+  volume:
+  - metric: characters
+    count: 45626
+  - metric: files
+    count: 28
+  - metric: lines
+    count: 983
+  - metric: regions
+    count: 72
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Tapus Corpus
   url: https://github.com/HTR-United/tapuscorpus
@@ -1691,6 +1691,49 @@
     metric: characters
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: CREMMA Manuscrits du 16e
+  url: https://github.com/HTR-United/CREMMA-MSS-16
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 16th century
+
+    '
+  language:
+  - fra
+  script:
+  - Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1599'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 17e
   url: https://github.com/HTR-United/CREMMA-MSS-17
   project-name: CREMMA
@@ -1705,9 +1748,15 @@
     roles:
     - project-manager
     - quality-control
-  description: 'Manuscripts of the 17th century
-
-    '
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  description: Various Manuscripts of the 17th century
   language:
   - fra
   script:
@@ -1725,13 +1774,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 14416
+    count: 38621
   - metric: files
-    count: 20
+    count: 60
   - metric: lines
-    count: 383
+    count: 1062
   - metric: regions
-    count: 46
+    count: 138
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 18e
@@ -1814,13 +1863,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 43116
+    count: 54138
   - metric: files
-    count: 61
+    count: 69
   - metric: lines
-    count: 1526
+    count: 1807
   - metric: regions
-    count: 143
+    count: 167
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 20e
@@ -1856,14 +1905,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 0
-    metric: lines
-  - count: 0
-    metric: files
-  - count: 0
-    metric: regions
-  - count: 0
-    metric: characters
+  - metric: characters
+    count: 5600
+  - metric: files
+    count: 13
+  - metric: lines
+    count: 224
+  - metric: regions
+    count: 25
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Notaires de Paris - Bronod
@@ -2336,37 +2385,57 @@
     Abbreviations and mispelling were not corrected. Superscripted portions of text
     are preceeded by ^. '
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Repository\u2019s Title"
-  url: Link to your data repository
-  project-name: 'Your project name
-
-    '
-  project-website: Link to your project
+  title: WikiCremma
+  url: https://github.com/HTR-United/cremma-wikipedia
   authors:
-  - name: Author Name
-    surname: Author Firstname
+  - name: "Cl\xE9rice"
+    surname: Thibault
     roles:
-    - transcriber
-  description: "Description \n"
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - aligner
+  description: 'The WikiCremma projet aims at creating a collection of ground truth
+    to train HTR models on contemporary French handwriting.
+
+
+    Each image represents an exerpt from a randomly selected Wikipedia page, copied
+    by hand by volunteers. We then took care of the alignment between the handwritten
+    portion and the original text, also present on the image.'
+  project-name: CREMMA
   language:
-  - eng
   - fra
+  production-software: eScriptorium + Kraken
   script:
   - Latn
   script-type: only-manuscript
   time:
-    notBefore: '1500'
-    notAfter: '1300'
+    notBefore: '2022'
+    notAfter: '2023'
   hands:
-    count: 1-per-folder
-    precision: exact
+    count: 1-per-file
+    precision: estimated
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
+  transcription-guidelines: Superscript is preceded by a ^.
   volume:
+  - metric: characters
+    count: 11430
   - metric: files
-    count: 10
+    count: 42
+  - metric: lines
+    count: 249
+  - metric: regions
+    count: 42
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Cremma Medieval Occitan
   url: https://github.com/HTR-United/cremma-medieval-occ
@@ -2481,16 +2550,16 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 98319
+    count: 18289
   - metric: files
-    count: 60
+    count: 20
   - metric: lines
-    count: 3048
+    count: 576
   - metric: regions
-    count: 241
+    count: 51
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
-  citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.cff
+  citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Donn\xE9es HTR incunables du 15e si\xE8cle"
   description: "Corpus d'entrainement pour l'HTR compos\xE9 d'incunable fran\xE7ais\
@@ -2533,13 +2602,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 163877
+    count: 243907
   - metric: files
-    count: 109
+    count: 149
   - metric: lines
-    count: 5136
+    count: 7608
   - metric: regions
-    count: 345
+    count: 535
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet CREMMALAB : https://cremmalab.hypotheses.org"
   citation-file-link: https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff
@@ -2652,58 +2721,6 @@
     \ du projet gallicorpora"
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-  title: "Donn\xE9es imprim\xE9s du 18e si\xE8cle"
-  description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 18e\
-    \ si\xE8cle"
-  url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
-  authors:
-  - name: Gabay
-    surname: Simon
-    roles:
-    - project-manager
-  - name: Pinche
-    surname: Ariane
-    roles:
-    - project-manager
-  - name: Fabert
-    surname: Eliott
-    roles:
-    - transcriber
-  - name: Christensen
-    surname: Kelly
-    roles:
-    - support
-  project-name: Gallicorpora
-  project-website: https://github.com/Gallicorpora
-  language:
-  - frm
-  - fra
-  script:
-  - Latn
-  script-type: evenly-mixed
-  time:
-    notBefore: '1699'
-    notAfter: '1700'
-  hands:
-    count: 1-per-folder
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 23786
-  - metric: files
-    count: 40
-  - metric: lines
-    count: 841
-  - metric: regions
-    count: 116
-  transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
-    \ du projet Gallicorpora"
-  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: "Donn\xE9es imprim\xE9s gothiques du 16e si\xE8cle"
   description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 16e\
     \ si\xE8cle"
@@ -2753,6 +2770,58 @@
     count: 233
   transcription-guidelines: Les transcriptions suivent les normes de transcription
     du projet Gallicorpora
+- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  title: "Donn\xE9es imprim\xE9s du 18e si\xE8cle"
+  description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 18e\
+    \ si\xE8cle"
+  url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Fabert
+    surname: Eliott
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - frm
+  - fra
+  script:
+  - Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1699'
+    notAfter: '1700'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 98888
+  - metric: files
+    count: 100
+  - metric: lines
+    count: 2914
+  - metric: regions
+    count: 380
+  transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+    \ du projet Gallicorpora"
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: FoNDUE MSS 18
   url: https://github.com/FoNDUE-HTR/FONDUE-MSS-18
@@ -2855,7 +2924,7 @@
   - metric: files
     count: 601
   - metric: lines
-    count: 9327
+    count: 9328
   - metric: regions
     count: 1699
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
