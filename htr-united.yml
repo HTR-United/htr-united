@@ -1,4 +1,4 @@
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: FoNDUE Spanish chapbooks 19th c. Dataset
   url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
   authors:
@@ -34,7 +34,7 @@
   - spa
   - lat
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1770'
@@ -65,7 +65,8 @@
     \ ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019\
     il y en a) ;\n- Supprimer le bruit (t\xE2ches qui ont \xE9t\xE9 prises pour du\
     \ texte par l\u2019OCR)."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
   project-website: https://calfa.fr/blog/26
@@ -106,7 +107,7 @@
   language:
   - ara
   script:
-  - Arab
+  - iso: Arab
   script-type: only-manuscript
   time:
     notBefore: '1700'
@@ -139,7 +140,8 @@
     available on Github and in the paper.''
 
     '
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: OCR17plus
   url: https://github.com/e-ditiones/OCR17plus
   project-name: E-ditiones
@@ -160,7 +162,7 @@
   language:
   - frm
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1600'
@@ -181,7 +183,8 @@
     metric: regions
   - count: 686335
     metric: characters
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Ground truth for Neue Z\xFCrcher Zeitung black letter period"
   url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
   project-name: 'impresso''
@@ -223,7 +226,7 @@
   language:
   - deu
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1780'
@@ -244,7 +247,8 @@
     metric: regions
   - count: 1768146
     metric: characters
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
   project-name: 'Bullinger digital''
@@ -276,7 +280,7 @@
   language:
   - lat
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1540'
@@ -297,7 +301,8 @@
     metric: regions
   - count: 144301
     metric: characters
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10,\
     \ Urfehdenbuch X"
   url: https://doi.org/10.5281/zenodo.5153263
@@ -366,7 +371,7 @@
   language:
   - deu
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1563'
@@ -382,7 +387,8 @@
   - metric: lines
     count: 8000
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
   project-name: GenAuto
@@ -404,7 +410,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1792'
@@ -429,7 +435,8 @@
     metric: lines
   - count: 608
     metric: regions
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)"
   url: https://doi.org/10.5281/zenodo.5179361
   authors:
@@ -459,7 +466,7 @@
   - lat
   - deu
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1292'
@@ -475,7 +482,8 @@
   - metric: lines
     count: 60000
   transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
   project-name: 'Scripta PSL
@@ -510,7 +518,7 @@
   language:
   - heb
   script:
-  - Hebr
+  - iso: Hebr
   script-type: only-manuscript
   time:
     notBefore: '1000'
@@ -539,7 +547,8 @@
     \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
     \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
     \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
     \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
   url: http://dx.doi.org/10.34847/nkl.acb724xs
@@ -583,7 +592,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1898'
@@ -604,7 +613,8 @@
     metric: characters
   transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas \xE9\
     t\xE9 segment\xE9es.\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: Transkribus
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
@@ -627,8 +637,8 @@
   - eng
   - deu
   script:
-  - Latn
-  - Latf
+  - iso: Latn
+  - iso: Latf
   script-type: only-typed
   time:
     notBefore: '1815'
@@ -653,7 +663,8 @@
   - reference: ''
     link: https://zfdg.de/sb005_006
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Caroline Minuscule by Rescribe
   url: https://github.com/rescribe/carolineminuscule-groundtruth
   project-name: Rescribe
@@ -681,7 +692,7 @@
   language:
   - lat
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '800'
@@ -720,7 +731,8 @@
     \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
     \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
     \ numerals'\n"
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Chateau de Chavigny
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -750,7 +762,7 @@
   language:
   - frm
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1568'
@@ -779,7 +791,8 @@
     count: 253
   - metric: regions
     count: 22
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Projet Exposition universelle de 1878
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
   project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
@@ -814,10 +827,10 @@
   language:
   - fra
   script:
-  - Latn
-  - Grek
-  - Deva
-  - Arab
+  - iso: Latn
+  - iso: Grek
+  - iso: Deva
+  - iso: Arab
   script-type: only-typed
   time:
     notBefore: '1881'
@@ -840,7 +853,8 @@
     count: 2620
   - metric: regions
     count: 158
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Memorials for Jane Lathrop Stanford
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
   project-name: 'ENC - Bonnes pratiques du developpement collaboratif
@@ -875,7 +889,7 @@
   language:
   - eng
   script:
-  - Latn
+  - iso: Latn
   script-type: evenly-mixed
   time:
     notBefore: '1905'
@@ -909,7 +923,8 @@
     count: 770
   - metric: regions
     count: 51
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: DecameronFR
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
   project-name: 'ENC - Bonnes pratiques du developpement collaboratif
@@ -943,7 +958,7 @@
   language:
   - frm
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1430'
@@ -966,7 +981,8 @@
     count: 751
   - metric: regions
     count: 41
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "De la g\xE9n\xE9alogie des dieux"
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -999,7 +1015,7 @@
   - frm
   - lat
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1472'
@@ -1035,7 +1051,8 @@
     head to the repository and the report file.''''
 
     '
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Argus des Brevets
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -1064,7 +1081,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1910'
@@ -1111,7 +1128,8 @@
     count: 1962
   - metric: regions
     count: 86
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Projet Correspondance Berlioz
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
   project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
@@ -1139,7 +1157,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1823'
@@ -1179,7 +1197,8 @@
     count: 367
   - metric: regions
     count: 64
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Projet Notre-Dame
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
   project-name: 'ENC - Bonnes pratiques du developpement collaboratif
@@ -1217,7 +1236,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1860'
@@ -1245,7 +1264,8 @@
     count: 735
   - metric: regions
     count: 86
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: OCR Corse
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -1286,7 +1306,7 @@
   - cos
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1926'
@@ -1309,7 +1329,8 @@
     count: 1664
   - metric: regions
     count: 146
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier\
     \ oss\xE9tien"
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
@@ -1336,7 +1357,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-typed
   time:
     notBefore: '1893'
@@ -1358,6 +1379,7 @@
     count: 983
   - metric: regions
     count: 72
+  production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Tapus Corpus
   url: https://github.com/HTR-United/tapuscorpus
@@ -1603,7 +1625,7 @@
     link: http://diglib.hab.de/drucke/231-5-poet/start.htm
   citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
   transcription-guidelines: Kept abbreviation and transcribed long s as long s
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "CREMMA Manuscrits m\xE9di\xE9vaux latins"
   url: https://github.com/HTR-United/CREMMA-Medieval-LAT
   project-name: CREMMA
@@ -1619,13 +1641,18 @@
     roles:
     - project-manager
     - quality-control
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    roles:
+    - transcriber
+    - aligner
   description: 'Middle Ages'' manuscripts in Latin.
 
     '
   language:
   - lat
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1000'
@@ -1639,15 +1666,125 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 33604
+    count: 51105
   - metric: files
-    count: 25
+    count: 27
   - metric: lines
-    count: 1103
+    count: 1552
   - metric: regions
-    count: 89
+    count: 112
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - i
+    - e
+    - t
+    - a
+    - u
+    - s
+    - o
+    - "\u0303"
+    - n
+    - r
+    - c
+    - l
+    - m
+    - d
+    - p
+    - .
+    - q
+    - "\u033E"
+    - b
+    - f
+    - g
+    - h
+    - "\u204A"
+    - "\uF1AC"
+    - "\uA770"
+    - "\u0363"
+    - ':'
+    - "\uA751"
+    - "\uA76F"
+    - x
+    - "\uA759"
+    - A
+    - S
+    - I
+    - N
+    - "\u1DD1"
+    - Q
+    - "\u0142"
+    - C
+    - "\uA775"
+    - "\u0365"
+    - P
+    - "\u0366"
+    - V
+    - D
+    - E
+    - "\u036D"
+    - "\uA753"
+    - "\u0364"
+    - "\u036B"
+    - "\u0336"
+    - '&'
+    - T
+    - "\u0127"
+    - y
+    - "\u1DE4"
+    - H
+    - v
+    - F
+    - "\xB6"
+    - M
+    - R
+    - "\u0368"
+    - O
+    - L
+    - "\u036C"
+    - j
+    - G
+    - "\u1DDD"
+    - "\u0327"
+    - ''''
+    - B
+    - "\u1DE0"
+    - "\u036F"
+    - '*'
+    - "\uA757"
+    - ','
+    - "\u0367"
+    - "\uF160"
+    - J
+    - "\uA758"
+    - z
+    - '4'
+    - '9'
+    - U
+    - '1'
+    - "\u0308"
+    - ;
+    - "\u0111"
+    - '2'
+    - '8'
+    - k
+    - '5'
+    - '|'
+    - X
+    - \
+    - '?'
+    - '3'
+    - '`'
+    - "\u0307"
+    - "\u1E9C"
+    - '6'
+    - "\u25CC"
+    - "\uE68B"
+    - "\_"
+    - "\uE444"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 15e
   url: https://github.com/HTR-United/CREMMA-MSS-15
   project-name: CREMMA
@@ -1668,7 +1805,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1400'
@@ -1690,6 +1827,7 @@
   - count: 0
     metric: characters
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+  production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: CREMMA Manuscrits du 16e
   url: https://github.com/HTR-United/CREMMA-MSS-16
@@ -1733,7 +1871,7 @@
   - count: 0
     metric: characters
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 17e
   url: https://github.com/HTR-United/CREMMA-MSS-17
   project-name: CREMMA
@@ -1760,7 +1898,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1600'
@@ -1774,7 +1912,7 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 38621
+    count: 39150
   - metric: files
     count: 60
   - metric: lines
@@ -1782,7 +1920,101 @@
   - metric: regions
     count: 138
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - r
+    - u
+    - n
+    - a
+    - i
+    - o
+    - t
+    - l
+    - d
+    - c
+    - m
+    - p
+    - v
+    - q
+    - ','
+    - ''''
+    - b
+    - "\u0301"
+    - f
+    - g
+    - h
+    - .
+    - y
+    - j
+    - M
+    - "\u0300"
+    - x
+    - R
+    - P
+    - V
+    - J
+    - C
+    - L
+    - '1'
+    - z
+    - E
+    - S
+    - '&'
+    - ^
+    - A
+    - '2'
+    - "\u0302"
+    - D
+    - B
+    - T
+    - '7'
+    - "\u0308"
+    - I
+    - ;
+    - '4'
+    - '6'
+    - '-'
+    - F
+    - '0'
+    - '3'
+    - G
+    - '5'
+    - "\u0327"
+    - '8'
+    - '?'
+    - N
+    - '['
+    - ']'
+    - '9'
+    - H
+    - ':'
+    - O
+    - "\u0304"
+    - W
+    - U
+    - "\u0303"
+    - "\u0153"
+    - '>'
+    - <
+    - "\xB0"
+    - Q
+    - X
+    - k
+    - "\uA757"
+    - (
+    - )
+    - w
+    - "\u03C2"
+    - "\_"
+    - '#'
+    - Z
+    - "\u03B5"
+    - "\u03D5"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 18e
   url: https://github.com/HTR-United/CREMMA-MSS-18
   project-name: CREMMA
@@ -1808,7 +2040,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1700'
@@ -1822,7 +2054,7 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 58457
+    count: 59264
   - metric: files
     count: 50
   - metric: lines
@@ -1830,7 +2062,98 @@
   - metric: regions
     count: 131
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - s
+    - r
+    - t
+    - u
+    - n
+    - i
+    - l
+    - o
+    - d
+    - c
+    - p
+    - .
+    - m
+    - f
+    - v
+    - q
+    - "\u0301"
+    - b
+    - ''''
+    - g
+    - h
+    - ','
+    - L
+    - y
+    - x
+    - S
+    - '1'
+    - ^
+    - C
+    - "\u0300"
+    - j
+    - (
+    - )
+    - '2'
+    - '['
+    - ']'
+    - '6'
+    - E
+    - '3'
+    - '4'
+    - '0'
+    - "\u0302"
+    - '5'
+    - X
+    - '8'
+    - z
+    - B
+    - D
+    - '7'
+    - '9'
+    - F
+    - I
+    - '-'
+    - P
+    - G
+    - "\u0308"
+    - '?'
+    - R
+    - N
+    - "\u2019"
+    - J
+    - M
+    - O
+    - A
+    - H
+    - ;
+    - /
+    - T
+    - V
+    - '>'
+    - <
+    - K
+    - ':'
+    - '&'
+    - '='
+    - "\u0327"
+    - Q
+    - "\u0153"
+    - "\_"
+    - "\u017F"
+    - Z
+    - _
+    - "\u0303"
+    - Y
+    - "\u0304"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 19e
   url: https://github.com/HTR-United/CREMMA-MSS-19
   project-name: CREMMA
@@ -1849,7 +2172,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1800'
@@ -1863,7 +2186,7 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 54138
+    count: 55581
   - metric: files
     count: 69
   - metric: lines
@@ -1871,7 +2194,99 @@
   - metric: regions
     count: 167
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - i
+    - u
+    - n
+    - r
+    - t
+    - o
+    - l
+    - d
+    - m
+    - c
+    - p
+    - v
+    - ','
+    - "\u0301"
+    - ''''
+    - q
+    - f
+    - .
+    - g
+    - b
+    - h
+    - "\u0300"
+    - j
+    - x
+    - '-'
+    - "\u0302"
+    - L
+    - C
+    - M
+    - y
+    - J
+    - z
+    - A
+    - D
+    - P
+    - '"'
+    - '>'
+    - <
+    - E
+    - '!'
+    - N
+    - S
+    - Q
+    - '1'
+    - ;
+    - '?'
+    - ':'
+    - R
+    - I
+    - T
+    - B
+    - V
+    - "\u0153"
+    - '6'
+    - O
+    - (
+    - _
+    - )
+    - '2'
+    - '3'
+    - H
+    - '4'
+    - ^
+    - '9'
+    - '8'
+    - '7'
+    - F
+    - '0'
+    - G
+    - '5'
+    - "\u0327"
+    - U
+    - '&'
+    - '['
+    - ']'
+    - "\xB0"
+    - "\u0308"
+    - k
+    - $
+    - w
+    - X
+    - W
+    - Y
+    - +
+    - Z
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 20e
   url: https://github.com/HTR-United/CREMMA-MSS-20
   project-name: CREMMA
@@ -1892,7 +2307,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '1900'
@@ -1906,7 +2321,7 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 5600
+    count: 5764
   - metric: files
     count: 13
   - metric: lines
@@ -1914,6 +2329,132 @@
   - metric: regions
     count: 25
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFKD
+    members:
+    - e
+    - a
+    - s
+    - n
+    - t
+    - r
+    - i
+    - u
+    - l
+    - o
+    - d
+    - c
+    - m
+    - p
+    - "\u0301"
+    - <
+    - '>'
+    - ''''
+    - v
+    - q
+    - ','
+    - .
+    - "\u0300"
+    - b
+    - g
+    - h
+    - j
+    - f
+    - F
+    - J
+    - '1'
+    - '-'
+    - "\u0302"
+    - M
+    - A
+    - E
+    - x
+    - T
+    - y
+    - C
+    - D
+    - ^
+    - O
+    - '8'
+    - N
+    - '7'
+    - B
+    - S
+    - '0'
+    - "\u0327"
+    - P
+    - G
+    - R
+    - H
+    - L
+    - '9'
+    - z
+    - I
+    - '2'
+    - ':'
+    - U
+    - '&'
+    - k
+    - +
+    - ;
+    - $
+    - V
+    - "\u0153"
+    - '['
+    - '?'
+    - ']'
+    - '4'
+    - '3'
+    - (
+    - )
+    - '6'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: "CREMMA Manuscrits m\xE9di\xE9vaux latins"
+  url: https://github.com/HTR-United/CREMMA-Medieval-LAT
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+    type: person
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+    type: person
+  description: 'Middle Ages'' manuscripts in Latin.
+
+    '
+  language:
+  - lat
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1000'
+    notAfter: '1450'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+  production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Notaires de Paris - Bronod
   url: https://github.com/HTR-United/lectaurep-bronod
@@ -2086,7 +2627,7 @@
   - metric: regions
     count: 1138
   citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: ' CREMMA-AN Testament De Poilus '
   url: https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus
   description: "WWI\u2019s Poilus' testaments edited by the Archives National during\
@@ -2096,7 +2637,7 @@
   language:
   - fra
   script:
-  - Latn
+  - iso: Latn
   authors:
   - name: Emmanuelle
     surname: de Champs
@@ -2369,7 +2910,7 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 32569
+    count: 33652
   - metric: files
     count: 96
   - metric: lines
@@ -2384,7 +2925,94 @@
     neither segmented nor transcribed. The segmentation follows the SegmOnto ontology.
     Abbreviations and mispelling were not corrected. Superscripted portions of text
     are preceeded by ^. '
-- schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - n
+    - i
+    - t
+    - s
+    - r
+    - u
+    - o
+    - l
+    - m
+    - d
+    - c
+    - "\u0301"
+    - p
+    - "\u0300"
+    - v
+    - g
+    - f
+    - ','
+    - b
+    - q
+    - '1'
+    - "\u2019"
+    - .
+    - h
+    - M
+    - J
+    - j
+    - C
+    - P
+    - '-'
+    - L
+    - A
+    - '9'
+    - y
+    - x
+    - D
+    - S
+    - B
+    - ^
+    - R
+    - F
+    - "\u0302"
+    - G
+    - E
+    - '4'
+    - z
+    - '2'
+    - V
+    - T
+    - '3'
+    - '5'
+    - N
+    - '0'
+    - )
+    - H
+    - (
+    - '7'
+    - '8'
+    - I
+    - Q
+    - '6'
+    - ;
+    - ':'
+    - O
+    - "\u0327"
+    - U
+    - '"'
+    - "\u0308"
+    - "\u0153"
+    - W
+    - "\xB0"
+    - '?'
+    - Z
+    - /
+    - w
+    - k
+    - '&'
+    - +
+    - X
+    - '%'
+    - ''''
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: WikiCremma
   url: https://github.com/HTR-United/cremma-wikipedia
   authors:
@@ -2414,7 +3042,7 @@
   - fra
   production-software: eScriptorium + Kraken
   script:
-  - Latn
+  - iso: Latn
   script-type: only-manuscript
   time:
     notBefore: '2022'
@@ -2429,13 +3057,104 @@
   transcription-guidelines: Superscript is preceded by a ^.
   volume:
   - metric: characters
-    count: 11430
+    count: 11814
   - metric: files
     count: 42
   - metric: lines
     count: 249
   - metric: regions
     count: 42
+  characters:
+    mode: NFKD
+    members:
+    - e
+    - a
+    - i
+    - n
+    - s
+    - t
+    - r
+    - l
+    - o
+    - u
+    - d
+    - m
+    - c
+    - p
+    - "\u0301"
+    - ','
+    - g
+    - v
+    - h
+    - .
+    - b
+    - f
+    - ''''
+    - q
+    - "\u0300"
+    - '1'
+    - y
+    - L
+    - '0'
+    - '-'
+    - I
+    - j
+    - '2'
+    - C
+    - '9'
+    - (
+    - A
+    - )
+    - x
+    - S
+    - k
+    - P
+    - "\u0302"
+    - E
+    - '3'
+    - '6'
+    - M
+    - '4'
+    - z
+    - '8'
+    - N
+    - '7'
+    - R
+    - B
+    - O
+    - "\u0327"
+    - '='
+    - '5'
+    - V
+    - '>'
+    - <
+    - T
+    - D
+    - H
+    - F
+    - w
+    - "\u0304"
+    - ':'
+    - K
+    - "\xAB"
+    - "\xBB"
+    - J
+    - G
+    - /
+    - "\u2019"
+    - "\u0308"
+    - Y
+    - Z
+    - "\u2013"
+    - U
+    - '"'
+    - '['
+    - ']'
+    - "\u2014"
+    - "\u0153"
+    - X
+    - "\u0306"
+    - ;
 - schema: https://htr-united.github.io/schema/2021-10-15/schema.json
   title: Cremma Medieval Occitan
   url: https://github.com/HTR-United/cremma-medieval-occ
