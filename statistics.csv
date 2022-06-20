@@ -83,111 +83,120 @@
 81,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,files,28,Alto-XML,only-typed
 82,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,lines,983,Alto-XML,only-typed
 83,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,regions,72,Alto-XML,only-typed
-84,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
-85,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
-86,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,126189,Page-XML,only-typed
-87,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
-88,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
-89,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
-90,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
-91,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,472992,Alto-XML,only-typed
-92,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,characters,575812,Alto-XML,only-manuscript
-93,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,files,263,Alto-XML,only-manuscript
-94,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,lines,21656,Alto-XML,only-manuscript
-95,HTR-United/cremma-medieval,Cremma Medieval,1200,1400,regions,1830,Alto-XML,only-manuscript
-96,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,83728,Alto-XML,only-typed
-97,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
-98,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
-99,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
-100,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,characters,51105,Alto-XML,only-manuscript
-101,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,files,27,Alto-XML,only-manuscript
-102,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,lines,1552,Alto-XML,only-manuscript
-103,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,regions,112,Alto-XML,only-manuscript
-104,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
-105,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
-106,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
-107,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
-108,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,lines,0,Alto-XML,only-manuscript
-109,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,files,0,Alto-XML,only-manuscript
-110,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,regions,0,Alto-XML,only-manuscript
-111,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,characters,0,Alto-XML,only-manuscript
-112,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,39150,Alto-XML,only-manuscript
-113,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,60,Alto-XML,only-manuscript
-114,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,1062,Alto-XML,only-manuscript
-115,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,138,Alto-XML,only-manuscript
-116,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,59264,Alto-XML,only-manuscript
-117,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,50,Alto-XML,only-manuscript
-118,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,1981,Alto-XML,only-manuscript
-119,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,131,Alto-XML,only-manuscript
-120,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,55581,Alto-XML,only-manuscript
-121,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,69,Alto-XML,only-manuscript
-122,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,1807,Alto-XML,only-manuscript
-123,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,167,Alto-XML,only-manuscript
-124,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,5764,Alto-XML,only-manuscript
-125,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,13,Alto-XML,only-manuscript
-126,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,224,Alto-XML,only-manuscript
-127,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,25,Alto-XML,only-manuscript
-128,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,lines,0,Alto-XML,only-manuscript
-129,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,files,0,Alto-XML,only-manuscript
-130,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,regions,0,Alto-XML,only-manuscript
-131,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,characters,0,Alto-XML,only-manuscript
-132,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,182895,Page-XML,only-manuscript
-133,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
-134,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
-135,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
-136,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
-137,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
-138,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
-139,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,325458,Page-XML,mainly-manuscript
-140,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,509569,Alto-XML,mainly-manuscript
-141,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,files,218,Alto-XML,mainly-manuscript
-142,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,lines,29410,Alto-XML,mainly-manuscript
-143,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1138,Alto-XML,mainly-manuscript
-144,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,33652,Alto-XML,only-manuscript
-145,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,96,Alto-XML,only-manuscript
-146,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,1353,Alto-XML,only-manuscript
-147,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,105,Alto-XML,only-manuscript
-148,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,characters,11814,Alto-XML,only-manuscript
-149,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,files,42,Alto-XML,only-manuscript
-150,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,lines,249,Alto-XML,only-manuscript
-151,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,regions,42,Alto-XML,only-manuscript
-152,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,characters,0,Alto-XML,only-manuscript
-153,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,files,0,Alto-XML,only-manuscript
-154,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,lines,0,Alto-XML,only-manuscript
-155,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,regions,0,Alto-XML,only-manuscript
-156,Gallicorpora/template-depot,Données imprimés gothiques du 16e siècle,1400,1900,lines,0,Alto-XML,evenly-mixed
-157,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,18289,Alto-XML,evenly-mixed
-158,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,20,Alto-XML,evenly-mixed
-159,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,576,Alto-XML,evenly-mixed
-160,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,51,Alto-XML,evenly-mixed
-161,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,243907,Alto-XML,evenly-mixed
-162,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,evenly-mixed
-163,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,evenly-mixed
-164,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,evenly-mixed
-165,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,63259,Alto-XML,only-typed
-166,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,80,Alto-XML,only-typed
-167,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,1903,Alto-XML,only-typed
-168,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,regions,235,Alto-XML,only-typed
-169,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,characters,95990,Alto-XML,only-typed
-170,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,140,Alto-XML,only-typed
-171,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,3433,Alto-XML,only-typed
-172,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,526,Alto-XML,only-typed
-173,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90182,Alto-XML,evenly-mixed
-174,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
-175,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
-176,Gallicorpora/HTR-imprime-gothique-16-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
-177,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,98888,Alto-XML,evenly-mixed
-178,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,100,Alto-XML,evenly-mixed
-179,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,2914,Alto-XML,evenly-mixed
-180,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,380,Alto-XML,evenly-mixed
-181,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,lines,0,Alto-XML,only-manuscript
-182,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,regions,0,Alto-XML,only-manuscript
-183,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,characters,0,Alto-XML,only-manuscript
-184,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
-185,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
-186,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
-187,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
-188,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
-189,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
-190,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9328,Alto-XML,only-typed
-191,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed
+84,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,399155,Page-XML,only-typed
+85,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,files,150,Page-XML,only-typed
+86,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
+87,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
+88,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,150,Page-XML,only-typed
+89,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,746997,Page-XML,evenly-mixed
+90,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,248,Page-XML,evenly-mixed
+91,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
+92,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
+93,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,587,Page-XML,evenly-mixed
+94,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,1210754,Alto-XML,only-typed
+95,HTR-United/dahncorpus,DAHN Corpus,1914,1924,files,546,Alto-XML,only-typed
+96,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
+97,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
+98,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
+99,HTR-United/cremma-medieval,cremma-medieval,1100,1499,characters,579368,Alto-XML,only-manuscript
+100,HTR-United/cremma-medieval,cremma-medieval,1100,1499,files,263,Alto-XML,only-manuscript
+101,HTR-United/cremma-medieval,cremma-medieval,1100,1499,lines,21656,Alto-XML,only-manuscript
+102,HTR-United/cremma-medieval,cremma-medieval,1100,1499,regions,1830,Alto-XML,only-manuscript
+103,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,84726,Alto-XML,only-typed
+104,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
+105,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
+106,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
+107,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,characters,51105,Alto-XML,only-manuscript
+108,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,files,27,Alto-XML,only-manuscript
+109,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,lines,1552,Alto-XML,only-manuscript
+110,HTR-United/CREMMA-Medieval-LAT,CREMMA Manuscrits médiévaux latins,1000,1450,regions,112,Alto-XML,only-manuscript
+111,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
+112,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
+113,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
+114,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
+115,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,lines,0,Alto-XML,only-manuscript
+116,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,files,0,Alto-XML,only-manuscript
+117,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,regions,0,Alto-XML,only-manuscript
+118,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,characters,0,Alto-XML,only-manuscript
+119,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,39150,Alto-XML,only-manuscript
+120,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,60,Alto-XML,only-manuscript
+121,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,1062,Alto-XML,only-manuscript
+122,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,138,Alto-XML,only-manuscript
+123,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,59264,Alto-XML,only-manuscript
+124,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,50,Alto-XML,only-manuscript
+125,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,1981,Alto-XML,only-manuscript
+126,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,131,Alto-XML,only-manuscript
+127,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,55581,Alto-XML,only-manuscript
+128,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,69,Alto-XML,only-manuscript
+129,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,1807,Alto-XML,only-manuscript
+130,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,167,Alto-XML,only-manuscript
+131,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,5764,Alto-XML,only-manuscript
+132,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,13,Alto-XML,only-manuscript
+133,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,224,Alto-XML,only-manuscript
+134,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,25,Alto-XML,only-manuscript
+135,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,lines,0,Alto-XML,only-manuscript
+136,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,files,0,Alto-XML,only-manuscript
+137,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,regions,0,Alto-XML,only-manuscript
+138,HTR-United/CREMMA-Theleme,CREMMA Manuscrits médiévaux latins,1000,1450,characters,0,Alto-XML,only-manuscript
+139,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359676,Page-XML,only-manuscript
+140,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
+141,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
+142,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
+143,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
+144,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,1969585,Page-XML,mainly-manuscript
+145,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,files,104,Page-XML,mainly-manuscript
+146,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
+147,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
+148,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,regions,105,Page-XML,mainly-manuscript
+149,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,525619,Alto-XML,mainly-manuscript
+150,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,files,218,Alto-XML,mainly-manuscript
+151,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,lines,29410,Alto-XML,mainly-manuscript
+152,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1138,Alto-XML,mainly-manuscript
+153,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,33652,Alto-XML,only-manuscript
+154,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,96,Alto-XML,only-manuscript
+155,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,1353,Alto-XML,only-manuscript
+156,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,105,Alto-XML,only-manuscript
+157,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,characters,11814,Alto-XML,only-manuscript
+158,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,files,42,Alto-XML,only-manuscript
+159,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,lines,249,Alto-XML,only-manuscript
+160,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,regions,42,Alto-XML,only-manuscript
+161,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,characters,0,Alto-XML,only-manuscript
+162,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,files,0,Alto-XML,only-manuscript
+163,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,lines,0,Alto-XML,only-manuscript
+164,HTR-United/cremma-medieval-occ,Cremma Medieval Occitan,1200,1400,regions,0,Alto-XML,only-manuscript
+165,Gallicorpora/template-depot,Données imprimés gothiques du 16e siècle,1400,1900,lines,0,Alto-XML,evenly-mixed
+166,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,18363,Alto-XML,evenly-mixed
+167,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,20,Alto-XML,evenly-mixed
+168,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,576,Alto-XML,evenly-mixed
+169,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,51,Alto-XML,evenly-mixed
+170,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,244958,Alto-XML,evenly-mixed
+171,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,evenly-mixed
+172,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,evenly-mixed
+173,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,evenly-mixed
+174,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,63687,Alto-XML,only-typed
+175,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,80,Alto-XML,only-typed
+176,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,1903,Alto-XML,only-typed
+177,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,regions,235,Alto-XML,only-typed
+178,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,characters,97131,Alto-XML,only-typed
+179,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,140,Alto-XML,only-typed
+180,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,3433,Alto-XML,only-typed
+181,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,526,Alto-XML,only-typed
+182,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90746,Alto-XML,evenly-mixed
+183,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
+184,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
+185,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
+186,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,100789,Alto-XML,evenly-mixed
+187,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,100,Alto-XML,evenly-mixed
+188,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,2914,Alto-XML,evenly-mixed
+189,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,380,Alto-XML,evenly-mixed
+190,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,lines,0,Alto-XML,only-manuscript
+191,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,regions,0,Alto-XML,only-manuscript
+192,FoNDUE-HTR/FONDUE-MSS-18,FoNDUE MSS 18,1700,1799,characters,0,Alto-XML,only-manuscript
+193,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
+194,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
+195,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
+196,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
+197,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
+198,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
+199,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9328,Alto-XML,only-typed
+200,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed
