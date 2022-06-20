@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: OCR Corse
 url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
 project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -39,7 +39,7 @@ language:
 - cos
 - fra
 script:
-- Latn
+- iso: Latn
 script-type: only-typed
 time:
   notBefore: '1926'
@@ -62,3 +62,4 @@ volume:
   count: 1664
 - metric: regions
   count: 146
+production-software: "eScriptorium + Kraken"

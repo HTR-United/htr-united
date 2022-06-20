@@ -1,7 +1,7 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Argus des Brevets
 url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
-project-name: 'ENC - Bonnes pratiques du developpement collaboratif'
+project-name: ENC - Bonnes pratiques du developpement collaboratif
 authors:
 - name: De Craene
   surname: Valentin
@@ -26,7 +26,7 @@ description: "L\u2019argus des brevets de 1910 se pr\xE9sente sous la forme d\u2
 language:
 - fra
 script:
-- Latn
+- iso: Latn
 script-type: only-typed
 time:
   notBefore: '1910'
@@ -73,3 +73,4 @@ volume:
   count: 1962
 - metric: regions
   count: 86
+production-software: "eScriptorium + Kraken"

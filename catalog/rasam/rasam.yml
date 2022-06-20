@@ -1,61 +1,75 @@
-schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: RASAM
-url: 'https://github.com/calfa-co/rasam-dataset'
-
-project-website: 'https://calfa.fr/blog/26'
+url: https://github.com/calfa-co/rasam-dataset
+project-website: https://calfa.fr/blog/26
 authors:
-    - name: 'Vidal-Gorène'
-      surname: 'Chahan'
-      roles:
-      - 'project-manager'
-    - name: 'Lucas'
-      surname: 'Noëmie'
-      roles:
-      - 'project-manager'
-      - 'quality-control'
-    - name: 'Salah'
-      surname: 'Clément'
-      roles:
-      - 'transcriber'
-      - 'quality-control'
-    - name: 'Decours-Perez'
-      surname: 'Aliénor'
-      roles:
-      - 'support'
-    - name: 'Dupin'
-      surname: 'Boris'
-      roles:
-      - 'support'
-description: >
-  The Dataset is made up of 300 images, with their related ground truth stored in a XML file (pageXML format). Images come from three manuscripts selected among the collections of the BULAC Library (Paris). It covers a representative part of the handwritten production in Arabic Maghrebi scripts and includes an annotation of the layout (TextRegions, baselines and polygons) and the transcription of the main text. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
-language:
-  - ara
-script: 
-  - Arab
-script-type: 'only-manuscript'
-time: 
-  notBefore: "1700"
-  notAfter: "1899"
-hands: 
-  count: 'less-than-11'
-  precision: 'exact'
-license:
-  - {name: 'Apache-2.0 License', url: 'https://www.apache.org/licenses/LICENSE-2.0'}
-format: 'Page-XML'
-volume:
-  - metric: 'pages'
-    count: 300
-  - count: 7540
-    metric: "lines"
-  - count: 300
-    metric: "files"
-  - count: 676
-    metric: "regions"
-  - count: 403034
-    metric: "characters"
-sources:
-  - reference: 'Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin, B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi. In International Conference on Document Analysis and Recognition (pp. 265-281). Springer, Cham'
-    link: 'https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19'
+- name: "Vidal-Gor\xE8ne"
+  surname: Chahan
+  roles:
+  - project-manager
+- name: Lucas
+  surname: "No\xEBmie"
+  roles:
+  - project-manager
+  - quality-control
+- name: Salah
+  surname: "Cl\xE9ment"
+  roles:
+  - transcriber
+  - quality-control
+- name: Decours-Perez
+  surname: "Ali\xE9nor"
+  roles:
+  - support
+- name: Dupin
+  surname: Boris
+  roles:
+  - support
+description: 'The Dataset is made up of 300 images, with their related ground truth
+  stored in a XML file (pageXML format). Images come from three manuscripts selected
+  among the collections of the BULAC Library (Paris). It covers a representative part
+  of the handwritten production in Arabic Maghrebi scripts and includes an annotation
+  of the layout (TextRegions, baselines and polygons) and the transcription of the
+  main text. This dataset is the result of a collaborative transcription. All the
+  participants are credited on the official deposit. With the support of the French
+  Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East
+  and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
 
-transcription-guidelines: >
-    Full description of specifications for transcription available on Github and in the paper.'
+  '
+language:
+- ara
+script:
+- iso: Arab
+script-type: only-manuscript
+time:
+  notBefore: '1700'
+  notAfter: '1899'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+- name: Apache-2.0 License
+  url: https://www.apache.org/licenses/LICENSE-2.0
+format: Page-XML
+volume:
+- metric: pages
+  count: 300
+- count: 7540
+  metric: lines
+- count: 300
+  metric: files
+- count: 676
+  metric: regions
+- count: 403034
+  metric: characters
+sources:
+- reference: "Vidal-Gor\xE8ne, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,\
+    \ B. (2021, September). RASAM\u2013A Dataset for the Recognition and Analysis\
+    \ of Scripts in Arabic Maghrebi. In International Conference on Document Analysis\
+    \ and Recognition (pp. 265-281). Springer, Cham"
+  link: https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19
+transcription-guidelines: 'Full description of specifications for transcription available
+  on Github and in the paper.''
+
+  '
+production-software: "eScriptorium + Kraken"

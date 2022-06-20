@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Projet Exposition universelle de 1878
 url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
 project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
@@ -32,10 +32,10 @@ description: "Le Congr\xE8s international des sciences ethnographiques de 1878 a
 language:
 - fra
 script:
-- Latn
-- Grek
-- Deva
-- Arab
+- iso: Latn
+- iso: Grek
+- iso: Deva
+- iso: Arab
 script-type: only-typed
 time:
   notBefore: '1881'
@@ -58,3 +58,4 @@ volume:
   count: 2620
 - metric: regions
   count: 158
+production-software: "eScriptorium + Kraken"

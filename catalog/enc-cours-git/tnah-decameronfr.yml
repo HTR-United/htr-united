@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: DecameronFR
 url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
 project-name: 'ENC - Bonnes pratiques du developpement collaboratif
@@ -31,7 +31,7 @@ description: "Le projet vise \xE0 la consitution de v\xE9rit\xE9s de terrain pou
 language:
 - frm
 script:
-- Latn
+- iso: Latn
 script-type: only-manuscript
 time:
   notBefore: '1430'
@@ -44,7 +44,7 @@ license:
   url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
-transcription-guidelines: 'Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md'
+transcription-guidelines: Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
 volume:
 - metric: characters
   count: 19821
@@ -54,3 +54,4 @@ volume:
   count: 751
 - metric: regions
   count: 41
+production-software: "eScriptorium + Kraken"

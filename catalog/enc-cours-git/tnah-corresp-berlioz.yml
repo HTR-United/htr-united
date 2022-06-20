@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Projet Correspondance Berlioz
 url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
 project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
@@ -26,7 +26,7 @@ description: "Nous avons choisi de travailler sur la correspondance active de He
 language:
 - fra
 script:
-- Latn
+- iso: Latn
 script-type: only-manuscript
 time:
   notBefore: '1823'
@@ -65,3 +65,4 @@ volume:
   count: 367
 - metric: regions
   count: 64
+production-software: "eScriptorium + Kraken"

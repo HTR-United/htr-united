@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: "Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier\
   \ oss\xE9tien"
 url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
@@ -25,7 +25,7 @@ description: "Nous avons choisi de transcrire le deuxi\xE8me chapitre de l\u2019
 language:
 - fra
 script:
-- Latn
+- iso: Latn
 script-type: only-typed
 time:
   notBefore: '1893'
@@ -47,3 +47,4 @@ volume:
   count: 983
 - metric: regions
   count: 72
+production-software: "eScriptorium + Kraken"

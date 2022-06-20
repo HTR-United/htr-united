@@ -1,35 +1,34 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-title: Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: "Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)"
 url: https://doi.org/10.5281/zenodo.5179361
 authors:
-  - name: Hodel
-    surname: Tobias
-    roles:
-      - transcriber
-      - project-manager
-      - support
-  - name: Halter-Pernet
-    surname: Colette
-    roles:
-      - transcriber
-      - aligner
-      - project-manager
-      - quality-control
-      - digitization
-      - support
-  - name: Teuscher
-    surname: Simon
-    roles:
-      - project-manager
-description: >-
-  The data set is the publication of the data of the scholarly edition "Urkunden
-  und Akten des Klosters und der Hofmeisterei Königsfelden".
+- name: Hodel
+  surname: Tobias
+  roles:
+  - transcriber
+  - project-manager
+  - support
+- name: Halter-Pernet
+  surname: Colette
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - quality-control
+  - digitization
+  - support
+- name: Teuscher
+  surname: Simon
+  roles:
+  - project-manager
+description: "The data set is the publication of the data of the scholarly edition\
+  \ \"Urkunden und Akten des Klosters und der Hofmeisterei K\xF6nigsfelden\"."
 project-website: https://www.koenigsfelden.uzh.ch/
 language:
-  - lat
-  - deu
+- lat
+- deu
 script:
-  - Latn
+- iso: Latn
 script-type: only-manuscript
 time:
   notBefore: '1292'
@@ -38,10 +37,11 @@ hands:
   count: more-than-10
   precision: estimated
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Page-XML
 volume:
-  - metric: lines
-    count: 60000
+- metric: lines
+  count: 60000
 transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
+production-software: "Transkribus"

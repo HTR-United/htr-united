@@ -1,67 +1,67 @@
-schema: "https://htr-united.github.io/schema/2021-10-15/schema.json"
-title: 'Caroline Minuscule by Rescribe'
-url: 'https://github.com/rescribe/carolineminuscule-groundtruth'
-project-name: 'Rescribe'
-project-website: 'https://rescribe.xyz/'
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Caroline Minuscule by Rescribe
+url: https://github.com/rescribe/carolineminuscule-groundtruth
+project-name: Rescribe
+project-website: https://rescribe.xyz/
 authors:
-    - name: 'White'
-      surname: 'Nick'
-      roles:
-      - 'transcriber'
-      - 'project-manager'
-    - name: 'Karaisl'
-      surname: 'Antonia'
-      roles:
-      - 'transcriber'
-      - 'project-manager'
-    - name: 'Clérice'
-      surname: 'Thibault'
-      roles:
-      - 'aligner'
-description: >
-  This ground truth repository is a work in process; it currently accounts for a part of our complete Caroline Minuscule training pool of around 70 manuscripts used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
-language:
-  - lat
-script: 
-  - Latn
-script-type: 'only-manuscript'
-time: 
-  notBefore: "800"
-  notAfter: "1199"
-hands: 
-  count: '1-per-file'
-  precision: 'exact'
-license:
-  - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: 'Alto-XML'
-volume:
-    - {count: 457, metric: "lines"}
-    - {count: 17, metric: "files"}
-    - {count: 45, metric: "regions"}
-    - {count: 16909, metric: "characters"}
+- name: White
+  surname: Nick
+  roles:
+  - transcriber
+  - project-manager
+- name: Karaisl
+  surname: Antonia
+  roles:
+  - transcriber
+  - project-manager
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - aligner
+description: 'This ground truth repository is a work in process; it currently accounts
+  for a part of our complete Caroline Minuscule training pool of around 70 manuscripts
+  used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
 
-transcription-guidelines: >
-    In general this meant deciding between diplomatic transcription (i.e. sticking to what it says on the page) and gently modernized features (i.e. reinterpreting medieval signs into modern equivalents) with a view to specific categories. Read on for a summary of the rules and the respective rationale behind them.
-    
-    SUMMARY
-    
-    PUNCTUATION
-    
-        Modern: medieval punctuation is transcribed with modern equivalents; punctus elevatus transcribed as semicolon
-    
-    CAPITALIZATION
-    
-        Diplomatic: Original capitalization retained
-    
-    ABBREVIATIONS
-    
-        Diplomatic where possible: Retain abbreviations and render glyphs as opposed to expanded versions where possible
-        "*" where original character isn't served: OCRopus (at the point in time of transcription) could not handle some of the medieval glyphs, even where a Unicode version was present. Abbreviations not in OCRopus are uniformly transcribed as "*", in the case of a combined character (such as a consonant with a macron) as the base character followed by "*" (e.g. "t*"). The list of accepted characters in OCRopus can be found in this repository, and downloaded and used as codec in the OCRopus training process.
-    
-    SPACING
-    
-        Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription
-    
-    NUMBERS
-    
-        Diplomatic: retain original version of both Roman and Arabic numerals'
+  '
+language:
+- lat
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '800'
+  notAfter: '1199'
+hands:
+  count: 1-per-file
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- count: 457
+  metric: lines
+- count: 17
+  metric: files
+- count: 45
+  metric: regions
+- count: 16909
+  metric: characters
+transcription-guidelines: "In general this meant deciding between diplomatic transcription\
+  \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
+  \ reinterpreting medieval signs into modern equivalents) with a view to specific\
+  \ categories. Read on for a summary of the rules and the respective rationale behind\
+  \ them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed\
+  \ with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\
+  \n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic\
+  \ where possible: Retain abbreviations and render glyphs as opposed to expanded\
+  \ versions where possible\n    \"*\" where original character isn't served: OCRopus\
+  \ (at the point in time of transcription) could not handle some of the medieval\
+  \ glyphs, even where a Unicode version was present. Abbreviations not in OCRopus\
+  \ are uniformly transcribed as \"*\", in the case of a combined character (such\
+  \ as a consonant with a macron) as the base character followed by \"*\" (e.g. \"\
+  t*\"). The list of accepted characters in OCRopus can be found in this repository,\
+  \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
+  \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
+  \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic numerals'\n"
+production-software: "eScriptorium + Kraken"

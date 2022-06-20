@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Chateau de Chavigny
 url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
 project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -28,7 +28,7 @@ description: "Le document sur lequel nous travaillons porte sur le Ch\xE2teau de
 language:
 - frm
 script:
-- Latn
+- iso: Latn
 script-type: only-manuscript
 time:
   notBefore: '1568'
@@ -57,3 +57,4 @@ volume:
   count: 253
 - metric: regions
   count: 22
+production-software: "eScriptorium + Kraken"

@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Memorials for Jane Lathrop Stanford
 url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
 project-name: 'ENC - Bonnes pratiques du developpement collaboratif
@@ -33,7 +33,7 @@ description: "Les donn\xE9es sources ont \xE9t\xE9 t\xE9l\xE9vers\xE9es sur le s
 language:
 - eng
 script:
-- Latn
+- iso: Latn
 script-type: evenly-mixed
 time:
   notBefore: '1905'
@@ -66,3 +66,4 @@ volume:
   count: 770
 - metric: regions
   count: 51
+production-software: "eScriptorium + Kraken"

@@ -1,37 +1,43 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-title : 'OCR17plus'
-url: 'https://github.com/e-ditiones/OCR17plus'
-project-name: 'E-ditiones'
-project-website: 'https://e-ditiones.huma-num.fr/'
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: OCR17plus
+url: https://github.com/e-ditiones/OCR17plus
+project-name: E-ditiones
+project-website: https://e-ditiones.huma-num.fr/
 authors:
-    - name: 'Gabay'
-      surname: 'Simon'
-      roles:
-      - 'transcriber'
-      - 'project-manager'
-      - 'support'
-    - name: 'Jahan'
-      surname: 'Claire'
-      roles:
-      - 'transcriber'
-      - 'aligner'
-description: 'Imprimés classiques'
+- name: Gabay
+  surname: Simon
+  roles:
+  - transcriber
+  - project-manager
+  - support
+- name: Jahan
+  surname: Claire
+  roles:
+  - transcriber
+  - aligner
+description: "Imprim\xE9s classiques"
 language:
-    - 'frm'
-script: 
-    - 'Latn'
-script-type: 'only-typed'
-time: 
-    notBefore: "1600"
-    notAfter: "1700"
-hands: 
-    count: '1-per-folder'
-    precision: 'exact'
+- frm
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1600'
+  notAfter: '1700'
+hands:
+  count: 1-per-folder
+  precision: exact
 license:
-    - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: 'Alto-XML'
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
 volume:
-    - {count: 25628, metric: "lines"}
-    - {count: 965, metric: "files"}
-    - {count: 3923, metric: "regions"}
-    - {count: 686335, metric: "characters"}
+- count: 25628
+  metric: lines
+- count: 965
+  metric: files
+- count: 3923
+  metric: regions
+- count: 686335
+  metric: characters
+production-software: Transkribus

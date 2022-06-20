@@ -1,42 +1,48 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-title: 'GenAuto TD Corpus'
-url: 'https://github.com/jpmjpmjpm/genauto-td-htr.git'
-project-name: 'GenAuto'
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: GenAuto TD Corpus
+url: https://github.com/jpmjpmjpm/genauto-td-htr.git
+project-name: GenAuto
 project-website: ''
 authors:
-    - name: 'Boutet'
-      surname: 'Jean-François'
-      roles:
-      - 'transcriber'
-      - 'aligner'
-    - name: 'Merx'
-      surname: 'Jean-Pierre'
-      roles:
-      - 'transcriber'
-      - 'aligner'
-      - 'project-manager'
-description: >
-     150 transcribed images from "Tables Décennales" French Civil Registry.
-     Those come from Sermaises and Romilly-sur-Seine municipalities.
-language: 
-    - 'fra'
-script: 
-    - 'Latn'
-script-type: 'only-manuscript'
-time: 
-    notBefore: "1792"
-    notAfter: "1902"
+- name: Boutet
+  surname: "Jean-Fran\xE7ois"
+  roles:
+  - transcriber
+  - aligner
+- name: Merx
+  surname: Jean-Pierre
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+description: "150 transcribed images from \"Tables D\xE9cennales\" French Civil Registry.\
+  \ Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
+language:
+- fra
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1792'
+  notAfter: '1902'
 hands:
-    count: 'less-than-11'
-    precision: 'estimated'
+  count: less-than-11
+  precision: estimated
 license:
-    - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: 'Alto-XML'
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
 volume:
-    - {count: 300, metric: "pages"}
-    - {count: 150, metric: "images"}
-    - {count: 150, metric: "files"}
-    - {count: 186366, metric: "characters"}
-    - {count: 21557, metric: "lines"}
-    - {count: 608, metric: "regions"}
-
+- count: 300
+  metric: pages
+- count: 150
+  metric: images
+- count: 150
+  metric: files
+- count: 186366
+  metric: characters
+- count: 21557
+  metric: lines
+- count: 608
+  metric: regions
+production-software: "eScriptorium + Kraken"
