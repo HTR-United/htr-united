@@ -98,10 +98,10 @@
 96,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
 97,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
 98,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
-99,HTR-United/cremma-medieval,cremma-medieval,1100,1499,characters,579368,Alto-XML,only-manuscript
-100,HTR-United/cremma-medieval,cremma-medieval,1100,1499,files,263,Alto-XML,only-manuscript
-101,HTR-United/cremma-medieval,cremma-medieval,1100,1499,lines,21656,Alto-XML,only-manuscript
-102,HTR-United/cremma-medieval,cremma-medieval,1100,1499,regions,1830,Alto-XML,only-manuscript
+99,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,characters,579368,Alto-XML,only-manuscript
+100,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,files,263,Alto-XML,only-manuscript
+101,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,lines,21656,Alto-XML,only-manuscript
+102,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,regions,1830,Alto-XML,only-manuscript
 103,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,84726,Alto-XML,only-typed
 104,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
 105,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed

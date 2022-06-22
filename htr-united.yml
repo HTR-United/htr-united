@@ -269,6 +269,12 @@
   - count: 1768146
     metric: characters
   production-software: Transkribus
+  _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Str\xF6\
+    bel and\n                  Simon Clematide},\n  title        = {{Ground truth\
+    \ for Neue Z\xFCrcher Zeitung black letter \n                   period}},\n  month\
+    \        = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version\
+    \      = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
+    \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
@@ -323,6 +329,12 @@
   - count: 144301
     metric: characters
   production-software: Transkribus
+  _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
+    \                  Phillip Str\xF6bel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
+    \ \n                   truth: Initial release}},\n  month        = may,\n  year\
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
+    \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
+    }"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10,\
     \ Urfehdenbuch X"
@@ -409,6 +421,13 @@
     count: 8000
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
   production-software: Transkribus
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
+    \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
+    \ David and D\xE4ngeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
+    \ Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten\
+    \ Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10, Urfehdenbuch X},\n\
+    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
+    \ Non Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
@@ -512,6 +531,15 @@
     count: 60000
   transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
   production-software: Transkribus
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5179361,\n  doi = {10.5281/ZENODO.5179361},\n\
+    \  url = {https://zenodo.org/record/5179361},\n  author = {Halter-Pernet, Colette\
+    \ and Teuscher, Simon and Hodel, Tobias and Barwitzki, Lukas and Egloff, Salome\
+    \ and Henggeler, Fabian and Nadig, Michael and Steinmann, Anina and Stettler,\
+    \ Sabine},\n  keywords = {Scholarly Edition, Monastery, K\xF6nigsfelden Abbey,\
+    \ Poor Clares, Franciscan Friars, Hapsburg, Handwritten Text Recognition},\n \
+    \ title = {Charters and Records of K\xF6nigsfelden Abbey and Bailiwick (1308-1662)},\n\
+    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
+    \ 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
@@ -577,6 +605,14 @@
     \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
     \ New York, NY, USA, 61\u201366. DOI:https://doi.org/10.1145/3476887.3476896'\n"
   production-software: eScriptorium + Kraken
+  _bibtex: "@dataset{stokl_ben_ezra_daniel_2021_5167263,\n  author       = {St\xF6\
+    kl Ben Ezra, Daniel and\n                  Brown-DeVost, Bronson and\n       \
+    \           Jablonski, Pawel and\n                  Kiessling, Benjamin and\n\
+    \                  Lolli, Elena and\n                  Lapin, Hayim},\n  title\
+    \        = {BiblIA - an Open Annotated Dataset},\n  month        = aug,\n  year\
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
+    \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
+    }"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Donn\xE9es v\xE9rit\xE9 de terrain HTR+ Annuaire des propri\xE9taires et\
     \ des propri\xE9t\xE9s de Paris et du d\xE9partement de la Seine (1898-1923)"
@@ -643,6 +679,14 @@
   transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas \xE9\
     t\xE9 segment\xE9es.\n"
   production-software: Transkribus
+  _bibtex: "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n\
+    \  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Elgarrista, Gabriela\
+    \ and M\xE9lanie-Becquet, Fr\xE9d\xE9rique and Brando, Carmen},\n  keywords =\
+    \ {HTR, Transcripci\xF3n, Apprentissage (intelligence artificielle), Paris, Historical\
+    \ source material},\n  language = {fr},\n  title = {Donn\xE9es v\xE9rit\xE9 de\
+    \ terrain HTR+ Annuaire des propri\xE9taires et des propri\xE9t\xE9s de Paris\
+    \ et du d\xE9partement de la Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr\
+    \ (Huma-Num - CNRS)},\n  year = {2021}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
@@ -1842,7 +1886,7 @@
 
     '
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: cremma-medieval
+  title: Cremma Medieval
   url: https://github.com/HTR-United/cremma-medieval
   authors:
   - name: Pinche
@@ -2033,6 +2077,27 @@
     - /
     - "\u0167"
     - ','
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Pinche, Ariane},
+
+    doi = {10.5281/zenodo.5235185},
+
+    month = {6},
+
+    title = {Cremma Medieval},
+
+    url = {https://github.com/HTR-United/cremma-medieval},
+
+    year = {2022}
+
+    }
+
+    '
+  _apa: 'Pinche A. (2022). Cremma Medieval (version Bicerin 1.1.0). DOI: 10.5281/zenodo.5235185
+    URL: https://github.com/HTR-United/cremma-medieval
+
+    '
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Early Modern Books
   url: https://github.com/HTR-United/cremma-16-17-print
