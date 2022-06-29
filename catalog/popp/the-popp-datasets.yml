@@ -1,0 +1,72 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: The POPP datasets
+url: https://zenodo.org/record/6581158
+authors:
+  - name: Thomas
+    surname: Constum
+    roles:
+      - aligner
+      - quality-control
+      - support
+  - name: Nicolas
+    surname: Kempf
+  - name: Pierrick
+    surname: Tranouez
+  - name: Thierry
+    surname: Paquet
+    roles:
+      - project-manager
+  - name: Sandra
+    surname: Brée
+    orcid: 0000-0002-2802-5563
+    roles:
+      - transcriber
+      - project-manager
+  - name: François
+    surname: Merveille
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  The POPP datasets is a set of 3 datasets created within the POPP project
+  (Project for the Oceration of the Paris Population Census) for the task of
+  handwriting text recognition. These datasets have been published in
+  "Recognition and information extraction in historical handwritten tables:
+  toward understanding early 20th century Paris census" at DAS 2022.
+
+
+  The 3 datasets are called “Generic dataset”, “Belleville”, and “Chaussée
+  d’Antin” and contains lines made from the extracted rows of census tables from
+  1926. Each table in the Paris census contains 30 rows, thus each page in these
+  datasets corresponds to 30 lines.
+project-name: Project for the Oceration of the Paris Population Census
+project-website: https://popp.hypotheses.org
+language:
+  - fra
+production-software: Pivan
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1926'
+  notAfter: '1926'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 7050
+transcription-guidelines: >
+  The text is transcribed as in the image (no correction of mispelling, no
+  resolution of abbreviation).
+
+  Since the lines are extracted from table rows, we defined 4 special characters
+  to describe the structure of the text:
+      ¤ : indicates an empty cell
+      / : indicates the separation into columns
+      ? : indicates that the content of the cell following this symbol is written above the regular baseline
+      ! : indicates that the content of the cell following this symbol is written below the regular baseline
