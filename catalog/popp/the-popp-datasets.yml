@@ -43,7 +43,7 @@ project-name: Project for the Oceration of the Paris Population Census
 project-website: https://popp.hypotheses.org
 language:
   - fra
-production-software: Pytorch
+production-software: Pivan
 script:
   - iso: Latn
 script-type: only-manuscript
