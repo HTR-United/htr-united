@@ -918,6 +918,63 @@
     \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
     \ 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Eutyches
+  url: https://github.com/malamatenia/Eutyches
+  authors:
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+  institutions: []
+  description: "Ground truth for minuscule caroline of the late 9th century from the\
+    \ grammatical work \"de uerbo\" of Eutych\xE8s. "
+  project-name: Eutyches grammaticus glossed
+  language:
+  - lat
+  - grc
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+    qualify: Minuscule Caroline
+  script-type: only-manuscript
+  time:
+    notBefore: '850'
+    notAfter: '900'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: Codices Vossiani Latini, Brill , VLO41
+    link: https://primarysources.brillonline.com/browse/vossiani-latini/vlo-041-eutyches-grammaticalia-isidorus-alphabeta
+  volume:
+  - metric: pages
+    count: 65
+  citation-file-link: https://github.com/malamatenia/Eutyches/blob/main/CITATION.cff
+  transcription-guidelines: Graphematic transcription, following the guidelines of
+    CREMMA-medieval. Spacing has been reestablished when dealing with semicontinua,
+    s for long s, loyal to the manuscript for capital letters, abbreviations preserved,
+    punctuation reduced to ";" and ".". The few greek passages have been also been
+    preserved, and some of the essais de plume as well (when  forming full words).  Annotation
+    of the layout made with SegmOnto controlled vocabulary.
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Vlachou-Efstathiou, Malamatenia},
+
+    title = {Voss.Lat.O.41 - Eutyches "de uerbo" glossed}
+
+    }
+
+    '
+  _apa: 'Vlachou-Efstathiou M. Voss.Lat.O.41 - Eutyches "de uerbo" glossed
+
+    '
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
   project-name: GenAuto
