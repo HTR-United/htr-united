@@ -12,7 +12,8 @@ description: >-
   différents spécimens d’écriture du début du XIXe siècle. Le jeu de données
   atteste les mains de quatre copistes différents.
 project-website: https://dhiha.hypotheses.org/2945
-language: []
+language:
+  - fra
 production-software: eScriptorium + Kraken
 script:
   - iso: Latn
