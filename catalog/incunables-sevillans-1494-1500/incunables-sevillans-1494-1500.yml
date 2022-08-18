@@ -11,11 +11,8 @@ authors:
       - project-manager
 institutions: []
 description: >-
-  Ce dépôt contient un modèle fonctionnel de reconnaissance optique de
-  caractères, entraîné grâce au logiciel kraken via eScriptorium. Le modèle a
-  été entraîné sur un des incunables du Regimiento de los Prínçipes (connu aussi
-  sous le titre de: Glosa castellana al Regimiento de prínçipes), l’incunable
-  INC/901 de la Bibliothèque nationale d'Espagne.
+ The data set corresponds to 60 pages printed in 1494 by Estanislao Polono and Meinardo Ungut in Seville. These pages are taken from the Regimiento de los Prínçipes (also known as 'Glosa castellana al Regimiento de prínçipes'), and the exemplar used is the
+  INC/901 of the Biblioteca Nacional de España. The type used for this incunabulum is 97G (Martín Abad and Moyano Andrés, Estanislao Polono, 2002, p. 61). This type was used between 1494 and 1500. For other incunabula produced in this period, see op. cit, p.112-121.
 language:
   - spa
 production-software: eScriptorium + Kraken
