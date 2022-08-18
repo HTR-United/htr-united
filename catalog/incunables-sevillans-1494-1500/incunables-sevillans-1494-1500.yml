@@ -1,5 +1,5 @@
 schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-title: Incunables sévillans 1494-1500
+title: Jeu de données OCR - Incunables sévillans 1494-1500
 url: https://doi.org/10.5281/zenodo.3643393
 authors:
   - name: Gille Levenson
@@ -31,10 +31,7 @@ license:
 format: Alto-XML
 sources:
   - reference: >-
-      Matthias Gille Levenson. (2020). Modèle de segmentation et de
-      reconnaissance optique de caractères - Kraken - Incunables sévillans
-      1494-1500 (Version v4) [Data set]. Zenodo.
-      https://doi.org/10.5281/zenodo.5562596
+      Matthias Gille Levenson. (2022). Jeu de données de segmentation et de reconnaissance optique de caractères - Kraken - Incunables sévillans 1494-1500 (Version v5) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7006981
     link: ''
 volume:
   - metric: lines
