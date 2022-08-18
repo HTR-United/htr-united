@@ -1,0 +1,47 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Incunables sévillans 1494-1500
+url: https://doi.org/10.5281/zenodo.3643393
+authors:
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+institutions: []
+description: >-
+  Ce dépôt contient un modèle fonctionnel de reconnaissance optique de
+  caractères, entraîné grâce au logiciel kraken via eScriptorium. Le modèle a
+  été entraîné sur un des incunables du Regimiento de los Prínçipes (connu aussi
+  sous le titre de: Glosa castellana al Regimiento de prínçipes), l’incunable
+  INC/901 de la Bibliothèque nationale d'Espagne.
+language:
+  - spa
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1494'
+  notAfter: '1500'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+sources:
+  - reference: >-
+      Matthias Gille Levenson. (2020). Modèle de segmentation et de
+      reconnaissance optique de caractères - Kraken - Incunables sévillans
+      1494-1500 (Version v4) [Data set]. Zenodo.
+      https://doi.org/10.5281/zenodo.5562596
+    link: ''
+volume:
+  - metric: lines
+    count: 4836
+transcription-guidelines: >-
+  Transcription diplomatique, sans normalisation, sans résolution d'abréviations
+  ni corrections. 
