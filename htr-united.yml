@@ -95,6 +95,73 @@
     \ and Bailiwick (1308-1662)},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright\
     \ = {Creative Commons Attribution 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FoNDUE-GasparoSardiToponomasia-Dataset
+  url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
+  authors:
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - transcriber
+    - quality-control
+    - digitization
+  - name: Mittenhuber
+    surname: Florian
+  institutions: []
+  description: "Dataset produced as for the project to edit Gasparo Sardi\u2019s Toponomasia\
+    \ from codex 174 of the Burgerbibliothek of Bern. Images are available on request\
+    \ by writing to: pauline.jacsont [ at ] unige.ch."
+  project-name: FoNDUE
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  - iso: Grek
+  script-type: only-manuscript
+  time:
+    notBefore: '1561'
+    notAfter: '1570'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
+  volume:
+  - metric: pages
+    count: 49
+  citation-file-link: https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
+  transcription-guidelines: " The transcriptions were made following the rules of\
+    \ the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval.\
+    \ The transcription is strictly diplomatic and graphmatic. No abbreviations are\
+    \ resolved, no standardization of 'i' and 'v' with ramist letters, and accents,\
+    \ punctuation, spaces, and line breaks are strictly adhered to. Following Leiden\
+    \ conventions, crossed out or crossed out elements are transcribed with double\
+    \ brackets \u27E6\u27E7, and elements that are illegible in the picture will not\
+    \ be restored but indicated by this type of bracket \u27E8 \u27E9. Special characters\
+    \ are encoded according to the MUFI fonts."
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Jacsont, Pauline},
+
+    month = {7},
+
+    title = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},
+
+    year = {2022}
+
+    }
+
+    '
+  _apa: 'Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek
+    of Berne. (version 1.0).
+
+    '
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Caroline Minuscule by Rescribe
   url: https://github.com/rescribe/carolineminuscule-groundtruth
   project-name: Rescribe
@@ -2721,6 +2788,14 @@
     surname: Jade
     roles:
     - transcriber
+  - name: Mazoue
+    surname: Anais
+    roles:
+    - transcriber
+  - name: Davoury
+    surname: Baudoin
+    roles:
+    - transcriber
   description: Various Manuscripts of the 17th century
   language:
   - fra
@@ -2739,13 +2814,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 39150
+    count: 81909
   - metric: files
-    count: 60
+    count: 111
   - metric: lines
-    count: 1062
+    count: 2245
   - metric: regions
-    count: 138
+    count: 264
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
   production-software: eScriptorium + Kraken
   characters:
@@ -2754,9 +2829,9 @@
     - e
     - s
     - r
-    - u
-    - n
     - a
+    - n
+    - u
     - i
     - o
     - t
@@ -2767,78 +2842,86 @@
     - p
     - v
     - q
-    - ','
-    - ''''
-    - b
-    - "\u0301"
-    - f
-    - g
-    - h
     - .
+    - ','
     - y
+    - ''''
+    - f
+    - b
+    - g
+    - "\u0301"
+    - h
     - j
+    - "\u0303"
     - M
-    - "\u0300"
     - x
     - R
-    - P
-    - V
-    - J
-    - C
-    - L
-    - '1'
     - z
-    - E
-    - S
-    - '&'
+    - C
+    - '1'
+    - J
     - ^
+    - "\u0300"
+    - P
+    - L
+    - S
+    - V
+    - '&'
     - A
+    - E
+    - '>'
+    - I
+    - <
     - '2'
-    - "\u0302"
-    - D
-    - B
+    - X
+    - '3'
     - T
     - '7'
-    - "\u0308"
-    - I
-    - ;
-    - '4'
+    - D
     - '6'
-    - '-'
-    - F
-    - '0'
-    - '3'
-    - G
-    - '5'
-    - "\u0327"
-    - '8'
-    - '?'
-    - N
-    - '['
     - ']'
+    - B
+    - '4'
+    - '['
+    - '0'
+    - '?'
+    - '-'
+    - "\u0302"
+    - "\u0308"
     - '9'
-    - H
+    - '5'
+    - ;
+    - G
+    - N
+    - '8'
     - ':'
-    - O
-    - "\u0304"
-    - W
-    - U
-    - "\u0303"
-    - "\u0153"
-    - '>'
-    - <
-    - "\xB0"
-    - Q
-    - X
-    - k
-    - "\uA757"
-    - (
+    - F
+    - "\u0327"
     - )
-    - w
-    - "\u03C2"
+    - (
+    - Q
+    - O
+    - H
+    - W
+    - "\u0153"
+    - "\u2038"
+    - "\u204A"
+    - U
+    - "\u0304"
+    - /
+    - "\uA757"
+    - +
+    - k
+    - "\xB0"
     - "\_"
-    - '#'
+    - w
+    - "\u05DD"
     - Z
+    - "\u03C2"
+    - '#'
+    - "\xE6"
+    - "\uA759"
+    - "\u0363"
     - "\u03B5"
     - "\u03D5"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
@@ -4511,13 +4594,13 @@
     \ du projet Gallicorpora"
   volume:
   - metric: characters
-    count: 63687
+    count: 116558
   - metric: files
-    count: 80
+    count: 140
   - metric: lines
-    count: 1903
+    count: 3523
   - metric: regions
-    count: 235
+    count: 406
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff
   production-software: eScriptorium + Kraken
   characters:
@@ -4528,91 +4611,91 @@
     - r
     - n
     - a
-    - t
     - i
-    - s
+    - t
     - o
+    - s
     - l
-    - c
+    - "\u017F"
     - d
+    - c
     - m
     - p
-    - "\u017F"
     - ','
     - q
     - g
     - f
     - v
-    - .
     - b
     - y
+    - .
     - h
-    - "\u2019"
     - E
-    - A
-    - x
+    - "\u2019"
     - ''''
-    - D
-    - z
+    - x
     - "\u0301"
+    - A
+    - '&'
+    - z
+    - D
     - L
     - R
     - I
-    - S
-    - C
-    - "\u0300"
-    - ':'
     - "\xAC"
-    - N
+    - "\u0300"
+    - C
+    - ':'
+    - S
     - P
+    - N
+    - "\u0303"
     - M
     - T
     - Q
     - O
-    - j
     - V
-    - '-'
-    - '&'
+    - F
     - B
     - G
+    - '-'
     - '?'
-    - F
-    - "\u0303"
-    - "\xB6"
-    - U
+    - j
     - "\u0327"
-    - '1'
+    - "\xBB"
+    - H
     - (
     - )
-    - ;
-    - H
-    - '"'
-    - '9'
-    - J
-    - '2'
+    - "\xB6"
+    - '1'
+    - U
     - "\u0153"
     - '!'
-    - Y
-    - "\xE6"
-    - '4'
-    - '7'
     - "\u0308"
+    - '2'
+    - ;
+    - '9'
+    - '"'
+    - "\xDF"
+    - Y
+    - '3'
+    - J
+    - '4'
+    - "\xE6"
+    - '7'
     - '5'
     - '8'
-    - '3'
-    - "\u02B3"
-    - '0'
-    - "\xDF"
-    - "\u204A"
-    - '6'
-    - "\xBB"
-    - "\uA770"
     - X
+    - '0'
+    - '6'
+    - "\u02B3"
     - "\u0302"
-    - "\uA753"
+    - "\u204A"
+    - "\uA770"
     - "\xAB"
+    - '*'
+    - "\uA753"
     - "\u204B"
-    - "\u030C"
     - "\uA751"
     - "\_"
     - ']'
@@ -4620,6 +4703,7 @@
     - "\u0399"
     - Z
     - "\u1D49"
+    - "\u0395"
     - '['
     - "\u03A4"
     - /
