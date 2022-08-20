@@ -1,0 +1,43 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: FoNDUE-GasparoSardiToponomasia-Dataset
+url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
+authors:
+  - name: Jacsont
+    surname: Pauline
+    roles:
+      - transcriber
+      - quality-control
+      - digitization
+  - name: Mittenhuber
+    surname: Florian
+institutions: []
+description: >-
+  Dataset produced as for the project to edit Gasparo Sardi’s Toponomasia from
+  codex 174 of the Burgerbibliothek of Bern. Images are available on request by writing to: pauline.jacsont [ at ] unige.ch.
+project-name: FoNDUE
+language:
+  - lat
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '1561'
+  notAfter: '1570'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+sources:
+  - reference: ''
+    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
+volume:
+  - metric: pages
+    count: 49
+citation-file-link: >-
+  https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
+transcription-guidelines: ' The transcriptions were made following the rules of the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval. The transcription is strictly diplomatic and graphmatic. No abbreviations are resolved, no standardization of ''i'' and ''v'' with ramist letters, and accents, punctuation, spaces, and line breaks are strictly adhered to. Following Leiden conventions, crossed out or crossed out elements are transcribed with double brackets ⟦⟧, and elements that are illegible in the picture will not be restored but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according to the MUFI fonts.'
