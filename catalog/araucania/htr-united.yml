@@ -1,0 +1,39 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: HTR - Araucania manuscript XIX
+url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
+authors:
+  - name: Humeau
+    surname: Maxime
+  - name: Chiaretti
+    surname: Alessandro
+institutions:
+  - name: Archivo Central Andres Bello
+description: >-
+  Ground Truth dataset for Spanish 19th typewritten OCR. 
+
+  The archives come from the events of the Occupation of Araucania (1850-1881)
+  in Chile. They are archived in the ’Colección manuscritos' of the Archivo
+  Central Andres Bello - Universidad de Chile.
+language:
+  - spa
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: mainly-manuscript
+time:
+  notBefore: '1859'
+  notAfter: '1877'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+  - metric: files
+    count: 180
+transcription-guidelines: |
+  - xxx for erased or unreadable characters
+  - ^+letters for superscript letters
+  - ⁋ for new paragraph
