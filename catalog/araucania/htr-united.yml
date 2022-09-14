@@ -33,6 +33,12 @@ format: Alto-XML
 volume:
   - metric: files
     count: 180
+  - metric: lines
+    count: 3932
+  - metric: regions
+    count: 981
+  - metric: characters
+    count: 117155
 transcription-guidelines: |
   - xxx for erased or unreadable characters
   - ^+letters for superscript letters
