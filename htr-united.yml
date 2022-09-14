@@ -1476,6 +1476,47 @@
     \ et du d\xE9partement de la Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr\
     \ (Huma-Num - CNRS)},\n  year = {2021}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: HTR - Araucania manuscript XIX
+  url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
+  authors:
+  - name: Humeau
+    surname: Maxime
+  - name: Chiaretti
+    surname: Alessandro
+  institutions:
+  - name: Archivo Central Andres Bello
+  description: "Ground Truth dataset for Spanish 19th typewritten OCR. \nThe archives\
+    \ come from the events of the Occupation of Araucania (1850-1881) in Chile. They\
+    \ are archived in the \u2019Colecci\xF3n manuscritos' of the Archivo Central Andres\
+    \ Bello - Universidad de Chile."
+  language:
+  - spa
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1859'
+    notAfter: '1877'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 180
+  - metric: lines
+    count: 3932
+  - metric: regions
+    count: 981
+  - metric: characters
+    count: 117155
+  transcription-guidelines: "- xxx for erased or unreadable characters\n- ^+letters\
+    \ for superscript letters\n- \u204B for new paragraph\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
@@ -2262,13 +2303,13 @@
   production-software: eScriptorium + Kraken
   volume:
   - metric: characters
-    count: 579368
+    count: 592827
   - metric: files
-    count: 263
+    count: 273
   - metric: lines
-    count: 21656
+    count: 22278
   - metric: regions
-    count: 1830
+    count: 1882
   characters:
     mode: NFD
     members:
@@ -2289,8 +2330,8 @@
     - .
     - q
     - f
-    - g
     - "\u0303"
+    - g
     - z
     - b
     - h
@@ -2319,8 +2360,8 @@
     - T
     - P
     - O
-    - k
     - I
+    - k
     - N
     - '9'
     - "\u036C"
@@ -2328,10 +2369,10 @@
     - U
     - G
     - R
-    - F
     - "\u1DD1"
-    - "\uF038"
+    - F
     - "\u0364"
+    - "\uF038"
     - '&'
     - '1'
     - B
@@ -2340,34 +2381,37 @@
     - "\xF7"
     - "\u0366"
     - H
-    - "\u1DE4"
     - '7'
+    - "\u1DE4"
     - '2'
     - "\u039B"
+    - "\u0142"
     - '6'
-    - '8'
     - '0'
     - '3'
+    - '8'
     - '4'
     - "\u033D"
     - w
     - '-'
     - '5'
     - "\u036D"
-    - Y
-    - "\_"
-    - "\u0142"
-    - "\u0308"
     - "\xB6"
-    - X
+    - Y
+    - "\u1E9C"
+    - "\_"
+    - "\u27E6"
+    - "\u27E7"
     - "\u0368"
+    - ','
+    - "\u0308"
+    - X
     - "\u0127"
     - K
     - "\u03B4"
     - "\u036B"
     - /
     - "\u0167"
-    - ','
   _bibtex: '@misc{YourReferenceHere,
 
     author = {Pinche, Ariane},
@@ -2597,36 +2641,40 @@
     - "\uF1A7"
     - '#'
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: "CREMMA Manuscrits m\xE9di\xE9vaux latins"
+  title: CREMMA Medieval Latin Manuscripts
   url: https://github.com/HTR-United/CREMMA-Medieval-LAT
-  project-name: CREMMA
   authors:
-  - name: "Cl\xE9rice"
+  - name: Cl\xE9rice
     surname: Thibault
+    orcid: 0000-0003-1852-9204
     roles:
+    - transcriber
+    - aligner
     - project-manager
     - quality-control
-    - transcriber
-  - name: "Chagu\xE9"
+  - name: Chagu\xE9
     surname: Alix
+    orcid: 0000-0002-0136-4434
     roles:
     - project-manager
   - name: Vlachou Efstathiou
     surname: Malamatenia
+    orcid: 0000-0002-9397-356X
     roles:
     - transcriber
     - aligner
-  description: 'Middle Ages'' manuscripts in Latin.
-
-    '
+  institutions: []
+  description: Ground truth for medieval latin manuscripts
+  project-name: CREMMA
   language:
   - lat
+  production-software: eScriptorium + Kraken
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1000'
-    notAfter: '1450'
+    notBefore: '1100'
+    notAfter: '1599'
   hands:
     count: 1-per-folder
     precision: exact
@@ -2636,15 +2684,21 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 218450
+    count: 240291
   - metric: files
-    count: 79
+    count: 100
   - metric: lines
-    count: 5883
+    count: 6648
   - metric: regions
-    count: 330
-  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-  production-software: eScriptorium + Kraken
+    count: 403
+  transcription-guidelines: 'Not a graphetic/"allographetique" transcription but rather
+    a graphemic one that preserves the sequence of letters and reduces each form to
+    its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro,
+    pre, tironian et, "est" etc.), as well as abbreviative signs, ligatures are reduced
+    to their component letters. Spaces between letters reproduce the original (e.g.
+    in the case of a semicontinuous script). Punctuations are simplified, reducing
+    to ":" all two-component punctuation (e.g. punctus elevatus). Rare characters
+    have been preserved such as "instans" and metric values (e.g. ounces). '
   characters:
     mode: NFD
     members:
@@ -2657,100 +2711,100 @@
     - "\u0303"
     - o
     - n
-    - c
     - r
+    - c
     - d
     - m
     - l
     - p
     - .
     - "\u033E"
-    - b
     - q
+    - b
     - f
     - g
-    - "\u204A"
     - "\uF1AC"
-    - h
-    - "\uA770"
+    - "\u204A"
     - "\u0363"
+    - "\uA770"
+    - h
     - "\u0365"
     - "\uA751"
     - x
     - "\u0142"
     - "\u1DD1"
     - "\u1DE4"
-    - "\uA76F"
     - "\uA759"
+    - "\uA76F"
     - "\u0366"
-    - I
     - v
+    - I
     - ':'
-    - "\uA753"
-    - "\uA775"
-    - S
     - "\u0364"
     - "\u036D"
+    - "\uA753"
+    - "\uA775"
+    - "\u036B"
+    - S
+    - "\xB6"
     - "\u1E9C"
     - A
-    - E
-    - "\u036B"
-    - N
-    - "\uA757"
-    - "\xB6"
-    - V
-    - C
-    - Q
-    - "\u0127"
-    - y
     - "\u0368"
+    - E
+    - "\u0127"
+    - N
+    - C
+    - "\uA757"
+    - Q
+    - V
+    - "\u1D48"
+    - y
     - "\u0335"
     - R
     - D
-    - P
-    - "\u1D48"
-    - M
+    - "\u036C"
     - "\u1DDD"
+    - P
+    - M
     - "\uA76D"
     - T
+    - "\u0367"
+    - '2'
     - ^
     - /
     - '&'
-    - '2'
-    - "\u036C"
     - ','
     - z
-    - "\u0367"
-    - "\xAC"
     - H
-    - L
+    - "\xAC"
     - '1'
+    - O
+    - '3'
+    - L
+    - '4'
     - '='
     - F
-    - '3'
-    - O
-    - '4'
-    - "\u1DE0"
     - G
+    - "\u1DE0"
     - "\u2125"
+    - '5'
     - "\xF7"
+    - j
     - '9'
     - U
+    - "\xD8"
     - "\u0307"
     - B
-    - "\u0327"
     - "\uA758"
-    - j
-    - '5'
-    - "\xD8"
-    - X
+    - "\u0327"
     - '6'
     - '8'
     - '0'
-    - ''''
-    - '7'
+    - X
     - "\u1D47"
+    - '7'
     - k
+    - ''''
     - '*'
     - "\uF2DA"
     - J
@@ -2760,11 +2814,117 @@
     - +
     - Z
     - "\u0111"
+    - K
     - "\u204B"
     - "\u1D56"
     - "\uF038"
     - "\u03B9"
     - "\_"
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Thibault and Alix  and Malamatenia},
+
+    doi = {10.5281/zenodo.7013436},
+
+    title = {CREMMA-Medieval-LAT},
+
+    url = {https://github.com/HTR-United/CREMMA-Medieval-LAT}
+
+    }
+
+    '
+  _apa: 'Thibault, Alix , Malamatenia CREMMA-Medieval-LAT DOI: 10.5281/zenodo.7013436
+    URL: https://github.com/HTR-United/CREMMA-Medieval-LAT
+
+    '
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 15e
+  url: https://github.com/HTR-United/CREMMA-MSS-15
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 15th century
+
+    '
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1400'
+    notAfter: '1499'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 16e
+  url: https://github.com/HTR-United/CREMMA-MSS-16
+  project-name: CREMMA
+  authors:
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: "Chagu\xE9"
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: 'Manuscripts of the 16th century
+
+    '
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1599'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+  production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 17e
   url: https://github.com/HTR-United/CREMMA-MSS-17
@@ -4594,13 +4754,13 @@
     \ du projet Gallicorpora"
   volume:
   - metric: characters
-    count: 116558
+    count: 186202
   - metric: files
-    count: 140
+    count: 180
   - metric: lines
-    count: 3523
+    count: 4918
   - metric: regions
-    count: 406
+    count: 591
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff
   production-software: eScriptorium + Kraken
   characters:
@@ -4609,13 +4769,13 @@
     - e
     - u
     - r
-    - n
     - a
+    - n
     - i
     - t
     - o
-    - s
     - l
+    - s
     - "\u017F"
     - d
     - c
@@ -4623,85 +4783,86 @@
     - p
     - ','
     - q
-    - g
-    - f
-    - v
-    - b
     - y
-    - .
+    - v
+    - f
+    - g
+    - b
     - h
-    - E
+    - .
     - "\u2019"
-    - ''''
-    - x
-    - "\u0301"
-    - A
     - '&'
+    - E
+    - x
+    - ''''
     - z
-    - D
-    - L
-    - R
-    - I
-    - "\xAC"
+    - "\u0301"
     - "\u0300"
+    - A
+    - "\xAC"
+    - "\u0303"
+    - D
     - C
+    - R
     - ':'
+    - L
+    - I
     - S
     - P
     - N
-    - "\u0303"
     - M
-    - T
-    - Q
     - O
+    - Q
+    - T
     - V
-    - F
-    - B
     - G
-    - '-'
-    - '?'
-    - j
-    - "\u0327"
-    - "\xBB"
     - H
+    - B
+    - F
+    - '-'
+    - "\u0327"
+    - j
+    - '?'
     - (
-    - )
-    - "\xB6"
-    - '1'
-    - U
-    - "\u0153"
-    - '!'
     - "\u0308"
+    - )
+    - "\xBB"
+    - '1'
+    - "\u0153"
+    - "\xB6"
+    - '!'
+    - U
     - '2'
+    - X
     - ;
     - '9'
-    - '"'
-    - "\xDF"
     - Y
-    - '3'
-    - J
     - '4'
-    - "\xE6"
-    - '7'
+    - '3'
+    - "\xDF"
     - '5'
+    - '"'
+    - '7'
+    - J
     - '8'
-    - X
-    - '0'
-    - '6'
-    - "\u02B3"
-    - "\u0302"
-    - "\u204A"
+    - "\xE6"
     - "\uA770"
+    - '6'
+    - '0'
+    - "\u0302"
+    - "\u02B3"
+    - "\u204A"
+    - Z
     - "\xAB"
     - '*'
+    - "\uA757"
     - "\uA753"
-    - "\u204B"
-    - "\uA751"
     - "\_"
+    - "\u204B"
+    - "\u0399"
+    - "\uA751"
     - ']'
     - "\u0365"
-    - "\u0399"
-    - Z
     - "\u1D49"
     - "\u0395"
     - '['
@@ -4753,13 +4914,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 97131
+    count: 132479
   - metric: files
-    count: 140
+    count: 160
   - metric: lines
-    count: 3433
+    count: 4519
   - metric: regions
-    count: 526
+    count: 624
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet gallicorpora"
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
@@ -4768,8 +4929,8 @@
     mode: NFD
     members:
     - e
-    - u
     - a
+    - u
     - n
     - r
     - i
@@ -4783,74 +4944,96 @@
     - m
     - p
     - ','
-    - q
     - v
-    - f
-    - "\u2019"
+    - q
     - g
-    - y
-    - b
-    - E
+    - f
     - .
-    - h
+    - "\u2019"
+    - b
+    - y
     - "\u0301"
+    - h
+    - E
     - '&'
+    - "\xAC"
     - A
     - S
     - x
     - C
-    - "\xAC"
     - L
-    - I
-    - "\u0300"
     - P
+    - "\u0300"
+    - I
+    - ''''
     - D
     - M
-    - V
-    - ''''
     - R
     - O
+    - V
     - T
-    - z
     - N
+    - z
     - ':'
     - '-'
     - Q
-    - F
-    - "\u0308"
-    - G
-    - B
     - ;
+    - G
+    - F
     - j
-    - '?'
-    - "\u0303"
+    - B
+    - "\u0308"
     - H
+    - "\u0303"
+    - '?'
     - "\u0327"
     - '1'
-    - "\u0153"
-    - '3'
-    - "\u0302"
     - '2'
+    - '3'
+    - "\u0153"
+    - "\u0302"
     - Y
     - '4'
-    - "\xDF"
-    - '5'
-    - Z
-    - "\xC6"
-    - '7'
-    - '6'
     - (
+    - '5'
     - X
-    - '9'
-    - '!'
-    - "\xE6"
     - )
+    - "\xE6"
+    - '6'
+    - Z
+    - "\xDF"
+    - '7'
+    - "\xC6"
     - J
+    - '9'
     - '8'
+    - '!'
     - '0'
-    - K
     - U
+    - "\u03BD"
+    - "\u03B9"
+    - "\u03B1"
+    - "\u03C9"
+    - "\u03C5"
+    - K
+    - k
+    - "\u03C1"
+    - "\u03C3"
+    - "\u0391"
+    - "\u03B5"
+    - '*'
     - "\u0152"
+    - W
+    - w
+    - "\u1E9E"
+    - "\u03A6"
+    - "\u03BA"
+    - "\u0313"
+    - "\u039B"
+    - "\u03B3"
+    - "\u03B4"
+    - "\u03BF"
+    - "\u03A7"
     - "\uA770"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Donn\xE9es imprim\xE9s gothiques du 16e si\xE8cle"
@@ -5035,13 +5218,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 100789
+    count: 151402
   - metric: files
-    count: 100
+    count: 160
   - metric: lines
-    count: 2914
+    count: 4500
   - metric: regions
-    count: 380
+    count: 624
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet Gallicorpora"
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
@@ -5052,9 +5235,9 @@
     - e
     - a
     - i
-    - n
-    - u
     - r
+    - u
+    - n
     - t
     - s
     - o
@@ -5067,76 +5250,79 @@
     - ','
     - v
     - q
+    - "\u0301"
     - .
     - "\u2019"
-    - "\u0301"
     - f
     - g
     - E
     - h
     - b
-    - A
-    - "\xAC"
-    - y
-    - '&'
     - "\u0300"
+    - "\xAC"
+    - A
     - j
+    - '&'
     - x
     - I
-    - M
-    - C
-    - R
+    - y
     - L
-    - N
+    - C
     - S
+    - M
+    - R
+    - N
     - P
-    - O
-    - '-'
-    - D
-    - T
-    - "\u0302"
-    - ;
     - ''''
-    - V
+    - D
+    - O
+    - "\u0302"
+    - '-'
+    - T
+    - ;
     - U
+    - V
+    - F
     - z
+    - H
+    - J
     - G
     - B
-    - J
-    - H
     - Q
-    - F
-    - "\u0308"
     - '1'
+    - "\u0308"
     - ':'
-    - '0'
     - "\u0327"
-    - '?'
+    - '0'
     - (
     - )
-    - "\u0153"
-    - '!'
-    - '6'
+    - '?'
     - '2'
+    - "\u0153"
     - '5'
     - '3'
+    - '6'
+    - '*'
     - '4'
-    - '8'
+    - '!'
+    - Y
     - '7'
+    - '8'
+    - w
     - '9'
     - Z
-    - '*'
-    - "\xAB"
+    - K
     - X
-    - Y
+    - "\xAB"
+    - k
     - "\u02B3"
     - "\xE6"
-    - k
-    - K
     - "\xDF"
     - "\u1D49"
     - "\u02E2"
     - "\xC6"
+    - "\u2020"
+    - W
     - "\u15C5"
     - "\u1D4D"
     - "\u207F"
