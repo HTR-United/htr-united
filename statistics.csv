@@ -169,14 +169,14 @@
 167,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,files,109,Alto-XML,only-manuscript
 168,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,lines,596,Alto-XML,only-manuscript
 169,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,regions,109,Alto-XML,only-manuscript
-170,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,169221,Alto-XML,evenly-mixed
-171,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,85,Alto-XML,evenly-mixed
-172,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,5937,Alto-XML,evenly-mixed
-173,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,458,Alto-XML,evenly-mixed
-174,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,244958,Alto-XML,evenly-mixed
-175,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,evenly-mixed
-176,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,evenly-mixed
-177,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,evenly-mixed
+170,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,169221,Alto-XML,only-manuscript
+171,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,85,Alto-XML,only-manuscript
+172,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,5937,Alto-XML,only-manuscript
+173,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,458,Alto-XML,only-manuscript
+174,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,244958,Alto-XML,only-typed
+175,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,only-typed
+176,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,only-typed
+177,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,only-typed
 178,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,186202,Alto-XML,only-typed
 179,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,180,Alto-XML,only-typed
 180,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,4918,Alto-XML,only-typed
@@ -189,10 +189,10 @@
 187,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
 188,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
 189,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
-190,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,151402,Alto-XML,evenly-mixed
-191,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,160,Alto-XML,evenly-mixed
-192,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,4500,Alto-XML,evenly-mixed
-193,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,624,Alto-XML,evenly-mixed
+190,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,151402,Alto-XML,only-typed
+191,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,160,Alto-XML,only-typed
+192,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,4500,Alto-XML,only-typed
+193,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,624,Alto-XML,only-typed
 194,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
 195,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
 196,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed

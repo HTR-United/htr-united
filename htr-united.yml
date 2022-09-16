@@ -4491,7 +4491,7 @@
   - fra
   script:
   - iso: Latn
-  script-type: evenly-mixed
+  script-type: only-manuscript
   time:
     notBefore: '1400'
     notAfter: '1500'
@@ -4656,7 +4656,7 @@
   - fra
   script:
   - iso: Latn
-  script-type: evenly-mixed
+  script-type: only-typed
   time:
     notBefore: '1400'
     notAfter: '1500'
@@ -5265,7 +5265,7 @@
   - fra
   script:
   - iso: Latn
-  script-type: evenly-mixed
+  script-type: only-typed
   time:
     notBefore: '1699'
     notAfter: '1700'
