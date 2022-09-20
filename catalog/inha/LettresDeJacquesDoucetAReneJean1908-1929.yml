@@ -1,0 +1,71 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: La Correspondances Jacques Doucet - René Jean
+url: https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean
+authors:
+  - name: Cugy
+    surname: Pascale
+    roles:
+      - transcriber
+      - project-manager
+      - quality-control
+  - name: Fieschi
+    surname: Caroline
+    roles:
+      - project-manager
+      - quality-control
+  - name: Peyrard
+    surname: Alix
+    roles:
+      - transcriber
+      - quality-control
+  - name: Prohin
+    surname: Lucie
+    roles:
+      - transcriber
+      - quality-control
+  - name: Sarda
+    surname: Marie-Anne
+    roles:
+      - support
+institutions:
+  - name: Institut National de l'histoire de l'art (INHA)
+    roles:
+      - transcriber
+      - project-manager
+      - quality-control
+  - name: Bibliothèque nationale de France
+    roles:
+    - digitization
+description: >-
+  Projet entrepris dans le cadre du programme La Bibliothèque d’art et
+  d’archéologie de Jacques Doucet : corpus, savoirs et réseaux de l’Institut
+  national d’histoire de l’art à partir d’un corpus de lettres et documents
+  conservés au Département des manuscrits de la Bibliothèque nationale de France
+  sous la cote NAF 13124, une des principales sources sur la relation entre
+  Doucet et René Jean qu’il engagea comme bibliothécaire le 2 juin 1908.
+project-website: https://skylab.inha.fr/PENSE/LettresDeJacquesDoucetAReneJean1908-1929/
+language:
+  - fra
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: mainly-manuscript
+time:
+  notBefore: '1908'
+  notAfter: '1929'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  - name: Etalab OL 2.0
+    url: https://spdx.org/licenses/etalab-2.0.html
+format: Alto-XML
+volume:
+  - metric: characters
+    count: 83312
+  - metric: lines
+    count: 2987
+  - metric: pages
+    count: 200
+  - metric: files
+    count: 200
