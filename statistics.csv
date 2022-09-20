@@ -1,203 +1,207 @@
 ,uri,title,start,end,metric,count,format,script-type
-0,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
-1,https://doi.org/10.5281/zenodo.5179361,Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662),1292,1570,lines,60000,Page-XML,only-manuscript
-2,https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR,FoNDUE-GasparoSardiToponomasia-Dataset,1561,1570,pages,49,Alto-XML,only-manuscript
-3,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
-4,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
-5,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,45,Alto-XML,only-manuscript
-6,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,16909,Alto-XML,only-manuscript
-7,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
-8,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
-9,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
-10,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
-11,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
-12,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-13,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-14,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-15,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
-16,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
-17,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
-18,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
-19,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
-20,https://doi.org/10.5281/zenodo.3643393,Jeu de données OCR - Incunables sévillans 1494-1500,1494,1500,lines,4836,Alto-XML,only-typed
-21,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,characters,270718,Alto-XML,only-typed
-22,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,lines,12526,Alto-XML,only-typed
-23,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,pages,198,Alto-XML,only-typed
-24,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
-25,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
-26,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
-27,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
-28,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
-29,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
-30,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,characters,18063,Alto-XML,evenly-mixed
-31,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,files,41,Alto-XML,evenly-mixed
-32,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,lines,770,Alto-XML,evenly-mixed
-33,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,regions,51,Alto-XML,evenly-mixed
-34,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,characters,9126,Alto-XML,only-manuscript
-35,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,files,6,Alto-XML,only-manuscript
-36,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,lines,253,Alto-XML,only-manuscript
-37,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,regions,22,Alto-XML,only-manuscript
-38,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,characters,29286,Alto-XML,only-manuscript
-39,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,files,12,Alto-XML,only-manuscript
-40,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,lines,735,Alto-XML,only-manuscript
-41,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,regions,86,Alto-XML,only-manuscript
-42,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,characters,40957,Alto-XML,only-typed
-43,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,files,47,Alto-XML,only-typed
-44,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,lines,1664,Alto-XML,only-typed
-45,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,regions,146,Alto-XML,only-typed
-46,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,characters,55156,Alto-XML,only-typed
-47,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,files,17,Alto-XML,only-typed
-48,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,lines,1962,Alto-XML,only-typed
-49,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,regions,86,Alto-XML,only-typed
-50,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,characters,45626,Alto-XML,only-typed
-51,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,files,28,Alto-XML,only-typed
-52,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,lines,983,Alto-XML,only-typed
-53,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,regions,72,Alto-XML,only-typed
-54,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,characters,155022,Alto-XML,only-typed
-55,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,files,56,Alto-XML,only-typed
-56,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,lines,2620,Alto-XML,only-typed
-57,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,regions,158,Alto-XML,only-typed
-58,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,characters,19821,Alto-XML,only-manuscript
-59,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,files,9,Alto-XML,only-manuscript
-60,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,lines,751,Alto-XML,only-manuscript
-61,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,regions,41,Alto-XML,only-manuscript
+0,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
+1,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
+2,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
+3,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
+4,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
+5,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
+6,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
+7,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
+8,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
+9,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,characters,270718,Alto-XML,only-typed
+10,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,lines,12526,Alto-XML,only-typed
+11,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,pages,198,Alto-XML,only-typed
+12,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,files,180,Alto-XML,mainly-manuscript
+13,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,lines,3932,Alto-XML,mainly-manuscript
+14,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,regions,981,Alto-XML,mainly-manuscript
+15,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,characters,117155,Alto-XML,mainly-manuscript
+16,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
+17,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
+18,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
+19,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
+20,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,characters,83312,Alto-XML,mainly-manuscript
+21,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,lines,2987,Alto-XML,mainly-manuscript
+22,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,pages,200,Alto-XML,mainly-manuscript
+23,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,files,200,Alto-XML,mainly-manuscript
+24,https://doi.org/10.5281/zenodo.5153263,"Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X",1563,1569,lines,8000,Page-XML,only-manuscript
+25,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
+26,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,characters,9126,Alto-XML,only-manuscript
+27,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,files,6,Alto-XML,only-manuscript
+28,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,lines,253,Alto-XML,only-manuscript
+29,https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny,Chateau de Chavigny,1568,1599,regions,22,Alto-XML,only-manuscript
+30,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,characters,13474,Alto-XML,only-manuscript
+31,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,files,16,Alto-XML,only-manuscript
+32,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,lines,367,Alto-XML,only-manuscript
+33,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,regions,64,Alto-XML,only-manuscript
+34,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,characters,45626,Alto-XML,only-typed
+35,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,files,28,Alto-XML,only-typed
+36,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,lines,983,Alto-XML,only-typed
+37,https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893,Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier ossétien,1893,1893,regions,72,Alto-XML,only-typed
+38,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,characters,55156,Alto-XML,only-typed
+39,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,files,17,Alto-XML,only-typed
+40,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,lines,1962,Alto-XML,only-typed
+41,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,regions,86,Alto-XML,only-typed
+42,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,characters,18063,Alto-XML,evenly-mixed
+43,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,files,41,Alto-XML,evenly-mixed
+44,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,lines,770,Alto-XML,evenly-mixed
+45,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,regions,51,Alto-XML,evenly-mixed
+46,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,characters,19821,Alto-XML,only-manuscript
+47,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,files,9,Alto-XML,only-manuscript
+48,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,lines,751,Alto-XML,only-manuscript
+49,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR,DecameronFR,1430,1455,regions,41,Alto-XML,only-manuscript
+50,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,characters,155022,Alto-XML,only-typed
+51,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,files,56,Alto-XML,only-typed
+52,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,lines,2620,Alto-XML,only-typed
+53,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles,Projet Exposition universelle de 1878,1881,1881,regions,158,Alto-XML,only-typed
+54,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,characters,40957,Alto-XML,only-typed
+55,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,files,47,Alto-XML,only-typed
+56,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,lines,1664,Alto-XML,only-typed
+57,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,regions,146,Alto-XML,only-typed
+58,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,characters,29286,Alto-XML,only-manuscript
+59,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,files,12,Alto-XML,only-manuscript
+60,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,lines,735,Alto-XML,only-manuscript
+61,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame,Projet Notre-Dame,1860,1860,regions,86,Alto-XML,only-manuscript
 62,https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace,De la généalogie des dieux,1472,1498,characters,109409,Alto-XML,only-typed
 63,https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace,De la généalogie des dieux,1472,1498,files,47,Alto-XML,only-typed
 64,https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace,De la généalogie des dieux,1472,1498,lines,3656,Alto-XML,only-typed
 65,https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace,De la généalogie des dieux,1472,1498,regions,292,Alto-XML,only-typed
-66,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,characters,13474,Alto-XML,only-manuscript
-67,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,files,16,Alto-XML,only-manuscript
-68,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,lines,367,Alto-XML,only-manuscript
-69,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz,Projet Correspondance Berlioz,1823,1844,regions,64,Alto-XML,only-manuscript
-70,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
-71,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
-72,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
-73,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,files,180,Alto-XML,mainly-manuscript
-74,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,lines,3932,Alto-XML,mainly-manuscript
-75,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,regions,981,Alto-XML,mainly-manuscript
-76,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,characters,117155,Alto-XML,mainly-manuscript
-77,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
-78,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
-79,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
-80,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
-81,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
-82,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
-83,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
-84,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
+66,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
+67,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
+68,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
+69,https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR,FoNDUE-GasparoSardiToponomasia-Dataset,1561,1570,pages,49,Alto-XML,only-manuscript
+70,https://doi.org/10.5281/zenodo.5179361,Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662),1292,1570,lines,60000,Page-XML,only-manuscript
+71,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
+72,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
+73,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
+74,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,45,Alto-XML,only-manuscript
+75,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,16909,Alto-XML,only-manuscript
+76,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
+77,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
+78,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
+79,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
+80,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+81,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+82,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+83,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+84,https://doi.org/10.5281/zenodo.3643393,Jeu de données OCR - Incunables sévillans 1494-1500,1494,1500,lines,4836,Alto-XML,only-typed
 85,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
 86,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
 87,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
 88,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
 89,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
-90,https://doi.org/10.5281/zenodo.5153263,"Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X",1563,1569,lines,8000,Page-XML,only-manuscript
-91,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
-92,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
-93,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
-94,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
-95,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
-96,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
-97,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,399155,Page-XML,only-typed
-98,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,files,150,Page-XML,only-typed
-99,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
-100,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
-101,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,150,Page-XML,only-typed
-102,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,746997,Page-XML,evenly-mixed
-103,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,248,Page-XML,evenly-mixed
-104,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
-105,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
-106,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,587,Page-XML,evenly-mixed
-107,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,1210754,Alto-XML,only-typed
-108,HTR-United/dahncorpus,DAHN Corpus,1914,1924,files,546,Alto-XML,only-typed
-109,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
-110,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
-111,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
-112,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,characters,592827,Alto-XML,only-manuscript
-113,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,files,273,Alto-XML,only-manuscript
-114,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,lines,22278,Alto-XML,only-manuscript
-115,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,regions,1882,Alto-XML,only-manuscript
-116,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,84726,Alto-XML,only-typed
-117,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
-118,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
-119,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
-120,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,characters,240291,Alto-XML,only-manuscript
-121,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,files,100,Alto-XML,only-manuscript
-122,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,lines,6648,Alto-XML,only-manuscript
-123,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,regions,403,Alto-XML,only-manuscript
-124,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
-125,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
-126,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
-127,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
-128,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,lines,0,Alto-XML,only-manuscript
-129,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,files,0,Alto-XML,only-manuscript
-130,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,regions,0,Alto-XML,only-manuscript
-131,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,characters,0,Alto-XML,only-manuscript
-132,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,81909,Alto-XML,only-manuscript
-133,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,111,Alto-XML,only-manuscript
-134,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,2245,Alto-XML,only-manuscript
-135,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,264,Alto-XML,only-manuscript
-136,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,59264,Alto-XML,only-manuscript
-137,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,50,Alto-XML,only-manuscript
-138,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,1981,Alto-XML,only-manuscript
-139,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,131,Alto-XML,only-manuscript
-140,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,55581,Alto-XML,only-manuscript
-141,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,69,Alto-XML,only-manuscript
-142,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,1807,Alto-XML,only-manuscript
-143,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,167,Alto-XML,only-manuscript
-144,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,5764,Alto-XML,only-manuscript
-145,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,13,Alto-XML,only-manuscript
-146,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,224,Alto-XML,only-manuscript
-147,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,25,Alto-XML,only-manuscript
-148,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359676,Page-XML,only-manuscript
-149,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
-150,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
-151,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
-152,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
-153,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,1969585,Page-XML,mainly-manuscript
-154,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,files,104,Page-XML,mainly-manuscript
-155,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
-156,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
-157,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,regions,105,Page-XML,mainly-manuscript
-158,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,525619,Alto-XML,mainly-manuscript
-159,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,files,218,Alto-XML,mainly-manuscript
-160,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,lines,29410,Alto-XML,mainly-manuscript
-161,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1138,Alto-XML,mainly-manuscript
-162,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,33652,Alto-XML,only-manuscript
-163,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,96,Alto-XML,only-manuscript
-164,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,1353,Alto-XML,only-manuscript
-165,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,105,Alto-XML,only-manuscript
-166,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,characters,28816,Alto-XML,only-manuscript
-167,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,files,109,Alto-XML,only-manuscript
-168,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,lines,596,Alto-XML,only-manuscript
-169,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,regions,109,Alto-XML,only-manuscript
-170,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,169221,Alto-XML,only-manuscript
-171,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,85,Alto-XML,only-manuscript
-172,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,5937,Alto-XML,only-manuscript
-173,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,458,Alto-XML,only-manuscript
-174,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,244958,Alto-XML,only-typed
-175,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,only-typed
-176,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,only-typed
-177,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,only-typed
-178,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,186202,Alto-XML,only-typed
-179,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,180,Alto-XML,only-typed
-180,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,4918,Alto-XML,only-typed
-181,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,regions,591,Alto-XML,only-typed
-182,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,characters,132479,Alto-XML,only-typed
-183,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,160,Alto-XML,only-typed
-184,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,4519,Alto-XML,only-typed
-185,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,624,Alto-XML,only-typed
-186,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90746,Alto-XML,evenly-mixed
-187,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
-188,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
-189,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
-190,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,151402,Alto-XML,only-typed
-191,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,160,Alto-XML,only-typed
-192,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,4500,Alto-XML,only-typed
-193,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,624,Alto-XML,only-typed
-194,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
-195,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
-196,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
-197,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
-198,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
-199,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
-200,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9328,Alto-XML,only-typed
-201,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed
+90,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
+91,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
+92,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
+93,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
+94,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
+95,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
+96,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
+97,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
+98,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
+99,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
+100,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
+101,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,399155,Page-XML,only-typed
+102,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,files,150,Page-XML,only-typed
+103,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
+104,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
+105,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,150,Page-XML,only-typed
+106,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,746997,Page-XML,evenly-mixed
+107,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,248,Page-XML,evenly-mixed
+108,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
+109,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
+110,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,587,Page-XML,evenly-mixed
+111,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,1210754,Alto-XML,only-typed
+112,HTR-United/dahncorpus,DAHN Corpus,1914,1924,files,546,Alto-XML,only-typed
+113,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
+114,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
+115,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
+116,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,characters,592827,Alto-XML,only-manuscript
+117,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,files,273,Alto-XML,only-manuscript
+118,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,lines,22278,Alto-XML,only-manuscript
+119,HTR-United/cremma-medieval,Cremma Medieval,1100,1499,regions,1882,Alto-XML,only-manuscript
+120,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,characters,84726,Alto-XML,only-typed
+121,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,files,98,Alto-XML,only-typed
+122,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,lines,2603,Alto-XML,only-typed
+123,HTR-United/cremma-16-17-print,CREMMA Early Modern Books,1500,1779,regions,451,Alto-XML,only-typed
+124,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,characters,240291,Alto-XML,only-manuscript
+125,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,files,100,Alto-XML,only-manuscript
+126,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,lines,6648,Alto-XML,only-manuscript
+127,HTR-United/CREMMA-Medieval-LAT,CREMMA Medieval Latin Manuscripts,1100,1599,regions,403,Alto-XML,only-manuscript
+128,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
+129,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
+130,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
+131,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,characters,0,Alto-XML,only-manuscript
+132,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,lines,0,Alto-XML,only-manuscript
+133,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,files,0,Alto-XML,only-manuscript
+134,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,regions,0,Alto-XML,only-manuscript
+135,HTR-United/CREMMA-MSS-16,CREMMA Manuscrits du 16e,1500,1599,characters,0,Alto-XML,only-manuscript
+136,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,characters,81909,Alto-XML,only-manuscript
+137,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,files,111,Alto-XML,only-manuscript
+138,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,lines,2245,Alto-XML,only-manuscript
+139,HTR-United/CREMMA-MSS-17,CREMMA Manuscrits du 17e,1600,1699,regions,264,Alto-XML,only-manuscript
+140,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,characters,59264,Alto-XML,only-manuscript
+141,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,files,50,Alto-XML,only-manuscript
+142,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,lines,1981,Alto-XML,only-manuscript
+143,HTR-United/CREMMA-MSS-18,CREMMA Manuscrits du 18e,1700,1799,regions,131,Alto-XML,only-manuscript
+144,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,characters,55581,Alto-XML,only-manuscript
+145,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,files,69,Alto-XML,only-manuscript
+146,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,lines,1807,Alto-XML,only-manuscript
+147,HTR-United/CREMMA-MSS-19,CREMMA Manuscrits du 19e,1800,1899,regions,167,Alto-XML,only-manuscript
+148,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,characters,5764,Alto-XML,only-manuscript
+149,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,files,13,Alto-XML,only-manuscript
+150,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,lines,224,Alto-XML,only-manuscript
+151,HTR-United/CREMMA-MSS-20,CREMMA Manuscrits du 20e,1900,1999,regions,25,Alto-XML,only-manuscript
+152,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359676,Page-XML,only-manuscript
+153,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
+154,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
+155,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
+156,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
+157,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,1969585,Page-XML,mainly-manuscript
+158,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,files,104,Page-XML,mainly-manuscript
+159,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
+160,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
+161,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,regions,105,Page-XML,mainly-manuscript
+162,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,525619,Alto-XML,mainly-manuscript
+163,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,files,218,Alto-XML,mainly-manuscript
+164,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,lines,29410,Alto-XML,mainly-manuscript
+165,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1138,Alto-XML,mainly-manuscript
+166,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,33652,Alto-XML,only-manuscript
+167,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,96,Alto-XML,only-manuscript
+168,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,1353,Alto-XML,only-manuscript
+169,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,105,Alto-XML,only-manuscript
+170,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,characters,28816,Alto-XML,only-manuscript
+171,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,files,109,Alto-XML,only-manuscript
+172,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,lines,596,Alto-XML,only-manuscript
+173,HTR-United/cremma-wikipedia,WikiCremma,2022,2023,regions,109,Alto-XML,only-manuscript
+174,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,169221,Alto-XML,only-manuscript
+175,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,files,85,Alto-XML,only-manuscript
+176,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,lines,5937,Alto-XML,only-manuscript
+177,Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,regions,458,Alto-XML,only-manuscript
+178,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,characters,244958,Alto-XML,only-typed
+179,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,only-typed
+180,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,only-typed
+181,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,only-typed
+182,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,characters,186202,Alto-XML,only-typed
+183,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,files,180,Alto-XML,only-typed
+184,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,lines,4918,Alto-XML,only-typed
+185,Gallicorpora/HTR-imprime-16e-siecle,Données imprimés du 16e siècle,1500,1599,regions,591,Alto-XML,only-typed
+186,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,characters,132479,Alto-XML,only-typed
+187,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,160,Alto-XML,only-typed
+188,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,4519,Alto-XML,only-typed
+189,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,624,Alto-XML,only-typed
+190,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90746,Alto-XML,evenly-mixed
+191,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
+192,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
+193,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,regions,233,Alto-XML,evenly-mixed
+194,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,151402,Alto-XML,only-typed
+195,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,160,Alto-XML,only-typed
+196,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,4500,Alto-XML,only-typed
+197,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,624,Alto-XML,only-typed
+198,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,characters,54549,Alto-XML,only-typed
+199,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,files,69,Alto-XML,only-typed
+200,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,lines,1899,Alto-XML,only-typed
+201,FoNDUE-HTR/FONDUE-FR-PRINT-17,FONDUE-FR-PRINT-17,1600,1700,regions,244,Alto-XML,only-typed
+202,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,characters,253723,Alto-XML,only-typed
+203,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,601,Alto-XML,only-typed
+204,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,9328,Alto-XML,only-typed
+205,FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,1699,Alto-XML,only-typed
