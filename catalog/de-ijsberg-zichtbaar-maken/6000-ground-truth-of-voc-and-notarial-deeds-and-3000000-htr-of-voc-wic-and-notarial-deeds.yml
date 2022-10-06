@@ -1,0 +1,69 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: >-
+  6000 ground truth of VOC and notarial deeds and 3.000.000 HTR of VOC, WIC and
+  notarial deeds
+url: https://doi.org/10.5281/zenodo.6414086
+authors: []
+institutions: []
+description: >-
+  The National Archives of the Netherlands and Noord-Hollands Archief conducted
+  a project using the Transkribus HTR (Handwritten Text Recognition) platform.
+  The aim was to semi automatically transcribe 2 million pages of old Dutch
+  texts.
+
+
+  The transcribed archives are 17th and 18th century documents from the Dutch
+  East-Asia Company (VOC). And 19th century notarial deeds from Noord-Hollands
+  Archief and other archives in the provinces.
+
+
+  In order to train the HTR software a team produced transcriptions of
+  approximately 6000 scans. The scans are randomly selected from the dataset and
+  contain hundreds of hands. With these transcriptions a model is trained that
+  can recognize more than 90% of the characters correctly. Transkribus
+  transcribed the 2 million scans automatically using the trained model.
+
+
+  Later on, 1 million extra scans concerning the West India Company (WIC) were
+  transcribed automatically without adding extra ground truth or training. These
+  archives are from the 17th and 18th century.
+
+
+  The datasets published in Zenodo contain the ground truth (scans in JPG,
+  transcription in PAGE XML) and the HTR results (in PAGE XML and TXT). See the
+  overview on the Zenodo page.
+
+
+  A specification on which archives have been transcribed (both GT and HTR) can
+  be found on the Zenodo.
+
+
+  For open data access of scans and inventories of the National Archives click
+  here:
+  https://www.nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven 
+
+
+  Disclaimer: due to a variety of languages used and the bad state of the
+  documents the HTR results of "1.05.21, Dutch series Guyana" can be of poor
+  quality.
+project-name: De ijsberg zichtbaar maken
+project-website: >-
+  https://www.nationaalarchief.nl/beleven/nieuws/kijk-symposium-de-ijsberg-zichtbaar-maken-terug#:~:text=In%20het%20project%20De%20IJsberg,de%20website%20zoekintranscripties.nl%20ontwikkeld.
+language: []
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1600'
+  notAfter: '1899'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: pages
+    count: 6000
