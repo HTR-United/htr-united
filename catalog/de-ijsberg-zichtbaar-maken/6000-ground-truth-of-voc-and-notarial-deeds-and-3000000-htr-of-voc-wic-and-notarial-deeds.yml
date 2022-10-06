@@ -1,11 +1,13 @@
 schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: >-
+  GT and HTR of VOC (Dutch East-Asia Company), WIC (Dutch West-Asia Company) and notarial deeds.
+url: https://doi.org/10.5281/zenodo.6414086
+authors: [Liesbeth Keijser, Vincent Noppe]
+institutions: [National Archive Netherlands / Nationaal Archief]
+description: >-
   6000 ground truth of VOC and notarial deeds and 3.000.000 HTR of VOC, WIC and
   notarial deeds
-url: https://doi.org/10.5281/zenodo.6414086
-authors: []
-institutions: []
-description: >-
+
   The National Archives of the Netherlands and Noord-Hollands Archief conducted
   a project using the Transkribus HTR (Handwritten Text Recognition) platform.
   The aim was to semi automatically transcribe 2 million pages of old Dutch
@@ -42,14 +44,13 @@ description: >-
   here:
   https://www.nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven 
 
-
   Disclaimer: due to a variety of languages used and the bad state of the
   documents the HTR results of "1.05.21, Dutch series Guyana" can be of poor
   quality.
 project-name: De ijsberg zichtbaar maken
 project-website: >-
   https://www.nationaalarchief.nl/beleven/nieuws/kijk-symposium-de-ijsberg-zichtbaar-maken-terug#:~:text=In%20het%20project%20De%20IJsberg,de%20website%20zoekintranscripties.nl%20ontwikkeld.
-language: []
+language: [Dutch]
 production-software: Transkribus
 script:
   - iso: Latn
