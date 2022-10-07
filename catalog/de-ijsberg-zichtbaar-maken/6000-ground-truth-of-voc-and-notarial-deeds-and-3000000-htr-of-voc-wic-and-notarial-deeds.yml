@@ -2,8 +2,19 @@ schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: >-
   GT and HTR of VOC (Dutch East-Asia Company), WIC (Dutch West-Asia Company) and notarial deeds.
 url: https://doi.org/10.5281/zenodo.6414086
-authors: [Liesbeth Keijser, Vincent Noppe]
-institutions: [National Archive Netherlands / Nationaal Archief]
+authors:
+  - name: Keijser
+    surname: Liesbeth
+    roles:
+      - transcriber
+      - project-manager
+  - name: Noppe
+    surname: Vincent
+institutions:
+  - name: National Archive Netherlands / Nationaal Archief
+    roles:
+      - digitization
+      - support
 description: >-
   6000 ground truth of VOC and notarial deeds and 3.000.000 HTR of VOC, WIC and
   notarial deeds
@@ -50,7 +61,8 @@ description: >-
 project-name: De ijsberg zichtbaar maken
 project-website: >-
   https://www.nationaalarchief.nl/beleven/nieuws/kijk-symposium-de-ijsberg-zichtbaar-maken-terug#:~:text=In%20het%20project%20De%20IJsberg,de%20website%20zoekintranscripties.nl%20ontwikkeld.
-language: [Dutch]
+language: 
+  - nld
 production-software: Transkribus
 script:
   - iso: Latn
@@ -68,3 +80,7 @@ format: Page-XML
 volume:
   - metric: pages
     count: 6000
+  - {count: 251889, metric: "lines"}
+  - {count: 6350, metric: "files"}
+  - {count: 10735, metric: "regions"}
+  - {count: 24432166, metric: "characters"}
