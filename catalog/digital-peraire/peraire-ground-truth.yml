@@ -35,10 +35,14 @@ license:
     url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 volume:
-  - metric: files
-    count: 33
-  - metric: lines
-    count: 1059
+- metric: characters
+  count: 38793
+- metric: files
+  count: 33
+- metric: lines
+  count: 1059
+- metric: regions
+  count: 80
 citation-file-link: https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff
 transcription-guidelines: >-
   The transcription respects what is written on the document, including
