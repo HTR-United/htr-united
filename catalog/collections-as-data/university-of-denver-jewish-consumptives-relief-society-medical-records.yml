@@ -1,0 +1,97 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: >-
+  University of Denver Jewish Consumptives Relief Society Medical Records  
+  Training and Validation Set
+url: http://dx.doi.org/10.5281/zenodo.4243023
+authors:
+  - name: Pham
+    surname: Kim
+    orcid: 0000-0002-9115-4739
+    roles:
+      - project-manager
+institutions: []
+description: >-
+  Training and validation set. Transcribed records available upon request.
+
+  The transcribed corpus of records from the Jewish Consumptive Relief Society
+  contains data that include individually identifiable health information, among
+  other sensitive information regarding persons and people.
+
+
+  All individuals for whom records are provided have been deceased for at least
+  70 years, but were they still living today, these records would be recognized
+  as being protected health information under the US Health Insurance
+  Portability and Accountability Act of 1996 (HIPAA).
+
+
+  While HIPPA and other privacy laws no longer apply to these individuals, in
+  providing these data the University of Denver wishes to foster research
+  practices that express the utmost respect for the human beings whose lives are
+  represented, at least in some part, in these collections. In addition, we ask
+  researchers respect the lives of these individuals’ ancestors and their
+  communities.
+
+
+  To foster practices that honor patients, staff, nurses and physicians
+  connected with the JCRS Sanitorium, as well as their families, ancestors and
+  communities, we ask that researchers disclose their intended use of the
+  collection for review by our Advisory Board (see reverse). This Board is
+  comprised of ethicists, historians, librarians, attorneys, physicians, and
+  members of the Jewish community.
+
+
+  In addition, we ask researchers agree to conduct their work under the
+  following set of principles:
+
+
+  1. I affirm the role of JCRS patients and staff as data creators and will
+  avoid exploiting and/or dehumanizing them by treating them simply as data.
+
+  2. My research will, when possible and appropriate, account for the contexts
+  surrounding the JCRS subjects as data arise. My work will recognize that all
+  data and datasets are shaped by decisions about how histories are recorded,
+  remembered, and valued.
+
+  3. If the nature of my work is such that I am sharing the life stories and/or
+  narratives of individuals in these data, and I can do so with no potential
+  harm to their reputation or that of their ancestors, I will honor them by
+  naming them. If the nature of my work is such that I am exploring large-scale
+  patterns in the dataset, and naming individuals serves no specific research
+  purpose, I will anonymize and/or redact names within the data. 
+
+  4. If I am publishing the results of research conducted with these data, I
+  will, if possible and appropriate, include a note of recognition and/or
+  gratitude in my publication. We suggest a version of: “This work was made
+  possible in part by the patients, staff, nurses, physicians, and community of
+  the Jewish Consumptive Relief Society (JCRS). The people who lived, worked,
+  and died at the JCRS sought to relieve human suffering. I am grateful to
+  them.”
+project-name: >-
+  Collections as Data - University of Denver Transcribing Handwritten Medical
+  Records
+project-website: https://du-collections-as-data.netlify.app/
+language:
+  - eng
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: mainly-manuscript
+time:
+  notBefore: '1900'
+  notAfter: '1950'
+hands:
+  count: unknown
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 36027
+  - metric: characters
+    count: 3494619
+  - metric: files
+    count: 2660
+  - metric: regions
+    count: 4254
