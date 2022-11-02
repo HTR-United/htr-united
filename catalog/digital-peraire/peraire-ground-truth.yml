@@ -1,0 +1,55 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Peraire Ground Truth
+url: https://github.com/alix-tz/peraire-ground-truth
+authors:
+  - name: Alix
+    surname: Chagué
+    orcid: 0000-0002-0136-4434
+    roles:
+      - transcriber
+      - quality-control
+institutions:
+  - name: Bibliothèque Sébert, Espéranto-France, Paris
+    roles:
+      - digitization
+description: >-
+  This dataset was created in order to produce an HTR model for the Digital
+  Peraire project. The documents are handwritten, dating from the second half of
+  the 20th century, written by Lucien Péraire in French with a blue ink pen or,
+  more frequently, with a blue pencil. 
+project-name: Digital Peraire
+language:
+  - fra
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1928'
+  notAfter: '1971'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 38793
+- metric: files
+  count: 33
+- metric: lines
+  count: 1059
+- metric: regions
+  count: 80
+citation-file-link: https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff
+transcription-guidelines: >-
+  The transcription respects what is written on the document, including
+  ponctuation and spelling errors. The case is respected: capital letters are
+  transcribed with capital letters. Crossed out words are signaled by # which
+  isn't used to transcribe anything else. The SegmOnto ontology was used for the
+  segmentation of this dataset. For regions, MainZone and MarginTextZone were
+  used. For lines, DefaultLine and InterlinearLine were used. The original
+  documents are held at the Bibliothèque Sébert, Espéranto-France, Paris. They
+  should be mentionned every time the images are used.
