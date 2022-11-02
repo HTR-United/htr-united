@@ -35,8 +35,8 @@ script:
 - iso: Grek
 script-type: only-typed
 time:
-  notBefore: '1800'
-  notAfter: '2022'
+  notBefore: '1835'
+  notAfter: '1903'
 hands:
   count: '1'
   precision: exact
