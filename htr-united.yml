@@ -123,6 +123,81 @@
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
   production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: 'GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries'
+  url: https://github.com/AjaxMultiCommentary/GT-commentaries-OLR
+  authors:
+  - name: Matteo
+    surname: Romanello
+    orcid: 0000-0002-7406-6286
+    roles:
+    - project-manager
+  - name: Sven
+    surname: Najem-Meyer
+    orcid: 0000-0002-3661-4579
+    roles:
+    - transcriber
+    - quality-control
+  - name: Carla
+    surname: Amaya
+    roles:
+    - transcriber
+  description: 'This dataset contains layout annotations for ca. 370 pages sampled
+    from 8 public domain classical commentaries, published in the 19th century in
+    English, German and Latin. The commentaries concern Ancient Greek and Latin works
+    from prose and poetry (caveat: AGreek poetry is slightly over-represented). Pages
+    were annotated according to a taxonomy mapped to the SegmOnto controlled vocabulary.'
+  project-name: Ajax Multi-Commentary
+  project-website: https://mromanello.github.io/ajax-multi-commentary/
+  language:
+  - eng
+  - deu
+  - lat
+  - grc
+  production-software: Kraken + VGG Image Annotator (VIA)
+  script:
+  - iso: Latn
+  - iso: Grek
+  script-type: only-typed
+  time:
+    notBefore: '1835'
+    notAfter: '1903'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 0
+  - metric: files
+    count: 371
+  - metric: lines
+    count: 0
+  - metric: regions
+    count: 2386
+  transcription-guidelines: SegmOnto guidelines (v. 0.9)
+  citation-file-link: https://github.com/AjaxMultiCommentary/GT-commentaries-layout/blob/master/CITATION.cff
+  characters:
+    mode: NFD
+    members: []
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Matteo and Najem-Meyer, Sven and Amaya, Carla},
+
+    doi = {10.5281/zenodo.7271729},
+
+    title = {GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries}
+
+    }
+
+    '
+  _apa: 'Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth
+    for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729
+
+    '
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
   project-name: GenAuto
@@ -2967,7 +3042,7 @@
     - "\uF1A7"
     - '#'
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: CREMMA Medieval Latin Manuscripts
+  title: CREMMA Medii Aevi
   url: https://github.com/HTR-United/CREMMA-Medieval-LAT
   authors:
   - name: Cl\xE9rice
@@ -2990,7 +3065,7 @@
     - transcriber
     - aligner
   institutions: []
-  description: Ground truth for medieval latin manuscripts
+  description: Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.
   project-name: CREMMA
   language:
   - lat
@@ -3148,23 +3223,12 @@
     - "\uF038"
     - "\u03B9"
     - "\_"
-  _bibtex: '@misc{YourReferenceHere,
-
-    author = {Thibault and Alix  and Malamatenia},
-
-    doi = {10.5281/zenodo.7013436},
-
-    title = {CREMMA-Medieval-LAT},
-
-    url = {https://github.com/HTR-United/CREMMA-Medieval-LAT}
-
-    }
-
-    '
-  _apa: 'Thibault, Alix , Malamatenia CREMMA-Medieval-LAT DOI: 10.5281/zenodo.7013436
-    URL: https://github.com/HTR-United/CREMMA-Medieval-LAT
-
-    '
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Cl\xE9rice, Thibault and Chagu\xE9\
+    , Alix and Vlachou-Efstathiou, Malamatenia},\ndoi = {10.5281/zenodo.7013436},\n\
+    title = {CREMMA Medii Aevi},\nurl = {https://github.com/HTR-United/CREMMA-Medieval-LAT}\n\
+    }\n"
+  _apa: "Cl\xE9rice T., Chagu\xE9 A., Vlachou-Efstathiou M. CREMMA Medii Aevi DOI:\
+    \ 10.5281/zenodo.7013436 URL: https://github.com/HTR-United/CREMMA-Medieval-LAT\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 15e
   url: https://github.com/HTR-United/CREMMA-MSS-15
@@ -3417,24 +3481,35 @@
   url: https://github.com/HTR-United/CREMMA-MSS-18
   project-name: CREMMA
   authors:
-  - name: Falcoz
-    surname: Elsa
-    roles:
-    - transcriber
-    - aligner
-  - name: "Cl\xE9rice"
-    surname: Thibault
-    roles:
-    - project-manager
-    - quality-control
   - name: "Chagu\xE9"
     surname: Alix
     roles:
     - project-manager
     - quality-control
-  description: 'Manuscripts of the 18th century
-
-    '
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - transcriber
+    - aligner
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+    - aligner
+  description: Manuscripts of the 18th century
   language:
   - fra
   script:
@@ -3452,105 +3527,121 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 59264
+    count: 141747
   - metric: files
-    count: 50
+    count: 125
   - metric: lines
-    count: 1981
+    count: 4017
   - metric: regions
-    count: 131
+    count: 329
   transcription-guidelines: "Abr\xE9viations conserv\xE9es."
   production-software: eScriptorium + Kraken
   characters:
     mode: NFD
     members:
     - e
-    - a
     - s
+    - a
     - r
     - t
-    - u
     - n
+    - u
     - i
-    - l
     - o
+    - l
     - d
-    - c
     - p
-    - .
+    - c
     - m
-    - f
     - v
+    - .
     - q
+    - f
     - "\u0301"
-    - b
     - ''''
-    - g
-    - h
     - ','
-    - L
+    - g
+    - b
+    - h
     - y
     - x
-    - S
-    - '1'
-    - ^
+    - j
+    - L
     - C
     - "\u0300"
-    - j
-    - (
-    - )
-    - '2'
-    - '['
-    - ']'
-    - '6'
-    - E
-    - '3'
-    - '4'
-    - '0'
-    - "\u0302"
-    - '5'
-    - X
-    - '8'
-    - z
-    - B
-    - D
-    - '7'
-    - '9'
-    - F
-    - I
-    - '-'
-    - P
-    - G
-    - "\u0308"
-    - '?'
-    - R
-    - N
-    - "\u2019"
-    - J
+    - ^
+    - '1'
     - M
-    - O
-    - A
-    - H
+    - S
+    - "\u0302"
+    - z
+    - E
+    - R
     - ;
-    - /
-    - T
-    - V
+    - '2'
+    - I
+    - '6'
+    - '0'
     - '>'
     - <
-    - K
-    - ':'
-    - '&'
-    - '='
-    - "\u0327"
-    - Q
-    - "\u0153"
-    - "\_"
-    - "\u017F"
-    - Z
-    - _
+    - D
+    - V
+    - J
+    - '4'
+    - '3'
+    - (
+    - )
+    - P
+    - "\u0308"
+    - '5'
     - "\u0303"
+    - '-'
+    - '['
+    - ']'
+    - '7'
+    - B
+    - '8'
+    - X
+    - A
+    - '9'
+    - N
+    - F
+    - G
+    - T
+    - '?'
+    - "\u0327"
+    - /
+    - ':'
+    - O
+    - H
+    - "\u2019"
+    - "\xAC"
+    - +
+    - "\_"
+    - "\u0153"
+    - U
+    - '&'
+    - "\xAB"
+    - Q
+    - '='
+    - K
+    - '!'
+    - k
+    - W
+    - Z
+    - w
+    - "\xB0"
+    - "\u204A"
+    - "\uA751"
+    - "\u017F"
+    - "\u2038"
+    - '#'
+    - "\u0336"
+    - _
     - Y
     - "\u0304"
+    - "\xBB"
+    - "\u0366"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: CREMMA Manuscrits du 19e
   url: https://github.com/HTR-United/CREMMA-MSS-19
@@ -5778,3 +5869,64 @@
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
   transcription-guidelines: SegmOnto
   production-software: Unknown [Automatically filled]
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FoNDUE - Datasets for historical catalogues
+  url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
+  authors:
+  - name: Pradier
+    surname: "Fr\xE9d\xE9rine"
+    orcid: 0000-0002-3476-7248
+    roles:
+    - transcriber
+    - project-manager
+  - name: Gabay
+    surname: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+  - name: Kervegan
+    surname: Paul
+    orcid: 0000-0003-2821-8821
+    roles:
+    - transcriber
+  - name: "Jan\xE8s"
+    surname: Juliette
+  - name: "S\xE1nchez Oeconomo"
+    surname: Esteban
+    roles:
+    - transcriber
+  institutions: []
+  description: 'Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed
+    in France but not only. Segmentation include an extra zone `CustomeZone: entry`'
+  project-name: FoNDUE
+  language:
+  - por
+  - fra
+  - ita
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1818'
+    notAfter: '1972'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff
+  volume:
+  - metric: characters
+    count: 1285120
+  - metric: files
+    count: 1381
+  - metric: lines
+    count: 43114
+  - metric: regions
+    count: 10713
