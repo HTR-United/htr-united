@@ -3657,6 +3657,26 @@
     roles:
     - project-manager
     - quality-control
+  - name: Davoury
+    surname: Baudouin
+    roles:
+    - transcriber
+    - aligner
+  - name: Doat
+    surname: Soline
+    roles:
+    - transcriber
+    - aligner
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+    - aligner
+  - name: Humeau
+    surname: Maxime
+    roles:
+    - transcriber
+    - aligner
   description: Manuscripts of the 19th century
   language:
   - fra
@@ -4319,6 +4339,24 @@
     - project-manager
     - quality-control
     - support
+  - name: Alix
+    surname: "Chagu\xE9"
+    roles:
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Thibault
+    surname: "Cl\xE9rice"
+    roles:
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - aligner
   - name: "Marie-Fran\xE7oise"
     surname: Limon-Bonnet
     roles:
@@ -4441,10 +4479,6 @@
   - surname: sgauthier
     roles:
     - transcriber
-  - name: Alix
-    surname: "Chagu\xE9"
-    roles:
-    - aligner
   - surname: EdChamps
     roles:
     - quality-control
@@ -4684,10 +4718,16 @@
     roles:
     - project-manager
     - quality-control
-  - name: Falcoz
+  - name: Van Kote
     surname: Elsa
     roles:
     - aligner
+    - transcriber
+  - name: "Mazou\xE9"
+    surname: Anais
+    roles:
+    - aligner
+    - transcriber
   description: 'The WikiCremma projet aims at creating a collection of ground truth
     to train HTR models on contemporary French handwriting.
 
