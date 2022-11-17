@@ -36,6 +36,7 @@ description: >-
 project-website: https://skylab.inha.fr/PENSE/LesPapiersBarye/
 language:
   - fra
+project-name: PENSE@INHA
 production-software: Transkribus
 script:
   - iso: Latn
