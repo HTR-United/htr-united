@@ -1104,6 +1104,7 @@
     \ de la Biblioth\xE8que nationale de France sous la cote NAF 13124, une des principales\
     \ sources sur la relation entre Doucet et Ren\xE9 Jean qu\u2019il engagea comme\
     \ biblioth\xE9caire le 2 juin 1908."
+  project-name: PENSE@INHA
   project-website: https://skylab.inha.fr/PENSE/LettresDeJacquesDoucetAReneJean1908-1929/
   language:
   - fra
@@ -1164,6 +1165,7 @@
     art (INHA) / Set of documents about the sculptor Antoine-Louis Barye. Paris, Library\
     \ of the Institut national d'histoire de l'art, Jacques Doucet, Archives 166.\
     \ National Institute of Art History (INHA)"
+  project-name: PENSE@INHA
   project-website: https://skylab.inha.fr/PENSE/LesPapiersBarye/
   language:
   - fra
@@ -2467,30 +2469,29 @@
     - e
     - t
     - /
-    - '0'
     - a
     - c
+    - '0'
     - n
     - r
-    - '1'
+    - '9'
     - m
     - h
     - p
     - s
     - o
     - g
-    - '2'
     - '7'
-    - '9'
+    - '1'
     - E
     - .
     - i
     - '-'
-    - '6'
-    - '5'
-    - '8'
+    - '2'
     - d
     - f
+    - '5'
+    - '6'
     - <
     - l
     - '{'
@@ -2504,16 +2505,16 @@
     - '>'
     - '4'
     - b
+    - '8'
     - '3'
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagu\xE9, Alix and Champougny, K\xE9\
     vin and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau,\
     \ Laurie and Bey, Laura and Le Fourner, Victoria and Albert, Ana\xEFs and Riondet,\
-    \ Charles and Martini, Manuela},\ndoi = {10.5281/zenodo.1234},\nmonth = {9},\n\
-    title = {timeuscorpus},\nurl = {https://github.com/HTR-United/timeuscorpus},\n\
-    year = {2021}\n}\n"
+    \ Charles and Martini, Manuela},\ndoi = {10.5281/zenodo.6230755},\ntitle = {Time\
+    \ Us Corpus},\nurl = {https://github.com/HTR-United/timeuscorpus}\n}\n"
   _apa: "Chagu\xE9 A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E.,\
-    \ Vanneau L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. (2021).\
-    \ timeuscorpus (version 1.0.0). DOI: 10.5281/zenodo.1234 URL: https://github.com/HTR-United/timeuscorpus\n"
+    \ Vanneau L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us\
+    \ Corpus DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: DAHN Corpus
   url: https://github.com/HTR-United/dahncorpus
@@ -2704,16 +2705,25 @@
   production-software: eScriptorium + Kraken
   volume:
   - metric: characters
-    count: 592827
+    count: 8378344
   - metric: files
-    count: 273
+    count: 289
   - metric: lines
-    count: 22278
+    count: 23630
   - metric: regions
-    count: 1882
+    count: 1932
   characters:
     mode: NFD
     members:
+    - O
+    - E
+    - L
+    - S
+    - C
+    - M
+    - I
+    - N
+    - '-'
     - e
     - i
     - s
@@ -2722,8 +2732,8 @@
     - a
     - r
     - o
-    - l
     - u
+    - l
     - c
     - d
     - m
@@ -2731,39 +2741,31 @@
     - .
     - q
     - f
-    - "\u0303"
     - g
-    - z
+    - "\u0303"
     - b
+    - z
     - h
     - "\u204A"
     - v
     - y
     - ':'
-    - E
-    - Q
     - x
-    - L
+    - Q
     - "\u033E"
-    - S
     - D
     - "\uA751"
     - "\u0365"
     - "\uA76F"
-    - C
     - "\u0363"
     - A
     - ''''
-    - M
     - "\uA770"
     - j
     - "\u0301"
     - T
     - P
-    - O
-    - I
     - k
-    - N
     - '9'
     - "\u036C"
     - J
@@ -2779,9 +2781,9 @@
     - B
     - V
     - "\uA753"
+    - H
     - "\xF7"
     - "\u0366"
-    - H
     - '7'
     - "\u1DE4"
     - '2'
@@ -2794,7 +2796,6 @@
     - '4'
     - "\u033D"
     - w
-    - '-'
     - '5'
     - "\u036D"
     - "\xB6"
@@ -2803,6 +2804,7 @@
     - "\_"
     - "\u27E6"
     - "\u27E7"
+    - ;
     - "\u0368"
     - ','
     - "\u0308"
@@ -5381,13 +5383,13 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 255983
+    count: 255981
   - metric: files
     count: 327
   - metric: lines
-    count: 8951
+    count: 8950
   - metric: regions
-    count: 1200
+    count: 1185
   transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
     \ du projet gallicorpora"
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
@@ -5483,10 +5485,10 @@
     - "\u03BD"
     - "\u03B5"
     - "\u03C1"
-    - '*'
     - "\u0313"
     - "\u03C5"
     - "\u03BA"
+    - '*'
     - "\u03C3"
     - "\u03C4"
     - "\u03C9"
@@ -5934,8 +5936,12 @@
     - transcriber
   - name: "Jan\xE8s"
     surname: Juliette
+    orcid: 0000-0002-8971-6173
+    roles:
+    - transcriber
   - name: "S\xE1nchez Oeconomo"
     surname: Esteban
+    orcid: 0000-0002-8591-5394
     roles:
     - transcriber
   institutions: []
