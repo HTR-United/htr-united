@@ -33,10 +33,10 @@ description: >-
   Set of documents about the sculptor Antoine-Louis Barye. Paris,
   Library of the Institut national d'histoire de l'art, Jacques
   Doucet, Archives 166. National Institute of Art History (INHA)
+project-name: PENSE@INHA
 project-website: https://skylab.inha.fr/PENSE/LesPapiersBarye/
 language:
   - fra
-project-name: PENSE@INHA
 production-software: Transkribus
 script:
   - iso: Latn
