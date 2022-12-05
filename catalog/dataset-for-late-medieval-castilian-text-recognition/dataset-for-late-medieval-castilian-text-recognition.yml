@@ -16,9 +16,8 @@ description: >-
 
   on the allographetic transcription of more than 300 pages of several
   manuscripts of the Regimiento de los
-
   Prínçipes, as well as a first set of general transcription models trained with
-  kraken and out-of-domain test data.
+  kraken and out-of-domain test data. See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset.
 language:
   - spa
 production-software: eScriptorium + Kraken
