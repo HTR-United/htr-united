@@ -367,6 +367,94 @@
   - metric: files
     count: 918
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: "Pade\u0159ov-Bible-handwriting-ground-truth"
+  url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
+  authors:
+  - name: Anna
+    surname: "Michalcov\xE1"
+    orcid: 0000-0003-4760-6950
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Jan
+    surname: "Odstr\u010Dil\xEDk"
+    orcid: 0000-0001-9104-9827
+    roles:
+    - project-manager
+    - support
+  - name: Laura
+    surname: "Maniakov\xE1"
+    roles:
+    - transcriber
+  - name: "Eli\u0161ka"
+    surname: "P\u011Bnkavov\xE1"
+    orcid: 0000-0002-5494-8847
+  - name: Kamil
+    surname: Bazelides
+    orcid: 0000-0002-5199-8726
+  - name: Jan
+    surname: "Haji\u010D"
+    orcid: 0000-0002-9207-567X
+  - name: Hana
+    surname: "Kreisingerov\xE1"
+    orcid: 0000-0002-2924-598X
+  - name: Jitka
+    surname: "Filipov\xE1"
+    orcid: 0000-0002-3570-4038
+  - name: Chi-hung
+    surname: Liu
+  - name: Martina
+    surname: "Dvo\u0159\xE1kov\xE1"
+  institutions:
+  - name: Institute of the Czech Language
+  - name: Masaryk Institute and Archives
+  description: "This is ground truth based on the Pade\u0159ov Bible (Vienna, Austrian\
+    \ National Library, shelfmark Cod. 1175, 1432\u20131435), the bible of the third\
+    \ redaction of the Old Czech Bible translation. The transcription rules were based\
+    \ on semi-diplomatic transcription rules set by PERO OCR and Sm\u011Brnice pro\
+    \ vyd\xE1v\xE1n\xED star\u0161\xEDch \u010Desk\xFDch text\u016F set by Ji\u0159\
+    \xED Da\u0148helka (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice).\
+    \ Abbreviations were tagged and expanded."
+  project-name: HTR Winter School 2022 Czech Group
+  project-website: https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition-1
+  language:
+  - ces
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1432'
+    notAfter: '1435'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  sources:
+  - reference: ''
+    link: https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21302405460003338&context=L&adaptor=Local%20Search%20Engine&vid=ONB&lang=de_DE&search_scope=ONB_gesamtbestand&tab=default_tab&query=addsrcrid,exact,AC13954505
+  volume:
+  - metric: pages
+    count: 63
+  transcription-guidelines: Transliteration. Differentiates long and short "s". Abbreviations
+    tagged and expanded. No misspelling corrections.
+  _bibtex: "@dataset{michalcova_anna_2022_7467034,\n  author       = {Michalcov\xE1\
+    , Anna and\n                  Bazelides, Kamil and\n                  Haji\u010D\
+    , Jan and\n                  P\u011Bnkavov\xE1, Eli\u0161ka and\n            \
+    \      Maniakov\xE1, Laura and\n                  Kreisingerov\xE1, Hana and\n\
+    \                  Filipov\xE1, Jitka and\n                  Chi-hung Lu and\n\
+    \                  Dvo\u0159\xE1kov\xE1, Martina},\n  title        = {{Pade\u0159\
+    ov-Bible-handwriting-ground-truth: Initial \n                   release}},\n \
+    \ month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi\
+    \          = {10.5281/zenodo.7467034},\n  url          = {https://doi.org/10.5281/zenodo.7467034}\n\
+    }"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
@@ -853,6 +941,216 @@
     \ Text Recognition},\n  title = {Charters and Records of K\xF6nigsfelden Abbey\
     \ and Bailiwick (1308-1662)},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright\
     \ = {Creative Commons Attribution 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: "Wien \xD6NB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022"
+  url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
+  authors:
+  - name: Geelhaar
+    surname: Tim
+    orcid: 0000-0002-7653-5859
+    roles:
+    - transcriber
+    - project-manager
+  - name: D'Amico
+    surname: Sara
+    orcid: 0000-0002-8937-2040
+    roles:
+    - transcriber
+  - name: Hofmann
+    surname: Lara
+    orcid: 0000-0003-4698-3906
+    roles:
+    - transcriber
+  - name: Gnasso
+    surname: Alessandro
+    orcid: 0000-0001-5964-2989
+    roles:
+    - transcriber
+  - name: Audebrand
+    surname: Justine
+    roles:
+    - transcriber
+  - name: Stitts
+    surname: Jeremy
+    orcid: 0000-0001-6988-1836
+    roles:
+    - transcriber
+  - name: Sweeney
+    surname: Mary
+    orcid: 0000-0001-7028-2072
+    roles:
+    - transcriber
+  - name: Atwood
+    surname: Grace
+    orcid: 0000-0002-1546-6546
+    roles:
+    - transcriber
+  institutions: []
+  description: "This is Ground Truth data created during the HTR Winter School 2022\
+    \ for the Cod. 2160 \xD6NB that contains one version of the so called Lex Dei. "
+  project-name: HTR Winter School 2022 - Carolingian Group
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+    qualify: Carolingian Minuscule
+  script-type: only-manuscript
+  time:
+    notBefore: '850'
+    notAfter: '900'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: http://data.onb.ac.at/rec/AC13956457
+  volume:
+  - metric: pages
+    count: 40
+  transcription-guidelines: Abbreviations resolved, but no normalization and no correcting
+    of mispelling. No transcription of initials and interlinear script.
+  _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
+    \            Sweeney and\n                  Stitts and\n                  Audebrand\
+    \ and\n                  D'Amico and\n                  Geelhaar and\n       \
+    \           Hofmann and\n                  Gnasso},\n  title        = {{Wien \xD6\
+    NB Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
+    \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
+    \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
+    }"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: "\xD6NB, Cod. 3891. Ground Truth"
+  url: 10.5281/zenodo.7467249
+  authors:
+  - name: Ainonen
+    surname: Tuija
+    roles:
+    - transcriber
+  - name: Andresen
+    surname: Suse
+    roles:
+    - transcriber
+  - name: Bakker
+    surname: "Lo\xEFs"
+    roles:
+    - transcriber
+  - name: Boylan
+    surname: Amy
+    roles:
+    - transcriber
+  - name: Della Manna
+    surname: Silvia
+    roles:
+    - transcriber
+  - name: Dziemski
+    surname: Wiktor
+    orcid: 0000-0001-8166-2249
+  - name: Henderson
+    surname: C. E. M.
+    orcid: 0000-0002-5040-9926
+    roles:
+    - transcriber
+  - name: ' Impagnatiello'
+    surname: Michele
+    roles:
+    - transcriber
+  - name: "Jenko Kova\u010Di\u010D"
+    surname: Ana
+    orcid: 0000-0001-7243-7082
+    roles:
+    - transcriber
+  - name: "Komatovi\u0107"
+    surname: Stevan
+    roles:
+    - transcriber
+  - name: Ku
+    surname: Ruby Wai-Ying
+    orcid: 0000-0003-2688-6287
+    roles:
+    - transcriber
+  - name: Loss
+    surname: Edward
+    orcid: 0000-0002-9837-8321
+    roles:
+    - transcriber
+  - name: Mairhofer
+    surname: Daniela
+    orcid: 0000-0002-3531-9658
+    roles:
+    - transcriber
+    - project-manager
+  - name: Morcos
+    surname: Erene
+    roles:
+    - transcriber
+  - name: "Odstr\u010Dil\xEDk"
+    surname: Jan
+    orcid: 0000-0001-9104-9827
+    roles:
+    - transcriber
+  - name: "Paternic\xF2"
+    surname: Giuseppe
+    orcid: 0000-0002-7124-8869
+    roles:
+    - transcriber
+  - name: Riparante
+    surname: Marta
+    roles:
+    - transcriber
+  - name: Schimdt
+    surname: Nathalie
+    roles:
+    - transcriber
+  - name: "So\u0142omieniuk"
+    surname: Michal
+    roles:
+    - transcriber
+  - name: Walczak
+    surname: 'Tomasz '
+    roles:
+    - transcriber
+  - name: Zharov
+    surname: Dmitry
+    roles:
+    - transcriber
+  institutions: []
+  description: "The Ground Truth was produced by the participants of the HTR Winter\
+    \ School 2022 in the Late Latin Group (more information: https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition).\n\
+    \nThe Ground Thruth includes the following folios: 1-3r, 6-8, 11r, 27 and is still\
+    \ work in progress. We are adding more pages soon. If you find any errors we kindly\
+    \ ask you to contact Jan Odstr\u010Dil\xEDk (jan.odstrcilik@oeaw.ac.at).\n\nThe\
+    \ Supervisors of the Late Latin Group: Jan Odstr\u010Dil\xEDk PhD, Austrian Acadamy\
+    \ of Sciences, Daniela Mairhofer PhD, Princeton University, Tobias Hodel PhD,\
+    \ University of Bern."
+  project-name: HTR Winter School 2022 - Late Latin Medieval Group
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1299'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 952
+  transcription-guidelines: "Regular transcription with expansion of abbreviations.\
+    \ \n- Normalization of J to I \n- V to U in the vowel function, U to V in the\
+    \ consonant function\n- long S to S. \n- No correction of mispellings (tagged\
+    \ in the ground truth)\n- No standardization of lower-case and upper-case letters\n\
+    - No added interpunction"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
@@ -1372,6 +1670,89 @@
   _apa: 'Vlachou-Efstathiou M. Voss.Lat.O.41 - Eutyches "de uerbo" glossed
 
     '
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
+  url: https://doi.org/10.5281/zenodo.7466927
+  authors:
+  - name: Berger
+    surname: Michael
+    orcid: 0000-0002-6627-5272
+  - name: Bolte
+    surname: Henrike
+  - name: "F\xFChrer"
+    surname: Veronika
+    orcid: 0000-0003-3145-4083
+  - name: Hausleitner
+    surname: Felix
+    orcid: 0000-0002-9788-8127
+  - name: Hutterer
+    surname: Sarah
+  - name: "L\xFCthi"
+    surname: Tim
+    orcid: 0000-0003-1925-7175
+  - name: Nancu
+    surname: Mihaela
+  - name: Passoni
+    surname: Erica
+  - name: Pataki
+    surname: Katalin
+    orcid: 0000-0003-0331-8295
+  - name: "Schr\xF6cksnadel"
+    surname: Sophie
+  - name: Verri
+    surname: Giovanni
+    orcid: 0000-0002-1297-2152
+  - name: Wegener
+    surname: Dennis
+    orcid: 0000-0002-9410-9191
+  institutions: []
+  description: "This is ground truth for the vast collection of sermons of Nikolaus\
+    \ von Dinkelsb\xFChl (ca. 1360 to 17th March 1433), translated and reorganised\
+    \ by a German redactor, from the 15th century has never been edited until now.\
+    \ It consists of 361 folios of parchment and paper. The text speaks about various\
+    \ topics such as fasting and other religious practices. Being one of the leading\
+    \ intellectuals of his time, Nikolaus von Dinkelsb\xFChl also contributed to the\
+    \ development of the University of Vienna. The manuscript was probably produced\
+    \ in the vicinity of Klosterneuburg in Austria and is still kept there today (Shelfmark:\
+    \ Cod. 48).\n\nData collection and ground truth creation:\n\nThe edition at hand\
+    \ was produced by an international team of researchers from various fields in\
+    \ the context of the Vienna HTR Winter School 2022 with the help of Transkribus\
+    \ Expert Client.\n\nWe uploaded the images of the manuscript into the Transkribus\
+    \ platform, applied the line recognition tool and manually copied the transcribed\
+    \ text lines into the recognised line boxes. Various models were trained with\
+    \ the ground truth (20% of the entire codex) created by the team.\n\nImages of\
+    \ the Klosterneuburg, Augustiner-Chorherrenstift, Cod. 48 are available at: https://manuscripta.at/diglit/AT5000-48/0001"
+  project-name: HTR Winter School 2022 - German Group
+  language:
+  - gmh
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1440'
+    notAfter: '1449'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: pages
+    count: 68
+  - metric: lines
+    count: 4605
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n\
+    \  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and\
+    \ Bolte, Henrike and F\xFChrer, Veronika and Hausleitner, Felix and Hutterer,\
+    \ Sarah and L\xFCthi, Tim and Nancu, Mihaela and Passoni, Erica and Pataki, Katalin\
+    \ and Schr\xF6cksnadel, Sophie and Verri, Giovanni and Wegener, Dennis and Hofert,\
+    \ Sandra},\n  keywords = {Digital Humanities, Handwritten Text Recognition, German,\
+    \ Nikolaus-von-Dinkelsb\xFChl-Redaktor},\n  title = {Klosterneuburg, Stiftsbibl.,\
+    \ Cod. 48 - Ground Truth: Initial Release},\n  publisher = {Zenodo},\n  year =\
+    \ {2022},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: HTR - Araucania manuscript XIX
   url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
