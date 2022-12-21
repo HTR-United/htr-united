@@ -1,0 +1,82 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Padeřov-Bible-handwriting-ground-truth
+url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
+authors:
+  - name: Anna
+    surname: Michalcová
+    orcid: 0000-0003-4760-6950
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+      - support
+  - name: Jan
+    surname: Odstrčilík
+    orcid: 0000-0001-9104-9827
+    roles:
+      - project-manager
+      - support
+  - name: Laura
+    surname: Maniaková
+    roles:
+      - transcriber
+  - name: Eliška
+    surname: Pěnkavová
+    orcid: 0000-0002-5494-8847
+  - name: Kamil
+    surname: Bazelides
+    orcid: 0000-0002-5199-8726
+  - name: Jan
+    surname: Hajič
+    orcid: 0000-0002-9207-567X
+  - name: Hana
+    surname: Kreisingerová
+    orcid: 0000-0002-2924-598X
+  - name: Jitka
+    surname: Filipová
+    orcid: 0000-0002-3570-4038
+  - name: Chi-hung
+    surname: Liu
+  - name: Martina
+    surname: Dvořáková
+institutions:
+  - name: Institute of the Czech Language
+  - name: Masaryk Institute and Archives
+description: >-
+  This is ground truth based on the Padeřov Bible (Vienna, Austrian National
+  Library, shelfmark Cod. 1175, 1432–1435), the bible of the third redaction of
+  the Old Czech Bible translation. The transcription rules were based on
+  semi-diplomatic transcription rules set by PERO OCR and Směrnice pro vydávání
+  starších českých textů set by Jiří Daňhelka
+  (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice).
+  Abbreviations were tagged and expanded.
+project-name: HTR Winter School 2022 Czech Group
+project-website: >-
+  https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition-1
+language:
+  - ces
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1432'
+  notAfter: '1435'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+sources:
+  - reference: ''
+    link: >-
+      https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21302405460003338&context=L&adaptor=Local%20Search%20Engine&vid=ONB&lang=de_DE&search_scope=ONB_gesamtbestand&tab=default_tab&query=addsrcrid,exact,AC13954505
+volume:
+  - metric: pages
+    count: 63
+transcription-guidelines: >-
+  Transliteration. Differentiates long and short "s". Abbreviations tagged and
+  expanded. No misspelling corrections.
