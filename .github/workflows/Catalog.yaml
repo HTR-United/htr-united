@@ -29,6 +29,7 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        python3 spid.py
         git add htr-united.yml graph.png statistics.csv catalog.json
         git commit -m "[Automatic] Update of the Catalog" || echo "Nothing to commit"
         git push || echo "Nothing to push"
