@@ -160,7 +160,7 @@
     ],
     "institutions": [],
     "description": "The Ground Truth was produced by the participants of the HTR Winter School 2022 in the Late Latin Group (more information: https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition).\n\nThe Ground Thruth includes the following folios: 1-3r, 6-8, 11r, 27 and is still work in progress. We are adding more pages soon. If you find any errors we kindly ask you to contact Jan Odstr\u010dil\u00edk (jan.odstrcilik@oeaw.ac.at).\n\nThe Supervisors of the Late Latin Group: Jan Odstr\u010dil\u00edk PhD, Austrian Acadamy of Sciences, Daniela Mairhofer PhD, Princeton University, Tobias Hodel PhD, University of Bern.",
-    "project-name": "HTR Winter School 2022 - Late Latin Medieval Group",
+    "project-name": "HTR Winter School 2022, Vienna",
     "language": [
       "lat"
     ],
@@ -752,7 +752,7 @@
     ],
     "institutions": [],
     "description": "This is ground truth for the vast collection of sermons of Nikolaus von Dinkelsb\u00fchl (ca. 1360 to 17th March 1433), translated and reorganised by a German redactor, from the 15th century has never been edited until now. It consists of 361 folios of parchment and paper. The text speaks about various topics such as fasting and other religious practices. Being one of the leading intellectuals of his time, Nikolaus von Dinkelsb\u00fchl also contributed to the development of the University of Vienna. The manuscript was probably produced in the vicinity of Klosterneuburg in Austria and is still kept there today (Shelfmark: Cod. 48).\n\nData collection and ground truth creation:\n\nThe edition at hand was produced by an international team of researchers from various fields in the context of the Vienna HTR Winter School 2022 with the help of Transkribus Expert Client.\n\nWe uploaded the images of the manuscript into the Transkribus platform, applied the line recognition tool and manually copied the transcribed text lines into the recognised line boxes. Various models were trained with the ground truth (20% of the entire codex) created by the team.\n\nImages of the Klosterneuburg, Augustiner-Chorherrenstift, Cod. 48 are available at: https://manuscripta.at/diglit/AT5000-48/0001",
-    "project-name": "HTR Winter School 2022 - German Group",
+    "project-name": "HTR Winter School 2022, Vienna",
     "language": [
       "gmh"
     ],
@@ -7858,7 +7858,7 @@
     ],
     "institutions": [],
     "description": "This is Ground Truth data created during the HTR Winter School 2022 for the Cod. 2160 \u00d6NB that contains one version of the so called Lex Dei. ",
-    "project-name": "HTR Winter School 2022 - Carolingian Group",
+    "project-name": "HTR Winter School 2022, Vienna",
     "language": [
       "lat"
     ],
@@ -7977,7 +7977,7 @@
       }
     ],
     "description": "This is ground truth based on the Pade\u0159ov Bible (Vienna, Austrian National Library, shelfmark Cod. 1175, 1432\u20131435), the bible of the third redaction of the Old Czech Bible translation. The transcription rules were based on semi-diplomatic transcription rules set by PERO OCR and Sm\u011brnice pro vyd\u00e1v\u00e1n\u00ed star\u0161\u00edch \u010desk\u00fdch text\u016f set by Ji\u0159\u00ed Da\u0148helka (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice). Abbreviations were tagged and expanded.",
-    "project-name": "HTR Winter School 2022 Czech Group",
+    "project-name": "HTR Winter School 2022, Vienna",
     "project-website": "https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition-1",
     "language": [
       "ces"

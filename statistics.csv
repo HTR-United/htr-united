@@ -17,65 +17,65 @@
 15,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
 16,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
 17,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
-18,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
-19,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
-20,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
-21,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
-22,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
-23,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
-24,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
-25,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
-26,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
-27,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-28,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-29,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-30,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
-31,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
-32,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
-33,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
-34,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
-35,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
-36,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,characters,38793,Alto-XML,only-manuscript
-37,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,files,33,Alto-XML,only-manuscript
-38,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,lines,1059,Alto-XML,only-manuscript
-39,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,regions,80,Alto-XML,only-manuscript
-40,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
-41,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
-42,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
-43,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
-44,https://doi.org/10.5281/zenodo.5179361,Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662),1292,1570,lines,60000,Page-XML,only-manuscript
-45,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
-46,10.5281/zenodo.7467249,"ÖNB, Cod. 3891. Ground Truth",1200,1299,lines,952,Page-XML,only-manuscript
-47,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
-48,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
-49,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
-50,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
-51,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
-52,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
-53,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,characters,270718,Alto-XML,only-typed
-54,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,lines,12526,Alto-XML,only-typed
-55,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,pages,198,Alto-XML,only-typed
-56,https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR,FoNDUE-GasparoSardiToponomasia-Dataset,1561,1570,pages,49,Alto-XML,only-manuscript
-57,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
-58,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
-59,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
-60,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
-61,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
-62,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
-63,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
-64,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
-65,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
-66,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,lines,36027,Page-XML,mainly-manuscript
-67,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,characters,3494619,Page-XML,mainly-manuscript
-68,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,files,2660,Page-XML,mainly-manuscript
-69,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,regions,4254,Page-XML,mainly-manuscript
-70,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,characters,0,Alto-XML,only-typed
-71,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,files,371,Alto-XML,only-typed
-72,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,lines,0,Alto-XML,only-typed
-73,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,regions,2386,Alto-XML,only-typed
-74,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
-75,https://doi.org/10.5281/zenodo.7466927,"Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release",1440,1449,pages,68,Alto-XML,only-manuscript
-76,https://doi.org/10.5281/zenodo.7466927,"Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release",1440,1449,lines,4605,Alto-XML,only-manuscript
+18,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
+19,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
+20,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
+21,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
+22,https://doi.org/10.5281/zenodo.7466927,"Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release",1440,1449,pages,68,Alto-XML,only-manuscript
+23,https://doi.org/10.5281/zenodo.7466927,"Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release",1440,1449,lines,4605,Alto-XML,only-manuscript
+24,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
+25,10.5281/zenodo.7467249,"ÖNB, Cod. 3891. Ground Truth",1200,1299,lines,952,Page-XML,only-manuscript
+26,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
+27,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
+28,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
+29,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
+30,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
+31,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+32,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+33,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+34,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+35,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
+36,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
+37,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
+38,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
+39,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
+40,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,characters,38793,Alto-XML,only-manuscript
+41,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,files,33,Alto-XML,only-manuscript
+42,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,lines,1059,Alto-XML,only-manuscript
+43,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1971,regions,80,Alto-XML,only-manuscript
+44,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
+45,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
+46,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
+47,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
+48,https://doi.org/10.5281/zenodo.5179361,Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662),1292,1570,lines,60000,Page-XML,only-manuscript
+49,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
+50,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
+51,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
+52,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
+53,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
+54,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
+55,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,characters,270718,Alto-XML,only-typed
+56,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,lines,12526,Alto-XML,only-typed
+57,https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset,FoNDUE Spanish chapbooks 19th c. Dataset,1770,1920,pages,198,Alto-XML,only-typed
+58,https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR,FoNDUE-GasparoSardiToponomasia-Dataset,1561,1570,pages,49,Alto-XML,only-manuscript
+59,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
+60,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
+61,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
+62,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
+63,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
+64,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
+65,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
+66,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
+67,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
+68,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,lines,36027,Page-XML,mainly-manuscript
+69,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,characters,3494619,Page-XML,mainly-manuscript
+70,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,files,2660,Page-XML,mainly-manuscript
+71,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,regions,4254,Page-XML,mainly-manuscript
+72,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,characters,0,Alto-XML,only-typed
+73,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,files,371,Alto-XML,only-typed
+74,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,lines,0,Alto-XML,only-typed
+75,https://github.com/AjaxMultiCommentary/GT-commentaries-OLR,GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries,1835,1903,regions,2386,Alto-XML,only-typed
+76,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
 77,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,files,180,Alto-XML,mainly-manuscript
 78,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,lines,3932,Alto-XML,mainly-manuscript
 79,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,regions,981,Alto-XML,mainly-manuscript
