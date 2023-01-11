@@ -1,0 +1,45 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+authors:
+  - name: Simon
+    surname: Gabay
+    orcid: 0000-0001-9094-4475
+    roles:
+      - project-manager
+      - quality-control
+      - support
+  - name: Pauline
+    surname: Jacsont
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+institutions: []
+description: HTR data made with the Kunsthistorisches UZH corpus.
+project-name: FoNDUE
+project-website: https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+language:
+  - deu
+  - fra
+  - ita
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: evenly-mixed
+time:
+  notBefore: '1900'
+  notAfter: '1999'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: pages
+    count: 1100
+citation-file-link: >-
+  https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/LICENSE
+transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations are resolved. \LItems that are crossed out or struck through will be transcribed with a \"€\"."
