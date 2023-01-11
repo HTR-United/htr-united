@@ -2,15 +2,15 @@ schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
 url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
 authors:
-  - name: Gabay
-    surname: Simon
+  - name: Simon
+    surname: Gabay
     orcid: 0000-0001-9094-4475
     roles:
       - project-manager
       - quality-control
       - support
-  - name: Jacsont
-    surname: Pauline
+  - name: Pauline
+    surname: Jacsont
     roles:
       - transcriber
       - aligner
