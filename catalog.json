@@ -1392,6 +1392,72 @@
     ],
     "_pid": "74eadcb57"
   },
+  "dcb8b4eaf": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
+    "url": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
+    "authors": [
+      {
+        "name": "Simon",
+        "surname": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Pauline",
+        "surname": "Jacsont",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "HTR data made with the Kunsthistorisches UZH corpus.",
+    "project-name": "FoNDUE",
+    "project-website": "https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue",
+    "language": [
+      "deu",
+      "fra",
+      "ita"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "evenly-mixed",
+    "time": {
+      "notBefore": "1900",
+      "notAfter": "1999"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 1100
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/LICENSE",
+    "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
+    "_pid": "dcb8b4eaf"
+  },
   "70e2b99f0": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "Donn\u00e9es HTR manuscrits du 15e si\u00e8cle",
@@ -4019,7 +4085,6 @@
         "\u0366",
         "\ua759",
         "\ua76f",
-        "v",
         "I",
         ":",
         "\u0364",
@@ -4031,9 +4096,9 @@
         "\u00b6",
         "\u1e9c",
         "E",
+        "U",
         "A",
         "\u0368",
-        "V",
         "C",
         "\u0127",
         "N",
@@ -4060,7 +4125,6 @@
         "H",
         "O",
         "\u00ac",
-        "j",
         "L",
         "1",
         "3",
@@ -4073,7 +4137,6 @@
         "\u2125",
         "5",
         "B",
-        "U",
         "9",
         "\u00d8",
         "\u0307",
@@ -4086,7 +4149,6 @@
         "\u1d47",
         "k",
         "7",
-        "J",
         "'",
         "*",
         "\uf2da",
@@ -4475,7 +4537,7 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 8378344
+        "count": 630584
       },
       {
         "metric": "files",
@@ -4493,15 +4555,6 @@
     "characters": {
       "mode": "NFD",
       "members": [
-        "O",
-        "E",
-        "L",
-        "S",
-        "C",
-        "M",
-        "I",
-        "N",
-        "-",
         "e",
         "i",
         "s",
@@ -4509,8 +4562,8 @@
         "n",
         "a",
         "r",
-        "o",
         "u",
+        "o",
         "l",
         "c",
         "d",
@@ -4525,29 +4578,34 @@
         "z",
         "h",
         "\u204a",
-        "v",
         "y",
         ":",
+        "E",
         "x",
         "Q",
+        "L",
         "\u033e",
+        "S",
         "D",
         "\ua751",
         "\u0365",
+        "C",
         "\ua76f",
         "\u0363",
         "A",
+        "I",
         "'",
+        "M",
         "\ua770",
-        "j",
         "\u0301",
         "T",
         "P",
+        "O",
         "k",
+        "N",
+        "U",
         "9",
         "\u036c",
-        "J",
-        "U",
         "G",
         "R",
         "\u1dd1",
@@ -4557,7 +4615,6 @@
         "&",
         "1",
         "B",
-        "V",
         "\ua753",
         "H",
         "\u00f7",
@@ -4574,6 +4631,7 @@
         "4",
         "\u033d",
         "w",
+        "-",
         "5",
         "\u036d",
         "\u00b6",
@@ -4582,7 +4640,6 @@
         "\u00a0",
         "\u27e6",
         "\u27e7",
-        ";",
         "\u0368",
         ",",
         "\u0308",
@@ -4592,7 +4649,8 @@
         "\u03b4",
         "\u036b",
         "/",
-        "\u0167"
+        "\u0167",
+        "j"
       ]
     },
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\nmonth = {6},\ntitle = {Cremma Medieval},\nurl = {https://github.com/HTR-United/cremma-medieval},\nyear = {2022}\n}\n",
