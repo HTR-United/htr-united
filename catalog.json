@@ -1030,19 +1030,19 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 253723
+        "count": 504656
       },
       {
         "metric": "files",
-        "count": 601
+        "count": 931
       },
       {
         "metric": "lines",
-        "count": 9328
+        "count": 17817
       },
       {
         "metric": "regions",
-        "count": 1699
+        "count": 2830
       }
     ],
     "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff",
@@ -1398,6 +1398,17 @@
     "url": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
     "authors": [
       {
+        "name": "Pauline",
+        "surname": "Jacsont",
+        "orcid": "0000-0002-6296-3246",
+        "roles": [
+          "project-manager",
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ]
+      },
+      {
         "name": "Simon",
         "surname": "Gabay",
         "orcid": "0000-0001-9094-4475",
@@ -1408,12 +1419,11 @@
         ]
       },
       {
-        "name": "Pauline",
-        "surname": "Jacsont",
+        "name": "Tristan",
+        "surname": "Weddigen",
+        "orcid": "0000-0002-4609-8950",
         "roles": [
-          "transcriber",
-          "aligner",
-          "quality-control"
+          "support"
         ]
       }
     ],
@@ -1454,7 +1464,7 @@
         "count": 1100
       }
     ],
-    "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/LICENSE",
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff",
     "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
     "_pid": "dcb8b4eaf"
   },
