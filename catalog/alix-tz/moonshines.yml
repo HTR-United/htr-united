@@ -1,0 +1,118 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Moonshines
+url: https://github.com/alix-tz/moonshines
+authors:
+- name: Alix
+  surname: "Chagué"
+  orcid: 0000-0002-0136-4434
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - digitization
+institutions: []
+description: "This dataset is composed of pages of text written in 2023 by a single\
+  \ person, copying texts taken from Guillaume Apollinaire\u2019s poems published\
+  \ in Alcools."
+language:
+- fra
+production-software: eScriptorium + Kraken
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '2023'
+  notAfter: '2023'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 16532
+- metric: files
+  count: 26
+- metric: lines
+  count: 606
+- metric: regions
+  count: 26
+citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
+transcription-guidelines: The transcription strictly follows what is written on the
+  images, including accentuation or capitalization errors. The segmentation follows
+  the SegmOnto ontology and mostly relies on MainZone and DefaultLine. Beware that
+  this dataset barely contains any ponctuation and that most lines begin with a capital
+  letter.
+characters:
+  mode: NFD
+  members:
+  - e
+  - s
+  - a
+  - n
+  - u
+  - t
+  - r
+  - i
+  - o
+  - l
+  - d
+  - m
+  - c
+  - p
+  - ''''
+  - "\u0301"
+  - v
+  - g
+  - b
+  - f
+  - h
+  - L
+  - "\u0300"
+  - E
+  - q
+  - x
+  - C
+  - A
+  - S
+  - "\u0302"
+  - T
+  - j
+  - y
+  - D
+  - M
+  - '-'
+  - P
+  - J
+  - O
+  - N
+  - R
+  - I
+  - z
+  - V
+  - U
+  - Q
+  - H
+  - F
+  - B
+  - '1'
+  - G
+  - Z
+  - '9'
+  - "\u0327"
+  - Y
+  - '2'
+  - .
+  - '{'
+  - '}'
+  - X
+  - "\u0308"
+  - '8'
+  - '0'
+  - (
+  - )
+  - ','
+  - '5'
+  - '3'
