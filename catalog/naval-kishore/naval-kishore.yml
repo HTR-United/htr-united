@@ -1,0 +1,58 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Ground truth data for printed Devanagari
+url: https://doi.org/10.11588/data/EGOKEI
+authors:
+  - name: Nicole
+    surname: Merkel-Hilf
+    orcid: 0000-0002-0344-6169
+    roles:
+      - transcriber
+      - project-manager
+  - name: Daria
+    surname: Peshcherova
+    roles:
+      - support
+institutions:
+  - name: Heidelberg University Library
+description: >-
+  Ground truth (GT) data (jpg and alto xml files) for an OCR model that
+  recognizes printed text in Devanagari script.
+
+
+  The GT data was trained on Transkribus with the HTR+ engine. The training was
+  performed on appr. 220 pages with appr. 27,000 words. The validation set was
+  10% of the training set.
+
+
+  The training material is comprised of letterpress printings from the Naval
+  Kishore Press (Lakhnau, North India) from the late 19th and early 20th century
+  in the Hindi, Sanskrit, Braj Bhasha and Awadhi languages.
+
+
+  Transcription was performed by Nicole Merkel-Hilf (CATS Library / Heidelberg
+  University Library) with support by Daria Peshcherova (CATS Library /
+  Heidelberg University Library).
+project-name: Naval Kishore Press - digital
+project-website: https://digi.ub.uni-heidelberg.de/en/sammlungen/suedasien/navalkishore.html
+language:
+  - hin
+  - san
+  - bra
+production-software: Transkribus
+script:
+  - iso: Deva
+script-type: only-typed
+time:
+  notBefore: '1880'
+  notAfter: '1953'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 4333
+transcription-guidelines: Diplomatic transcription, no correction of mispelling
