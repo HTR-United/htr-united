@@ -335,6 +335,73 @@
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.4243023,\n  doi = {10.5281/ZENODO.4243023},\n  url = {https://zenodo.org/record/4243023},\n  author = {Pham, Kim},\n  title = {University of Denver Collections as Data - HTR Train and Validation Set JCRS_2020_5_27},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "7a99090c5"
   },
+  "0be31b50c": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Ground truth data for printed Devanagari",
+    "url": "https://doi.org/10.11588/data/EGOKEI",
+    "authors": [
+      {
+        "name": "Nicole",
+        "surname": "Merkel-Hilf",
+        "orcid": "0000-0002-0344-6169",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Daria",
+        "surname": "Peshcherova",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Heidelberg University Library"
+      }
+    ],
+    "description": "Ground truth (GT) data (jpg and alto xml files) for an OCR model that recognizes printed text in Devanagari script.\n\nThe GT data was trained on Transkribus with the HTR+ engine. The training was performed on appr. 220 pages with appr. 27,000 words. The validation set was 10% of the training set.\n\nThe training material is comprised of letterpress printings from the Naval Kishore Press (Lakhnau, North India) from the late 19th and early 20th century in the Hindi, Sanskrit, Braj Bhasha and Awadhi languages.\n\nTranscription was performed by Nicole Merkel-Hilf (CATS Library / Heidelberg University Library) with support by Daria Peshcherova (CATS Library / Heidelberg University Library).",
+    "project-name": "Naval Kishore Press - digital",
+    "project-website": "https://digi.ub.uni-heidelberg.de/en/sammlungen/suedasien/navalkishore.html",
+    "language": [
+      "hin",
+      "san",
+      "bra"
+    ],
+    "production-software": "Transkribus",
+    "script": [
+      {
+        "iso": "Deva"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1880",
+      "notAfter": "1953"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 4333
+      }
+    ],
+    "transcription-guidelines": "Diplomatic transcription, no correction of mispelling",
+    "_bibtex": "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n  publisher = {heiDATA},\n  year = {2022}\n}\n",
+    "_pid": "0be31b50c"
+  },
   "fbe9216af": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
@@ -6646,6 +6713,8 @@
     ],
     "citation-file-link": "https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff",
     "transcription-guidelines": " The transcriptions were made following the rules of the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval. The transcription is strictly diplomatic and graphmatic. No abbreviations are resolved, no standardization of 'i' and 'v' with ramist letters, and accents, punctuation, spaces, and line breaks are strictly adhered to. Following Leiden conventions, crossed out or crossed out elements are transcribed with double brackets \u27e6\u27e7, and elements that are illegible in the picture will not be restored but indicated by this type of bracket \u27e8 \u27e9. Special characters are encoded according to the MUFI fonts.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\ntitle = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\nyear = {2022}\n}\n",
+    "_apa": "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne. (version 1.0).\n",
     "_pid": "a45f799c4"
   },
   "3a60c6704": {
