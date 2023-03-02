@@ -706,6 +706,157 @@
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
   production-software: eScriptorium + Kraken
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Paris Bible Project (PBP)
+  url: https://github.com/parisbible/ground_truth
+  authors:
+  - name: Estelle
+    surname: "Gu\xE9ville"
+    orcid: 0000-0003-2603-1051
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+  - name: David
+    surname: Wrisley
+    orcid: 0000-0002-0355-1487
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+  - name: "Niccol\xF2 Acram"
+    surname: Cappelletto
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+  institutions: []
+  description: The Paris Bible Project aims to understand the production and diffusion
+    of medieval Latin Bibles in Europe. The dataset includes ground truth from Paris
+    Bibles produced in the 13th and 14th centuries. We also provide the most recent
+    version of our list of Paris Bible manuscripts found in the world along with information
+    about them.
+  project-website: https://parisbible.github.io/
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1399'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 1700
+  - metric: files
+    count: 19
+  - metric: regions
+    count: 40
+  - metric: characters
+    count: 55970
+  characters:
+    mode: NFKD
+    members:
+    - i
+    - e
+    - t
+    - u
+    - a
+    - s
+    - o
+    - n
+    - "\u0304"
+    - c
+    - m
+    - r
+    - l
+    - "\uA77A"
+    - .
+    - p
+    - b
+    - q
+    - "\u204A"
+    - g
+    - f
+    - "\u0301"
+    - "\uA75B"
+    - h
+    - '-'
+    - d
+    - "\uA76B"
+    - ;
+    - x
+    - "\uA76F"
+    - "\u033E"
+    - "\uA751"
+    - "\u0365"
+    - E
+    - "\u0315"
+    - "\uA75D"
+    - "\u0303"
+    - "\uA753"
+    - y
+    - "\u0308"
+    - N
+    - "\u0307"
+    - Q
+    - "\xB7"
+    - D
+    - S
+    - I
+    - A
+    - "\u0366"
+    - C
+    - T
+    - "\u1506"
+    - "\uA759"
+    - H
+    - F
+    - P
+    - "\u0363"
+    - '2'
+    - V
+    - M
+    - ':'
+    - R
+    - z
+    - L
+    - O
+    - U
+    - v
+    - "\u211F"
+    - G
+    - "\u0368"
+    - "\u0367"
+    - '&'
+    - "\u1E9C"
+    - "\u1DE4"
+    - "\u0364"
+    - "\u0280"
+    - B
+    - X
+    - "\uA758"
+    - '?'
+    - k
+    - "\u18F3"
+    - j
+    - "\u036C"
+  transcription-guidelines: 'See: https://parisbible.github.io/guidelines/'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Gu\xE9ville, Estelle and Wrisley,\
+    \ David Joseph},\ndoi = {10.5281/zenodo.7653691},\nmonth = {10},\ntitle = {Ground\
+    \ Truth Used in HTR for the Paris Bible Project},\nyear = {2021}\n}\n"
+  _apa: "Gu\xE9ville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris\
+    \ Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Peraire Ground Truth
   url: https://github.com/alix-tz/peraire-ground-truth
   authors:
@@ -908,6 +1059,129 @@
     \ Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10, Urfehdenbuch X},\n\
     \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
     \ Non Commercial Share Alike 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Moonshines
+  url: https://github.com/alix-tz/moonshines
+  authors:
+  - name: Alix
+    surname: "Chagu\xE9"
+    orcid: 0000-0002-0136-4434
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - digitization
+  institutions: []
+  description: "This dataset is composed of pages of text written in 2023 by a single\
+    \ person, copying texts taken from Guillaume Apollinaire\u2019s poems published\
+    \ in Alcools."
+  language:
+  - fra
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '2023'
+    notAfter: '2023'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 16532
+  - metric: files
+    count: 26
+  - metric: lines
+    count: 606
+  - metric: regions
+    count: 26
+  citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
+  transcription-guidelines: The transcription strictly follows what is written on
+    the images, including accentuation or capitalization errors. The segmentation
+    follows the SegmOnto ontology and mostly relies on MainZone and DefaultLine. Beware
+    that this dataset barely contains any ponctuation and that most lines begin with
+    a capital letter.
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - n
+    - u
+    - t
+    - r
+    - i
+    - o
+    - l
+    - d
+    - m
+    - c
+    - p
+    - ''''
+    - "\u0301"
+    - v
+    - g
+    - b
+    - f
+    - h
+    - L
+    - "\u0300"
+    - E
+    - q
+    - x
+    - C
+    - A
+    - S
+    - "\u0302"
+    - T
+    - j
+    - y
+    - D
+    - M
+    - '-'
+    - P
+    - J
+    - O
+    - N
+    - R
+    - I
+    - z
+    - V
+    - U
+    - Q
+    - H
+    - F
+    - B
+    - '1'
+    - G
+    - Z
+    - '9'
+    - "\u0327"
+    - Y
+    - '2'
+    - .
+    - '{'
+    - '}'
+    - X
+    - "\u0308"
+    - '8'
+    - '0'
+    - (
+    - )
+    - ','
+    - '5'
+    - '3'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagu\xE9, Alix},\ndoi = {0.5281/zenodo.607720783},\n\
+    month = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\n\
+    year = {2023}\n}\n"
+  _apa: "Chagu\xE9 A. (2023). moonshines (version 1.0.0). DOI: 0.5281/zenodo.607720783\
+    \ URL: https://github.com/alix-tz/moonshines\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
