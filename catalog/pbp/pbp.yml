@@ -1,6 +1,6 @@
 schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Paris Bible Project (PBP)
-url: https://github.com/parisbible
+url: https://github.com/parisbible/ground_truth
 authors:
   - name: Estelle
     surname: Guéville
@@ -37,7 +37,6 @@ language:
 production-software: Transkribus
 script:
   - iso: Latn
-  - iso: Goth
 script-type: only-manuscript
 time:
   notBefore: '1200'
