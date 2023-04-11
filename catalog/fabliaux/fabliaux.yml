@@ -2,26 +2,26 @@ schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: Fabliaux
 url: https://github.com/CIHAM-HTR/Fabliaux
 authors:
-  - name: Corinne
-    surname: Pierreville
-    orcid: 0009-0003-3074-3841
-    roles:
-      - project-manager
-  - name: Ariane
-    surname: Pinche
-    orcid: 0000-0002-7843-5050
-    roles:
-      - transcriber
-      - aligner
-      - quality-control
+- name: Corinne
+  surname: Pierreville
+  orcid: 0009-0003-3074-3841
+  roles:
+  - project-manager
+- name: Ariane
+  surname: Pinche
+  orcid: 0000-0002-7843-5050
+  roles:
+  - transcriber
+  - aligner
+  - quality-control
 institutions: []
 description: HTR data sets from medieval manuscripts (13th-14th c.) collecting "fabliaux"
 project-website: https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux
 language:
-  - fra
+- fro
 production-software: eScriptorium + Kraken
 script:
-  - iso: Latn
+- iso: Latn
 script-type: only-manuscript
 time:
   notBefore: '1200'
@@ -30,11 +30,90 @@ hands:
   count: 1-per-folder
   precision: exact
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 citation-file-link: https://github.com/CIHAM-HTR/Fabliaux/blob/master/CITATION.cff
-transcription-guidelines: >-
-  The data follow the standards recommended by the CREMMALAB project, see
-  Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts.
-  2022. ⟨hal-03697382⟩
+transcription-guidelines: "The data follow the standards recommended by the CREMMALAB\
+  \ project, see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts.\
+  \ 2022. \u27E8hal-03697382\u27E9"
+volume:
+- metric: characters
+  count: 19600
+- metric: files
+  count: 10
+- metric: lines
+  count: 904
+- metric: regions
+  count: 40
+characters:
+  mode: NFD
+  members:
+  - e
+  - i
+  - s
+  - t
+  - a
+  - o
+  - u
+  - n
+  - r
+  - l
+  - d
+  - m
+  - c
+  - p
+  - "\u0303"
+  - f
+  - q
+  - b
+  - .
+  - h
+  - z
+  - g
+  - "\u204A"
+  - "\u033E"
+  - "\uA751"
+  - Q
+  - "\u0365"
+  - I
+  - x
+  - "\uA770"
+  - S
+  - C
+  - E
+  - "\uA76F"
+  - T
+  - L
+  - N
+  - O
+  - y
+  - M
+  - D
+  - "\u0363"
+  - F
+  - A
+  - U
+  - "\u0142"
+  - "\u1E9C"
+  - P
+  - B
+  - ':'
+  - '9'
+  - "\uF1AC"
+  - '1'
+  - '6'
+  - '4'
+  - "\u0366"
+  - "\u27E6"
+  - "\u27E7"
+  - "\u205C"
+  - ''''
+  - G
+  - "\u1DE4"
+  - "\u036B"
+  - '7'
+  - '5'
+  - '0'
+  - "\uA753"
+  - '8'
