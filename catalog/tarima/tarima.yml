@@ -1,0 +1,52 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: TariMa
+url: https://github.com/calfa-co/tarima
+authors:
+  - name: Antoine
+    surname: Perrier
+    orcid: 0000-0002-5035-4283
+    roles:
+      - project-manager
+institutions:
+  - name: BULAC
+    roles:
+      - project-manager
+description: >-
+  The dataset has been collated within the frame of the TariMa project (Tarih
+  al-Maghrib. Writing History in the Maghreb in the modern and contemporary
+  era), sponsored by the French agency Collex-Persee and supervised by Antoine
+  Perrier (CNRS). It comprises different image resolution and size (width from
+  982px to 8049px), different layouts (double page, multiple columns), and state
+  of conservation. It also mixes microfilms, scans and lithographies. It
+  presents a very wide variety representative of the Maghrebi Arabic production.
+project-website: https://www.collexpersee.eu/projet/tarima/
+language:
+  - ara
+production-software: Calfa Vision
+script:
+  - iso: Arab
+    qualify: Maghrebi
+script-type: mainly-manuscript
+time:
+  notBefore: '1500'
+  notAfter: '1899'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+sources:
+  - reference: ''
+    link: https://github.com/calfa-co/tarima
+volume:
+  - metric: files
+    count: 120
+  - metric: lines
+    count: 2673
+  - metric: characters
+    count: 146667
+transcription-guidelines: >-
+  We follow the RASAM guidelines for the transcription of Arabic Maghrebi
+  manuscripts.
