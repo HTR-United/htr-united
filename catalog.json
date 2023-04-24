@@ -268,7 +268,7 @@
     ],
     "transcription-guidelines": "Transcription diplomatique. Les accolades n'ont pas \u00e9t\u00e9 segment\u00e9es.\n",
     "production-software": "Transkribus",
-    "_bibtex": "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Elgarrista, Gabriela and M\u00e9lanie-Becquet, Fr\u00e9d\u00e9rique and Brando, Carmen},\n  keywords = {Paris, Historical source material, HTR, Transcripci\u00f3n, Apprentissage (intelligence artificielle)},\n  language = {fr},\n  title = {Donn\u00e9es v\u00e9rit\u00e9 de terrain HTR+ Annuaire des propri\u00e9taires et des propri\u00e9t\u00e9s de Paris et du d\u00e9partement de la Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n  year = {2021}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen and Elgarrista, Gabriela and M\u00e9lanie-Becquet, Fr\u00e9d\u00e9rique},\n  keywords = {Paris, Historical source material, HTR, Transcripci\u00f3n, Apprentissage (intelligence artificielle)},\n  language = {fr},\n  title = {Donn\u00e9es v\u00e9rit\u00e9 de terrain HTR+ Annuaire des propri\u00e9taires et des propri\u00e9t\u00e9s de Paris et du d\u00e9partement de la Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n  year = {2021}\n}\n",
     "_pid": "c326a6fee"
   },
   "7a99090c5": {
@@ -8362,6 +8362,79 @@
     "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper.'\n",
     "production-software": "Calfa Vision",
     "_pid": "983e367d9"
+  },
+  "8df2bf945": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "TariMa",
+    "url": "https://github.com/calfa-co/tarima",
+    "authors": [
+      {
+        "name": "Antoine",
+        "surname": "Perrier",
+        "orcid": "0000-0002-5035-4283",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [
+      {
+        "name": "BULAC",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
+    "description": "The dataset has been collated within the frame of the TariMa project (Tarih al-Maghrib. Writing History in the Maghreb in the modern and contemporary era), sponsored by the French agency Collex-Persee and supervised by Antoine Perrier (CNRS). It comprises different image resolution and size (width from 982px to 8049px), different layouts (double page, multiple columns), and state of conservation. It also mixes microfilms, scans and lithographies. It presents a very wide variety representative of the Maghrebi Arabic production.",
+    "project-website": "https://www.collexpersee.eu/projet/tarima/",
+    "language": [
+      "ara"
+    ],
+    "production-software": "Calfa Vision",
+    "script": [
+      {
+        "iso": "Arab",
+        "qualify": "Maghrebi"
+      }
+    ],
+    "script-type": "mainly-manuscript",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1899"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Page-XML",
+    "sources": [
+      {
+        "reference": "",
+        "link": "https://github.com/calfa-co/tarima"
+      }
+    ],
+    "volume": [
+      {
+        "metric": "files",
+        "count": 120
+      },
+      {
+        "metric": "lines",
+        "count": 2673
+      },
+      {
+        "metric": "characters",
+        "count": 146667
+      }
+    ],
+    "transcription-guidelines": "We follow the RASAM guidelines for the transcription of Arabic Maghrebi manuscripts.",
+    "_pid": "8df2bf945"
   },
   "470bdd3df": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
