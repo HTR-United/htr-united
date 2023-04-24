@@ -23,7 +23,6 @@ language:
 production-software: eScriptorium + Kraken
 script:
   - iso: Latn
-  - iso: Goth
 script-type: mainly-manuscript
 time:
   notBefore: '1300'
