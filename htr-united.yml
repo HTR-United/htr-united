@@ -315,6 +315,166 @@
     \      = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
     \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Liber
+  url: https://github.com/CIHAM-HTR/Liber
+  authors:
+  - name: Davide
+    surname: Aruta
+    roles:
+    - transcriber
+    - aligner
+  - name: Martina
+    surname: Lenzi
+    roles:
+    - transcriber
+    - aligner
+  - name: Armelle
+    surname: "Le Hu\xEBrou"
+    orcid: 0000-0001-7938-2686
+    roles:
+    - transcriber
+    - aligner
+  - name: "Maryl\xE8ne"
+    surname: "Possama\xEF"
+    orcid: 0000-0002-9250-370X
+    roles:
+    - project-manager
+  - name: Ariane
+    surname: Pinche
+    orcid: 0000-0002-7843-5050
+    roles:
+    - quality-control
+  institutions: []
+  description: "HTR datasets of medieval manuscripts (14th-15th c.) with Pierre Bersuire\u2019\
+    s translation into Old French of the work of Titus Livius and Nicolas Trevet Commentaries"
+  project-website: https://anr.fr/Projet-ANR-21-CE27-0008
+  language:
+  - fro
+  - lat
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1300'
+    notAfter: '1400'
+  hands:
+    count: '1'
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: "Aruta, D., Lenzi, M., Le Hu\xEBrou, A., Possama\xEF, M., & Pinche,\
+      \ A. (2023). Liber [Data set]. https://github.com/CIHAM-HTR/Liber/data"
+    link: https://github.com/CIHAM-HTR/Liber
+  volume:
+  - metric: characters
+    count: 134899
+  - metric: files
+    count: 37
+  - metric: lines
+    count: 3789
+  - metric: regions
+    count: 152
+  citation-file-link: https://github.com/CIHAM-HTR/Liber/blob/main/CITATION.cff
+  transcription-guidelines: "Data follow the standards recommended by the CREMMA projects,\
+    \ see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts.\
+    \ 2022. hal-03697382 - and Thibault Cl\xE9rice, Malamatenia Vlachou-Efstathiou,\
+    \ Alix Chagu\xE9. CREMMA Medii Aevi: Literary manuscript text recognition in Latin.\
+    \ Journal of Open Humanities Data, 2023, 9, pp.4. \u27E810.5334/johd.97\u27E9\
+    . \u27E8hal-03828353v5\u27E9"
+  characters:
+    mode: NFD
+    members:
+    - e
+    - i
+    - u
+    - s
+    - a
+    - t
+    - n
+    - r
+    - o
+    - l
+    - c
+    - m
+    - d
+    - p
+    - .
+    - q
+    - "\u0303"
+    - g
+    - b
+    - f
+    - z
+    - h
+    - y
+    - x
+    - '-'
+    - "\u0365"
+    - "\u0363"
+    - "\u204A"
+    - E
+    - "\xB6"
+    - "\u033E"
+    - "\uA759"
+    - C
+    - "\uA770"
+    - "\u0366"
+    - "\uA751"
+    - S
+    - "\uA753"
+    - Q
+    - H
+    - "\uA76F"
+    - I
+    - M
+    - "\u036D"
+    - '2'
+    - L
+    - "\u036B"
+    - D
+    - "\uA775"
+    - T
+    - "\u0368"
+    - A
+    - "\u0142"
+    - "\u036C"
+    - "\u0364"
+    - "\u1DD1"
+    - N
+    - O
+    - U
+    - P
+    - R
+    - "\u0127"
+    - ':'
+    - F
+    - "\uA76D"
+    - '7'
+    - "\u1D48"
+    - "\uF1AC"
+    - '3'
+    - "\u27E6"
+    - "\u27E7"
+    - Y
+    - "\u0367"
+    - "\u0111"
+    - G
+    - '1'
+    - '9'
+    - B
+    - ','
+    - "\uA758"
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Aruta, Davide and Lenzi, Martina and\
+    \ Le Hu\xEBrou, Armelle and Possama\xEF, Maryl\xE8ne and Pinche, Ariane},\nmonth\
+    \ = {4},\ntitle = {Liber},\nurl = {https://github.com/CIHAM-HTR/Liber/data},\n\
+    year = {2023}\n}\n"
+  _apa: "Aruta D., Lenzi M., Le Hu\xEBrou A., Possama\xEF M., Pinche A. (2023). Liber\
+    \ URL: https://github.com/CIHAM-HTR/Liber/data\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Wien \xD6NB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022"
   url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
   authors:
