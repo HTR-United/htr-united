@@ -1,62 +1,4 @@
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: Peraire Ground Truth
-  url: https://github.com/alix-tz/peraire-ground-truth
-  authors:
-  - name: Alix
-    surname: "Chagu\xE9"
-    orcid: 0000-0002-0136-4434
-    roles:
-    - transcriber
-    - quality-control
-  institutions:
-  - name: "Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris"
-    roles:
-    - digitization
-  description: "This dataset was created in order to produce an HTR model for the\
-    \ Digital Peraire project. The documents are handwritten, dating from the second\
-    \ half of the 20th century, written by Lucien P\xE9raire in French with a blue\
-    \ ink pen or, more frequently, with a blue pencil. "
-  project-name: Digital Peraire
-  language:
-  - fra
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1928'
-    notAfter: '1971'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 38793
-  - metric: files
-    count: 33
-  - metric: lines
-    count: 1059
-  - metric: regions
-    count: 80
-  citation-file-link: https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff
-  transcription-guidelines: "The transcription respects what is written on the document,\
-    \ including ponctuation and spelling errors. The case is respected: capital letters\
-    \ are transcribed with capital letters. Crossed out words are signaled by # which\
-    \ isn't used to transcribe anything else. The SegmOnto ontology was used for the\
-    \ segmentation of this dataset. For regions, MainZone and MarginTextZone were\
-    \ used. For lines, DefaultLine and InterlinearLine were used. The original documents\
-    \ are held at the Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris. They\
-    \ should be mentionned every time the images are used."
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagu\xE9, Alix},\ndoi = {10.5281/zenodo.7185907},\n\
-    month = {10},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\n\
-    year = {2022}\n}\n"
-  _apa: "Chagu\xE9 A. (2022). Peraire Ground Truth (version 1.0.0). DOI: 10.5281/zenodo.7185907\
-    \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Ground truth data for printed Devanagari
   url: https://doi.org/10.11588/data/EGOKEI
   authors:
@@ -263,6 +205,52 @@
     \      = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
     \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: 'Dataset for late medieval Castilian text recognition '
+  url: https://doi.org/10.5281/zenodo.7386489
+  authors:
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - transcriber
+    - quality-control
+  institutions: []
+  description: "HTR/OCR open access gold corpus for spanish late medieval sources,\
+    \ based\non the allographetic transcription of more than 300 pages of several\
+    \ manuscripts of the Regimiento de los Pr\xEDn\xE7ipes, as well as a first set\
+    \ of general transcription models trained with kraken and out-of-domain test data.\
+    \ See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset."
+  language:
+  - spa
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1300'
+    notAfter: '1500'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 28000
+  transcription-guidelines: 'Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376)
+    for full transcription guidelines.
+
+    320 pages in-domain; 40 pages out-of-domain'
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n\
+    \  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias\
+    \ Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n\
+    \  language = {en},\n  title = {Towards a general open dataset and model for late\
+    \ medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher\
+    \ = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non\
+    \ Commercial Share Alike 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Liber
   url: https://github.com/CIHAM-HTR/Liber
   authors:
@@ -422,6 +410,143 @@
     year = {2023}\n}\n"
   _apa: "Aruta D., Lenzi M., Le Hu\xEBrou A., Possama\xEF M., Pinche A. (2023). Liber\
     \ URL: https://github.com/CIHAM-HTR/Liber/data\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Fabliaux
+  url: https://github.com/CIHAM-HTR/Fabliaux
+  authors:
+  - name: Corinne
+    surname: Pierreville
+    orcid: 0009-0003-3074-3841
+    roles:
+    - project-manager
+  - name: Ariane
+    surname: Pinche
+    orcid: 0000-0002-7843-5050
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+  institutions: []
+  description: HTR data sets from medieval manuscripts (13th-14th c.) collecting "fabliaux"
+  project-website: https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux
+  language:
+  - fro
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1402'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/CIHAM-HTR/Fabliaux/blob/master/CITATION.cff
+  transcription-guidelines: "The data follow the standards recommended by the CREMMALAB\
+    \ project, see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts.\
+    \ 2022. \u27E8hal-03697382\u27E9"
+  volume:
+  - metric: characters
+    count: 19600
+  - metric: files
+    count: 10
+  - metric: lines
+    count: 904
+  - metric: regions
+    count: 40
+  characters:
+    mode: NFD
+    members:
+    - e
+    - i
+    - s
+    - t
+    - a
+    - o
+    - u
+    - n
+    - r
+    - l
+    - d
+    - m
+    - c
+    - p
+    - "\u0303"
+    - f
+    - q
+    - b
+    - .
+    - h
+    - z
+    - g
+    - "\u204A"
+    - "\u033E"
+    - "\uA751"
+    - Q
+    - "\u0365"
+    - I
+    - x
+    - "\uA770"
+    - S
+    - C
+    - E
+    - "\uA76F"
+    - T
+    - L
+    - N
+    - O
+    - y
+    - M
+    - D
+    - "\u0363"
+    - F
+    - A
+    - U
+    - "\u0142"
+    - "\u1E9C"
+    - P
+    - B
+    - ':'
+    - '9'
+    - "\uF1AC"
+    - '1'
+    - '6'
+    - '4'
+    - "\u0366"
+    - "\u27E6"
+    - "\u27E7"
+    - "\u205C"
+    - ''''
+    - G
+    - "\u1DE4"
+    - "\u036B"
+    - '7'
+    - '5'
+    - '0'
+    - "\uA753"
+    - '8'
+  _bibtex: '@misc{YourReferenceHere,
+
+    author = {Pinche, Ariane and Pierreville, Corinne},
+
+    month = {4},
+
+    title = {Fabliaux},
+
+    url = {https://github.com/CIHAM-HTR/Fabliaux/data},
+
+    year = {2023}
+
+    }
+
+    '
+  _apa: 'Pinche A., Pierreville C. (2023). Fabliaux URL: https://github.com/CIHAM-HTR/Fabliaux/data
+
+    '
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Wien \xD6NB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022"
   url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
@@ -865,143 +990,6 @@
     '
   _apa: 'Jahan C., Gabay S. (2021). OCR17+ - Layout analysis and text recognition
     for 17th c. French prints (version 1.0). DOI: none URL: https://github.com/e-ditiones/OCR17plus
-
-    '
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: Fabliaux
-  url: https://github.com/CIHAM-HTR/Fabliaux
-  authors:
-  - name: Corinne
-    surname: Pierreville
-    orcid: 0009-0003-3074-3841
-    roles:
-    - project-manager
-  - name: Ariane
-    surname: Pinche
-    orcid: 0000-0002-7843-5050
-    roles:
-    - transcriber
-    - aligner
-    - quality-control
-  institutions: []
-  description: HTR data sets from medieval manuscripts (13th-14th c.) collecting "fabliaux"
-  project-website: https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux
-  language:
-  - fro
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1200'
-    notAfter: '1402'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://github.com/CIHAM-HTR/Fabliaux/blob/master/CITATION.cff
-  transcription-guidelines: "The data follow the standards recommended by the CREMMALAB\
-    \ project, see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts.\
-    \ 2022. \u27E8hal-03697382\u27E9"
-  volume:
-  - metric: characters
-    count: 19600
-  - metric: files
-    count: 10
-  - metric: lines
-    count: 904
-  - metric: regions
-    count: 40
-  characters:
-    mode: NFD
-    members:
-    - e
-    - i
-    - s
-    - t
-    - a
-    - o
-    - u
-    - n
-    - r
-    - l
-    - d
-    - m
-    - c
-    - p
-    - "\u0303"
-    - f
-    - q
-    - b
-    - .
-    - h
-    - z
-    - g
-    - "\u204A"
-    - "\u033E"
-    - "\uA751"
-    - Q
-    - "\u0365"
-    - I
-    - x
-    - "\uA770"
-    - S
-    - C
-    - E
-    - "\uA76F"
-    - T
-    - L
-    - N
-    - O
-    - y
-    - M
-    - D
-    - "\u0363"
-    - F
-    - A
-    - U
-    - "\u0142"
-    - "\u1E9C"
-    - P
-    - B
-    - ':'
-    - '9'
-    - "\uF1AC"
-    - '1'
-    - '6'
-    - '4'
-    - "\u0366"
-    - "\u27E6"
-    - "\u27E7"
-    - "\u205C"
-    - ''''
-    - G
-    - "\u1DE4"
-    - "\u036B"
-    - '7'
-    - '5'
-    - '0'
-    - "\uA753"
-    - '8'
-  _bibtex: '@misc{YourReferenceHere,
-
-    author = {Pinche, Ariane and Pierreville, Corinne},
-
-    month = {4},
-
-    title = {Fabliaux},
-
-    url = {https://github.com/CIHAM-HTR/Fabliaux/data},
-
-    year = {2023}
-
-    }
-
-    '
-  _apa: 'Pinche A., Pierreville C. (2023). Fabliaux URL: https://github.com/CIHAM-HTR/Fabliaux/data
 
     '
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
@@ -2709,59 +2697,6 @@
   transcription-guidelines: We follow the RASAM guidelines for the transcription of
     Arabic Maghrebi manuscripts.
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
-  url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
-  authors:
-  - name: Pauline
-    surname: Jacsont
-    orcid: 0000-0002-6296-3246
-    roles:
-    - project-manager
-    - transcriber
-    - aligner
-    - quality-control
-  - name: Simon
-    surname: Gabay
-    orcid: 0000-0001-9094-4475
-    roles:
-    - project-manager
-    - quality-control
-    - support
-  - name: Tristan
-    surname: Weddigen
-    orcid: 0000-0002-4609-8950
-    roles:
-    - support
-  institutions: []
-  description: HTR data made with the Kunsthistorisches UZH corpus.
-  project-name: FoNDUE
-  project-website: https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
-  language:
-  - deu
-  - fra
-  - ita
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: evenly-mixed
-  time:
-    notBefore: '1900'
-    notAfter: '1999'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: pages
-    count: 1100
-  citation-file-link: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff
-  transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations\
-    \ are resolved. \LItems that are crossed out or struck through will be transcribed\
-    \ with a \"\u20AC\"."
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: 'Publishing an OCR ground truth data set for reuse in an unclear copyright
@@ -3148,52 +3083,6 @@
     \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
     }"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: 'Dataset for late medieval Castilian text recognition '
-  url: https://doi.org/10.5281/zenodo.7386489
-  authors:
-  - name: Gille Levenson
-    surname: Matthias
-    orcid: 0000-0001-9488-5986
-    roles:
-    - transcriber
-    - quality-control
-  institutions: []
-  description: "HTR/OCR open access gold corpus for spanish late medieval sources,\
-    \ based\non the allographetic transcription of more than 300 pages of several\
-    \ manuscripts of the Regimiento de los Pr\xEDn\xE7ipes, as well as a first set\
-    \ of general transcription models trained with kraken and out-of-domain test data.\
-    \ See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset."
-  language:
-  - spa
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: mainly-manuscript
-  time:
-    notBefore: '1300'
-    notAfter: '1500'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  volume:
-  - metric: lines
-    count: 28000
-  transcription-guidelines: 'Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376)
-    for full transcription guidelines.
-
-    320 pages in-domain; 40 pages out-of-domain'
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n\
-    \  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias\
-    \ Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n\
-    \  language = {en},\n  title = {Towards a general open dataset and model for late\
-    \ medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher\
-    \ = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non\
-    \ Commercial Share Alike 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Moonshines
   url: https://github.com/alix-tz/moonshines
   authors:
@@ -3317,32 +3206,33 @@
   _apa: "Chagu\xE9 A. (2023). moonshines (version 2.0.0). DOI: 0.5281/zenodo.607720783\
     \ URL: https://github.com/alix-tz/moonshines\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: FoNDUE-GasparoSardiToponomasia-Dataset
-  url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
+  title: Peraire Ground Truth
+  url: https://github.com/alix-tz/peraire-ground-truth
   authors:
-  - name: Jacsont
-    surname: Pauline
+  - name: Alix
+    surname: "Chagu\xE9"
+    orcid: 0000-0002-0136-4434
     roles:
     - transcriber
     - quality-control
+  institutions:
+  - name: "Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris"
+    roles:
     - digitization
-  - name: Mittenhuber
-    surname: Florian
-  institutions: []
-  description: "Dataset produced as for the project to edit Gasparo Sardi\u2019s Toponomasia\
-    \ from codex 174 of the Burgerbibliothek of Bern. Images are available on request\
-    \ by writing to: pauline.jacsont [ at ] unige.ch."
-  project-name: FoNDUE
+  description: "This dataset was created in order to produce an HTR model for the\
+    \ Digital Peraire project. The documents are handwritten, dating from the second\
+    \ half of the 20th century, written by Lucien P\xE9raire in French with a blue\
+    \ ink pen or, more frequently, with a blue pencil. "
+  project-name: Digital Peraire
   language:
-  - lat
+  - fra
   production-software: eScriptorium + Kraken
   script:
   - iso: Latn
-  - iso: Grek
   script-type: only-manuscript
   time:
-    notBefore: '1561'
-    notAfter: '1570'
+    notBefore: '1928'
+    notAfter: '1971'
   hands:
     count: '1'
     precision: exact
@@ -3350,22 +3240,29 @@
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  sources:
-  - reference: ''
-    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
   volume:
-  - metric: pages
-    count: 49
-  citation-file-link: https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
-  transcription-guidelines: " The transcriptions were made following the rules of\
-    \ the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval.\
-    \ The transcription is strictly diplomatic and graphmatic. No abbreviations are\
-    \ resolved, no standardization of 'i' and 'v' with ramist letters, and accents,\
-    \ punctuation, spaces, and line breaks are strictly adhered to. Following Leiden\
-    \ conventions, crossed out or crossed out elements are transcribed with double\
-    \ brackets \u27E6\u27E7, and elements that are illegible in the picture will not\
-    \ be restored but indicated by this type of bracket \u27E8 \u27E9. Special characters\
-    \ are encoded according to the MUFI fonts."
+  - metric: characters
+    count: 38793
+  - metric: files
+    count: 33
+  - metric: lines
+    count: 1059
+  - metric: regions
+    count: 80
+  citation-file-link: https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff
+  transcription-guidelines: "The transcription respects what is written on the document,\
+    \ including ponctuation and spelling errors. The case is respected: capital letters\
+    \ are transcribed with capital letters. Crossed out words are signaled by # which\
+    \ isn't used to transcribe anything else. The SegmOnto ontology was used for the\
+    \ segmentation of this dataset. For regions, MainZone and MarginTextZone were\
+    \ used. For lines, DefaultLine and InterlinearLine were used. The original documents\
+    \ are held at the Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris. They\
+    \ should be mentionned every time the images are used."
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagu\xE9, Alix},\ndoi = {10.5281/zenodo.7185907},\n\
+    month = {10},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\n\
+    year = {2022}\n}\n"
+  _apa: "Chagu\xE9 A. (2022). Peraire Ground Truth (version 1.0.0). DOI: 10.5281/zenodo.7185907\
+    \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: FoNDUE Spanish chapbooks 19th c. Dataset
   url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
@@ -3434,6 +3331,109 @@
     il y en a) ;\n- Supprimer le bruit (t\xE2ches qui ont \xE9t\xE9 prises pour du\
     \ texte par l\u2019OCR)."
   production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+  url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+  authors:
+  - name: Pauline
+    surname: Jacsont
+    orcid: 0000-0002-6296-3246
+    roles:
+    - project-manager
+    - transcriber
+    - aligner
+    - quality-control
+  - name: Simon
+    surname: Gabay
+    orcid: 0000-0001-9094-4475
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - name: Tristan
+    surname: Weddigen
+    orcid: 0000-0002-4609-8950
+    roles:
+    - support
+  institutions: []
+  description: HTR data made with the Kunsthistorisches UZH corpus.
+  project-name: FoNDUE
+  project-website: https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+  language:
+  - deu
+  - fra
+  - ita
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: pages
+    count: 1100
+  citation-file-link: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff
+  transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations\
+    \ are resolved. \LItems that are crossed out or struck through will be transcribed\
+    \ with a \"\u20AC\"."
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FoNDUE-GasparoSardiToponomasia-Dataset
+  url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
+  authors:
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - transcriber
+    - quality-control
+    - digitization
+  - name: Mittenhuber
+    surname: Florian
+  institutions: []
+  description: "Dataset produced as for the project to edit Gasparo Sardi\u2019s Toponomasia\
+    \ from codex 174 of the Burgerbibliothek of Bern. Images are available on request\
+    \ by writing to: pauline.jacsont [ at ] unige.ch."
+  project-name: FoNDUE
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  - iso: Grek
+  script-type: only-manuscript
+  time:
+    notBefore: '1561'
+    notAfter: '1570'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
+  volume:
+  - metric: pages
+    count: 49
+  citation-file-link: https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
+  transcription-guidelines: " The transcriptions were made following the rules of\
+    \ the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval.\
+    \ The transcription is strictly diplomatic and graphmatic. No abbreviations are\
+    \ resolved, no standardization of 'i' and 'v' with ramist letters, and accents,\
+    \ punctuation, spaces, and line breaks are strictly adhered to. Following Leiden\
+    \ conventions, crossed out or crossed out elements are transcribed with double\
+    \ brackets \u27E6\u27E7, and elements that are illegible in the picture will not\
+    \ be restored but indicated by this type of bracket \u27E8 \u27E9. Special characters\
+    \ are encoded according to the MUFI fonts."
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "\xC9diter la correspondance de Constance de Salm (1767-1845)"
   url: https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain
