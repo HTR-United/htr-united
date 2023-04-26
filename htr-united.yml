@@ -1,56 +1,4 @@
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-  title: "Jeu de donn\xE9es OCR - Incunables s\xE9villans 1494-1500"
-  url: https://doi.org/10.5281/zenodo.3643393
-  authors:
-  - name: Gille Levenson
-    surname: Matthias
-    orcid: 0000-0001-9488-5986
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-  institutions: []
-  description: "The data set corresponds to 60 pages printed in 1494 by Estanislao\
-    \ Polono and Meinardo Ungut in Seville. These pages are taken from the Regimiento\
-    \ de los Pr\xEDn\xE7ipes (also known as 'Glosa castellana al Regimiento de pr\xED\
-    n\xE7ipes'), and the exemplar used is the\n INC/901 of the Biblioteca Nacional\
-    \ de Espa\xF1a. The type used for this incunabulum is 97G (Mart\xEDn Abad and\
-    \ Moyano Andr\xE9s, Estanislao Polono, 2002, p. 61). This type was used between\
-    \ 1494 and 1500. For other incunabula produced in this period, see op. cit, p.112-121."
-  language:
-  - spa
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1494'
-    notAfter: '1500'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  sources:
-  - reference: "Matthias Gille Levenson. (2022). Jeu de donn\xE9es de segmentation\
-      \ et de reconnaissance optique de caract\xE8res - Kraken - Incunables s\xE9\
-      villans 1494-1500 (Version v5) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7006981"
-    link: ''
-  volume:
-  - metric: lines
-    count: 4836
-  transcription-guidelines: "Transcription diplomatique, sans normalisation, sans\
-    \ r\xE9solution d'abr\xE9viations ni corrections. "
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n\
-    \  url = {https://zenodo.org/record/3643393},\n  author = {Levenson, Matthias\
-    \ Gille},\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome,\
-    \ Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\xE9es de segmentation\
-    \ et de reconnaissance optique de caract\xE8res - Kraken - Incunables s\xE9villans\
-    \ 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative\
-    \ Commons Attribution Non Commercial 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Peraire Ground Truth
   url: https://github.com/alix-tz/peraire-ground-truth
   authors:
@@ -3199,6 +3147,52 @@
     \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
     \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
     }"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: 'Dataset for late medieval Castilian text recognition '
+  url: https://doi.org/10.5281/zenodo.7386489
+  authors:
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - transcriber
+    - quality-control
+  institutions: []
+  description: "HTR/OCR open access gold corpus for spanish late medieval sources,\
+    \ based\non the allographetic transcription of more than 300 pages of several\
+    \ manuscripts of the Regimiento de los Pr\xEDn\xE7ipes, as well as a first set\
+    \ of general transcription models trained with kraken and out-of-domain test data.\
+    \ See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset."
+  language:
+  - spa
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1300'
+    notAfter: '1500'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 28000
+  transcription-guidelines: 'Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376)
+    for full transcription guidelines.
+
+    320 pages in-domain; 40 pages out-of-domain'
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n\
+    \  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias\
+    \ Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n\
+    \  language = {en},\n  title = {Towards a general open dataset and model for late\
+    \ medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher\
+    \ = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non\
+    \ Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Moonshines
   url: https://github.com/alix-tz/moonshines
@@ -6359,6 +6353,7 @@
     surname: Nishimwe
     roles:
     - support
+    orcid: 0009-0009-7082-4711
   - name: Jade
     surname: Norindr
     roles:
@@ -6743,7 +6738,7 @@
     \ H., Schweyer A., Seddah D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton\
     \ K., Tariol M., Touchent R., Tremblay A., Vauterin P., Verstraete M., Vetter\
     \ M., Vitali Rosati M., Vlachou-Estathiou M., Wingert R., Yi D., other anonymous\
-    \ contributers (2023). CREMMA WIKIPEDIA (version 0.0.2). DOI: 10.5281/zenodo.7782065\
+    \ contributers (2023). CREMMA WIKIPEDIA (version 1.0.3). DOI: 10.5281/zenodo.7782065\
     \ URL: https://github.com/HTR-United/cremma-wikipedia\n"
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Donn\xE9es HTR manuscrits du 15e si\xE8cle"

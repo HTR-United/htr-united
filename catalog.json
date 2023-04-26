@@ -402,65 +402,6 @@
     "_bibtex": "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n  publisher = {heiDATA},\n  year = {2022}\n}\n",
     "_pid": "0be31b50c"
   },
-  "fbe9216af": {
-    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
-    "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
-    "url": "https://doi.org/10.5281/zenodo.3643393",
-    "authors": [
-      {
-        "name": "Gille Levenson",
-        "surname": "Matthias",
-        "orcid": "0000-0001-9488-5986",
-        "roles": [
-          "transcriber",
-          "aligner",
-          "project-manager"
-        ]
-      }
-    ],
-    "institutions": [],
-    "description": "The data set corresponds to 60 pages printed in 1494 by Estanislao Polono and Meinardo Ungut in Seville. These pages are taken from the Regimiento de los Pr\u00edn\u00e7ipes (also known as 'Glosa castellana al Regimiento de pr\u00edn\u00e7ipes'), and the exemplar used is the\n INC/901 of the Biblioteca Nacional de Espa\u00f1a. The type used for this incunabulum is 97G (Mart\u00edn Abad and Moyano Andr\u00e9s, Estanislao Polono, 2002, p. 61). This type was used between 1494 and 1500. For other incunabula produced in this period, see op. cit, p.112-121.",
-    "language": [
-      "spa"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-typed",
-    "time": {
-      "notBefore": "1494",
-      "notAfter": "1500"
-    },
-    "hands": {
-      "count": "1",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "sources": [
-      {
-        "reference": "Matthias Gille Levenson. (2022). Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500 (Version v5) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7006981",
-        "link": ""
-      }
-    ],
-    "volume": [
-      {
-        "metric": "lines",
-        "count": 4836
-      }
-    ],
-    "transcription-guidelines": "Transcription diplomatique, sans normalisation, sans r\u00e9solution d'abr\u00e9viations ni corrections. ",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n  url = {https://zenodo.org/record/3643393},\n  author = {Levenson, Matthias Gille},\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial 4.0 International}\n}\n",
-    "_pid": "fbe9216af"
-  },
   "7dcc35e88": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\u00fccher O10, Urfehdenbuch X",
@@ -755,6 +696,58 @@
     ],
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n  url = {https://zenodo.org/record/6414086},\n  author = {Keijser, Liesbeth},\n  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC, WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "3989ce92b"
+  },
+  "58807c215": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Dataset for late medieval Castilian text recognition ",
+    "url": "https://doi.org/10.5281/zenodo.7386489",
+    "authors": [
+      {
+        "name": "Gille Levenson",
+        "surname": "Matthias",
+        "orcid": "0000-0001-9488-5986",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "HTR/OCR open access gold corpus for spanish late medieval sources, based\non the allographetic transcription of more than 300 pages of several manuscripts of the Regimiento de los Pr\u00edn\u00e7ipes, as well as a first set of general transcription models trained with kraken and out-of-domain test data. See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset.",
+    "language": [
+      "spa"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "mainly-manuscript",
+    "time": {
+      "notBefore": "1300",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 28000
+      }
+    ],
+    "transcription-guidelines": "Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376) for full transcription guidelines.\n320 pages in-domain; 40 pages out-of-domain",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n  language = {en},\n  title = {Towards a general open dataset and model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
+    "_pid": "58807c215"
   },
   "939d02cb9": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
@@ -5702,7 +5695,8 @@
         "surname": "Nishimwe",
         "roles": [
           "support"
-        ]
+        ],
+        "orcid": "0009-0009-7082-4711"
       },
       {
         "name": "Jade",
@@ -6171,7 +6165,7 @@
       ]
     },
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Cl\u00e9rice, Thibault and Van Kote, Elsa and Carrow, Jennifer and Antoum, Wissam and Audin, Yann and Baillot, Anne and Baron, Marl\u00e8ne and Bartz, Alexandre and Bawden, Rachel and Beaudry-Lagarde, Alice and Bhagwatkar, Rishika and Boschetti, Federico and Bourgeois, Camille and Brenon, Alice and Brubacher, William and Brunot, Donovan and Brusseau, Roxanne and Bueno Mottes, Talitha and Cappe, Zo\u00e9 and Castagn\u00e9, Roman and Castillo, Galo and Chagu\u00e9, Brigitte and Chagu\u00e9, Denis and Chagu\u00e9, Emeric and Charette, L\u00e9a and Chateau, Emmanuel and Chaudron, Jean-Baptiste and Chepaikina, Anna and Chiffoleau, Floriane and Christensen, Kelly and Cuartas Aristizabal, Federico and Cucciniello, Maria Laura and Cu\u00e9llar, Aurore and Davoury, Baudoin and de la Clergerie, Eric and Delanney, Roch and Delattre, Camille and Denis, B\u00e9atrice and Deschamps, Philippe and Desmorat, Valentine and Dionisio, Cindy and Disant, Am\u00e9lie and Dufourg, Elsa and Falcone, Jean-Luc and Faure, Margaux and Ferbeyre Rodriguez, Glenda and Ferretti, Giulia and Fizaine, Fabien and Flamant, Jeanne and Foisy-Marquis, Cl\u00e9mence and Fr\u00f6hlich, Anna and Garcia Fernancez, Anne and Giovannangeli, Vincent and Grondin, Gabrielle and Guichard, Morgane and Guiraud, Jessica and Haedo, Anahi and Hennequart, Pauline and Hernandez Pedroza, Yanet and Ing, Lucence and Jacsont, Pauline and Janes, Juliette and Jeanne, Corinne and Jia, Arilys and Jolivet, Vincent and Kaustina, Katrina and Kiessling, Ben and Koc, Ozcar and Krause, Lena and Labrie, Gabriel and Lapointe, Am\u00e9lie and Lassner, David and Lescouet, Emmanuelle and L\u00e9tourneau, Danny and Limon-Bonnet, Marie-Fran\u00e7oise and Lodi, Gabrielle and Lupascu, Victoria and Marguin-Hamon, Elsa and Marinamis, Orestis and Mars, Gina and Matthey-Jonais, Eug\u00e9nie and Mayunga, Dilson and Mellet, Margot and Moskal, Matt and Moskal, Shannon and Mozin, Zo\u00e9 and Nishimwe, Lydia and Norindr, Jade and Nuguet, Jules and Orsini, Sarah and Ortiz Suarez, Pedro and Oudin, Kenan and Pannetier-Leboeuf, Gabrielle and Paquet, Thierry and Parisot, Thomas and Paupe, Elodie and Poux, Ga\u00ebl and Proph\u00eate, Montaine and Raoux, Alix and Raoux, Ga\u00ebtan and Razafindrakoto, Elise and Rey, Camille and Riabi, Arij and Ross, Karen and Rouill\u00e9, Manon and Ruby, Louise and Sagot, Beno\u00eet and Scheithauer, Hugo and Schweyer, Anne-Val\u00e9rie and Seddah, Djam\u00e9 and Seidel, Paula and Stokes, Peter and Tadjo, Yves and Tadjou, Lionel and Tanton, Kristin and Tariol, Marie and Touchent, Rian and Tremblay, Anne-Kim and Vauterin, Pierre and Verstraete, Mathilde and Vetter, Magalie and Vitali Rosati, Marcello and Vlachou-Estathiou, Malamatenia and Wingert, Rosanne and Yi, D\u00e9bora and other anonymous contributers},\ndoi = {10.5281/zenodo.7782065},\nmonth = {3},\ntitle = {CREMMA WIKIPEDIA},\nurl = {https://github.com/HTR-United/cremma-wikipedia},\nyear = {2023}\n}\n",
-    "_apa": "Chagu\u00e9 A., Cl\u00e9rice T., Van Kote E., Carrow J., Antoum W., Audin Y., Baillot A., Baron M., Bartz A., Bawden R., Beaudry-Lagarde A., Bhagwatkar R., Boschetti F., Bourgeois C., Brenon A., Brubacher W., Brunot D., Brusseau R., Bueno Mottes T., Cappe Z., Castagn\u00e9 R., Castillo G., Chagu\u00e9 B., Chagu\u00e9 D., Chagu\u00e9 E., Charette L., Chateau E., Chaudron J., Chepaikina A., Chiffoleau F., Christensen K., Cuartas Aristizabal F., Cucciniello M.L., Cu\u00e9llar A., Davoury B., de la Clergerie E., Delanney R., Delattre C., Denis B., Deschamps P., Desmorat V., Dionisio C., Disant A., Dufourg E., Falcone J., Faure M., Ferbeyre Rodriguez G., Ferretti G., Fizaine F., Flamant J., Foisy-Marquis C., Fr\u00f6hlich A., Garcia Fernancez A., Giovannangeli V., Grondin G., Guichard M., Guiraud J., Haedo A., Hennequart P., Hernandez Pedroza Y., Ing L., Jacsont P., Janes J., Jeanne C., Jia A., Jolivet V., Kaustina K., Kiessling B., Koc O., Krause L., Labrie G., Lapointe A., Lassner D., Lescouet E., L\u00e9tourneau D., Limon-Bonnet M., Lodi G., Lupascu V., Marguin-Hamon E., Marinamis O., Mars G., Matthey-Jonais E., Mayunga D., Mellet M., Moskal M., Moskal S., Mozin Z., Nishimwe L., Norindr J., Nuguet J., Orsini S., Ortiz Suarez P., Oudin K., Pannetier-Leboeuf G., Paquet T., Parisot T., Paupe E., Poux G., Proph\u00eate M., Raoux A., Raoux G., Razafindrakoto E., Rey C., Riabi A., Ross K., Rouill\u00e9 M., Ruby L., Sagot B., Scheithauer H., Schweyer A., Seddah D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton K., Tariol M., Touchent R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA (version 0.0.2). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n",
+    "_apa": "Chagu\u00e9 A., Cl\u00e9rice T., Van Kote E., Carrow J., Antoum W., Audin Y., Baillot A., Baron M., Bartz A., Bawden R., Beaudry-Lagarde A., Bhagwatkar R., Boschetti F., Bourgeois C., Brenon A., Brubacher W., Brunot D., Brusseau R., Bueno Mottes T., Cappe Z., Castagn\u00e9 R., Castillo G., Chagu\u00e9 B., Chagu\u00e9 D., Chagu\u00e9 E., Charette L., Chateau E., Chaudron J., Chepaikina A., Chiffoleau F., Christensen K., Cuartas Aristizabal F., Cucciniello M.L., Cu\u00e9llar A., Davoury B., de la Clergerie E., Delanney R., Delattre C., Denis B., Deschamps P., Desmorat V., Dionisio C., Disant A., Dufourg E., Falcone J., Faure M., Ferbeyre Rodriguez G., Ferretti G., Fizaine F., Flamant J., Foisy-Marquis C., Fr\u00f6hlich A., Garcia Fernancez A., Giovannangeli V., Grondin G., Guichard M., Guiraud J., Haedo A., Hennequart P., Hernandez Pedroza Y., Ing L., Jacsont P., Janes J., Jeanne C., Jia A., Jolivet V., Kaustina K., Kiessling B., Koc O., Krause L., Labrie G., Lapointe A., Lassner D., Lescouet E., L\u00e9tourneau D., Limon-Bonnet M., Lodi G., Lupascu V., Marguin-Hamon E., Marinamis O., Mars G., Matthey-Jonais E., Mayunga D., Mellet M., Moskal M., Moskal S., Mozin Z., Nishimwe L., Norindr J., Nuguet J., Orsini S., Ortiz Suarez P., Oudin K., Pannetier-Leboeuf G., Paquet T., Parisot T., Paupe E., Poux G., Proph\u00eate M., Raoux A., Raoux G., Razafindrakoto E., Rey C., Riabi A., Ross K., Rouill\u00e9 M., Ruby L., Sagot B., Scheithauer H., Schweyer A., Seddah D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton K., Tariol M., Touchent R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n",
     "_pid": "f99aaacfc"
   },
   "bde559631": {
