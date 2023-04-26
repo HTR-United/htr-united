@@ -1,0 +1,45 @@
+
+
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: 'Dataset for late medieval Castilian text recognition '
+url: https://doi.org/10.5281/zenodo.7386489
+authors:
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+      - transcriber
+      - quality-control
+institutions: []
+description: >-
+  HTR/OCR open access gold corpus for spanish late medieval sources, based
+
+  on the allographetic transcription of more than 300 pages of several
+  manuscripts of the Regimiento de los
+  Prínçipes, as well as a first set of general transcription models trained with
+  kraken and out-of-domain test data. See https://doi.org/10.5281/zenodo.7387376 for full description of the dataset.
+language:
+  - spa
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: mainly-manuscript
+time:
+  notBefore: '1300'
+  notAfter: '1500'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 28000
+transcription-guidelines: >-
+  Allographetic transcription. See the article
+  (https://doi.org/10.5281/zenodo.7387376) for full transcription guidelines.
+
+  320 pages in-domain; 40 pages out-of-domain
+
