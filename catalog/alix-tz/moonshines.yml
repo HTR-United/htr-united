@@ -3,7 +3,7 @@ title: Moonshines
 url: https://github.com/alix-tz/moonshines
 authors:
 - name: Alix
-  surname: "Chagué"
+  surname: "Chagu\xE9"
   orcid: 0000-0002-0136-4434
   roles:
   - transcriber
@@ -11,9 +11,9 @@ authors:
   - project-manager
   - digitization
 institutions: []
-description: "This dataset is composed of pages of text written in 2023 by a single\
-  \ person, copying texts taken from Guillaume Apollinaire\u2019s poems published\
-  \ in Alcools."
+description: This dataset is composed of pages of text written in 2023 by a single
+  person, copying texts taken from Guillaume Apollinaire's poems published in Alcools,
+  and taken from Guillaume Apollinaire's Wikipedia page.
 language:
 - fra
 production-software: eScriptorium + Kraken
@@ -32,13 +32,13 @@ license:
 format: Alto-XML
 volume:
 - metric: characters
-  count: 16532
+  count: 27734
 - metric: files
-  count: 26
+  count: 45
 - metric: lines
-  count: 606
+  count: 1016
 - metric: regions
-  count: 26
+  count: 45
 citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
 transcription-guidelines: The transcription strictly follows what is written on the
   images, including accentuation or capitalization errors. The segmentation follows
@@ -52,67 +52,74 @@ characters:
   - s
   - a
   - n
-  - u
-  - t
   - r
   - i
+  - t
+  - u
   - o
   - l
   - d
   - m
   - c
   - p
-  - ''''
   - "\u0301"
+  - ''''
   - v
   - g
   - b
-  - f
   - h
-  - L
   - "\u0300"
-  - E
+  - f
+  - L
   - q
-  - x
-  - C
-  - A
-  - S
-  - "\u0302"
-  - T
-  - j
-  - y
-  - D
-  - M
-  - '-'
-  - P
-  - J
-  - O
-  - N
-  - R
-  - I
-  - z
-  - V
-  - U
-  - Q
-  - H
-  - F
-  - B
+  - E
   - '1'
-  - G
-  - Z
+  - A
+  - C
+  - x
+  - y
+  - "\u0302"
+  - S
   - '9'
-  - "\u0327"
-  - Y
+  - P
+  - M
+  - j
+  - T
+  - D
+  - '-'
+  - N
+  - J
+  - R
+  - '0'
+  - z
+  - O
+  - I
   - '2'
-  - .
+  - '8'
+  - V
+  - F
+  - G
+  - U
+  - '5'
+  - B
+  - Q
+  - )
+  - H
+  - '3'
+  - (
+  - '7'
+  - '6'
+  - w
+  - k
+  - '4'
+  - "\u0327"
+  - K
+  - Z
+  - "\u0308"
+  - Y
   - '{'
   - '}'
+  - W
+  - .
   - X
-  - "\u0308"
-  - '8'
-  - '0'
-  - (
-  - )
   - ','
-  - '5'
-  - '3'
