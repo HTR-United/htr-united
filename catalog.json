@@ -1383,6 +1383,8 @@
     "citation-file-link": "https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff",
     "transcription-guidelines": "Les r\u00e8gles de transcription suivante ont \u00e9t\u00e9 adopt\u00e9es :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter la ponctuation ;\n- Respecter les espaces ;\n- Respecter les retours \u00e0 la ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019il y en a) ;\n- Supprimer le bruit (t\u00e2ches qui ont \u00e9t\u00e9 prises pour du texte par l\u2019OCR).",
     "production-software": "eScriptorium + Kraken",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Carta, Constance and Jacsont, Pauline and Leblanc, \u00c9lina},\nmonth = {3},\ntitle = {FoNDUE Spanish chapbooks 19th c. Dataset},\nyear = {2022}\n}\n",
+    "_apa": "Carta C., Jacsont P., Leblanc \u00c9. (2022). FoNDUE Spanish chapbooks 19th c. Dataset (version 1.0).\n",
     "_pid": "c6e6eefe0"
   },
   "e7af0e31e": {
@@ -1866,6 +1868,8 @@
     ],
     "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff",
     "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline and Simon, Gabay and Weddigen, Tristan},\nmonth = {1},\ntitle = {GroundTruth for archival data of the Kunsthistorisches Institut UZH},\nyear = {2023}\n}\n",
+    "_apa": "Jacsont P., Simon G., Weddigen T. (2023). GroundTruth for archival data of the Kunsthistorisches Institut UZH (version 1.0).\n",
     "_pid": "dcb8b4eaf"
   },
   "70e2b99f0": {
@@ -4947,7 +4951,7 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 630584
+        "count": 630607
       },
       {
         "metric": "files",
@@ -5043,6 +5047,7 @@
         "w",
         "-",
         "5",
+        ",",
         "\u036d",
         "\u00b6",
         "Y",
@@ -5051,7 +5056,6 @@
         "\u27e6",
         "\u27e7",
         "\u0368",
-        ",",
         "\u0308",
         "X",
         "\u0127",
@@ -7952,6 +7956,8 @@
     ],
     "citation-file-link": "https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff",
     "transcription-guidelines": " The transcriptions were made following the rules of the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval. The transcription is strictly diplomatic and graphmatic. No abbreviations are resolved, no standardization of 'i' and 'v' with ramist letters, and accents, punctuation, spaces, and line breaks are strictly adhered to. Following Leiden conventions, crossed out or crossed out elements are transcribed with double brackets \u27e6\u27e7, and elements that are illegible in the picture will not be restored but indicated by this type of bracket \u27e8 \u27e9. Special characters are encoded according to the MUFI fonts.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\ntitle = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\nyear = {2022}\n}\n",
+    "_apa": "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne. (version 1.0).\n",
     "_pid": "a45f799c4"
   },
   "4522813d9": {
@@ -8250,7 +8256,7 @@
       }
     ],
     "institutions": [],
-    "description": "This dataset is composed of pages of text written in 2023 by a single person, copying texts taken from Guillaume Apollinaire\u2019s poems published in Alcools.",
+    "description": "This dataset is composed of pages of text written in 2023 by a single person, copying texts taken from Guillaume Apollinaire's poems published in Alcools, and taken from Guillaume Apollinaire's Wikipedia page.",
     "language": [
       "fra"
     ],
@@ -8279,19 +8285,19 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 16532
+        "count": 27734
       },
       {
         "metric": "files",
-        "count": 26
+        "count": 45
       },
       {
         "metric": "lines",
-        "count": 606
+        "count": 1016
       },
       {
         "metric": "regions",
-        "count": 26
+        "count": 45
       }
     ],
     "citation-file-link": "https://github.com/alix-tz/moonshines/blob/master/CITATION.cff",
@@ -8303,70 +8309,77 @@
         "s",
         "a",
         "n",
-        "u",
-        "t",
         "r",
         "i",
+        "t",
+        "u",
         "o",
         "l",
         "d",
         "m",
         "c",
         "p",
-        "'",
         "\u0301",
+        "'",
         "v",
         "g",
         "b",
-        "f",
         "h",
-        "L",
         "\u0300",
-        "E",
+        "f",
+        "L",
         "q",
-        "x",
-        "C",
-        "A",
-        "S",
-        "\u0302",
-        "T",
-        "j",
-        "y",
-        "D",
-        "M",
-        "-",
-        "P",
-        "J",
-        "O",
-        "N",
-        "R",
-        "I",
-        "z",
-        "V",
-        "U",
-        "Q",
-        "H",
-        "F",
-        "B",
+        "E",
         "1",
-        "G",
-        "Z",
+        "A",
+        "C",
+        "x",
+        "y",
+        "\u0302",
+        "S",
         "9",
-        "\u0327",
-        "Y",
+        "P",
+        "M",
+        "j",
+        "T",
+        "D",
+        "-",
+        "N",
+        "J",
+        "R",
+        "0",
+        "z",
+        "O",
+        "I",
         "2",
-        ".",
+        "8",
+        "V",
+        "F",
+        "G",
+        "U",
+        "5",
+        "B",
+        "Q",
+        ")",
+        "H",
+        "3",
+        "(",
+        "7",
+        "6",
+        "w",
+        "k",
+        "4",
+        "\u0327",
+        "K",
+        "Z",
+        "\u0308",
+        "Y",
         "{",
         "}",
+        "W",
+        ".",
         "X",
-        "\u0308",
-        "8",
-        "0",
-        "(",
-        ")",
-        ",",
-        "5",
-        "3"
+        ","
       ]
     },
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {0.5281/zenodo.607720783},\nmonth = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\nyear = {2023}\n}\n",
@@ -8834,8 +8847,8 @@
     ],
     "citation-file-link": "https://github.com/malamatenia/Eutyches/blob/main/CITATION.cff",
     "transcription-guidelines": "Graphematic transcription, following the guidelines of CREMMA-medieval. Spacing has been reestablished when dealing with semicontinua, s for long s, loyal to the manuscript for capital letters, abbreviations preserved, punctuation reduced to \";\" and \".\". The few greek passages have been also been preserved, and some of the essais de plume as well (when  forming full words).  Annotation of the layout made with SegmOnto controlled vocabulary.",
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\ntitle = {Voss.Lat.O.41 - Eutyches \"de uerbo\" glossed}\n}\n",
-    "_apa": "Vlachou-Efstathiou M. Voss.Lat.O.41 - Eutyches \"de uerbo\" glossed\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\ntitle = {Eutyches \"de uerbo\" glossed}\n}\n",
+    "_apa": "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n",
     "_pid": "a23a0f5a1"
   },
   "7e15a5255": {
