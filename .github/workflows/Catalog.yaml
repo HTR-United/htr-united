@@ -7,6 +7,8 @@ on:
     branches:
       - master
   workflow_dispatch: #Allows for manual triggering
+  schedule:
+    - cron: "0 23 * * 0"
 jobs:
   catalog:
     runs-on: ubuntu-latest
@@ -24,7 +26,7 @@ jobs:
         pip install htruc
     - name: Run HTRUC
       run: |
-        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --organization htr-united --organization gallicorpora --organization fondue-htr
+        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --organization htr-united --organization gallicorpora --organization fondue-htr --remote --check-link
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
