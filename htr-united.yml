@@ -550,7 +550,9 @@
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Caroline Minuscule by Rescribe
   url: https://github.com/rescribe/carolineminuscule-groundtruth
-  project-name: Rescribe
+  project-name: 'Rescribe''
+
+    '
   project-website: https://rescribe.xyz/
   authors:
   - name: White
@@ -558,15 +560,15 @@
     roles:
     - transcriber
     - project-manager
+  - name: "Cl\xE9rice"
+    surname: Thibault
+    roles:
+    - aligner
   - name: Karaisl
     surname: Antonia
     roles:
     - transcriber
     - project-manager
-  - name: "Cl\xE9rice"
-    surname: Thibault
-    roles:
-    - aligner
   description: 'This ground truth repository is a work in process; it currently accounts
     for a part of our complete Caroline Minuscule training pool of around 70 manuscripts
     used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
@@ -588,14 +590,14 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 457
-    metric: lines
-  - count: 17
-    metric: files
-  - count: 45
-    metric: regions
-  - count: 16909
-    metric: characters
+  - metric: characters
+    count: 17155
+  - metric: files
+    count: 17
+  - metric: lines
+    count: 457
+  - metric: regions
+    count: 46
   transcription-guidelines: "In general this meant deciding between diplomatic transcription\
     \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
     \ reinterpreting medieval signs into modern equivalents) with a view to specific\
@@ -613,8 +615,82 @@
     \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
     \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
     \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
-    \ numerals'\n"
-  production-software: eScriptorium + Kraken
+    \ numerals'"
+  characters:
+    mode: NFD
+    members:
+    - i
+    - e
+    - t
+    - u
+    - a
+    - s
+    - n
+    - o
+    - r
+    - m
+    - c
+    - d
+    - l
+    - p
+    - .
+    - b
+    - q
+    - g
+    - '*'
+    - h
+    - ;
+    - "\u0303"
+    - f
+    - x
+    - I
+    - "\u0304"
+    - E
+    - N
+    - "\u0328"
+    - ':'
+    - '&'
+    - S
+    - "\uA751"
+    - C
+    - A
+    - "\u0111"
+    - D
+    - U
+    - T
+    - "\uA753"
+    - Q
+    - v
+    - ','
+    - O
+    - R
+    - P
+    - L
+    - M
+    - "\xE6"
+    - H
+    - F
+    - '?'
+    - '1'
+    - y
+    - "\uA75D"
+    - "\uA759"
+    - V
+    - '4'
+    - B
+    - z
+    - '5'
+    - X
+    - '6'
+    - "\uA75B"
+    - /
+    - ''''
+    - '0'
+    - '2'
+    - '9'
+    - K
+    - '-'
+  production-software: Unknown [Automatically filled]
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Liber
   url: https://github.com/CIHAM-HTR/Liber
@@ -793,6 +869,7 @@
     - quality-control
   institutions: []
   description: HTR data sets from medieval manuscripts (13th-14th c.) collecting "fabliaux"
+    funded by Biblissima+
   project-website: https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux
   language:
   - fro
@@ -816,84 +893,96 @@
     \ 2022. \u27E8hal-03697382\u27E9"
   volume:
   - metric: characters
-    count: 19600
+    count: 33785
   - metric: files
-    count: 10
+    count: 20
   - metric: lines
-    count: 904
+    count: 1564
   - metric: regions
-    count: 40
+    count: 75
   characters:
     mode: NFD
     members:
     - e
     - i
     - s
-    - t
     - a
+    - t
     - o
     - u
     - n
     - r
     - l
+    - c
     - d
     - m
-    - c
-    - p
     - "\u0303"
+    - p
     - f
-    - q
-    - b
-    - .
     - h
+    - b
+    - q
+    - .
     - z
     - g
     - "\u204A"
     - "\u033E"
-    - "\uA751"
     - Q
-    - "\u0365"
-    - I
+    - "\uA751"
     - x
-    - "\uA770"
+    - "\u0365"
     - S
-    - C
-    - E
-    - "\uA76F"
-    - T
     - L
-    - N
-    - O
-    - y
-    - M
+    - I
+    - E
     - D
-    - "\u0363"
-    - F
+    - "\uA76F"
+    - C
+    - "\uA770"
+    - T
+    - N
     - A
-    - U
-    - "\u0142"
-    - "\u1E9C"
+    - O
+    - M
+    - "\u0363"
     - P
-    - B
-    - ':'
+    - y
+    - U
     - '9'
-    - "\uF1AC"
+    - F
+    - "\uA758"
+    - B
     - '1'
-    - '6'
-    - '4'
-    - "\u0366"
+    - "\u0142"
     - "\u27E6"
     - "\u27E7"
-    - "\u205C"
-    - ''''
+    - "\u1E9C"
     - G
-    - "\u1DE4"
-    - "\u036B"
+    - ''''
     - '7'
-    - '5'
-    - '0'
-    - "\uA753"
+    - ':'
+    - '4'
+    - J
+    - H
+    - R
     - '8'
+    - "\uF1AC"
+    - '6'
+    - "\u0366"
+    - v
+    - "\u036B"
+    - "\u0364"
+    - '0'
+    - "\u205C"
+    - '3'
+    - "\u0111"
+    - "\u1DE4"
+    - '5'
+    - "\u2038"
+    - "\u1DE0"
+    - "\u1DD1"
+    - '2'
+    - "\uA753"
   _bibtex: '@misc{YourReferenceHere,
 
     author = {Pinche, Ariane and Pierreville, Corinne},
@@ -1248,16 +1337,113 @@
     url: https://creativecommons.org/licenses/by-sa/4.0/
   format: Alto-XML
   volume:
+  - metric: characters
+    count: 117155
   - metric: files
     count: 180
   - metric: lines
     count: 3932
   - metric: regions
     count: 981
-  - metric: characters
-    count: 117155
   transcription-guidelines: "- xxx for erased or unreadable characters\n- ^+letters\
     \ for superscript letters\n- \u204B for new paragraph\n"
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - o
+    - n
+    - s
+    - r
+    - i
+    - d
+    - l
+    - u
+    - t
+    - c
+    - m
+    - p
+    - q
+    - b
+    - "\u0301"
+    - g
+    - .
+    - h
+    - ','
+    - "\u204B"
+    - v
+    - '-'
+    - f
+    - y
+    - S
+    - C
+    - '0'
+    - ^
+    - A
+    - j
+    - U
+    - '1'
+    - z
+    - x
+    - D
+    - M
+    - "\u0303"
+    - E
+    - '2'
+    - L
+    - P
+    - N
+    - '8'
+    - V
+    - J
+    - B
+    - T
+    - G
+    - '6'
+    - I
+    - '5'
+    - '3'
+    - ':'
+    - '9'
+    - '4'
+    - H
+    - R
+    - '7'
+    - ;
+    - O
+    - "\u201C"
+    - "\xBA"
+    - "\u201D"
+    - F
+    - Q
+    - Y
+    - "\u0304"
+    - '*'
+    - _
+    - '='
+    - $
+    - (
+    - '"'
+    - )
+    - "\xBF"
+    - /
+    - "\u0300"
+    - '?'
+    - "\u0308"
+    - "\xA1"
+    - '!'
+    - '{'
+    - '~'
+    - '}'
+    - '&'
+    - W
+    - Z
+    - "\u2018"
+    - "\u2019"
+    - K
+    - '['
+    - ']'
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\xFCcher O10,\
     \ Urfehdenbuch X"
@@ -1461,14 +1647,15 @@
     roles:
     - transcriber
     - quality-control
+  - name: Pascal
+    surname: Dubourg Glatigny
+    roles:
+    - project-manager
   institutions:
-  - name: "Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris"
+  - name: Azentis
     roles:
     - digitization
-  description: "This dataset was created in order to produce an HTR model for the\
-    \ Digital Peraire project. The documents are handwritten, dating from the second\
-    \ half of the 20th century, written by Lucien P\xE9raire in French with a blue\
-    \ ink pen or, more frequently, with a blue pencil. "
+  description: Ground Truth for the Digital Peraire project.
   project-name: Digital Peraire
   language:
   - fra
@@ -1495,15 +1682,101 @@
     count: 1059
   - metric: regions
     count: 80
-  citation-file-link: https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff
-  transcription-guidelines: "The transcription respects what is written on the document,\
-    \ including ponctuation and spelling errors. The case is respected: capital letters\
-    \ are transcribed with capital letters. Crossed out words are signaled by # which\
-    \ isn't used to transcribe anything else. The SegmOnto ontology was used for the\
-    \ segmentation of this dataset. For regions, MainZone and MarginTextZone were\
-    \ used. For lines, DefaultLine and InterlinearLine were used. The original documents\
-    \ are held at the Biblioth\xE8que S\xE9bert, Esp\xE9ranto-France, Paris. They\
-    \ should be mentionned every time the images are used."
+  transcription-guidelines: "Les mots barr\xE9s sont transcrits par \"><\". Les textes\
+    \ suscrits ne sont pas signal\xE9s. Ce qui est \xE9crit est transcrits. S'il y\
+    \ a des incertitutes, la ligne est laiss\xE9e vide. La segmentation de certains\
+    \ documents ne convient pas pour l'entra\xEEnement d'un mod\xE8le de segmentation.\
+    \ L'ontologie SegmOnto a \xE9t\xE9 utilis\xE9e. "
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - n
+    - i
+    - t
+    - r
+    - u
+    - o
+    - l
+    - d
+    - m
+    - p
+    - c
+    - ','
+    - v
+    - "\u0301"
+    - .
+    - f
+    - g
+    - ''''
+    - q
+    - b
+    - h
+    - "\u0300"
+    - j
+    - E
+    - A
+    - '-'
+    - N
+    - '1'
+    - S
+    - C
+    - x
+    - T
+    - I
+    - O
+    - y
+    - L
+    - "\u0302"
+    - '"'
+    - R
+    - '2'
+    - U
+    - D
+    - M
+    - P
+    - '0'
+    - '3'
+    - '4'
+    - H
+    - ':'
+    - '9'
+    - J
+    - (
+    - )
+    - '5'
+    - "\u0327"
+    - z
+    - '7'
+    - V
+    - B
+    - ;
+    - K
+    - '?'
+    - k
+    - '6'
+    - F
+    - Q
+    - G
+    - '8'
+    - "\xB0"
+    - /
+    - Y
+    - '#'
+    - '!'
+    - '='
+    - Z
+    - ']'
+    - "\u0308"
+    - X
+    - "\u2192"
+    - '['
+    - '*'
+    - w
+    - '%'
+    - '{'
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagu\xE9, Alix},\ndoi = {10.5281/zenodo.7185907},\n\
     month = {10},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\n\
     year = {2022}\n}\n"
@@ -1686,7 +1959,9 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff
-  transcription-guidelines: Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
+  transcription-guidelines: 'Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md
+
+    '
   volume:
   - metric: characters
     count: 19821
@@ -1696,7 +1971,7 @@
     count: 751
   - metric: regions
     count: 41
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Biay, S\xE9bastien and Boby, Victor\
     \ and Konstantinova, Kristina and Cappe, Zo\xE9},\ndoi = {10.5281/zenodo.6126376},\n\
     title = {TNAH-2021-DecameronFR},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR}\n\
@@ -1774,7 +2049,7 @@
     count: 770
   - metric: regions
     count: 51
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Guimar\xE3es, Ingrid and Maurel, Perrine\
     \ and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle =\
     \ {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\n\
@@ -1849,7 +2124,7 @@
     count: 367
   - metric: regions
     count: 64
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Ceard, Lien and Lebreton, Fanny and\
     \ Sajdak, C\xE9cile},\ndoi = {10.5281/zenodo.6126475},\nmonth = {1},\ntitle =\
     \ {Projet Correspondance Berlioz},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz},\n\
@@ -1919,7 +2194,7 @@
     count: 2620
   - metric: regions
     count: 158
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: '@misc{YourReferenceHere,
 
     author = {Christensen, Kelly and Davoury, Baudoin and Haedo, Anahi and Kervegan,
@@ -2009,7 +2284,7 @@
     count: 735
   - metric: regions
     count: 86
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Doat, Soline and Falcoz, Elsa and\
     \ Faure, Margaux and Mazou\xE9, Ana\xEFs and Menu, Ariane},\ndoi = {10.5281/zenodo.6126491},\n\
     month = {1},\ntitle = {Projet Notre-Dame},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame},\n\
@@ -2080,7 +2355,7 @@
     count: 1664
   - metric: regions
     count: 146
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille,\
     \ Th\xE9ophile and Escoda, Adrien and Sa\xEFag, Violette},\ndoi = {10.5281/zenodo.6126641},\n\
     month = {2},\ntitle = {OCR d'une po\xE9sie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\n\
@@ -2090,7 +2365,9 @@
 - schema: https://htr-united.github.io/schema/2022-04-15/schema.json
   title: Argus des Brevets
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  project-name: 'ENC - Bonnes pratiques du developpement collaboratif''
+
+    '
   authors:
   - name: De Craene
     surname: Valentin
@@ -2163,7 +2440,7 @@
     count: 1962
   - metric: regions
     count: 86
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: '@misc{YourReferenceHere,
 
     author = {De Craene, Valentin and Humeau, Maxime and Reignier, Virgile},
@@ -2234,7 +2511,7 @@
     count: 983
   - metric: regions
     count: 72
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {L\u2019Eveque, Zo\xE9 and Ekaterina,\
     \ Kate and Kasparian, Anahide},\ndoi = {10.5281/zenodo.6126633},\nmonth = {2},\n\
     title = {Projet Kovaleswky - 1893},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893},\n\
@@ -2293,6 +2570,8 @@
     count: 47
   - metric: lines
     count: 3656
+  - metric: pages
+    count: 52
   - metric: regions
     count: 292
   sources:
@@ -2310,7 +2589,7 @@
     head to the repository and the report file.''''
 
     '
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou Efstathiou, Malamatenia and\
     \ Leroy, No\xE9 and Maulu, Marco},\ndoi = {10.5281/zenodo.6126613},\ntitle = {git-project-Boccace}\n\
     }\n"
@@ -2377,7 +2656,7 @@
     count: 253
   - metric: regions
     count: 22
-  production-software: eScriptorium + Kraken
+  production-software: Unknown [Automatically filled]
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Pascual, Margot and Franchet d'Esp\xE8\
     rey, Louis-Fiacre and Gabay, Simon},\ndoi = {10.5281/zenodo.6126655},\nmonth =\
     \ {2},\ntitle = {Ch\xE2teau de Chavigny},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny},\n\

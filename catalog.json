@@ -968,7 +968,7 @@
       }
     ],
     "institutions": [],
-    "description": "HTR data sets from medieval manuscripts (13th-14th c.) collecting \"fabliaux\"",
+    "description": "HTR data sets from medieval manuscripts (13th-14th c.) collecting \"fabliaux\" funded by Biblissima+",
     "project-website": "https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux",
     "language": [
       "fro"
@@ -1000,19 +1000,19 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 19600
+        "count": 33785
       },
       {
         "metric": "files",
-        "count": 10
+        "count": 20
       },
       {
         "metric": "lines",
-        "count": 904
+        "count": 1564
       },
       {
         "metric": "regions",
-        "count": 40
+        "count": 75
       }
     ],
     "characters": {
@@ -1021,71 +1021,83 @@
         "e",
         "i",
         "s",
-        "t",
         "a",
+        "t",
         "o",
         "u",
         "n",
         "r",
         "l",
+        "c",
         "d",
         "m",
-        "c",
-        "p",
         "\u0303",
+        "p",
         "f",
-        "q",
-        "b",
-        ".",
         "h",
+        "b",
+        "q",
+        ".",
         "z",
         "g",
         "\u204a",
         "\u033e",
-        "\ua751",
         "Q",
-        "\u0365",
-        "I",
+        "\ua751",
         "x",
-        "\ua770",
+        "\u0365",
         "S",
-        "C",
-        "E",
-        "\ua76f",
-        "T",
         "L",
-        "N",
-        "O",
-        "y",
-        "M",
+        "I",
+        "E",
         "D",
-        "\u0363",
-        "F",
+        "\ua76f",
+        "C",
+        "\ua770",
+        "T",
+        "N",
         "A",
-        "U",
-        "\u0142",
-        "\u1e9c",
+        "O",
+        "M",
+        "\u0363",
         "P",
-        "B",
-        ":",
+        "y",
+        "U",
         "9",
-        "\uf1ac",
+        "F",
+        "\ua758",
+        "B",
         "1",
-        "6",
-        "4",
-        "\u0366",
+        "\u0142",
         "\u27e6",
         "\u27e7",
-        "\u205c",
-        "'",
+        "\u1e9c",
         "G",
-        "\u1de4",
-        "\u036b",
+        "'",
         "7",
-        "5",
+        ":",
+        "4",
+        "J",
+        "H",
+        "R",
+        "8",
+        "\uf1ac",
+        "6",
+        "\u0366",
+        "v",
+        "\u036b",
+        "\u0364",
         "0",
-        "\ua753",
-        "8"
+        "\u205c",
+        "3",
+        "\u0111",
+        "\u1de4",
+        "5",
+        "\u2038",
+        "\u1de0",
+        "\u1dd1",
+        "2",
+        "\ua753"
       ]
     },
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane and Pierreville, Corinne},\nmonth = {4},\ntitle = {Fabliaux},\nurl = {https://github.com/CIHAM-HTR/Fabliaux/data},\nyear = {2023}\n}\n",
@@ -7118,6 +7130,10 @@
         "count": 3656
       },
       {
+        "metric": "pages",
+        "count": 52
+      },
+      {
         "metric": "regions",
         "count": 292
       }
@@ -7130,7 +7146,7 @@
     ],
     "citation-file-link": "https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff",
     "transcription-guidelines": "No development of abbreviations. Special characters are used for the graphemic transcription, compatible with the Unicode mufi qnd the special character table of cremma-medieval.   No correction of orthography errors, BUT proper transcription of inversed letters (for Inc59) such as character \"n\" printed as \"u\" in several cases.  Spaces were added freely for word separation according to dictionaries of middle French and Latin (latin forms verified on Collatinus).  For more documentation regarding the transcription norms and guidelines head to the repository and the report file.''\n",
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Vlachou Efstathiou, Malamatenia and Leroy, No\u00e9 and Maulu, Marco},\ndoi = {10.5281/zenodo.6126613},\ntitle = {git-project-Boccace}\n}\n",
     "_apa": "Vlachou Efstathiou M., Leroy N., Maulu M. git-project-Boccace (version 1.0). DOI: 10.5281/zenodo.6126613\n",
     "_pid": "f1d4dac34"
@@ -7209,7 +7225,7 @@
         "count": 22
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pascual, Margot and Franchet d'Esp\u00e8rey, Louis-Fiacre and Gabay, Simon},\ndoi = {10.5281/zenodo.6126655},\nmonth = {2},\ntitle = {Ch\u00e2teau de Chavigny},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny},\nyear = {2022}\n}\n",
     "_apa": "Pascual M., Franchet d'Esp\u00e8rey L., Gabay S. (2022). Ch\u00e2teau de Chavigny (version 1.0). DOI: 10.5281/zenodo.6126655 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny\n",
     "_pid": "f291d96ac"
@@ -7286,7 +7302,7 @@
         "count": 72
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {L\u2019Eveque, Zo\u00e9 and Ekaterina, Kate and Kasparian, Anahide},\ndoi = {10.5281/zenodo.6126633},\nmonth = {2},\ntitle = {Projet Kovaleswky - 1893},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893},\nyear = {2022}\n}\n",
     "_apa": "L\u2019Eveque Z., Ekaterina K., Kasparian A. (2022). Projet Kovaleswky - 1893 (version 1.0). DOI: 10.5281/zenodo.6126633 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893\n",
     "_pid": "c7fda1044"
@@ -7367,7 +7383,7 @@
         "count": 51
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Guimar\u00e3es, Ingrid and Maurel, Perrine and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle = {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\nyear = {2022}\n}\n",
     "_apa": "Guimar\u00e3es I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n",
     "_pid": "084b4588d"
@@ -7452,7 +7468,7 @@
         "count": 146
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille, Th\u00e9ophile and Escoda, Adrien and Sa\u00efag, Violette},\ndoi = {10.5281/zenodo.6126641},\nmonth = {2},\ntitle = {OCR d'une po\u00e9sie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\nyear = {2022}\n}\n",
     "_apa": "Sarbach-Pulicani V., Miaille T., Escoda A., Sa\u00efag V. (2022). OCR d'une po\u00e9sie corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n",
     "_pid": "cae2922ee"
@@ -7461,7 +7477,7 @@
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "Argus des Brevets",
     "url": "https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets",
-    "project-name": "ENC - Bonnes pratiques du developpement collaboratif",
+    "project-name": "ENC - Bonnes pratiques du developpement collaboratif'\n",
     "authors": [
       {
         "name": "De Craene",
@@ -7530,7 +7546,7 @@
         "count": 86
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {De Craene, Valentin and Humeau, Maxime and Reignier, Virgile},\ndoi = {10.5281/zenodo.6126366},\nmonth = {1},\ntitle = {Projet Argus des Brevets},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets},\nyear = {2022}\n}\n",
     "_apa": "De Craene V., Humeau M., Reignier V. (2022). Projet Argus des Brevets (version 1.0). DOI: 10.5281/zenodo.6126366 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets\n",
     "_pid": "43d1c93c7"
@@ -7597,7 +7613,7 @@
     ],
     "format": "Alto-XML",
     "citation-file-link": "https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff",
-    "transcription-guidelines": "Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md",
+    "transcription-guidelines": "Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md\n",
     "volume": [
       {
         "metric": "characters",
@@ -7616,7 +7632,7 @@
         "count": 41
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Biay, S\u00e9bastien and Boby, Victor and Konstantinova, Kristina and Cappe, Zo\u00e9},\ndoi = {10.5281/zenodo.6126376},\ntitle = {TNAH-2021-DecameronFR},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR}\n}\n",
     "_apa": "Biay S., Boby V., Konstantinova K., Cappe Z. TNAH-2021-DecameronFR (version 1.0). DOI: 10.5281/zenodo.6126376 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR\n",
     "_pid": "563cfbd31"
@@ -7717,7 +7733,7 @@
         "count": 158
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Christensen, Kelly and Davoury, Baudoin and Haedo, Anahi and Kervegan, Paul and Sanchez-Oeconomo, Esteban},\ndoi = {10.5281/zenodo.6126447},\nmonth = {1},\ntitle = {Projet Exposition Universelle de 1878},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles},\nyear = {2022}\n}\n",
     "_apa": "Christensen K., Davoury B., Haedo A., Kervegan P., Sanchez-Oeconomo E. (2022). Projet Exposition Universelle de 1878 (version 1.0). DOI: 10.5281/zenodo.6126447 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles\n",
     "_pid": "2c673f312"
@@ -7795,7 +7811,7 @@
         "count": 64
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Ceard, Lien and Lebreton, Fanny and Sajdak, C\u00e9cile},\ndoi = {10.5281/zenodo.6126475},\nmonth = {1},\ntitle = {Projet Correspondance Berlioz},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz},\nyear = {2022}\n}\n",
     "_apa": "Ceard L., Lebreton F., Sajdak C. (2022). Projet Correspondance Berlioz (version 1.0). DOI: 10.5281/zenodo.6126475 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz\n",
     "_pid": "205614722"
@@ -7887,7 +7903,7 @@
         "count": 86
       }
     ],
-    "production-software": "eScriptorium + Kraken",
+    "production-software": "Unknown [Automatically filled]",
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Doat, Soline and Falcoz, Elsa and Faure, Margaux and Mazou\u00e9, Ana\u00efs and Menu, Ariane},\ndoi = {10.5281/zenodo.6126491},\nmonth = {1},\ntitle = {Projet Notre-Dame},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame},\nyear = {2022}\n}\n",
     "_apa": "Doat S., Falcoz E., Faure M., Mazou\u00e9 A., Menu A. (2022). Projet Notre-Dame (version 1.0). DOI: 10.5281/zenodo.6126491 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame\n",
     "_pid": "322826d7e"
@@ -8219,6 +8235,10 @@
     "format": "Alto-XML",
     "volume": [
       {
+        "metric": "characters",
+        "count": 117155
+      },
+      {
         "metric": "files",
         "count": 180
       },
@@ -8229,13 +8249,108 @@
       {
         "metric": "regions",
         "count": 981
-      },
-      {
-        "metric": "characters",
-        "count": 117155
       }
     ],
     "transcription-guidelines": "- xxx for erased or unreadable characters\n- ^+letters for superscript letters\n- \u204b for new paragraph\n",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "a",
+        "o",
+        "n",
+        "s",
+        "r",
+        "i",
+        "d",
+        "l",
+        "u",
+        "t",
+        "c",
+        "m",
+        "p",
+        "q",
+        "b",
+        "\u0301",
+        "g",
+        ".",
+        "h",
+        ",",
+        "\u204b",
+        "v",
+        "-",
+        "f",
+        "y",
+        "S",
+        "C",
+        "0",
+        "^",
+        "A",
+        "j",
+        "U",
+        "1",
+        "z",
+        "x",
+        "D",
+        "M",
+        "\u0303",
+        "E",
+        "2",
+        "L",
+        "P",
+        "N",
+        "8",
+        "V",
+        "J",
+        "B",
+        "T",
+        "G",
+        "6",
+        "I",
+        "5",
+        "3",
+        ":",
+        "9",
+        "4",
+        "H",
+        "R",
+        "7",
+        ";",
+        "O",
+        "\u201c",
+        "\u00ba",
+        "\u201d",
+        "F",
+        "Q",
+        "Y",
+        "\u0304",
+        "*",
+        "_",
+        "=",
+        "$",
+        "(",
+        "\"",
+        ")",
+        "\u00bf",
+        "/",
+        "\u0300",
+        "?",
+        "\u0308",
+        "\u00a1",
+        "!",
+        "{",
+        "~",
+        "}",
+        "&",
+        "W",
+        "Z",
+        "\u2018",
+        "\u2019",
+        "K",
+        "[",
+        "]"
+      ]
+    },
     "_pid": "3a60c6704"
   },
   "d26cd8486": {
@@ -8399,17 +8514,24 @@
           "transcriber",
           "quality-control"
         ]
+      },
+      {
+        "name": "Pascal",
+        "surname": "Dubourg Glatigny",
+        "roles": [
+          "project-manager"
+        ]
       }
     ],
     "institutions": [
       {
-        "name": "Biblioth\u00e8que S\u00e9bert, Esp\u00e9ranto-France, Paris",
+        "name": "Azentis",
         "roles": [
           "digitization"
         ]
       }
     ],
-    "description": "This dataset was created in order to produce an HTR model for the Digital Peraire project. The documents are handwritten, dating from the second half of the 20th century, written by Lucien P\u00e9raire in French with a blue ink pen or, more frequently, with a blue pencil. ",
+    "description": "Ground Truth for the Digital Peraire project.",
     "project-name": "Digital Peraire",
     "language": [
       "fra"
@@ -8454,8 +8576,99 @@
         "count": 80
       }
     ],
-    "citation-file-link": "https://github.com/alix-tz/peraire-ground-truth/blob/master/CITATION.cff",
-    "transcription-guidelines": "The transcription respects what is written on the document, including ponctuation and spelling errors. The case is respected: capital letters are transcribed with capital letters. Crossed out words are signaled by # which isn't used to transcribe anything else. The SegmOnto ontology was used for the segmentation of this dataset. For regions, MainZone and MarginTextZone were used. For lines, DefaultLine and InterlinearLine were used. The original documents are held at the Biblioth\u00e8que S\u00e9bert, Esp\u00e9ranto-France, Paris. They should be mentionned every time the images are used.",
+    "transcription-guidelines": "Les mots barr\u00e9s sont transcrits par \"><\". Les textes suscrits ne sont pas signal\u00e9s. Ce qui est \u00e9crit est transcrits. S'il y a des incertitutes, la ligne est laiss\u00e9e vide. La segmentation de certains documents ne convient pas pour l'entra\u00eenement d'un mod\u00e8le de segmentation. L'ontologie SegmOnto a \u00e9t\u00e9 utilis\u00e9e. ",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "s",
+        "a",
+        "n",
+        "i",
+        "t",
+        "r",
+        "u",
+        "o",
+        "l",
+        "d",
+        "m",
+        "p",
+        "c",
+        ",",
+        "v",
+        "\u0301",
+        ".",
+        "f",
+        "g",
+        "'",
+        "q",
+        "b",
+        "h",
+        "\u0300",
+        "j",
+        "E",
+        "A",
+        "-",
+        "N",
+        "1",
+        "S",
+        "C",
+        "x",
+        "T",
+        "I",
+        "O",
+        "y",
+        "L",
+        "\u0302",
+        "\"",
+        "R",
+        "2",
+        "U",
+        "D",
+        "M",
+        "P",
+        "0",
+        "3",
+        "4",
+        "H",
+        ":",
+        "9",
+        "J",
+        "(",
+        ")",
+        "5",
+        "\u0327",
+        "z",
+        "7",
+        "V",
+        "B",
+        ";",
+        "K",
+        "?",
+        "k",
+        "6",
+        "F",
+        "Q",
+        "G",
+        "8",
+        "\u00b0",
+        "/",
+        "Y",
+        "#",
+        "!",
+        "=",
+        "Z",
+        "]",
+        "\u0308",
+        "X",
+        "\u2192",
+        "[",
+        "*",
+        "w",
+        "%",
+        "{"
+      ]
+    },
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {10.5281/zenodo.7185907},\nmonth = {10},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2022}\n}\n",
     "_apa": "Chagu\u00e9 A. (2022). Peraire Ground Truth (version 1.0.0). DOI: 10.5281/zenodo.7185907 URL: https://github.com/alix-tz/peraire-ground-truth\n",
     "_pid": "bc4934064"
@@ -9113,7 +9326,7 @@
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "Caroline Minuscule by Rescribe",
     "url": "https://github.com/rescribe/carolineminuscule-groundtruth",
-    "project-name": "Rescribe",
+    "project-name": "Rescribe'\n",
     "project-website": "https://rescribe.xyz/",
     "authors": [
       {
@@ -9125,18 +9338,18 @@
         ]
       },
       {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
         "name": "Karaisl",
         "surname": "Antonia",
         "roles": [
           "transcriber",
           "project-manager"
-        ]
-      },
-      {
-        "name": "Cl\u00e9rice",
-        "surname": "Thibault",
-        "roles": [
-          "aligner"
         ]
       }
     ],
@@ -9167,24 +9380,100 @@
     "format": "Alto-XML",
     "volume": [
       {
-        "count": 457,
-        "metric": "lines"
+        "metric": "characters",
+        "count": 17155
       },
       {
-        "count": 17,
-        "metric": "files"
+        "metric": "files",
+        "count": 17
       },
       {
-        "count": 45,
-        "metric": "regions"
+        "metric": "lines",
+        "count": 457
       },
       {
-        "count": 16909,
-        "metric": "characters"
+        "metric": "regions",
+        "count": 46
       }
     ],
-    "transcription-guidelines": "In general this meant deciding between diplomatic transcription (i.e. sticking to what it says on the page) and gently modernized features (i.e. reinterpreting medieval signs into modern equivalents) with a view to specific categories. Read on for a summary of the rules and the respective rationale behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic where possible: Retain abbreviations and render glyphs as opposed to expanded versions where possible\n    \"*\" where original character isn't served: OCRopus (at the point in time of transcription) could not handle some of the medieval glyphs, even where a Unicode version was present. Abbreviations not in OCRopus are uniformly transcribed as \"*\", in the case of a combined character (such as a consonant with a macron) as the base character followed by \"*\" (e.g. \"t*\"). The list of accepted characters in OCRopus can be found in this repository, and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic numerals'\n",
-    "production-software": "eScriptorium + Kraken",
+    "transcription-guidelines": "In general this meant deciding between diplomatic transcription (i.e. sticking to what it says on the page) and gently modernized features (i.e. reinterpreting medieval signs into modern equivalents) with a view to specific categories. Read on for a summary of the rules and the respective rationale behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic where possible: Retain abbreviations and render glyphs as opposed to expanded versions where possible\n    \"*\" where original character isn't served: OCRopus (at the point in time of transcription) could not handle some of the medieval glyphs, even where a Unicode version was present. Abbreviations not in OCRopus are uniformly transcribed as \"*\", in the case of a combined character (such as a consonant with a macron) as the base character followed by \"*\" (e.g. \"t*\"). The list of accepted characters in OCRopus can be found in this repository, and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic numerals'",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "i",
+        "e",
+        "t",
+        "u",
+        "a",
+        "s",
+        "n",
+        "o",
+        "r",
+        "m",
+        "c",
+        "d",
+        "l",
+        "p",
+        ".",
+        "b",
+        "q",
+        "g",
+        "*",
+        "h",
+        ";",
+        "\u0303",
+        "f",
+        "x",
+        "I",
+        "\u0304",
+        "E",
+        "N",
+        "\u0328",
+        ":",
+        "&",
+        "S",
+        "\ua751",
+        "C",
+        "A",
+        "\u0111",
+        "D",
+        "U",
+        "T",
+        "\ua753",
+        "Q",
+        "v",
+        ",",
+        "O",
+        "R",
+        "P",
+        "L",
+        "M",
+        "\u00e6",
+        "H",
+        "F",
+        "?",
+        "1",
+        "y",
+        "\ua75d",
+        "\ua759",
+        "V",
+        "4",
+        "B",
+        "z",
+        "5",
+        "X",
+        "6",
+        "\ua75b",
+        "/",
+        "'",
+        "0",
+        "2",
+        "9",
+        "K",
+        "-"
+      ]
+    },
+    "production-software": "Unknown [Automatically filled]",
     "_pid": "35f73e074"
   },
   "84ee5d128": {
