@@ -3816,3 +3816,4363 @@
     year = {2021}\n}\n"
   _apa: "Jahan C., Gabay S. (2021). OCR17+ - Layout analysis and text recognition\
     \ for 17th c. French prints (version 1.0). DOI: none URL: https://github.com/e-ditiones/OCR17plus\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Tapus Corpus
+  url: https://github.com/HTR-United/tapuscorpus
+  project-name: "HTR-United\n"
+  project-website: https://htr-united.github.io/
+  authors:
+  - name: Chagué
+    surname: Alix
+    roles:
+    - transcriber
+    - project-manager
+  description: Ground truth based on a variety of French typewritten documents from
+    the 20th century. Contains exerpts plays, poems, letters and administrative reports.
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: characters
+    count: 399155
+  - metric: files
+    count: 150
+  - metric: lines
+    count: 4115
+  - metric: pages
+    count: 150
+  - metric: regions
+    count: 150
+  sources:
+  - reference: Chagué, A. (2021). Tapuscorpus (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977649
+    link: ''
+  citation-file-link: https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff
+  transcription-guidelines: See README in repository.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - t
+    - /
+    - '0'
+    - a
+    - c
+    - n
+    - r
+    - '7'
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '4'
+    - d
+    - '1'
+    - E
+    - .
+    - i
+    - '-'
+    - '2'
+    - '9'
+    - '5'
+    - f
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - b
+    - '8'
+    - '3'
+    - '6'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {10.5072/zenodo.977649},\n\
+    month = {12},\ntitle = {Tappus Corpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\n\
+    year = {2021}\n}\n"
+  _apa: "Chagué A. (2021). Tappus Corpus (version 1.0). DOI: 10.5072/zenodo.977649\
+    \ URL: https://github.com/HTR-United/tapuscorpus\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: TIMEUS Corpus
+  url: https://github.com/HTR-United/timeuscorpus
+  project-name: ANR TIME US
+  project-website: https://timeus.hypotheses.org/
+  authors:
+  - name: Chagué
+    surname: Alix
+    roles:
+    - transcriber
+    - aligner
+    - support
+  - name: Riondet
+    surname: Charles
+    roles:
+    - support
+  - name: Le Fourner
+    surname: Victoria
+    roles:
+    - transcriber
+  - name: Bey
+    surname: Laura
+    roles:
+    - transcriber
+  - name: Vanneau
+    surname: Laurie
+    roles:
+    - transcriber
+  - name: Skilbeck-Gaborit
+    surname: Eden
+    roles:
+    - transcriber
+  - name: Meissel
+    surname: Nina
+    roles:
+    - transcriber
+  - name: Genero
+    surname: Jean-Damien
+    roles:
+    - aligner
+  - name: Champougny
+    surname: Kevin
+    roles:
+    - transcriber
+  - name: Albert
+    surname: Anaïs
+    roles:
+    - project-manager
+  - name: Martini
+    surname: Manuela
+    roles:
+    - project-manager
+  description: Ground-Truth for French 19th century pre-printed documents created
+    by administrative services.
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1858'
+    notAfter: '1858'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: characters
+    count: 746997
+  - metric: files
+    count: 248
+  - metric: lines
+    count: 7701
+  - metric: pages
+    count: 159
+  - metric: regions
+    count: 587
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - t
+    - /
+    - a
+    - c
+    - '0'
+    - n
+    - r
+    - '9'
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '7'
+    - '1'
+    - E
+    - .
+    - i
+    - '-'
+    - '2'
+    - d
+    - f
+    - '5'
+    - '6'
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - '4'
+    - b
+    - '8'
+    - '3'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Champougny, Kévin\
+    \ and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau,\
+    \ Laurie and Bey, Laura and Le Fourner, Victoria and Albert, Anaïs and Riondet,\
+    \ Charles and Martini, Manuela},\ndoi = {10.5281/zenodo.6230755},\ntitle = {Time\
+    \ Us Corpus},\nurl = {https://github.com/HTR-United/timeuscorpus}\n}\n"
+  _apa: "Chagué A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E., Vanneau\
+    \ L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us Corpus\
+    \ DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: DAHN Corpus
+  url: https://github.com/HTR-United/dahncorpus
+  project-name: DAHN
+  project-website: https://digitalintellectuals.hypotheses.org/category/dahn
+  authors:
+  - surname: Floriane
+    name: Chiffoleau
+    roles:
+    - project-manager
+    - aligner
+  description: OCR ground Truth dataset based on French 20th typewritten letters
+  license:
+  - url: https://creativecommons.org/licenses/by/4.0/
+    name: CC-BY 4.0
+  format: Alto-XML
+  script:
+  - iso: Latn
+  volume:
+  - metric: characters
+    count: 1210754
+  - metric: files
+    count: 546
+  - metric: lines
+    count: 12482
+  - metric: pages
+    count: 527
+  - metric: regions
+    count: 546
+  language:
+  - fra
+  time:
+    notBefore: '1914'
+    notAfter: '1924'
+  hands:
+    count: less-than-11
+    precision: exact
+  script-type: only-typed
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - t
+    - a
+    - /
+    - c
+    - '0'
+    - n
+    - r
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '7'
+    - '5'
+    - '9'
+    - f
+    - '1'
+    - E
+    - .
+    - i
+    - '-'
+    - '2'
+    - d
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - '8'
+    - '4'
+    - b
+    - '6'
+    - '3'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chiffoleau, Floriane},\ndoi = {10.5281/zenodo.5911868},\n\
+    month = {3},\ntitle = {dahncorpus},\nurl = {https://github.com/HTR-United/dahncorpus},\n\
+    year = {2021}\n}\n"
+  _apa: "Chiffoleau F. (2021). dahncorpus (version 1.0.0). DOI: 10.5281/zenodo.5911868\
+    \ URL: https://github.com/HTR-United/dahncorpus\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Cremma Medieval
+  url: https://github.com/HTR-United/cremma-medieval
+  authors:
+  - name: Pinche
+    surname: Ariane
+    orcid: 0000-0002-7843-5050
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Camps
+    surname: Jean-Baptiste
+    roles:
+    - transcriber
+  - name: Mariotti
+    surname: Viola
+    roles:
+    - transcriber
+  - name: Nolibois
+    surname: Alice
+    roles:
+    - transcriber
+  - name: Carnaille
+    surname: Camille
+    roles:
+    - transcriber
+  - name: Deleville
+    surname: Prunelle
+    roles:
+    - transcriber
+  - name: Lecomte
+    surname: Sophie
+    roles:
+    - transcriber
+  - name: Meylan
+    surname: Aminoel
+    roles:
+    - transcriber
+  - name: Ventura
+    surname: Simone
+    roles:
+    - transcriber
+  - name: Dugaz
+    surname: Lucien
+    roles:
+    - transcriber
+  description: Transcription corpora for training HTR models for medieval manuscripts
+    from the 12th to the 15th century.
+  project-name: CremmaLab
+  project-website: https://cremmalab.hypotheses.org
+  language:
+  - fra
+  - fro
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1100'
+    notAfter: '1499'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/HTR-United/cremma-medieval/blob/main/citation.cff
+  transcription-guidelines: "As the data come from different projects, transcriptions\
+    \ have been standardized to strengthen HTR models. We chose a graphemic transcription\
+    \ method, following D. Stutzmann definitions (see bibliography), to have a sign\
+    \ in the image corresponding to a sign in our text: all the abbreviations are\
+    \ kept, and u/v or i/j are not distinguished. The spaces in the dataset are not\
+    \ homogeneously represented, sometimes transcriptions reproduce the manuscript\
+    \ spacing while others use lexical spaces. It must be stressed that spaces are\
+    \ the most important source of error in medieval HTR models. Most of the transcription\
+    \ follow the layout segmentation of the SegmOnto ontology (https://github.com/SegmOnto/examples),\
+    \ separating the main column, margin, numbering, drop capital, etc. All the recommendations\
+    \ are described in\n  the following document  : Ariane Pinche, Guide de transcription\
+    \ pour les manuscrits du Xe au XVe siècle, 2022, ⟨hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>."
+  production-software: eScriptorium + Kraken
+  volume:
+  - metric: characters
+    count: 630607
+  - metric: files
+    count: 289
+  - metric: lines
+    count: 23630
+  - metric: regions
+    count: 1932
+  characters:
+    mode: NFD
+    members:
+    - e
+    - i
+    - s
+    - t
+    - n
+    - a
+    - r
+    - u
+    - o
+    - l
+    - c
+    - d
+    - m
+    - p
+    - .
+    - q
+    - f
+    - g
+    - ̃
+    - b
+    - z
+    - h
+    - ⁊
+    - y
+    - ':'
+    - E
+    - x
+    - Q
+    - L
+    - ̾
+    - S
+    - D
+    - ꝑ
+    - ͥ
+    - C
+    - ꝯ
+    - ͣ
+    - A
+    - I
+    - "'"
+    - M
+    - ꝰ
+    - ́
+    - T
+    - P
+    - O
+    - k
+    - N
+    - U
+    - '9'
+    - ͬ
+    - G
+    - R
+    - ᷑
+    - F
+    - ͤ
+    - 
+    - '&'
+    - '1'
+    - B
+    - ꝓ
+    - H
+    - ÷
+    - ͦ
+    - '7'
+    - ᷤ
+    - '2'
+    - Λ
+    - ł
+    - '6'
+    - '0'
+    - '3'
+    - '8'
+    - '4'
+    - ̽
+    - w
+    - '-'
+    - '5'
+    - ','
+    - ͭ
+    - ¶
+    - Y
+    - ẜ
+    -  
+    - ⟦
+    - ⟧
+    - ͨ
+    - ̈
+    - X
+    - ħ
+    - K
+    - δ
+    - ͫ
+    - /
+    - ŧ
+    - j
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\n\
+    month = {6},\ntitle = {Cremma Medieval},\nurl = {https://github.com/HTR-United/cremma-medieval},\n\
+    year = {2022}\n}\n"
+  _apa: "Pinche A. (2022). Cremma Medieval (version Bicerin 1.1.0). DOI: 10.5281/zenodo.5235185\
+    \ URL: https://github.com/HTR-United/cremma-medieval\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Early Modern Books
+  url: https://github.com/HTR-United/cremma-16-17-print
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - transcriber
+    - project-manager
+  description: Collection of book samples in early print forms, 16th to 17th century,
+    in Latin and pre-orthographic French.
+  language:
+  - frm
+  - lat
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1500'
+    notAfter: '1779'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 84726
+  - metric: files
+    count: 98
+  - metric: lines
+    count: 2603
+  - metric: regions
+    count: 451
+  sources:
+  - reference: Omnia Andreae Alciati v.c. emblemata cum commentariis
+    link: http://pid.emory.edu/ark:/25593/b70rv
+  - reference: "15.. \tHistoria de duobus amantibus Eurialo et Lucretia "
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k533863
+  - reference: "1520 \tEpigrammata clarissimi disertissimique viri Thomae Mori..."
+    link: https://doi.org/10.3931/e-rara-74397
+  - reference: "'1550 \tLa description de l'isle d'Utopie, oú est comprins '\n"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k6566444g
+  - reference: "1779 \tZoologia Danica, seu, Animalium Daniae et Norvegiae "
+    link: https://archive.org/details/zoologiadanicase01mlle
+  - reference: "'L'Achileyde de Stace... traduction en vers, avec ...'"
+    link: https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k3103841
+  - reference: "1681 \tVigiliæ Rhetorum, Et Somnia Poetarvm, Symbolicè"
+    link: http://diglib.hab.de/drucke/qun-607-5/start.htm
+  - reference: 'Aneau, Barthélemy: Picta Poesis - Lugduni : Pesnot, 1564'
+    link: http://diglib.hab.de/drucke/231-5-poet/start.htm
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
+  transcription-guidelines: Kept abbreviation and transcribed long s as long s
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - i
+    - u
+    - a
+    - t
+    - r
+    - n
+    - o
+    - l
+    - ſ
+    - m
+    - s
+    - c
+    - d
+    - p
+    - ','
+    - .
+    - q
+    - b
+    - g
+    - f
+    - h
+    - v
+    - A
+    - I
+    - E
+    - ¬
+    - '&'
+    - x
+    - S
+    - ́
+    - ̃
+    - y
+    - ’
+    - C
+    - P
+    - ̀
+    - T
+    - R
+    - M
+    - ':'
+    - V
+    - æ
+    - L
+    - N
+    - O
+    - D
+    - 
+    - z
+    - Q
+    - j
+    - H
+    - G
+    - B
+    - F
+    - '2'
+    - ̈
+    - '-'
+    - '1'
+    - "'"
+    - œ
+    - ;
+    - '?'
+    - (
+    - ̂
+    - )
+    - '7'
+    - U
+    - X
+    - '3'
+    - ο
+    - ι
+    - α
+    - '5'
+    - '6'
+    - '4'
+    - ε
+    - ̧
+    - ν
+    - τ
+    - '8'
+    - ̓
+    - π
+    - '9'
+    - '!'
+    - J
+    - '0'
+    - ꝰ
+    - ς
+    - λ
+    - υ
+    - Y
+    - §
+    - ꝙ
+    - Æ
+    - σ
+    - Α
+    - ω
+    - ']'
+    - Z
+    - /
+    - ρ
+    - k
+    - Ο
+    - Ν
+    - η
+    - ͂
+    - μ
+    - κ
+    - '*'
+    - K
+    - Υ
+    - δ
+    - θ
+    - ꝗ
+    - ℟
+    - Ε
+    - Ρ
+    - Ω
+    - Π
+    - Ι
+    - Τ
+    - φ
+    - ł
+    - ̊
+    - Μ
+    - Θ
+    - Σ
+    - Β
+    - Λ
+    - γ
+    - '|'
+    - ½
+    - ̰
+    -  
+    - ̔
+    - χ
+    - ϛ
+    - ß
+    - ͅ
+    - Γ
+    - Δ
+    - W
+    - Χ
+    - ξ
+    - 
+    - '#'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Medii Aevi
+  url: https://github.com/HTR-United/CREMMA-Medieval-LAT
+  authors:
+  - name: Cl\xE9rice
+    surname: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+  - name: Chagu\xE9
+    surname: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    orcid: 0000-0002-9397-356X
+    roles:
+    - transcriber
+    - aligner
+  institutions: []
+  description: Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.
+  project-name: CREMMA
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1100'
+    notAfter: '1599'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 263222
+  - metric: files
+    count: 121
+  - metric: lines
+    count: 7274
+  - metric: regions
+    count: 441
+  transcription-guidelines: 'Not a graphetic/"allographetique" transcription but rather
+    a graphemic one that preserves the sequence of letters and reduces each form to
+    its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro,
+    pre, tironian et, "est" etc.), as well as abbreviative signs, ligatures are reduced
+    to their component letters. Spaces between letters reproduce the original (e.g.
+    in the case of a semicontinuous script). Punctuations are simplified, reducing
+    to ":" all two-component punctuation (e.g. punctus elevatus). Rare characters
+    have been preserved such as "instans" and metric values (e.g. ounces). '
+  characters:
+    mode: NFD
+    members:
+    - i
+    - e
+    - t
+    - a
+    - u
+    - s
+    - ̃
+    - o
+    - n
+    - r
+    - c
+    - d
+    - m
+    - l
+    - p
+    - .
+    - ̾
+    - q
+    - b
+    - g
+    - f
+    - ⁊
+    - 
+    - ͣ
+    - h
+    - ꝰ
+    - ꝑ
+    - ͥ
+    - x
+    - ł
+    - ᷑
+    - ᷤ
+    - ͦ
+    - ꝙ
+    - ꝯ
+    - I
+    - ':'
+    - ͤ
+    - ͭ
+    - ꝵ
+    - ꝓ
+    - S
+    - ͫ
+    - ¶
+    - ẜ
+    - E
+    - U
+    - A
+    - ͨ
+    - C
+    - ħ
+    - N
+    - Q
+    - y
+    - ꝗ
+    - ᵈ
+    - D
+    - ̵
+    - R
+    - P
+    - ͬ
+    - ᷝ
+    - M
+    - T
+    - ꝭ
+    - /
+    - ^
+    - '2'
+    - ͧ
+    - '&'
+    - z
+    - ','
+    - H
+    - O
+    - ¬
+    - L
+    - '1'
+    - '3'
+    - '4'
+    - F
+    - '='
+    - G
+    - ᷠ
+    - ÷
+    - ℥
+    - '5'
+    - B
+    - '9'
+    - Ø
+    - ̇
+    - Ꝙ
+    - '6'
+    - ̧
+    - X
+    - '8'
+    - '0'
+    - ᵇ
+    - k
+    - '7'
+    - "'"
+    - '*'
+    - 
+    - w
+    - '-'
+    - Y
+    - ́
+    - ̈
+    - +
+    - Z
+    - đ
+    -  
+    - K
+    - ⁋
+    - ᵖ
+    - 
+    - ι
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Clérice, Thibault and Chagué, Alix\
+    \ and Vlachou-Efstathiou, Malamatenia},\ndoi = {10.5281/zenodo.7013436},\ntitle\
+    \ = {CREMMA Medii Aevi},\nurl = {https://github.com/HTR-United/CREMMA-Medieval-LAT}\n\
+    }\n"
+  _apa: "Clérice T., Chagué A., Vlachou-Efstathiou M. CREMMA Medii Aevi DOI: 10.5281/zenodo.7013436\
+    \ URL: https://github.com/HTR-United/CREMMA-Medieval-LAT\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 15e
+  url: https://github.com/HTR-United/CREMMA-MSS-15
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: "Manuscripts of the 15th century\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1400'
+    notAfter: '1499'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 16e
+  url: https://github.com/HTR-United/CREMMA-MSS-16
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: "Manuscripts of the 16th century\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1599'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - count: 0
+    metric: lines
+  - count: 0
+    metric: files
+  - count: 0
+    metric: regions
+  - count: 0
+    metric: characters
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 17e
+  url: https://github.com/HTR-United/CREMMA-MSS-17
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  - name: Mazoue
+    surname: Anais
+    roles:
+    - transcriber
+  - name: Davoury
+    surname: Baudoin
+    roles:
+    - transcriber
+  description: Various Manuscripts of the 17th century
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1600'
+    notAfter: '1699'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 81909
+  - metric: files
+    count: 111
+  - metric: lines
+    count: 2245
+  - metric: regions
+    count: 264
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - r
+    - a
+    - n
+    - u
+    - i
+    - o
+    - t
+    - l
+    - d
+    - c
+    - m
+    - p
+    - v
+    - q
+    - .
+    - ','
+    - y
+    - "'"
+    - f
+    - b
+    - g
+    - ́
+    - h
+    - j
+    - ̃
+    - M
+    - x
+    - R
+    - z
+    - C
+    - '1'
+    - J
+    - ^
+    - ̀
+    - P
+    - L
+    - S
+    - V
+    - '&'
+    - A
+    - E
+    - '>'
+    - I
+    - <
+    - '2'
+    - X
+    - '3'
+    - T
+    - '7'
+    - D
+    - '6'
+    - ']'
+    - B
+    - '4'
+    - '['
+    - '0'
+    - '?'
+    - '-'
+    - ̂
+    - ̈
+    - '9'
+    - '5'
+    - ;
+    - G
+    - N
+    - '8'
+    - ':'
+    - F
+    - ̧
+    - )
+    - (
+    - Q
+    - O
+    - H
+    - W
+    - œ
+    - ‸
+    - ⁊
+    - U
+    - ̄
+    - /
+    - ꝗ
+    - +
+    - k
+    - °
+    -  
+    - w
+    - ם
+    - Z
+    - ς
+    - '#'
+    - æ
+    - ꝙ
+    - ͣ
+    - ε
+    - ϕ
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 18e
+  url: https://github.com/HTR-United/CREMMA-MSS-18
+  project-name: CREMMA
+  authors:
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  - name: Norindr
+    surname: Jade
+    roles:
+    - transcriber
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - transcriber
+    - aligner
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+    - aligner
+  description: Manuscripts of the 18th century
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1700'
+    notAfter: '1799'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 141747
+  - metric: files
+    count: 125
+  - metric: lines
+    count: 4017
+  - metric: regions
+    count: 329
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - r
+    - t
+    - n
+    - u
+    - i
+    - o
+    - l
+    - d
+    - p
+    - c
+    - m
+    - v
+    - .
+    - q
+    - f
+    - ́
+    - "'"
+    - ','
+    - g
+    - b
+    - h
+    - y
+    - x
+    - j
+    - L
+    - C
+    - ̀
+    - ^
+    - '1'
+    - M
+    - S
+    - ̂
+    - z
+    - E
+    - R
+    - ;
+    - '2'
+    - I
+    - '6'
+    - '0'
+    - '>'
+    - <
+    - D
+    - V
+    - J
+    - '4'
+    - '3'
+    - (
+    - )
+    - P
+    - ̈
+    - '5'
+    - ̃
+    - '-'
+    - '['
+    - ']'
+    - '7'
+    - B
+    - '8'
+    - X
+    - A
+    - '9'
+    - N
+    - F
+    - G
+    - T
+    - '?'
+    - ̧
+    - /
+    - ':'
+    - O
+    - H
+    - ’
+    - ¬
+    - +
+    -  
+    - œ
+    - U
+    - '&'
+    - «
+    - Q
+    - '='
+    - K
+    - '!'
+    - k
+    - W
+    - Z
+    - w
+    - °
+    - ⁊
+    - ꝑ
+    - ſ
+    - ‸
+    - '#'
+    - ̶
+    - _
+    - Y
+    - ̄
+    - »
+    - ͦ
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 19e
+  url: https://github.com/HTR-United/CREMMA-MSS-19
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  - name: Davoury
+    surname: Baudouin
+    roles:
+    - transcriber
+    - aligner
+  - name: Doat
+    surname: Soline
+    roles:
+    - transcriber
+    - aligner
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+    - aligner
+  - name: Humeau
+    surname: Maxime
+    roles:
+    - transcriber
+    - aligner
+  description: Manuscripts of the 19th century
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1800'
+    notAfter: '1899'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 55581
+  - metric: files
+    count: 69
+  - metric: lines
+    count: 1807
+  - metric: regions
+    count: 167
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - i
+    - u
+    - n
+    - r
+    - t
+    - o
+    - l
+    - d
+    - m
+    - c
+    - p
+    - v
+    - ','
+    - ́
+    - "'"
+    - q
+    - f
+    - .
+    - g
+    - b
+    - h
+    - ̀
+    - j
+    - x
+    - '-'
+    - ̂
+    - L
+    - C
+    - M
+    - y
+    - J
+    - z
+    - A
+    - D
+    - P
+    - '"'
+    - '>'
+    - <
+    - E
+    - '!'
+    - N
+    - S
+    - Q
+    - '1'
+    - ;
+    - '?'
+    - ':'
+    - R
+    - I
+    - T
+    - B
+    - V
+    - œ
+    - '6'
+    - O
+    - (
+    - _
+    - )
+    - '2'
+    - '3'
+    - H
+    - '4'
+    - ^
+    - '9'
+    - '8'
+    - '7'
+    - F
+    - '0'
+    - G
+    - '5'
+    - ̧
+    - U
+    - '&'
+    - '['
+    - ']'
+    - °
+    - ̈
+    - k
+    - $
+    - w
+    - X
+    - W
+    - Y
+    - +
+    - Z
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA Manuscrits du 20e
+  url: https://github.com/HTR-United/CREMMA-MSS-20
+  project-name: CREMMA
+  authors:
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+  description: "Manuscripts of the 20th century\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 5764
+  - metric: files
+    count: 13
+  - metric: lines
+    count: 224
+  - metric: regions
+    count: 25
+  transcription-guidelines: Abréviations conservées.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFKD
+    members:
+    - e
+    - a
+    - s
+    - n
+    - t
+    - r
+    - i
+    - u
+    - l
+    - o
+    - d
+    - c
+    - m
+    - p
+    - ́
+    - <
+    - '>'
+    - "'"
+    - v
+    - q
+    - ','
+    - .
+    - ̀
+    - b
+    - g
+    - h
+    - j
+    - f
+    - F
+    - J
+    - '1'
+    - '-'
+    - ̂
+    - M
+    - A
+    - E
+    - x
+    - T
+    - y
+    - C
+    - D
+    - ^
+    - O
+    - '8'
+    - N
+    - '7'
+    - B
+    - S
+    - '0'
+    - ̧
+    - P
+    - G
+    - R
+    - H
+    - L
+    - '9'
+    - z
+    - I
+    - '2'
+    - ':'
+    - U
+    - '&'
+    - k
+    - +
+    - ;
+    - $
+    - V
+    - œ
+    - '['
+    - '?'
+    - ']'
+    - '4'
+    - '3'
+    - (
+    - )
+    - '6'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Notaires de Paris - Bronod
+  url: https://github.com/HTR-United/lectaurep-bronod
+  project-name: "LECTAUREP\n"
+  project-website: https://lectaurep.hypotheses.org/
+  authors:
+  - name: Limon-Bonnet
+    surname: Françoise
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - support
+  description: "Ground truth for Maître Bronod’s registers, notary in Paris during\
+    \ the 18th century.\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1742'
+    notAfter: '1745'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: characters
+    count: 359676
+  - metric: files
+    count: 100
+  - metric: lines
+    count: 3708
+  - metric: pages
+    count: 200
+  - metric: regions
+    count: 100
+  sources:
+  - reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre
+      Bronod\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software].
+      https://doi.org/10.5072/zenodo.977735
+    link: ''
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff
+  transcription-guidelines: "Transcription fidèle aux manuscrits : la casse et les\
+    \ abréviations sont respectées. Les portions de texte suscrites sont précédées\
+    \ d'un symbole `^`. Pas de traitement particulier des éventuels s longs.'\n"
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - t
+    - /
+    - a
+    - c
+    - '0'
+    - n
+    - r
+    - '7'
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '9'
+    - '1'
+    - E
+    - .
+    - i
+    - '-'
+    - '4'
+    - '5'
+    - f
+    - '2'
+    - d
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - b
+    - '8'
+    - '6'
+    - '3'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Notaires de Paris - Mariages et Divorces
+  url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
+  project-name: "LECTAUREP\n"
+  project-website: https://lectaurep.hypotheses.org/
+  authors:
+  - name: Denis
+    surname: Nathalie
+    roles:
+    - transcriber
+    - aligner
+  - name: Rostaing
+    surname: Aurélia
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  description: "Ground truth for the Registres des Contrats de Mariages et des Séparations\
+    \ et Divorces in Paris. The documents are written in Franch during the 19th century,\
+    \ contain many names and addresses. The information is organized in tables spreading\
+    \ on two pages. The table’s headers and the preamble are printed.\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1829'
+    notAfter: '1928'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: characters
+    count: 1969585
+  - metric: files
+    count: 104
+  - metric: lines
+    count: 20305
+  - metric: pages
+    count: 105
+  - metric: regions
+    count: 105
+  sources:
+  - reference: 'Rostaing, A., Denis, N., & Chagué, A. (2021). Lectaurep-Mariages-et-Divorces:
+      ground truth for the Enregistrements des Contrats de Mariages et des Séparations
+      et Divorces in Paris (French 19th century)  (Version 1.0) [Computer software].
+      https://doi.org/10.5072/zenodo.977697'
+    link: ''
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff
+  transcription-guidelines: "The transcription respects what is written (abbreviations\
+    \ are not developed, capitalization follows 19th century practices). Superscripted\
+    \ portions of text are signaled by `^` and many signatures are transcription with\
+    \ ¥. The lines containing printed text are associated with the type `printed`\
+    \ and the signatures are associated with the type `signature`. Thus they can both\
+    \ be removed from the dataset if necessary.'\n"
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - t
+    - /
+    - a
+    - c
+    - '0'
+    - n
+    - r
+    - '7'
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '1'
+    - E
+    - .
+    - i
+    - '-'
+    - '2'
+    - '9'
+    - '5'
+    - f
+    - '3'
+    - d
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - b
+    - '8'
+    - '6'
+    - '4'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Rostaing, Aurélia and Denis, Nathalie\
+    \ and Chagué, Alix},\ndoi = {10.5072/zenodo.977697},\nmonth = {11},\ntitle = {Lectaurep-Mariages-et-Divorces:\
+    \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
+    \ et Divorces in Paris (French 19th century) },\nurl = {https://github.com/HTR-United/lectaurep-mariages-et-divorces},\n\
+    year = {2021}\n}\n"
+  _apa: "Rostaing A., Denis N., Chagué A. (2021). Lectaurep-Mariages-et-Divorces:\
+    \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
+    \ et Divorces in Paris (French 19th century)  (version 1.0). DOI: 10.5072/zenodo.977697\
+    \ URL: https://github.com/HTR-United/lectaurep-mariages-et-divorces\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Notaires de Paris - Répertoires
+  url: https://github.com/HTR-United/lectaurep-repertoires
+  authors:
+  - name: Durand
+    surname: Marc
+    roles:
+    - transcriber
+    - aligner
+  - name: Rostaing
+    surname: Aurélia
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  description: Ground truth for various Parisian registries of notary deeds written
+    in French during the 19th century. The information is organized following pre-printed
+    tables (with printed headers) and contain many names, addresses, numbers and abbreviations.
+  project-name: LECTAUREP
+  project-website: https://lectaurep.hypotheses.org/
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1830'
+    notAfter: '1939'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 525619
+  - metric: files
+    count: 218
+  - metric: lines
+    count: 29410
+  - metric: regions
+    count: 1138
+  citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - r
+    - a
+    - i
+    - n
+    - t
+    - o
+    - u
+    - s
+    - d
+    - l
+    - c
+    - p
+    - '1'
+    - m
+    - S
+    - ̀
+    - ','
+    - E
+    - ́
+    - '2'
+    - P
+    - .
+    - M
+    - '0'
+    - A
+    - C
+    - '5'
+    - '3'
+    - h
+    - T
+    - v
+    - g
+    - D
+    - '7'
+    - )
+    - (
+    - R
+    - N
+    - f
+    - I
+    - b
+    - L
+    - '8'
+    - '9'
+    - '4'
+    - ^
+    - '6'
+    - B
+    - O
+    - J
+    - V
+    - y
+    - "'"
+    - G
+    - F
+    - '-'
+    - x
+    - q
+    - °
+    - H
+    - ̂
+    - U
+    - '"'
+    - X
+    - '&'
+    - z
+    - ;
+    - ̧
+    - ':'
+    - j
+    - +
+    - Q
+    - '|'
+    - ̈
+    - /
+    - k
+    - '='
+    - '%'
+    - W
+    - K
+    - Y
+    - Z
+    - w
+    - '~'
+    - ¥
+    - ȼ
+    - _
+    - €
+    - '`'
+    - '['
+    - ']'
+    - œ
+    - '?'
+    - '*'
+    - ̃
+    - '>'
+    - ½
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {LECTAUREP and Rostaing, Aurélia and\
+    \ Durand, Marc and Chagué, Alix},\ndoi = {10.5072/zenodo.977691},\nmonth = {12},\n\
+    title = {Notaires de Paris - Répertoires, ground truth for various Parisian registries\
+    \ of notary deeds (French 19th and 20th centuries)},\nurl = {https://github.com/HTR-United/lectaurep-repertoires},\n\
+    year = {2021}\n}\n"
+  _apa: "LECTAUREP, Rostaing A., Durand M., Chagué A. (2021). Notaires de Paris -\
+    \ Répertoires, ground truth for various Parisian registries of notary deeds (French\
+    \ 19th and 20th centuries) (version 2.0.0). DOI: 10.5072/zenodo.977691 URL: https://github.com/HTR-United/lectaurep-repertoires\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: ' CREMMA-AN Testament De Poilus '
+  url: https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus
+  description: WWI’s Poilus' testaments edited by the Archives National during the
+    Testaments de Poilus project.
+  project-name: Testaments de Poilus
+  project-website: https://edition-testaments-de-poilus.huma-num.fr/
+  language:
+  - fra
+  script:
+  - iso: Latn
+  authors:
+  - name: Emmanuelle
+    surname: de Champs
+    roles:
+    - project-manager
+  - surname: Clavaud
+    name: Florence
+    roles:
+    - project-manager
+    - quality-control
+    - transcriber
+  - name: Pauline
+    surname: Charbonnier
+    roles:
+    - project-manager
+    - quality-control
+    - transcriber
+  - name: Christine
+    surname: Nougaret
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - name: Alix
+    surname: Chagué
+    roles:
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Thibault
+    surname: Clérice
+    roles:
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Falcoz
+    surname: Elsa
+    roles:
+    - aligner
+  - name: Marie-Françoise
+    surname: Limon-Bonnet
+    roles:
+    - project-manager
+  - name: Elise
+    surname: Wojszvzyk
+    roles:
+    - project-manager
+  - name: Sylvie
+    surname: Dechavanne
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - surname: ALemoine
+    roles:
+    - transcriber
+  - surname: ASJPeronneau
+    roles:
+    - transcriber
+  - surname: Alcofrybas
+    roles:
+    - transcriber
+  - surname: BeaLct
+    roles:
+    - transcriber
+  - surname: CLbt
+    roles:
+    - transcriber
+  - surname: Chloelsa
+    roles:
+    - transcriber
+  - surname: DMichel
+    roles:
+    - transcriber
+  - surname: Desauthieux
+    roles:
+    - transcriber
+  - surname: EPerrin
+    roles:
+    - transcriber
+  - surname: GBMireille
+    roles:
+    - transcriber
+  - surname: GPINET
+    roles:
+    - transcriber
+  - surname: Genea78
+    roles:
+    - transcriber
+  - surname: JMGoux
+    roles:
+    - transcriber
+  - surname: Jideuxhemme
+    roles:
+    - transcriber
+  - surname: LBIsabelle
+    roles:
+    - transcriber
+  - surname: Lamotte
+    roles:
+    - transcriber
+  - surname: MFGarreau
+    roles:
+    - transcriber
+  - surname: MIna
+    roles:
+    - transcriber
+  - surname: Maniet
+    roles:
+    - transcriber
+  - surname: MarionJo
+    roles:
+    - transcriber
+  - surname: PGambette
+    roles:
+    - transcriber
+  - surname: PPocard
+    roles:
+    - transcriber
+  - surname: PROMBAUT
+    roles:
+    - transcriber
+  - surname: PaulineTest
+    roles:
+    - transcriber
+  - surname: SCayeux
+    roles:
+    - transcriber
+  - surname: SL.
+    roles:
+    - transcriber
+  - surname: SLespinasse
+    roles:
+    - transcriber
+  - surname: Silver08
+    roles:
+    - transcriber
+  - surname: TPellé
+    roles:
+    - transcriber
+  - surname: Valérie
+    roles:
+    - transcriber
+  - surname: alp
+    roles:
+    - transcriber
+  - surname: jmorvan
+    roles:
+    - transcriber
+  - surname: lelia
+    roles:
+    - transcriber
+  - surname: majubama
+    roles:
+    - transcriber
+  - surname: mickael.lefevr
+    roles:
+    - transcriber
+  - surname: sgauthier
+    roles:
+    - transcriber
+  - surname: EdChamps
+    roles:
+    - quality-control
+  - name: Danièle
+    surname: Allezard
+    roles:
+    - support
+  - name: Françoise
+    surname: Auriau
+    roles:
+    - support
+  - name: Sophie
+    surname: Blanchard
+    roles:
+    - support
+  - name: Laure
+    surname: Cadars
+    roles:
+    - support
+  - name: Paul
+    surname: Cazin-Bernier
+    roles:
+    - support
+  - name: Rosine
+    surname: Cleyet-Michaud
+    roles:
+    - support
+  - name: Sophie
+    surname: Delinge
+    roles:
+    - support
+  - name: Christiane
+    surname: Demeulenaere-Douyère
+    roles:
+    - support
+  - name: Mathilde
+    surname: Deuve
+    roles:
+    - support
+  - name: Tristan
+    surname: Girard
+    roles:
+    - support
+  - name: Wilfried
+    surname: Gourdon
+    roles:
+    - support
+  - name: Emilie
+    surname: Laffitte-Louisou
+    roles:
+    - support
+  - name: Valérie
+    surname: Lemée
+    roles:
+    - support
+  - name: Jean-Claude
+    surname: Lescure
+    roles:
+    - support
+  - name: Mélisa
+    surname: Locatelli
+    roles:
+    - support
+  - name: Aurélie
+    surname: Massie
+    roles:
+    - support
+  - name: Thomas
+    surname: Olivier
+    roles:
+    - support
+  - name: Françoise
+    surname: Pinchard
+    roles:
+    - support
+  - name: Tiffanie
+    surname: Pitot
+    roles:
+    - support
+  - name: Anais
+    surname: Pontoparia
+    roles:
+    - support
+  - name: Michel
+    surname: Renard
+    roles:
+    - support
+  - name: Thierry
+    surname: Rihouey
+    roles:
+    - support
+  - name: Christian
+    surname: Rodriguez
+    roles:
+    - support
+  - name: Konstantinos
+    surname: Sifakis
+    roles:
+    - support
+  - name: Marie-Thérèse
+    surname: Solignat
+    roles:
+    - support
+  - name: Lucie
+    surname: Vieillon
+    roles:
+    - support
+  - surname: SL
+    roles:
+    - support
+  script-type: only-manuscript
+  time:
+    notBefore: '1914'
+    notAfter: '1918'
+  hands:
+    count: 1-per-file
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 33652
+  - metric: files
+    count: 96
+  - metric: lines
+    count: 1353
+  - metric: regions
+    count: 105
+  citation-file-link: https://github.com/Dummy/depot-test/CITATION.cff
+  transcription-guidelines: 'The original transcriptions were performed on a crowdsourcing
+    application (https://testaments-de-poilus.huma-num.fr/#!/) under the supervision
+    of the Archives nationales de France. Only the allographic portions of the documents
+    were transcribed. Any marginal elements added later by clerks or archivists are
+    neither segmented nor transcribed. The segmentation follows the SegmOnto ontology.
+    Abbreviations and mispelling were not corrected. Superscripted portions of text
+    are preceeded by ^. '
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - n
+    - i
+    - t
+    - s
+    - r
+    - u
+    - o
+    - l
+    - m
+    - d
+    - c
+    - ́
+    - p
+    - ̀
+    - v
+    - g
+    - f
+    - ','
+    - b
+    - q
+    - '1'
+    - ’
+    - .
+    - h
+    - M
+    - J
+    - j
+    - C
+    - P
+    - '-'
+    - L
+    - A
+    - '9'
+    - y
+    - x
+    - D
+    - S
+    - B
+    - ^
+    - R
+    - F
+    - ̂
+    - G
+    - E
+    - '4'
+    - z
+    - '2'
+    - V
+    - T
+    - '3'
+    - '5'
+    - N
+    - '0'
+    - )
+    - H
+    - (
+    - '7'
+    - '8'
+    - I
+    - Q
+    - '6'
+    - ;
+    - ':'
+    - O
+    - ̧
+    - U
+    - '"'
+    - ̈
+    - œ
+    - W
+    - °
+    - '?'
+    - Z
+    - /
+    - w
+    - k
+    - '&'
+    - +
+    - X
+    - '%'
+    - "'"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: CREMMA WIKIPEDIA
+  url: https://github.com/HTR-United/cremma-wikipedia
+  authors:
+  - name: Chagué
+    surname: Alix
+    roles:
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+    orcid: 0000-0002-0136-4434
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - project-manager
+    - quality-control
+    orcid: 0000-0003-1852-9204
+  - name: Van Kote
+    surname: Elsa
+    roles:
+    - aligner
+    - transcriber
+  - name: Carrow
+    surname: Jennifer
+    roles:
+    - aligner
+    - transcriber
+    - support
+  - name: Wissam
+    surname: Antoum
+    roles:
+    - support
+  - name: Yann
+    surname: Audin
+    roles:
+    - support
+  - name: Anne
+    surname: Baillot
+    roles:
+    - support
+  - name: Marlène
+    surname: Baron
+    roles:
+    - support
+  - name: Alexandre
+    surname: Bartz
+    roles:
+    - support
+  - name: Rachel
+    surname: Bawden
+    roles:
+    - support
+  - name: Alice
+    surname: Beaudry-Lagarde
+    roles:
+    - support
+  - name: Rishika
+    surname: Bhagwatkar
+    roles:
+    - support
+  - name: Federico
+    surname: Boschetti
+    roles:
+    - support
+  - name: Camille
+    surname: Bourgeois
+    roles:
+    - support
+  - name: Alice
+    surname: Brenon
+    roles:
+    - support
+  - name: William
+    surname: Brubacher
+    roles:
+    - support
+  - name: Donovan
+    surname: Brunot
+    roles:
+    - support
+  - name: Roxanne
+    surname: Brusseau
+    roles:
+    - support
+  - name: Talitha
+    surname: Bueno Mottes
+    roles:
+    - support
+  - name: Zoé
+    surname: Cappe
+    roles:
+    - support
+  - name: Roman
+    surname: Castagné
+    roles:
+    - support
+  - name: Galo
+    surname: Castillo
+    roles:
+    - support
+  - name: Brigitte
+    surname: Chagué
+    roles:
+    - support
+  - name: Denis
+    surname: Chagué
+    roles:
+    - support
+  - name: Emeric
+    surname: Chagué
+    roles:
+    - support
+  - name: Léa
+    surname: Charette
+    roles:
+    - support
+  - name: Emmanuel
+    surname: Chateau
+    roles:
+    - support
+  - name: Jean-Baptiste
+    surname: Chaudron
+    roles:
+    - support
+  - name: Anna
+    surname: Chepaikina
+    roles:
+    - support
+  - name: Floriane
+    surname: Chiffoleau
+    roles:
+    - support
+  - name: Kelly
+    surname: Christensen
+    roles:
+    - support
+  - name: Federico
+    surname: Cuartas Aristizabal
+    roles:
+    - support
+  - name: Maria Laura
+    surname: Cucciniello
+    roles:
+    - support
+  - name: Aurore
+    surname: Cuéllar
+    roles:
+    - support
+  - name: Baudoin
+    surname: Davoury
+    roles:
+    - support
+  - name: Eric
+    surname: de la Clergerie
+    roles:
+    - support
+  - name: Roch
+    surname: Delanney
+    roles:
+    - support
+  - name: Camille
+    surname: Delattre
+    roles:
+    - support
+  - name: Béatrice
+    surname: Denis
+    roles:
+    - support
+  - name: Philippe
+    surname: Deschamps
+    roles:
+    - support
+  - name: Valentine
+    surname: Desmorat
+    roles:
+    - support
+  - name: Cindy
+    surname: Dionisio
+    roles:
+    - support
+  - name: Amélie
+    surname: Disant
+    roles:
+    - support
+  - name: Elsa
+    surname: Dufourg
+    roles:
+    - support
+  - name: Jean-Luc
+    surname: Falcone
+    roles:
+    - support
+  - name: Margaux
+    surname: Faure
+    roles:
+    - support
+  - name: Glenda
+    surname: Ferbeyre Rodriguez
+    roles:
+    - support
+  - name: Giulia
+    surname: Ferretti
+    roles:
+    - support
+  - name: Fabien
+    surname: Fizaine
+    roles:
+    - support
+  - name: Jeanne
+    surname: Flamant
+    roles:
+    - support
+  - name: Clémence
+    surname: Foisy-Marquis
+    roles:
+    - support
+  - name: Anna
+    surname: Fröhlich
+    roles:
+    - support
+  - name: Anne
+    surname: Garcia Fernancez
+    roles:
+    - support
+  - name: Vincent
+    surname: Giovannangeli
+    roles:
+    - support
+  - name: Gabrielle
+    surname: Grondin
+    roles:
+    - support
+  - name: Morgane
+    surname: Guichard
+    roles:
+    - support
+  - name: Jessica
+    surname: Guiraud
+    roles:
+    - support
+  - name: Anahi
+    surname: Haedo
+    roles:
+    - support
+  - name: Pauline
+    surname: Hennequart
+    roles:
+    - support
+  - name: Yanet
+    surname: Hernandez Pedroza
+    roles:
+    - support
+  - name: Lucence
+    surname: Ing
+    roles:
+    - support
+  - name: Pauline
+    surname: Jacsont
+    roles:
+    - support
+  - name: Juliette
+    surname: Janes
+    roles:
+    - support
+  - name: Corinne
+    surname: Jeanne
+    roles:
+    - support
+  - name: Arilys
+    surname: Jia
+    roles:
+    - support
+  - name: Vincent
+    surname: Jolivet
+    roles:
+    - support
+  - name: Katrina
+    surname: Kaustina
+    roles:
+    - support
+  - name: Ben
+    surname: Kiessling
+    roles:
+    - support
+  - name: Ozcar
+    surname: Koc
+    roles:
+    - support
+  - name: Lena
+    surname: Krause
+    roles:
+    - support
+  - name: Gabriel
+    surname: Labrie
+    roles:
+    - support
+  - name: Amélie
+    surname: Lapointe
+    roles:
+    - support
+  - name: David
+    surname: Lassner
+    roles:
+    - support
+  - name: Emmanuelle
+    surname: Lescouet
+    roles:
+    - support
+  - name: Danny
+    surname: Létourneau
+    roles:
+    - support
+  - name: Marie-Françoise
+    surname: Limon-Bonnet
+    roles:
+    - support
+  - name: Gabrielle
+    surname: Lodi
+    roles:
+    - support
+  - name: Victoria
+    surname: Lupascu
+    roles:
+    - support
+  - name: Elsa
+    surname: Marguin-Hamon
+    roles:
+    - support
+  - name: Orestis
+    surname: Marinamis
+    roles:
+    - support
+  - name: Gina
+    surname: Mars
+    roles:
+    - support
+  - name: Eugénie
+    surname: Matthey-Jonais
+    roles:
+    - support
+  - name: Dilson
+    surname: Mayunga
+    roles:
+    - support
+  - name: Margot
+    surname: Mellet
+    roles:
+    - support
+  - name: Matt
+    surname: Moskal
+    roles:
+    - support
+  - name: Shannon
+    surname: Moskal
+    roles:
+    - support
+  - name: Zoé
+    surname: Mozin
+    roles:
+    - support
+  - name: Lydia
+    surname: Nishimwe
+    roles:
+    - support
+    orcid: 0009-0009-7082-4711
+  - name: Jade
+    surname: Norindr
+    roles:
+    - support
+  - name: Jules
+    surname: Nuguet
+    roles:
+    - support
+  - name: Sarah
+    surname: Orsini
+    roles:
+    - support
+  - name: Pedro
+    surname: Ortiz Suarez
+    roles:
+    - support
+  - name: Kenan
+    surname: Oudin
+    roles:
+    - support
+  - name: Gabrielle
+    surname: Pannetier-Leboeuf
+    roles:
+    - support
+  - name: Thierry
+    surname: Paquet
+    roles:
+    - support
+  - name: Thomas
+    surname: Parisot
+    roles:
+    - support
+  - name: Elodie
+    surname: Paupe
+    roles:
+    - support
+  - name: Gaël
+    surname: Poux
+    roles:
+    - support
+  - name: Montaine
+    surname: Prophête
+    roles:
+    - support
+  - name: Alix
+    surname: Raoux
+    roles:
+    - support
+  - name: Gaëtan
+    surname: Raoux
+    roles:
+    - support
+  - name: Elise
+    surname: Razafindrakoto
+    roles:
+    - support
+  - name: Camille
+    surname: Rey
+    roles:
+    - support
+  - name: Arij
+    surname: Riabi
+    roles:
+    - support
+  - name: Karen
+    surname: Ross
+    roles:
+    - support
+  - name: Manon
+    surname: Rouillé
+    roles:
+    - support
+  - name: Louise
+    surname: Ruby
+    roles:
+    - support
+  - name: Benoît
+    surname: Sagot
+    roles:
+    - support
+  - name: Hugo
+    surname: Scheithauer
+    roles:
+    - support
+  - name: Anne-Valérie
+    surname: Schweyer
+    roles:
+    - support
+  - name: Djamé
+    surname: Seddah
+    roles:
+    - support
+  - name: Paula
+    surname: Seidel
+    roles:
+    - support
+  - name: Peter
+    surname: Stokes
+    roles:
+    - support
+  - name: Yves
+    surname: Tadjo
+    roles:
+    - support
+  - name: Lionel
+    surname: Tadjou
+    roles:
+    - support
+  - name: Kristin
+    surname: Tanton
+    roles:
+    - support
+  - name: Marie
+    surname: Tariol
+    roles:
+    - support
+  - name: Rian
+    surname: Touchent
+    roles:
+    - support
+  - name: Anne-Kim
+    surname: Tremblay
+    roles:
+    - support
+  - name: Pierre
+    surname: Vauterin
+    roles:
+    - support
+  - name: Mathilde
+    surname: Verstraete
+    roles:
+    - support
+  - name: Magalie
+    surname: Vetter
+    roles:
+    - support
+  - name: Marcello
+    surname: Vitali Rosati
+    roles:
+    - support
+  - name: Malamatenia
+    surname: Vlachou-Estathiou
+    roles:
+    - support
+  - name: Rosanne
+    surname: Wingert
+    roles:
+    - support
+  - name: Débora
+    surname: Yi
+    roles:
+    - support
+  - name: Antoine"
+    surname: ''
+    roles:
+    - support
+  - name: Camille
+    surname: ''
+    roles:
+    - support
+  - name: Manon
+    surname: ''
+    roles:
+    - support
+  - name: Yohan
+    surname: ''
+    roles:
+    - support
+  institutions:
+  - name: 6e-1 du Collège Martin-Luther-King de Charvieu-Chavagneux
+    roles:
+    - support
+  description: "The CREMMA-WIKIPEDIA project aims at creating a collection of ground\
+    \ truth to train HTR models on contemporary French handwriting.\n\nEach image\
+    \ represents an exerpt from a randomly selected Wikipedia page, copied by hand\
+    \ by volunteers. We then took care of the alignment between the handwritten portion\
+    \ and the original text, also present on the image."
+  project-name: CREMMA
+  language:
+  - fra
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '2022'
+    notAfter: '2023'
+  hands:
+    count: 1-per-file
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  transcription-guidelines: "The transcription guidelines follow CREMMA's convention\
+    \ (https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4). In short:\
+    \ superscript is preceded by a ^. Strikethrough elements are transcribed with\
+    \ \"><\" when unreadable, \">word<\" when readeable.  The text to copy may have\
+    \ included phonetic transcription. Non-french letters and diacritics were rendered\
+    \ as well. "
+  volume:
+  - metric: characters
+    count: 84018
+  - metric: files
+    count: 304
+  - metric: lines
+    count: 1697
+  - metric: regions
+    count: 305
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - n
+    - i
+    - t
+    - s
+    - r
+    - l
+    - o
+    - u
+    - d
+    - c
+    - m
+    - p
+    - ́
+    - g
+    - ','
+    - h
+    - v
+    - f
+    - .
+    - b
+    - ̀
+    - "'"
+    - q
+    - '1'
+    - L
+    - y
+    - '0'
+    - C
+    - E
+    - '9'
+    - S
+    - A
+    - '2'
+    - '-'
+    - I
+    - (
+    - )
+    - k
+    - x
+    - R
+    - M
+    - P
+    - T
+    - B
+    - j
+    - '8'
+    - N
+    - O
+    - '6'
+    - ̂
+    - D
+    - '4'
+    - '5'
+    - '7'
+    - '3'
+    - G
+    - F
+    - '='
+    - H
+    - V
+    - w
+    - U
+    - z
+    - ̧
+    - J
+    - ':'
+    - ̈
+    - K
+    - W
+    - '>'
+    - <
+    - «
+    - »
+    - Y
+    - X
+    - ^
+    - '"'
+    - '['
+    - ']'
+    - ſ
+    - /
+    - ̄
+    - Q
+    - ;
+    - Z
+    - ̌
+    - ’
+    - œ
+    - ø
+    - ̃
+    - '%'
+    - '&'
+    - –
+    - '!'
+    - ɛ
+    - ̊
+    - ß
+    - ɹ
+    - —
+    - Æ
+    - ²
+    - ̆
+    - ᑕ
+    - '#'
+    - ə
+    - €
+    -  
+    - ɑ
+    - ɔ
+    - ʁ
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Clérice, Thibault\
+    \ and Van Kote, Elsa and Carrow, Jennifer and Antoum, Wissam and Audin, Yann and\
+    \ Baillot, Anne and Baron, Marlène and Bartz, Alexandre and Bawden, Rachel and\
+    \ Beaudry-Lagarde, Alice and Bhagwatkar, Rishika and Boschetti, Federico and Bourgeois,\
+    \ Camille and Brenon, Alice and Brubacher, William and Brunot, Donovan and Brusseau,\
+    \ Roxanne and Bueno Mottes, Talitha and Cappe, Zoé and Castagné, Roman and Castillo,\
+    \ Galo and Chagué, Brigitte and Chagué, Denis and Chagué, Emeric and Charette,\
+    \ Léa and Chateau, Emmanuel and Chaudron, Jean-Baptiste and Chepaikina, Anna and\
+    \ Chiffoleau, Floriane and Christensen, Kelly and Cuartas Aristizabal, Federico\
+    \ and Cucciniello, Maria Laura and Cuéllar, Aurore and Davoury, Baudoin and de\
+    \ la Clergerie, Eric and Delanney, Roch and Delattre, Camille and Denis, Béatrice\
+    \ and Deschamps, Philippe and Desmorat, Valentine and Dionisio, Cindy and Disant,\
+    \ Amélie and Dufourg, Elsa and Falcone, Jean-Luc and Faure, Margaux and Ferbeyre\
+    \ Rodriguez, Glenda and Ferretti, Giulia and Fizaine, Fabien and Flamant, Jeanne\
+    \ and Foisy-Marquis, Clémence and Fröhlich, Anna and Garcia Fernancez, Anne and\
+    \ Giovannangeli, Vincent and Grondin, Gabrielle and Guichard, Morgane and Guiraud,\
+    \ Jessica and Haedo, Anahi and Hennequart, Pauline and Hernandez Pedroza, Yanet\
+    \ and Ing, Lucence and Jacsont, Pauline and Janes, Juliette and Jeanne, Corinne\
+    \ and Jia, Arilys and Jolivet, Vincent and Kaustina, Katrina and Kiessling, Ben\
+    \ and Koc, Ozcar and Krause, Lena and Labrie, Gabriel and Lapointe, Amélie and\
+    \ Lassner, David and Lescouet, Emmanuelle and Létourneau, Danny and Limon-Bonnet,\
+    \ Marie-Françoise and Lodi, Gabrielle and Lupascu, Victoria and Marguin-Hamon,\
+    \ Elsa and Marinamis, Orestis and Mars, Gina and Matthey-Jonais, Eugénie and Mayunga,\
+    \ Dilson and Mellet, Margot and Moskal, Matt and Moskal, Shannon and Mozin, Zoé\
+    \ and Nishimwe, Lydia and Norindr, Jade and Nuguet, Jules and Orsini, Sarah and\
+    \ Ortiz Suarez, Pedro and Oudin, Kenan and Pannetier-Leboeuf, Gabrielle and Paquet,\
+    \ Thierry and Parisot, Thomas and Paupe, Elodie and Poux, Gaël and Prophête, Montaine\
+    \ and Raoux, Alix and Raoux, Gaëtan and Razafindrakoto, Elise and Rey, Camille\
+    \ and Riabi, Arij and Ross, Karen and Rouillé, Manon and Ruby, Louise and Sagot,\
+    \ Benoît and Scheithauer, Hugo and Schweyer, Anne-Valérie and Seddah, Djamé and\
+    \ Seidel, Paula and Stokes, Peter and Tadjo, Yves and Tadjou, Lionel and Tanton,\
+    \ Kristin and Tariol, Marie and Touchent, Rian and Tremblay, Anne-Kim and Vauterin,\
+    \ Pierre and Verstraete, Mathilde and Vetter, Magalie and Vitali Rosati, Marcello\
+    \ and Vlachou-Estathiou, Malamatenia and Wingert, Rosanne and Yi, Débora and other\
+    \ anonymous contributers},\ndoi = {10.5281/zenodo.7782065},\nmonth = {3},\ntitle\
+    \ = {CREMMA WIKIPEDIA},\nurl = {https://github.com/HTR-United/cremma-wikipedia},\n\
+    year = {2023}\n}\n"
+  _apa: "Chagué A., Clérice T., Van Kote E., Carrow J., Antoum W., Audin Y., Baillot\
+    \ A., Baron M., Bartz A., Bawden R., Beaudry-Lagarde A., Bhagwatkar R., Boschetti\
+    \ F., Bourgeois C., Brenon A., Brubacher W., Brunot D., Brusseau R., Bueno Mottes\
+    \ T., Cappe Z., Castagné R., Castillo G., Chagué B., Chagué D., Chagué E., Charette\
+    \ L., Chateau E., Chaudron J., Chepaikina A., Chiffoleau F., Christensen K., Cuartas\
+    \ Aristizabal F., Cucciniello M.L., Cuéllar A., Davoury B., de la Clergerie E.,\
+    \ Delanney R., Delattre C., Denis B., Deschamps P., Desmorat V., Dionisio C.,\
+    \ Disant A., Dufourg E., Falcone J., Faure M., Ferbeyre Rodriguez G., Ferretti\
+    \ G., Fizaine F., Flamant J., Foisy-Marquis C., Fröhlich A., Garcia Fernancez\
+    \ A., Giovannangeli V., Grondin G., Guichard M., Guiraud J., Haedo A., Hennequart\
+    \ P., Hernandez Pedroza Y., Ing L., Jacsont P., Janes J., Jeanne C., Jia A., Jolivet\
+    \ V., Kaustina K., Kiessling B., Koc O., Krause L., Labrie G., Lapointe A., Lassner\
+    \ D., Lescouet E., Létourneau D., Limon-Bonnet M., Lodi G., Lupascu V., Marguin-Hamon\
+    \ E., Marinamis O., Mars G., Matthey-Jonais E., Mayunga D., Mellet M., Moskal\
+    \ M., Moskal S., Mozin Z., Nishimwe L., Norindr J., Nuguet J., Orsini S., Ortiz\
+    \ Suarez P., Oudin K., Pannetier-Leboeuf G., Paquet T., Parisot T., Paupe E.,\
+    \ Poux G., Prophête M., Raoux A., Raoux G., Razafindrakoto E., Rey C., Riabi A.,\
+    \ Ross K., Rouillé M., Ruby L., Sagot B., Scheithauer H., Schweyer A., Seddah\
+    \ D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton K., Tariol M., Touchent\
+    \ R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou\
+    \ M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA\
+    \ (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n"
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Données HTR manuscrits du 15e siècle
+  description: Corpus d'entrainement pour l'HTR composé de manuscrits français du
+    15e s.
+  url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Leroy
+    surname: Noé
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - frm
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1400'
+    notAfter: '1500'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 169221
+  - metric: files
+    count: 85
+  - metric: lines
+    count: 5937
+  - metric: regions
+    count: 458
+  transcription-guidelines: 'Les normes de transcription suivent les préconisations
+    du projet CREMMALAB : https://cremmalab.hypotheses.org'
+  citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - i
+    - s
+    - t
+    - u
+    - n
+    - a
+    - r
+    - o
+    - l
+    - d
+    - c
+    - m
+    - p
+    - q
+    - f
+    - g
+    - .
+    - ̃
+    - h
+    - b
+    - z
+    - y
+    - I
+    - x
+    - ⁊
+    - ','
+    - R
+    - E
+    - C
+    - ̾
+    - Q
+    - L
+    - S
+    - A
+    - D
+    - M
+    - ͣ
+    - v
+    - ꝑ
+    - ͥ
+    - P
+    - ꝯ
+    - T
+    - N
+    - O
+    - ⁋
+    - B
+    - ͤ
+    - U
+    - '1'
+    - ꝰ
+    - ᷑
+    - ̶
+    - ˣ
+    - '2'
+    - '3'
+    - ẜ
+    - F
+    - ⟦
+    - ⟧
+    - '6'
+    - ħ
+    - ꝓ
+    - '7'
+    - '4'
+    - ͨ
+    - '9'
+    - '8'
+    - ;
+    - G
+    - '0'
+    - ͦ
+    - ̌
+    - '5'
+    - '-'
+    - H
+    - "'"
+    - j
+    - ̀
+    - ł
+    - đ
+    - ́
+    - ͫ
+    - ^
+    - ‸
+    - '&'
+    - k
+    - °
+    - ẞ
+    - ¶
+    - J
+    - ͬ
+    - K
+    - '['
+    - ']'
+    - ͯ
+    - V
+    - ̧
+    - (
+    - )
+    - Y
+    - Z
+    - ᷤ
+    - ':'
+    - ͧ
+    - ᷠ
+    - /
+    - X
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Données HTR incunables du 15e siècle
+  description: Corpus d'entrainement pour l'HTR composé d'incunable français du 15e
+    s.
+  url: https://github.com/Gallicorpora/HTR-incunable-15e-siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Leroy
+    surname: Noé
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - frm
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1400'
+    notAfter: '1500'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 244958
+  - metric: files
+    count: 149
+  - metric: lines
+    count: 7608
+  - metric: regions
+    count: 535
+  transcription-guidelines: 'Les normes de transcription suivent les préconisations
+    du projet CREMMALAB : https://cremmalab.hypotheses.org'
+  citation-file-link: https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - u
+    - s
+    - t
+    - a
+    - i
+    - r
+    - o
+    - n
+    - l
+    - d
+    - c
+    - m
+    - p
+    - ̃
+    - f
+    - q
+    - g
+    - y
+    - h
+    - b
+    - .
+    - z
+    - ⁊
+    - x
+    - E
+    - '-'
+    - ','
+    - ſ
+    - L
+    - ͥ
+    - D
+    - ⁋
+    - C
+    - ;
+    - I
+    - ꝰ
+    - Q
+    - A
+    - S
+    - ꝑ
+    - P
+    - M
+    - ᷤ
+    - O
+    - T
+    - ¶
+    - U
+    - N
+    - F
+    - R
+    - ꝓ
+    - B
+    - G
+    - ꝯ
+    - ̾
+    - H
+    - ᷑
+    - ͬ
+    - ̌
+    - ':'
+    - (
+    - '['
+    - ']'
+    - v
+    - J
+    - Ꝙ
+    - )
+    - ◌
+    - k
+    - ꝙ
+    - ͣ
+    - V
+    - '4'
+    - ͦ
+    - w
+    - ͨ
+    - ͤ
+    - Ι
+    - ̧
+    - '1'
+    - '9'
+    - '7'
+    - ̶
+    - "'"
+    - ́
+    - '|'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Données imprimés du 16e siècle
+  description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 16e siècle
+  url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    roles:
+    - project-manager
+    surname: Ariane
+  - name: Vlachou-Efstathiou
+    surname: malamatenia
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  language:
+  - frm
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1599'
+    notBefore: '1500'
+  transcription-guidelines: Les normes de transcription suivent les préconisations
+    du projet Gallicorpora
+  volume:
+  - metric: characters
+    count: 186202
+  - metric: files
+    count: 180
+  - metric: lines
+    count: 4918
+  - metric: regions
+    count: 591
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - u
+    - r
+    - a
+    - n
+    - i
+    - t
+    - o
+    - l
+    - s
+    - ſ
+    - d
+    - c
+    - m
+    - p
+    - ','
+    - q
+    - y
+    - v
+    - f
+    - g
+    - b
+    - h
+    - .
+    - ’
+    - '&'
+    - E
+    - x
+    - "'"
+    - z
+    - ́
+    - ̀
+    - A
+    - ¬
+    - ̃
+    - D
+    - C
+    - R
+    - ':'
+    - L
+    - I
+    - S
+    - P
+    - N
+    - M
+    - O
+    - Q
+    - T
+    - V
+    - G
+    - H
+    - B
+    - F
+    - '-'
+    - ̧
+    - j
+    - '?'
+    - (
+    - ̈
+    - )
+    - »
+    - '1'
+    - œ
+    - ¶
+    - '!'
+    - U
+    - '2'
+    - X
+    - ;
+    - '9'
+    - Y
+    - '4'
+    - '3'
+    - ß
+    - '5'
+    - '"'
+    - '7'
+    - J
+    - '8'
+    - æ
+    - ꝰ
+    - '6'
+    - '0'
+    - ̂
+    - ʳ
+    - ⁊
+    - Z
+    - «
+    - '*'
+    - ꝗ
+    - ꝓ
+    -  
+    - ⁋
+    - Ι
+    - ꝑ
+    - ']'
+    - ͥ
+    - ᵉ
+    - Ε
+    - '['
+    - Τ
+    - /
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Imprimés 17e siècle
+  description: Corpus d'entrainement pour l'HTR composé d'imprimés français du 17e
+    s.
+  url: https://github.com/Gallicorpora/HTR-imprime-17e-siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Fabert
+    surname: Eliott
+    roles:
+    - transcriber
+  - name: Vlachou-Efstathiou
+    surname: malamatenia
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - frm
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1600'
+    notAfter: '1699'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 255981
+  - metric: files
+    count: 327
+  - metric: lines
+    count: 8950
+  - metric: regions
+    count: 1185
+  transcription-guidelines: Les normes de transcription suivent les préconisations
+    du projet gallicorpora
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - u
+    - r
+    - a
+    - n
+    - i
+    - t
+    - o
+    - l
+    - s
+    - ſ
+    - d
+    - c
+    - m
+    - p
+    - ','
+    - v
+    - q
+    - .
+    - f
+    - g
+    - b
+    - E
+    - ’
+    - h
+    - y
+    - ́
+    - A
+    - '&'
+    - "'"
+    - S
+    - I
+    - x
+    - ¬
+    - L
+    - C
+    - R
+    - P
+    - D
+    - ̀
+    - M
+    - V
+    - T
+    - O
+    - N
+    - z
+    - ':'
+    - Q
+    - j
+    - '-'
+    - F
+    - G
+    - ̃
+    - B
+    - ;
+    - H
+    - ̈
+    - '1'
+    - ̂
+    - ̧
+    - '2'
+    - '?'
+    - '3'
+    - œ
+    - '4'
+    - '5'
+    - Y
+    - U
+    - Z
+    - '6'
+    - '7'
+    - '8'
+    - '0'
+    - X
+    - J
+    - '9'
+    - (
+    - æ
+    - )
+    - Æ
+    - ι
+    - α
+    - '!'
+    - ß
+    - ο
+    - ν
+    - ε
+    - ρ
+    - ̓
+    - υ
+    - κ
+    - '*'
+    - σ
+    - τ
+    - ω
+    - '['
+    - ']'
+    - ꝰ
+    - K
+    - Α
+    - χ
+    - ς
+    - π
+    - γ
+    - ̨
+    - μ
+    - k
+    - ͂
+    - Ν
+    - Β
+    - λ
+    - Σ
+    - Κ
+    - η
+    - θ
+    - W
+    - Œ
+    - δ
+    - Τ
+    - ͅ
+    - »
+    - ᵉ
+    - ˡ
+    - ͧ
+    - Ζ
+    - β
+    - ̔
+    - ̇
+    - °
+    - w
+    - ẞ
+    - Φ
+    - Λ
+    - Χ
+    - φ
+    - Ι
+    - ʳ
+    - ᵐ
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Données imprimés gothiques du 16e siècle
+  description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 16e siècle
+  url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
+  authors:
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Vlachou-Efstathiou
+    surname: malamatenia
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1500'
+    notAfter: '1599'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 90746
+  - metric: files
+    count: 80
+  - metric: lines
+    count: 2971
+  - metric: regions
+    count: 233
+  transcription-guidelines: Les transcriptions suivent les normes de transcription
+    du projet Gallicorpora
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - u
+    - a
+    - i
+    - t
+    - r
+    - n
+    - o
+    - s
+    - l
+    - d
+    - c
+    - m
+    - p
+    - ſ
+    - q
+    - y
+    - ̃
+    - f
+    - g
+    - b
+    - .
+    - h
+    - ','
+    - z
+    - ⁊
+    - x
+    - E
+    - ¬
+    - ¶
+    - C
+    - S
+    - L
+    - D
+    - P
+    - A
+    - I
+    - ͥ
+    - M
+    - v
+    - Q
+    - ꝰ
+    - O
+    - T
+    - ':'
+    - V
+    - B
+    - '?'
+    - ꝑ
+    - H
+    - N
+    - ͬ
+    - R
+    - ;
+    - G
+    - F
+    - ̌
+    - ̶
+    - ꝓ
+    - J
+    - ⁋
+    - '-'
+    - ꝯ
+    - (
+    - )
+    - '1'
+    - /
+    - U
+    - '9'
+    - ̾
+    - æ
+    - X
+    - '4'
+    - ̄
+    - ꝙ
+    - ̧
+    - ᵉ
+    - '2'
+    - '*'
+    - '6'
+    - "'"
+    - Ι
+    - '7'
+    - '8'
+    - Y
+    - '5'
+    - '0'
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: Données imprimés du 18e siècle
+  description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 18e siècle
+  url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - project-manager
+  - name: Pinche
+    surname: Ariane
+    roles:
+    - project-manager
+  - name: Fabert
+    surname: Eliott
+    roles:
+    - transcriber
+  - name: Christensen
+    surname: Kelly
+    roles:
+    - support
+  project-name: Gallicorpora
+  project-website: https://github.com/Gallicorpora
+  language:
+  - frm
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1699'
+    notAfter: '1700'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 151402
+  - metric: files
+    count: 160
+  - metric: lines
+    count: 4500
+  - metric: regions
+    count: 624
+  transcription-guidelines: Les normes de transcription suivent les préconisations
+    du projet Gallicorpora
+  citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
+  production-software: eScriptorium + Kraken
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - i
+    - r
+    - u
+    - n
+    - t
+    - s
+    - o
+    - l
+    - d
+    - ſ
+    - c
+    - p
+    - m
+    - ','
+    - v
+    - q
+    - ́
+    - .
+    - ’
+    - f
+    - g
+    - E
+    - h
+    - b
+    - ̀
+    - ¬
+    - A
+    - j
+    - '&'
+    - x
+    - I
+    - y
+    - L
+    - C
+    - S
+    - M
+    - R
+    - N
+    - P
+    - "'"
+    - D
+    - O
+    - ̂
+    - '-'
+    - T
+    - ;
+    - U
+    - V
+    - F
+    - z
+    - H
+    - J
+    - G
+    - B
+    - Q
+    - '1'
+    - ̈
+    - ':'
+    - ̧
+    - '0'
+    - (
+    - )
+    - '?'
+    - '2'
+    - œ
+    - '5'
+    - '3'
+    - '6'
+    - '*'
+    - '4'
+    - '!'
+    - Y
+    - '7'
+    - '8'
+    - w
+    - '9'
+    - Z
+    - K
+    - X
+    - «
+    - k
+    - ʳ
+    - æ
+    - ß
+    - ᵉ
+    - ˢ
+    - Æ
+    - †
+    - W
+    - ᗅ
+    - ᵍ
+    - ⁿ
+    - ᵘ
+    - Œ
+    - »
+    - °
+    - ᗞ
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FONDUE-FR-PRINT-17
+  url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+  description: ' Transcriptions of French 17th c. prints '
+  project-name: FoNDUE
+  project-website: https://github.com/FoNDUE-HTR/
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1600'
+    notAfter: '1700'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 54549
+  - metric: files
+    count: 69
+  - metric: lines
+    count: 1899
+  - metric: regions
+    count: 244
+  citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17/blob/master/CITATION.cff
+  transcription-guidelines: SegmOnto
+  production-software: Unknown [Automatically filled]
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FONDUE-FR-PRINT-16
+  url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16
+  authors:
+  - name: Gabay
+    surname: Simon
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+  description: ' Transcriptions of French 16th c. prints '
+  project-name: FoNDUE
+  project-website: https://github.com/FoNDUE-HTR/
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1500'
+    notAfter: '1600'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 504656
+  - metric: files
+    count: 931
+  - metric: lines
+    count: 17817
+  - metric: regions
+    count: 2830
+  citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
+  transcription-guidelines: SegmOnto
+  production-software: Unknown [Automatically filled]
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FoNDUE - Datasets for historical catalogues
+  url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
+  authors:
+  - name: Pradier
+    surname: Frédérine
+    orcid: 0000-0002-3476-7248
+    roles:
+    - transcriber
+    - project-manager
+  - name: Gabay
+    surname: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+  - name: Kervegan
+    surname: Paul
+    orcid: 0000-0003-2821-8821
+    roles:
+    - transcriber
+  - name: Janès
+    surname: Juliette
+    orcid: 0000-0002-8971-6173
+    roles:
+    - transcriber
+  - name: Sánchez Oeconomo
+    surname: Esteban
+    orcid: 0000-0002-8591-5394
+    roles:
+    - transcriber
+  institutions: []
+  description: 'Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed
+    in France but not only. Segmentation include an extra zone `CustomeZone: entry`'
+  project-name: FoNDUE
+  language:
+  - por
+  - fra
+  - ita
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1818'
+    notAfter: '1972'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff
+  volume:
+  - metric: characters
+    count: 1285120
+  - metric: files
+    count: 1381
+  - metric: lines
+    count: 43114
+  - metric: regions
+    count: 10713
+- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  title: FONDUE-MLT-ART
+  url: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART
+  authors:
+  - name: Joyeux-Prunel
+    surname: Béatrice
+    orcid: 0000-0003-1046-7002
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+  - name: Gabay
+    surname: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - quality-control
+    - support
+  institutions: []
+  description: Swiss art exhibitions catalogues
+  project-name: FoNDUE
+  language:
+  - deu
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1842'
+    notAfter: '1961'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 101227
+  - metric: files
+    count: 158
+  - metric: lines
+    count: 4192
+  - metric: pages
+    count: 60
+  - metric: regions
+    count: 158
+  citation-file-link: https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff
+  characters:
+    mode: NFD
+    members:
+    - e
+    - n
+    - .
+    - r
+    - a
+    - i
+    - '0'
+    - l
+    - u
+    - t
+    - s
+    - o
+    - h
+    - d
+    - '1'
+    - c
+    - m
+    - '2'
+    - g
+    - '5'
+    - '3'
+    - b
+    - ̈
+    - f
+    - M
+    - B
+    - '4'
+    - A
+    - S
+    - G
+    - ','
+    - '6'
+    - '7'
+    - v
+    - '8'
+    - p
+    - L
+    - F
+    - P
+    - '9'
+    - z
+    - y
+    - D
+    - W
+    - C
+    - R
+    - k
+    - K
+    - V
+    - E
+    - H
+    - ̀
+    - '-'
+    - )
+    - (
+    - w
+    - T
+    - J
+    - ́
+    - —
+    - N
+    - Z
+    - O
+    - I
+    - q
+    - ̂
+    - U
+    - ’
+    - x
+    - j
+    - '*'
+    - ;
+    - X
+    - œ
+    - Q
+    - ¬
+    - »
+    - ':'
+    - '"'
+    - ̧
+    - "'"
+    - §
+    - Y
+    - '['
+    - ']'
+    - æ
+    - '?'
+    -  
+    - /
+    - «
+    - '&'
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, Béatrice},\nmonth =\
+    \ {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\n\
+    year = {2022}\n}\n"
+  _apa: "Joyeux-Prunel B. (2022). FONDUE-MLT-ART (version Artlas 0.8.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n"

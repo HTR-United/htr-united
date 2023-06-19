@@ -1403,6 +1403,413 @@
     "production-software": "eScriptorium + Kraken",
     "_pid": "c6e6eefe0"
   },
+  "e7af0e31e": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "FONDUE-FR-PRINT-16",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": " Transcriptions of French 16th c. prints ",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR/",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1600"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 504656
+      },
+      {
+        "metric": "files",
+        "count": 931
+      },
+      {
+        "metric": "lines",
+        "count": 17817
+      },
+      {
+        "metric": "regions",
+        "count": 2830
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff",
+    "transcription-guidelines": "SegmOnto",
+    "production-software": "Unknown [Automatically filled]",
+    "_pid": "e7af0e31e"
+  },
+  "3ec7b6367": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "FONDUE-FR-PRINT-17",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": " Transcriptions of French 17th c. prints ",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR/",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1700"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 54549
+      },
+      {
+        "metric": "files",
+        "count": 69
+      },
+      {
+        "metric": "lines",
+        "count": 1899
+      },
+      {
+        "metric": "regions",
+        "count": 244
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17/blob/master/CITATION.cff",
+    "transcription-guidelines": "SegmOnto",
+    "production-software": "Unknown [Automatically filled]",
+    "_pid": "3ec7b6367"
+  },
+  "dd2357d22": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "FONDUE-MLT-ART",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-ART",
+    "authors": [
+      {
+        "name": "Joyeux-Prunel",
+        "surname": "B\u00e9atrice",
+        "orcid": "0000-0003-1046-7002",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "quality-control",
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Swiss art exhibitions catalogues",
+    "project-name": "FoNDUE",
+    "language": [
+      "deu"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1842",
+      "notAfter": "1961"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 101227
+      },
+      {
+        "metric": "files",
+        "count": 158
+      },
+      {
+        "metric": "lines",
+        "count": 4192
+      },
+      {
+        "metric": "pages",
+        "count": 60
+      },
+      {
+        "metric": "regions",
+        "count": 158
+      }
+    ],
+    "citation-file-link": "https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "n",
+        ".",
+        "r",
+        "a",
+        "i",
+        "0",
+        "l",
+        "u",
+        "t",
+        "s",
+        "o",
+        "h",
+        "d",
+        "1",
+        "c",
+        "m",
+        "2",
+        "g",
+        "5",
+        "3",
+        "b",
+        "\u0308",
+        "f",
+        "M",
+        "B",
+        "4",
+        "A",
+        "S",
+        "G",
+        ",",
+        "6",
+        "7",
+        "v",
+        "8",
+        "p",
+        "L",
+        "F",
+        "P",
+        "9",
+        "z",
+        "y",
+        "D",
+        "W",
+        "C",
+        "R",
+        "k",
+        "K",
+        "V",
+        "E",
+        "H",
+        "\u0300",
+        "-",
+        ")",
+        "(",
+        "w",
+        "T",
+        "J",
+        "\u0301",
+        "\u2014",
+        "N",
+        "Z",
+        "O",
+        "I",
+        "q",
+        "\u0302",
+        "U",
+        "\u2019",
+        "x",
+        "j",
+        "*",
+        ";",
+        "X",
+        "\u0153",
+        "Q",
+        "\u00ac",
+        "\u00bb",
+        ":",
+        "\"",
+        "\u0327",
+        "'",
+        "\u00a7",
+        "Y",
+        "[",
+        "]",
+        "\u00e6",
+        "?",
+        "\u00a0",
+        "/",
+        "\u00ab",
+        "&"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, B\u00e9atrice},\nmonth = {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\nyear = {2022}\n}\n",
+    "_apa": "Joyeux-Prunel B. (2022). FONDUE-MLT-ART (version Artlas 0.8.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n",
+    "_pid": "dd2357d22"
+  },
+  "74eadcb57": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "FoNDUE - Datasets for historical catalogues",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT",
+    "authors": [
+      {
+        "name": "Pradier",
+        "surname": "Fr\u00e9d\u00e9rine",
+        "orcid": "0000-0002-3476-7248",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Kervegan",
+        "surname": "Paul",
+        "orcid": "0000-0003-2821-8821",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Jan\u00e8s",
+        "surname": "Juliette",
+        "orcid": "0000-0002-8971-6173",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "S\u00e1nchez Oeconomo",
+        "surname": "Esteban",
+        "orcid": "0000-0002-8591-5394",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed in France but not only. Segmentation include an extra zone `CustomeZone: entry`",
+    "project-name": "FoNDUE",
+    "language": [
+      "por",
+      "fra",
+      "ita"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1818",
+      "notAfter": "1972"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 1285120
+      },
+      {
+        "metric": "files",
+        "count": 1381
+      },
+      {
+        "metric": "lines",
+        "count": 43114
+      },
+      {
+        "metric": "regions",
+        "count": 10713
+      }
+    ],
+    "_pid": "74eadcb57"
+  },
   "dcb8b4eaf": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "title": "FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
@@ -1478,6 +1885,5181 @@
     "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff",
     "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
     "_pid": "dcb8b4eaf"
+  },
+  "70e2b99f0": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Donn\u00e9es HTR manuscrits du 15e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 de manuscrits fran\u00e7ais du 15e s.",
+    "url": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Leroy",
+        "surname": "No\u00e9",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christensen",
+        "surname": "Kelly",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "language": [
+      "frm",
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1400",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 169221
+      },
+      {
+        "metric": "files",
+        "count": 85
+      },
+      {
+        "metric": "lines",
+        "count": 5937
+      },
+      {
+        "metric": "regions",
+        "count": 458
+      }
+    ],
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "i",
+        "s",
+        "t",
+        "u",
+        "n",
+        "a",
+        "r",
+        "o",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "q",
+        "f",
+        "g",
+        ".",
+        "\u0303",
+        "h",
+        "b",
+        "z",
+        "y",
+        "I",
+        "x",
+        "\u204a",
+        ",",
+        "R",
+        "E",
+        "C",
+        "\u033e",
+        "Q",
+        "L",
+        "S",
+        "A",
+        "D",
+        "M",
+        "\u0363",
+        "v",
+        "\ua751",
+        "\u0365",
+        "P",
+        "\ua76f",
+        "T",
+        "N",
+        "O",
+        "\u204b",
+        "B",
+        "\u0364",
+        "U",
+        "1",
+        "\ua770",
+        "\u1dd1",
+        "\u0336",
+        "\u02e3",
+        "2",
+        "3",
+        "\u1e9c",
+        "F",
+        "\u27e6",
+        "\u27e7",
+        "6",
+        "\u0127",
+        "\ua753",
+        "7",
+        "4",
+        "\u0368",
+        "9",
+        "8",
+        ";",
+        "G",
+        "0",
+        "\u0366",
+        "\u030c",
+        "5",
+        "-",
+        "H",
+        "'",
+        "j",
+        "\u0300",
+        "\u0142",
+        "\u0111",
+        "\u0301",
+        "\u036b",
+        "^",
+        "\u2038",
+        "&",
+        "k",
+        "\u00b0",
+        "\u1e9e",
+        "\u00b6",
+        "J",
+        "\u036c",
+        "K",
+        "[",
+        "]",
+        "\u036f",
+        "V",
+        "\u0327",
+        "(",
+        ")",
+        "Y",
+        "Z",
+        "\u1de4",
+        ":",
+        "\u0367",
+        "\u1de0",
+        "/",
+        "X"
+      ]
+    },
+    "_pid": "70e2b99f0"
+  },
+  "4b2e8b703": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Donn\u00e9es imprim\u00e9s gothiques du 16e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 16e si\u00e8cle",
+    "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
+    "authors": [
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Vlachou-Efstathiou",
+        "surname": "malamatenia",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christensen",
+        "surname": "Kelly",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "evenly-mixed",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1599"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 90746
+      },
+      {
+        "metric": "files",
+        "count": 80
+      },
+      {
+        "metric": "lines",
+        "count": 2971
+      },
+      {
+        "metric": "regions",
+        "count": 233
+      }
+    ],
+    "transcription-guidelines": "Les transcriptions suivent les normes de transcription du projet Gallicorpora",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "u",
+        "a",
+        "i",
+        "t",
+        "r",
+        "n",
+        "o",
+        "s",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "\u017f",
+        "q",
+        "y",
+        "\u0303",
+        "f",
+        "g",
+        "b",
+        ".",
+        "h",
+        ",",
+        "z",
+        "\u204a",
+        "x",
+        "E",
+        "\u00ac",
+        "\u00b6",
+        "C",
+        "S",
+        "L",
+        "D",
+        "P",
+        "A",
+        "I",
+        "\u0365",
+        "M",
+        "v",
+        "Q",
+        "\ua770",
+        "O",
+        "T",
+        ":",
+        "V",
+        "B",
+        "?",
+        "\ua751",
+        "H",
+        "N",
+        "\u036c",
+        "R",
+        ";",
+        "G",
+        "F",
+        "\u030c",
+        "\u0336",
+        "\ua753",
+        "J",
+        "\u204b",
+        "-",
+        "\ua76f",
+        "(",
+        ")",
+        "1",
+        "/",
+        "U",
+        "9",
+        "\u033e",
+        "\u00e6",
+        "X",
+        "4",
+        "\u0304",
+        "\ua759",
+        "\u0327",
+        "\u1d49",
+        "2",
+        "*",
+        "6",
+        "'",
+        "\u0399",
+        "7",
+        "8",
+        "Y",
+        "5",
+        "0"
+      ]
+    },
+    "_pid": "4b2e8b703"
+  },
+  "3b032d4e1": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Imprim\u00e9s 17e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 d'imprim\u00e9s fran\u00e7ais du 17e s.",
+    "url": "https://github.com/Gallicorpora/HTR-imprime-17e-siecle",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Fabert",
+        "surname": "Eliott",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Vlachou-Efstathiou",
+        "surname": "malamatenia",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christensen",
+        "surname": "Kelly",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "language": [
+      "frm",
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1699"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 255981
+      },
+      {
+        "metric": "files",
+        "count": 327
+      },
+      {
+        "metric": "lines",
+        "count": 8950
+      },
+      {
+        "metric": "regions",
+        "count": 1185
+      }
+    ],
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet gallicorpora",
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "u",
+        "r",
+        "a",
+        "n",
+        "i",
+        "t",
+        "o",
+        "l",
+        "s",
+        "\u017f",
+        "d",
+        "c",
+        "m",
+        "p",
+        ",",
+        "v",
+        "q",
+        ".",
+        "f",
+        "g",
+        "b",
+        "E",
+        "\u2019",
+        "h",
+        "y",
+        "\u0301",
+        "A",
+        "&",
+        "'",
+        "S",
+        "I",
+        "x",
+        "\u00ac",
+        "L",
+        "C",
+        "R",
+        "P",
+        "D",
+        "\u0300",
+        "M",
+        "V",
+        "T",
+        "O",
+        "N",
+        "z",
+        ":",
+        "Q",
+        "j",
+        "-",
+        "F",
+        "G",
+        "\u0303",
+        "B",
+        ";",
+        "H",
+        "\u0308",
+        "1",
+        "\u0302",
+        "\u0327",
+        "2",
+        "?",
+        "3",
+        "\u0153",
+        "4",
+        "5",
+        "Y",
+        "U",
+        "Z",
+        "6",
+        "7",
+        "8",
+        "0",
+        "X",
+        "J",
+        "9",
+        "(",
+        "\u00e6",
+        ")",
+        "\u00c6",
+        "\u03b9",
+        "\u03b1",
+        "!",
+        "\u00df",
+        "\u03bf",
+        "\u03bd",
+        "\u03b5",
+        "\u03c1",
+        "\u0313",
+        "\u03c5",
+        "\u03ba",
+        "*",
+        "\u03c3",
+        "\u03c4",
+        "\u03c9",
+        "[",
+        "]",
+        "\ua770",
+        "K",
+        "\u0391",
+        "\u03c7",
+        "\u03c2",
+        "\u03c0",
+        "\u03b3",
+        "\u0328",
+        "\u03bc",
+        "k",
+        "\u0342",
+        "\u039d",
+        "\u0392",
+        "\u03bb",
+        "\u03a3",
+        "\u039a",
+        "\u03b7",
+        "\u03b8",
+        "W",
+        "\u0152",
+        "\u03b4",
+        "\u03a4",
+        "\u0345",
+        "\u00bb",
+        "\u1d49",
+        "\u02e1",
+        "\u0367",
+        "\u0396",
+        "\u03b2",
+        "\u0314",
+        "\u0307",
+        "\u00b0",
+        "w",
+        "\u1e9e",
+        "\u03a6",
+        "\u039b",
+        "\u03a7",
+        "\u03c6",
+        "\u0399",
+        "\u02b3",
+        "\u1d50"
+      ]
+    },
+    "_pid": "3b032d4e1"
+  },
+  "5d92a9eb8": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Donn\u00e9es imprim\u00e9s du 18e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 18e si\u00e8cle",
+    "url": "https://github.com/Gallicorpora/HTR-imprime-18e-siecle",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Fabert",
+        "surname": "Eliott",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christensen",
+        "surname": "Kelly",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "language": [
+      "frm",
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1699",
+      "notAfter": "1700"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 151402
+      },
+      {
+        "metric": "files",
+        "count": 160
+      },
+      {
+        "metric": "lines",
+        "count": 4500
+      },
+      {
+        "metric": "regions",
+        "count": 624
+      }
+    ],
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet Gallicorpora",
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "a",
+        "i",
+        "r",
+        "u",
+        "n",
+        "t",
+        "s",
+        "o",
+        "l",
+        "d",
+        "\u017f",
+        "c",
+        "p",
+        "m",
+        ",",
+        "v",
+        "q",
+        "\u0301",
+        ".",
+        "\u2019",
+        "f",
+        "g",
+        "E",
+        "h",
+        "b",
+        "\u0300",
+        "\u00ac",
+        "A",
+        "j",
+        "&",
+        "x",
+        "I",
+        "y",
+        "L",
+        "C",
+        "S",
+        "M",
+        "R",
+        "N",
+        "P",
+        "'",
+        "D",
+        "O",
+        "\u0302",
+        "-",
+        "T",
+        ";",
+        "U",
+        "V",
+        "F",
+        "z",
+        "H",
+        "J",
+        "G",
+        "B",
+        "Q",
+        "1",
+        "\u0308",
+        ":",
+        "\u0327",
+        "0",
+        "(",
+        ")",
+        "?",
+        "2",
+        "\u0153",
+        "5",
+        "3",
+        "6",
+        "*",
+        "4",
+        "!",
+        "Y",
+        "7",
+        "8",
+        "w",
+        "9",
+        "Z",
+        "K",
+        "X",
+        "\u00ab",
+        "k",
+        "\u02b3",
+        "\u00e6",
+        "\u00df",
+        "\u1d49",
+        "\u02e2",
+        "\u00c6",
+        "\u2020",
+        "W",
+        "\u15c5",
+        "\u1d4d",
+        "\u207f",
+        "\u1d58",
+        "\u0152",
+        "\u00bb",
+        "\u00b0",
+        "\u15de"
+      ]
+    },
+    "_pid": "5d92a9eb8"
+  },
+  "7dde3f71f": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Donn\u00e9es HTR incunables du 15e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 d'incunable fran\u00e7ais du 15e s.",
+    "url": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle",
+    "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Leroy",
+        "surname": "No\u00e9",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christensen",
+        "surname": "Kelly",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "language": [
+      "frm",
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1400",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 244958
+      },
+      {
+        "metric": "files",
+        "count": 149
+      },
+      {
+        "metric": "lines",
+        "count": 7608
+      },
+      {
+        "metric": "regions",
+        "count": 535
+      }
+    ],
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "u",
+        "s",
+        "t",
+        "a",
+        "i",
+        "r",
+        "o",
+        "n",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "\u0303",
+        "f",
+        "q",
+        "g",
+        "y",
+        "h",
+        "b",
+        ".",
+        "z",
+        "\u204a",
+        "x",
+        "E",
+        "-",
+        ",",
+        "\u017f",
+        "L",
+        "\u0365",
+        "D",
+        "\u204b",
+        "C",
+        ";",
+        "I",
+        "\ua770",
+        "Q",
+        "A",
+        "S",
+        "\ua751",
+        "P",
+        "M",
+        "\u1de4",
+        "O",
+        "T",
+        "\u00b6",
+        "U",
+        "N",
+        "F",
+        "R",
+        "\ua753",
+        "B",
+        "G",
+        "\ua76f",
+        "\u033e",
+        "H",
+        "\u1dd1",
+        "\u036c",
+        "\u030c",
+        ":",
+        "(",
+        "[",
+        "]",
+        "v",
+        "J",
+        "\ua758",
+        ")",
+        "\u25cc",
+        "k",
+        "\ua759",
+        "\u0363",
+        "V",
+        "4",
+        "\u0366",
+        "w",
+        "\u0368",
+        "\u0364",
+        "\u0399",
+        "\u0327",
+        "1",
+        "9",
+        "7",
+        "\u0336",
+        "'",
+        "\u0301",
+        "|"
+      ]
+    },
+    "_pid": "7dde3f71f"
+  },
+  "70e75eb5c": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": " CREMMA-AN Testament De Poilus ",
+    "url": "https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus",
+    "description": "WWI\u2019s Poilus' testaments edited by the Archives National during the Testaments de Poilus project.",
+    "project-name": "Testaments de Poilus",
+    "project-website": "https://edition-testaments-de-poilus.huma-num.fr/",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Emmanuelle",
+        "surname": "de Champs",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "surname": "Clavaud",
+        "name": "Florence",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Pauline",
+        "surname": "Charbonnier",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christine",
+        "surname": "Nougaret",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Alix",
+        "surname": "Chagu\u00e9",
+        "roles": [
+          "aligner",
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Thibault",
+        "surname": "Cl\u00e9rice",
+        "roles": [
+          "aligner",
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Falcoz",
+        "surname": "Elsa",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Marie-Fran\u00e7oise",
+        "surname": "Limon-Bonnet",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Elise",
+        "surname": "Wojszvzyk",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Sylvie",
+        "surname": "Dechavanne",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "surname": "ALemoine",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "ASJPeronneau",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Alcofrybas",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "BeaLct",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "CLbt",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Chloelsa",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "DMichel",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Desauthieux",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "EPerrin",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "GBMireille",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "GPINET",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Genea78",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "JMGoux",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Jideuxhemme",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "LBIsabelle",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Lamotte",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "MFGarreau",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "MIna",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Maniet",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "MarionJo",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "PGambette",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "PPocard",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "PROMBAUT",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "PaulineTest",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "SCayeux",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "SL.",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "SLespinasse",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Silver08",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "TPell\u00e9",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "Val\u00e9rie",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "alp",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "jmorvan",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "lelia",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "majubama",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "mickael.lefevr",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "sgauthier",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "surname": "EdChamps",
+        "roles": [
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Dani\u00e8le",
+        "surname": "Allezard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Fran\u00e7oise",
+        "surname": "Auriau",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Sophie",
+        "surname": "Blanchard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Laure",
+        "surname": "Cadars",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Paul",
+        "surname": "Cazin-Bernier",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Rosine",
+        "surname": "Cleyet-Michaud",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Sophie",
+        "surname": "Delinge",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Christiane",
+        "surname": "Demeulenaere-Douy\u00e8re",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Mathilde",
+        "surname": "Deuve",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Tristan",
+        "surname": "Girard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Wilfried",
+        "surname": "Gourdon",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Emilie",
+        "surname": "Laffitte-Louisou",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Val\u00e9rie",
+        "surname": "Lem\u00e9e",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jean-Claude",
+        "surname": "Lescure",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "M\u00e9lisa",
+        "surname": "Locatelli",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Aur\u00e9lie",
+        "surname": "Massie",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Thomas",
+        "surname": "Olivier",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Fran\u00e7oise",
+        "surname": "Pinchard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Tiffanie",
+        "surname": "Pitot",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anais",
+        "surname": "Pontoparia",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Michel",
+        "surname": "Renard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Thierry",
+        "surname": "Rihouey",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Christian",
+        "surname": "Rodriguez",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Konstantinos",
+        "surname": "Sifakis",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Marie-Th\u00e9r\u00e8se",
+        "surname": "Solignat",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Lucie",
+        "surname": "Vieillon",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "surname": "SL",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1914",
+      "notAfter": "1918"
+    },
+    "hands": {
+      "count": "1-per-file",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 33652
+      },
+      {
+        "metric": "files",
+        "count": 96
+      },
+      {
+        "metric": "lines",
+        "count": 1353
+      },
+      {
+        "metric": "regions",
+        "count": 105
+      }
+    ],
+    "citation-file-link": "https://github.com/Dummy/depot-test/CITATION.cff",
+    "transcription-guidelines": "The original transcriptions were performed on a crowdsourcing application (https://testaments-de-poilus.huma-num.fr/#!/) under the supervision of the Archives nationales de France. Only the allographic portions of the documents were transcribed. Any marginal elements added later by clerks or archivists are neither segmented nor transcribed. The segmentation follows the SegmOnto ontology. Abbreviations and mispelling were not corrected. Superscripted portions of text are preceeded by ^. ",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "a",
+        "n",
+        "i",
+        "t",
+        "s",
+        "r",
+        "u",
+        "o",
+        "l",
+        "m",
+        "d",
+        "c",
+        "\u0301",
+        "p",
+        "\u0300",
+        "v",
+        "g",
+        "f",
+        ",",
+        "b",
+        "q",
+        "1",
+        "\u2019",
+        ".",
+        "h",
+        "M",
+        "J",
+        "j",
+        "C",
+        "P",
+        "-",
+        "L",
+        "A",
+        "9",
+        "y",
+        "x",
+        "D",
+        "S",
+        "B",
+        "^",
+        "R",
+        "F",
+        "\u0302",
+        "G",
+        "E",
+        "4",
+        "z",
+        "2",
+        "V",
+        "T",
+        "3",
+        "5",
+        "N",
+        "0",
+        ")",
+        "H",
+        "(",
+        "7",
+        "8",
+        "I",
+        "Q",
+        "6",
+        ";",
+        ":",
+        "O",
+        "\u0327",
+        "U",
+        "\"",
+        "\u0308",
+        "\u0153",
+        "W",
+        "\u00b0",
+        "?",
+        "Z",
+        "/",
+        "w",
+        "k",
+        "&",
+        "+",
+        "X",
+        "%",
+        "'"
+      ]
+    },
+    "_pid": "70e75eb5c"
+  },
+  "2a76930c9": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 15e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-15",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": "Manuscripts of the 15th century\n",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1400",
+      "notAfter": "1499"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "count": 0,
+        "metric": "lines"
+      },
+      {
+        "count": 0,
+        "metric": "files"
+      },
+      {
+        "count": 0,
+        "metric": "regions"
+      },
+      {
+        "count": 0,
+        "metric": "characters"
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "_pid": "2a76930c9"
+  },
+  "92add71a0": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 16e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-16",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": "Manuscripts of the 16th century\n",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1599"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "count": 0,
+        "metric": "lines"
+      },
+      {
+        "count": 0,
+        "metric": "files"
+      },
+      {
+        "count": 0,
+        "metric": "regions"
+      },
+      {
+        "count": 0,
+        "metric": "characters"
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "_pid": "92add71a0"
+  },
+  "f31231d2b": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 17e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-17",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Faure",
+        "surname": "Margaux",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Norindr",
+        "surname": "Jade",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Mazoue",
+        "surname": "Anais",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Davoury",
+        "surname": "Baudoin",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "description": "Various Manuscripts of the 17th century",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1699"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 81909
+      },
+      {
+        "metric": "files",
+        "count": 111
+      },
+      {
+        "metric": "lines",
+        "count": 2245
+      },
+      {
+        "metric": "regions",
+        "count": 264
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "s",
+        "r",
+        "a",
+        "n",
+        "u",
+        "i",
+        "o",
+        "t",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "v",
+        "q",
+        ".",
+        ",",
+        "y",
+        "'",
+        "f",
+        "b",
+        "g",
+        "\u0301",
+        "h",
+        "j",
+        "\u0303",
+        "M",
+        "x",
+        "R",
+        "z",
+        "C",
+        "1",
+        "J",
+        "^",
+        "\u0300",
+        "P",
+        "L",
+        "S",
+        "V",
+        "&",
+        "A",
+        "E",
+        ">",
+        "I",
+        "<",
+        "2",
+        "X",
+        "3",
+        "T",
+        "7",
+        "D",
+        "6",
+        "]",
+        "B",
+        "4",
+        "[",
+        "0",
+        "?",
+        "-",
+        "\u0302",
+        "\u0308",
+        "9",
+        "5",
+        ";",
+        "G",
+        "N",
+        "8",
+        ":",
+        "F",
+        "\u0327",
+        ")",
+        "(",
+        "Q",
+        "O",
+        "H",
+        "W",
+        "\u0153",
+        "\u2038",
+        "\u204a",
+        "U",
+        "\u0304",
+        "/",
+        "\ua757",
+        "+",
+        "k",
+        "\u00b0",
+        "\u00a0",
+        "w",
+        "\u05dd",
+        "Z",
+        "\u03c2",
+        "#",
+        "\u00e6",
+        "\ua759",
+        "\u0363",
+        "\u03b5",
+        "\u03d5"
+      ]
+    },
+    "_pid": "f31231d2b"
+  },
+  "080333ca7": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 18e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-18",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Norindr",
+        "surname": "Jade",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Norindr",
+        "surname": "Jade",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Falcoz",
+        "surname": "Elsa",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Faure",
+        "surname": "Margaux",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      }
+    ],
+    "description": "Manuscripts of the 18th century",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1700",
+      "notAfter": "1799"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 141747
+      },
+      {
+        "metric": "files",
+        "count": 125
+      },
+      {
+        "metric": "lines",
+        "count": 4017
+      },
+      {
+        "metric": "regions",
+        "count": 329
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "s",
+        "a",
+        "r",
+        "t",
+        "n",
+        "u",
+        "i",
+        "o",
+        "l",
+        "d",
+        "p",
+        "c",
+        "m",
+        "v",
+        ".",
+        "q",
+        "f",
+        "\u0301",
+        "'",
+        ",",
+        "g",
+        "b",
+        "h",
+        "y",
+        "x",
+        "j",
+        "L",
+        "C",
+        "\u0300",
+        "^",
+        "1",
+        "M",
+        "S",
+        "\u0302",
+        "z",
+        "E",
+        "R",
+        ";",
+        "2",
+        "I",
+        "6",
+        "0",
+        ">",
+        "<",
+        "D",
+        "V",
+        "J",
+        "4",
+        "3",
+        "(",
+        ")",
+        "P",
+        "\u0308",
+        "5",
+        "\u0303",
+        "-",
+        "[",
+        "]",
+        "7",
+        "B",
+        "8",
+        "X",
+        "A",
+        "9",
+        "N",
+        "F",
+        "G",
+        "T",
+        "?",
+        "\u0327",
+        "/",
+        ":",
+        "O",
+        "H",
+        "\u2019",
+        "\u00ac",
+        "+",
+        "\u00a0",
+        "\u0153",
+        "U",
+        "&",
+        "\u00ab",
+        "Q",
+        "=",
+        "K",
+        "!",
+        "k",
+        "W",
+        "Z",
+        "w",
+        "\u00b0",
+        "\u204a",
+        "\ua751",
+        "\u017f",
+        "\u2038",
+        "#",
+        "\u0336",
+        "_",
+        "Y",
+        "\u0304",
+        "\u00bb",
+        "\u0366"
+      ]
+    },
+    "_pid": "080333ca7"
+  },
+  "6bd8117b0": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 19e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-19",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Davoury",
+        "surname": "Baudouin",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Doat",
+        "surname": "Soline",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Faure",
+        "surname": "Margaux",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Humeau",
+        "surname": "Maxime",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      }
+    ],
+    "description": "Manuscripts of the 19th century",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1800",
+      "notAfter": "1899"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 55581
+      },
+      {
+        "metric": "files",
+        "count": 69
+      },
+      {
+        "metric": "lines",
+        "count": 1807
+      },
+      {
+        "metric": "regions",
+        "count": 167
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "s",
+        "a",
+        "i",
+        "u",
+        "n",
+        "r",
+        "t",
+        "o",
+        "l",
+        "d",
+        "m",
+        "c",
+        "p",
+        "v",
+        ",",
+        "\u0301",
+        "'",
+        "q",
+        "f",
+        ".",
+        "g",
+        "b",
+        "h",
+        "\u0300",
+        "j",
+        "x",
+        "-",
+        "\u0302",
+        "L",
+        "C",
+        "M",
+        "y",
+        "J",
+        "z",
+        "A",
+        "D",
+        "P",
+        "\"",
+        ">",
+        "<",
+        "E",
+        "!",
+        "N",
+        "S",
+        "Q",
+        "1",
+        ";",
+        "?",
+        ":",
+        "R",
+        "I",
+        "T",
+        "B",
+        "V",
+        "\u0153",
+        "6",
+        "O",
+        "(",
+        "_",
+        ")",
+        "2",
+        "3",
+        "H",
+        "4",
+        "^",
+        "9",
+        "8",
+        "7",
+        "F",
+        "0",
+        "G",
+        "5",
+        "\u0327",
+        "U",
+        "&",
+        "[",
+        "]",
+        "\u00b0",
+        "\u0308",
+        "k",
+        "$",
+        "w",
+        "X",
+        "W",
+        "Y",
+        "+",
+        "Z"
+      ]
+    },
+    "_pid": "6bd8117b0"
+  },
+  "b6e607ab9": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Manuscrits du 20e",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-20",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": "Manuscripts of the 20th century\n",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1900",
+      "notAfter": "1999"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 5764
+      },
+      {
+        "metric": "files",
+        "count": 13
+      },
+      {
+        "metric": "lines",
+        "count": 224
+      },
+      {
+        "metric": "regions",
+        "count": 25
+      }
+    ],
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFKD",
+      "members": [
+        "e",
+        "a",
+        "s",
+        "n",
+        "t",
+        "r",
+        "i",
+        "u",
+        "l",
+        "o",
+        "d",
+        "c",
+        "m",
+        "p",
+        "\u0301",
+        "<",
+        ">",
+        "'",
+        "v",
+        "q",
+        ",",
+        ".",
+        "\u0300",
+        "b",
+        "g",
+        "h",
+        "j",
+        "f",
+        "F",
+        "J",
+        "1",
+        "-",
+        "\u0302",
+        "M",
+        "A",
+        "E",
+        "x",
+        "T",
+        "y",
+        "C",
+        "D",
+        "^",
+        "O",
+        "8",
+        "N",
+        "7",
+        "B",
+        "S",
+        "0",
+        "\u0327",
+        "P",
+        "G",
+        "R",
+        "H",
+        "L",
+        "9",
+        "z",
+        "I",
+        "2",
+        ":",
+        "U",
+        "&",
+        "k",
+        "+",
+        ";",
+        "$",
+        "V",
+        "\u0153",
+        "[",
+        "?",
+        "]",
+        "4",
+        "3",
+        "(",
+        ")",
+        "6"
+      ]
+    },
+    "_pid": "b6e607ab9"
+  },
+  "2bea975a1": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Medii Aevi",
+    "url": "https://github.com/HTR-United/CREMMA-Medieval-LAT",
+    "authors": [
+      {
+        "name": "Cl\\xE9rice",
+        "surname": "Thibault",
+        "orcid": "0000-0003-1852-9204",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\\xE9",
+        "surname": "Alix",
+        "orcid": "0000-0002-0136-4434",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Vlachou Efstathiou",
+        "surname": "Malamatenia",
+        "orcid": "0000-0002-9397-356X",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.",
+    "project-name": "CREMMA",
+    "language": [
+      "lat"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1100",
+      "notAfter": "1599"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 263222
+      },
+      {
+        "metric": "files",
+        "count": 121
+      },
+      {
+        "metric": "lines",
+        "count": 7274
+      },
+      {
+        "metric": "regions",
+        "count": 441
+      }
+    ],
+    "transcription-guidelines": "Not a graphetic/\"allographetique\" transcription but rather a graphemic one that preserves the sequence of letters and reduces each form to its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro, pre, tironian et, \"est\" etc.), as well as abbreviative signs, ligatures are reduced to their component letters. Spaces between letters reproduce the original (e.g. in the case of a semicontinuous script). Punctuations are simplified, reducing to \":\" all two-component punctuation (e.g. punctus elevatus). Rare characters have been preserved such as \"instans\" and metric values (e.g. ounces). ",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "i",
+        "e",
+        "t",
+        "a",
+        "u",
+        "s",
+        "\u0303",
+        "o",
+        "n",
+        "r",
+        "c",
+        "d",
+        "m",
+        "l",
+        "p",
+        ".",
+        "\u033e",
+        "q",
+        "b",
+        "g",
+        "f",
+        "\u204a",
+        "\uf1ac",
+        "\u0363",
+        "h",
+        "\ua770",
+        "\ua751",
+        "\u0365",
+        "x",
+        "\u0142",
+        "\u1dd1",
+        "\u1de4",
+        "\u0366",
+        "\ua759",
+        "\ua76f",
+        "I",
+        ":",
+        "\u0364",
+        "\u036d",
+        "\ua775",
+        "\ua753",
+        "S",
+        "\u036b",
+        "\u00b6",
+        "\u1e9c",
+        "E",
+        "U",
+        "A",
+        "\u0368",
+        "C",
+        "\u0127",
+        "N",
+        "Q",
+        "y",
+        "\ua757",
+        "\u1d48",
+        "D",
+        "\u0335",
+        "R",
+        "P",
+        "\u036c",
+        "\u1ddd",
+        "M",
+        "T",
+        "\ua76d",
+        "/",
+        "^",
+        "2",
+        "\u0367",
+        "&",
+        "z",
+        ",",
+        "H",
+        "O",
+        "\u00ac",
+        "L",
+        "1",
+        "3",
+        "4",
+        "F",
+        "=",
+        "G",
+        "\u1de0",
+        "\u00f7",
+        "\u2125",
+        "5",
+        "B",
+        "9",
+        "\u00d8",
+        "\u0307",
+        "\ua758",
+        "6",
+        "\u0327",
+        "X",
+        "8",
+        "0",
+        "\u1d47",
+        "k",
+        "7",
+        "'",
+        "*",
+        "\uf2da",
+        "w",
+        "-",
+        "Y",
+        "\u0301",
+        "\u0308",
+        "+",
+        "Z",
+        "\u0111",
+        "\u00a0",
+        "K",
+        "\u204b",
+        "\u1d56",
+        "\uf038",
+        "\u03b9"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Cl\u00e9rice, Thibault and Chagu\u00e9, Alix and Vlachou-Efstathiou, Malamatenia},\ndoi = {10.5281/zenodo.7013436},\ntitle = {CREMMA Medii Aevi},\nurl = {https://github.com/HTR-United/CREMMA-Medieval-LAT}\n}\n",
+    "_apa": "Cl\u00e9rice T., Chagu\u00e9 A., Vlachou-Efstathiou M. CREMMA Medii Aevi DOI: 10.5281/zenodo.7013436 URL: https://github.com/HTR-United/CREMMA-Medieval-LAT\n",
+    "_pid": "2bea975a1"
+  },
+  "baa415760": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA Early Modern Books",
+    "url": "https://github.com/HTR-United/cremma-16-17-print",
+    "project-name": "CREMMA",
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "description": "Collection of book samples in early print forms, 16th to 17th century, in Latin and pre-orthographic French.",
+    "language": [
+      "frm",
+      "lat"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1779"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 84726
+      },
+      {
+        "metric": "files",
+        "count": 98
+      },
+      {
+        "metric": "lines",
+        "count": 2603
+      },
+      {
+        "metric": "regions",
+        "count": 451
+      }
+    ],
+    "sources": [
+      {
+        "reference": "Omnia Andreae Alciati v.c. emblemata cum commentariis",
+        "link": "http://pid.emory.edu/ark:/25593/b70rv"
+      },
+      {
+        "reference": "15.. \tHistoria de duobus amantibus Eurialo et Lucretia ",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k533863"
+      },
+      {
+        "reference": "1520 \tEpigrammata clarissimi disertissimique viri Thomae Mori...",
+        "link": "https://doi.org/10.3931/e-rara-74397"
+      },
+      {
+        "reference": "'1550 \tLa description de l'isle d'Utopie, o\u00fa est comprins '\n",
+        "link": "https://gallica.bnf.fr/ark:/12148/bpt6k6566444g"
+      },
+      {
+        "reference": "1779 \tZoologia Danica, seu, Animalium Daniae et Norvegiae ",
+        "link": "https://archive.org/details/zoologiadanicase01mlle"
+      },
+      {
+        "reference": "'L'Achileyde de Stace... traduction en vers, avec ...'",
+        "link": "https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k3103841"
+      },
+      {
+        "reference": "1681 \tVigili\u00e6 Rhetorum, Et Somnia Poetarvm, Symbolic\u00e8",
+        "link": "http://diglib.hab.de/drucke/qun-607-5/start.htm"
+      },
+      {
+        "reference": "Aneau, Barth\u00e9lemy: Picta Poesis - Lugduni : Pesnot, 1564",
+        "link": "http://diglib.hab.de/drucke/231-5-poet/start.htm"
+      }
+    ],
+    "citation-file-link": "https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF",
+    "transcription-guidelines": "Kept abbreviation and transcribed long s as long s",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "i",
+        "u",
+        "a",
+        "t",
+        "r",
+        "n",
+        "o",
+        "l",
+        "\u017f",
+        "m",
+        "s",
+        "c",
+        "d",
+        "p",
+        ",",
+        ".",
+        "q",
+        "b",
+        "g",
+        "f",
+        "h",
+        "v",
+        "A",
+        "I",
+        "E",
+        "\u00ac",
+        "&",
+        "x",
+        "S",
+        "\u0301",
+        "\u0303",
+        "y",
+        "\u2019",
+        "C",
+        "P",
+        "\u0300",
+        "T",
+        "R",
+        "M",
+        ":",
+        "V",
+        "\u00e6",
+        "L",
+        "N",
+        "O",
+        "D",
+        "\ue8bf",
+        "z",
+        "Q",
+        "j",
+        "H",
+        "G",
+        "B",
+        "F",
+        "2",
+        "\u0308",
+        "-",
+        "1",
+        "'",
+        "\u0153",
+        ";",
+        "?",
+        "(",
+        "\u0302",
+        ")",
+        "7",
+        "U",
+        "X",
+        "3",
+        "\u03bf",
+        "\u03b9",
+        "\u03b1",
+        "5",
+        "6",
+        "4",
+        "\u03b5",
+        "\u0327",
+        "\u03bd",
+        "\u03c4",
+        "8",
+        "\u0313",
+        "\u03c0",
+        "9",
+        "!",
+        "J",
+        "0",
+        "\ua770",
+        "\u03c2",
+        "\u03bb",
+        "\u03c5",
+        "Y",
+        "\u00a7",
+        "\ua759",
+        "\u00c6",
+        "\u03c3",
+        "\u0391",
+        "\u03c9",
+        "]",
+        "Z",
+        "/",
+        "\u03c1",
+        "k",
+        "\u039f",
+        "\u039d",
+        "\u03b7",
+        "\u0342",
+        "\u03bc",
+        "\u03ba",
+        "*",
+        "K",
+        "\u03a5",
+        "\u03b4",
+        "\u03b8",
+        "\ua757",
+        "\u211f",
+        "\u0395",
+        "\u03a1",
+        "\u03a9",
+        "\u03a0",
+        "\u0399",
+        "\u03a4",
+        "\u03c6",
+        "\u0142",
+        "\u030a",
+        "\u039c",
+        "\u0398",
+        "\u03a3",
+        "\u0392",
+        "\u039b",
+        "\u03b3",
+        "|",
+        "\u00bd",
+        "\u0330",
+        "\u00a0",
+        "\u0314",
+        "\u03c7",
+        "\u03db",
+        "\u00df",
+        "\u0345",
+        "\u0393",
+        "\u0394",
+        "W",
+        "\u03a7",
+        "\u03be",
+        "\uf1a7",
+        "#"
+      ]
+    },
+    "_pid": "baa415760"
+  },
+  "632310da4": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Cremma Medieval",
+    "url": "https://github.com/HTR-United/cremma-medieval",
+    "authors": [
+      {
+        "name": "Pinche",
+        "surname": "Ariane",
+        "orcid": "0000-0002-7843-5050",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Camps",
+        "surname": "Jean-Baptiste",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Mariotti",
+        "surname": "Viola",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Nolibois",
+        "surname": "Alice",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Carnaille",
+        "surname": "Camille",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Deleville",
+        "surname": "Prunelle",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Lecomte",
+        "surname": "Sophie",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Meylan",
+        "surname": "Aminoel",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Ventura",
+        "surname": "Simone",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Dugaz",
+        "surname": "Lucien",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "description": "Transcription corpora for training HTR models for medieval manuscripts from the 12th to the 15th century.",
+    "project-name": "CremmaLab",
+    "project-website": "https://cremmalab.hypotheses.org",
+    "language": [
+      "fra",
+      "fro"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1100",
+      "notAfter": "1499"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "citation-file-link": "https://github.com/HTR-United/cremma-medieval/blob/main/citation.cff",
+    "transcription-guidelines": "As the data come from different projects, transcriptions have been standardized to strengthen HTR models. We chose a graphemic transcription method, following D. Stutzmann definitions (see bibliography), to have a sign in the image corresponding to a sign in our text: all the abbreviations are kept, and u/v or i/j are not distinguished. The spaces in the dataset are not homogeneously represented, sometimes transcriptions reproduce the manuscript spacing while others use lexical spaces. It must be stressed that spaces are the most important source of error in medieval HTR models. Most of the transcription follow the layout segmentation of the SegmOnto ontology (https://github.com/SegmOnto/examples), separating the main column, margin, numbering, drop capital, etc. All the recommendations are described in\n  the following document  : Ariane Pinche, Guide de transcription pour les manuscrits du Xe au XVe si\u00e8cle, 2022, \u27e8hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>.",
+    "production-software": "eScriptorium + Kraken",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 630607
+      },
+      {
+        "metric": "files",
+        "count": 289
+      },
+      {
+        "metric": "lines",
+        "count": 23630
+      },
+      {
+        "metric": "regions",
+        "count": 1932
+      }
+    ],
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "i",
+        "s",
+        "t",
+        "n",
+        "a",
+        "r",
+        "u",
+        "o",
+        "l",
+        "c",
+        "d",
+        "m",
+        "p",
+        ".",
+        "q",
+        "f",
+        "g",
+        "\u0303",
+        "b",
+        "z",
+        "h",
+        "\u204a",
+        "y",
+        ":",
+        "E",
+        "x",
+        "Q",
+        "L",
+        "\u033e",
+        "S",
+        "D",
+        "\ua751",
+        "\u0365",
+        "C",
+        "\ua76f",
+        "\u0363",
+        "A",
+        "I",
+        "'",
+        "M",
+        "\ua770",
+        "\u0301",
+        "T",
+        "P",
+        "O",
+        "k",
+        "N",
+        "U",
+        "9",
+        "\u036c",
+        "G",
+        "R",
+        "\u1dd1",
+        "F",
+        "\u0364",
+        "\uf038",
+        "&",
+        "1",
+        "B",
+        "\ua753",
+        "H",
+        "\u00f7",
+        "\u0366",
+        "7",
+        "\u1de4",
+        "2",
+        "\u039b",
+        "\u0142",
+        "6",
+        "0",
+        "3",
+        "8",
+        "4",
+        "\u033d",
+        "w",
+        "-",
+        "5",
+        ",",
+        "\u036d",
+        "\u00b6",
+        "Y",
+        "\u1e9c",
+        "\u00a0",
+        "\u27e6",
+        "\u27e7",
+        "\u0368",
+        "\u0308",
+        "X",
+        "\u0127",
+        "K",
+        "\u03b4",
+        "\u036b",
+        "/",
+        "\u0167",
+        "j"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\nmonth = {6},\ntitle = {Cremma Medieval},\nurl = {https://github.com/HTR-United/cremma-medieval},\nyear = {2022}\n}\n",
+    "_apa": "Pinche A. (2022). Cremma Medieval (version Bicerin 1.1.0). DOI: 10.5281/zenodo.5235185 URL: https://github.com/HTR-United/cremma-medieval\n",
+    "_pid": "632310da4"
+  },
+  "f99aaacfc": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "CREMMA WIKIPEDIA",
+    "url": "https://github.com/HTR-United/cremma-wikipedia",
+    "authors": [
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "digitization",
+          "support"
+        ],
+        "orcid": "0000-0002-0136-4434"
+      },
+      {
+        "name": "Cl\u00e9rice",
+        "surname": "Thibault",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ],
+        "orcid": "0000-0003-1852-9204"
+      },
+      {
+        "name": "Van Kote",
+        "surname": "Elsa",
+        "roles": [
+          "aligner",
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Carrow",
+        "surname": "Jennifer",
+        "roles": [
+          "aligner",
+          "transcriber",
+          "support"
+        ]
+      },
+      {
+        "name": "Wissam",
+        "surname": "Antoum",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Yann",
+        "surname": "Audin",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anne",
+        "surname": "Baillot",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Marl\u00e8ne",
+        "surname": "Baron",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Alexandre",
+        "surname": "Bartz",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Rachel",
+        "surname": "Bawden",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Alice",
+        "surname": "Beaudry-Lagarde",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Rishika",
+        "surname": "Bhagwatkar",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Federico",
+        "surname": "Boschetti",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Camille",
+        "surname": "Bourgeois",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Alice",
+        "surname": "Brenon",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "William",
+        "surname": "Brubacher",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Donovan",
+        "surname": "Brunot",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Roxanne",
+        "surname": "Brusseau",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Talitha",
+        "surname": "Bueno Mottes",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Zo\u00e9",
+        "surname": "Cappe",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Roman",
+        "surname": "Castagn\u00e9",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Galo",
+        "surname": "Castillo",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Brigitte",
+        "surname": "Chagu\u00e9",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Denis",
+        "surname": "Chagu\u00e9",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Emeric",
+        "surname": "Chagu\u00e9",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "L\u00e9a",
+        "surname": "Charette",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Emmanuel",
+        "surname": "Chateau",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jean-Baptiste",
+        "surname": "Chaudron",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anna",
+        "surname": "Chepaikina",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Floriane",
+        "surname": "Chiffoleau",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Kelly",
+        "surname": "Christensen",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Federico",
+        "surname": "Cuartas Aristizabal",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Maria Laura",
+        "surname": "Cucciniello",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Aurore",
+        "surname": "Cu\u00e9llar",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Baudoin",
+        "surname": "Davoury",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Eric",
+        "surname": "de la Clergerie",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Roch",
+        "surname": "Delanney",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Camille",
+        "surname": "Delattre",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "B\u00e9atrice",
+        "surname": "Denis",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Philippe",
+        "surname": "Deschamps",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Valentine",
+        "surname": "Desmorat",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Cindy",
+        "surname": "Dionisio",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Am\u00e9lie",
+        "surname": "Disant",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Elsa",
+        "surname": "Dufourg",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jean-Luc",
+        "surname": "Falcone",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Margaux",
+        "surname": "Faure",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Glenda",
+        "surname": "Ferbeyre Rodriguez",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Giulia",
+        "surname": "Ferretti",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Fabien",
+        "surname": "Fizaine",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jeanne",
+        "surname": "Flamant",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Cl\u00e9mence",
+        "surname": "Foisy-Marquis",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anna",
+        "surname": "Fr\u00f6hlich",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anne",
+        "surname": "Garcia Fernancez",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Vincent",
+        "surname": "Giovannangeli",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Gabrielle",
+        "surname": "Grondin",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Morgane",
+        "surname": "Guichard",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jessica",
+        "surname": "Guiraud",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anahi",
+        "surname": "Haedo",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Pauline",
+        "surname": "Hennequart",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Yanet",
+        "surname": "Hernandez Pedroza",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Lucence",
+        "surname": "Ing",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Pauline",
+        "surname": "Jacsont",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Juliette",
+        "surname": "Janes",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Corinne",
+        "surname": "Jeanne",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Arilys",
+        "surname": "Jia",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Vincent",
+        "surname": "Jolivet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Katrina",
+        "surname": "Kaustina",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Ben",
+        "surname": "Kiessling",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Ozcar",
+        "surname": "Koc",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Lena",
+        "surname": "Krause",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Gabriel",
+        "surname": "Labrie",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Am\u00e9lie",
+        "surname": "Lapointe",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "David",
+        "surname": "Lassner",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Emmanuelle",
+        "surname": "Lescouet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Danny",
+        "surname": "L\u00e9tourneau",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Marie-Fran\u00e7oise",
+        "surname": "Limon-Bonnet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Gabrielle",
+        "surname": "Lodi",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Victoria",
+        "surname": "Lupascu",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Elsa",
+        "surname": "Marguin-Hamon",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Orestis",
+        "surname": "Marinamis",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Gina",
+        "surname": "Mars",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Eug\u00e9nie",
+        "surname": "Matthey-Jonais",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Dilson",
+        "surname": "Mayunga",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Margot",
+        "surname": "Mellet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Matt",
+        "surname": "Moskal",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Shannon",
+        "surname": "Moskal",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Zo\u00e9",
+        "surname": "Mozin",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Lydia",
+        "surname": "Nishimwe",
+        "roles": [
+          "support"
+        ],
+        "orcid": "0009-0009-7082-4711"
+      },
+      {
+        "name": "Jade",
+        "surname": "Norindr",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Jules",
+        "surname": "Nuguet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Sarah",
+        "surname": "Orsini",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Pedro",
+        "surname": "Ortiz Suarez",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Kenan",
+        "surname": "Oudin",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Gabrielle",
+        "surname": "Pannetier-Leboeuf",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Thierry",
+        "surname": "Paquet",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Thomas",
+        "surname": "Parisot",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Elodie",
+        "surname": "Paupe",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Ga\u00ebl",
+        "surname": "Poux",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Montaine",
+        "surname": "Proph\u00eate",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Alix",
+        "surname": "Raoux",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Ga\u00ebtan",
+        "surname": "Raoux",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Elise",
+        "surname": "Razafindrakoto",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Camille",
+        "surname": "Rey",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Arij",
+        "surname": "Riabi",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Karen",
+        "surname": "Ross",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Manon",
+        "surname": "Rouill\u00e9",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Louise",
+        "surname": "Ruby",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Beno\u00eet",
+        "surname": "Sagot",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Hugo",
+        "surname": "Scheithauer",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anne-Val\u00e9rie",
+        "surname": "Schweyer",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Djam\u00e9",
+        "surname": "Seddah",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Paula",
+        "surname": "Seidel",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Peter",
+        "surname": "Stokes",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Yves",
+        "surname": "Tadjo",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Lionel",
+        "surname": "Tadjou",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Kristin",
+        "surname": "Tanton",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Marie",
+        "surname": "Tariol",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Rian",
+        "surname": "Touchent",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Anne-Kim",
+        "surname": "Tremblay",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Pierre",
+        "surname": "Vauterin",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Mathilde",
+        "surname": "Verstraete",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Magalie",
+        "surname": "Vetter",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Marcello",
+        "surname": "Vitali Rosati",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Malamatenia",
+        "surname": "Vlachou-Estathiou",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Rosanne",
+        "surname": "Wingert",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "D\u00e9bora",
+        "surname": "Yi",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Antoine\"",
+        "surname": "",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Camille",
+        "surname": "",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Manon",
+        "surname": "",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Yohan",
+        "surname": "",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "institutions": [
+      {
+        "name": "6e-1 du Coll\u00e8ge Martin-Luther-King de Charvieu-Chavagneux",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "description": "The CREMMA-WIKIPEDIA project aims at creating a collection of ground truth to train HTR models on contemporary French handwriting.\n\nEach image represents an exerpt from a randomly selected Wikipedia page, copied by hand by volunteers. We then took care of the alignment between the handwritten portion and the original text, also present on the image.",
+    "project-name": "CREMMA",
+    "language": [
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "2022",
+      "notAfter": "2023"
+    },
+    "hands": {
+      "count": "1-per-file",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "transcription-guidelines": "The transcription guidelines follow CREMMA's convention (https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4). In short: superscript is preceded by a ^. Strikethrough elements are transcribed with \"><\" when unreadable, \">word<\" when readeable.  The text to copy may have included phonetic transcription. Non-french letters and diacritics were rendered as well. ",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 84018
+      },
+      {
+        "metric": "files",
+        "count": 304
+      },
+      {
+        "metric": "lines",
+        "count": 1697
+      },
+      {
+        "metric": "regions",
+        "count": 305
+      }
+    ],
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "a",
+        "n",
+        "i",
+        "t",
+        "s",
+        "r",
+        "l",
+        "o",
+        "u",
+        "d",
+        "c",
+        "m",
+        "p",
+        "\u0301",
+        "g",
+        ",",
+        "h",
+        "v",
+        "f",
+        ".",
+        "b",
+        "\u0300",
+        "'",
+        "q",
+        "1",
+        "L",
+        "y",
+        "0",
+        "C",
+        "E",
+        "9",
+        "S",
+        "A",
+        "2",
+        "-",
+        "I",
+        "(",
+        ")",
+        "k",
+        "x",
+        "R",
+        "M",
+        "P",
+        "T",
+        "B",
+        "j",
+        "8",
+        "N",
+        "O",
+        "6",
+        "\u0302",
+        "D",
+        "4",
+        "5",
+        "7",
+        "3",
+        "G",
+        "F",
+        "=",
+        "H",
+        "V",
+        "w",
+        "U",
+        "z",
+        "\u0327",
+        "J",
+        ":",
+        "\u0308",
+        "K",
+        "W",
+        ">",
+        "<",
+        "\u00ab",
+        "\u00bb",
+        "Y",
+        "X",
+        "^",
+        "\"",
+        "[",
+        "]",
+        "\u017f",
+        "/",
+        "\u0304",
+        "Q",
+        ";",
+        "Z",
+        "\u030c",
+        "\u2019",
+        "\u0153",
+        "\u00f8",
+        "\u0303",
+        "%",
+        "&",
+        "\u2013",
+        "!",
+        "\u025b",
+        "\u030a",
+        "\u00df",
+        "\u0279",
+        "\u2014",
+        "\u00c6",
+        "\u00b2",
+        "\u0306",
+        "\u1455",
+        "#",
+        "\u0259",
+        "\u20ac",
+        "\u00a0",
+        "\u0251",
+        "\u0254",
+        "\u0281"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Cl\u00e9rice, Thibault and Van Kote, Elsa and Carrow, Jennifer and Antoum, Wissam and Audin, Yann and Baillot, Anne and Baron, Marl\u00e8ne and Bartz, Alexandre and Bawden, Rachel and Beaudry-Lagarde, Alice and Bhagwatkar, Rishika and Boschetti, Federico and Bourgeois, Camille and Brenon, Alice and Brubacher, William and Brunot, Donovan and Brusseau, Roxanne and Bueno Mottes, Talitha and Cappe, Zo\u00e9 and Castagn\u00e9, Roman and Castillo, Galo and Chagu\u00e9, Brigitte and Chagu\u00e9, Denis and Chagu\u00e9, Emeric and Charette, L\u00e9a and Chateau, Emmanuel and Chaudron, Jean-Baptiste and Chepaikina, Anna and Chiffoleau, Floriane and Christensen, Kelly and Cuartas Aristizabal, Federico and Cucciniello, Maria Laura and Cu\u00e9llar, Aurore and Davoury, Baudoin and de la Clergerie, Eric and Delanney, Roch and Delattre, Camille and Denis, B\u00e9atrice and Deschamps, Philippe and Desmorat, Valentine and Dionisio, Cindy and Disant, Am\u00e9lie and Dufourg, Elsa and Falcone, Jean-Luc and Faure, Margaux and Ferbeyre Rodriguez, Glenda and Ferretti, Giulia and Fizaine, Fabien and Flamant, Jeanne and Foisy-Marquis, Cl\u00e9mence and Fr\u00f6hlich, Anna and Garcia Fernancez, Anne and Giovannangeli, Vincent and Grondin, Gabrielle and Guichard, Morgane and Guiraud, Jessica and Haedo, Anahi and Hennequart, Pauline and Hernandez Pedroza, Yanet and Ing, Lucence and Jacsont, Pauline and Janes, Juliette and Jeanne, Corinne and Jia, Arilys and Jolivet, Vincent and Kaustina, Katrina and Kiessling, Ben and Koc, Ozcar and Krause, Lena and Labrie, Gabriel and Lapointe, Am\u00e9lie and Lassner, David and Lescouet, Emmanuelle and L\u00e9tourneau, Danny and Limon-Bonnet, Marie-Fran\u00e7oise and Lodi, Gabrielle and Lupascu, Victoria and Marguin-Hamon, Elsa and Marinamis, Orestis and Mars, Gina and Matthey-Jonais, Eug\u00e9nie and Mayunga, Dilson and Mellet, Margot and Moskal, Matt and Moskal, Shannon and Mozin, Zo\u00e9 and Nishimwe, Lydia and Norindr, Jade and Nuguet, Jules and Orsini, Sarah and Ortiz Suarez, Pedro and Oudin, Kenan and Pannetier-Leboeuf, Gabrielle and Paquet, Thierry and Parisot, Thomas and Paupe, Elodie and Poux, Ga\u00ebl and Proph\u00eate, Montaine and Raoux, Alix and Raoux, Ga\u00ebtan and Razafindrakoto, Elise and Rey, Camille and Riabi, Arij and Ross, Karen and Rouill\u00e9, Manon and Ruby, Louise and Sagot, Beno\u00eet and Scheithauer, Hugo and Schweyer, Anne-Val\u00e9rie and Seddah, Djam\u00e9 and Seidel, Paula and Stokes, Peter and Tadjo, Yves and Tadjou, Lionel and Tanton, Kristin and Tariol, Marie and Touchent, Rian and Tremblay, Anne-Kim and Vauterin, Pierre and Verstraete, Mathilde and Vetter, Magalie and Vitali Rosati, Marcello and Vlachou-Estathiou, Malamatenia and Wingert, Rosanne and Yi, D\u00e9bora and other anonymous contributers},\ndoi = {10.5281/zenodo.7782065},\nmonth = {3},\ntitle = {CREMMA WIKIPEDIA},\nurl = {https://github.com/HTR-United/cremma-wikipedia},\nyear = {2023}\n}\n",
+    "_apa": "Chagu\u00e9 A., Cl\u00e9rice T., Van Kote E., Carrow J., Antoum W., Audin Y., Baillot A., Baron M., Bartz A., Bawden R., Beaudry-Lagarde A., Bhagwatkar R., Boschetti F., Bourgeois C., Brenon A., Brubacher W., Brunot D., Brusseau R., Bueno Mottes T., Cappe Z., Castagn\u00e9 R., Castillo G., Chagu\u00e9 B., Chagu\u00e9 D., Chagu\u00e9 E., Charette L., Chateau E., Chaudron J., Chepaikina A., Chiffoleau F., Christensen K., Cuartas Aristizabal F., Cucciniello M.L., Cu\u00e9llar A., Davoury B., de la Clergerie E., Delanney R., Delattre C., Denis B., Deschamps P., Desmorat V., Dionisio C., Disant A., Dufourg E., Falcone J., Faure M., Ferbeyre Rodriguez G., Ferretti G., Fizaine F., Flamant J., Foisy-Marquis C., Fr\u00f6hlich A., Garcia Fernancez A., Giovannangeli V., Grondin G., Guichard M., Guiraud J., Haedo A., Hennequart P., Hernandez Pedroza Y., Ing L., Jacsont P., Janes J., Jeanne C., Jia A., Jolivet V., Kaustina K., Kiessling B., Koc O., Krause L., Labrie G., Lapointe A., Lassner D., Lescouet E., L\u00e9tourneau D., Limon-Bonnet M., Lodi G., Lupascu V., Marguin-Hamon E., Marinamis O., Mars G., Matthey-Jonais E., Mayunga D., Mellet M., Moskal M., Moskal S., Mozin Z., Nishimwe L., Norindr J., Nuguet J., Orsini S., Ortiz Suarez P., Oudin K., Pannetier-Leboeuf G., Paquet T., Parisot T., Paupe E., Poux G., Proph\u00eate M., Raoux A., Raoux G., Razafindrakoto E., Rey C., Riabi A., Ross K., Rouill\u00e9 M., Ruby L., Sagot B., Scheithauer H., Schweyer A., Seddah D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton K., Tariol M., Touchent R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n",
+    "_pid": "f99aaacfc"
+  },
+  "bde559631": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "DAHN Corpus",
+    "url": "https://github.com/HTR-United/dahncorpus",
+    "project-name": "DAHN",
+    "project-website": "https://digitalintellectuals.hypotheses.org/category/dahn",
+    "authors": [
+      {
+        "surname": "Floriane",
+        "name": "Chiffoleau",
+        "roles": [
+          "project-manager",
+          "aligner"
+        ]
+      }
+    ],
+    "description": "OCR ground Truth dataset based on French 20th typewritten letters",
+    "license": [
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY 4.0"
+      }
+    ],
+    "format": "Alto-XML",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 1210754
+      },
+      {
+        "metric": "files",
+        "count": 546
+      },
+      {
+        "metric": "lines",
+        "count": 12482
+      },
+      {
+        "metric": "pages",
+        "count": 527
+      },
+      {
+        "metric": "regions",
+        "count": 546
+      }
+    ],
+    "language": [
+      "fra"
+    ],
+    "time": {
+      "notBefore": "1914",
+      "notAfter": "1924"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "script-type": "only-typed",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "t",
+        "a",
+        "/",
+        "c",
+        "0",
+        "n",
+        "r",
+        "m",
+        "h",
+        "p",
+        "s",
+        "o",
+        "g",
+        "7",
+        "5",
+        "9",
+        "f",
+        "1",
+        "E",
+        ".",
+        "i",
+        "-",
+        "2",
+        "d",
+        "<",
+        "l",
+        "{",
+        ":",
+        "P",
+        "A",
+        "G",
+        "}",
+        "U",
+        "x",
+        ">",
+        "8",
+        "4",
+        "b",
+        "6",
+        "3"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chiffoleau, Floriane},\ndoi = {10.5281/zenodo.5911868},\nmonth = {3},\ntitle = {dahncorpus},\nurl = {https://github.com/HTR-United/dahncorpus},\nyear = {2021}\n}\n",
+    "_apa": "Chiffoleau F. (2021). dahncorpus (version 1.0.0). DOI: 10.5281/zenodo.5911868 URL: https://github.com/HTR-United/dahncorpus\n",
+    "_pid": "bde559631"
+  },
+  "507bb514d": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Notaires de Paris - Bronod",
+    "url": "https://github.com/HTR-United/lectaurep-bronod",
+    "project-name": "LECTAUREP\n",
+    "project-website": "https://lectaurep.hypotheses.org/",
+    "authors": [
+      {
+        "name": "Limon-Bonnet",
+        "surname": "Fran\u00e7oise",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "description": "Ground truth for Ma\u00eetre Bronod\u2019s registers, notary in Paris during the 18th century.\n",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1742",
+      "notAfter": "1745"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 359676
+      },
+      {
+        "metric": "files",
+        "count": 100
+      },
+      {
+        "metric": "lines",
+        "count": 3708
+      },
+      {
+        "metric": "pages",
+        "count": 200
+      },
+      {
+        "metric": "regions",
+        "count": 100
+      }
+    ],
+    "sources": [
+      {
+        "reference": "Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre Bronod\\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977735",
+        "link": ""
+      }
+    ],
+    "citation-file-link": "https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff",
+    "transcription-guidelines": "Transcription fid\u00e8le aux manuscrits : la casse et les abr\u00e9viations sont respect\u00e9es. Les portions de texte suscrites sont pr\u00e9c\u00e9d\u00e9es d'un symbole `^`. Pas de traitement particulier des \u00e9ventuels s longs.'\n",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "t",
+        "/",
+        "a",
+        "c",
+        "0",
+        "n",
+        "r",
+        "7",
+        "m",
+        "h",
+        "p",
+        "s",
+        "o",
+        "g",
+        "9",
+        "1",
+        "E",
+        ".",
+        "i",
+        "-",
+        "4",
+        "5",
+        "f",
+        "2",
+        "d",
+        "<",
+        "l",
+        "{",
+        ":",
+        "P",
+        "A",
+        "G",
+        "}",
+        "U",
+        "x",
+        ">",
+        "b",
+        "8",
+        "6",
+        "3"
+      ]
+    },
+    "_pid": "507bb514d"
+  },
+  "a6e899c14": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Notaires de Paris - Mariages et Divorces",
+    "url": "https://github.com/HTR-United/lectaurep-mariages-et-divorces",
+    "project-name": "LECTAUREP\n",
+    "project-website": "https://lectaurep.hypotheses.org/",
+    "authors": [
+      {
+        "name": "Denis",
+        "surname": "Nathalie",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Rostaing",
+        "surname": "Aur\u00e9lia",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      }
+    ],
+    "description": "Ground truth for the Registres des Contrats de Mariages et des S\u00e9parations et Divorces in Paris. The documents are written in Franch during the 19th century, contain many names and addresses. The information is organized in tables spreading on two pages. The table\u2019s headers and the preamble are printed.\n",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "mainly-manuscript",
+    "time": {
+      "notBefore": "1829",
+      "notAfter": "1928"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 1969585
+      },
+      {
+        "metric": "files",
+        "count": 104
+      },
+      {
+        "metric": "lines",
+        "count": 20305
+      },
+      {
+        "metric": "pages",
+        "count": 105
+      },
+      {
+        "metric": "regions",
+        "count": 105
+      }
+    ],
+    "sources": [
+      {
+        "reference": "Rostaing, A., Denis, N., & Chagu\u00e9, A. (2021). Lectaurep-Mariages-et-Divorces: ground truth for the Enregistrements des Contrats de Mariages et des S\u00e9parations et Divorces in Paris (French 19th century)  (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977697",
+        "link": ""
+      }
+    ],
+    "citation-file-link": "https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff",
+    "transcription-guidelines": "The transcription respects what is written (abbreviations are not developed, capitalization follows 19th century practices). Superscripted portions of text are signaled by `^` and many signatures are transcription with \u00a5. The lines containing printed text are associated with the type `printed` and the signatures are associated with the type `signature`. Thus they can both be removed from the dataset if necessary.'\n",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "t",
+        "/",
+        "a",
+        "c",
+        "0",
+        "n",
+        "r",
+        "7",
+        "m",
+        "h",
+        "p",
+        "s",
+        "o",
+        "g",
+        "1",
+        "E",
+        ".",
+        "i",
+        "-",
+        "2",
+        "9",
+        "5",
+        "f",
+        "3",
+        "d",
+        "<",
+        "l",
+        "{",
+        ":",
+        "P",
+        "A",
+        "G",
+        "}",
+        "U",
+        "x",
+        ">",
+        "b",
+        "8",
+        "6",
+        "4"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Rostaing, Aur\u00e9lia and Denis, Nathalie and Chagu\u00e9, Alix},\ndoi = {10.5072/zenodo.977697},\nmonth = {11},\ntitle = {Lectaurep-Mariages-et-Divorces: ground truth for the Enregistrements des Contrats de Mariages et des S\u00e9parations et Divorces in Paris (French 19th century) },\nurl = {https://github.com/HTR-United/lectaurep-mariages-et-divorces},\nyear = {2021}\n}\n",
+    "_apa": "Rostaing A., Denis N., Chagu\u00e9 A. (2021). Lectaurep-Mariages-et-Divorces: ground truth for the Enregistrements des Contrats de Mariages et des S\u00e9parations et Divorces in Paris (French 19th century)  (version 1.0). DOI: 10.5072/zenodo.977697 URL: https://github.com/HTR-United/lectaurep-mariages-et-divorces\n",
+    "_pid": "a6e899c14"
+  },
+  "a8b397410": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Notaires de Paris - R\u00e9pertoires",
+    "url": "https://github.com/HTR-United/lectaurep-repertoires",
+    "authors": [
+      {
+        "name": "Durand",
+        "surname": "Marc",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Rostaing",
+        "surname": "Aur\u00e9lia",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ]
+      }
+    ],
+    "description": "Ground truth for various Parisian registries of notary deeds written in French during the 19th century. The information is organized following pre-printed tables (with printed headers) and contain many names, addresses, numbers and abbreviations.",
+    "project-name": "LECTAUREP",
+    "project-website": "https://lectaurep.hypotheses.org/",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "mainly-manuscript",
+    "time": {
+      "notBefore": "1830",
+      "notAfter": "1939"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 525619
+      },
+      {
+        "metric": "files",
+        "count": 218
+      },
+      {
+        "metric": "lines",
+        "count": 29410
+      },
+      {
+        "metric": "regions",
+        "count": 1138
+      }
+    ],
+    "citation-file-link": "https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "r",
+        "a",
+        "i",
+        "n",
+        "t",
+        "o",
+        "u",
+        "s",
+        "d",
+        "l",
+        "c",
+        "p",
+        "1",
+        "m",
+        "S",
+        "\u0300",
+        ",",
+        "E",
+        "\u0301",
+        "2",
+        "P",
+        ".",
+        "M",
+        "0",
+        "A",
+        "C",
+        "5",
+        "3",
+        "h",
+        "T",
+        "v",
+        "g",
+        "D",
+        "7",
+        ")",
+        "(",
+        "R",
+        "N",
+        "f",
+        "I",
+        "b",
+        "L",
+        "8",
+        "9",
+        "4",
+        "^",
+        "6",
+        "B",
+        "O",
+        "J",
+        "V",
+        "y",
+        "'",
+        "G",
+        "F",
+        "-",
+        "x",
+        "q",
+        "\u00b0",
+        "H",
+        "\u0302",
+        "U",
+        "\"",
+        "X",
+        "&",
+        "z",
+        ";",
+        "\u0327",
+        ":",
+        "j",
+        "+",
+        "Q",
+        "|",
+        "\u0308",
+        "/",
+        "k",
+        "=",
+        "%",
+        "W",
+        "K",
+        "Y",
+        "Z",
+        "w",
+        "~",
+        "\u00a5",
+        "\u023c",
+        "_",
+        "\u20ac",
+        "`",
+        "[",
+        "]",
+        "\u0153",
+        "?",
+        "*",
+        "\u0303",
+        ">",
+        "\u00bd"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {LECTAUREP and Rostaing, Aur\u00e9lia and Durand, Marc and Chagu\u00e9, Alix},\ndoi = {10.5072/zenodo.977691},\nmonth = {12},\ntitle = {Notaires de Paris - R\u00e9pertoires, ground truth for various Parisian registries of notary deeds (French 19th and 20th centuries)},\nurl = {https://github.com/HTR-United/lectaurep-repertoires},\nyear = {2021}\n}\n",
+    "_apa": "LECTAUREP, Rostaing A., Durand M., Chagu\u00e9 A. (2021). Notaires de Paris - R\u00e9pertoires, ground truth for various Parisian registries of notary deeds (French 19th and 20th centuries) (version 2.0.0). DOI: 10.5072/zenodo.977691 URL: https://github.com/HTR-United/lectaurep-repertoires\n",
+    "_pid": "a8b397410"
+  },
+  "c5d771d11": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "Tapus Corpus",
+    "url": "https://github.com/HTR-United/tapuscorpus",
+    "project-name": "HTR-United\n",
+    "project-website": "https://htr-united.github.io/",
+    "authors": [
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "description": "Ground truth based on a variety of French typewritten documents from the 20th century. Contains exerpts plays, poems, letters and administrative reports.",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1900",
+      "notAfter": "1999"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 399155
+      },
+      {
+        "metric": "files",
+        "count": 150
+      },
+      {
+        "metric": "lines",
+        "count": 4115
+      },
+      {
+        "metric": "pages",
+        "count": 150
+      },
+      {
+        "metric": "regions",
+        "count": 150
+      }
+    ],
+    "sources": [
+      {
+        "reference": "Chagu\u00e9, A. (2021). Tapuscorpus (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977649",
+        "link": ""
+      }
+    ],
+    "citation-file-link": "https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff",
+    "transcription-guidelines": "See README in repository.",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "t",
+        "/",
+        "0",
+        "a",
+        "c",
+        "n",
+        "r",
+        "7",
+        "m",
+        "h",
+        "p",
+        "s",
+        "o",
+        "g",
+        "4",
+        "d",
+        "1",
+        "E",
+        ".",
+        "i",
+        "-",
+        "2",
+        "9",
+        "5",
+        "f",
+        "<",
+        "l",
+        "{",
+        ":",
+        "P",
+        "A",
+        "G",
+        "}",
+        "U",
+        "x",
+        ">",
+        "b",
+        "8",
+        "3",
+        "6"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {10.5072/zenodo.977649},\nmonth = {12},\ntitle = {Tappus Corpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\nyear = {2021}\n}\n",
+    "_apa": "Chagu\u00e9 A. (2021). Tappus Corpus (version 1.0). DOI: 10.5072/zenodo.977649 URL: https://github.com/HTR-United/tapuscorpus\n",
+    "_pid": "c5d771d11"
+  },
+  "fe0e382bb": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "TIMEUS Corpus",
+    "url": "https://github.com/HTR-United/timeuscorpus",
+    "project-name": "ANR TIME US",
+    "project-website": "https://timeus.hypotheses.org/",
+    "authors": [
+      {
+        "name": "Chagu\u00e9",
+        "surname": "Alix",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "support"
+        ]
+      },
+      {
+        "name": "Riondet",
+        "surname": "Charles",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Le Fourner",
+        "surname": "Victoria",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Bey",
+        "surname": "Laura",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Vanneau",
+        "surname": "Laurie",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Skilbeck-Gaborit",
+        "surname": "Eden",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Meissel",
+        "surname": "Nina",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Genero",
+        "surname": "Jean-Damien",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Champougny",
+        "surname": "Kevin",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Albert",
+        "surname": "Ana\u00efs",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Martini",
+        "surname": "Manuela",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
+    "description": "Ground-Truth for French 19th century pre-printed documents created by administrative services.",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "evenly-mixed",
+    "time": {
+      "notBefore": "1858",
+      "notAfter": "1858"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "characters",
+        "count": 746997
+      },
+      {
+        "metric": "files",
+        "count": 248
+      },
+      {
+        "metric": "lines",
+        "count": 7701
+      },
+      {
+        "metric": "pages",
+        "count": 159
+      },
+      {
+        "metric": "regions",
+        "count": 587
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "t",
+        "/",
+        "a",
+        "c",
+        "0",
+        "n",
+        "r",
+        "9",
+        "m",
+        "h",
+        "p",
+        "s",
+        "o",
+        "g",
+        "7",
+        "1",
+        "E",
+        ".",
+        "i",
+        "-",
+        "2",
+        "d",
+        "f",
+        "5",
+        "6",
+        "<",
+        "l",
+        "{",
+        ":",
+        "P",
+        "A",
+        "G",
+        "}",
+        "U",
+        "x",
+        ">",
+        "4",
+        "b",
+        "8",
+        "3"
+      ]
+    },
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Champougny, K\u00e9vin and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau, Laurie and Bey, Laura and Le Fourner, Victoria and Albert, Ana\u00efs and Riondet, Charles and Martini, Manuela},\ndoi = {10.5281/zenodo.6230755},\ntitle = {Time Us Corpus},\nurl = {https://github.com/HTR-United/timeuscorpus}\n}\n",
+    "_apa": "Chagu\u00e9 A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E., Vanneau L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us Corpus DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n",
+    "_pid": "fe0e382bb"
   },
   "f1d4dac34": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
