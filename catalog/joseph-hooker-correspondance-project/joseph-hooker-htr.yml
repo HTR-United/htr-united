@@ -38,7 +38,8 @@ description: >-
 project-name: Joseph Hooker Correspondence Project
 project-website: >-
  https://www.kew.org/science/our-science/projects/joseph-hooker-correspondence-project
-language: eng
+language:
+  - eng
 production-software: Transkribus
 script:
  - iso: Latn
