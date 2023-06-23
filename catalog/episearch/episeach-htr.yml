@@ -1,0 +1,42 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: EpiSearch HTR
+url: https://github.com/vedph/episearch-htr
+authors:
+ - name: Lorenzo
+   surname: Calvelli
+   orcid: 0000-0002-0920-9156
+   roles:
+     - project-manager
+ - name: Tatiana
+   surname: Tommasi
+   orcid: 0009-0000-2815-0113
+   roles:
+     - transcriber
+ - name: Federico
+   surname: Boschetti
+   orcid: 0000-0002-7810-7735
+   roles:
+     - support
+institutions: []
+description: Ground Truth for Astori’s letters (see the README.md file for details)
+project-name: EpiSearch
+project-website: https://github.com/vedph/episearch-htr
+language:
+ - ita
+production-software: eScriptorium + Kraken
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1705'
+ notAfter: '1709'
+hands:
+ count: '1'
+ precision: exact
+license:
+ - name: CC-BY-SA 4.0
+   url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+ - metric: files
+   count: 34
