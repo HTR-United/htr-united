@@ -8502,27 +8502,138 @@
     "_pid": "d26cd8486"
   },
   "bc4934064": {
-    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
-    "title": "Peraire Ground Truth",
-    "url": "https://github.com/alix-tz/peraire-ground-truth",
     "authors": [
       {
         "name": "Alix",
-        "surname": "Chagu\u00e9",
         "orcid": "0000-0002-0136-4434",
         "roles": [
           "transcriber",
+          "aligner",
           "quality-control"
-        ]
+        ],
+        "surname": "Chagu\u00e9"
       },
       {
         "name": "Pascal",
-        "surname": "Dubourg Glatigny",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Dubourg Glatigny"
+      },
+      {
+        "name": "Gilles",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "P\u00e9rez"
       }
     ],
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "a",
+        "t",
+        "n",
+        "i",
+        "r",
+        "u",
+        "o",
+        "l",
+        "d",
+        "m",
+        "c",
+        "p",
+        "E",
+        ",",
+        "\u0301",
+        ".",
+        "v",
+        "A",
+        "f",
+        "\u2019",
+        "I",
+        "S",
+        "N",
+        "g",
+        "q",
+        "R",
+        "T",
+        "O",
+        "\u0300",
+        "-",
+        "b",
+        "L",
+        "h",
+        "U",
+        "C",
+        "j",
+        "1",
+        "D",
+        "M",
+        "P",
+        "\"",
+        "x",
+        "2",
+        "\u0302",
+        "V",
+        "y",
+        "H",
+        "3",
+        "J",
+        "9",
+        "4",
+        "B",
+        "G",
+        "(",
+        "F",
+        "0",
+        ")",
+        "K",
+        "7",
+        "5",
+        "]",
+        "?",
+        "8",
+        ":",
+        "[",
+        "6",
+        "Q",
+        "\u0327",
+        "z",
+        "k",
+        "Y",
+        "/",
+        ";",
+        "Z",
+        "X",
+        "\u00b0",
+        "#",
+        "^",
+        "=",
+        "\u22ce",
+        "\u2192",
+        "\u0308",
+        "!",
+        "{",
+        "w",
+        "W",
+        "+",
+        "\u0306",
+        "*",
+        "%",
+        ">",
+        "<",
+        "~"
+      ],
+      "mode": "NFD"
+    },
+    "description": "Ground Truth for the Digital Peraire project.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
     "institutions": [
       {
         "name": "Azentis",
@@ -8531,12 +8642,18 @@
         ]
       }
     ],
-    "description": "Ground Truth for the Digital Peraire project.",
-    "project-name": "Digital Peraire",
     "language": [
       "fra"
     ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
     "production-software": "eScriptorium + Kraken",
+    "project-name": "Digital Peraire",
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -8544,133 +8661,32 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1928",
-      "notAfter": "1971"
+      "notAfter": "1990",
+      "notBefore": "1928"
     },
-    "hands": {
-      "count": "1",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
+    "title": "Peraire Ground Truth",
+    "transcription-guidelines": "Les mots barr\u00e9s sont transcrits par \"><\". Les textes suscrits ne sont pas signal\u00e9s. Ce qui est \u00e9crit est transcrits. S'il y a des incertitutes, la ligne est laiss\u00e9e vide. La segmentation de certains documents ne convient pas pour l'entra\u00eenement d'un mod\u00e8le de segmentation. L'ontologie SegmOnto a \u00e9t\u00e9 utilis\u00e9e. Quand les mots ajout\u00e9s sont ins\u00e9r\u00e9s par un '\u22ce', ce graph\u00e8me est transcrit par un \u22ce.",
+    "url": "https://github.com/alix-tz/peraire-ground-truth",
     "volume": [
       {
-        "metric": "characters",
-        "count": 38793
+        "count": 97505,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 33
+        "count": 67,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 1059
+        "count": 2307,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 80
+        "count": 151,
+        "metric": "regions"
       }
     ],
-    "transcription-guidelines": "Les mots barr\u00e9s sont transcrits par \"><\". Les textes suscrits ne sont pas signal\u00e9s. Ce qui est \u00e9crit est transcrits. S'il y a des incertitutes, la ligne est laiss\u00e9e vide. La segmentation de certains documents ne convient pas pour l'entra\u00eenement d'un mod\u00e8le de segmentation. L'ontologie SegmOnto a \u00e9t\u00e9 utilis\u00e9e. ",
-    "characters": {
-      "mode": "NFD",
-      "members": [
-        "e",
-        "s",
-        "a",
-        "n",
-        "i",
-        "t",
-        "r",
-        "u",
-        "o",
-        "l",
-        "d",
-        "m",
-        "p",
-        "c",
-        ",",
-        "v",
-        "\u0301",
-        ".",
-        "f",
-        "g",
-        "'",
-        "q",
-        "b",
-        "h",
-        "\u0300",
-        "j",
-        "E",
-        "A",
-        "-",
-        "N",
-        "1",
-        "S",
-        "C",
-        "x",
-        "T",
-        "I",
-        "O",
-        "y",
-        "L",
-        "\u0302",
-        "\"",
-        "R",
-        "2",
-        "U",
-        "D",
-        "M",
-        "P",
-        "0",
-        "3",
-        "4",
-        "H",
-        ":",
-        "9",
-        "J",
-        "(",
-        ")",
-        "5",
-        "\u0327",
-        "z",
-        "7",
-        "V",
-        "B",
-        ";",
-        "K",
-        "?",
-        "k",
-        "6",
-        "F",
-        "Q",
-        "G",
-        "8",
-        "\u00b0",
-        "/",
-        "Y",
-        "#",
-        "!",
-        "=",
-        "Z",
-        "]",
-        "\u0308",
-        "X",
-        "\u2192",
-        "[",
-        "*",
-        "w",
-        "%",
-        "{"
-      ]
-    },
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {10.5281/zenodo.7185907},\nmonth = {10},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2022}\n}\n",
-    "_apa": "Chagu\u00e9 A. (2022). Peraire Ground Truth (version 1.0.0). DOI: 10.5281/zenodo.7185907 URL: https://github.com/alix-tz/peraire-ground-truth\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and P\u00e9rez, Gilles},\ndoi = {10.5281/zenodo.7185907},\nmonth = {6},\ntitle = {Peraire Ground Truth},\nurl = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2023}\n}\n",
+    "_apa": "Chagu\u00e9 A., P\u00e9rez G. (2023). Peraire Ground Truth (version 2.0.0). DOI: 10.5281/zenodo.7185907 URL: https://github.com/alix-tz/peraire-ground-truth\n",
     "_pid": "bc4934064"
   },
   "983e367d9": {
@@ -9531,6 +9547,73 @@
     ],
     "transcription-guidelines": "Usages scribaux respect\u00e9s : abr\u00e9viations, fautes, accentuation respect\u00e9s. Allographes normalis\u00e9s (s long).",
     "_pid": "84ee5d128"
+  },
+  "c2cf58d8f": {
+    "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
+    "title": "EpiSearch HTR",
+    "url": "https://github.com/vedph/episearch-htr",
+    "authors": [
+      {
+        "name": "Lorenzo",
+        "surname": "Calvelli",
+        "orcid": "0000-0002-0920-9156",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Tatiana",
+        "surname": "Tommasi",
+        "orcid": "0009-0000-2815-0113",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Federico",
+        "surname": "Boschetti",
+        "orcid": "0000-0002-7810-7735",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ground Truth for Astori\u2019s letters (see the README.md file for details)",
+    "project-name": "EpiSearch",
+    "project-website": "https://github.com/vedph/episearch-htr",
+    "language": [
+      "ita"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1705",
+      "notAfter": "1709"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "files",
+        "count": 34
+      }
+    ],
+    "_pid": "c2cf58d8f"
   },
   "afc133c30": {
     "schema": "https://htr-united.github.io/schema/2022-04-15/schema.json",
