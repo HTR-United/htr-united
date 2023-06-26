@@ -1,0 +1,45 @@
+schema: https://htr-united.github.io/schema/2022-06-27/schema.json
+title: Ground Truth data for printed Malayalam
+url: https://doi.org/10.11588/data/L2KRZO
+authors: []
+institutions:
+ - name: Tübingen University Library
+   roles:
+     - project-manager
+description: >-
+ Ground Truth (GT) data (JPG and ALTO XML files) which can be used to train OCR
+ models that recognize printed text in Malayalam script. The training material
+ is gathered from 19th and 20th centuries prints.
+
+
+ The GT data was trained in Transkribus with the HTR+ and the PyLaia engine
+ with a resulting CER of 2.29% on validation set with HTR+ and 3,20% with
+ PyLaia. The training was performed on 43 pages with appr. 9,000 words. The
+ validation set consisted of 5 pages (ca. 1,000 words).
+
+
+ Transcription was performed by Tübingen University Library, the Ground Truth
+ data was created by Elena Mucciarelli (University of Groningen) with support
+ and model training by Dorothee Huff (Tübingen University Library).
+ (2022-11-02)
+project-name: DigitalSouthAsia
+project-website: http://idb.ub.uni-tuebingen.de/digitue/southasia
+language:
+ - mal
+production-software: Transkribus
+script:
+ - iso: Mlym
+script-type: only-typed
+time:
+ notBefore: '1850'
+ notAfter: '1996'
+hands:
+ count: unknown
+ precision: exact
+license:
+ - name: CC-BY 4.0
+   url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+ - metric: pages
+   count: 43
