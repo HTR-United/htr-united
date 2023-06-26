@@ -1,4 +1,4 @@
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Ground truth data for printed Devanagari
   url: https://doi.org/10.11588/data/EGOKEI
   authors:
@@ -56,11 +56,12 @@
   - metric: lines
     count: 4333
   transcription-guidelines: Diplomatic transcription, no correction of mispelling
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n\
     \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n\
     \  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n\
     \  publisher = {heiDATA},\n  year = {2022}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Eutyches
   url: https://github.com/malamatenia/Eutyches
   authors:
@@ -108,9 +109,102 @@
     punctuation reduced to ";" and ".". The few greek passages have been also been
     preserved, and some of the essais de plume as well (when  forming full
     words).  Annotation of the layout made with SegmOnto controlled vocabulary.
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\n\
     title = {Eutyches \"de uerbo\" glossed}\n}\n"
   _apa: "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Bullinger HTR Dataset
+  url: https://github.com/pstroe/bullinger-htr
+  authors:
+  - name: Phillip Benjamin
+    surname: Ströbel
+    orcid: 0000-0003-2063-5495
+    roles:
+    - aligner
+    - support
+  - name: Tobias
+    surname: Hodel
+    orcid: 0000-0002-2071-6407
+    roles:
+    - aligner
+    - project-manager
+  - name: Christian
+    surname: Sieber
+    orcid: 0000-0002-9364-6921
+    roles:
+    - digitization
+  - name: Patricia
+    surname: Scheurer
+    roles:
+    - quality-control
+    - support
+  - name: David Selim
+    surname: Schoch
+    orcid: 0000-0002-9936-8459
+    roles:
+    - aligner
+  - name: Anna
+    surname: Janka
+    roles:
+    - aligner
+  - name: Raphael
+    surname: Schwitter
+    roles:
+    - aligner
+  - name: Beat
+    surname: Wolf
+    roles:
+    - aligner
+  - name: Jonas
+    surname: Widmer
+    roles:
+    - aligner
+  - name: Peter
+    surname: Rechsteiner
+    roles:
+    - quality-control
+    - support
+  - name: Raphael
+    surname: Müller
+    roles:
+    - quality-control
+    - digitization
+    - support
+  institutions: []
+  description: >-
+    This dataset contains 165,673 image and corresponding text line files (.png
+    for images and .txt for the texts) in a random 80/10/10 training, validation
+    and test set split. The source is the extensive correspondence of Swiss
+    reformer Heinrich Bullinger (1504-1575) and his over 800 different
+    correspondents. It therefore contains great variety in handwriting styles.
+    Furthermore, it is multilingual since there are Latin and Early New High
+    German (and sometimes mixed) letters. The data is split into Latin and Early
+    New High German (determined with langid) and put into separate folders (de for
+    Early New High German and la for Latin).
+  project-website: https://www.bullinger-digital.ch/
+  language:
+  - lat
+  - deu
+  production-software: Transkribus, own
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1523'
+    notAfter: '1575'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Image-Text-Pairs
+  volume:
+  - metric: lines
+    count: 165673
+  automatically-aligned: true
+  transcription-guidelines: Automated transcript alignment with Transkribus
 - authors:
   - name: Alix
     orcid: 0000-0002-0136-4434
@@ -241,7 +335,7 @@
     url: https://creativecommons.org/licenses/by/4.0/
   production-software: eScriptorium + Kraken
   project-name: Digital Peraire
-  schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: only-manuscript
@@ -265,12 +359,13 @@
     metric: lines
   - count: 151
     metric: regions
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Pérez, Gilles},\n\
     doi = {10.5281/zenodo.7185907},\nmonth = {6},\ntitle = {Peraire Ground Truth},\n\
     url = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2023}\n}\n"
   _apa: "Chagué A., Pérez G. (2023). Peraire Ground Truth (version 2.0.0). DOI: 10.5281/zenodo.7185907\
     \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
   url: https://github.com/alix-tz/moonshines
   authors:
@@ -395,13 +490,14 @@
     - .
     - X
     - ','
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {0.5281/zenodo.607720783},\n\
     month = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\n\
     year = {2023}\n}\n"
   _apa: "Chagué A. (2023). moonshines (version 2.0.0). DOI: 0.5281/zenodo.607720783\
     \ URL: https://github.com/alix-tz/moonshines\n"
 
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Dataset for late medieval Castilian text recognition '
   url: https://doi.org/10.5281/zenodo.7386489
   authors:
@@ -445,6 +541,7 @@
 
     320 pages in-domain; 40 pages out-of-domain
 
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n\
     \  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias\
     \ Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n\
@@ -452,7 +549,7 @@
     \ medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher\
     \ = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non\
     \ Commercial Share Alike 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Fabliaux
   url: https://github.com/CIHAM-HTR/Fabliaux
   authors:
@@ -590,11 +687,12 @@
     - ᷠ
     - '2'
     - ꝓ
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane and Pierreville, Corinne},\n\
     month = {4},\ntitle = {Fabliaux},\nurl = {https://github.com/CIHAM-HTR/Fabliaux/data},\n\
     year = {2023}\n}\n"
   _apa: "Pinche A., Pierreville C. (2023). Fabliaux URL: https://github.com/CIHAM-HTR/Fabliaux/data\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Liber
   url: https://github.com/CIHAM-HTR/Liber
   authors:
@@ -747,13 +845,14 @@
     - B
     - ','
     - Ꝙ
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Aruta, Davide and Lenzi, Martina and\
     \ Le Huërou, Armelle and Possamaï, Marylène and Pinche, Ariane},\nmonth = {4},\n\
     title = {Liber},\nurl = {https://github.com/CIHAM-HTR/Liber/data},\nyear = {2023}\n\
     }\n"
   _apa: "Aruta D., Lenzi M., Le Huërou A., Possamaï M., Pinche A. (2023). Liber URL:\
     \ https://github.com/CIHAM-HTR/Liber/data\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: OCR17plus
   url: https://github.com/e-ditiones/OCR17plus
   project-name: E-ditiones
@@ -796,13 +895,14 @@
   - count: 686335
     metric: characters
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Jahan, Claire and Gabay, Simon},\n\
     doi = {none},\nmonth = {7},\ntitle = {OCR17+ - Layout analysis and text recognition\
     \ for 17th c. French prints},\nurl = {https://github.com/e-ditiones/OCR17plus},\n\
     year = {2021}\n}\n"
   _apa: "Jahan C., Gabay S. (2021). OCR17+ - Layout analysis and text recognition\
     \ for 17th c. French prints (version 1.0). DOI: none URL: https://github.com/e-ditiones/OCR17plus\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
   url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
   authors:
@@ -856,7 +956,8 @@
   transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations\
     \ are resolved. \LItems that are crossed out or struck through will be transcribed\
     \ with a \"€\"."
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE Spanish chapbooks 19th c. Dataset
   url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
   authors:
@@ -923,7 +1024,8 @@
     \ la graphie des mots (ne pas corriger les erreurs s’il y en a) ;\n- Supprimer\
     \ le bruit (tâches qui ont été prises pour du texte par l’OCR)."
   production-software: eScriptorium + Kraken
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE-GasparoSardiToponomasia-Dataset
   url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
   authors:
@@ -975,7 +1077,8 @@
     \ brackets ⟦⟧, and elements that are illegible in the picture will not be restored\
     \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
     \ to the MUFI fonts."
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: TariMa
   url: https://github.com/calfa-co/tarima
   authors:
@@ -1027,7 +1130,8 @@
   transcription-guidelines: >-
     We follow the RASAM guidelines for the transcription of Arabic Maghrebi
     manuscripts.
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: The POPP datasets
   url: https://zenodo.org/record/6581158
   authors:
@@ -1101,6 +1205,7 @@
     above the regular baseline
         ! : indicates that the content of the cell following this symbol is written
     below the regular baseline
+  automatically-aligned: false
   _bibtex: "@dataset{constum_thomas_2022_6581158,\n  author       = {CONSTUM, Thomas\
     \ and\n                  KEMPF, Nicolas and\n                  PAQUET, Thierry\
     \ and\n                  TRANOUEZ, Pierrick and\n                  CHATELAIN,\
@@ -1110,7 +1215,7 @@
     \   = mar,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version    \
     \  = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n\
     }"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: "Publishing an OCR ground truth data set for reuse in an unclear copyright\
@@ -1158,7 +1263,8 @@
     link: https://zfdg.de/sb005_006
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
   production-software: eScriptorium + Kraken
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: La Correspondances Jacques Doucet - René Jean
   url: https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean
   authors:
@@ -1230,7 +1336,8 @@
     count: 200
   - metric: files
     count: 200
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Les Papiers Barye
   url: https://gitlab.inha.fr/snr/LesPapiersBarye
   authors:
@@ -1292,7 +1399,8 @@
     count: 918
   - metric: files
     count: 918
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés
     de Paris et du département de la Seine (1898-1923)
   url: http://dx.doi.org/10.34847/nkl.acb724xs
@@ -1355,6 +1463,7 @@
   transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas été\
     \ segmentées.\n"
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n\
     \  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen\
     \ and Elgarrista, Gabriela and Mélanie-Becquet, Frédérique},\n  keywords = {Paris,\
@@ -1363,7 +1472,7 @@
     \ Annuaire des propriétaires et des propriétés de Paris et du département de la\
     \ Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n\
     \  year = {2021}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Projet Notre-Dame
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
   project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
@@ -1427,13 +1536,14 @@
   - metric: regions
     count: 86
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Doat, Soline and Falcoz, Elsa and\
     \ Faure, Margaux and Mazoué, Anaïs and Menu, Ariane},\ndoi = {10.5281/zenodo.6126491},\n\
     month = {1},\ntitle = {Projet Notre-Dame},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame},\n\
     year = {2022}\n}\n"
   _apa: "Doat S., Falcoz E., Faure M., Mazoué A., Menu A. (2022). Projet Notre-Dame\
     \ (version 1.0). DOI: 10.5281/zenodo.6126491 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: DecameronFR
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
   project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
@@ -1488,13 +1598,14 @@
   - metric: regions
     count: 41
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Biay, Sébastien and Boby, Victor and\
     \ Konstantinova, Kristina and Cappe, Zoé},\ndoi = {10.5281/zenodo.6126376},\n\
     title = {TNAH-2021-DecameronFR},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR}\n\
     }\n"
   _apa: "Biay S., Boby V., Konstantinova K., Cappe Z. TNAH-2021-DecameronFR (version\
     \ 1.0). DOI: 10.5281/zenodo.6126376 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Projet Exposition universelle de 1878
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles
   project-name: "ENC - Bonnes pratiques du developpement collaboratif'\n"
@@ -1553,6 +1664,7 @@
   - metric: regions
     count: 158
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Christensen, Kelly and Davoury, Baudoin\
     \ and Haedo, Anahi and Kervegan, Paul and Sanchez-Oeconomo, Esteban},\ndoi = {10.5281/zenodo.6126447},\n\
     month = {1},\ntitle = {Projet Exposition Universelle de 1878},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles},\n\
@@ -1560,7 +1672,7 @@
   _apa: "Christensen K., Davoury B., Haedo A., Kervegan P., Sanchez-Oeconomo E. (2022).\
     \ Projet Exposition Universelle de 1878 (version 1.0). DOI: 10.5281/zenodo.6126447\
     \ URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Chateau de Chavigny
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -1620,13 +1732,14 @@
   - metric: regions
     count: 22
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Pascual, Margot and Franchet d'Espèrey,\
     \ Louis-Fiacre and Gabay, Simon},\ndoi = {10.5281/zenodo.6126655},\nmonth = {2},\n\
     title = {Château de Chavigny},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny},\n\
     year = {2022}\n}\n"
   _apa: "Pascual M., Franchet d'Espèrey L., Gabay S. (2022). Château de Chavigny (version\
     \ 1.0). DOI: 10.5281/zenodo.6126655 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -1696,12 +1809,13 @@
     \ Collatinus).  For more documentation regarding the transcription norms and guidelines\
     \ head to the repository and the report file.''\n"
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou Efstathiou, Malamatenia and\
     \ Leroy, Noé and Maulu, Marco},\ndoi = {10.5281/zenodo.6126613},\ntitle = {git-project-Boccace}\n\
     }\n"
   _apa: "Vlachou Efstathiou M., Leroy N., Maulu M. git-project-Boccace (version 1.0).\
     \ DOI: 10.5281/zenodo.6126613\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: OCR Corse
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -1766,13 +1880,14 @@
   - metric: regions
     count: 146
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille,\
     \ Théophile and Escoda, Adrien and Saïag, Violette},\ndoi = {10.5281/zenodo.6126641},\n\
     month = {2},\ntitle = {OCR d'une poésie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\n\
     year = {2022}\n}\n"
   _apa: "Sarbach-Pulicani V., Miaille T., Escoda A., Saïag V. (2022). OCR d'une poésie\
     \ corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Argus des Brevets
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
   project-name: "ENC - Bonnes pratiques du developpement collaboratif'\n"
@@ -1845,13 +1960,14 @@
   - metric: regions
     count: 86
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {De Craene, Valentin and Humeau, Maxime\
     \ and Reignier, Virgile},\ndoi = {10.5281/zenodo.6126366},\nmonth = {1},\ntitle\
     \ = {Projet Argus des Brevets},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets},\n\
     year = {2022}\n}\n"
   _apa: "De Craene V., Humeau M., Reignier V. (2022). Projet Argus des Brevets (version\
     \ 1.0). DOI: 10.5281/zenodo.6126366 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Memorials for Jane Lathrop Stanford
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
   project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
@@ -1916,13 +2032,14 @@
   - metric: regions
     count: 51
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Guimarães, Ingrid and Maurel, Perrine\
     \ and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle =\
     \ {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\n\
     year = {2022}\n}\n"
   _apa: "Guimarães I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford\
     \ (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Projet Correspondance Berlioz
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
   project-name: "ENC - Bonnes pratiques du developpement collaboratif'\n"
@@ -1987,13 +2104,14 @@
   - metric: regions
     count: 64
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Ceard, Lien and Lebreton, Fanny and\
     \ Sajdak, Cécile},\ndoi = {10.5281/zenodo.6126475},\nmonth = {1},\ntitle = {Projet\
     \ Correspondance Berlioz},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz},\n\
     year = {2022}\n}\n"
   _apa: "Ceard L., Lebreton F., Sajdak C. (2022). Projet Correspondance Berlioz (version\
     \ 1.0). DOI: 10.5281/zenodo.6126475 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier
     ossétien'
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
@@ -2040,13 +2158,14 @@
   - metric: regions
     count: 72
   production-software: Unknown [Automatically filled]
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {L’Eveque, Zoé and Ekaterina, Kate\
     \ and Kasparian, Anahide},\ndoi = {10.5281/zenodo.6126633},\nmonth = {2},\ntitle\
     \ = {Projet Kovaleswky - 1893},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893},\n\
     year = {2022}\n}\n"
   _apa: "L’Eveque Z., Ekaterina K., Kasparian A. (2022). Projet Kovaleswky - 1893\
     \ (version 1.0). DOI: 10.5281/zenodo.6126633 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch
     X'
   url: https://doi.org/10.5281/zenodo.5153263
@@ -2132,6 +2251,7 @@
     count: 8000
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
     \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
     \ David and Dängeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
@@ -2139,7 +2259,7 @@
     \ Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X},\n\
     \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
     \ Non Commercial Share Alike 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)
   url: https://doi.org/10.5281/zenodo.5179361
   authors:
@@ -2186,6 +2306,7 @@
     count: 60000
   transcription-guidelines: 'See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien'
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.5179361,\n  doi = {10.5281/ZENODO.5179361},\n\
     \  url = {https://zenodo.org/record/5179361},\n  author = {Halter-Pernet, Colette\
     \ and Teuscher, Simon and Hodel, Tobias and Barwitzki, Lukas and Egloff, Salome\
@@ -2195,7 +2316,7 @@
     \ Recognition},\n  title = {Charters and Records of Königsfelden Abbey and Bailiwick\
     \ (1308-1662)},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative\
     \ Commons Attribution 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: GenAuto TD Corpus
   url: https://github.com/jpmjpmjpm/genauto-td-htr.git
   project-name: GenAuto
@@ -2243,12 +2364,13 @@
   - count: 608
     metric: regions
   production-software: eScriptorium + Kraken
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Boutet, Jean-François and Merx, Jean-Pierre},\n\
     doi = {10.5281/zenodo.5507403},\nmonth = {9},\ntitle = {GenAuto TD Corpus},\n\
     url = {https://github.com/jpmjpmjpm/genauto-td-htr.git},\nyear = {2021}\n}\n"
   _apa: "Boutet J., Merx J. (2021). GenAuto TD Corpus (version 1.0.0). DOI: 10.5281/zenodo.5507403\
     \ URL: https://github.com/jpmjpmjpm/genauto-td-htr.git\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Recensement Valaisan (Valais Time Machine)
   url: https://github.com/PonteIneptique/valais-recensement
   authors:
@@ -2417,13 +2539,14 @@
     - \
     - +
     - '#'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Alain, Dubois and Clérice, Thibault\
     \ and Mamie, Clémence and Darius, Schlaeppi and Rudaz, Clémence and Schmied, Marie-Caroline},\n\
     title = {Tables du recensement du Valais},\nurl = {https://github.com/PonteIneptique/valais-recensement}\n\
     }\n"
   _apa: "Alain D., Clérice T., Mamie C., Darius S., Rudaz C., Schmied M. Tables du\
     \ recensement du Valais URL: https://github.com/PonteIneptique/valais-recensement\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: HTR - Araucania manuscript XIX
   url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
   authors:
@@ -2561,7 +2684,8 @@
     - K
     - '['
     - ']'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: >-
     University of Denver Jewish Consumptives Relief Society Medical Records   Training
     and Validation Set
@@ -2658,12 +2782,13 @@
     count: 2660
   - metric: regions
     count: 4254
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.4243023,\n  doi = {10.5281/ZENODO.4243023},\n\
     \  url = {https://zenodo.org/record/4243023},\n  author = {Pham, Kim},\n  title\
     \ = {University of Denver Collections as Data - HTR Train and Validation Set JCRS_2020_5_27},\n\
     \  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution\
     \ 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
   project-name: "Bullinger digital'\n"
@@ -2715,13 +2840,14 @@
   - count: 144301
     metric: characters
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
     \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
     \ \n                   truth: Initial release}},\n  month        = may,\n  year\
     \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
     \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
     }"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries'
   url: https://github.com/AjaxMultiCommentary/GT-commentaries-OLR
   authors:
@@ -2781,12 +2907,13 @@
   characters:
     mode: NFD
     members: []
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Matteo and Najem-Meyer, Sven and Amaya,\
     \ Carla},\ndoi = {10.5281/zenodo.7271729},\ntitle = {GT4HistCommentLayout: Layout\
     \ Ground Truth for Historical Commentaries}\n}\n"
   _apa: "Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth\
     \ for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ÖNB, Cod. 3891. Ground Truth
   url: 10.5281/zenodo.7467249
   authors:
@@ -2924,7 +3051,8 @@
     - No correction of mispellings (tagged in the ground truth)
     - No standardization of lower-case and upper-case letters
     - No added interpunction
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Padeřov-Bible-handwriting-ground-truth
   url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
   authors:
@@ -3006,6 +3134,7 @@
   transcription-guidelines: >-
     Transliteration. Differentiates long and short "s". Abbreviations tagged and
     expanded. No misspelling corrections.
+  automatically-aligned: false
   _bibtex: "@dataset{michalcova_anna_2022_7467034,\n  author       = {Michalcová,\
     \ Anna and\n                  Bazelides, Kamil and\n                  Hajič, Jan\
     \ and\n                  Pěnkavová, Eliška and\n                  Maniaková, Laura\
@@ -3015,7 +3144,7 @@
     \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
     \    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          =\
     \ {https://doi.org/10.5281/zenodo.7467034}\n}"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
   url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
   authors:
@@ -3090,6 +3219,7 @@
   transcription-guidelines: >-
     Abbreviations resolved, but no normalization and no correcting of mispelling.
     No transcription of initials and interlinear script.
+  automatically-aligned: false
   _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
     \            Sweeney and\n                  Stitts and\n                  Audebrand\
     \ and\n                  D'Amico and\n                  Geelhaar and\n       \
@@ -3098,7 +3228,7 @@
     \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
     \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
     }"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
   url: https://doi.org/10.5281/zenodo.7466927
   authors:
@@ -3184,6 +3314,7 @@
     count: 68
   - metric: lines
     count: 4605
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n\
     \  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and\
     \ Bolte, Henrike and Führer, Veronika and Hausleitner, Felix and Hutterer, Sarah\
@@ -3193,7 +3324,75 @@
     \  title = {Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release},\n\
     \  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution\
     \ 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Joseph Hooker HTR
+  url: https://github.com/jschaefer738b/JosephHookerHTR.git
+  authors:
+  - name: John
+    surname: Schaefer
+    orcid: 0009-0006-5751-9323
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+  - name: Kiri
+    surname: Ross-Jones
+    roles:
+    - support
+  - name: Alexis
+    surname: Litvine
+    roles:
+    - support
+  institutions:
+  - name: Royal Botanic Gardens, Kew
+  - name: University of Cambridge
+  description: >-
+    XML transcriptions and JPEG images exported from Transkribus as ground truth
+    for an eScriptorium-Kraken HTR model (CER 11-12%) trained on the correspondence
+    of Joseph
+    Dalton Hooker (1817-1911), primarily letters to William Turner Thiselton-Dyer
+    (1843-1928) during the late-19th/early-20th century. Many transcriptions in
+    this dataset were generated by a small team of anonymous volunteers as part of
+    the Joseph Hooker Correspondence Project based at Kew Gardens. All images in
+    this dataset are reproduced with the kind permission of the Board of Trustees
+    of the Royal Botanic Gardens Kew (© RBG, Kew). Contact archives@kew.org for
+    more information.
+
+
+    HTR Model: Schaefer, John, & Litvine, Alexis. (2023). Joseph Hooker HTR Model.
+    Zenodo. https://doi.org/10.5281/zenodo.8038689
+  project-name: Joseph Hooker Correspondence Project
+  project-website: >-
+    https://www.kew.org/science/our-science/projects/joseph-hooker-correspondence-project
+  language:
+  - eng
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1850'
+    notAfter: '1911'
+  hands:
+    count: '1'
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 7100
+  - metric: files
+    count: 337
+  - metric: pages
+    count: 337
+  transcription-guidelines: >-
+    All horizontal lines in Hooker's hand were transcribed as originally written.
+    Most typescript and vertical lines in the margins were not included.
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Paris Bible Project (PBP)
   url: https://github.com/parisbible/ground_truth
   authors:
@@ -3340,12 +3539,13 @@
     - j
     - ͬ
   transcription-guidelines: 'See: https://parisbible.github.io/guidelines/'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Guéville, Estelle and Wrisley, David\
     \ Joseph},\ndoi = {10.5281/zenodo.7653691},\nmonth = {10},\ntitle = {Ground Truth\
     \ Used in HTR for the Paris Bible Project},\nyear = {2021}\n}\n"
   _apa: "Guéville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris\
     \ Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Éditer la correspondance de Constance de Salm (1767-1845)
   url: https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain
   authors:
@@ -3386,7 +3586,8 @@
   transcription-guidelines: >-
     Usages scribaux respectés : abréviations, fautes, accentuation respectés.
     Allographes normalisés (s long).
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: >-
     GT and HTR of VOC (Dutch East-Asia Company), WIC (Dutch West-Asia Company) and
     notarial deeds.
@@ -3474,6 +3675,7 @@
   - {count: 6350, metric: files}
   - {count: 10735, metric: regions}
   - {count: 24432166, metric: characters}
+  automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n\
     \  url = {https://zenodo.org/record/6414086},\n  author = {Keijser, Liesbeth},\n\
     \  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische\
@@ -3481,7 +3683,7 @@
     \  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC,\
     \ WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright\
     \ = {Creative Commons Attribution 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: EpiSearch HTR
   url: https://github.com/vedph/episearch-htr
   authors:
@@ -3523,7 +3725,8 @@
   volume:
   - metric: files
     count: 34
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
   project-name: "Scripta PSL\n"
@@ -3585,6 +3788,7 @@
     \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
     \ New York, NY, USA, 61–66. DOI:https://doi.org/10.1145/3476887.3476896'\n"
   production-software: eScriptorium + Kraken
+  automatically-aligned: false
   _bibtex: "@dataset{stokl_ben_ezra_daniel_2021_5167263,\n  author       = {Stökl\
     \ Ben Ezra, Daniel and\n                  Brown-DeVost, Bronson and\n        \
     \          Jablonski, Pawel and\n                  Kiessling, Benjamin and\n \
@@ -3593,7 +3797,7 @@
     \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
     \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
     }"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Ground truth for Neue Zürcher Zeitung black letter period
   url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
   project-name: "impresso'\n"
@@ -3655,13 +3859,14 @@
   - count: 1768146
     metric: characters
   production-software: Transkribus
+  automatically-aligned: false
   _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Ströbel\
     \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
     \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
     \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
     \     = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
     \ {https://doi.org/10.5281/zenodo.3333627}\n}"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Caroline Minuscule by Rescribe
   url: https://github.com/rescribe/carolineminuscule-groundtruth
   project-name: "Rescribe'\n"
@@ -3801,7 +4006,8 @@
     - K
     - '-'
   production-software: Unknown [Automatically filled]
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
   project-website: https://calfa.fr/blog/26
@@ -3872,7 +4078,8 @@
   transcription-guidelines: "Full description of specifications for transcription\
     \ available on Github and in the paper.'\n"
   production-software: Calfa Vision
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Tapus Corpus
   url: https://github.com/HTR-United/tapuscorpus
   project-name: "HTR-United\n"
@@ -3961,12 +4168,13 @@
     - '8'
     - '3'
     - '6'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {10.5072/zenodo.977649},\n\
     month = {12},\ntitle = {Tappus Corpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\n\
     year = {2021}\n}\n"
   _apa: "Chagué A. (2021). Tappus Corpus (version 1.0). DOI: 10.5072/zenodo.977649\
     \ URL: https://github.com/HTR-United/tapuscorpus\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: TIMEUS Corpus
   url: https://github.com/HTR-United/timeuscorpus
   project-name: ANR TIME US
@@ -4091,6 +4299,7 @@
     - b
     - '8'
     - '3'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Champougny, Kévin\
     \ and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau,\
     \ Laurie and Bey, Laura and Le Fourner, Victoria and Albert, Anaïs and Riondet,\
@@ -4099,7 +4308,7 @@
   _apa: "Chagué A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E., Vanneau\
     \ L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us Corpus\
     \ DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: DAHN Corpus
   url: https://github.com/HTR-United/dahncorpus
   project-name: DAHN
@@ -4182,12 +4391,13 @@
     - b
     - '6'
     - '3'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chiffoleau, Floriane},\ndoi = {10.5281/zenodo.5911868},\n\
     month = {3},\ntitle = {dahncorpus},\nurl = {https://github.com/HTR-United/dahncorpus},\n\
     year = {2021}\n}\n"
   _apa: "Chiffoleau F. (2021). dahncorpus (version 1.0.0). DOI: 10.5281/zenodo.5911868\
     \ URL: https://github.com/HTR-United/dahncorpus\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Cremma Medieval
   url: https://github.com/HTR-United/cremma-medieval
   authors:
@@ -4378,12 +4588,13 @@
     - /
     - ŧ
     - j
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\n\
     month = {6},\ntitle = {Cremma Medieval},\nurl = {https://github.com/HTR-United/cremma-medieval},\n\
     year = {2022}\n}\n"
   _apa: "Pinche A. (2022). Cremma Medieval (version Bicerin 1.1.0). DOI: 10.5281/zenodo.5235185\
     \ URL: https://github.com/HTR-United/cremma-medieval\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Early Modern Books
   url: https://github.com/HTR-United/cremma-16-17-print
   project-name: CREMMA
@@ -4590,7 +4801,8 @@
     - ξ
     - 
     - '#'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Medii Aevi
   url: https://github.com/HTR-United/CREMMA-Medieval-LAT
   authors:
@@ -4768,13 +4980,14 @@
     - ᵖ
     - 
     - ι
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Clérice, Thibault and Chagué, Alix\
     \ and Vlachou-Efstathiou, Malamatenia},\ndoi = {10.5281/zenodo.7013436},\ntitle\
     \ = {CREMMA Medii Aevi},\nurl = {https://github.com/HTR-United/CREMMA-Medieval-LAT}\n\
     }\n"
   _apa: "Clérice T., Chagué A., Vlachou-Efstathiou M. CREMMA Medii Aevi DOI: 10.5281/zenodo.7013436\
     \ URL: https://github.com/HTR-United/CREMMA-Medieval-LAT\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 15e
   url: https://github.com/HTR-United/CREMMA-MSS-15
   project-name: CREMMA
@@ -4816,7 +5029,8 @@
     metric: characters
   transcription-guidelines: Abréviations conservées.
   production-software: eScriptorium + Kraken
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 16e
   url: https://github.com/HTR-United/CREMMA-MSS-16
   project-name: CREMMA
@@ -4858,7 +5072,8 @@
     metric: characters
   transcription-guidelines: Abréviations conservées.
   production-software: eScriptorium + Kraken
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 17e
   url: https://github.com/HTR-United/CREMMA-MSS-17
   project-name: CREMMA
@@ -5017,7 +5232,8 @@
     - ͣ
     - ε
     - ϕ
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 18e
   url: https://github.com/HTR-United/CREMMA-MSS-18
   project-name: CREMMA
@@ -5183,7 +5399,8 @@
     - ̄
     - »
     - ͦ
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 19e
   url: https://github.com/HTR-United/CREMMA-MSS-19
   project-name: CREMMA
@@ -5336,7 +5553,8 @@
     - Y
     - +
     - Z
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 20e
   url: https://github.com/HTR-United/CREMMA-MSS-20
   project-name: CREMMA
@@ -5457,7 +5675,8 @@
     - (
     - )
     - '6'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Notaires de Paris - Bronod
   url: https://github.com/HTR-United/lectaurep-bronod
   project-name: "LECTAUREP\n"
@@ -5555,7 +5774,8 @@
     - '8'
     - '6'
     - '3'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Notaires de Paris - Mariages et Divorces
   url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
   project-name: "LECTAUREP\n"
@@ -5666,6 +5886,7 @@
     - '8'
     - '6'
     - '4'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Rostaing, Aurélia and Denis, Nathalie\
     \ and Chagué, Alix},\ndoi = {10.5072/zenodo.977697},\nmonth = {11},\ntitle = {Lectaurep-Mariages-et-Divorces:\
     \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
@@ -5675,7 +5896,7 @@
     \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
     \ et Divorces in Paris (French 19th century)  (version 1.0). DOI: 10.5072/zenodo.977697\
     \ URL: https://github.com/HTR-United/lectaurep-mariages-et-divorces\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Notaires de Paris - Répertoires
   url: https://github.com/HTR-United/lectaurep-repertoires
   authors:
@@ -5828,6 +6049,7 @@
     - ̃
     - '>'
     - ½
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {LECTAUREP and Rostaing, Aurélia and\
     \ Durand, Marc and Chagué, Alix},\ndoi = {10.5072/zenodo.977691},\nmonth = {12},\n\
     title = {Notaires de Paris - Répertoires, ground truth for various Parisian registries\
@@ -5836,7 +6058,7 @@
   _apa: "LECTAUREP, Rostaing A., Durand M., Chagué A. (2021). Notaires de Paris -\
     \ Répertoires, ground truth for various Parisian registries of notary deeds (French\
     \ 19th and 20th centuries) (version 2.0.0). DOI: 10.5072/zenodo.977691 URL: https://github.com/HTR-United/lectaurep-repertoires\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ' CREMMA-AN Testament De Poilus '
   url: https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus
   description: WWI’s Poilus' testaments edited by the Archives National during the
@@ -6235,7 +6457,8 @@
     - X
     - '%'
     - "'"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA WIKIPEDIA
   url: https://github.com/HTR-United/cremma-wikipedia
   authors:
@@ -6925,6 +7148,7 @@
     - ɑ
     - ɔ
     - ʁ
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Clérice, Thibault\
     \ and Van Kote, Elsa and Carrow, Jennifer and Antoum, Wissam and Audin, Yann and\
     \ Baillot, Anne and Baron, Marlène and Bartz, Alexandre and Bawden, Rachel and\
@@ -6984,7 +7208,7 @@
     \ R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou\
     \ M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA\
     \ (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n"
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données HTR manuscrits du 15e siècle
   description: Corpus d'entrainement pour l'HTR composé de manuscrits français du
     15e s.
@@ -7149,7 +7373,8 @@
     - ᷠ
     - /
     - X
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données HTR incunables du 15e siècle
   description: Corpus d'entrainement pour l'HTR composé d'incunable français du 15e
     s.
@@ -7292,7 +7517,8 @@
     - "'"
     - ́
     - '|'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données imprimés du 16e siècle
   description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 16e siècle
   url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
@@ -7449,7 +7675,8 @@
     - '['
     - Τ
     - /
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Imprimés 17e siècle
   description: Corpus d'entrainement pour l'HTR composé d'imprimés français du 17e
     s.
@@ -7647,7 +7874,8 @@
     - Ι
     - ʳ
     - ᵐ
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données imprimés gothiques du 16e siècle
   description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 16e siècle
   url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
@@ -7787,7 +8015,8 @@
     - Y
     - '5'
     - '0'
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données imprimés du 18e siècle
   description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 18e siècle
   url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
@@ -7941,7 +8170,8 @@
     - »
     - °
     - ᗞ
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FONDUE-FR-PRINT-17
   url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17
   authors:
@@ -7981,7 +8211,8 @@
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17/blob/master/CITATION.cff
   transcription-guidelines: SegmOnto
   production-software: Unknown [Automatically filled]
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FONDUE-FR-PRINT-16
   url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16
   authors:
@@ -8021,7 +8252,8 @@
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
   transcription-guidelines: SegmOnto
   production-software: Unknown [Automatically filled]
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE - Datasets for historical catalogues
   url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
   authors:
@@ -8086,7 +8318,8 @@
     count: 43114
   - metric: regions
     count: 10713
-- schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FONDUE-MLT-ART
   url: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART
   authors:
@@ -8228,6 +8461,7 @@
     - /
     - «
     - '&'
+  automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, Béatrice},\nmonth =\
     \ {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\n\
     year = {2022}\n}\n"
