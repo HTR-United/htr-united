@@ -1,4 +1,4 @@
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+schema: https://htr-united.github.io/schema/2022-06-27/schema.json
 title: Bullinger HTR Dataset
 url: https://github.com/pstroe/bullinger-htr
 authors:
@@ -84,8 +84,9 @@ hands:
 license:
   - name: CC-BY-SA 4.0
     url: https://creativecommons.org/licenses/by-sa/4.0/
-format: Alto-XML
+format: Image-Text-Pairs
 volume:
   - metric: lines
     count: 165673
+automatically-aligned: true
 transcription-guidelines: Automated transcript alignment with Transkribus
