@@ -1,92 +1,69 @@
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Ground truth data for printed Devanagari
-  url: https://doi.org/10.11588/data/EGOKEI
+  title: EpiSearch HTR
+  url: https://github.com/vedph/episearch-htr
   authors:
-  - name: Nicole
-    surname: Merkel-Hilf
-    orcid: 0000-0002-0344-6169
+  - name: Lorenzo
+    surname: Calvelli
+    orcid: 0000-0002-0920-9156
+    roles:
+    - project-manager
+  - name: Tatiana
+    surname: Tommasi
+    orcid: 0009-0000-2815-0113
     roles:
     - transcriber
-    - project-manager
-  - name: Daria
-    surname: Peshcherova
+  - name: Federico
+    surname: Boschetti
+    orcid: 0000-0002-7810-7735
     roles:
     - support
-  institutions:
-  - name: Heidelberg University Library
-  description: >-
-    Ground truth (GT) data (jpg and alto xml files) for an OCR model that
-    recognizes printed text in Devanagari script.
-
-
-    The GT data was trained on Transkribus with the HTR+ engine. The training was
-    performed on appr. 220 pages with appr. 27,000 words. The validation set was
-    10% of the training set.
-
-
-    The training material is comprised of letterpress printings from the Naval
-    Kishore Press (Lakhnau, North India) from the late 19th and early 20th century
-    in the Hindi, Sanskrit, Braj Bhasha and Awadhi languages.
-
-
-    Transcription was performed by Nicole Merkel-Hilf (CATS Library / Heidelberg
-    University Library) with support by Daria Peshcherova (CATS Library /
-    Heidelberg University Library).
-  project-name: Naval Kishore Press - digital
-  project-website: https://digi.ub.uni-heidelberg.de/en/sammlungen/suedasien/navalkishore.html
-  language:
-  - hin
-  - san
-  - bra
-  production-software: Transkribus
-  script:
-  - iso: Deva
-  script-type: only-typed
-  time:
-    notBefore: '1880'
-    notAfter: '1953'
-  hands:
-    count: less-than-11
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: lines
-    count: 4333
-  transcription-guidelines: Diplomatic transcription, no correction of mispelling
-  automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n\
-    \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n\
-    \  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n\
-    \  publisher = {heiDATA},\n  year = {2022}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Eutyches
-  url: https://github.com/malamatenia/Eutyches
-  authors:
-  - name: Vlachou Efstathiou
-    surname: Malamatenia
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
   institutions: []
-  description: >-
-    Ground truth for minuscule caroline of the late 9th century from the
-    grammatical work "de uerbo" of Eutychès. 
-  project-name: Eutyches grammaticus glossed
+  description: Ground Truth for Astori’s letters (see the README.md file for details)
+  project-name: EpiSearch
+  project-website: https://github.com/vedph/episearch-htr
   language:
-  - lat
-  - grc
+  - ita
   production-software: eScriptorium + Kraken
   script:
   - iso: Latn
-    qualify: Minuscule Caroline
   script-type: only-manuscript
   time:
-    notBefore: '850'
-    notAfter: '900'
+    notBefore: '1705'
+    notAfter: '1709'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 34
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Éditer la correspondance de Constance de Salm (1767-1845)
+  url: https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain
+  authors:
+  - name: Biay
+    surname: Sébastien
+    roles:
+    - transcriber
+  institutions: []
+  description: >-
+    La correspondance de Constance de Salm (femme de lettres française) comprend
+    différents spécimens d’écriture du début du XIXe siècle. Le jeu de données
+    atteste les mains de quatre copistes différents.
+  project-website: https://dhiha.hypotheses.org/2945
+  language:
+  - fra
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1800'
+    notAfter: '1825'
   hands:
     count: less-than-11
     precision: estimated
@@ -95,407 +72,17 @@
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   sources:
-  - reference: Codices Vossiani Latini, Brill , VLO41
-    link: >-
-      https://primarysources.brillonline.com/browse/vossiani-latini/vlo-041-eutyches-grammaticalia-isidorus-alphabeta
+  - reference: >-
+      Salm, C. de (1767-1845). Correspondance. Société des Amis du Vieux Toulon
+      et de sa Région, Fonds Salm. Archiv Schloss Dyck, fonds Constance de Salm.
+    link: ''
   volume:
-  - metric: pages
-    count: 65
-  citation-file-link: https://github.com/malamatenia/Eutyches/blob/main/CITATION.cff
+  - metric: lines
+    count: 1754
   transcription-guidelines: >-
-    Graphematic transcription, following the guidelines of CREMMA-medieval.
-    Spacing has been reestablished when dealing with semicontinua, s for long s,
-    loyal to the manuscript for capital letters, abbreviations preserved,
-    punctuation reduced to ";" and ".". The few greek passages have been also been
-    preserved, and some of the essais de plume as well (when  forming full
-    words).  Annotation of the layout made with SegmOnto controlled vocabulary.
+    Usages scribaux respectés : abréviations, fautes, accentuation respectés.
+    Allographes normalisés (s long).
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\n\
-    title = {Eutyches \"de uerbo\" glossed}\n}\n"
-  _apa: "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Bullinger HTR Dataset
-  url: https://github.com/pstroe/bullinger-htr
-  authors:
-  - name: Phillip Benjamin
-    surname: Ströbel
-    orcid: 0000-0003-2063-5495
-    roles:
-    - aligner
-    - support
-  - name: Tobias
-    surname: Hodel
-    orcid: 0000-0002-2071-6407
-    roles:
-    - aligner
-    - project-manager
-  - name: Christian
-    surname: Sieber
-    orcid: 0000-0002-9364-6921
-    roles:
-    - digitization
-  - name: Patricia
-    surname: Scheurer
-    roles:
-    - quality-control
-    - support
-  - name: David Selim
-    surname: Schoch
-    orcid: 0000-0002-9936-8459
-    roles:
-    - aligner
-  - name: Anna
-    surname: Janka
-    roles:
-    - aligner
-  - name: Raphael
-    surname: Schwitter
-    roles:
-    - aligner
-  - name: Beat
-    surname: Wolf
-    roles:
-    - aligner
-  - name: Jonas
-    surname: Widmer
-    roles:
-    - aligner
-  - name: Peter
-    surname: Rechsteiner
-    roles:
-    - quality-control
-    - support
-  - name: Raphael
-    surname: Müller
-    roles:
-    - quality-control
-    - digitization
-    - support
-  institutions: []
-  description: >-
-    This dataset contains 165,673 image and corresponding text line files (.png
-    for images and .txt for the texts) in a random 80/10/10 training, validation
-    and test set split. The source is the extensive correspondence of Swiss
-    reformer Heinrich Bullinger (1504-1575) and his over 800 different
-    correspondents. It therefore contains great variety in handwriting styles.
-    Furthermore, it is multilingual since there are Latin and Early New High
-    German (and sometimes mixed) letters. The data is split into Latin and Early
-    New High German (determined with langid) and put into separate folders (de for
-    Early New High German and la for Latin).
-  project-website: https://www.bullinger-digital.ch/
-  language:
-  - lat
-  - deu
-  production-software: Transkribus, own
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1523'
-    notAfter: '1575'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Image-Text-Pairs
-  volume:
-  - metric: lines
-    count: 165673
-  automatically-aligned: true
-  transcription-guidelines: Automated transcript alignment with Transkribus
-- authors:
-  - name: Alix
-    orcid: 0000-0002-0136-4434
-    roles:
-    - transcriber
-    - aligner
-    - quality-control
-    surname: Chagué
-  - name: Pascal
-    roles:
-    - project-manager
-    surname: Dubourg Glatigny
-  - name: Gilles
-    roles:
-    - transcriber
-    surname: Pérez
-  characters:
-    members:
-    - e
-    - s
-    - a
-    - t
-    - n
-    - i
-    - r
-    - u
-    - o
-    - l
-    - d
-    - m
-    - c
-    - p
-    - E
-    - ','
-    - ́
-    - .
-    - v
-    - A
-    - f
-    - ’
-    - I
-    - S
-    - N
-    - g
-    - q
-    - R
-    - T
-    - O
-    - ̀
-    - '-'
-    - b
-    - L
-    - h
-    - U
-    - C
-    - j
-    - '1'
-    - D
-    - M
-    - P
-    - '"'
-    - x
-    - '2'
-    - ̂
-    - V
-    - y
-    - H
-    - '3'
-    - J
-    - '9'
-    - '4'
-    - B
-    - G
-    - (
-    - F
-    - '0'
-    - )
-    - K
-    - '7'
-    - '5'
-    - ']'
-    - '?'
-    - '8'
-    - ':'
-    - '['
-    - '6'
-    - Q
-    - ̧
-    - z
-    - k
-    - Y
-    - /
-    - ;
-    - Z
-    - X
-    - °
-    - '#'
-    - ^
-    - '='
-    - ⋎
-    - →
-    - ̈
-    - '!'
-    - '{'
-    - w
-    - W
-    - +
-    - ̆
-    - '*'
-    - '%'
-    - '>'
-    - <
-    - '~'
-    mode: NFD
-  description: Ground Truth for the Digital Peraire project.
-  format: Alto-XML
-  hands:
-    count: '1'
-    precision: exact
-  institutions:
-  - name: Azentis
-    roles:
-    - digitization
-  language:
-  - fra
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  production-software: eScriptorium + Kraken
-  project-name: Digital Peraire
-  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notAfter: '1990'
-    notBefore: '1928'
-  title: Peraire Ground Truth
-  transcription-guidelines: Les mots barrés sont transcrits par "><". Les textes suscrits
-    ne sont pas signalés. Ce qui est écrit est transcrits. S'il y a des incertitutes,
-    la ligne est laissée vide. La segmentation de certains documents ne convient pas
-    pour l'entraînement d'un modèle de segmentation. L'ontologie SegmOnto a été utilisée.
-    Quand les mots ajoutés sont insérés par un '⋎', ce graphème est transcrit par
-    un ⋎.
-  url: https://github.com/alix-tz/peraire-ground-truth
-  volume:
-  - count: 97505
-    metric: characters
-  - count: 67
-    metric: files
-  - count: 2307
-    metric: lines
-  - count: 151
-    metric: regions
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Pérez, Gilles},\n\
-    doi = {10.5281/zenodo.7185907},\nmonth = {6},\ntitle = {Peraire Ground Truth},\n\
-    url = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2023}\n}\n"
-  _apa: "Chagué A., Pérez G. (2023). Peraire Ground Truth (version 2.0.0). DOI: 10.5281/zenodo.7185907\
-    \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Moonshines
-  url: https://github.com/alix-tz/moonshines
-  authors:
-  - name: Alix
-    surname: Chagué
-    orcid: 0000-0002-0136-4434
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-    - digitization
-  institutions: []
-  description: This dataset is composed of pages of text written in 2023 by a single
-    person, copying texts taken from Guillaume Apollinaire's poems published in Alcools,
-    and taken from Guillaume Apollinaire's Wikipedia page.
-  language:
-  - fra
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '2023'
-    notAfter: '2023'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 27734
-  - metric: files
-    count: 45
-  - metric: lines
-    count: 1016
-  - metric: regions
-    count: 45
-  citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
-  transcription-guidelines: The transcription strictly follows what is written on
-    the images, including accentuation or capitalization errors. The segmentation
-    follows the SegmOnto ontology and mostly relies on MainZone and DefaultLine. Beware
-    that this dataset barely contains any ponctuation and that most lines begin with
-    a capital letter.
-  characters:
-    mode: NFD
-    members:
-    - e
-    - s
-    - a
-    - n
-    - r
-    - i
-    - t
-    - u
-    - o
-    - l
-    - d
-    - m
-    - c
-    - p
-    - ́
-    - "'"
-    - v
-    - g
-    - b
-    - h
-    - ̀
-    - f
-    - L
-    - q
-    - E
-    - '1'
-    - A
-    - C
-    - x
-    - y
-    - ̂
-    - S
-    - '9'
-    - P
-    - M
-    - j
-    - T
-    - D
-    - '-'
-    - N
-    - J
-    - R
-    - '0'
-    - z
-    - O
-    - I
-    - '2'
-    - '8'
-    - V
-    - F
-    - G
-    - U
-    - '5'
-    - B
-    - Q
-    - )
-    - H
-    - '3'
-    - (
-    - '7'
-    - '6'
-    - w
-    - k
-    - '4'
-    - ̧
-    - K
-    - Z
-    - ̈
-    - Y
-    - '{'
-    - '}'
-    - W
-    - .
-    - X
-    - ','
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {0.5281/zenodo.607720783},\n\
-    month = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\n\
-    year = {2023}\n}\n"
-  _apa: "Chagué A. (2023). moonshines (version 2.0.0). DOI: 0.5281/zenodo.607720783\
-    \ URL: https://github.com/alix-tz/moonshines\n"
 
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Dataset for late medieval Castilian text recognition '
@@ -853,284 +440,106 @@
   _apa: "Aruta D., Lenzi M., Le Huërou A., Possamaï M., Pinche A. (2023). Liber URL:\
     \ https://github.com/CIHAM-HTR/Liber/data\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: OCR17plus
-  url: https://github.com/e-ditiones/OCR17plus
-  project-name: E-ditiones
-  project-website: https://e-ditiones.huma-num.fr/
-  authors:
-  - name: Gabay
-    surname: Simon
-    roles:
-    - transcriber
-    - project-manager
-    - support
-  - name: Jahan
-    surname: Claire
-    roles:
-    - transcriber
-    - aligner
-  description: Imprimés classiques
-  language:
-  - frm
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1600'
-    notAfter: '1700'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 25628
-    metric: lines
-  - count: 965
-    metric: files
-  - count: 3923
-    metric: regions
-  - count: 686335
-    metric: characters
-  production-software: Transkribus
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jahan, Claire and Gabay, Simon},\n\
-    doi = {none},\nmonth = {7},\ntitle = {OCR17+ - Layout analysis and text recognition\
-    \ for 17th c. French prints},\nurl = {https://github.com/e-ditiones/OCR17plus},\n\
-    year = {2021}\n}\n"
-  _apa: "Jahan C., Gabay S. (2021). OCR17+ - Layout analysis and text recognition\
-    \ for 17th c. French prints (version 1.0). DOI: none URL: https://github.com/e-ditiones/OCR17plus\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
-  url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
-  authors:
-  - name: Pauline
-    surname: Jacsont
-    orcid: 0000-0002-6296-3246
-    roles:
-    - project-manager
-    - transcriber
-    - aligner
-    - quality-control
-  - name: Simon
-    surname: Gabay
-    orcid: 0000-0001-9094-4475
-    roles:
-    - project-manager
-    - quality-control
-    - support
-  - name: Tristan
-    surname: Weddigen
-    orcid: 0000-0002-4609-8950
-    roles:
-    - support
-  institutions: []
-  description: HTR data made with the Kunsthistorisches UZH corpus.
-  project-name: FoNDUE
-  project-website: https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
-  language:
-  - deu
-  - fra
-  - ita
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: evenly-mixed
-  time:
-    notBefore: '1900'
-    notAfter: '1999'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: pages
-    count: 1100
-  citation-file-link: >-
-    https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff
-  transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations\
-    \ are resolved. \LItems that are crossed out or struck through will be transcribed\
-    \ with a \"€\"."
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: FoNDUE Spanish chapbooks 19th c. Dataset
-  url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
-  authors:
-  - name: Carta
-    surname: Constance
-    roles:
-    - transcriber
-    - project-manager
-  - name: Leblanc
-    surname: Élina
-    roles:
-    - digitization
-  - name: Jacsont
-    surname: Pauline
-    roles:
-    - digitization
-  - name: Palacios
-    surname: Belinda
-    roles:
-    - transcriber
-    - quality-control
-  - name: Bermudez
-    surname: Luana
-    roles:
-    - transcriber
-    - quality-control
-  description: Digital editions of the second part of the Genevan Spanish chapbooks
-    collection (19th c.).
-  project-name: Desenrollando El Cordel
-  project-website: https://github.com/DesenrollandoElCordel
-  language:
-  - cat
-  - spa
-  - lat
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1770'
-    notAfter: '1920'
-  hands:
-    count: more-than-10
-    precision: exact
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  sources:
-  - reference: ''
-    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502
-  - reference: ''
-    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502
-  volume:
-  - metric: characters
-    count: 270718
-  - metric: lines
-    count: 12526
-  - metric: pages
-    count: 198
-  citation-file-link: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff
-  transcription-guidelines: "Les règles de transcription suivante ont été adoptées\
-    \ :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter la ponctuation\
-    \ ;\n- Respecter les espaces ;\n- Respecter les retours à la ligne ;\n- Respecter\
-    \ la graphie des mots (ne pas corriger les erreurs s’il y en a) ;\n- Supprimer\
-    \ le bruit (tâches qui ont été prises pour du texte par l’OCR)."
-  production-software: eScriptorium + Kraken
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: FoNDUE-GasparoSardiToponomasia-Dataset
-  url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
-  authors:
-  - name: Jacsont
-    surname: Pauline
-    roles:
-    - transcriber
-    - quality-control
-    - digitization
-  - name: Mittenhuber
-    surname: Florian
-  institutions: []
-  description: >-
-    Dataset produced as for the project to edit Gasparo Sardi’s Toponomasia from
-    codex 174 of the Burgerbibliothek of Bern. Images are available on request by
-    writing to: pauline.jacsont [ at ] unige.ch.
-  project-name: FoNDUE
-  language:
-  - lat
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  - iso: Grek
-  script-type: only-manuscript
-  time:
-    notBefore: '1561'
-    notAfter: '1570'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  sources:
-  - reference: ''
-    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
-  volume:
-  - metric: pages
-    count: 49
-  citation-file-link: >-
-    https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
-  transcription-guidelines: " The transcriptions were made following the rules of\
-    \ the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval.\
-    \ The transcription is strictly diplomatic and graphmatic. No abbreviations are\
-    \ resolved, no standardization of 'i' and 'v' with ramist letters, and accents,\
-    \ punctuation, spaces, and line breaks are strictly adhered to. Following Leiden\
-    \ conventions, crossed out or crossed out elements are transcribed with double\
-    \ brackets ⟦⟧, and elements that are illegible in the picture will not be restored\
-    \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
-    \ to the MUFI fonts."
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: TariMa
-  url: https://github.com/calfa-co/tarima
-  authors:
-  - name: Antoine
-    surname: Perrier
-    orcid: 0000-0002-5035-4283
-    roles:
-    - project-manager
+  title: Ground Truth data for printed Malayalam
+  url: https://doi.org/10.11588/data/L2KRZO
+  authors: []
   institutions:
-  - name: BULAC
+  - name: Tübingen University Library
     roles:
     - project-manager
   description: >-
-    The dataset has been collated within the frame of the TariMa project (Tarih
-    al-Maghrib. Writing History in the Maghreb in the modern and contemporary
-    era), sponsored by the French agency Collex-Persee and supervised by Antoine
-    Perrier (CNRS). It comprises different image resolution and size (width from
-    982px to 8049px), different layouts (double page, multiple columns), and state
-    of conservation. It also mixes microfilms, scans and lithographies. It
-    presents a very wide variety representative of the Maghrebi Arabic production.
-  project-website: https://www.collexpersee.eu/projet/tarima/
+    Ground Truth (GT) data (JPG and ALTO XML files) which can be used to train OCR
+    models that recognize printed text in Malayalam script. The training material
+    is gathered from 19th and 20th centuries prints.
+
+
+    The GT data was trained in Transkribus with the HTR+ and the PyLaia engine
+    with a resulting CER of 2.29% on validation set with HTR+ and 3,20% with
+    PyLaia. The training was performed on 43 pages with appr. 9,000 words. The
+    validation set consisted of 5 pages (ca. 1,000 words).
+
+
+    Transcription was performed by Tübingen University Library, the Ground Truth
+    data was created by Elena Mucciarelli (University of Groningen) with support
+    and model training by Dorothee Huff (Tübingen University Library).
+    (2022-11-02)
+  project-name: DigitalSouthAsia
+  project-website: http://idb.ub.uni-tuebingen.de/digitue/southasia
   language:
-  - ara
-  production-software: Calfa Vision
+  - mal
+  production-software: Transkribus
   script:
-  - iso: Arab
-    qualify: Maghrebi
-  script-type: mainly-manuscript
+  - iso: Mlym
+  script-type: only-typed
   time:
-    notBefore: '1500'
-    notAfter: '1899'
+    notBefore: '1850'
+    notAfter: '1996'
   hands:
-    count: more-than-10
-    precision: estimated
+    count: unknown
+    precision: exact
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Page-XML
-  sources:
-  - reference: ''
-    link: https://github.com/calfa-co/tarima
   volume:
-  - metric: files
-    count: 120
-  - metric: lines
-    count: 2673
-  - metric: characters
-    count: 146667
+  - metric: pages
+    count: 43
+  _bibtex: "@misc{https://doi.org/10.11588/data/l2krzo,\n  doi = {10.11588/DATA/L2KRZO},\n\
+    \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/L2KRZO},\n\
+    \  author = {{Tübingen University Library}},\n  title = {Ground Truth data for\
+    \ printed Malayalam},\n  publisher = {heiDATA},\n  year = {2023}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Eutyches
+  url: https://github.com/malamatenia/Eutyches
+  authors:
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+  institutions: []
+  description: >-
+    Ground truth for minuscule caroline of the late 9th century from the
+    grammatical work "de uerbo" of Eutychès. 
+  project-name: Eutyches grammaticus glossed
+  language:
+  - lat
+  - grc
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+    qualify: Minuscule Caroline
+  script-type: only-manuscript
+  time:
+    notBefore: '850'
+    notAfter: '900'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: Codices Vossiani Latini, Brill , VLO41
+    link: >-
+      https://primarysources.brillonline.com/browse/vossiani-latini/vlo-041-eutyches-grammaticalia-isidorus-alphabeta
+  volume:
+  - metric: pages
+    count: 65
+  citation-file-link: https://github.com/malamatenia/Eutyches/blob/main/CITATION.cff
   transcription-guidelines: >-
-    We follow the RASAM guidelines for the transcription of Arabic Maghrebi
-    manuscripts.
+    Graphematic transcription, following the guidelines of CREMMA-medieval.
+    Spacing has been reestablished when dealing with semicontinua, s for long s,
+    loyal to the manuscript for capital letters, abbreviations preserved,
+    punctuation reduced to ";" and ".". The few greek passages have been also been
+    preserved, and some of the essais de plume as well (when  forming full
+    words).  Annotation of the layout made with SegmOnto controlled vocabulary.
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\n\
+    title = {Eutyches \"de uerbo\" glossed}\n}\n"
+  _apa: "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: The POPP datasets
   url: https://zenodo.org/record/6581158
@@ -1216,6 +625,801 @@
     \  = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n\
     }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
+  url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
+  authors:
+  - name: Geelhaar
+    surname: Tim
+    orcid: 0000-0002-7653-5859
+    roles:
+    - transcriber
+    - project-manager
+  - name: D'Amico
+    surname: Sara
+    orcid: 0000-0002-8937-2040
+    roles:
+    - transcriber
+  - name: Hofmann
+    surname: Lara
+    orcid: 0000-0003-4698-3906
+    roles:
+    - transcriber
+  - name: Gnasso
+    surname: Alessandro
+    orcid: 0000-0001-5964-2989
+    roles:
+    - transcriber
+  - name: Audebrand
+    surname: Justine
+    roles:
+    - transcriber
+  - name: Stitts
+    surname: Jeremy
+    orcid: 0000-0001-6988-1836
+    roles:
+    - transcriber
+  - name: Sweeney
+    surname: Mary
+    orcid: 0000-0001-7028-2072
+    roles:
+    - transcriber
+  - name: Atwood
+    surname: Grace
+    orcid: 0000-0002-1546-6546
+    roles:
+    - transcriber
+  institutions: []
+  description: >-
+    This is Ground Truth data created during the HTR Winter School 2022 for the
+    Cod. 2160 ÖNB that contains one version of the so called Lex Dei. 
+  project-name: HTR Winter School 2022, Vienna
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+    qualify: Carolingian Minuscule
+  script-type: only-manuscript
+  time:
+    notBefore: '850'
+    notAfter: '900'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: http://data.onb.ac.at/rec/AC13956457
+  volume:
+  - metric: pages
+    count: 40
+  transcription-guidelines: >-
+    Abbreviations resolved, but no normalization and no correcting of mispelling.
+    No transcription of initials and interlinear script.
+  automatically-aligned: false
+  _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
+    \            Sweeney and\n                  Stitts and\n                  Audebrand\
+    \ and\n                  D'Amico and\n                  Geelhaar and\n       \
+    \           Hofmann and\n                  Gnasso},\n  title        = {{Wien ÖNB\
+    \ Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
+    \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
+    \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
+    }"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Padeřov-Bible-handwriting-ground-truth
+  url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
+  authors:
+  - name: Anna
+    surname: Michalcová
+    orcid: 0000-0003-4760-6950
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - support
+  - name: Jan
+    surname: Odstrčilík
+    orcid: 0000-0001-9104-9827
+    roles:
+    - project-manager
+    - support
+  - name: Laura
+    surname: Maniaková
+    roles:
+    - transcriber
+  - name: Eliška
+    surname: Pěnkavová
+    orcid: 0000-0002-5494-8847
+  - name: Kamil
+    surname: Bazelides
+    orcid: 0000-0002-5199-8726
+  - name: Jan
+    surname: Hajič
+    orcid: 0000-0002-9207-567X
+  - name: Hana
+    surname: Kreisingerová
+    orcid: 0000-0002-2924-598X
+  - name: Jitka
+    surname: Filipová
+    orcid: 0000-0002-3570-4038
+  - name: Chi-hung
+    surname: Liu
+  - name: Martina
+    surname: Dvořáková
+  institutions:
+  - name: Institute of the Czech Language
+  - name: Masaryk Institute and Archives
+  description: >-
+    This is ground truth based on the Padeřov Bible (Vienna, Austrian National
+    Library, shelfmark Cod. 1175, 1432–1435), the bible of the third redaction of
+    the Old Czech Bible translation. The transcription rules were based on
+    semi-diplomatic transcription rules set by PERO OCR and Směrnice pro vydávání
+    starších českých textů set by Jiří Daňhelka
+    (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice).
+    Abbreviations were tagged and expanded.
+  project-name: HTR Winter School 2022, Vienna
+  project-website: >-
+    https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition-1
+  language:
+  - ces
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1432'
+    notAfter: '1435'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  sources:
+  - reference: ''
+    link: >-
+      https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21302405460003338&context=L&adaptor=Local%20Search%20Engine&vid=ONB&lang=de_DE&search_scope=ONB_gesamtbestand&tab=default_tab&query=addsrcrid,exact,AC13954505
+  volume:
+  - metric: pages
+    count: 63
+  transcription-guidelines: >-
+    Transliteration. Differentiates long and short "s". Abbreviations tagged and
+    expanded. No misspelling corrections.
+  automatically-aligned: false
+  _bibtex: "@dataset{michalcova_anna_2022_7467034,\n  author       = {Michalcová,\
+    \ Anna and\n                  Bazelides, Kamil and\n                  Hajič, Jan\
+    \ and\n                  Pěnkavová, Eliška and\n                  Maniaková, Laura\
+    \ and\n                  Kreisingerová, Hana and\n                  Filipová,\
+    \ Jitka and\n                  Chi-hung Lu and\n                  Dvořáková, Martina},\n\
+    \  title        = {{Padeřov-Bible-handwriting-ground-truth: Initial \n       \
+    \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
+    \    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          =\
+    \ {https://doi.org/10.5281/zenodo.7467034}\n}"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
+  url: https://doi.org/10.5281/zenodo.7466927
+  authors:
+  - name: Berger
+    surname: Michael
+    orcid: 0000-0002-6627-5272
+  - name: Bolte
+    surname: Henrike
+  - name: Führer
+    surname: Veronika
+    orcid: 0000-0003-3145-4083
+  - name: Hausleitner
+    surname: Felix
+    orcid: 0000-0002-9788-8127
+  - name: Hutterer
+    surname: Sarah
+  - name: Lüthi
+    surname: Tim
+    orcid: 0000-0003-1925-7175
+  - name: Nancu
+    surname: Mihaela
+  - name: Passoni
+    surname: Erica
+  - name: Pataki
+    surname: Katalin
+    orcid: 0000-0003-0331-8295
+  - name: Schröcksnadel
+    surname: Sophie
+  - name: Verri
+    surname: Giovanni
+    orcid: 0000-0002-1297-2152
+  - name: Wegener
+    surname: Dennis
+    orcid: 0000-0002-9410-9191
+  institutions: []
+  description: >-
+    This is ground truth for the vast collection of sermons of Nikolaus von
+    Dinkelsbühl (ca. 1360 to 17th March 1433), translated and reorganised by a
+    German redactor, from the 15th century has never been edited until now. It
+    consists of 361 folios of parchment and paper. The text speaks about various
+    topics such as fasting and other religious practices. Being one of the leading
+    intellectuals of his time, Nikolaus von Dinkelsbühl also contributed to the
+    development of the University of Vienna. The manuscript was probably produced
+    in the vicinity of Klosterneuburg in Austria and is still kept there today
+    (Shelfmark: Cod. 48).
+
+
+    Data collection and ground truth creation:
+
+
+    The edition at hand was produced by an international team of researchers from
+    various fields in the context of the Vienna HTR Winter School 2022 with the
+    help of Transkribus Expert Client.
+
+
+    We uploaded the images of the manuscript into the Transkribus platform,
+    applied the line recognition tool and manually copied the transcribed text
+    lines into the recognised line boxes. Various models were trained with the
+    ground truth (20% of the entire codex) created by the team.
+
+
+    Images of the Klosterneuburg, Augustiner-Chorherrenstift, Cod. 48 are
+    available at: https://manuscripta.at/diglit/AT5000-48/0001
+  project-name: HTR Winter School 2022, Vienna
+  language:
+  - gmh
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1440'
+    notAfter: '1449'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: pages
+    count: 68
+  - metric: lines
+    count: 4605
+  automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n\
+    \  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and\
+    \ Bolte, Henrike and Führer, Veronika and Hausleitner, Felix and Hutterer, Sarah\
+    \ and Lüthi, Tim and Nancu, Mihaela and Passoni, Erica and Pataki, Katalin and\
+    \ Schröcksnadel, Sophie and Verri, Giovanni and Wegener, Dennis and Hofert, Sandra},\n\
+    \  keywords = {Digital Humanities, Handwritten Text Recognition, German, Nikolaus-von-Dinkelsbühl-Redaktor},\n\
+    \  title = {Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release},\n\
+    \  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution\
+    \ 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: ÖNB, Cod. 3891. Ground Truth
+  url: 10.5281/zenodo.7467249
+  authors:
+  - name: Ainonen
+    surname: Tuija
+    roles:
+    - transcriber
+  - name: Andresen
+    surname: Suse
+    roles:
+    - transcriber
+  - name: Bakker
+    surname: Loïs
+    roles:
+    - transcriber
+  - name: Boylan
+    surname: Amy
+    roles:
+    - transcriber
+  - name: Della Manna
+    surname: Silvia
+    roles:
+    - transcriber
+  - name: Dziemski
+    surname: Wiktor
+    orcid: 0000-0001-8166-2249
+  - name: Henderson
+    surname: C. E. M.
+    orcid: 0000-0002-5040-9926
+    roles:
+    - transcriber
+  - name: ' Impagnatiello'
+    surname: Michele
+    roles:
+    - transcriber
+  - name: Jenko Kovačič
+    surname: Ana
+    orcid: 0000-0001-7243-7082
+    roles:
+    - transcriber
+  - name: Komatović
+    surname: Stevan
+    roles:
+    - transcriber
+  - name: Ku
+    surname: Ruby Wai-Ying
+    orcid: 0000-0003-2688-6287
+    roles:
+    - transcriber
+  - name: Loss
+    surname: Edward
+    orcid: 0000-0002-9837-8321
+    roles:
+    - transcriber
+  - name: Mairhofer
+    surname: Daniela
+    orcid: 0000-0002-3531-9658
+    roles:
+    - transcriber
+    - project-manager
+  - name: Morcos
+    surname: Erene
+    roles:
+    - transcriber
+  - name: Odstrčilík
+    surname: Jan
+    orcid: 0000-0001-9104-9827
+    roles:
+    - transcriber
+  - name: Paternicò
+    surname: Giuseppe
+    orcid: 0000-0002-7124-8869
+    roles:
+    - transcriber
+  - name: Riparante
+    surname: Marta
+    roles:
+    - transcriber
+  - name: Schimdt
+    surname: Nathalie
+    roles:
+    - transcriber
+  - name: Sołomieniuk
+    surname: Michal
+    roles:
+    - transcriber
+  - name: Walczak
+    surname: 'Tomasz '
+    roles:
+    - transcriber
+  - name: Zharov
+    surname: Dmitry
+    roles:
+    - transcriber
+  institutions: []
+  description: >-
+    The Ground Truth was produced by the participants of the HTR Winter School
+    2022 in the Late Latin Group (more information:
+    https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition).
+
+
+    The Ground Thruth includes the following folios: 1-3r, 6-8, 11r, 27 and is
+    still work in progress. We are adding more pages soon. If you find any errors
+    we kindly ask you to contact Jan Odstrčilík (jan.odstrcilik@oeaw.ac.at).
+
+
+    The Supervisors of the Late Latin Group: Jan Odstrčilík PhD, Austrian Acadamy
+    of Sciences, Daniela Mairhofer PhD, Princeton University, Tobias Hodel PhD,
+    University of Bern.
+  project-name: HTR Winter School 2022, Vienna
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1299'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 952
+  transcription-guidelines: |-
+    Regular transcription with expansion of abbreviations. 
+    - Normalization of J to I 
+    - V to U in the vowel function, U to V in the consonant function
+    - long S to S. 
+    - No correction of mispellings (tagged in the ground truth)
+    - No standardization of lower-case and upper-case letters
+    - No added interpunction
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés
+    de Paris et du département de la Seine (1898-1923)
+  url: http://dx.doi.org/10.34847/nkl.acb724xs
+  project-name: "Groupe annuaires et adresses - Consortium Huma-num Paris Time Machine\n"
+  project-website: https://paris-timemachine.huma-num.fr/groupe-adresses-et-annuaires/
+  authors:
+  - name: Elgarrista
+    surname: Gabriela
+    roles:
+    - transcriber
+    - quality-control
+  - name: Mélanie-Becquet
+    surname: Frédérique
+    roles:
+    - project-manager
+    - quality-control
+  - name: Brando
+    surname: Carmen
+    roles:
+    - project-manager
+    - quality-control
+  description: "Annuaire des propriétaires et des propriétés de Paris et du département\
+    \ de la Seine. Lien dans le catalogue de la BNF : https://catalogue.bnf.fr/ark:/12148/cb32697229h.\
+    \ Crédits : Bibliothèque nationale de France. Données vérité de terrain résultant\
+    \ de la transcription et la segmentation manuelle d’un échantillon de 169 pages\
+    \ des annuaires appartenant aux volumes 1898 et 1923. Un modèle de transcription\
+    \ HTR+ a été entrainé à partir de cet échantillon grâce à Transkribus et est disponible\
+    \ sur cette plateforme en mode public. Ce modèle est valable pour transcrire automatiquement\
+    \ les volumes de 1903 et 1913 et tout autre document imprimé à deux colonnes et\
+    \ en utilisant l'alphabet latin et particulièrement en français. Le choix de l'échantillon\
+    \ est fait par critère alphabétique car c'est le mode d'organisation de l'information\
+    \ dans ce document. Les accolades présentes dans le document n'ont pas été segmentées.\
+    \ 118 pages pour entrainer et 51 pages pour validation.\nContexte et financement\
+    \ : Subvention DAHN (Dispositif de soutien à l'archivistique et aux humanités\
+    \ numériques) par le MESRI. Equipes : Consortium Paris Time Machine - TGIR Humanum\
+    \ EHESS / CNRS / LATTICE / INRIA Contact si besoin d'anonymiser les noms de personnes\
+    \ : carmen.brando@ehess.fr.\n"
+  language:
+  - fra
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1898'
+    notAfter: '1923'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - count: 169
+    metric: pages
+  - count: 19022
+    metric: lines
+  - count: 641401
+    metric: characters
+  transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas été\
+    \ segmentées.\n"
+  production-software: Transkribus
+  automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n\
+    \  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen\
+    \ and Elgarrista, Gabriela and Mélanie-Becquet, Frédérique},\n  keywords = {Paris,\
+    \ Historical source material, HTR, Transcripción, Apprentissage (intelligence\
+    \ artificielle)},\n  language = {fr},\n  title = {Données vérité de terrain HTR+\
+    \ Annuaire des propriétaires et des propriétés de Paris et du département de la\
+    \ Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n\
+    \  year = {2021}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Joseph Hooker HTR
+  url: https://github.com/jschaefer738b/JosephHookerHTR.git
+  authors:
+  - name: John
+    surname: Schaefer
+    orcid: 0009-0006-5751-9323
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+  - name: Kiri
+    surname: Ross-Jones
+    roles:
+    - support
+  - name: Alexis
+    surname: Litvine
+    roles:
+    - support
+  institutions:
+  - name: Royal Botanic Gardens, Kew
+  - name: University of Cambridge
+  description: >-
+    XML transcriptions and JPEG images exported from Transkribus as ground truth
+    for an eScriptorium-Kraken HTR model (CER 11-12%) trained on the correspondence
+    of Joseph
+    Dalton Hooker (1817-1911), primarily letters to William Turner Thiselton-Dyer
+    (1843-1928) during the late-19th/early-20th century. Many transcriptions in
+    this dataset were generated by a small team of anonymous volunteers as part of
+    the Joseph Hooker Correspondence Project based at Kew Gardens. All images in
+    this dataset are reproduced with the kind permission of the Board of Trustees
+    of the Royal Botanic Gardens Kew (© RBG, Kew). Contact archives@kew.org for
+    more information.
+
+
+    HTR Model: Schaefer, John, & Litvine, Alexis. (2023). Joseph Hooker HTR Model.
+    Zenodo. https://doi.org/10.5281/zenodo.8038689
+  project-name: Joseph Hooker Correspondence Project
+  project-website: >-
+    https://www.kew.org/science/our-science/projects/joseph-hooker-correspondence-project
+  language:
+  - eng
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1850'
+    notAfter: '1911'
+  hands:
+    count: '1'
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 7100
+  - metric: files
+    count: 337
+  - metric: pages
+    count: 337
+  transcription-guidelines: >-
+    All horizontal lines in Hooker's hand were transcribed as originally written.
+    Most typescript and vertical lines in the margins were not included.
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+  url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
+  authors:
+  - name: Pauline
+    surname: Jacsont
+    orcid: 0000-0002-6296-3246
+    roles:
+    - project-manager
+    - transcriber
+    - aligner
+    - quality-control
+  - name: Simon
+    surname: Gabay
+    orcid: 0000-0001-9094-4475
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - name: Tristan
+    surname: Weddigen
+    orcid: 0000-0002-4609-8950
+    roles:
+    - support
+  institutions: []
+  description: HTR data made with the Kunsthistorisches UZH corpus.
+  project-name: FoNDUE
+  project-website: https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+  language:
+  - deu
+  - fra
+  - ita
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1900'
+    notAfter: '1999'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: pages
+    count: 1100
+  citation-file-link: >-
+    https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff
+  transcription-guidelines: "The transcription is strictly diplomatic: no abbreviations\
+    \ are resolved. \LItems that are crossed out or struck through will be transcribed\
+    \ with a \"€\"."
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: FoNDUE-GasparoSardiToponomasia-Dataset
+  url: https://github.com/PaulineJac/GasparoSardiToponomasia/tree/main/HTR
+  authors:
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - transcriber
+    - quality-control
+    - digitization
+  - name: Mittenhuber
+    surname: Florian
+  institutions: []
+  description: >-
+    Dataset produced as for the project to edit Gasparo Sardi’s Toponomasia from
+    codex 174 of the Burgerbibliothek of Bern. Images are available on request by
+    writing to: pauline.jacsont [ at ] unige.ch.
+  project-name: FoNDUE
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  - iso: Grek
+  script-type: only-manuscript
+  time:
+    notBefore: '1561'
+    notAfter: '1570'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: http://katalog.burgerbib.ch/detail.aspx?ID=340662
+  volume:
+  - metric: pages
+    count: 49
+  citation-file-link: >-
+    https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff
+  transcription-guidelines: " The transcriptions were made following the rules of\
+    \ the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval.\
+    \ The transcription is strictly diplomatic and graphmatic. No abbreviations are\
+    \ resolved, no standardization of 'i' and 'v' with ramist letters, and accents,\
+    \ punctuation, spaces, and line breaks are strictly adhered to. Following Leiden\
+    \ conventions, crossed out or crossed out elements are transcribed with double\
+    \ brackets ⟦⟧, and elements that are illegible in the picture will not be restored\
+    \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
+    \ to the MUFI fonts."
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: FoNDUE Spanish chapbooks 19th c. Dataset
+  url: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset
+  authors:
+  - name: Carta
+    surname: Constance
+    roles:
+    - transcriber
+    - project-manager
+  - name: Leblanc
+    surname: Élina
+    roles:
+    - digitization
+  - name: Jacsont
+    surname: Pauline
+    roles:
+    - digitization
+  - name: Palacios
+    surname: Belinda
+    roles:
+    - transcriber
+    - quality-control
+  - name: Bermudez
+    surname: Luana
+    roles:
+    - transcriber
+    - quality-control
+  description: Digital editions of the second part of the Genevan Spanish chapbooks
+    collection (19th c.).
+  project-name: Desenrollando El Cordel
+  project-website: https://github.com/DesenrollandoElCordel
+  language:
+  - cat
+  - spa
+  - lat
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1770'
+    notAfter: '1920'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  sources:
+  - reference: ''
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502
+  - reference: ''
+    link: https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502
+  volume:
+  - metric: characters
+    count: 270718
+  - metric: lines
+    count: 12526
+  - metric: pages
+    count: 198
+  citation-file-link: https://github.com/DesenrollandoElCordel/FoNDUE-Spanish-chapbooks-Dataset/blob/main/Grountruth/CITATION.cff
+  transcription-guidelines: "Les règles de transcription suivante ont été adoptées\
+    \ :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter la ponctuation\
+    \ ;\n- Respecter les espaces ;\n- Respecter les retours à la ligne ;\n- Respecter\
+    \ la graphie des mots (ne pas corriger les erreurs s’il y en a) ;\n- Supprimer\
+    \ le bruit (tâches qui ont été prises pour du texte par l’OCR)."
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Belfort
+  url: https://zenodo.org/record/8041668
+  authors:
+  - name: Solène
+    surname: Tarride
+    orcid: 0000-0001-6174-9865
+  - name: Tristan
+    surname: Faine
+  - name: Mélodie
+    surname: Boillet
+    orcid: 0000-0002-0618-7852
+  - name: Harold
+    surname: Mouchère
+    orcid: 0000-0001-6220-7216
+  - name: Christopher
+    surname: Kermorvant
+    orcid: 0000-0002-7508-4080
+  institutions: []
+  description: >
+    This dataset includes minutes of Belfort municipal council drawn up between
+    1790 and 1946. Documents include deliberations, lists of councillors,
+    convocations, and agendas. The dataset includes 24,105 text-line images that
+    were automatically detected from pages. 
+
+    Up to four transcriptions are available for each line image: 
+
+    * two from human annotators (in `Transcriptions/callico_1/` and
+    `Transcriptions/callico_2/`)
+
+    * two from automatic models (in `Transcriptions/dan/` and
+    `Transcriptions/pylaia/`) 
+  project-name: Handwritten Text Recognition from Crowdsourced Annotations
+  project-website: https://arxiv.org/abs/2306.10878
+  language:
+  - fra
+  production-software: Callico
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1790'
+    notAfter: '1946'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Image-Text-Pairs
+  sources:
+  - reference: >-
+      Solène Tarride, Tristan Faine, Mélodie Boillet, Harold Mouchère, &
+      Christopher Kermorvant. (2023). The Belfort dataset: Handwritten Text
+      Recognition from Crowdsourced Annotations [Data set]. 7th International
+      Workshop on Historical Document Imaging and Processing (HIP'23), San
+      José, California, USA. Zenodo. https://doi.org/10.5281/zenodo.8041668
+    link: https://arxiv.org/abs/2306.10878
+  volume:
+  - metric: lines
+    count: 24105
+  _bibtex: "@dataset{solene_tarride_2023_8041668,\n  author       = {Solène Tarride\
+    \ and\n                  Tristan Faine and\n                  Mélodie Boillet\
+    \ and\n                  Harold Mouchère and\n                  Christopher Kermorvant},\n\
+    \  title        = {{The Belfort dataset: Handwritten Text Recognition \n     \
+    \              from Crowdsourced Annotations}},\n  month        = jun,\n  year\
+    \         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n\
+    \  url          = {https://doi.org/10.5281/zenodo.8041668}\n}"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Shakespeare-Scott translations
   url: https://github.com/millawell/ocr-data
   project-name: "Publishing an OCR ground truth data set for reuse in an unclear copyright\
@@ -1263,6 +1467,59 @@
     link: https://zfdg.de/sb005_006
   citation-file-link: https://github.com/millawell/ocr-data/blob/master/citation.cff
   production-software: eScriptorium + Kraken
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: TariMa
+  url: https://github.com/calfa-co/tarima
+  authors:
+  - name: Antoine
+    surname: Perrier
+    orcid: 0000-0002-5035-4283
+    roles:
+    - project-manager
+  institutions:
+  - name: BULAC
+    roles:
+    - project-manager
+  description: >-
+    The dataset has been collated within the frame of the TariMa project (Tarih
+    al-Maghrib. Writing History in the Maghreb in the modern and contemporary
+    era), sponsored by the French agency Collex-Persee and supervised by Antoine
+    Perrier (CNRS). It comprises different image resolution and size (width from
+    982px to 8049px), different layouts (double page, multiple columns), and state
+    of conservation. It also mixes microfilms, scans and lithographies. It
+    presents a very wide variety representative of the Maghrebi Arabic production.
+  project-website: https://www.collexpersee.eu/projet/tarima/
+  language:
+  - ara
+  production-software: Calfa Vision
+  script:
+  - iso: Arab
+    qualify: Maghrebi
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1500'
+    notAfter: '1899'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  sources:
+  - reference: ''
+    link: https://github.com/calfa-co/tarima
+  volume:
+  - metric: files
+    count: 120
+  - metric: lines
+    count: 2673
+  - metric: characters
+    count: 146667
+  transcription-guidelines: >-
+    We follow the RASAM guidelines for the transcription of Arabic Maghrebi
+    manuscripts.
   automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: La Correspondances Jacques Doucet - René Jean
@@ -1401,117 +1658,140 @@
     count: 918
   automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés
-    de Paris et du département de la Seine (1898-1923)
-  url: http://dx.doi.org/10.34847/nkl.acb724xs
-  project-name: "Groupe annuaires et adresses - Consortium Huma-num Paris Time Machine\n"
-  project-website: https://paris-timemachine.huma-num.fr/groupe-adresses-et-annuaires/
+  title: >-
+    GT and HTR of VOC (Dutch East-Asia Company), WIC (Dutch West-Asia Company) and
+    notarial deeds.
+  url: https://doi.org/10.5281/zenodo.6414086
   authors:
-  - name: Elgarrista
-    surname: Gabriela
+  - name: Keijser
+    surname: Liesbeth
     roles:
     - transcriber
-    - quality-control
-  - name: Mélanie-Becquet
-    surname: Frédérique
-    roles:
     - project-manager
-    - quality-control
-  - name: Brando
-    surname: Carmen
+  - name: Noppe
+    surname: Vincent
+  institutions:
+  - name: National Archive Netherlands / Nationaal Archief
     roles:
-    - project-manager
-    - quality-control
-  description: "Annuaire des propriétaires et des propriétés de Paris et du département\
-    \ de la Seine. Lien dans le catalogue de la BNF : https://catalogue.bnf.fr/ark:/12148/cb32697229h.\
-    \ Crédits : Bibliothèque nationale de France. Données vérité de terrain résultant\
-    \ de la transcription et la segmentation manuelle d’un échantillon de 169 pages\
-    \ des annuaires appartenant aux volumes 1898 et 1923. Un modèle de transcription\
-    \ HTR+ a été entrainé à partir de cet échantillon grâce à Transkribus et est disponible\
-    \ sur cette plateforme en mode public. Ce modèle est valable pour transcrire automatiquement\
-    \ les volumes de 1903 et 1913 et tout autre document imprimé à deux colonnes et\
-    \ en utilisant l'alphabet latin et particulièrement en français. Le choix de l'échantillon\
-    \ est fait par critère alphabétique car c'est le mode d'organisation de l'information\
-    \ dans ce document. Les accolades présentes dans le document n'ont pas été segmentées.\
-    \ 118 pages pour entrainer et 51 pages pour validation.\nContexte et financement\
-    \ : Subvention DAHN (Dispositif de soutien à l'archivistique et aux humanités\
-    \ numériques) par le MESRI. Equipes : Consortium Paris Time Machine - TGIR Humanum\
-    \ EHESS / CNRS / LATTICE / INRIA Contact si besoin d'anonymiser les noms de personnes\
-    \ : carmen.brando@ehess.fr.\n"
+    - digitization
+    - support
+  description: >-
+    6000 ground truth of VOC and notarial deeds and 3.000.000 HTR of VOC, WIC and
+    notarial deeds
+
+    The National Archives of the Netherlands and Noord-Hollands Archief conducted
+    a project using the Transkribus HTR (Handwritten Text Recognition) platform.
+    The aim was to semi automatically transcribe 2 million pages of old Dutch
+    texts.
+
+
+    The transcribed archives are 17th and 18th century documents from the Dutch
+    East-Asia Company (VOC). And 19th century notarial deeds from Noord-Hollands
+    Archief and other archives in the provinces.
+
+
+    In order to train the HTR software a team produced transcriptions of
+    approximately 6000 scans. The scans are randomly selected from the dataset and
+    contain hundreds of hands. With these transcriptions a model is trained that
+    can recognize more than 90% of the characters correctly. Transkribus
+    transcribed the 2 million scans automatically using the trained model.
+
+
+    Later on, 1 million extra scans concerning the West India Company (WIC) were
+    transcribed automatically without adding extra ground truth or training. These
+    archives are from the 17th and 18th century.
+
+
+    The datasets published in Zenodo contain the ground truth (scans in JPG,
+    transcription in PAGE XML) and the HTR results (in PAGE XML and TXT). See the
+    overview on the Zenodo page.
+
+
+    A specification on which archives have been transcribed (both GT and HTR) can
+    be found on the Zenodo.
+
+
+    For open data access of scans and inventories of the National Archives click
+    here:
+    https://www.nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven
+    
+
+    Disclaimer: due to a variety of languages used and the bad state of the
+    documents the HTR results of "1.05.21, Dutch series Guyana" can be of poor
+    quality.
+  project-name: De ijsberg zichtbaar maken
+  project-website: >-
+    https://www.nationaalarchief.nl/beleven/nieuws/kijk-symposium-de-ijsberg-zichtbaar-maken-terug#:~:text=In%20het%20project%20De%20IJsberg,de%20website%20zoekintranscripties.nl%20ontwikkeld.
   language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1898'
-    notAfter: '1923'
-  hands:
-    count: less-than-11
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  volume:
-  - count: 169
-    metric: pages
-  - count: 19022
-    metric: lines
-  - count: 641401
-    metric: characters
-  transcription-guidelines: "Transcription diplomatique. Les accolades n'ont pas été\
-    \ segmentées.\n"
+  - nld
   production-software: Transkribus
-  automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n\
-    \  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen\
-    \ and Elgarrista, Gabriela and Mélanie-Becquet, Frédérique},\n  keywords = {Paris,\
-    \ Historical source material, HTR, Transcripción, Apprentissage (intelligence\
-    \ artificielle)},\n  language = {fr},\n  title = {Données vérité de terrain HTR+\
-    \ Annuaire des propriétaires et des propriétés de Paris et du département de la\
-    \ Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n\
-    \  year = {2021}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Projet Notre-Dame
-  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
-  project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
-  authors:
-  - name: Doat
-    surname: Soline
-    roles:
-    - transcriber
-  - name: Menu
-    surname: Ariane
-    roles:
-    - transcriber
-  - name: Falcoz
-    surname: Elsa
-    roles:
-    - transcriber
-  - name: Faure
-    surname: Margaux
-    roles:
-    - transcriber
-  - name: Mazoué
-    surname: Anaïs
-    roles:
-    - transcriber
-  description: "Le Projet Notre-Dame consiste en une transcription des journaux quotidiens\
-    \ de l’année 1860 (https://mediatheque-patrimoine.culture.gouv.fr/sites/mediatheque/files/jnd_1860.pdf)\
-    \ des travaux de restauration effectués de 1844 à 1865 à la cathédrale Notre-Dame\
-    \ de Paris sous la direction d'Eugène Viollet-le-Duc et Jean-Baptiste Lassus.\
-    \ Celle-ci a été effectuée sur eScriptorium à partir de la numérisation des journaux\
-    \ des travaux (https://mediatheque-patrimoine.culture.gouv.fr/travaux-de-notre-dame-de-paris-1844-1865)\
-    \ réalisée par la Médiathèque de l'architecture et du patrimoine. \n"
-  language:
-  - fra
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1860'
-    notAfter: '1860'
+    notBefore: '1600'
+    notAfter: '1899'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: pages
+    count: 6000
+  - {count: 251889, metric: lines}
+  - {count: 6350, metric: files}
+  - {count: 10735, metric: regions}
+  - {count: 24432166, metric: characters}
+  automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n\
+    \  url = {https://zenodo.org/record/6414086},\n  author = {Keijser, Liesbeth},\n\
+    \  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische\
+    \ Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n\
+    \  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC,\
+    \ WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright\
+    \ = {Creative Commons Attribution 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: 'GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries'
+  url: https://github.com/AjaxMultiCommentary/GT-commentaries-OLR
+  authors:
+  - name: Matteo
+    surname: Romanello
+    orcid: 0000-0002-7406-6286
+    roles:
+    - project-manager
+  - name: Sven
+    surname: Najem-Meyer
+    orcid: 0000-0002-3661-4579
+    roles:
+    - transcriber
+    - quality-control
+  - name: Carla
+    surname: Amaya
+    roles:
+    - transcriber
+  description: 'This dataset contains layout annotations for ca. 370 pages sampled
+    from 8 public domain classical commentaries, published in the 19th century in
+    English, German and Latin. The commentaries concern Ancient Greek and Latin works
+    from prose and poetry (caveat: AGreek poetry is slightly over-represented). Pages
+    were annotated according to a taxonomy mapped to the SegmOnto controlled vocabulary.'
+  project-name: Ajax Multi-Commentary
+  project-website: https://mromanello.github.io/ajax-multi-commentary/
+  language:
+  - eng
+  - deu
+  - lat
+  - grc
+  production-software: Kraken + VGG Image Annotator (VIA)
+  script:
+  - iso: Latn
+  - iso: Grek
+  script-type: only-typed
+  time:
+    notBefore: '1835'
+    notAfter: '1903'
   hands:
     count: '1'
     precision: exact
@@ -1519,30 +1799,169 @@
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame/main/CITATION.cff
-  transcription-guidelines: "- respect des majuscules et minuscules - respect des\
-    \ ligatures (par exemple, transcrire \"chœur\") - mot qui est barré : 难 (une seule\
-    \ fois par mot) mais seulement s'ils sont totalement/à moitié illisibles. Les\
-    \ restranscrire entre accolades {} s'ils sont lisibles.  - Pour mettre en exergue\
-    \ les doutes de transcription : \n    - mot incertain: [incertain]\n    - mot\
-    \ que l'on ne parvient pas à transcrire : [??]\n"
   volume:
   - metric: characters
-    count: 29286
+    count: 0
   - metric: files
-    count: 12
+    count: 371
   - metric: lines
-    count: 735
+    count: 0
   - metric: regions
-    count: 86
+    count: 2386
+  transcription-guidelines: SegmOnto guidelines (v. 0.9)
+  citation-file-link: https://github.com/AjaxMultiCommentary/GT-commentaries-layout/blob/master/CITATION.cff
+  characters:
+    mode: NFD
+    members: []
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Matteo and Najem-Meyer, Sven and Amaya,\
+    \ Carla},\ndoi = {10.5281/zenodo.7271729},\ntitle = {GT4HistCommentLayout: Layout\
+    \ Ground Truth for Historical Commentaries}\n}\n"
+  _apa: "Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth\
+    \ for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: De la généalogie des dieux
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: Vlachou Efstathiou
+    surname: Malamatenia
+    roles:
+    - transcriber
+    - project-manager
+  - name: Leroy
+    surname: Noé
+    roles:
+    - transcriber
+    - project-manager
+  - name: Maulu
+    surname: Marco
+    roles:
+    - project-manager
+    - quality-control
+  description: "This repository hosts all the documents, including transcriptions,\
+    \ bibliographical  references and introduction that serve the team Boccace for\
+    \ the validation of the course \"Bonnes pratiques du developpement collaboratif\
+    \ : initiation à Git\"  (prof. Thibault Clérice), of the first semester - Master\
+    \ Humanités Numériques ENC-PSL 2021-2022.  At the same time it and constitutes\
+    \ part of the biannual project \"Per un’edizione digitale della Genealogia deorum\
+    \ gentilium\"  di Boccaccio\" (dir. F. Duval, M. Maulu). Financed in 2021, this\
+    \ project foresees to put on line in XML format the unpublished  translation in\
+    \ Middle French entitled \"De la genealogie des dieux\".\n"
+  language:
+  - frm
+  - lat
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notBefore: '1472'
+    notAfter: '1498'
+  hands:
+    count: 1-per-folder
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 109409
+  - metric: files
+    count: 47
+  - metric: lines
+    count: 3656
+  - metric: pages
+    count: 52
+  - metric: regions
+    count: 292
+  sources:
+  - reference: Laurent Premierfait, Boccace (1498), "De la genealogie des dieux",
+      Paris, A. Vérard.
+    link: 'https://gallica.bnf.fr/ark:/12148/bpt6k105063r?rk=21459;2 '
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff
+  transcription-guidelines: "No development of abbreviations. Special characters are\
+    \ used for the graphemic transcription, compatible with the Unicode mufi qnd the\
+    \ special character table of cremma-medieval.   No correction of orthography errors,\
+    \ BUT proper transcription of inversed letters (for Inc59) such as character \"\
+    n\" printed as \"u\" in several cases.  Spaces were added freely for word separation\
+    \ according to dictionaries of middle French and Latin (latin forms verified on\
+    \ Collatinus).  For more documentation regarding the transcription norms and guidelines\
+    \ head to the repository and the report file.''\n"
   production-software: Unknown [Automatically filled]
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Doat, Soline and Falcoz, Elsa and\
-    \ Faure, Margaux and Mazoué, Anaïs and Menu, Ariane},\ndoi = {10.5281/zenodo.6126491},\n\
-    month = {1},\ntitle = {Projet Notre-Dame},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame},\n\
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou Efstathiou, Malamatenia and\
+    \ Leroy, Noé and Maulu, Marco},\ndoi = {10.5281/zenodo.6126613},\ntitle = {git-project-Boccace}\n\
+    }\n"
+  _apa: "Vlachou Efstathiou M., Leroy N., Maulu M. git-project-Boccace (version 1.0).\
+    \ DOI: 10.5281/zenodo.6126613\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Chateau de Chavigny
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  authors:
+  - name: Pascual
+    surname: Margot
+    roles:
+    - transcriber
+  - name: Franchet d\u0027Espèrey
+    surname: Louis-Fiacre
+    roles:
+    - transcriber
+    - digitization
+  - name: Gabay
+    surname: Simon
+    roles:
+    - quality-control
+  description: "Le document sur lequel nous travaillons porte sur le Château de Chavigny\
+    \ à Lerné en Touraine. Au XVIème siècle, c’est la famille des seigneurs Leroy\
+    \ qui possède ce château. Avant 1568, en pleine guerre de religion, François Leroy,\
+    \ du parti du roi et des catholiques, participe à la capture et la rançon du prince\
+    \ de Condé, du parti protestant. En 1568, François Leroy, en tant que capitaine\
+    \ de 50 lances au service du roi, part en campagne avec lui.  L'objectif est de\
+    \ transcrire cinq feuillets d'un manuscrit à l'aide d'eScriptorium. Le but étant\
+    \ d'apprendre à utiliser git et github pour mener à bien notre premier projet\
+    \ collaboratif.\n"
+  language:
+  - frm
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1568'
+    notAfter: '1599'
+  hands:
+    count: '1'
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN-2021-ChateauChavigny/main/CITATION.cff
+  transcription-guidelines: "- Gestion des abbréviations: \n    - Si développement\
+    \ (pas toujours), les développer entre crochets.\n    - L'orthographe originale\
+    \ et les abréviations doivent être conservées.\n- Gestion des échecs de transcription\
+    \ de caractère : lorsqu'un qu'un caractère nous paraît non sur, nous préférons\
+    \ mettre un [?] pour indiquer qu'il y a un caractère non transcrit dans un mot.\
+    \ Pour plusieurs caractères, faire autant de ? que de caractère non reconnu :\
+    \ tel [???] pour 3 caractères.\n"
+  volume:
+  - metric: characters
+    count: 9126
+  - metric: files
+    count: 6
+  - metric: lines
+    count: 253
+  - metric: regions
+    count: 22
+  production-software: Unknown [Automatically filled]
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Pascual, Margot and Franchet d'Espèrey,\
+    \ Louis-Fiacre and Gabay, Simon},\ndoi = {10.5281/zenodo.6126655},\nmonth = {2},\n\
+    title = {Château de Chavigny},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny},\n\
     year = {2022}\n}\n"
-  _apa: "Doat S., Falcoz E., Faure M., Mazoué A., Menu A. (2022). Projet Notre-Dame\
-    \ (version 1.0). DOI: 10.5281/zenodo.6126491 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame\n"
+  _apa: "Pascual M., Franchet d'Espèrey L., Gabay S. (2022). Château de Chavigny (version\
+    \ 1.0). DOI: 10.5281/zenodo.6126655 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: DecameronFR
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR
@@ -1673,40 +2092,34 @@
     \ Projet Exposition Universelle de 1878 (version 1.0). DOI: 10.5281/zenodo.6126447\
     \ URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Expositions_Universelles\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Chateau de Chavigny
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  title: 'Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier
+    ossétien'
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
+  project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
   authors:
-  - name: Pascual
-    surname: Margot
+  - name: L’Eveque
+    surname: Zoé
     roles:
     - transcriber
-  - name: Franchet d\u0027Espèrey
-    surname: Louis-Fiacre
+  - name: Ekaterina
+    surname: Kate
     roles:
     - transcriber
-    - digitization
-  - name: Gabay
-    surname: Simon
+  - name: Kasparian
+    surname: Anahide
     roles:
-    - quality-control
-  description: "Le document sur lequel nous travaillons porte sur le Château de Chavigny\
-    \ à Lerné en Touraine. Au XVIème siècle, c’est la famille des seigneurs Leroy\
-    \ qui possède ce château. Avant 1568, en pleine guerre de religion, François Leroy,\
-    \ du parti du roi et des catholiques, participe à la capture et la rançon du prince\
-    \ de Condé, du parti protestant. En 1568, François Leroy, en tant que capitaine\
-    \ de 50 lances au service du roi, part en campagne avec lui.  L'objectif est de\
-    \ transcrire cinq feuillets d'un manuscrit à l'aide d'eScriptorium. Le but étant\
-    \ d'apprendre à utiliser git et github pour mener à bien notre premier projet\
-    \ collaboratif.\n"
+    - transcriber
+  description: "Nous avons choisi de transcrire le deuxième chapitre de l’ouvrage\
+    \ de Maxime Kovalewsky :  Coutume contemporaine et loi ancienne : droit coutumier\
+    \ ossétien, éclairé par l’histoire comparée. Paris, L. Larose, 1893. \n"
   language:
-  - frm
+  - fra
   script:
   - iso: Latn
-  script-type: only-manuscript
+  script-type: only-typed
   time:
-    notBefore: '1568'
-    notAfter: '1599'
+    notBefore: '1893'
+    notAfter: '1893'
   hands:
     count: '1'
     precision: exact
@@ -1714,179 +2127,24 @@
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN-2021-ChateauChavigny/main/CITATION.cff
-  transcription-guidelines: "- Gestion des abbréviations: \n    - Si développement\
-    \ (pas toujours), les développer entre crochets.\n    - L'orthographe originale\
-    \ et les abréviations doivent être conservées.\n- Gestion des échecs de transcription\
-    \ de caractère : lorsqu'un qu'un caractère nous paraît non sur, nous préférons\
-    \ mettre un [?] pour indiquer qu'il y a un caractère non transcrit dans un mot.\
-    \ Pour plusieurs caractères, faire autant de ? que de caractère non reconnu :\
-    \ tel [???] pour 3 caractères.\n"
+  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF
   volume:
   - metric: characters
-    count: 9126
+    count: 45626
   - metric: files
-    count: 6
+    count: 28
   - metric: lines
-    count: 253
+    count: 983
   - metric: regions
-    count: 22
+    count: 72
   production-software: Unknown [Automatically filled]
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Pascual, Margot and Franchet d'Espèrey,\
-    \ Louis-Fiacre and Gabay, Simon},\ndoi = {10.5281/zenodo.6126655},\nmonth = {2},\n\
-    title = {Château de Chavigny},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny},\n\
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {L’Eveque, Zoé and Ekaterina, Kate\
+    \ and Kasparian, Anahide},\ndoi = {10.5281/zenodo.6126633},\nmonth = {2},\ntitle\
+    \ = {Projet Kovaleswky - 1893},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893},\n\
     year = {2022}\n}\n"
-  _apa: "Pascual M., Franchet d'Espèrey L., Gabay S. (2022). Château de Chavigny (version\
-    \ 1.0). DOI: 10.5281/zenodo.6126655 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-ChateauChavigny\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: De la généalogie des dieux
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: Vlachou Efstathiou
-    surname: Malamatenia
-    roles:
-    - transcriber
-    - project-manager
-  - name: Leroy
-    surname: Noé
-    roles:
-    - transcriber
-    - project-manager
-  - name: Maulu
-    surname: Marco
-    roles:
-    - project-manager
-    - quality-control
-  description: "This repository hosts all the documents, including transcriptions,\
-    \ bibliographical  references and introduction that serve the team Boccace for\
-    \ the validation of the course \"Bonnes pratiques du developpement collaboratif\
-    \ : initiation à Git\"  (prof. Thibault Clérice), of the first semester - Master\
-    \ Humanités Numériques ENC-PSL 2021-2022.  At the same time it and constitutes\
-    \ part of the biannual project \"Per un’edizione digitale della Genealogia deorum\
-    \ gentilium\"  di Boccaccio\" (dir. F. Duval, M. Maulu). Financed in 2021, this\
-    \ project foresees to put on line in XML format the unpublished  translation in\
-    \ Middle French entitled \"De la genealogie des dieux\".\n"
-  language:
-  - frm
-  - lat
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1472'
-    notAfter: '1498'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 109409
-  - metric: files
-    count: 47
-  - metric: lines
-    count: 3656
-  - metric: pages
-    count: 52
-  - metric: regions
-    count: 292
-  sources:
-  - reference: Laurent Premierfait, Boccace (1498), "De la genealogie des dieux",
-      Paris, A. Vérard.
-    link: 'https://gallica.bnf.fr/ark:/12148/bpt6k105063r?rk=21459;2 '
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-Boccace/main/CITATION.cff
-  transcription-guidelines: "No development of abbreviations. Special characters are\
-    \ used for the graphemic transcription, compatible with the Unicode mufi qnd the\
-    \ special character table of cremma-medieval.   No correction of orthography errors,\
-    \ BUT proper transcription of inversed letters (for Inc59) such as character \"\
-    n\" printed as \"u\" in several cases.  Spaces were added freely for word separation\
-    \ according to dictionaries of middle French and Latin (latin forms verified on\
-    \ Collatinus).  For more documentation regarding the transcription norms and guidelines\
-    \ head to the repository and the report file.''\n"
-  production-software: Unknown [Automatically filled]
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou Efstathiou, Malamatenia and\
-    \ Leroy, Noé and Maulu, Marco},\ndoi = {10.5281/zenodo.6126613},\ntitle = {git-project-Boccace}\n\
-    }\n"
-  _apa: "Vlachou Efstathiou M., Leroy N., Maulu M. git-project-Boccace (version 1.0).\
-    \ DOI: 10.5281/zenodo.6126613\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: OCR Corse
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
-  - name: Sarbach-Pulicani
-    surname: Vincent
-    roles:
-    - transcriber
-    - project-manager
-  - name: Saïag
-    surname: Violette
-  - name: Escoda
-    surname: Adrien
-    roles:
-    - transcriber
-  - name: Miaille
-    surname: Théophile
-    roles:
-    - transcriber
-    - project-manager
-  description: "Le premier ouvrage s’intitule *Pontenôvu* a été écrit par Petru Rocca\
-    \ et publié par la \"Stamparia di a Muvra\" en 1927. Il s'agit d'un recueil de\
-    \ poèmes en corse et en français dont les thèmes varient. *A Muvra* est un journal\
-    \ autonomiste corse d'influence maurassienne qui a existé pendant toute la période\
-    \ de l'entre-deux-guerres. Se revendiquant comme étant une revue culturelle, la\
-    \ dimension politique de la revue (incarnée par le PCA, ou Partitu corsu d'azione),\
-    \ en a fait un mouvement controversé. C'est dans ce contexte de lutte politique\
-    \ et d'éveil culturel corse que s'inscrit ce recueil.\nLe second ouvrage s'intitule\
-    \ *A nostra Santa Fede - Catechismu Corsu*, écrit par Ageniu Grimaldi en 1926\
-    \ sous le pseudonyme de Saveriu Malaspina. Proche de Petru Rocca, ce-dernier est\
-    \ l'un des théoriciens de l'autonomisme corse de l'entre-deux-guerres et fidèle\
-    \ muvriste. Dans l'ouvrage, il est fait mention notamment de la façon dont un\
-    \ vrai corse doit se comproter vis-à-vis de sa foi envers Dieu et son île. Bien\
-    \ qu'il ne s'agisse pas réellement d'un recueil de poèmes, le style d'écriture\
-    \ de cet ouvrage est particulièrement intéressant. Il reprend un style qui se\
-    \ rapproche des écrits bibliques.\n"
-  language:
-  - cos
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1926'
-    notAfter: '1927'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
-  transcription-guidelines: ''
-  volume:
-  - metric: characters
-    count: 40957
-  - metric: files
-    count: 47
-  - metric: lines
-    count: 1664
-  - metric: regions
-    count: 146
-  production-software: Unknown [Automatically filled]
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille,\
-    \ Théophile and Escoda, Adrien and Saïag, Violette},\ndoi = {10.5281/zenodo.6126641},\n\
-    month = {2},\ntitle = {OCR d'une poésie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\n\
-    year = {2022}\n}\n"
-  _apa: "Sarbach-Pulicani V., Miaille T., Escoda A., Saïag V. (2022). OCR d'une poésie\
-    \ corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n"
+  _apa: "L’Eveque Z., Ekaterina K., Kasparian A. (2022). Projet Kovaleswky - 1893\
+    \ (version 1.0). DOI: 10.5281/zenodo.6126633 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Argus des Brevets
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets
@@ -1968,77 +2226,77 @@
   _apa: "De Craene V., Humeau M., Reignier V. (2022). Projet Argus des Brevets (version\
     \ 1.0). DOI: 10.5281/zenodo.6126366 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Memorials for Jane Lathrop Stanford
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
-  project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
+  title: OCR Corse
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
   authors:
-  - name: Guimarães
-    surname: Ingrid
+  - name: Sarbach-Pulicani
+    surname: Vincent
     roles:
     - transcriber
-    - aligner
-  - name: Maurel
-    surname: Perrine
+    - project-manager
+  - name: Saïag
+    surname: Violette
+  - name: Escoda
+    surname: Adrien
     roles:
     - transcriber
-    - aligner
-  - name: Ozturk
-    surname: Yagmur
+  - name: Miaille
+    surname: Théophile
     roles:
     - transcriber
-    - aligner
-  description: "Les données sources ont été téléversées sur le site From the page\
-    \ par les Archives de l’Université Stanford qui en sont les propriétaires. Elles\
-    \ ont ensuite été retranscrites par des bénévoles anonymes ; c’est leur travail\
-    \ nous a servi de base pour corriger nos propres retranscriptions. Les documents\
-    \ sources choisies sont des lettres de différents auteurs portant sur les obsèques\
-    \ de Jane Lathrop Stanford.  Les lettres sélectionnées étaient les lettres : 42,\
-    \ 43, 46, 49, 50, 54, 57 à 60, 69, 75, 76 [section 1, retranscrites par Perrine\
-    \ MAUREL] ; 80 à 93 [section 2, retranscrites par Ingrid GUIMARÃES] ; 241 à 242\
-    \  [section 3, retranscrites par Yagmur OZTURK].\n"
+    - project-manager
+  description: "Le premier ouvrage s’intitule *Pontenôvu* a été écrit par Petru Rocca\
+    \ et publié par la \"Stamparia di a Muvra\" en 1927. Il s'agit d'un recueil de\
+    \ poèmes en corse et en français dont les thèmes varient. *A Muvra* est un journal\
+    \ autonomiste corse d'influence maurassienne qui a existé pendant toute la période\
+    \ de l'entre-deux-guerres. Se revendiquant comme étant une revue culturelle, la\
+    \ dimension politique de la revue (incarnée par le PCA, ou Partitu corsu d'azione),\
+    \ en a fait un mouvement controversé. C'est dans ce contexte de lutte politique\
+    \ et d'éveil culturel corse que s'inscrit ce recueil.\nLe second ouvrage s'intitule\
+    \ *A nostra Santa Fede - Catechismu Corsu*, écrit par Ageniu Grimaldi en 1926\
+    \ sous le pseudonyme de Saveriu Malaspina. Proche de Petru Rocca, ce-dernier est\
+    \ l'un des théoriciens de l'autonomisme corse de l'entre-deux-guerres et fidèle\
+    \ muvriste. Dans l'ouvrage, il est fait mention notamment de la façon dont un\
+    \ vrai corse doit se comproter vis-à-vis de sa foi envers Dieu et son île. Bien\
+    \ qu'il ne s'agisse pas réellement d'un recueil de poèmes, le style d'écriture\
+    \ de cet ouvrage est particulièrement intéressant. Il reprend un style qui se\
+    \ rapproche des écrits bibliques.\n"
   language:
-  - eng
+  - cos
+  - fra
   script:
   - iso: Latn
-  script-type: evenly-mixed
+  script-type: only-typed
   time:
-    notBefore: '1905'
-    notAfter: '1905'
+    notBefore: '1926'
+    notAfter: '1927'
   hands:
-    count: 1-per-file
-    precision: estimated
+    count: 1-per-folder
+    precision: exact
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
-  transcription-guidelines: "Notre retranscription en elle-même a cherché à retranscrire\
-    \ le texte ipsis litteris, sans le corriger, en conservant donc les erreurs éventuelles\
-    \ intrinsèques au document. Il convient toutefois de noter que dans certains cas,\
-    \ les documents présentaient des mentions imprécises qui n’avaient pas été prises\
-    \ en compte par les retranscriptions originelles, ou alors qui avaient été soulignées\
-    \ comme étant une retranscription incertaine. Nous avons alors fait le choix d’être\
-    \ plus exhaustif que la retranscription originelle si possible, et nous avons\
-    \ parfois fait des choix de retranscription différents sur la base de notre ressenti\
-    \ visuel lors du travail. En raison de ces choix, la taille d’une page s’est donc\
-    \ parfois avérée rallongée par rapport à l’estimation première.'\n"
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
+  transcription-guidelines: ''
   volume:
   - metric: characters
-    count: 18063
+    count: 40957
   - metric: files
-    count: 41
+    count: 47
   - metric: lines
-    count: 770
+    count: 1664
   - metric: regions
-    count: 51
+    count: 146
   production-software: Unknown [Automatically filled]
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Guimarães, Ingrid and Maurel, Perrine\
-    \ and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle =\
-    \ {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\n\
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille,\
+    \ Théophile and Escoda, Adrien and Saïag, Violette},\ndoi = {10.5281/zenodo.6126641},\n\
+    month = {2},\ntitle = {OCR d'une poésie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\n\
     year = {2022}\n}\n"
-  _apa: "Guimarães I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford\
-    \ (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n"
+  _apa: "Sarbach-Pulicani V., Miaille T., Escoda A., Saïag V. (2022). OCR d'une poésie\
+    \ corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Projet Correspondance Berlioz
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz
@@ -2112,34 +2370,45 @@
   _apa: "Ceard L., Lebreton F., Sajdak C. (2022). Projet Correspondance Berlioz (version\
     \ 1.0). DOI: 10.5281/zenodo.6126475 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Correspondance-Berlioz\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: 'Maxime Kovalewsky - Coutume contemporaine et loi ancienne: droit coutumier
-    ossétien'
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893
+  title: Projet Notre-Dame
+  url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame
   project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
   authors:
-  - name: L’Eveque
-    surname: Zoé
+  - name: Doat
+    surname: Soline
     roles:
     - transcriber
-  - name: Ekaterina
-    surname: Kate
+  - name: Menu
+    surname: Ariane
     roles:
     - transcriber
-  - name: Kasparian
-    surname: Anahide
+  - name: Falcoz
+    surname: Elsa
     roles:
     - transcriber
-  description: "Nous avons choisi de transcrire le deuxième chapitre de l’ouvrage\
-    \ de Maxime Kovalewsky :  Coutume contemporaine et loi ancienne : droit coutumier\
-    \ ossétien, éclairé par l’histoire comparée. Paris, L. Larose, 1893. \n"
+  - name: Faure
+    surname: Margaux
+    roles:
+    - transcriber
+  - name: Mazoué
+    surname: Anaïs
+    roles:
+    - transcriber
+  description: "Le Projet Notre-Dame consiste en une transcription des journaux quotidiens\
+    \ de l’année 1860 (https://mediatheque-patrimoine.culture.gouv.fr/sites/mediatheque/files/jnd_1860.pdf)\
+    \ des travaux de restauration effectués de 1844 à 1865 à la cathédrale Notre-Dame\
+    \ de Paris sous la direction d'Eugène Viollet-le-Duc et Jean-Baptiste Lassus.\
+    \ Celle-ci a été effectuée sur eScriptorium à partir de la numérisation des journaux\
+    \ des travaux (https://mediatheque-patrimoine.culture.gouv.fr/travaux-de-notre-dame-de-paris-1844-1865)\
+    \ réalisée par la Médiathèque de l'architecture et du patrimoine. \n"
   language:
   - fra
   script:
   - iso: Latn
-  script-type: only-typed
+  script-type: only-manuscript
   time:
-    notBefore: '1893'
-    notAfter: '1893'
+    notBefore: '1860'
+    notAfter: '1860'
   hands:
     count: '1'
     precision: exact
@@ -2147,118 +2416,171 @@
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
-  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893/main/CITATION.CFF
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame/main/CITATION.cff
+  transcription-guidelines: "- respect des majuscules et minuscules - respect des\
+    \ ligatures (par exemple, transcrire \"chœur\") - mot qui est barré : 难 (une seule\
+    \ fois par mot) mais seulement s'ils sont totalement/à moitié illisibles. Les\
+    \ restranscrire entre accolades {} s'ils sont lisibles.  - Pour mettre en exergue\
+    \ les doutes de transcription : \n    - mot incertain: [incertain]\n    - mot\
+    \ que l'on ne parvient pas à transcrire : [??]\n"
   volume:
   - metric: characters
-    count: 45626
+    count: 29286
   - metric: files
-    count: 28
+    count: 12
   - metric: lines
-    count: 983
+    count: 735
   - metric: regions
-    count: 72
+    count: 86
   production-software: Unknown [Automatically filled]
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {L’Eveque, Zoé and Ekaterina, Kate\
-    \ and Kasparian, Anahide},\ndoi = {10.5281/zenodo.6126633},\nmonth = {2},\ntitle\
-    \ = {Projet Kovaleswky - 1893},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893},\n\
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Doat, Soline and Falcoz, Elsa and\
+    \ Faure, Margaux and Mazoué, Anaïs and Menu, Ariane},\ndoi = {10.5281/zenodo.6126491},\n\
+    month = {1},\ntitle = {Projet Notre-Dame},\nurl = {https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame},\n\
     year = {2022}\n}\n"
-  _apa: "L’Eveque Z., Ekaterina K., Kasparian A. (2022). Projet Kovaleswky - 1893\
-    \ (version 1.0). DOI: 10.5281/zenodo.6126633 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893\n"
+  _apa: "Doat S., Falcoz E., Faure M., Mazoué A., Menu A. (2022). Projet Notre-Dame\
+    \ (version 1.0). DOI: 10.5281/zenodo.6126491 URL: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-Projet-Notre-Dame\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: 'Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch
-    X'
-  url: https://doi.org/10.5281/zenodo.5153263
+  title: Memorials for Jane Lathrop Stanford
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
+  project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
   authors:
-  - name: Susanna
-    surname: Burghartz
+  - name: Guimarães
+    surname: Ingrid
     roles:
-    - project-manager
-  - name: Calvi
-    surname: Sonia
+    - transcriber
+    - aligner
+  - name: Maurel
+    surname: Perrine
     roles:
+    - transcriber
+    - aligner
+  - name: Ozturk
+    surname: Yagmur
+    roles:
+    - transcriber
+    - aligner
+  description: "Les données sources ont été téléversées sur le site From the page\
+    \ par les Archives de l’Université Stanford qui en sont les propriétaires. Elles\
+    \ ont ensuite été retranscrites par des bénévoles anonymes ; c’est leur travail\
+    \ nous a servi de base pour corriger nos propres retranscriptions. Les documents\
+    \ sources choisies sont des lettres de différents auteurs portant sur les obsèques\
+    \ de Jane Lathrop Stanford.  Les lettres sélectionnées étaient les lettres : 42,\
+    \ 43, 46, 49, 50, 54, 57 à 60, 69, 75, 76 [section 1, retranscrites par Perrine\
+    \ MAUREL] ; 80 à 93 [section 2, retranscrites par Ingrid GUIMARÃES] ; 241 à 242\
+    \  [section 3, retranscrites par Yagmur OZTURK].\n"
+  language:
+  - eng
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notBefore: '1905'
+    notAfter: '1905'
+  hands:
+    count: 1-per-file
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
+  transcription-guidelines: "Notre retranscription en elle-même a cherché à retranscrire\
+    \ le texte ipsis litteris, sans le corriger, en conservant donc les erreurs éventuelles\
+    \ intrinsèques au document. Il convient toutefois de noter que dans certains cas,\
+    \ les documents présentaient des mentions imprécises qui n’avaient pas été prises\
+    \ en compte par les retranscriptions originelles, ou alors qui avaient été soulignées\
+    \ comme étant une retranscription incertaine. Nous avons alors fait le choix d’être\
+    \ plus exhaustif que la retranscription originelle si possible, et nous avons\
+    \ parfois fait des choix de retranscription différents sur la base de notre ressenti\
+    \ visuel lors du travail. En raison de ces choix, la taille d’une page s’est donc\
+    \ parfois avérée rallongée par rapport à l’estimation première.'\n"
+  volume:
+  - metric: characters
+    count: 18063
+  - metric: files
+    count: 41
+  - metric: lines
+    count: 770
+  - metric: regions
+    count: 51
+  production-software: Unknown [Automatically filled]
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Guimarães, Ingrid and Maurel, Perrine\
+    \ and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle =\
+    \ {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\n\
+    year = {2022}\n}\n"
+  _apa: "Guimarães I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford\
+    \ (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Ground truth for Neue Zürcher Zeitung black letter period
+  url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
+  project-name: "impresso'\n"
+  project-website: https://impresso-project.ch/
+  authors:
+  - name: Ströbel
+    surname: Phillip Benjamin
+    roles:
+    - transcriber
+    - aligner
     - project-manager
     - quality-control
-  - name: Vogeler
-    surname: Georg
-    roles:
-    - project-manager
-  - name: Baur
-    surname: Laila
+    - support
+  - name: Clematide
+    surname: Simon
     roles:
     - transcriber
-  - name: Egli
-    surname: Benedikt
+    - quality-control
+  - name: Watter
+    surname: Camille
     roles:
     - transcriber
-  - name: Gehrig
-    surname: Gabriela
+  - name: Meraner
+    surname: Isabell
     roles:
     - transcriber
-  - name: Heini
-    surname: Alexandra Isabelle
-    roles:
-    - transcriber
-  - name: Rossi
-    surname: Rosanna
-    roles:
-    - transcriber
-  - name: Siegrist
-    surname: Benjamin
-    roles:
-    - transcriber
-  - name: Wasmer
-    surname: Remo
-    roles:
-    - transcriber
-  - name: Zimmermann
-    surname: Lynn
-    roles:
-    - transcriber
-  - name: Schoch
-    surname: David
-    roles:
-    - aligner
-  - name: Dängeli
-    surname: Peter
-    roles:
-    - digitization
-  - name: Hodel
-    surname: Tobias
-    roles:
-    - project-manager
-    - aligner
-  description: Ground Truth for "Urfehdenbuch X der Stadt Basel (1563-1569)" at Staatsarchiv
-    Basel-Stadt (StABS).
-  project-website: hdl:11471/1010.2.1
+  description: "The Neue Zürcher Zeitung (NZZ) has been publishing in black letter\
+    \ from its very first issue in 1780 until 1947. From this time period, we randomly\
+    \ sampled one frontpage per year, resulting in a total of 167 pages. We chose\
+    \ frontpages because they typically contain highly relevant material and because\
+    \ we want to make sure not to sample pages containing exclusively advertisements\
+    \ or stock information. During certain periods, the NZZ was published several\
+    \ times a day, and there were supplements, too. Due to incomplete metadata, the\
+    \ sampling included frontpages from supplements. We then manually corrected the\
+    \ pages, so it can be used as a ground truth to improve the OCR of black letter\
+    \ in historical newspapers.i\n"
   language:
   - deu
   script:
   - iso: Latn
-  script-type: only-manuscript
+  script-type: only-typed
   time:
-    notBefore: '1563'
-    notAfter: '1569'
+    notBefore: '1780'
+    notAfter: '1946'
   hands:
-    count: unknown
+    count: less-than-11
     precision: estimated
   license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Page-XML
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
   volume:
-  - metric: lines
-    count: 8000
-  transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
+  - count: 43173
+    metric: lines
+  - count: 167
+    metric: files
+  - count: 6318
+    metric: regions
+  - count: 1768146
+    metric: characters
   production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
-    \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
-    \ David and Dängeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
-    \ Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten\
-    \ Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X},\n\
-    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
-    \ Non Commercial Share Alike 4.0 International}\n}\n"
+  _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Ströbel\
+    \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
+    \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
+    \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
+    \     = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
+    \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)
   url: https://doi.org/10.5281/zenodo.5179361
@@ -2317,127 +2639,806 @@
     \ (1308-1662)},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative\
     \ Commons Attribution 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: GenAuto TD Corpus
-  url: https://github.com/jpmjpmjpm/genauto-td-htr.git
-  project-name: GenAuto
-  project-website: ''
+  title: Gwalther Handwriting Ground Truth
+  url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
+  project-name: "Bullinger digital'\n"
+  project-website: https://www.bullinger-digital.ch/
   authors:
-  - name: Boutet
-    surname: Jean-François
+  - name: Ströbel
+    surname: Phillip Benjamin
+    roles:
+    - aligner
+    - quality-control
+    - support
+  - name: Stotz
+    surname: Peter
     roles:
     - transcriber
-    - aligner
-  - name: Merx
-    surname: Jean-Pierre
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-  description: "150 transcribed images from \"Tables Décennales\" French Civil Registry.\
-    \ Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
+  description: "This is ground truth for Rudolph Gwalther’s (1519-1586) handwriting\
+    \ taken from his book \"Lateinische\" Gedichte\", where he accumulated writings\
+    \ between 1540 and 1580. Data collection and ground truth creation:   At the time\
+    \ we collected the data, we found 150 images with corresponding transcriptions\
+    \ by Peter Stotz on e-manuscripta (reference: Gwalther, Rudolf: Lateinische Gedichte.\
+    \ Zürich, 1540-1580. Zentralbibliothek Zürich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750\
+    \ / Public Domain Mark) . We removed 8 images with too many corrections or vertical\
+    \ texts. Next, we uploaded the images into the Transkribus platform, applied the\
+    \ line recognition tool and manually copied the transcribed text lines into the\
+    \ recognised line boxes. During this process, we made some corrections, which\
+    \ were mainly due to inconsistencies in punctuation and capitalised letters.\n"
   language:
-  - fra
+  - lat
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1792'
-    notAfter: '1902'
+    notBefore: '1540'
+    notAfter: '1580'
   hands:
-    count: less-than-11
-    precision: estimated
+    count: '1'
+    precision: exact
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 300
-    metric: pages
-  - count: 150
-    metric: images
-  - count: 150
-    metric: files
-  - count: 186366
-    metric: characters
-  - count: 21557
+  - count: 4040
     metric: lines
-  - count: 608
+  - count: 142
+    metric: files
+  - count: 155
     metric: regions
-  production-software: eScriptorium + Kraken
+  - count: 144301
+    metric: characters
+  production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Boutet, Jean-François and Merx, Jean-Pierre},\n\
-    doi = {10.5281/zenodo.5507403},\nmonth = {9},\ntitle = {GenAuto TD Corpus},\n\
-    url = {https://github.com/jpmjpmjpm/genauto-td-htr.git},\nyear = {2021}\n}\n"
-  _apa: "Boutet J., Merx J. (2021). GenAuto TD Corpus (version 1.0.0). DOI: 10.5281/zenodo.5507403\
-    \ URL: https://github.com/jpmjpmjpm/genauto-td-htr.git\n"
+  _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
+    \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
+    \ \n                   truth: Initial release}},\n  month        = may,\n  year\
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
+    \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
+    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Belfort
-  url: https://zenodo.org/record/8041668
+  title: Caroline Minuscule by Rescribe
+  url: https://github.com/rescribe/carolineminuscule-groundtruth
+  project-name: "Rescribe'\n"
+  project-website: https://rescribe.xyz/
   authors:
-  - name: Solène
-    surname: Tarride
-    orcid: 0000-0001-6174-9865
-  - name: Tristan
-    surname: Faine
-  - name: Mélodie
-    surname: Boillet
-    orcid: 0000-0002-0618-7852
-  - name: Harold
-    surname: Mouchère
-    orcid: 0000-0001-6220-7216
-  - name: Christopher
-    surname: Kermorvant
-    orcid: 0000-0002-7508-4080
-  institutions: []
-  description: >
-    This dataset includes minutes of Belfort municipal council drawn up between
-    1790 and 1946. Documents include deliberations, lists of councillors,
-    convocations, and agendas. The dataset includes 24,105 text-line images that
-    were automatically detected from pages. 
-
-    Up to four transcriptions are available for each line image: 
-
-    * two from human annotators (in `Transcriptions/callico_1/` and
-    `Transcriptions/callico_2/`)
-
-    * two from automatic models (in `Transcriptions/dan/` and
-    `Transcriptions/pylaia/`) 
-  project-name: Handwritten Text Recognition from Crowdsourced Annotations
-  project-website: https://arxiv.org/abs/2306.10878
+  - name: White
+    surname: Nick
+    roles:
+    - transcriber
+    - project-manager
+  - name: Clérice
+    surname: Thibault
+    roles:
+    - aligner
+  - name: Karaisl
+    surname: Antonia
+    roles:
+    - transcriber
+    - project-manager
+  description: "This ground truth repository is a work in process; it currently accounts\
+    \ for a part of our complete Caroline Minuscule training pool of around 70 manuscripts\
+    \ used for our OCRopus Caroline Minuscule model (see ocropus-models repository).\n"
   language:
-  - fra
-  production-software: Callico
+  - lat
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1790'
-    notAfter: '1946'
+    notBefore: '800'
+    notAfter: '1199'
+  hands:
+    count: 1-per-file
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 17155
+  - metric: files
+    count: 17
+  - metric: lines
+    count: 457
+  - metric: regions
+    count: 46
+  transcription-guidelines: "In general this meant deciding between diplomatic transcription\
+    \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
+    \ reinterpreting medieval signs into modern equivalents) with a view to specific\
+    \ categories. Read on for a summary of the rules and the respective rationale\
+    \ behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed\
+    \ with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\
+    \n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic\
+    \ where possible: Retain abbreviations and render glyphs as opposed to expanded\
+    \ versions where possible\n    \"*\" where original character isn't served: OCRopus\
+    \ (at the point in time of transcription) could not handle some of the medieval\
+    \ glyphs, even where a Unicode version was present. Abbreviations not in OCRopus\
+    \ are uniformly transcribed as \"*\", in the case of a combined character (such\
+    \ as a consonant with a macron) as the base character followed by \"*\" (e.g.\
+    \ \"t*\"). The list of accepted characters in OCRopus can be found in this repository,\
+    \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
+    \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
+    \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
+    \ numerals'"
+  characters:
+    mode: NFD
+    members:
+    - i
+    - e
+    - t
+    - u
+    - a
+    - s
+    - n
+    - o
+    - r
+    - m
+    - c
+    - d
+    - l
+    - p
+    - .
+    - b
+    - q
+    - g
+    - '*'
+    - h
+    - ;
+    - ̃
+    - f
+    - x
+    - I
+    - ̄
+    - E
+    - N
+    - ̨
+    - ':'
+    - '&'
+    - S
+    - ꝑ
+    - C
+    - A
+    - đ
+    - D
+    - U
+    - T
+    - ꝓ
+    - Q
+    - v
+    - ','
+    - O
+    - R
+    - P
+    - L
+    - M
+    - æ
+    - H
+    - F
+    - '?'
+    - '1'
+    - y
+    - ꝝ
+    - ꝙ
+    - V
+    - '4'
+    - B
+    - z
+    - '5'
+    - X
+    - '6'
+    - ꝛ
+    - /
+    - "'"
+    - '0'
+    - '2'
+    - '9'
+    - K
+    - '-'
+  production-software: Unknown [Automatically filled]
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: BiblIA
+  url: https://zenodo.org/record/5167263
+  project-name: "Scripta PSL\n"
+  project-website: https://escripta.hypotheses.org/
+  authors:
+  - name: Stökl Ben Ezra
+    surname: Daniel
+    roles:
+    - transcriber
+    - project-manager
+  - name: Brown-DeVost
+    surname: Bronson
+  - name: Jablonski
+    surname: Pawel
+  - name: Kiessling
+    surname: Benjamin
+  - name: Lolli
+    surname: Elena
+  - name: Lapin
+    surname: Hayim
+  description: "This dataset for Handwritten Text Recognition includes layout segmentation\
+    \ (regions, toplines and linepolygons) and unicode-transcriptions in alto 4.2\
+    \ XML for 202 images of Medieval Hebrew manuscripts from the Bibliothèque nationale\
+    \ de France (BnF, National Library of France) and the Biblioteca Apostolica Vaticana\
+    \ (BAV, Vatican Library) corresponding to the article \"BiblIA - a General Model\
+    \ for Medieval Hebrew Manuscripts and an Open Annotated Dataset\" by Daniel Stökl\
+    \ Ben Ezra, Bronson Brown-DeVost, Pawel Jablonski, Benjamin Kiessling, Elena Lolli,\
+    \ and Hayim Lapin, published in HIP@ICDAR 2021 held in Lausanne, September 2021.\n"
+  language:
+  - heb
+  script:
+  - iso: Hebr
+  script-type: only-manuscript
+  time:
+    notBefore: '1000'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 202
+  - metric: pages
+    count: 202
+  - metric: lines
+    count: 12461
+  - metric: regions
+    count: 509
+  - metric: characters
+    count: 278641
+  transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
+    \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
+    \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
+    \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
+    \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
+    \ New York, NY, USA, 61–66. DOI:https://doi.org/10.1145/3476887.3476896'\n"
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  _bibtex: "@dataset{stokl_ben_ezra_daniel_2021_5167263,\n  author       = {Stökl\
+    \ Ben Ezra, Daniel and\n                  Brown-DeVost, Bronson and\n        \
+    \          Jablonski, Pawel and\n                  Kiessling, Benjamin and\n \
+    \                 Lolli, Elena and\n                  Lapin, Hayim},\n  title\
+    \        = {BiblIA - an Open Annotated Dataset},\n  month        = aug,\n  year\
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
+    \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
+    }"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Ground truth data for printed Devanagari
+  url: https://doi.org/10.11588/data/EGOKEI
+  authors:
+  - name: Nicole
+    surname: Merkel-Hilf
+    orcid: 0000-0002-0344-6169
+    roles:
+    - transcriber
+    - project-manager
+  - name: Daria
+    surname: Peshcherova
+    roles:
+    - support
+  institutions:
+  - name: Heidelberg University Library
+  description: >-
+    Ground truth (GT) data (jpg and alto xml files) for an OCR model that
+    recognizes printed text in Devanagari script.
+
+
+    The GT data was trained on Transkribus with the HTR+ engine. The training was
+    performed on appr. 220 pages with appr. 27,000 words. The validation set was
+    10% of the training set.
+
+
+    The training material is comprised of letterpress printings from the Naval
+    Kishore Press (Lakhnau, North India) from the late 19th and early 20th century
+    in the Hindi, Sanskrit, Braj Bhasha and Awadhi languages.
+
+
+    Transcription was performed by Nicole Merkel-Hilf (CATS Library / Heidelberg
+    University Library) with support by Daria Peshcherova (CATS Library /
+    Heidelberg University Library).
+  project-name: Naval Kishore Press - digital
+  project-website: https://digi.ub.uni-heidelberg.de/en/sammlungen/suedasien/navalkishore.html
+  language:
+  - hin
+  - san
+  - bra
+  production-software: Transkribus
+  script:
+  - iso: Deva
+  script-type: only-typed
+  time:
+    notBefore: '1880'
+    notAfter: '1953'
+  hands:
+    count: less-than-11
+    precision: exact
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 4333
+  transcription-guidelines: Diplomatic transcription, no correction of mispelling
+  automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n\
+    \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n\
+    \  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n\
+    \  publisher = {heiDATA},\n  year = {2022}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: HTR - Araucania manuscript XIX
+  url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
+  authors:
+  - name: Humeau
+    surname: Maxime
+  - name: Chiaretti
+    surname: Alessandro
+  institutions:
+  - name: Archivo Central Andres Bello
+  description: "Ground Truth dataset for Spanish 19th typewritten OCR. \nThe archives\
+    \ come from the events of the Occupation of Araucania (1850-1881) in Chile. They\
+    \ are archived in the ’Colección manuscritos' of the Archivo Central Andres Bello\
+    \ - Universidad de Chile."
+  language:
+  - spa
+  production-software: eScriptorium + Kraken
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1859'
+    notAfter: '1877'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: characters
+    count: 117155
+  - metric: files
+    count: 180
+  - metric: lines
+    count: 3932
+  - metric: regions
+    count: 981
+  transcription-guidelines: "- xxx for erased or unreadable characters\n- ^+letters\
+    \ for superscript letters\n- ⁋ for new paragraph\n"
+  characters:
+    mode: NFD
+    members:
+    - e
+    - a
+    - o
+    - n
+    - s
+    - r
+    - i
+    - d
+    - l
+    - u
+    - t
+    - c
+    - m
+    - p
+    - q
+    - b
+    - ́
+    - g
+    - .
+    - h
+    - ','
+    - ⁋
+    - v
+    - '-'
+    - f
+    - y
+    - S
+    - C
+    - '0'
+    - ^
+    - A
+    - j
+    - U
+    - '1'
+    - z
+    - x
+    - D
+    - M
+    - ̃
+    - E
+    - '2'
+    - L
+    - P
+    - N
+    - '8'
+    - V
+    - J
+    - B
+    - T
+    - G
+    - '6'
+    - I
+    - '5'
+    - '3'
+    - ':'
+    - '9'
+    - '4'
+    - H
+    - R
+    - '7'
+    - ;
+    - O
+    - “
+    - º
+    - ”
+    - F
+    - Q
+    - Y
+    - ̄
+    - '*'
+    - _
+    - '='
+    - $
+    - (
+    - '"'
+    - )
+    - ¿
+    - /
+    - ̀
+    - '?'
+    - ̈
+    - ¡
+    - '!'
+    - '{'
+    - '~'
+    - '}'
+    - '&'
+    - W
+    - Z
+    - ‘
+    - ’
+    - K
+    - '['
+    - ']'
+  automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Paris Bible Project (PBP)
+  url: https://github.com/parisbible/ground_truth
+  authors:
+  - name: Estelle
+    surname: Guéville
+    orcid: 0000-0003-2603-1051
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+  - name: David
+    surname: Wrisley
+    orcid: 0000-0002-0355-1487
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+  - name: Niccolò Acram
+    surname: Cappelletto
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+  institutions: []
+  description: >-
+    The Paris Bible Project aims to understand the production and diffusion of
+    medieval Latin Bibles in Europe. The dataset includes ground truth from Paris
+    Bibles produced in the 13th and 14th centuries. We also provide the most
+    recent version of our list of Paris Bible manuscripts found in the world along
+    with information about them.
+  project-website: https://parisbible.github.io/
+  language:
+  - lat
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1200'
+    notAfter: '1399'
   hands:
     count: more-than-10
     precision: estimated
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  format: Image-Text-Pairs
-  sources:
-  - reference: >-
-      Solène Tarride, Tristan Faine, Mélodie Boillet, Harold Mouchère, &
-      Christopher Kermorvant. (2023). The Belfort dataset: Handwritten Text
-      Recognition from Crowdsourced Annotations [Data set]. 7th International
-      Workshop on Historical Document Imaging and Processing (HIP'23), San
-      José, California, USA. Zenodo. https://doi.org/10.5281/zenodo.8041668
-    link: https://arxiv.org/abs/2306.10878
+  format: Alto-XML
   volume:
   - metric: lines
-    count: 24105
-  _bibtex: "@dataset{solene_tarride_2023_8041668,\n  author       = {Solène Tarride\
-    \ and\n                  Tristan Faine and\n                  Mélodie Boillet\
-    \ and\n                  Harold Mouchère and\n                  Christopher Kermorvant},\n\
-    \  title        = {{The Belfort dataset: Handwritten Text Recognition \n     \
-    \              from Crowdsourced Annotations}},\n  month        = jun,\n  year\
-    \         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n\
-    \  url          = {https://doi.org/10.5281/zenodo.8041668}\n}"
+    count: 1700
+  - metric: files
+    count: 19
+  - metric: regions
+    count: 40
+  - metric: characters
+    count: 55970
+  characters:
+    mode: NFKD
+    members:
+    - i
+    - e
+    - t
+    - u
+    - a
+    - s
+    - o
+    - n
+    - ̄
+    - c
+    - m
+    - r
+    - l
+    - ꝺ
+    - .
+    - p
+    - b
+    - q
+    - ⁊
+    - g
+    - f
+    - ́
+    - ꝛ
+    - h
+    - '-'
+    - d
+    - ꝫ
+    - ;
+    - x
+    - ꝯ
+    - ̾
+    - ꝑ
+    - ͥ
+    - E
+    - ̕
+    - ꝝ
+    - ̃
+    - ꝓ
+    - y
+    - ̈
+    - N
+    - ̇
+    - Q
+    - ·
+    - D
+    - S
+    - I
+    - A
+    - ͦ
+    - C
+    - T
+    - ᔆ
+    - ꝙ
+    - H
+    - F
+    - P
+    - ͣ
+    - '2'
+    - V
+    - M
+    - ':'
+    - R
+    - z
+    - L
+    - O
+    - U
+    - v
+    - ℟
+    - G
+    - ͨ
+    - ͧ
+    - '&'
+    - ẜ
+    - ᷤ
+    - ͤ
+    - ʀ
+    - B
+    - X
+    - Ꝙ
+    - '?'
+    - k
+    - ᣳ
+    - j
+    - ͬ
+  transcription-guidelines: 'See: https://parisbible.github.io/guidelines/'
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Guéville, Estelle and Wrisley, David\
+    \ Joseph},\ndoi = {10.5281/zenodo.7653691},\nmonth = {10},\ntitle = {Ground Truth\
+    \ Used in HTR for the Paris Bible Project},\nyear = {2021}\n}\n"
+  _apa: "Guéville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris\
+    \ Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: >-
+    University of Denver Jewish Consumptives Relief Society Medical Records   Training
+    and Validation Set
+  url: http://dx.doi.org/10.5281/zenodo.4243023
+  authors:
+  - name: Pham
+    surname: Kim
+    orcid: 0000-0002-9115-4739
+    roles:
+    - project-manager
+  institutions: []
+  description: >-
+    Training and validation set. Transcribed records available upon request.
+
+    The transcribed corpus of records from the Jewish Consumptive Relief Society
+    contains data that include individually identifiable health information, among
+    other sensitive information regarding persons and people.
+
+
+    All individuals for whom records are provided have been deceased for at least
+    70 years, but were they still living today, these records would be recognized
+    as being protected health information under the US Health Insurance
+    Portability and Accountability Act of 1996 (HIPAA).
+
+
+    While HIPPA and other privacy laws no longer apply to these individuals, in
+    providing these data the University of Denver wishes to foster research
+    practices that express the utmost respect for the human beings whose lives are
+    represented, at least in some part, in these collections. In addition, we ask
+    researchers respect the lives of these individuals’ ancestors and their
+    communities.
+
+
+    To foster practices that honor patients, staff, nurses and physicians
+    connected with the JCRS Sanitorium, as well as their families, ancestors and
+    communities, we ask that researchers disclose their intended use of the
+    collection for review by our Advisory Board (see reverse). This Board is
+    comprised of ethicists, historians, librarians, attorneys, physicians, and
+    members of the Jewish community.
+
+
+    In addition, we ask researchers agree to conduct their work under the
+    following set of principles:
+
+
+    1. I affirm the role of JCRS patients and staff as data creators and will
+    avoid exploiting and/or dehumanizing them by treating them simply as data.
+
+    2. My research will, when possible and appropriate, account for the contexts
+    surrounding the JCRS subjects as data arise. My work will recognize that all
+    data and datasets are shaped by decisions about how histories are recorded,
+    remembered, and valued.
+
+    3. If the nature of my work is such that I am sharing the life stories and/or
+    narratives of individuals in these data, and I can do so with no potential
+    harm to their reputation or that of their ancestors, I will honor them by
+    naming them. If the nature of my work is such that I am exploring large-scale
+    patterns in the dataset, and naming individuals serves no specific research
+    purpose, I will anonymize and/or redact names within the data. 
+
+    4. If I am publishing the results of research conducted with these data, I
+    will, if possible and appropriate, include a note of recognition and/or
+    gratitude in my publication. We suggest a version of: “This work was made
+    possible in part by the patients, staff, nurses, physicians, and community of
+    the Jewish Consumptive Relief Society (JCRS). The people who lived, worked,
+    and died at the JCRS sought to relieve human suffering. I am grateful to
+    them.”
+  project-name: >-
+    Collections as Data - University of Denver Transcribing Handwritten Medical
+    Records
+  project-website: https://du-collections-as-data.netlify.app/
+  language:
+  - eng
+  production-software: Transkribus
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notBefore: '1900'
+    notAfter: '1950'
+  hands:
+    count: unknown
+    precision: estimated
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: lines
+    count: 36027
+  - metric: characters
+    count: 3494619
+  - metric: files
+    count: 2660
+  - metric: regions
+    count: 4254
+  automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.4243023,\n  doi = {10.5281/ZENODO.4243023},\n\
+    \  url = {https://zenodo.org/record/4243023},\n  author = {Pham, Kim},\n  title\
+    \ = {University of Denver Collections as Data - HTR Train and Validation Set JCRS_2020_5_27},\n\
+    \  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution\
+    \ 4.0 International}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: RASAM
+  url: https://github.com/calfa-co/rasam-dataset
+  project-website: https://calfa.fr/blog/26
+  authors:
+  - name: Vidal-Gorène
+    surname: Chahan
+    roles:
+    - project-manager
+  - name: Lucas
+    surname: Noëmie
+    roles:
+    - project-manager
+    - quality-control
+  - name: Salah
+    surname: Clément
+    roles:
+    - transcriber
+    - quality-control
+  - name: Decours-Perez
+    surname: Aliénor
+    roles:
+    - support
+  - name: Dupin
+    surname: Boris
+    roles:
+    - support
+  description: "The Dataset is made up of 300 images, with their related ground truth\
+    \ stored in a XML file (pageXML format). Images come from three manuscripts selected\
+    \ among the collections of the BULAC Library (Paris). It covers a representative\
+    \ part of the handwritten production in Arabic Maghrebi scripts and includes an\
+    \ annotation of the layout (TextRegions, baselines and polygons) and the transcription\
+    \ of the main text. This dataset is the result of a collaborative transcription.\
+    \ All the participants are credited on the official deposit. With the support\
+    \ of the French Ministry of Higher Education, Research and Innovation, the Research\
+    \ Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.\n"
+  language:
+  - ara
+  script:
+  - iso: Arab
+  script-type: only-manuscript
+  time:
+    notBefore: '1700'
+    notAfter: '1899'
+  hands:
+    count: less-than-11
+    precision: exact
+  license:
+  - name: Apache-2.0 License
+    url: https://www.apache.org/licenses/LICENSE-2.0
+  format: Page-XML
+  volume:
+  - metric: pages
+    count: 300
+  - count: 7540
+    metric: lines
+  - count: 300
+    metric: files
+  - count: 676
+    metric: regions
+  - count: 403034
+    metric: characters
+  sources:
+  - reference: Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,
+      B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts
+      in Arabic Maghrebi. In International Conference on Document Analysis and Recognition
+      (pp. 265-281). Springer, Cham
+    link: https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19
+  transcription-guidelines: "Full description of specifications for transcription\
+    \ available on Github and in the paper.'\n"
+  production-software: Calfa Vision
+  automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Recensement Valaisan (Valais Time Machine)
   url: https://github.com/PonteIneptique/valais-recensement
@@ -2615,1067 +3616,235 @@
   _apa: "Alain D., Clérice T., Mamie C., Darius S., Rudaz C., Schmied M. Tables du\
     \ recensement du Valais URL: https://github.com/PonteIneptique/valais-recensement\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: HTR - Araucania manuscript XIX
-  url: https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX
+  title: GenAuto TD Corpus
+  url: https://github.com/jpmjpmjpm/genauto-td-htr.git
+  project-name: GenAuto
+  project-website: ''
   authors:
-  - name: Humeau
-    surname: Maxime
-  - name: Chiaretti
-    surname: Alessandro
-  institutions:
-  - name: Archivo Central Andres Bello
-  description: "Ground Truth dataset for Spanish 19th typewritten OCR. \nThe archives\
-    \ come from the events of the Occupation of Araucania (1850-1881) in Chile. They\
-    \ are archived in the ’Colección manuscritos' of the Archivo Central Andres Bello\
-    \ - Universidad de Chile."
+  - name: Boutet
+    surname: Jean-François
+    roles:
+    - transcriber
+    - aligner
+  - name: Merx
+    surname: Jean-Pierre
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+  description: "150 transcribed images from \"Tables Décennales\" French Civil Registry.\
+    \ Those come from Sermaises and Romilly-sur-Seine municipalities.\n"
   language:
-  - spa
-  production-software: eScriptorium + Kraken
+  - fra
   script:
   - iso: Latn
-  script-type: mainly-manuscript
+  script-type: only-manuscript
   time:
-    notBefore: '1859'
-    notAfter: '1877'
+    notBefore: '1792'
+    notAfter: '1902'
   hands:
-    count: more-than-10
+    count: less-than-11
     precision: estimated
   license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - metric: characters
-    count: 117155
-  - metric: files
-    count: 180
-  - metric: lines
-    count: 3932
-  - metric: regions
-    count: 981
-  transcription-guidelines: "- xxx for erased or unreadable characters\n- ^+letters\
-    \ for superscript letters\n- ⁋ for new paragraph\n"
+  - count: 300
+    metric: pages
+  - count: 150
+    metric: images
+  - count: 150
+    metric: files
+  - count: 186366
+    metric: characters
+  - count: 21557
+    metric: lines
+  - count: 608
+    metric: regions
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Boutet, Jean-François and Merx, Jean-Pierre},\n\
+    doi = {10.5281/zenodo.5507403},\nmonth = {9},\ntitle = {GenAuto TD Corpus},\n\
+    url = {https://github.com/jpmjpmjpm/genauto-td-htr.git},\nyear = {2021}\n}\n"
+  _apa: "Boutet J., Merx J. (2021). GenAuto TD Corpus (version 1.0.0). DOI: 10.5281/zenodo.5507403\
+    \ URL: https://github.com/jpmjpmjpm/genauto-td-htr.git\n"
+- authors:
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+    surname: Chagué
+  - name: Pascal
+    roles:
+    - project-manager
+    surname: Dubourg Glatigny
+  - name: Gilles
+    roles:
+    - transcriber
+    surname: Pérez
   characters:
-    mode: NFD
     members:
     - e
-    - a
-    - o
-    - n
     - s
-    - r
-    - i
-    - d
-    - l
-    - u
+    - a
     - t
-    - c
+    - n
+    - i
+    - r
+    - u
+    - o
+    - l
+    - d
     - m
+    - c
     - p
-    - q
-    - b
-    - ́
-    - g
-    - .
-    - h
+    - E
     - ','
-    - ⁋
+    - ́
+    - .
     - v
-    - '-'
-    - f
-    - y
-    - S
-    - C
-    - '0'
-    - ^
     - A
-    - j
+    - f
+    - ’
+    - I
+    - S
+    - N
+    - g
+    - q
+    - R
+    - T
+    - O
+    - ̀
+    - '-'
+    - b
+    - L
+    - h
     - U
+    - C
+    - j
     - '1'
-    - z
-    - x
     - D
     - M
-    - ̃
-    - E
-    - '2'
-    - L
     - P
-    - N
-    - '8'
+    - '"'
+    - x
+    - '2'
+    - ̂
     - V
-    - J
-    - B
-    - T
-    - G
-    - '6'
-    - I
-    - '5'
+    - y
+    - H
     - '3'
-    - ':'
+    - J
     - '9'
     - '4'
-    - H
-    - R
-    - '7'
-    - ;
-    - O
-    - “
-    - º
-    - ”
-    - F
-    - Q
-    - Y
-    - ̄
-    - '*'
-    - _
-    - '='
-    - $
+    - B
+    - G
     - (
-    - '"'
+    - F
+    - '0'
     - )
-    - ¿
-    - /
-    - ̀
+    - K
+    - '7'
+    - '5'
+    - ']'
     - '?'
+    - '8'
+    - ':'
+    - '['
+    - '6'
+    - Q
+    - ̧
+    - z
+    - k
+    - Y
+    - /
+    - ;
+    - Z
+    - X
+    - °
+    - '#'
+    - ^
+    - '='
+    - ⋎
+    - →
     - ̈
-    - ¡
     - '!'
     - '{'
-    - '~'
-    - '}'
-    - '&'
+    - w
     - W
-    - Z
-    - ‘
-    - ’
-    - K
-    - '['
-    - ']'
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Ground Truth data for printed Malayalam
-  url: https://doi.org/10.11588/data/L2KRZO
-  authors: []
-  institutions:
-  - name: Tübingen University Library
-    roles:
-    - project-manager
-  description: >-
-    Ground Truth (GT) data (JPG and ALTO XML files) which can be used to train OCR
-    models that recognize printed text in Malayalam script. The training material
-    is gathered from 19th and 20th centuries prints.
-
-
-    The GT data was trained in Transkribus with the HTR+ and the PyLaia engine
-    with a resulting CER of 2.29% on validation set with HTR+ and 3,20% with
-    PyLaia. The training was performed on 43 pages with appr. 9,000 words. The
-    validation set consisted of 5 pages (ca. 1,000 words).
-
-
-    Transcription was performed by Tübingen University Library, the Ground Truth
-    data was created by Elena Mucciarelli (University of Groningen) with support
-    and model training by Dorothee Huff (Tübingen University Library).
-    (2022-11-02)
-  project-name: DigitalSouthAsia
-  project-website: http://idb.ub.uni-tuebingen.de/digitue/southasia
-  language:
-  - mal
-  production-software: Transkribus
-  script:
-  - iso: Mlym
-  script-type: only-typed
-  time:
-    notBefore: '1850'
-    notAfter: '1996'
-  hands:
-    count: unknown
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: pages
-    count: 43
-  _bibtex: "@misc{https://doi.org/10.11588/data/l2krzo,\n  doi = {10.11588/DATA/L2KRZO},\n\
-    \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/L2KRZO},\n\
-    \  author = {{Tübingen University Library}},\n  title = {Ground Truth data for\
-    \ printed Malayalam},\n  publisher = {heiDATA},\n  year = {2023}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: >-
-    University of Denver Jewish Consumptives Relief Society Medical Records   Training
-    and Validation Set
-  url: http://dx.doi.org/10.5281/zenodo.4243023
-  authors:
-  - name: Pham
-    surname: Kim
-    orcid: 0000-0002-9115-4739
-    roles:
-    - project-manager
-  institutions: []
-  description: >-
-    Training and validation set. Transcribed records available upon request.
-
-    The transcribed corpus of records from the Jewish Consumptive Relief Society
-    contains data that include individually identifiable health information, among
-    other sensitive information regarding persons and people.
-
-
-    All individuals for whom records are provided have been deceased for at least
-    70 years, but were they still living today, these records would be recognized
-    as being protected health information under the US Health Insurance
-    Portability and Accountability Act of 1996 (HIPAA).
-
-
-    While HIPPA and other privacy laws no longer apply to these individuals, in
-    providing these data the University of Denver wishes to foster research
-    practices that express the utmost respect for the human beings whose lives are
-    represented, at least in some part, in these collections. In addition, we ask
-    researchers respect the lives of these individuals’ ancestors and their
-    communities.
-
-
-    To foster practices that honor patients, staff, nurses and physicians
-    connected with the JCRS Sanitorium, as well as their families, ancestors and
-    communities, we ask that researchers disclose their intended use of the
-    collection for review by our Advisory Board (see reverse). This Board is
-    comprised of ethicists, historians, librarians, attorneys, physicians, and
-    members of the Jewish community.
-
-
-    In addition, we ask researchers agree to conduct their work under the
-    following set of principles:
-
-
-    1. I affirm the role of JCRS patients and staff as data creators and will
-    avoid exploiting and/or dehumanizing them by treating them simply as data.
-
-    2. My research will, when possible and appropriate, account for the contexts
-    surrounding the JCRS subjects as data arise. My work will recognize that all
-    data and datasets are shaped by decisions about how histories are recorded,
-    remembered, and valued.
-
-    3. If the nature of my work is such that I am sharing the life stories and/or
-    narratives of individuals in these data, and I can do so with no potential
-    harm to their reputation or that of their ancestors, I will honor them by
-    naming them. If the nature of my work is such that I am exploring large-scale
-    patterns in the dataset, and naming individuals serves no specific research
-    purpose, I will anonymize and/or redact names within the data. 
-
-    4. If I am publishing the results of research conducted with these data, I
-    will, if possible and appropriate, include a note of recognition and/or
-    gratitude in my publication. We suggest a version of: “This work was made
-    possible in part by the patients, staff, nurses, physicians, and community of
-    the Jewish Consumptive Relief Society (JCRS). The people who lived, worked,
-    and died at the JCRS sought to relieve human suffering. I am grateful to
-    them.”
-  project-name: >-
-    Collections as Data - University of Denver Transcribing Handwritten Medical
-    Records
-  project-website: https://du-collections-as-data.netlify.app/
-  language:
-  - eng
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: mainly-manuscript
-  time:
-    notBefore: '1900'
-    notAfter: '1950'
-  hands:
-    count: unknown
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: lines
-    count: 36027
-  - metric: characters
-    count: 3494619
-  - metric: files
-    count: 2660
-  - metric: regions
-    count: 4254
-  automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.4243023,\n  doi = {10.5281/ZENODO.4243023},\n\
-    \  url = {https://zenodo.org/record/4243023},\n  author = {Pham, Kim},\n  title\
-    \ = {University of Denver Collections as Data - HTR Train and Validation Set JCRS_2020_5_27},\n\
-    \  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution\
-    \ 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Gwalther Handwriting Ground Truth
-  url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
-  project-name: "Bullinger digital'\n"
-  project-website: https://www.bullinger-digital.ch/
-  authors:
-  - name: Ströbel
-    surname: Phillip Benjamin
-    roles:
-    - aligner
-    - quality-control
-    - support
-  - name: Stotz
-    surname: Peter
-    roles:
-    - transcriber
-  description: "This is ground truth for Rudolph Gwalther’s (1519-1586) handwriting\
-    \ taken from his book \"Lateinische\" Gedichte\", where he accumulated writings\
-    \ between 1540 and 1580. Data collection and ground truth creation:   At the time\
-    \ we collected the data, we found 150 images with corresponding transcriptions\
-    \ by Peter Stotz on e-manuscripta (reference: Gwalther, Rudolf: Lateinische Gedichte.\
-    \ Zürich, 1540-1580. Zentralbibliothek Zürich, Ms D 152, https://doi.org/10.7891/e-manuscripta-26750\
-    \ / Public Domain Mark) . We removed 8 images with too many corrections or vertical\
-    \ texts. Next, we uploaded the images into the Transkribus platform, applied the\
-    \ line recognition tool and manually copied the transcribed text lines into the\
-    \ recognised line boxes. During this process, we made some corrections, which\
-    \ were mainly due to inconsistencies in punctuation and capitalised letters.\n"
-  language:
-  - lat
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1540'
-    notAfter: '1580'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 4040
-    metric: lines
-  - count: 142
-    metric: files
-  - count: 155
-    metric: regions
-  - count: 144301
-    metric: characters
-  production-software: Transkribus
-  automatically-aligned: false
-  _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
-    \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
-    \ \n                   truth: Initial release}},\n  month        = may,\n  year\
-    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
-    \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
-    }"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: 'GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries'
-  url: https://github.com/AjaxMultiCommentary/GT-commentaries-OLR
-  authors:
-  - name: Matteo
-    surname: Romanello
-    orcid: 0000-0002-7406-6286
-    roles:
-    - project-manager
-  - name: Sven
-    surname: Najem-Meyer
-    orcid: 0000-0002-3661-4579
-    roles:
-    - transcriber
-    - quality-control
-  - name: Carla
-    surname: Amaya
-    roles:
-    - transcriber
-  description: 'This dataset contains layout annotations for ca. 370 pages sampled
-    from 8 public domain classical commentaries, published in the 19th century in
-    English, German and Latin. The commentaries concern Ancient Greek and Latin works
-    from prose and poetry (caveat: AGreek poetry is slightly over-represented). Pages
-    were annotated according to a taxonomy mapped to the SegmOnto controlled vocabulary.'
-  project-name: Ajax Multi-Commentary
-  project-website: https://mromanello.github.io/ajax-multi-commentary/
-  language:
-  - eng
-  - deu
-  - lat
-  - grc
-  production-software: Kraken + VGG Image Annotator (VIA)
-  script:
-  - iso: Latn
-  - iso: Grek
-  script-type: only-typed
-  time:
-    notBefore: '1835'
-    notAfter: '1903'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 0
-  - metric: files
-    count: 371
-  - metric: lines
-    count: 0
-  - metric: regions
-    count: 2386
-  transcription-guidelines: SegmOnto guidelines (v. 0.9)
-  citation-file-link: https://github.com/AjaxMultiCommentary/GT-commentaries-layout/blob/master/CITATION.cff
-  characters:
+    - +
+    - ̆
+    - '*'
+    - '%'
+    - '>'
+    - <
+    - '~'
     mode: NFD
-    members: []
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Matteo and Najem-Meyer, Sven and Amaya,\
-    \ Carla},\ndoi = {10.5281/zenodo.7271729},\ntitle = {GT4HistCommentLayout: Layout\
-    \ Ground Truth for Historical Commentaries}\n}\n"
-  _apa: "Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth\
-    \ for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: ÖNB, Cod. 3891. Ground Truth
-  url: 10.5281/zenodo.7467249
-  authors:
-  - name: Ainonen
-    surname: Tuija
-    roles:
-    - transcriber
-  - name: Andresen
-    surname: Suse
-    roles:
-    - transcriber
-  - name: Bakker
-    surname: Loïs
-    roles:
-    - transcriber
-  - name: Boylan
-    surname: Amy
-    roles:
-    - transcriber
-  - name: Della Manna
-    surname: Silvia
-    roles:
-    - transcriber
-  - name: Dziemski
-    surname: Wiktor
-    orcid: 0000-0001-8166-2249
-  - name: Henderson
-    surname: C. E. M.
-    orcid: 0000-0002-5040-9926
-    roles:
-    - transcriber
-  - name: ' Impagnatiello'
-    surname: Michele
-    roles:
-    - transcriber
-  - name: Jenko Kovačič
-    surname: Ana
-    orcid: 0000-0001-7243-7082
-    roles:
-    - transcriber
-  - name: Komatović
-    surname: Stevan
-    roles:
-    - transcriber
-  - name: Ku
-    surname: Ruby Wai-Ying
-    orcid: 0000-0003-2688-6287
-    roles:
-    - transcriber
-  - name: Loss
-    surname: Edward
-    orcid: 0000-0002-9837-8321
-    roles:
-    - transcriber
-  - name: Mairhofer
-    surname: Daniela
-    orcid: 0000-0002-3531-9658
-    roles:
-    - transcriber
-    - project-manager
-  - name: Morcos
-    surname: Erene
-    roles:
-    - transcriber
-  - name: Odstrčilík
-    surname: Jan
-    orcid: 0000-0001-9104-9827
-    roles:
-    - transcriber
-  - name: Paternicò
-    surname: Giuseppe
-    orcid: 0000-0002-7124-8869
-    roles:
-    - transcriber
-  - name: Riparante
-    surname: Marta
-    roles:
-    - transcriber
-  - name: Schimdt
-    surname: Nathalie
-    roles:
-    - transcriber
-  - name: Sołomieniuk
-    surname: Michal
-    roles:
-    - transcriber
-  - name: Walczak
-    surname: 'Tomasz '
-    roles:
-    - transcriber
-  - name: Zharov
-    surname: Dmitry
-    roles:
-    - transcriber
-  institutions: []
-  description: >-
-    The Ground Truth was produced by the participants of the HTR Winter School
-    2022 in the Late Latin Group (more information:
-    https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition).
-
-
-    The Ground Thruth includes the following folios: 1-3r, 6-8, 11r, 27 and is
-    still work in progress. We are adding more pages soon. If you find any errors
-    we kindly ask you to contact Jan Odstrčilík (jan.odstrcilik@oeaw.ac.at).
-
-
-    The Supervisors of the Late Latin Group: Jan Odstrčilík PhD, Austrian Acadamy
-    of Sciences, Daniela Mairhofer PhD, Princeton University, Tobias Hodel PhD,
-    University of Bern.
-  project-name: HTR Winter School 2022, Vienna
-  language:
-  - lat
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1200'
-    notAfter: '1299'
+  description: Ground Truth for the Digital Peraire project.
+  format: Alto-XML
   hands:
     count: '1'
     precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: lines
-    count: 952
-  transcription-guidelines: |-
-    Regular transcription with expansion of abbreviations. 
-    - Normalization of J to I 
-    - V to U in the vowel function, U to V in the consonant function
-    - long S to S. 
-    - No correction of mispellings (tagged in the ground truth)
-    - No standardization of lower-case and upper-case letters
-    - No added interpunction
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Padeřov-Bible-handwriting-ground-truth
-  url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
-  authors:
-  - name: Anna
-    surname: Michalcová
-    orcid: 0000-0003-4760-6950
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-    - quality-control
-    - support
-  - name: Jan
-    surname: Odstrčilík
-    orcid: 0000-0001-9104-9827
-    roles:
-    - project-manager
-    - support
-  - name: Laura
-    surname: Maniaková
-    roles:
-    - transcriber
-  - name: Eliška
-    surname: Pěnkavová
-    orcid: 0000-0002-5494-8847
-  - name: Kamil
-    surname: Bazelides
-    orcid: 0000-0002-5199-8726
-  - name: Jan
-    surname: Hajič
-    orcid: 0000-0002-9207-567X
-  - name: Hana
-    surname: Kreisingerová
-    orcid: 0000-0002-2924-598X
-  - name: Jitka
-    surname: Filipová
-    orcid: 0000-0002-3570-4038
-  - name: Chi-hung
-    surname: Liu
-  - name: Martina
-    surname: Dvořáková
   institutions:
-  - name: Institute of the Czech Language
-  - name: Masaryk Institute and Archives
-  description: >-
-    This is ground truth based on the Padeřov Bible (Vienna, Austrian National
-    Library, shelfmark Cod. 1175, 1432–1435), the bible of the third redaction of
-    the Old Czech Bible translation. The transcription rules were based on
-    semi-diplomatic transcription rules set by PERO OCR and Směrnice pro vydávání
-    starších českých textů set by Jiří Daňhelka
-    (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice).
-    Abbreviations were tagged and expanded.
-  project-name: HTR Winter School 2022, Vienna
-  project-website: >-
-    https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition-1
+  - name: Azentis
+    roles:
+    - digitization
   language:
-  - ces
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1432'
-    notAfter: '1435'
-  hands:
-    count: '1'
-    precision: exact
+  - fra
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  sources:
-  - reference: ''
-    link: >-
-      https://search.onb.ac.at/primo-explore/fulldisplay?docid=ONB_alma21302405460003338&context=L&adaptor=Local%20Search%20Engine&vid=ONB&lang=de_DE&search_scope=ONB_gesamtbestand&tab=default_tab&query=addsrcrid,exact,AC13954505
-  volume:
-  - metric: pages
-    count: 63
-  transcription-guidelines: >-
-    Transliteration. Differentiates long and short "s". Abbreviations tagged and
-    expanded. No misspelling corrections.
-  automatically-aligned: false
-  _bibtex: "@dataset{michalcova_anna_2022_7467034,\n  author       = {Michalcová,\
-    \ Anna and\n                  Bazelides, Kamil and\n                  Hajič, Jan\
-    \ and\n                  Pěnkavová, Eliška and\n                  Maniaková, Laura\
-    \ and\n                  Kreisingerová, Hana and\n                  Filipová,\
-    \ Jitka and\n                  Chi-hung Lu and\n                  Dvořáková, Martina},\n\
-    \  title        = {{Padeřov-Bible-handwriting-ground-truth: Initial \n       \
-    \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
-    \    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          =\
-    \ {https://doi.org/10.5281/zenodo.7467034}\n}"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
-  url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
-  authors:
-  - name: Geelhaar
-    surname: Tim
-    orcid: 0000-0002-7653-5859
-    roles:
-    - transcriber
-    - project-manager
-  - name: D'Amico
-    surname: Sara
-    orcid: 0000-0002-8937-2040
-    roles:
-    - transcriber
-  - name: Hofmann
-    surname: Lara
-    orcid: 0000-0003-4698-3906
-    roles:
-    - transcriber
-  - name: Gnasso
-    surname: Alessandro
-    orcid: 0000-0001-5964-2989
-    roles:
-    - transcriber
-  - name: Audebrand
-    surname: Justine
-    roles:
-    - transcriber
-  - name: Stitts
-    surname: Jeremy
-    orcid: 0000-0001-6988-1836
-    roles:
-    - transcriber
-  - name: Sweeney
-    surname: Mary
-    orcid: 0000-0001-7028-2072
-    roles:
-    - transcriber
-  - name: Atwood
-    surname: Grace
-    orcid: 0000-0002-1546-6546
-    roles:
-    - transcriber
-  institutions: []
-  description: >-
-    This is Ground Truth data created during the HTR Winter School 2022 for the
-    Cod. 2160 ÖNB that contains one version of the so called Lex Dei. 
-  project-name: HTR Winter School 2022, Vienna
-  language:
-  - lat
-  production-software: Transkribus
-  script:
-  - iso: Latn
-    qualify: Carolingian Minuscule
-  script-type: only-manuscript
-  time:
-    notBefore: '850'
-    notAfter: '900'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  sources:
-  - reference: ''
-    link: http://data.onb.ac.at/rec/AC13956457
-  volume:
-  - metric: pages
-    count: 40
-  transcription-guidelines: >-
-    Abbreviations resolved, but no normalization and no correcting of mispelling.
-    No transcription of initials and interlinear script.
-  automatically-aligned: false
-  _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
-    \            Sweeney and\n                  Stitts and\n                  Audebrand\
-    \ and\n                  D'Amico and\n                  Geelhaar and\n       \
-    \           Hofmann and\n                  Gnasso},\n  title        = {{Wien ÖNB\
-    \ Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
-    \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
-    \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
-    }"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
-  url: https://doi.org/10.5281/zenodo.7466927
-  authors:
-  - name: Berger
-    surname: Michael
-    orcid: 0000-0002-6627-5272
-  - name: Bolte
-    surname: Henrike
-  - name: Führer
-    surname: Veronika
-    orcid: 0000-0003-3145-4083
-  - name: Hausleitner
-    surname: Felix
-    orcid: 0000-0002-9788-8127
-  - name: Hutterer
-    surname: Sarah
-  - name: Lüthi
-    surname: Tim
-    orcid: 0000-0003-1925-7175
-  - name: Nancu
-    surname: Mihaela
-  - name: Passoni
-    surname: Erica
-  - name: Pataki
-    surname: Katalin
-    orcid: 0000-0003-0331-8295
-  - name: Schröcksnadel
-    surname: Sophie
-  - name: Verri
-    surname: Giovanni
-    orcid: 0000-0002-1297-2152
-  - name: Wegener
-    surname: Dennis
-    orcid: 0000-0002-9410-9191
-  institutions: []
-  description: >-
-    This is ground truth for the vast collection of sermons of Nikolaus von
-    Dinkelsbühl (ca. 1360 to 17th March 1433), translated and reorganised by a
-    German redactor, from the 15th century has never been edited until now. It
-    consists of 361 folios of parchment and paper. The text speaks about various
-    topics such as fasting and other religious practices. Being one of the leading
-    intellectuals of his time, Nikolaus von Dinkelsbühl also contributed to the
-    development of the University of Vienna. The manuscript was probably produced
-    in the vicinity of Klosterneuburg in Austria and is still kept there today
-    (Shelfmark: Cod. 48).
-
-
-    Data collection and ground truth creation:
-
-
-    The edition at hand was produced by an international team of researchers from
-    various fields in the context of the Vienna HTR Winter School 2022 with the
-    help of Transkribus Expert Client.
-
-
-    We uploaded the images of the manuscript into the Transkribus platform,
-    applied the line recognition tool and manually copied the transcribed text
-    lines into the recognised line boxes. Various models were trained with the
-    ground truth (20% of the entire codex) created by the team.
-
-
-    Images of the Klosterneuburg, Augustiner-Chorherrenstift, Cod. 48 are
-    available at: https://manuscripta.at/diglit/AT5000-48/0001
-  project-name: HTR Winter School 2022, Vienna
-  language:
-  - gmh
-  production-software: Transkribus
+  production-software: eScriptorium + Kraken
+  project-name: Digital Peraire
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1440'
-    notAfter: '1449'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
+    notAfter: '1990'
+    notBefore: '1928'
+  title: Peraire Ground Truth
+  transcription-guidelines: Les mots barrés sont transcrits par "><". Les textes suscrits
+    ne sont pas signalés. Ce qui est écrit est transcrits. S'il y a des incertitutes,
+    la ligne est laissée vide. La segmentation de certains documents ne convient pas
+    pour l'entraînement d'un modèle de segmentation. L'ontologie SegmOnto a été utilisée.
+    Quand les mots ajoutés sont insérés par un '⋎', ce graphème est transcrit par
+    un ⋎.
+  url: https://github.com/alix-tz/peraire-ground-truth
   volume:
-  - metric: pages
-    count: 68
-  - metric: lines
-    count: 4605
+  - count: 97505
+    metric: characters
+  - count: 67
+    metric: files
+  - count: 2307
+    metric: lines
+  - count: 151
+    metric: regions
   automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n\
-    \  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and\
-    \ Bolte, Henrike and Führer, Veronika and Hausleitner, Felix and Hutterer, Sarah\
-    \ and Lüthi, Tim and Nancu, Mihaela and Passoni, Erica and Pataki, Katalin and\
-    \ Schröcksnadel, Sophie and Verri, Giovanni and Wegener, Dennis and Hofert, Sandra},\n\
-    \  keywords = {Digital Humanities, Handwritten Text Recognition, German, Nikolaus-von-Dinkelsbühl-Redaktor},\n\
-    \  title = {Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release},\n\
-    \  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution\
-    \ 4.0 International}\n}\n"
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Pérez, Gilles},\n\
+    doi = {10.5281/zenodo.7185907},\nmonth = {6},\ntitle = {Peraire Ground Truth},\n\
+    url = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2023}\n}\n"
+  _apa: "Chagué A., Pérez G. (2023). Peraire Ground Truth (version 2.0.0). DOI: 10.5281/zenodo.7185907\
+    \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Joseph Hooker HTR
-  url: https://github.com/jschaefer738b/JosephHookerHTR.git
+  title: Moonshines
+  url: https://github.com/alix-tz/moonshines
   authors:
-  - name: John
-    surname: Schaefer
-    orcid: 0009-0006-5751-9323
-    roles:
-    - transcriber
-    - project-manager
-    - quality-control
-    - support
-  - name: Kiri
-    surname: Ross-Jones
-    roles:
-    - support
-  - name: Alexis
-    surname: Litvine
-    roles:
-    - support
-  institutions:
-  - name: Royal Botanic Gardens, Kew
-  - name: University of Cambridge
-  description: >-
-    XML transcriptions and JPEG images exported from Transkribus as ground truth
-    for an eScriptorium-Kraken HTR model (CER 11-12%) trained on the correspondence
-    of Joseph
-    Dalton Hooker (1817-1911), primarily letters to William Turner Thiselton-Dyer
-    (1843-1928) during the late-19th/early-20th century. Many transcriptions in
-    this dataset were generated by a small team of anonymous volunteers as part of
-    the Joseph Hooker Correspondence Project based at Kew Gardens. All images in
-    this dataset are reproduced with the kind permission of the Board of Trustees
-    of the Royal Botanic Gardens Kew (© RBG, Kew). Contact archives@kew.org for
-    more information.
-
-
-    HTR Model: Schaefer, John, & Litvine, Alexis. (2023). Joseph Hooker HTR Model.
-    Zenodo. https://doi.org/10.5281/zenodo.8038689
-  project-name: Joseph Hooker Correspondence Project
-  project-website: >-
-    https://www.kew.org/science/our-science/projects/joseph-hooker-correspondence-project
-  language:
-  - eng
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1850'
-    notAfter: '1911'
-  hands:
-    count: '1'
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Page-XML
-  volume:
-  - metric: lines
-    count: 7100
-  - metric: files
-    count: 337
-  - metric: pages
-    count: 337
-  transcription-guidelines: >-
-    All horizontal lines in Hooker's hand were transcribed as originally written.
-    Most typescript and vertical lines in the margins were not included.
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Paris Bible Project (PBP)
-  url: https://github.com/parisbible/ground_truth
-  authors:
-  - name: Estelle
-    surname: Guéville
-    orcid: 0000-0003-2603-1051
+  - name: Alix
+    surname: Chagué
+    orcid: 0000-0002-0136-4434
     roles:
     - transcriber
     - aligner
     - project-manager
-    - quality-control
-  - name: David
-    surname: Wrisley
-    orcid: 0000-0002-0355-1487
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-    - quality-control
-  - name: Niccolò Acram
-    surname: Cappelletto
-    roles:
-    - transcriber
-    - aligner
-    - quality-control
+    - digitization
   institutions: []
-  description: >-
-    The Paris Bible Project aims to understand the production and diffusion of
-    medieval Latin Bibles in Europe. The dataset includes ground truth from Paris
-    Bibles produced in the 13th and 14th centuries. We also provide the most
-    recent version of our list of Paris Bible manuscripts found in the world along
-    with information about them.
-  project-website: https://parisbible.github.io/
-  language:
-  - lat
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1200'
-    notAfter: '1399'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: lines
-    count: 1700
-  - metric: files
-    count: 19
-  - metric: regions
-    count: 40
-  - metric: characters
-    count: 55970
-  characters:
-    mode: NFKD
-    members:
-    - i
-    - e
-    - t
-    - u
-    - a
-    - s
-    - o
-    - n
-    - ̄
-    - c
-    - m
-    - r
-    - l
-    - ꝺ
-    - .
-    - p
-    - b
-    - q
-    - ⁊
-    - g
-    - f
-    - ́
-    - ꝛ
-    - h
-    - '-'
-    - d
-    - ꝫ
-    - ;
-    - x
-    - ꝯ
-    - ̾
-    - ꝑ
-    - ͥ
-    - E
-    - ̕
-    - ꝝ
-    - ̃
-    - ꝓ
-    - y
-    - ̈
-    - N
-    - ̇
-    - Q
-    - ·
-    - D
-    - S
-    - I
-    - A
-    - ͦ
-    - C
-    - T
-    - ᔆ
-    - ꝙ
-    - H
-    - F
-    - P
-    - ͣ
-    - '2'
-    - V
-    - M
-    - ':'
-    - R
-    - z
-    - L
-    - O
-    - U
-    - v
-    - ℟
-    - G
-    - ͨ
-    - ͧ
-    - '&'
-    - ẜ
-    - ᷤ
-    - ͤ
-    - ʀ
-    - B
-    - X
-    - Ꝙ
-    - '?'
-    - k
-    - ᣳ
-    - j
-    - ͬ
-  transcription-guidelines: 'See: https://parisbible.github.io/guidelines/'
-  automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Guéville, Estelle and Wrisley, David\
-    \ Joseph},\ndoi = {10.5281/zenodo.7653691},\nmonth = {10},\ntitle = {Ground Truth\
-    \ Used in HTR for the Paris Bible Project},\nyear = {2021}\n}\n"
-  _apa: "Guéville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris\
-    \ Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Éditer la correspondance de Constance de Salm (1767-1845)
-  url: https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain
-  authors:
-  - name: Biay
-    surname: Sébastien
-    roles:
-    - transcriber
-  institutions: []
-  description: >-
-    La correspondance de Constance de Salm (femme de lettres française) comprend
-    différents spécimens d’écriture du début du XIXe siècle. Le jeu de données
-    atteste les mains de quatre copistes différents.
-  project-website: https://dhiha.hypotheses.org/2945
+  description: This dataset is composed of pages of text written in 2023 by a single
+    person, copying texts taken from Guillaume Apollinaire's poems published in Alcools,
+    and taken from Guillaume Apollinaire's Wikipedia page.
   language:
   - fra
   production-software: eScriptorium + Kraken
@@ -3683,519 +3852,350 @@
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1800'
-    notAfter: '1825'
-  hands:
-    count: less-than-11
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  sources:
-  - reference: >-
-      Salm, C. de (1767-1845). Correspondance. Société des Amis du Vieux Toulon
-      et de sa Région, Fonds Salm. Archiv Schloss Dyck, fonds Constance de Salm.
-    link: ''
-  volume:
-  - metric: lines
-    count: 1754
-  transcription-guidelines: >-
-    Usages scribaux respectés : abréviations, fautes, accentuation respectés.
-    Allographes normalisés (s long).
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: >-
-    GT and HTR of VOC (Dutch East-Asia Company), WIC (Dutch West-Asia Company) and
-    notarial deeds.
-  url: https://doi.org/10.5281/zenodo.6414086
-  authors:
-  - name: Keijser
-    surname: Liesbeth
-    roles:
-    - transcriber
-    - project-manager
-  - name: Noppe
-    surname: Vincent
-  institutions:
-  - name: National Archive Netherlands / Nationaal Archief
-    roles:
-    - digitization
-    - support
-  description: >-
-    6000 ground truth of VOC and notarial deeds and 3.000.000 HTR of VOC, WIC and
-    notarial deeds
-
-    The National Archives of the Netherlands and Noord-Hollands Archief conducted
-    a project using the Transkribus HTR (Handwritten Text Recognition) platform.
-    The aim was to semi automatically transcribe 2 million pages of old Dutch
-    texts.
-
-
-    The transcribed archives are 17th and 18th century documents from the Dutch
-    East-Asia Company (VOC). And 19th century notarial deeds from Noord-Hollands
-    Archief and other archives in the provinces.
-
-
-    In order to train the HTR software a team produced transcriptions of
-    approximately 6000 scans. The scans are randomly selected from the dataset and
-    contain hundreds of hands. With these transcriptions a model is trained that
-    can recognize more than 90% of the characters correctly. Transkribus
-    transcribed the 2 million scans automatically using the trained model.
-
-
-    Later on, 1 million extra scans concerning the West India Company (WIC) were
-    transcribed automatically without adding extra ground truth or training. These
-    archives are from the 17th and 18th century.
-
-
-    The datasets published in Zenodo contain the ground truth (scans in JPG,
-    transcription in PAGE XML) and the HTR results (in PAGE XML and TXT). See the
-    overview on the Zenodo page.
-
-
-    A specification on which archives have been transcribed (both GT and HTR) can
-    be found on the Zenodo.
-
-
-    For open data access of scans and inventories of the National Archives click
-    here:
-    https://www.nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven
-    
-
-    Disclaimer: due to a variety of languages used and the bad state of the
-    documents the HTR results of "1.05.21, Dutch series Guyana" can be of poor
-    quality.
-  project-name: De ijsberg zichtbaar maken
-  project-website: >-
-    https://www.nationaalarchief.nl/beleven/nieuws/kijk-symposium-de-ijsberg-zichtbaar-maken-terug#:~:text=In%20het%20project%20De%20IJsberg,de%20website%20zoekintranscripties.nl%20ontwikkeld.
-  language:
-  - nld
-  production-software: Transkribus
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1600'
-    notAfter: '1899'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: pages
-    count: 6000
-  - {count: 251889, metric: lines}
-  - {count: 6350, metric: files}
-  - {count: 10735, metric: regions}
-  - {count: 24432166, metric: characters}
-  automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n\
-    \  url = {https://zenodo.org/record/6414086},\n  author = {Keijser, Liesbeth},\n\
-    \  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische\
-    \ Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n\
-    \  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC,\
-    \ WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright\
-    \ = {Creative Commons Attribution 4.0 International}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: EpiSearch HTR
-  url: https://github.com/vedph/episearch-htr
-  authors:
-  - name: Lorenzo
-    surname: Calvelli
-    orcid: 0000-0002-0920-9156
-    roles:
-    - project-manager
-  - name: Tatiana
-    surname: Tommasi
-    orcid: 0009-0000-2815-0113
-    roles:
-    - transcriber
-  - name: Federico
-    surname: Boschetti
-    orcid: 0000-0002-7810-7735
-    roles:
-    - support
-  institutions: []
-  description: Ground Truth for Astori’s letters (see the README.md file for details)
-  project-name: EpiSearch
-  project-website: https://github.com/vedph/episearch-htr
-  language:
-  - ita
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1705'
-    notAfter: '1709'
+    notBefore: '2023'
+    notAfter: '2023'
   hands:
     count: '1'
     precision: exact
   license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
+  - metric: characters
+    count: 27734
   - metric: files
-    count: 34
+    count: 45
+  - metric: lines
+    count: 1016
+  - metric: regions
+    count: 45
+  citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
+  transcription-guidelines: The transcription strictly follows what is written on
+    the images, including accentuation or capitalization errors. The segmentation
+    follows the SegmOnto ontology and mostly relies on MainZone and DefaultLine. Beware
+    that this dataset barely contains any ponctuation and that most lines begin with
+    a capital letter.
+  characters:
+    mode: NFD
+    members:
+    - e
+    - s
+    - a
+    - n
+    - r
+    - i
+    - t
+    - u
+    - o
+    - l
+    - d
+    - m
+    - c
+    - p
+    - ́
+    - "'"
+    - v
+    - g
+    - b
+    - h
+    - ̀
+    - f
+    - L
+    - q
+    - E
+    - '1'
+    - A
+    - C
+    - x
+    - y
+    - ̂
+    - S
+    - '9'
+    - P
+    - M
+    - j
+    - T
+    - D
+    - '-'
+    - N
+    - J
+    - R
+    - '0'
+    - z
+    - O
+    - I
+    - '2'
+    - '8'
+    - V
+    - F
+    - G
+    - U
+    - '5'
+    - B
+    - Q
+    - )
+    - H
+    - '3'
+    - (
+    - '7'
+    - '6'
+    - w
+    - k
+    - '4'
+    - ̧
+    - K
+    - Z
+    - ̈
+    - Y
+    - '{'
+    - '}'
+    - W
+    - .
+    - X
+    - ','
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {0.5281/zenodo.607720783},\n\
+    month = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\n\
+    year = {2023}\n}\n"
+  _apa: "Chagué A. (2023). moonshines (version 2.0.0). DOI: 0.5281/zenodo.607720783\
+    \ URL: https://github.com/alix-tz/moonshines\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: BiblIA
-  url: https://zenodo.org/record/5167263
-  project-name: "Scripta PSL\n"
-  project-website: https://escripta.hypotheses.org/
+  title: Bullinger HTR Dataset
+  url: https://github.com/pstroe/bullinger-htr
   authors:
-  - name: Stökl Ben Ezra
-    surname: Daniel
+  - name: Phillip Benjamin
+    surname: Ströbel
+    orcid: 0000-0003-2063-5495
     roles:
-    - transcriber
+    - aligner
+    - support
+  - name: Tobias
+    surname: Hodel
+    orcid: 0000-0002-2071-6407
+    roles:
+    - aligner
     - project-manager
-  - name: Brown-DeVost
-    surname: Bronson
-  - name: Jablonski
-    surname: Pawel
-  - name: Kiessling
-    surname: Benjamin
-  - name: Lolli
-    surname: Elena
-  - name: Lapin
-    surname: Hayim
-  description: "This dataset for Handwritten Text Recognition includes layout segmentation\
-    \ (regions, toplines and linepolygons) and unicode-transcriptions in alto 4.2\
-    \ XML for 202 images of Medieval Hebrew manuscripts from the Bibliothèque nationale\
-    \ de France (BnF, National Library of France) and the Biblioteca Apostolica Vaticana\
-    \ (BAV, Vatican Library) corresponding to the article \"BiblIA - a General Model\
-    \ for Medieval Hebrew Manuscripts and an Open Annotated Dataset\" by Daniel Stökl\
-    \ Ben Ezra, Bronson Brown-DeVost, Pawel Jablonski, Benjamin Kiessling, Elena Lolli,\
-    \ and Hayim Lapin, published in HIP@ICDAR 2021 held in Lausanne, September 2021.\n"
+  - name: Christian
+    surname: Sieber
+    orcid: 0000-0002-9364-6921
+    roles:
+    - digitization
+  - name: Patricia
+    surname: Scheurer
+    roles:
+    - quality-control
+    - support
+  - name: David Selim
+    surname: Schoch
+    orcid: 0000-0002-9936-8459
+    roles:
+    - aligner
+  - name: Anna
+    surname: Janka
+    roles:
+    - aligner
+  - name: Raphael
+    surname: Schwitter
+    roles:
+    - aligner
+  - name: Beat
+    surname: Wolf
+    roles:
+    - aligner
+  - name: Jonas
+    surname: Widmer
+    roles:
+    - aligner
+  - name: Peter
+    surname: Rechsteiner
+    roles:
+    - quality-control
+    - support
+  - name: Raphael
+    surname: Müller
+    roles:
+    - quality-control
+    - digitization
+    - support
+  institutions: []
+  description: >-
+    This dataset contains 165,673 image and corresponding text line files (.png
+    for images and .txt for the texts) in a random 80/10/10 training, validation
+    and test set split. The source is the extensive correspondence of Swiss
+    reformer Heinrich Bullinger (1504-1575) and his over 800 different
+    correspondents. It therefore contains great variety in handwriting styles.
+    Furthermore, it is multilingual since there are Latin and Early New High
+    German (and sometimes mixed) letters. The data is split into Latin and Early
+    New High German (determined with langid) and put into separate folders (de for
+    Early New High German and la for Latin).
+  project-website: https://www.bullinger-digital.ch/
   language:
-  - heb
+  - lat
+  - deu
+  production-software: Transkribus, own
   script:
-  - iso: Hebr
+  - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1000'
-    notAfter: '1499'
+    notBefore: '1523'
+    notAfter: '1575'
   hands:
     count: more-than-10
-    precision: exact
+    precision: estimated
   license:
   - name: CC-BY-SA 4.0
     url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
+  format: Image-Text-Pairs
   volume:
-  - metric: files
-    count: 202
-  - metric: pages
-    count: 202
   - metric: lines
-    count: 12461
-  - metric: regions
-    count: 509
-  - metric: characters
-    count: 278641
-  transcription-guidelines: "See the guidelines detailed in Stoekl Ben Ezra Daniel,\
-    \ Brown-DeVost Bronson, Jablonski Pawel, Lapin Hayim, Kiessling Benjamin, and\
-    \ Lolli Elena. 2021. BiblIA - a General Model for Medieval Hebrew Manuscripts\
-    \ and an Open Annotated Dataset. In The 6th International Workshop on Historical\
-    \ Document Imaging and Processing (HIP '21). Association for Computing Machinery,\
-    \ New York, NY, USA, 61–66. DOI:https://doi.org/10.1145/3476887.3476896'\n"
-  production-software: eScriptorium + Kraken
-  automatically-aligned: false
-  _bibtex: "@dataset{stokl_ben_ezra_daniel_2021_5167263,\n  author       = {Stökl\
-    \ Ben Ezra, Daniel and\n                  Brown-DeVost, Bronson and\n        \
-    \          Jablonski, Pawel and\n                  Kiessling, Benjamin and\n \
-    \                 Lolli, Elena and\n                  Lapin, Hayim},\n  title\
-    \        = {BiblIA - an Open Annotated Dataset},\n  month        = aug,\n  year\
-    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
-    \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
-    }"
+    count: 165673
+  automatically-aligned: true
+  transcription-guidelines: Automated transcript alignment with Transkribus
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Ground truth for Neue Zürcher Zeitung black letter period
-  url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
-  project-name: "impresso'\n"
-  project-website: https://impresso-project.ch/
+  title: OCR17plus
+  url: https://github.com/e-ditiones/OCR17plus
+  project-name: E-ditiones
+  project-website: https://e-ditiones.huma-num.fr/
   authors:
-  - name: Ströbel
-    surname: Phillip Benjamin
-    roles:
-    - transcriber
-    - aligner
-    - project-manager
-    - quality-control
-    - support
-  - name: Clematide
+  - name: Gabay
     surname: Simon
     roles:
     - transcriber
-    - quality-control
-  - name: Watter
-    surname: Camille
+    - project-manager
+    - support
+  - name: Jahan
+    surname: Claire
     roles:
     - transcriber
-  - name: Meraner
-    surname: Isabell
-    roles:
-    - transcriber
-  description: "The Neue Zürcher Zeitung (NZZ) has been publishing in black letter\
-    \ from its very first issue in 1780 until 1947. From this time period, we randomly\
-    \ sampled one frontpage per year, resulting in a total of 167 pages. We chose\
-    \ frontpages because they typically contain highly relevant material and because\
-    \ we want to make sure not to sample pages containing exclusively advertisements\
-    \ or stock information. During certain periods, the NZZ was published several\
-    \ times a day, and there were supplements, too. Due to incomplete metadata, the\
-    \ sampling included frontpages from supplements. We then manually corrected the\
-    \ pages, so it can be used as a ground truth to improve the OCR of black letter\
-    \ in historical newspapers.i\n"
+    - aligner
+  description: Imprimés classiques
   language:
-  - deu
+  - frm
   script:
   - iso: Latn
   script-type: only-typed
   time:
-    notBefore: '1780'
-    notAfter: '1946'
+    notBefore: '1600'
+    notAfter: '1700'
   hands:
-    count: less-than-11
-    precision: estimated
+    count: 1-per-folder
+    precision: exact
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
   format: Alto-XML
   volume:
-  - count: 43173
+  - count: 25628
     metric: lines
-  - count: 167
+  - count: 965
     metric: files
-  - count: 6318
+  - count: 3923
     metric: regions
-  - count: 1768146
+  - count: 686335
     metric: characters
   production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Ströbel\
-    \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
-    \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
-    \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
-    \     = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
-    \ {https://doi.org/10.5281/zenodo.3333627}\n}"
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jahan, Claire and Gabay, Simon},\n\
+    doi = {none},\nmonth = {7},\ntitle = {OCR17+ - Layout analysis and text recognition\
+    \ for 17th c. French prints},\nurl = {https://github.com/e-ditiones/OCR17plus},\n\
+    year = {2021}\n}\n"
+  _apa: "Jahan C., Gabay S. (2021). OCR17+ - Layout analysis and text recognition\
+    \ for 17th c. French prints (version 1.0). DOI: none URL: https://github.com/e-ditiones/OCR17plus\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Caroline Minuscule by Rescribe
-  url: https://github.com/rescribe/carolineminuscule-groundtruth
-  project-name: "Rescribe'\n"
-  project-website: https://rescribe.xyz/
+  title: 'Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch
+    X'
+  url: https://doi.org/10.5281/zenodo.5153263
   authors:
-  - name: White
-    surname: Nick
+  - name: Susanna
+    surname: Burghartz
+    roles:
+    - project-manager
+  - name: Calvi
+    surname: Sonia
+    roles:
+    - project-manager
+    - quality-control
+  - name: Vogeler
+    surname: Georg
+    roles:
+    - project-manager
+  - name: Baur
+    surname: Laila
     roles:
     - transcriber
-    - project-manager
-  - name: Clérice
-    surname: Thibault
+  - name: Egli
+    surname: Benedikt
+    roles:
+    - transcriber
+  - name: Gehrig
+    surname: Gabriela
+    roles:
+    - transcriber
+  - name: Heini
+    surname: Alexandra Isabelle
+    roles:
+    - transcriber
+  - name: Rossi
+    surname: Rosanna
+    roles:
+    - transcriber
+  - name: Siegrist
+    surname: Benjamin
+    roles:
+    - transcriber
+  - name: Wasmer
+    surname: Remo
+    roles:
+    - transcriber
+  - name: Zimmermann
+    surname: Lynn
+    roles:
+    - transcriber
+  - name: Schoch
+    surname: David
     roles:
     - aligner
-  - name: Karaisl
-    surname: Antonia
+  - name: Dängeli
+    surname: Peter
     roles:
-    - transcriber
+    - digitization
+  - name: Hodel
+    surname: Tobias
+    roles:
     - project-manager
-  description: "This ground truth repository is a work in process; it currently accounts\
-    \ for a part of our complete Caroline Minuscule training pool of around 70 manuscripts\
-    \ used for our OCRopus Caroline Minuscule model (see ocropus-models repository).\n"
+    - aligner
+  description: Ground Truth for "Urfehdenbuch X der Stadt Basel (1563-1569)" at Staatsarchiv
+    Basel-Stadt (StABS).
+  project-website: hdl:11471/1010.2.1
   language:
-  - lat
+  - deu
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '800'
-    notAfter: '1199'
+    notBefore: '1563'
+    notAfter: '1569'
   hands:
-    count: 1-per-file
-    precision: exact
+    count: unknown
+    precision: estimated
   license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 17155
-  - metric: files
-    count: 17
-  - metric: lines
-    count: 457
-  - metric: regions
-    count: 46
-  transcription-guidelines: "In general this meant deciding between diplomatic transcription\
-    \ (i.e. sticking to what it says on the page) and gently modernized features (i.e.\
-    \ reinterpreting medieval signs into modern equivalents) with a view to specific\
-    \ categories. Read on for a summary of the rules and the respective rationale\
-    \ behind them.\nSUMMARY\nPUNCTUATION\n\n    Modern: medieval punctuation is transcribed\
-    \ with modern equivalents; punctus elevatus transcribed as semicolon\n\nCAPITALIZATION\n\
-    \n    Diplomatic: Original capitalization retained\n\nABBREVIATIONS\n\n    Diplomatic\
-    \ where possible: Retain abbreviations and render glyphs as opposed to expanded\
-    \ versions where possible\n    \"*\" where original character isn't served: OCRopus\
-    \ (at the point in time of transcription) could not handle some of the medieval\
-    \ glyphs, even where a Unicode version was present. Abbreviations not in OCRopus\
-    \ are uniformly transcribed as \"*\", in the case of a combined character (such\
-    \ as a consonant with a macron) as the base character followed by \"*\" (e.g.\
-    \ \"t*\"). The list of accepted characters in OCRopus can be found in this repository,\
-    \ and downloaded and used as codec in the OCRopus training process.\n\nSPACING\n\
-    \n    Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription\n\
-    \nNUMBERS\n\n    Diplomatic: retain original version of both Roman and Arabic\
-    \ numerals'"
-  characters:
-    mode: NFD
-    members:
-    - i
-    - e
-    - t
-    - u
-    - a
-    - s
-    - n
-    - o
-    - r
-    - m
-    - c
-    - d
-    - l
-    - p
-    - .
-    - b
-    - q
-    - g
-    - '*'
-    - h
-    - ;
-    - ̃
-    - f
-    - x
-    - I
-    - ̄
-    - E
-    - N
-    - ̨
-    - ':'
-    - '&'
-    - S
-    - ꝑ
-    - C
-    - A
-    - đ
-    - D
-    - U
-    - T
-    - ꝓ
-    - Q
-    - v
-    - ','
-    - O
-    - R
-    - P
-    - L
-    - M
-    - æ
-    - H
-    - F
-    - '?'
-    - '1'
-    - y
-    - ꝝ
-    - ꝙ
-    - V
-    - '4'
-    - B
-    - z
-    - '5'
-    - X
-    - '6'
-    - ꝛ
-    - /
-    - "'"
-    - '0'
-    - '2'
-    - '9'
-    - K
-    - '-'
-  production-software: Unknown [Automatically filled]
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: RASAM
-  url: https://github.com/calfa-co/rasam-dataset
-  project-website: https://calfa.fr/blog/26
-  authors:
-  - name: Vidal-Gorène
-    surname: Chahan
-    roles:
-    - project-manager
-  - name: Lucas
-    surname: Noëmie
-    roles:
-    - project-manager
-    - quality-control
-  - name: Salah
-    surname: Clément
-    roles:
-    - transcriber
-    - quality-control
-  - name: Decours-Perez
-    surname: Aliénor
-    roles:
-    - support
-  - name: Dupin
-    surname: Boris
-    roles:
-    - support
-  description: "The Dataset is made up of 300 images, with their related ground truth\
-    \ stored in a XML file (pageXML format). Images come from three manuscripts selected\
-    \ among the collections of the BULAC Library (Paris). It covers a representative\
-    \ part of the handwritten production in Arabic Maghrebi scripts and includes an\
-    \ annotation of the layout (TextRegions, baselines and polygons) and the transcription\
-    \ of the main text. This dataset is the result of a collaborative transcription.\
-    \ All the participants are credited on the official deposit. With the support\
-    \ of the French Ministry of Higher Education, Research and Innovation, the Research\
-    \ Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.\n"
-  language:
-  - ara
-  script:
-  - iso: Arab
-  script-type: only-manuscript
-  time:
-    notBefore: '1700'
-    notAfter: '1899'
-  hands:
-    count: less-than-11
-    precision: exact
-  license:
-  - name: Apache-2.0 License
-    url: https://www.apache.org/licenses/LICENSE-2.0
+  - name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
   format: Page-XML
   volume:
-  - metric: pages
-    count: 300
-  - count: 7540
-    metric: lines
-  - count: 300
-    metric: files
-  - count: 676
-    metric: regions
-  - count: 403034
-    metric: characters
-  sources:
-  - reference: Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,
-      B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts
-      in Arabic Maghrebi. In International Conference on Document Analysis and Recognition
-      (pp. 265-281). Springer, Cham
-    link: https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19
-  transcription-guidelines: "Full description of specifications for transcription\
-    \ available on Github and in the paper.'\n"
-  production-software: Calfa Vision
+  - metric: lines
+    count: 8000
+  transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
+  production-software: Transkribus
   automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
+    \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
+    \ David and Dängeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
+    \ Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten\
+    \ Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X},\n\
+    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
+    \ Non Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Tapus Corpus
   url: https://github.com/HTR-United/tapuscorpus
