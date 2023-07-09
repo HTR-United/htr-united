@@ -999,8 +999,6 @@
       "members": []
     },
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Matteo and Najem-Meyer, Sven and Amaya, Carla},\ndoi = {10.5281/zenodo.7271729},\ntitle = {GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries}\n}\n",
-    "_apa": "Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729\n",
     "_pid": "69f2aaf10"
   },
   "dc7677d2b": {
@@ -1167,8 +1165,6 @@
       ]
     },
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane and Pierreville, Corinne},\nmonth = {4},\ntitle = {Fabliaux},\nurl = {https://github.com/CIHAM-HTR/Fabliaux/data},\nyear = {2023}\n}\n",
-    "_apa": "Pinche A., Pierreville C. (2023). Fabliaux URL: https://github.com/CIHAM-HTR/Fabliaux/data\n",
     "_pid": "dc7677d2b"
   },
   "4b17f1293": {
@@ -1359,8 +1355,6 @@
       ]
     },
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Aruta, Davide and Lenzi, Martina and Le Hu\u00ebrou, Armelle and Possama\u00ef, Maryl\u00e8ne and Pinche, Ariane},\nmonth = {4},\ntitle = {Liber},\nurl = {https://github.com/CIHAM-HTR/Liber/data},\nyear = {2023}\n}\n",
-    "_apa": "Aruta D., Lenzi M., Le Hu\u00ebrou A., Possama\u00ef M., Pinche A. (2023). Liber URL: https://github.com/CIHAM-HTR/Liber/data\n",
     "_pid": "4b17f1293"
   },
   "c6e6eefe0": {
@@ -8601,8 +8595,6 @@
       ]
     },
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {0.5281/zenodo.607720783},\nmonth = {2},\ntitle = {moonshines},\nurl = {https://github.com/alix-tz/moonshines},\nyear = {2023}\n}\n",
-    "_apa": "Chagu\u00e9 A. (2023). moonshines (version 2.0.0). DOI: 0.5281/zenodo.607720783 URL: https://github.com/alix-tz/moonshines\n",
     "_pid": "d26cd8486"
   },
   "bc4934064": {
@@ -9271,8 +9263,6 @@
     "citation-file-link": "https://github.com/malamatenia/Eutyches/blob/main/CITATION.cff",
     "transcription-guidelines": "Graphematic transcription, following the guidelines of CREMMA-medieval. Spacing has been reestablished when dealing with semicontinua, s for long s, loyal to the manuscript for capital letters, abbreviations preserved, punctuation reduced to \";\" and \".\". The few greek passages have been also been preserved, and some of the essais de plume as well (when  forming full words).  Annotation of the layout made with SegmOnto controlled vocabulary.",
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\ntitle = {Eutyches \"de uerbo\" glossed}\n}\n",
-    "_apa": "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n",
     "_pid": "a23a0f5a1"
   },
   "7e15a5255": {
