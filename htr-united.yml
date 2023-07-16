@@ -137,77 +137,33 @@
     - '['
     - ']'
   automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Recensement Valaisan (Valais Time Machine)
-  url: https://github.com/PonteIneptique/valais-recensement
-  authors:
+- authors:
   - name: Dubois
-    surname: Alain
     roles:
     - project-manager
+    surname: Alain
   - name: Clérice
-    surname: Thibault
     roles:
     - project-manager
     - quality-control
+    surname: Thibault
   - name: Rudaz
+    roles:
+    - transcriber
     surname: Clemence
-    roles:
-    - transcriber
   - name: Schlaeppi
+    roles:
+    - transcriber
     surname: Darius
-    roles:
-    - transcriber
   - name: Mamie
-    surname: Delphine
     roles:
     - transcriber
+    surname: Delphine
   - name: Schmied
-    surname: Marie-Caroline
     roles:
     - support
-  institutions:
-  - name: Archives du Valais
-    roles:
-    - digitization
-  description: Ensemble de formulaire de recensement
-  project-name: Valais Time Machine
-  project-website: https://www.timemachinevs.ch/
-  language:
-  - fra
-  - deu
-  production-software: eScriptorium + Kraken
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1870'
-    notAfter: '1890'
-  hands:
-    count: 1-per-file
-    precision: exact
-  license:
-  - name: CC-BY-BC 4.0
-    url: https://creativecommons.org/licenses/by-nc/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 282260
-  - metric: files
-    count: 915
-  - metric: lines
-    count: 59368
-  - metric: regions
-    count: 34083
-  citation-file-link: https://raw.githubusercontent.com/PonteIneptique/valais-recensement/main/CITATION.CFF
-  transcription-guidelines: "- Superscript are transcribed with a ^ before the string.\n\
-    - Transcription is faithful: nothing is corrected.\n- Checkmarks in table are\
-    \ transcribed as `/`. Some checkmarks looking character can be transcribed as\
-    \ `1` if the 1 in the dates looks the same\n- Printed part of the form is not\
-    \ transcribed.\n- Only `Col` and `Header` regions are used for table segmentation.\
-    \ If a Signature is at the bottom, we also use `Signature`"
+    surname: Marie-Caroline
   characters:
-    mode: NFD
     members:
     - e
     - '1'
@@ -306,12 +262,56 @@
     - \
     - +
     - '#'
+    mode: NFD
+  citation-file-link: https://raw.githubusercontent.com/PonteIneptique/valais-recensement/main/CITATION.CFF
+  description: Ensemble de formulaire de recensement
+  format: Alto-XML
+  hands:
+    count: 1-per-file
+    precision: exact
+  institutions:
+  - name: Archives du Valais
+    roles:
+    - digitization
+  language:
+  - fra
+  - deu
+  license:
+  - name: CC-BY-BC 4.0
+    url: https://creativecommons.org/licenses/by-nc/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: Valais Time Machine
+  project-website: https://www.timemachinevs.ch/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1890'
+    notBefore: '1870'
+  title: Recensement Valaisan (Valais Time Machine)
+  transcription-guidelines: "- Superscript are transcribed with a ^ before the string.\n\
+    - Transcription is faithful: nothing is corrected.\n- Checkmarks in table are\
+    \ transcribed as `/`. Some checkmarks looking character can be transcribed as\
+    \ `1` if the 1 in the dates looks the same\n- Printed part of the form is not\
+    \ transcribed.\n- Only `Col` and `Header` regions are used for table segmentation.\
+    \ If a Signature is at the bottom, we also use `Signature`"
+  url: https://github.com/PonteIneptique/valais-recensement
+  volume:
+  - count: 282260
+    metric: characters
+  - count: 915
+    metric: files
+  - count: 59368
+    metric: lines
+  - count: 34083
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Alain, Dubois and Clérice, Thibault\
-    \ and Mamie, Clémence and Darius, Schlaeppi and Rudaz, Clémence and Schmied, Marie-Caroline},\n\
+    \ and Mamie, Delphine and Darius, Schlaeppi and Rudaz, Clémence and Schmied, Marie-Caroline},\n\
     title = {Tables du recensement du Valais},\nurl = {https://github.com/PonteIneptique/valais-recensement}\n\
     }\n"
-  _apa: "Alain D., Clérice T., Mamie C., Darius S., Rudaz C., Schmied M. Tables du\
+  _apa: "Alain D., Clérice T., Mamie D., Darius S., Rudaz C., Schmied M. Tables du\
     \ recensement du Valais URL: https://github.com/PonteIneptique/valais-recensement\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Eutyches
