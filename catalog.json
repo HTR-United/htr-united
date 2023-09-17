@@ -1464,6 +1464,8 @@
     "transcription-guidelines": "Les r\u00e8gles de transcription suivante ont \u00e9t\u00e9 adopt\u00e9es :\n- Respecter les accents ;\n- Respecter la casse ;\n- Respecter la ponctuation ;\n- Respecter les espaces ;\n- Respecter les retours \u00e0 la ligne ;\n- Respecter la graphie des mots (ne pas corriger les erreurs s\u2019il y en a) ;\n- Supprimer le bruit (t\u00e2ches qui ont \u00e9t\u00e9 prises pour du texte par l\u2019OCR).",
     "production-software": "eScriptorium + Kraken",
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Carta, Constance and Jacsont, Pauline and Leblanc, \u00c9lina},\nmonth = {3},\ntitle = {FoNDUE Spanish chapbooks 19th c. Dataset},\nyear = {2022}\n}\n",
+    "_apa": "Carta C., Jacsont P., Leblanc \u00c9. (2022). FoNDUE Spanish chapbooks 19th c. Dataset (version 1.0).\n",
     "_pid": "c6e6eefe0"
   },
   "e7af0e31e": {
@@ -1952,6 +1954,8 @@
     "citation-file-link": "https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank/blob/main/CITATION.cff",
     "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline and Simon, Gabay and Weddigen, Tristan},\nmonth = {1},\ntitle = {GroundTruth for archival data of the Kunsthistorisches Institut UZH},\nyear = {2023}\n}\n",
+    "_apa": "Jacsont P., Simon G., Weddigen T. (2023). GroundTruth for archival data of the Kunsthistorisches Institut UZH (version 1.0).\n",
     "_pid": "dcb8b4eaf"
   },
   "70e2b99f0": {
@@ -8075,6 +8079,8 @@
     "citation-file-link": "https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff",
     "transcription-guidelines": " The transcriptions were made following the rules of the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval. The transcription is strictly diplomatic and graphmatic. No abbreviations are resolved, no standardization of 'i' and 'v' with ramist letters, and accents, punctuation, spaces, and line breaks are strictly adhered to. Following Leiden conventions, crossed out or crossed out elements are transcribed with double brackets \u27e6\u27e7, and elements that are illegible in the picture will not be restored but indicated by this type of bracket \u27e8 \u27e9. Special characters are encoded according to the MUFI fonts.",
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\ntitle = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\nyear = {2022}\n}\n",
+    "_apa": "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne. (version 1.0).\n",
     "_pid": "a45f799c4"
   },
   "4522813d9": {
