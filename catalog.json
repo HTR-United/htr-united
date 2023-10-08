@@ -804,7 +804,7 @@
     ],
     "transcription-guidelines": "Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376) for full transcription guidelines.\n320 pages in-domain; 40 pages out-of-domain",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n  language = {en},\n  title = {Towards a general open dataset and model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n  language = {en},\n  title = {Towards a general open dataset and model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher = {Zenodo},\n  year = {2023},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
     "_pid": "58807c215"
   },
   "939d02cb9": {
@@ -1172,109 +1172,50 @@
     "_pid": "dc7677d2b"
   },
   "4b17f1293": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Liber",
-    "url": "https://github.com/CIHAM-HTR/Liber",
     "authors": [
       {
         "name": "Davide",
-        "surname": "Aruta",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Aruta"
       },
       {
         "name": "Martina",
-        "surname": "Lenzi",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Lenzi"
       },
       {
         "name": "Armelle",
-        "surname": "Le Hu\u00ebrou",
         "orcid": "0000-0001-7938-2686",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Le Hu\u00ebrou"
       },
       {
         "name": "Maryl\u00e8ne",
-        "surname": "Possama\u00ef",
         "orcid": "0000-0002-9250-370X",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Possama\u00ef"
       },
       {
         "name": "Ariane",
-        "surname": "Pinche",
         "orcid": "0000-0002-7843-5050",
         "roles": [
           "quality-control"
-        ]
+        ],
+        "surname": "Pinche"
       }
     ],
-    "institutions": [],
-    "description": "HTR datasets of medieval manuscripts (14th-15th c.) with Pierre Bersuire\u2019s translation into Old French of the work of Titus Livius and Nicolas Trevet Commentaries",
-    "project-website": "https://anr.fr/Projet-ANR-21-CE27-0008",
-    "language": [
-      "fro",
-      "lat"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1300",
-      "notAfter": "1400"
-    },
-    "hands": {
-      "count": "1",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "sources": [
-      {
-        "reference": "Aruta, D., Lenzi, M., Le Hu\u00ebrou, A., Possama\u00ef, M., & Pinche, A. (2023). Liber [Data set]. https://github.com/CIHAM-HTR/Liber/data",
-        "link": "https://github.com/CIHAM-HTR/Liber"
-      }
-    ],
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 134899
-      },
-      {
-        "metric": "files",
-        "count": 37
-      },
-      {
-        "metric": "lines",
-        "count": 3789
-      },
-      {
-        "metric": "regions",
-        "count": 152
-      }
-    ],
-    "citation-file-link": "https://github.com/CIHAM-HTR/Liber/blob/main/CITATION.cff",
-    "transcription-guidelines": "Data follow the standards recommended by the CREMMA projects, see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts. 2022. hal-03697382 - and Thibault Cl\u00e9rice, Malamatenia Vlachou-Efstathiou, Alix Chagu\u00e9. CREMMA Medii Aevi: Literary manuscript text recognition in Latin. Journal of Open Humanities Data, 2023, 9, pp.4. \u27e810.5334/johd.97\u27e9. \u27e8hal-03828353v5\u27e9",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "i",
@@ -1356,8 +1297,67 @@
         "B",
         ",",
         "\ua758"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "citation-file-link": "https://github.com/CIHAM-HTR/Liber/blob/main/CITATION.cff",
+    "description": "HTR datasets of medieval manuscripts (14th-15th c.) with Pierre Bersuire\u2019s translation into Old French of the work of Titus Livius and Nicolas Trevet Commentaries",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "estimated"
+    },
+    "institutions": [],
+    "language": [
+      "fro",
+      "lat"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-website": "https://anr.fr/Projet-ANR-21-CE27-0008",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "sources": [
+      {
+        "link": "https://github.com/CIHAM-HTR/Liber",
+        "reference": "Aruta, D., Lenzi, M., Le Hu\u00ebrou, A., Possama\u00ef, M., & Pinche, A. (2023). Liber [Data set]. https://github.com/CIHAM-HTR/Liber/data"
+      }
+    ],
+    "time": {
+      "notAfter": "1400",
+      "notBefore": "1300"
+    },
+    "title": "Liber",
+    "transcription-guidelines": "Data follow the standards recommended by the CREMMA projects, see Ariane Pinche. Transcription Guide for 10th to 15th Century Manuscripts. 2022. hal-03697382 - and Thibault Cl\u00e9rice, Malamatenia Vlachou-Efstathiou, Alix Chagu\u00e9. CREMMA Medii Aevi: Literary manuscript text recognition in Latin. Journal of Open Humanities Data, 2023, 9, pp.4. \u27e810.5334/johd.97\u27e9. \u27e8hal-03828353v5\u27e9",
+    "url": "https://github.com/CIHAM-HTR/Liber",
+    "volume": [
+      {
+        "count": 134899,
+        "metric": "characters"
+      },
+      {
+        "count": 37,
+        "metric": "files"
+      },
+      {
+        "count": 3789,
+        "metric": "lines"
+      },
+      {
+        "count": 152,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Aruta, Davide and Lenzi, Martina and Le Hu\u00ebrou, Armelle and Possama\u00ef, Maryl\u00e8ne and Pinche, Ariane},\nmonth = {4},\ntitle = {Liber},\nurl = {https://github.com/CIHAM-HTR/Liber/data},\nyear = {2023}\n}\n",
     "_apa": "Aruta D., Lenzi M., Le Hu\u00ebrou A., Possama\u00ef M., Pinche A. (2023). Liber URL: https://github.com/CIHAM-HTR/Liber/data\n",
@@ -1955,90 +1955,37 @@
     "_pid": "dcb8b4eaf"
   },
   "70e2b99f0": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Donn\u00e9es HTR manuscrits du 15e si\u00e8cle",
-    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 de manuscrits fran\u00e7ais du 15e s.",
-    "url": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle",
     "authors": [
       {
         "name": "Gabay",
-        "surname": "Simon",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Simon"
       },
       {
         "name": "Pinche",
-        "surname": "Ariane",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Ariane"
       },
       {
         "name": "Leroy",
-        "surname": "No\u00e9",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "No\u00e9"
       },
       {
         "name": "Christensen",
-        "surname": "Kelly",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Kelly"
       }
     ],
-    "project-name": "Gallicorpora",
-    "project-website": "https://github.com/Gallicorpora",
-    "language": [
-      "frm",
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1400",
-      "notAfter": "1500"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 169221
-      },
-      {
-        "metric": "files",
-        "count": 85
-      },
-      {
-        "metric": "lines",
-        "count": 5937
-      },
-      {
-        "metric": "regions",
-        "count": 458
-      }
-    ],
-    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
-    "citation-file-link": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "i",
@@ -2078,23 +2025,22 @@
         "D",
         "M",
         "\u0363",
-        "v",
         "\ua751",
         "\u0365",
         "P",
         "\ua76f",
         "T",
         "N",
+        "\u00b6",
         "O",
-        "\u204b",
         "B",
         "\u0364",
         "U",
+        "-",
         "1",
         "\ua770",
         "\u1dd1",
-        "\u0336",
-        "\u02e3",
+        "\u033d",
         "2",
         "3",
         "\u1e9c",
@@ -2113,130 +2059,124 @@
         "G",
         "0",
         "\u0366",
-        "\u030c",
         "5",
-        "-",
         "H",
         "'",
-        "j",
         "\u0300",
         "\u0142",
         "\u0111",
         "\u0301",
         "\u036b",
-        "^",
         "\u2038",
         "&",
         "k",
         "\u00b0",
         "\u1e9e",
-        "\u00b6",
-        "J",
         "\u036c",
+        "\u1de4",
         "K",
         "[",
         "]",
         "\u036f",
-        "V",
         "\u0327",
         "(",
         ")",
         "Y",
         "Z",
-        "\u1de4",
         ":",
         "\u0367",
         "\u1de0",
-        "/",
         "X"
-      ]
+      ],
+      "mode": "NFD"
     },
-    "automatically-aligned": false,
-    "_pid": "70e2b99f0"
-  },
-  "4b2e8b703": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Donn\u00e9es imprim\u00e9s gothiques du 16e si\u00e8cle",
-    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 16e si\u00e8cle",
-    "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
-    "authors": [
-      {
-        "name": "Pinche",
-        "surname": "Ariane",
-        "roles": [
-          "project-manager"
-        ]
-      },
-      {
-        "name": "Gabay",
-        "surname": "Simon",
-        "roles": [
-          "project-manager"
-        ]
-      },
-      {
-        "name": "Vlachou-Efstathiou",
-        "surname": "malamatenia",
-        "roles": [
-          "transcriber"
-        ]
-      },
-      {
-        "name": "Christensen",
-        "surname": "Kelly",
-        "roles": [
-          "support"
-        ]
-      }
-    ],
-    "project-name": "Gallicorpora",
-    "project-website": "https://github.com/Gallicorpora",
-    "language": [
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "evenly-mixed",
-    "time": {
-      "notBefore": "1500",
-      "notAfter": "1599"
-    },
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.",
+    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 de manuscrits fran\u00e7ais du 15e s.",
+    "format": "Alto-XML",
     "hands": {
       "count": "1-per-folder",
       "precision": "estimated"
     },
+    "language": [
+      "frm",
+      "fra"
+    ],
     "license": [
       {
         "name": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "format": "Alto-XML",
-    "volume": [
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
       {
-        "metric": "characters",
-        "count": 90746
-      },
-      {
-        "metric": "files",
-        "count": 80
-      },
-      {
-        "metric": "lines",
-        "count": 2971
-      },
-      {
-        "metric": "regions",
-        "count": 233
+        "iso": "Latn"
       }
     ],
-    "transcription-guidelines": "Les transcriptions suivent les normes de transcription du projet Gallicorpora",
-    "production-software": "eScriptorium + Kraken",
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1500",
+      "notBefore": "1400"
+    },
+    "title": "Donn\u00e9es HTR manuscrits du 15e si\u00e8cle",
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
+    "url": "https://github.com/Gallicorpora/HTR-MSS-15e-Siecle",
+    "volume": [
+      {
+        "count": 169207,
+        "metric": "characters"
+      },
+      {
+        "count": 85,
+        "metric": "files"
+      },
+      {
+        "count": 5937,
+        "metric": "lines"
+      },
+      {
+        "count": 458,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_pid": "70e2b99f0"
+  },
+  "4b2e8b703": {
+    "authors": [
+      {
+        "name": "Pinche",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Ariane"
+      },
+      {
+        "name": "Gabay",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Simon"
+      },
+      {
+        "name": "Vlachou-Efstathiou",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "malamatenia"
+      },
+      {
+        "name": "Christensen",
+        "roles": [
+          "support"
+        ],
+        "surname": "Kelly"
+      }
+    ],
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "u",
@@ -2298,23 +2238,20 @@
         "\u0336",
         "\ua753",
         "J",
-        "\u204b",
         "-",
         "\ua76f",
         "(",
         ")",
         "1",
-        "/",
         "U",
         "9",
         "\u033e",
         "\u00e6",
         "X",
         "4",
-        "\u0304",
         "\ua759",
         "\u0327",
-        "\u1d49",
+        "\u0364",
         "2",
         "*",
         "6",
@@ -2325,8 +2262,59 @@
         "Y",
         "5",
         "0"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 16e si\u00e8cle",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "evenly-mixed",
+    "time": {
+      "notAfter": "1599",
+      "notBefore": "1500"
+    },
+    "title": "Donn\u00e9es imprim\u00e9s gothiques du 16e si\u00e8cle",
+    "transcription-guidelines": "Les transcriptions suivent les normes de transcription du projet Gallicorpora",
+    "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
+    "volume": [
+      {
+        "count": 90742,
+        "metric": "characters"
+      },
+      {
+        "count": 80,
+        "metric": "files"
+      },
+      {
+        "count": 2971,
+        "metric": "lines"
+      },
+      {
+        "count": 233,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_pid": "4b2e8b703"
   },
@@ -2757,90 +2745,37 @@
     "_pid": "5d92a9eb8"
   },
   "7dde3f71f": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Donn\u00e9es HTR incunables du 15e si\u00e8cle",
-    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 d'incunable fran\u00e7ais du 15e s.",
-    "url": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle",
     "authors": [
       {
         "name": "Gabay",
-        "surname": "Simon",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Simon"
       },
       {
         "name": "Pinche",
-        "surname": "Ariane",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Ariane"
       },
       {
         "name": "Leroy",
-        "surname": "No\u00e9",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "No\u00e9"
       },
       {
         "name": "Christensen",
-        "surname": "Kelly",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Kelly"
       }
     ],
-    "project-name": "Gallicorpora",
-    "project-website": "https://github.com/Gallicorpora",
-    "language": [
-      "frm",
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-typed",
-    "time": {
-      "notBefore": "1400",
-      "notAfter": "1500"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 244958
-      },
-      {
-        "metric": "files",
-        "count": 149
-      },
-      {
-        "metric": "lines",
-        "count": 7608
-      },
-      {
-        "metric": "regions",
-        "count": 535
-      }
-    ],
-    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
-    "citation-file-link": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "u",
@@ -2871,12 +2806,13 @@
         "-",
         ",",
         "\u017f",
+        "\u00b6",
         "L",
         "\u0365",
         "D",
-        "\u204b",
         "C",
         ";",
+        "\u1de4",
         "I",
         "\ua770",
         "Q",
@@ -2885,10 +2821,8 @@
         "\ua751",
         "P",
         "M",
-        "\u1de4",
         "O",
         "T",
-        "\u00b6",
         "U",
         "N",
         "F",
@@ -2910,7 +2844,6 @@
         "J",
         "\ua758",
         ")",
-        "\u25cc",
         "k",
         "\ua759",
         "\u0363",
@@ -2929,8 +2862,61 @@
         "'",
         "\u0301",
         "|"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle/CITATION.cff",
+    "description": "Corpus d'entrainement pour l'HTR compos\u00e9 d'incunable fran\u00e7ais du 15e s.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "language": [
+      "frm",
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "Gallicorpora",
+    "project-website": "https://github.com/Gallicorpora",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1500",
+      "notBefore": "1400"
+    },
+    "title": "Donn\u00e9es HTR incunables du 15e si\u00e8cle",
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet CREMMALAB : https://cremmalab.hypotheses.org",
+    "url": "https://github.com/Gallicorpora/HTR-incunable-15e-siecle",
+    "volume": [
+      {
+        "count": 245094,
+        "metric": "characters"
+      },
+      {
+        "count": 149,
+        "metric": "files"
+      },
+      {
+        "count": 7608,
+        "metric": "lines"
+      },
+      {
+        "count": 535,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_pid": "7dde3f71f"
   },
@@ -4475,88 +4461,37 @@
     "_pid": "b6e607ab9"
   },
   "2bea975a1": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Medii Aevi",
-    "url": "https://github.com/HTR-United/CREMMA-Medieval-LAT",
     "authors": [
       {
         "name": "Cl\\xE9rice",
-        "surname": "Thibault",
         "orcid": "0000-0003-1852-9204",
         "roles": [
           "transcriber",
           "aligner",
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Thibault"
       },
       {
         "name": "Chagu\\xE9",
-        "surname": "Alix",
         "orcid": "0000-0002-0136-4434",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Alix"
       },
       {
         "name": "Vlachou Efstathiou",
-        "surname": "Malamatenia",
         "orcid": "0000-0002-9397-356X",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Malamatenia"
       }
     ],
-    "institutions": [],
-    "description": "Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.",
-    "project-name": "CREMMA",
-    "language": [
-      "lat"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1100",
-      "notAfter": "1599"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 263222
-      },
-      {
-        "metric": "files",
-        "count": 121
-      },
-      {
-        "metric": "lines",
-        "count": 7274
-      },
-      {
-        "metric": "regions",
-        "count": 441
-      }
-    ],
-    "transcription-guidelines": "Not a graphetic/\"allographetique\" transcription but rather a graphemic one that preserves the sequence of letters and reduces each form to its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro, pre, tironian et, \"est\" etc.), as well as abbreviative signs, ligatures are reduced to their component letters. Spaces between letters reproduce the original (e.g. in the case of a semicontinuous script). Punctuations are simplified, reducing to \":\" all two-component punctuation (e.g. punctus elevatus). Rare characters have been preserved such as \"instans\" and metric values (e.g. ounces). ",
     "characters": {
-      "mode": "NFD",
       "members": [
         "i",
         "e",
@@ -4674,8 +4609,59 @@
         "\u1d56",
         "\uf038",
         "\u03b9"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "description": "Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "lat"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1599",
+      "notBefore": "1100"
+    },
+    "title": "CREMMA Medii Aevi",
+    "transcription-guidelines": "Not a graphetic/\"allographetique\" transcription but rather a graphemic one that preserves the sequence of letters and reduces each form to its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro, pre, tironian et, \"est\" etc.), as well as abbreviative signs, ligatures are reduced to their component letters. Spaces between letters reproduce the original (e.g. in the case of a semicontinuous script). Punctuations are simplified, reducing to \":\" all two-component punctuation (e.g. punctus elevatus). Rare characters have been preserved such as \"instans\" and metric values (e.g. ounces). ",
+    "url": "https://github.com/HTR-United/CREMMA-Medieval-LAT",
+    "volume": [
+      {
+        "count": 263222,
+        "metric": "characters"
+      },
+      {
+        "count": 121,
+        "metric": "files"
+      },
+      {
+        "count": 7274,
+        "metric": "lines"
+      },
+      {
+        "count": 441,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Cl\u00e9rice, Thibault and Chagu\u00e9, Alix and Vlachou-Efstathiou, Malamatenia},\ndoi = {10.5281/zenodo.7013436},\ntitle = {CREMMA Medii Aevi},\nurl = {https://github.com/HTR-United/CREMMA-Medieval-LAT}\n}\n",
     "_apa": "Cl\u00e9rice T., Chagu\u00e9 A., Vlachou-Efstathiou M. CREMMA Medii Aevi DOI: 10.5281/zenodo.7013436 URL: https://github.com/HTR-United/CREMMA-Medieval-LAT\n",
@@ -4933,13 +4919,9 @@
     "_pid": "baa415760"
   },
   "632310da4": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Cremma Medieval",
-    "url": "https://github.com/HTR-United/cremma-medieval",
     "authors": [
       {
         "name": "Pinche",
-        "surname": "Ariane",
         "orcid": "0000-0002-7843-5050",
         "roles": [
           "transcriber",
@@ -4947,123 +4929,74 @@
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Ariane"
       },
       {
         "name": "Camps",
-        "surname": "Jean-Baptiste",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Jean-Baptiste"
       },
       {
         "name": "Mariotti",
-        "surname": "Viola",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Viola"
       },
       {
         "name": "Nolibois",
-        "surname": "Alice",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Alice"
       },
       {
         "name": "Carnaille",
-        "surname": "Camille",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Camille"
       },
       {
         "name": "Deleville",
-        "surname": "Prunelle",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Prunelle"
       },
       {
         "name": "Lecomte",
-        "surname": "Sophie",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Sophie"
       },
       {
         "name": "Meylan",
-        "surname": "Aminoel",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Aminoel"
       },
       {
         "name": "Ventura",
-        "surname": "Simone",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Simone"
       },
       {
         "name": "Dugaz",
-        "surname": "Lucien",
         "roles": [
           "transcriber"
-        ]
-      }
-    ],
-    "description": "Transcription corpora for training HTR models for medieval manuscripts from the 12th to the 15th century.",
-    "project-name": "CremmaLab",
-    "project-website": "https://cremmalab.hypotheses.org",
-    "language": [
-      "fra",
-      "fro"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1100",
-      "notAfter": "1499"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "citation-file-link": "https://github.com/HTR-United/cremma-medieval/blob/main/citation.cff",
-    "transcription-guidelines": "As the data come from different projects, transcriptions have been standardized to strengthen HTR models. We chose a graphemic transcription method, following D. Stutzmann definitions (see bibliography), to have a sign in the image corresponding to a sign in our text: all the abbreviations are kept, and u/v or i/j are not distinguished. The spaces in the dataset are not homogeneously represented, sometimes transcriptions reproduce the manuscript spacing while others use lexical spaces. It must be stressed that spaces are the most important source of error in medieval HTR models. Most of the transcription follow the layout segmentation of the SegmOnto ontology (https://github.com/SegmOnto/examples), separating the main column, margin, numbering, drop capital, etc. All the recommendations are described in\n  the following document  : Ariane Pinche, Guide de transcription pour les manuscrits du Xe au XVe si\u00e8cle, 2022, \u27e8hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>.",
-    "production-software": "eScriptorium + Kraken",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 630607
-      },
-      {
-        "metric": "files",
-        "count": 289
-      },
-      {
-        "metric": "lines",
-        "count": 23630
-      },
-      {
-        "metric": "regions",
-        "count": 1932
+        ],
+        "surname": "Lucien"
       }
     ],
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "i",
@@ -5084,8 +5017,8 @@
         "f",
         "g",
         "\u0303",
-        "b",
         "z",
+        "b",
         "h",
         "\u204a",
         "y",
@@ -5094,18 +5027,18 @@
         "x",
         "Q",
         "L",
-        "\u033e",
         "S",
-        "D",
         "\ua751",
+        "D",
+        "\u033e",
         "\u0365",
         "C",
         "\ua76f",
         "\u0363",
         "A",
         "I",
-        "'",
         "M",
+        "'",
         "\ua770",
         "\u0301",
         "T",
@@ -5113,26 +5046,26 @@
         "O",
         "k",
         "N",
-        "U",
         "9",
+        "U",
         "\u036c",
         "G",
         "R",
         "\u1dd1",
         "F",
-        "\u0364",
         "\uf038",
+        "\u0364",
         "&",
         "1",
         "B",
         "\ua753",
         "H",
-        "\u00f7",
         "\u0366",
-        "7",
         "\u1de4",
+        "7",
         "2",
         "\u039b",
+        "\u00f7",
         "\u0142",
         "6",
         "0",
@@ -5157,12 +5090,64 @@
         "\u0127",
         "K",
         "\u03b4",
-        "\u036b",
         "/",
         "\u0167",
         "j"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "citation-file-link": "https://github.com/HTR-United/cremma-medieval/blob/main/citation.cff",
+    "description": "Transcription corpora for training HTR models for medieval manuscripts from the 12th to the 15th century.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "language": [
+      "fra",
+      "fro"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CremmaLab",
+    "project-website": "https://cremmalab.hypotheses.org",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1499",
+      "notBefore": "1100"
+    },
+    "title": "Cremma Medieval",
+    "transcription-guidelines": "As the data come from different projects, transcriptions have been standardized to strengthen HTR models. We chose a graphemic transcription method, following D. Stutzmann definitions (see bibliography), to have a sign in the image corresponding to a sign in our text: all the abbreviations are kept, and u/v or i/j are not distinguished. The spaces in the dataset are not homogeneously represented, sometimes transcriptions reproduce the manuscript spacing while others use lexical spaces. It must be stressed that spaces are the most important source of error in medieval HTR models. Most of the transcription follow the layout segmentation of the SegmOnto ontology (https://github.com/SegmOnto/examples), separating the main column, margin, numbering, drop capital, etc. All the recommendations are described in\n  the following document  : Ariane Pinche, Guide de transcription pour les manuscrits du Xe au XVe si\u00e8cle, 2022, \u27e8hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>.",
+    "url": "https://github.com/HTR-United/cremma-medieval",
+    "volume": [
+      {
+        "count": 612134,
+        "metric": "characters"
+      },
+      {
+        "count": 279,
+        "metric": "files"
+      },
+      {
+        "count": 22913,
+        "metric": "lines"
+      },
+      {
+        "count": 1889,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\nmonth = {6},\ntitle = {Cremma Medieval},\nurl = {https://github.com/HTR-United/cremma-medieval},\nyear = {2022}\n}\n",
     "_apa": "Pinche A. (2022). Cremma Medieval (version Bicerin 1.1.0). DOI: 10.5281/zenodo.5235185 URL: https://github.com/HTR-United/cremma-medieval\n",
