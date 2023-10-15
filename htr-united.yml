@@ -8104,12 +8104,6 @@
     metric: characters
   production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Ströbel\
-    \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
-    \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
-    \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
-    \     = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
-    \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
@@ -8163,12 +8157,6 @@
     metric: characters
   production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
-    \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
-    \ \n                   truth: Initial release}},\n  month        = may,\n  year\
-    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
-    \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
-    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
@@ -8232,14 +8220,12 @@
     \ New York, NY, USA, 61–66. DOI:https://doi.org/10.1145/3476887.3476896'\n"
   production-software: eScriptorium + Kraken
   automatically-aligned: false
-  _bibtex: "@dataset{stokl_ben_ezra_daniel_2021_5167263,\n  author       = {Stökl\
-    \ Ben Ezra, Daniel and\n                  Brown-DeVost, Bronson and\n        \
-    \          Jablonski, Pawel and\n                  Kiessling, Benjamin and\n \
-    \                 Lolli, Elena and\n                  Lapin, Hayim},\n  title\
-    \        = {BiblIA - an Open Annotated Dataset},\n  month        = aug,\n  year\
-    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {1.0},\n  doi\
-    \          = {10.5281/zenodo.5167263},\n  url          = {https://doi.org/10.5281/zenodo.5167263}\n\
-    }"
+  _bibtex: "@dataset{stokl_ben_ezra_2021_5167263,\n  author       = {Stökl Ben Ezra,\
+    \ Daniel and\n                  Brown-DeVost, Bronson and\n                  Jablonski,\
+    \ Pawel and\n                  Kiessling, Benjamin and\n                  Lolli,\
+    \ Elena and\n                  Lapin, Hayim},\n  title        = {BiblIA - an Open\
+    \ Annotated Dataset},\n  month        = aug,\n  year         = 2021,\n  publisher\
+    \    = {Zenodo},\n  version      = {1.0},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: The POPP datasets
   url: https://zenodo.org/record/6581158
@@ -8315,15 +8301,13 @@
         ! : indicates that the content of the cell following this symbol is written
     below the regular baseline
   automatically-aligned: false
-  _bibtex: "@dataset{constum_thomas_2022_6581158,\n  author       = {CONSTUM, Thomas\
-    \ and\n                  KEMPF, Nicolas and\n                  PAQUET, Thierry\
-    \ and\n                  TRANOUEZ, Pierrick and\n                  CHATELAIN,\
-    \ Clément and\n                  BREE, Sandra and\n                  MERVEILLE,\
-    \ François},\n  title        = {{POPP Datasets : Datasets for handwriting \n \
-    \                  recognition from French population census}},\n  month     \
-    \   = mar,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version    \
-    \  = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n\
-    }"
+  _bibtex: "@dataset{constum_2022_6581158,\n  author       = {CONSTUM, Thomas and\n\
+    \                  KEMPF, Nicolas and\n                  PAQUET, Thierry and\n\
+    \                  TRANOUEZ, Pierrick and\n                  CHATELAIN, Clément\
+    \ and\n                  BREE, Sandra and\n                  MERVEILLE, François},\n\
+    \  title        = {{POPP Datasets : Datasets for handwriting \n              \
+    \     recognition from French population census}},\n  month        = may,\n  year\
+    \         = 2022,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
   url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
@@ -8400,14 +8384,6 @@
     Abbreviations resolved, but no normalization and no correcting of mispelling.
     No transcription of initials and interlinear script.
   automatically-aligned: false
-  _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
-    \            Sweeney and\n                  Stitts and\n                  Audebrand\
-    \ and\n                  D'Amico and\n                  Geelhaar and\n       \
-    \           Hofmann and\n                  Gnasso},\n  title        = {{Wien ÖNB\
-    \ Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
-    \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
-    \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
-    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Padeřov-Bible-handwriting-ground-truth
   url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
@@ -8491,15 +8467,14 @@
     Transliteration. Differentiates long and short "s". Abbreviations tagged and
     expanded. No misspelling corrections.
   automatically-aligned: false
-  _bibtex: "@dataset{michalcova_anna_2022_7467034,\n  author       = {Michalcová,\
-    \ Anna and\n                  Bazelides, Kamil and\n                  Hajič, Jan\
-    \ and\n                  Pěnkavová, Eliška and\n                  Maniaková, Laura\
-    \ and\n                  Kreisingerová, Hana and\n                  Filipová,\
-    \ Jitka and\n                  Chi-hung Lu and\n                  Dvořáková, Martina},\n\
+  _bibtex: "@dataset{michalcova_2022_7467034,\n  author       = {Michalcová, Anna\
+    \ and\n                  Bazelides, Kamil and\n                  Hajič, Jan and\n\
+    \                  Pěnkavová, Eliška and\n                  Maniaková, Laura and\n\
+    \                  Kreisingerová, Hana and\n                  Filipová, Jitka\
+    \ and\n                  Chi-hung Lu and\n                  Dvořáková, Martina},\n\
     \  title        = {{Padeřov-Bible-handwriting-ground-truth: Initial \n       \
     \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
-    \    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          =\
-    \ {https://doi.org/10.5281/zenodo.7467034}\n}"
+    \    = {Zenodo},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Belfort
   url: https://zenodo.org/record/8041668
@@ -8561,10 +8536,3 @@
   volume:
   - metric: lines
     count: 24105
-  _bibtex: "@dataset{solene_tarride_2023_8041668,\n  author       = {Solène Tarride\
-    \ and\n                  Tristan Faine and\n                  Mélodie Boillet\
-    \ and\n                  Harold Mouchère and\n                  Christopher Kermorvant},\n\
-    \  title        = {{The Belfort dataset: Handwritten Text Recognition \n     \
-    \              from Crowdsourced Annotations}},\n  month        = jun,\n  year\
-    \         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n\
-    \  url          = {https://doi.org/10.5281/zenodo.8041668}\n}"
