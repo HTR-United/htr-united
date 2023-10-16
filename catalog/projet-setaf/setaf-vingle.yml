@@ -1,0 +1,164 @@
+authors:
+- name: Sonia
+  orcid: 0009-0009-7367-048X
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  surname: Solfrini
+- name: Simon
+  orcid: 0000-0001-9094-4475
+  roles:
+  - support
+  surname: Gabay
+- name: Geneviève
+  orcid: 0009-0006-5367-4262
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  surname: Gross
+- name: Pierre-Olivier
+  orcid: 0009-0009-2475-6017
+  roles:
+  - transcriber
+  - quality-control
+  surname: Beaulnes
+- name: Aurélia
+  orcid: 0009-0009-9678-9811
+  roles:
+  - transcriber
+  - quality-control
+  surname: Marques Oliveira
+- name: Daniela
+  roles:
+  - project-manager
+  surname: Solfaroli Camillocci
+characters:
+  members:
+  - e
+  - s
+  - u
+  - i
+  - a
+  - t
+  - r
+  - n
+  - o
+  - l
+  - c
+  - d
+  - p
+  - .
+  - m
+  - ̃
+  - /
+  - q
+  - f
+  - y
+  - g
+  - h
+  - b
+  - ⁊
+  - z
+  - x
+  - ':'
+  - C
+  - I
+  - E
+  - D
+  - '1'
+  - ¬
+  - '-'
+  - P
+  - L
+  - A
+  - M
+  - S
+  - '2'
+  - ¶
+  - ͥ
+  - '3'
+  - T
+  - N
+  - Q
+  - '4'
+  - ͬ
+  - R
+  - '5'
+  - U
+  - '?'
+  - ꝰ
+  - '6'
+  - O
+  - H
+  - ','
+  - '0'
+  - G
+  - B
+  - (
+  - )
+  - '8'
+  - '7'
+  - '9'
+  - ꝓ
+  - F
+  - ꝑ
+  - ̈
+  -  
+  - ◊
+  - ꝯ
+  - ł
+  - ð
+  - ꝝ
+  - "'"
+  - k
+  - ̀
+  - v
+  - K
+  - V
+  - Y
+  - Z
+  - X
+  - ́
+  - J
+  - ꝫ
+  - ;
+  - w
+  - ꝗ
+  - ̇
+  - ̌
+  mode: NFD
+description: Data for the SETAF project, 16th-century French prints in Gothic characters.
+format: Alto-XML
+hands:
+  count: '1'
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: SETAF project
+project-website: https://www.unige.ch/setaf/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1600'
+  notBefore: '1500'
+title: HTR-SETAF-Pierre-de-Vingle
+transcription-guidelines: A presentation of the rules established for the transcriptions
+  will be available on our website.
+url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
+volume:
+- count: 648066
+  metric: characters
+- count: 895
+  metric: files
+- count: 24703
+  metric: lines
+- count: 2817
+  metric: regions
