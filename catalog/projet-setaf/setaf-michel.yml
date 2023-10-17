@@ -1,39 +1,72 @@
 authors:
 - name: Sonia
+  surname: Solfrini
   orcid: 0009-0009-7367-048X
   roles:
   - transcriber
   - project-manager
   - quality-control
-  surname: Solfrini
 - name: Simon
+  surname: Gabay
   orcid: 0000-0001-9094-4475
   roles:
   - support
-  surname: Gabay
 - name: Geneviève
+  surname: Gross
   orcid: 0009-0006-5367-4262
   roles:
   - transcriber
   - project-manager
   - quality-control
-  surname: Gross
 - name: Pierre-Olivier
+  surname: Beaulnes
   orcid: 0009-0009-2475-6017
   roles:
   - transcriber
   - quality-control
-  surname: Beaulnes
 - name: Aurélia
+  surname: Marques Oliveira
   orcid: 0009-0009-9678-9811
   roles:
   - transcriber
   - quality-control
-  surname: Marques Oliveira
 - name: Daniela
+  surname: Solfaroli Camillocci
   roles:
   - project-manager
-  surname: Solfaroli Camillocci
+description: Data for the SETAF project, 16th-century French prints in Gothic characters.
+format: Alto-XML
+hands:
+  count: '1'
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: SETAF project
+project-website: https://www.unige.ch/setaf/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1600'
+  notBefore: '1500'
+title: HTR-SETAF-Jean-Michel
+transcription-guidelines: A presentation of the rules established for the transcriptions
+  will be available on our website.
+url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
+volume:
+- count: 286256
+  metric: characters
+- count: 404
+  metric: files
+- count: 11778
+  metric: lines
+- count: 1365
+  metric: regions
 characters:
   members:
   - e
@@ -118,36 +151,3 @@ characters:
   - v
   - ꝯ
   mode: NFD
-description: Data for the SETAF project, 16th-century French prints in Gothic characters.
-format: Alto-XML
-hands:
-  count: '1'
-  precision: exact
-language:
-- fra
-license:
-- name: CC-BY 4.0
-  url: https://creativecommons.org/licenses/by/4.0/
-production-software: eScriptorium + Kraken
-project-name: SETAF project
-project-website: https://www.unige.ch/setaf/
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-script:
-- iso: Latn
-script-type: only-typed
-time:
-  notAfter: '1600'
-  notBefore: '1500'
-title: HTR-SETAF-Jean-Michel
-transcription-guidelines: A presentation of the rules established for the transcriptions
-  will be available on our website.
-url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
-volume:
-- count: 286256
-  metric: characters
-- count: 404
-  metric: files
-- count: 11778
-  metric: lines
-- count: 1365
-  metric: regions
