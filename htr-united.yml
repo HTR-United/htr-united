@@ -5090,12 +5090,12 @@
 
   automatically-aligned: false
   _bibtex: "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n\
-    \  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias\
-    \ Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n\
-    \  language = {en},\n  title = {Towards a general open dataset and model for late\
-    \ medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher\
-    \ = {Zenodo},\n  year = {2023},\n  copyright = {Creative Commons Attribution Non\
-    \ Commercial Share Alike 4.0 International}\n}\n"
+    \  url = {https://zenodo.org/doi/10.5281/zenodo.7386489},\n  author = {Matthias\
+    \ Gille Levenson, },\n  keywords = {OCR, HTR, dataset, allographetic, medieval\
+    \ castilian},\n  language = {en},\n  title = {Towards a general open dataset and\
+    \ model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n\
+    \  publisher = {Zenodo},\n  year = {2023},\n  copyright = {Creative Commons Attribution\
+    \ Non Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
   url: https://doi.org/10.5281/zenodo.7466927

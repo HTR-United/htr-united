@@ -804,7 +804,7 @@
     ],
     "transcription-guidelines": "Allographetic transcription. See the article (https://doi.org/10.5281/zenodo.7387376) for full transcription guidelines.\n320 pages in-domain; 40 pages out-of-domain",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n  url = {https://zenodo.org/record/7386489},\n  author = {Levenson, Matthias Gille},\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n  language = {en},\n  title = {Towards a general open dataset and model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher = {Zenodo},\n  year = {2023},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7386489,\n  doi = {10.5281/ZENODO.7386489},\n  url = {https://zenodo.org/doi/10.5281/zenodo.7386489},\n  author = {Matthias Gille Levenson, },\n  keywords = {OCR, HTR, dataset, allographetic, medieval castilian},\n  language = {en},\n  title = {Towards a general open dataset and model for late medieval Castilian text recognition (HTR/OCR). Datasets and scripts},\n  publisher = {Zenodo},\n  year = {2023},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
     "_pid": "58807c215"
   },
   "939d02cb9": {
