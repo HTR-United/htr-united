@@ -4748,55 +4748,6 @@
     \  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n\
     \  publisher = {heiDATA},\n  year = {2022}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Ground Truth data for printed Malayalam
-  url: https://doi.org/10.11588/data/L2KRZO
-  authors: []
-  institutions:
-  - name: Tübingen University Library
-    roles:
-    - project-manager
-  description: >-
-    Ground Truth (GT) data (JPG and ALTO XML files) which can be used to train OCR
-    models that recognize printed text in Malayalam script. The training material
-    is gathered from 19th and 20th centuries prints.
-
-
-    The GT data was trained in Transkribus with the HTR+ and the PyLaia engine
-    with a resulting CER of 2.29% on validation set with HTR+ and 3,20% with
-    PyLaia. The training was performed on 43 pages with appr. 9,000 words. The
-    validation set consisted of 5 pages (ca. 1,000 words).
-
-
-    Transcription was performed by Tübingen University Library, the Ground Truth
-    data was created by Elena Mucciarelli (University of Groningen) with support
-    and model training by Dorothee Huff (Tübingen University Library).
-    (2022-11-02)
-  project-name: DigitalSouthAsia
-  project-website: http://idb.ub.uni-tuebingen.de/digitue/southasia
-  language:
-  - mal
-  production-software: Transkribus
-  script:
-  - iso: Mlym
-  script-type: only-typed
-  time:
-    notBefore: '1850'
-    notAfter: '1996'
-  hands:
-    count: unknown
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: pages
-    count: 43
-  _bibtex: "@misc{https://doi.org/10.11588/data/l2krzo,\n  doi = {10.11588/DATA/L2KRZO},\n\
-    \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/L2KRZO},\n\
-    \  author = {{Tübingen University Library}},\n  title = {Ground Truth data for\
-    \ printed Malayalam},\n  publisher = {heiDATA},\n  year = {2023}\n}\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch
     X'
   url: https://doi.org/10.5281/zenodo.5153263
@@ -7588,98 +7539,6 @@
   _apa: "Guéville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris\
     \ Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Bullinger HTR Dataset
-  url: https://github.com/pstroe/bullinger-htr
-  authors:
-  - name: Phillip Benjamin
-    surname: Ströbel
-    orcid: 0000-0003-2063-5495
-    roles:
-    - aligner
-    - support
-  - name: Tobias
-    surname: Hodel
-    orcid: 0000-0002-2071-6407
-    roles:
-    - aligner
-    - project-manager
-  - name: Christian
-    surname: Sieber
-    orcid: 0000-0002-9364-6921
-    roles:
-    - digitization
-  - name: Patricia
-    surname: Scheurer
-    roles:
-    - quality-control
-    - support
-  - name: David Selim
-    surname: Schoch
-    orcid: 0000-0002-9936-8459
-    roles:
-    - aligner
-  - name: Anna
-    surname: Janka
-    roles:
-    - aligner
-  - name: Raphael
-    surname: Schwitter
-    roles:
-    - aligner
-  - name: Beat
-    surname: Wolf
-    roles:
-    - aligner
-  - name: Jonas
-    surname: Widmer
-    roles:
-    - aligner
-  - name: Peter
-    surname: Rechsteiner
-    roles:
-    - quality-control
-    - support
-  - name: Raphael
-    surname: Müller
-    roles:
-    - quality-control
-    - digitization
-    - support
-  institutions: []
-  description: >-
-    This dataset contains 165,673 image and corresponding text line files (.png
-    for images and .txt for the texts) in a random 80/10/10 training, validation
-    and test set split. The source is the extensive correspondence of Swiss
-    reformer Heinrich Bullinger (1504-1575) and his over 800 different
-    correspondents. It therefore contains great variety in handwriting styles.
-    Furthermore, it is multilingual since there are Latin and Early New High
-    German (and sometimes mixed) letters. The data is split into Latin and Early
-    New High German (determined with langid) and put into separate folders (de for
-    Early New High German and la for Latin).
-  project-website: https://www.bullinger-digital.ch/
-  language:
-  - lat
-  - deu
-  production-software: Transkribus, own
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1523'
-    notAfter: '1575'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Image-Text-Pairs
-  volume:
-  - metric: lines
-    count: 165673
-  automatically-aligned: true
-  transcription-guidelines: Automated transcript alignment with Transkribus
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Caroline Minuscule by Rescribe
   url: https://github.com/rescribe/carolineminuscule-groundtruth
   project-name: "Rescribe'\n"
@@ -8104,6 +7963,11 @@
     metric: characters
   production-software: Transkribus
   automatically-aligned: false
+  _bibtex: "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Ströbel\
+    \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
+    \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
+    \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
+    \     = {v1.0},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
@@ -8157,6 +8021,10 @@
     metric: characters
   production-software: Transkribus
   automatically-aligned: false
+  _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
+    \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
+    \ \n                   truth: Initial release}},\n  month        = may,\n  year\
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
@@ -8384,6 +8252,13 @@
     Abbreviations resolved, but no normalization and no correcting of mispelling.
     No transcription of initials and interlinear script.
   automatically-aligned: false
+  _bibtex: "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n      \
+    \            Sweeney and\n                  Stitts and\n                  Audebrand\
+    \ and\n                  D'Amico and\n                  Geelhaar and\n       \
+    \           Hofmann and\n                  Gnasso},\n  title        = {{Wien ÖNB\
+    \ Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
+    \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
+    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Padeřov-Bible-handwriting-ground-truth
   url: https://zenodo.org/record/7467034#.Y6LQZBWZM2w
@@ -8475,64 +8350,3 @@
     \  title        = {{Padeřov-Bible-handwriting-ground-truth: Initial \n       \
     \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
     \    = {Zenodo},\n}"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Belfort
-  url: https://zenodo.org/record/8041668
-  authors:
-  - name: Solène
-    surname: Tarride
-    orcid: 0000-0001-6174-9865
-  - name: Tristan
-    surname: Faine
-  - name: Mélodie
-    surname: Boillet
-    orcid: 0000-0002-0618-7852
-  - name: Harold
-    surname: Mouchère
-    orcid: 0000-0001-6220-7216
-  - name: Christopher
-    surname: Kermorvant
-    orcid: 0000-0002-7508-4080
-  institutions: []
-  description: >
-    This dataset includes minutes of Belfort municipal council drawn up between
-    1790 and 1946. Documents include deliberations, lists of councillors,
-    convocations, and agendas. The dataset includes 24,105 text-line images that
-    were automatically detected from pages. 
-
-    Up to four transcriptions are available for each line image: 
-
-    * two from human annotators (in `Transcriptions/callico_1/` and
-    `Transcriptions/callico_2/`)
-
-    * two from automatic models (in `Transcriptions/dan/` and
-    `Transcriptions/pylaia/`) 
-  project-name: Handwritten Text Recognition from Crowdsourced Annotations
-  project-website: https://arxiv.org/abs/2306.10878
-  language:
-  - fra
-  production-software: Callico
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1790'
-    notAfter: '1946'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Image-Text-Pairs
-  sources:
-  - reference: >-
-      Solène Tarride, Tristan Faine, Mélodie Boillet, Harold Mouchère, &
-      Christopher Kermorvant. (2023). The Belfort dataset: Handwritten Text
-      Recognition from Crowdsourced Annotations [Data set]. 7th International
-      Workshop on Historical Document Imaging and Processing (HIP'23), San
-      José, California, USA. Zenodo. https://doi.org/10.5281/zenodo.8041668
-    link: https://arxiv.org/abs/2306.10878
-  volume:
-  - metric: lines
-    count: 24105
