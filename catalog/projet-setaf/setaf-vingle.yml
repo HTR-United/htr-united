@@ -55,8 +55,7 @@ time:
   notAfter: '1600'
   notBefore: '1500'
 title: HTR-SETAF-Pierre-de-Vingle
-transcription-guidelines: A presentation of the rules established for the transcriptions
-  will be available on our website.
+transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our transcription guidelines follow a graphematic approach, without regularisation. We keep the original punctuation and abbreviations. A detailed presentation (about 30 pages) of the rules we established for the transcriptions will be available on our website.
 url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
 volume:
 - count: 648066
