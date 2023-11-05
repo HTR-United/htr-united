@@ -7967,7 +7967,8 @@
     \ and\n                  Simon Clematide},\n  title        = {{Ground truth for\
     \ Neue Zürcher Zeitung black letter \n                   period}},\n  month  \
     \      = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version \
-    \     = {v1.0},\n}"
+    \     = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          =\
+    \ {https://doi.org/10.5281/zenodo.3333627}\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Gwalther Handwriting Ground Truth
   url: https://zenodo.org/record/4780947#.YhN5pVvMLUQ
@@ -8024,7 +8025,9 @@
   _bibtex: "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n\
     \                  Phillip Ströbel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground-\
     \ \n                   truth: Initial release}},\n  month        = may,\n  year\
-    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n}"
+    \         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
+    \          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n\
+    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: BiblIA
   url: https://zenodo.org/record/5167263
@@ -8093,7 +8096,8 @@
     \ Pawel and\n                  Kiessling, Benjamin and\n                  Lolli,\
     \ Elena and\n                  Lapin, Hayim},\n  title        = {BiblIA - an Open\
     \ Annotated Dataset},\n  month        = aug,\n  year         = 2021,\n  publisher\
-    \    = {Zenodo},\n  version      = {1.0},\n}"
+    \    = {Zenodo},\n  version      = {1.0},\n  doi          = {10.5281/zenodo.5167263},\n\
+    \  url          = {https://doi.org/10.5281/zenodo.5167263}\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: The POPP datasets
   url: https://zenodo.org/record/6581158
@@ -8175,7 +8179,9 @@
     \ and\n                  BREE, Sandra and\n                  MERVEILLE, François},\n\
     \  title        = {{POPP Datasets : Datasets for handwriting \n              \
     \     recognition from French population census}},\n  month        = may,\n  year\
-    \         = 2022,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n}"
+    \         = 2022,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi\
+    \          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n\
+    }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
   url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
@@ -8258,6 +8264,7 @@
     \           Hofmann and\n                  Gnasso},\n  title        = {{Wien ÖNB\
     \ Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School\
     \ 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n\
+    \  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n\
     }"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Padeřov-Bible-handwriting-ground-truth
@@ -8349,4 +8356,5 @@
     \ and\n                  Chi-hung Lu and\n                  Dvořáková, Martina},\n\
     \  title        = {{Padeřov-Bible-handwriting-ground-truth: Initial \n       \
     \            release}},\n  month        = dec,\n  year         = 2022,\n  publisher\
-    \    = {Zenodo},\n}"
+    \    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          =\
+    \ {https://doi.org/10.5281/zenodo.7467034}\n}"
