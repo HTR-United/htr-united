@@ -406,6 +406,54 @@
     "_bibtex": "@misc{https://doi.org/10.11588/data/egokei,\n  doi = {10.11588/DATA/EGOKEI},\n  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/EGOKEI},\n  author = {Merkel-Hilf, Nicole},\n  title = {Ground Truth data for printed Devanagari},\n  publisher = {heiDATA},\n  year = {2022}\n}\n",
     "_pid": "0be31b50c"
   },
+  "669f8cd0d": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ground Truth data for printed Malayalam",
+    "url": "https://doi.org/10.11588/data/L2KRZO",
+    "authors": [],
+    "institutions": [
+      {
+        "name": "T\u00fcbingen University Library",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
+    "description": "Ground Truth (GT) data (JPG and ALTO XML files) which can be used to train OCR models that recognize printed text in Malayalam script. The training material is gathered from 19th and 20th centuries prints.\n\nThe GT data was trained in Transkribus with the HTR+ and the PyLaia engine with a resulting CER of 2.29% on validation set with HTR+ and 3,20% with PyLaia. The training was performed on 43 pages with appr. 9,000 words. The validation set consisted of 5 pages (ca. 1,000 words).\n\nTranscription was performed by T\u00fcbingen University Library, the Ground Truth data was created by Elena Mucciarelli (University of Groningen) with support and model training by Dorothee Huff (T\u00fcbingen University Library). (2022-11-02)",
+    "project-name": "DigitalSouthAsia",
+    "project-website": "http://idb.ub.uni-tuebingen.de/digitue/southasia",
+    "language": [
+      "mal"
+    ],
+    "production-software": "Transkribus",
+    "script": [
+      {
+        "iso": "Mlym"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1850",
+      "notAfter": "1996"
+    },
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 43
+      }
+    ],
+    "_bibtex": "@misc{https://doi.org/10.11588/data/l2krzo,\n  doi = {10.11588/DATA/L2KRZO},\n  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/L2KRZO},\n  author = {{T\u00fcbingen University Library}},\n  title = {Ground Truth data for printed Malayalam},\n  publisher = {heiDATA},\n  year = {2023}\n}\n",
+    "_pid": "669f8cd0d"
+  },
   "7dcc35e88": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Handwritten Text Recognition Ground Truth Set: StABS Ratsb\u00fccher O10, Urfehdenbuch X",
@@ -1416,71 +1464,182 @@
     "automatically-aligned": false,
     "_pid": "c6e6eefe0"
   },
-  "e7af0e31e": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "FONDUE-FR-PRINT-16",
-    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16",
+  "625707f6d": {
     "authors": [
       {
-        "name": "Gabay",
-        "surname": "Simon",
+        "name": "Peter",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ],
+        "surname": "Nahon"
+      },
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
         "roles": [
           "transcriber",
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Gabay"
       }
     ],
-    "description": " Transcriptions of French 16th c. prints ",
-    "project-name": "FoNDUE",
-    "project-website": "https://github.com/FoNDUE-HTR/",
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "a",
+        "t",
+        "u",
+        "i",
+        "r",
+        "n",
+        "o",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        ",",
+        "v",
+        "q",
+        ".",
+        "\u0301",
+        "f",
+        "g",
+        "b",
+        "h",
+        "'",
+        "\u2019",
+        "I",
+        "+",
+        "y",
+        "\u00ac",
+        "1",
+        "\u0300",
+        "\u0302",
+        "x",
+        "V",
+        "j",
+        "S",
+        "2",
+        ":",
+        "E",
+        "X",
+        "C",
+        "L",
+        "J",
+        "3",
+        "D",
+        "4",
+        "M",
+        ";",
+        "\u0308",
+        "A",
+        "5",
+        "6",
+        "8",
+        "9",
+        "7",
+        "0",
+        "P",
+        "O",
+        "\u0327",
+        "R",
+        "-",
+        "N",
+        "G",
+        "T",
+        "?",
+        "B",
+        "\u0153",
+        "H",
+        "\u00a0",
+        "Q",
+        "\u03b1",
+        "F",
+        "z",
+        "Z",
+        "U",
+        "\u0313",
+        "\u03bf",
+        "\u03bd",
+        "\u03bc",
+        "\u03c9",
+        "\u03c4",
+        "\u03b4",
+        "\u03b5",
+        "\u03c1",
+        "\u03c6",
+        "(",
+        ")",
+        "{",
+        "k",
+        "\u03a8",
+        "\u03b9",
+        "\u03c5",
+        "\u03c0",
+        "\u03bb",
+        "Y",
+        "K"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18/blob/master/CITATION.cff",
+    "description": "French Manuscripts of the 18th",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
     "language": [
       "fra"
     ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
       }
     ],
-    "script-type": "only-typed",
+    "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1500",
-      "notAfter": "1600"
+      "notAfter": "1799",
+      "notBefore": "1700"
     },
-    "hands": {
-      "count": "1",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
+    "title": "FONDUE-FR-MSS-18",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18",
     "volume": [
       {
-        "metric": "characters",
-        "count": 504656
+        "count": 108705,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 931
+        "count": 82,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 17817
+        "count": 2933,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 2830
+        "count": 203,
+        "metric": "regions"
       }
     ],
-    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff",
-    "transcription-guidelines": "SegmOnto",
-    "production-software": "Unknown [Automatically filled]",
-    "automatically-aligned": false,
-    "_pid": "e7af0e31e"
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Nahon, Peter},\nmonth = {11},\ntitle = {FoNDUE-FR-MSS-18},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18},\nyear = {2023}\n}\n",
+    "_apa": "Gabay S., Nahon P. (2023). FoNDUE-FR-MSS-18 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18\n",
+    "_pid": "625707f6d"
   },
   "3ec7b6367": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
@@ -1548,84 +1707,200 @@
     "automatically-aligned": false,
     "_pid": "3ec7b6367"
   },
-  "dd2357d22": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "FONDUE-MLT-ART",
-    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-ART",
+  "03a5a61d0": {
     "authors": [
       {
-        "name": "Joyeux-Prunel",
-        "surname": "B\u00e9atrice",
-        "orcid": "0000-0003-1046-7002",
+        "name": "Leflaec",
+        "orcid": "0000-0001-7643-3468",
         "roles": [
-          "transcriber",
-          "project-manager",
-          "quality-control"
-        ]
+          "transcriber"
+        ],
+        "surname": "Alice"
       },
       {
         "name": "Gabay",
-        "surname": "Simon",
         "orcid": "0000-0001-9094-4475",
         "roles": [
-          "quality-control",
-          "support"
-        ]
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Simon"
       }
     ],
-    "institutions": [],
-    "description": "Swiss art exhibitions catalogues",
-    "project-name": "FoNDUE",
-    "language": [
-      "deu"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-typed",
-    "time": {
-      "notBefore": "1842",
-      "notAfter": "1961"
+    "characters": {
+      "members": [
+        "e",
+        "i",
+        "u",
+        "a",
+        "s",
+        "t",
+        "r",
+        "n",
+        "o",
+        "m",
+        "c",
+        "l",
+        "d",
+        "p",
+        ",",
+        "q",
+        "\u0303",
+        "b",
+        "g",
+        "&",
+        "f",
+        "h",
+        "I",
+        "x",
+        ".",
+        ";",
+        "A",
+        ":",
+        "S",
+        "E",
+        "C",
+        "\u0327",
+        "N",
+        "U",
+        "P",
+        "T",
+        "Q",
+        "\ua751",
+        "D",
+        "H",
+        "X",
+        "O",
+        "M",
+        "1",
+        "\ua753",
+        "F",
+        "L",
+        "R",
+        "y",
+        "\u27e6",
+        "\u27e7",
+        "\u0142",
+        "V",
+        "G",
+        "0",
+        "2",
+        "B",
+        "\u1dd1",
+        "9",
+        "/",
+        "\u0111",
+        "\u0391",
+        "Z",
+        "8",
+        "z",
+        "\ua770",
+        "~",
+        "\u205c",
+        "3",
+        "4",
+        "\u0366",
+        "6",
+        "7",
+        "\u0180",
+        "\u221a",
+        "\u00f7",
+        "\u03be",
+        "\ua750",
+        "\u0328",
+        "\u03a0",
+        "\u039d",
+        "\u03a4",
+        "\u039a",
+        "\u039b",
+        "\u03a9",
+        "\u03a3",
+        "\u00ba",
+        "\u036d",
+        "Y",
+        "\u0141",
+        "j",
+        "\u036c"
+      ],
+      "mode": "NFD"
     },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-LA-MSS-MA/blob/master/CITATION.cff",
+    "description": " Transcriptions of French Medieval latin manuscripts",
+    "format": "Alto-XML",
     "hands": {
-      "count": "1",
+      "count": "1-per-folder",
       "precision": "exact"
     },
+    "language": [
+      "lat"
+    ],
     "license": [
       {
         "name": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "format": "Alto-XML",
-    "volume": [
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR/",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
       {
-        "metric": "characters",
-        "count": 101227
-      },
-      {
-        "metric": "files",
-        "count": 158
-      },
-      {
-        "metric": "lines",
-        "count": 4192
-      },
-      {
-        "metric": "pages",
-        "count": 60
-      },
-      {
-        "metric": "regions",
-        "count": 158
+        "iso": "Latn"
       }
     ],
-    "citation-file-link": "https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff",
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1500",
+      "notBefore": "700"
+    },
+    "title": "FONDUE-LA-MSS-MA",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-LA-MSS-MA",
+    "volume": [
+      {
+        "count": 34804,
+        "metric": "characters"
+      },
+      {
+        "count": 40,
+        "metric": "files"
+      },
+      {
+        "count": 1341,
+        "metric": "lines"
+      },
+      {
+        "count": 110,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_pid": "03a5a61d0"
+  },
+  "dd2357d22": {
+    "authors": [
+      {
+        "name": "Joyeux-Prunel",
+        "orcid": "0000-0003-1046-7002",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "B\u00e9atrice"
+      },
+      {
+        "name": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "quality-control",
+          "support"
+        ],
+        "surname": "Simon"
+      }
+    ],
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "n",
@@ -1718,72 +1993,29 @@
         "/",
         "\u00ab",
         "&"
-      ]
+      ],
+      "mode": "NFD"
     },
-    "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, B\u00e9atrice},\nmonth = {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\nyear = {2022}\n}\n",
-    "_apa": "Joyeux-Prunel B. (2022). FONDUE-MLT-ART (version Artlas 0.8.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n",
-    "_pid": "dd2357d22"
-  },
-  "74eadcb57": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "FoNDUE - Datasets for historical catalogues",
-    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT",
-    "authors": [
+    "citation-file-link": "https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff",
+    "description": "Swiss art exhibitions catalogues",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "deu"
+    ],
+    "license": [
       {
-        "name": "Pradier",
-        "surname": "Fr\u00e9d\u00e9rine",
-        "orcid": "0000-0002-3476-7248",
-        "roles": [
-          "transcriber",
-          "project-manager"
-        ]
-      },
-      {
-        "name": "Gabay",
-        "surname": "Simon",
-        "orcid": "0000-0001-9094-4475",
-        "roles": [
-          "transcriber",
-          "project-manager",
-          "quality-control",
-          "support"
-        ]
-      },
-      {
-        "name": "Kervegan",
-        "surname": "Paul",
-        "orcid": "0000-0003-2821-8821",
-        "roles": [
-          "transcriber"
-        ]
-      },
-      {
-        "name": "Jan\u00e8s",
-        "surname": "Juliette",
-        "orcid": "0000-0002-8971-6173",
-        "roles": [
-          "transcriber"
-        ]
-      },
-      {
-        "name": "S\u00e1nchez Oeconomo",
-        "surname": "Esteban",
-        "orcid": "0000-0002-8591-5394",
-        "roles": [
-          "transcriber"
-        ]
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "institutions": [],
-    "description": "Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed in France but not only. Segmentation include an extra zone `CustomeZone: entry`",
-    "project-name": "FoNDUE",
-    "language": [
-      "por",
-      "fra",
-      "ita"
-    ],
     "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -1791,40 +2023,140 @@
     ],
     "script-type": "only-typed",
     "time": {
-      "notBefore": "1818",
-      "notAfter": "1972"
+      "notAfter": "1961",
+      "notBefore": "1842"
     },
+    "title": "FONDUE-MLT-ART",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-ART",
+    "volume": [
+      {
+        "count": 101227,
+        "metric": "characters"
+      },
+      {
+        "count": 158,
+        "metric": "files"
+      },
+      {
+        "count": 4192,
+        "metric": "lines"
+      },
+      {
+        "count": 60,
+        "metric": "pages"
+      },
+      {
+        "count": 158,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, B\u00e9atrice},\nmonth = {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\nyear = {2022}\n}\n",
+    "_apa": "Joyeux-Prunel B. (2022). FONDUE-MLT-ART (version Artlas 0.8.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n",
+    "_pid": "dd2357d22"
+  },
+  "74eadcb57": {
+    "authors": [
+      {
+        "name": "Pradier",
+        "orcid": "0000-0002-3476-7248",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ],
+        "surname": "Fr\u00e9d\u00e9rine"
+      },
+      {
+        "name": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Simon"
+      },
+      {
+        "name": "Kervegan",
+        "orcid": "0000-0003-2821-8821",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Paul"
+      },
+      {
+        "name": "Jan\u00e8s",
+        "orcid": "0000-0002-8971-6173",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Juliette"
+      },
+      {
+        "name": "S\u00e1nchez Oeconomo",
+        "orcid": "0000-0002-8591-5394",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Esteban"
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff",
+    "description": "Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed in France but not only. Segmentation include an extra zone `CustomeZone: entry`",
+    "format": "Alto-XML",
     "hands": {
       "count": "1",
       "precision": "exact"
     },
+    "institutions": [],
+    "language": [
+      "por",
+      "fra",
+      "ita"
+    ],
     "license": [
       {
         "name": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "format": "Alto-XML",
-    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1972",
+      "notBefore": "1818"
+    },
+    "title": "FoNDUE - Datasets for historical catalogues",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT",
     "volume": [
       {
-        "metric": "characters",
-        "count": 1285120
+        "count": 1285120,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 1381
+        "count": 1381,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 43114
+        "count": 43114,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 10713
+        "count": 10713,
+        "metric": "regions"
       }
     ],
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pradier, Frederine and Gabay, Simon and Jan\u00e8s, Juliette and S\u00e1nchez Oeconomo, Esteban and Kervegan, Paul},\nmonth = {10},\ntitle = {FoNDUE - Datasets for historical catalogues},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT},\nyear = {2022}\n}\n",
+    "_apa": "Pradier F., Gabay S., Jan\u00e8s J., S\u00e1nchez Oeconomo E., Kervegan P. (2022). FoNDUE - Datasets for historical catalogues (version 0.9). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT\n",
     "_pid": "74eadcb57"
   },
   "dcb8b4eaf": {
@@ -2871,560 +3203,508 @@
     "_pid": "7dde3f71f"
   },
   "70e75eb5c": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": " CREMMA-AN Testament De Poilus ",
-    "url": "https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus",
-    "description": "WWI\u2019s Poilus' testaments edited by the Archives National during the Testaments de Poilus project.",
-    "project-name": "Testaments de Poilus",
-    "project-website": "https://edition-testaments-de-poilus.huma-num.fr/",
-    "language": [
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
     "authors": [
       {
         "name": "Emmanuelle",
-        "surname": "de Champs",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "de Champs"
       },
       {
-        "surname": "Clavaud",
         "name": "Florence",
         "roles": [
           "project-manager",
           "quality-control",
           "transcriber"
-        ]
+        ],
+        "surname": "Clavaud"
       },
       {
         "name": "Pauline",
-        "surname": "Charbonnier",
         "roles": [
           "project-manager",
           "quality-control",
           "transcriber"
-        ]
+        ],
+        "surname": "Charbonnier"
       },
       {
         "name": "Christine",
-        "surname": "Nougaret",
         "roles": [
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Nougaret"
       },
       {
         "name": "Alix",
-        "surname": "Chagu\u00e9",
         "roles": [
           "aligner",
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Chagu\u00e9"
       },
       {
         "name": "Thibault",
-        "surname": "Cl\u00e9rice",
         "roles": [
           "aligner",
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Cl\u00e9rice"
       },
       {
         "name": "Falcoz",
-        "surname": "Elsa",
         "roles": [
           "aligner"
-        ]
+        ],
+        "surname": "Elsa"
       },
       {
         "name": "Marie-Fran\u00e7oise",
-        "surname": "Limon-Bonnet",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Limon-Bonnet"
       },
       {
         "name": "Elise",
-        "surname": "Wojszvzyk",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Wojszvzyk"
       },
       {
         "name": "Sylvie",
-        "surname": "Dechavanne",
         "roles": [
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Dechavanne"
       },
       {
-        "surname": "ALemoine",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "ALemoine"
       },
       {
-        "surname": "ASJPeronneau",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "ASJPeronneau"
       },
       {
-        "surname": "Alcofrybas",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Alcofrybas"
       },
       {
-        "surname": "BeaLct",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "BeaLct"
       },
       {
-        "surname": "CLbt",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "CLbt"
       },
       {
-        "surname": "Chloelsa",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Chloelsa"
       },
       {
-        "surname": "DMichel",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "DMichel"
       },
       {
-        "surname": "Desauthieux",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Desauthieux"
       },
       {
-        "surname": "EPerrin",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "EPerrin"
       },
       {
-        "surname": "GBMireille",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "GBMireille"
       },
       {
-        "surname": "GPINET",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "GPINET"
       },
       {
-        "surname": "Genea78",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Genea78"
       },
       {
-        "surname": "JMGoux",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "JMGoux"
       },
       {
-        "surname": "Jideuxhemme",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Jideuxhemme"
       },
       {
-        "surname": "LBIsabelle",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "LBIsabelle"
       },
       {
-        "surname": "Lamotte",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Lamotte"
       },
       {
-        "surname": "MFGarreau",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "MFGarreau"
       },
       {
-        "surname": "MIna",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "MIna"
       },
       {
-        "surname": "Maniet",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Maniet"
       },
       {
-        "surname": "MarionJo",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "MarionJo"
       },
       {
-        "surname": "PGambette",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "PGambette"
       },
       {
-        "surname": "PPocard",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "PPocard"
       },
       {
-        "surname": "PROMBAUT",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "PROMBAUT"
       },
       {
-        "surname": "PaulineTest",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "PaulineTest"
       },
       {
-        "surname": "SCayeux",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "SCayeux"
       },
       {
-        "surname": "SL.",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "SL."
       },
       {
-        "surname": "SLespinasse",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "SLespinasse"
       },
       {
-        "surname": "Silver08",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Silver08"
       },
       {
-        "surname": "TPell\u00e9",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "TPell\u00e9"
       },
       {
-        "surname": "Val\u00e9rie",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Val\u00e9rie"
       },
       {
-        "surname": "alp",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "alp"
       },
       {
-        "surname": "jmorvan",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "jmorvan"
       },
       {
-        "surname": "lelia",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "lelia"
       },
       {
-        "surname": "majubama",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "majubama"
       },
       {
-        "surname": "mickael.lefevr",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "mickael.lefevr"
       },
       {
-        "surname": "sgauthier",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "sgauthier"
       },
       {
-        "surname": "EdChamps",
         "roles": [
           "quality-control"
-        ]
+        ],
+        "surname": "EdChamps"
       },
       {
         "name": "Dani\u00e8le",
-        "surname": "Allezard",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Allezard"
       },
       {
         "name": "Fran\u00e7oise",
-        "surname": "Auriau",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Auriau"
       },
       {
         "name": "Sophie",
-        "surname": "Blanchard",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Blanchard"
       },
       {
         "name": "Laure",
-        "surname": "Cadars",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Cadars"
       },
       {
         "name": "Paul",
-        "surname": "Cazin-Bernier",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Cazin-Bernier"
       },
       {
         "name": "Rosine",
-        "surname": "Cleyet-Michaud",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Cleyet-Michaud"
       },
       {
         "name": "Sophie",
-        "surname": "Delinge",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Delinge"
       },
       {
         "name": "Christiane",
-        "surname": "Demeulenaere-Douy\u00e8re",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Demeulenaere-Douy\u00e8re"
       },
       {
         "name": "Mathilde",
-        "surname": "Deuve",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Deuve"
       },
       {
         "name": "Tristan",
-        "surname": "Girard",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Girard"
       },
       {
         "name": "Wilfried",
-        "surname": "Gourdon",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Gourdon"
       },
       {
         "name": "Emilie",
-        "surname": "Laffitte-Louisou",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Laffitte-Louisou"
       },
       {
         "name": "Val\u00e9rie",
-        "surname": "Lem\u00e9e",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Lem\u00e9e"
       },
       {
         "name": "Jean-Claude",
-        "surname": "Lescure",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Lescure"
       },
       {
         "name": "M\u00e9lisa",
-        "surname": "Locatelli",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Locatelli"
       },
       {
         "name": "Aur\u00e9lie",
-        "surname": "Massie",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Massie"
       },
       {
         "name": "Thomas",
-        "surname": "Olivier",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Olivier"
       },
       {
         "name": "Fran\u00e7oise",
-        "surname": "Pinchard",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Pinchard"
       },
       {
         "name": "Tiffanie",
-        "surname": "Pitot",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Pitot"
       },
       {
         "name": "Anais",
-        "surname": "Pontoparia",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Pontoparia"
       },
       {
         "name": "Michel",
-        "surname": "Renard",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Renard"
       },
       {
         "name": "Thierry",
-        "surname": "Rihouey",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Rihouey"
       },
       {
         "name": "Christian",
-        "surname": "Rodriguez",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Rodriguez"
       },
       {
         "name": "Konstantinos",
-        "surname": "Sifakis",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Sifakis"
       },
       {
         "name": "Marie-Th\u00e9r\u00e8se",
-        "surname": "Solignat",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Solignat"
       },
       {
         "name": "Lucie",
-        "surname": "Vieillon",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Vieillon"
       },
       {
-        "surname": "SL",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "SL"
       }
     ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1914",
-      "notAfter": "1918"
-    },
-    "hands": {
-      "count": "1-per-file",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 33652
-      },
-      {
-        "metric": "files",
-        "count": 96
-      },
-      {
-        "metric": "lines",
-        "count": 1353
-      },
-      {
-        "metric": "regions",
-        "count": 105
-      }
-    ],
-    "citation-file-link": "https://github.com/Dummy/depot-test/CITATION.cff",
-    "transcription-guidelines": "The original transcriptions were performed on a crowdsourcing application (https://testaments-de-poilus.huma-num.fr/#!/) under the supervision of the Archives nationales de France. Only the allographic portions of the documents were transcribed. Any marginal elements added later by clerks or archivists are neither segmented nor transcribed. The segmentation follows the SegmOnto ontology. Abbreviations and mispelling were not corrected. Superscripted portions of text are preceeded by ^. ",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "a",
-        "n",
         "i",
+        "n",
         "t",
         "s",
         "r",
@@ -3434,79 +3714,143 @@
         "m",
         "d",
         "c",
-        "\u0301",
         "p",
+        "\u0301",
         "\u0300",
+        "f",
         "v",
         "g",
-        "f",
         ",",
-        "b",
         "q",
-        "1",
-        "\u2019",
+        "b",
         ".",
+        "\u2019",
+        "1",
         "h",
         "M",
         "J",
         "j",
-        "C",
         "P",
-        "-",
-        "L",
+        "C",
         "A",
+        "-",
+        "x",
+        "L",
+        "S",
+        "F",
         "9",
         "y",
-        "x",
         "D",
-        "S",
         "B",
-        "^",
-        "R",
-        "F",
         "\u0302",
-        "G",
-        "E",
-        "4",
-        "z",
+        "R",
         "2",
+        "4",
+        "^",
+        "z",
+        "0",
+        "E",
         "V",
-        "T",
+        "G",
         "3",
         "5",
-        "N",
-        "0",
+        "T",
         ")",
-        "H",
         "(",
+        "H",
+        "6",
+        "N",
         "7",
         "8",
         "I",
-        "Q",
-        "6",
-        ";",
         ":",
         "O",
+        ";",
+        "Q",
         "\u0327",
+        "\u00b0",
         "U",
+        "\u00a0",
+        "/",
+        "W",
         "\"",
         "\u0308",
+        ">",
+        "<",
+        "=",
         "\u0153",
-        "W",
-        "\u00b0",
-        "?",
-        "Z",
-        "/",
         "w",
-        "k",
-        "&",
-        "+",
+        "?",
+        "_",
         "X",
         "%",
-        "'"
-      ]
+        "k",
+        "*",
+        "\u017f",
+        "!",
+        "Z",
+        "&",
+        "'",
+        "\u2013",
+        "K",
+        "+"
+      ],
+      "mode": "NFD"
     },
+    "citation-file-link": "https://github.com/Dummy/depot-test/CITATION.cff",
+    "description": "WWI\u2019s Poilus' testaments edited by the Archives National during the Testaments de Poilus project.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-file",
+      "precision": "estimated"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "Testaments de Poilus",
+    "project-website": "https://edition-testaments-de-poilus.huma-num.fr/",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1918",
+      "notBefore": "1914"
+    },
+    "title": " CREMMA-AN Testament De Poilus ",
+    "transcription-guidelines": "The original transcriptions were performed on a crowdsourcing application (https://testaments-de-poilus.huma-num.fr/#!/) under the supervision of the Archives nationales de France. Only the allographic portions of the documents were transcribed. Any marginal elements added later by clerks or archivists are neither segmented nor transcribed. The segmentation follows the SegmOnto ontology. Abbreviations and mispelling were not corrected. Superscripted portions of text are preceeded by ^. ",
+    "url": "https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus",
+    "volume": [
+      {
+        "count": 87768,
+        "metric": "characters"
+      },
+      {
+        "count": 226,
+        "metric": "files"
+      },
+      {
+        "count": 3330,
+        "metric": "lines"
+      },
+      {
+        "count": 553,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Cl\u00e9rice, Thibault and Mazoue, Ana\u00efs and Van Kote, Elsa},\ntitle = {CREMMA-AN-TestamentDePoilus },\nurl = {https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus}\n}\n",
+    "_apa": "Chagu\u00e9 A., Cl\u00e9rice T., Mazoue A., Van Kote E. CREMMA-AN-TestamentDePoilus  URL: https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus\n",
     "_pid": "70e75eb5c"
   },
   "2a76930c9": {
@@ -9470,6 +9814,136 @@
     "_apa": "Gu\u00e9ville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n",
     "_pid": "da9453ee0"
   },
+  "ff2af829a": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Bullinger HTR Dataset",
+    "url": "https://github.com/pstroe/bullinger-htr",
+    "authors": [
+      {
+        "name": "Phillip Benjamin",
+        "surname": "Str\u00f6bel",
+        "orcid": "0000-0003-2063-5495",
+        "roles": [
+          "aligner",
+          "support"
+        ]
+      },
+      {
+        "name": "Tobias",
+        "surname": "Hodel",
+        "orcid": "0000-0002-2071-6407",
+        "roles": [
+          "aligner",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Christian",
+        "surname": "Sieber",
+        "orcid": "0000-0002-9364-6921",
+        "roles": [
+          "digitization"
+        ]
+      },
+      {
+        "name": "Patricia",
+        "surname": "Scheurer",
+        "roles": [
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "David Selim",
+        "surname": "Schoch",
+        "orcid": "0000-0002-9936-8459",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Anna",
+        "surname": "Janka",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Raphael",
+        "surname": "Schwitter",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Beat",
+        "surname": "Wolf",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Jonas",
+        "surname": "Widmer",
+        "roles": [
+          "aligner"
+        ]
+      },
+      {
+        "name": "Peter",
+        "surname": "Rechsteiner",
+        "roles": [
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Raphael",
+        "surname": "M\u00fcller",
+        "roles": [
+          "quality-control",
+          "digitization",
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "This dataset contains 165,673 image and corresponding text line files (.png for images and .txt for the texts) in a random 80/10/10 training, validation and test set split. The source is the extensive correspondence of Swiss reformer Heinrich Bullinger (1504-1575) and his over 800 different correspondents. It therefore contains great variety in handwriting styles. Furthermore, it is multilingual since there are Latin and Early New High German (and sometimes mixed) letters. The data is split into Latin and Early New High German (determined with langid) and put into separate folders (de for Early New High German and la for Latin).",
+    "project-website": "https://www.bullinger-digital.ch/",
+    "language": [
+      "lat",
+      "deu"
+    ],
+    "production-software": "Transkribus, own",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1523",
+      "notAfter": "1575"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Image-Text-Pairs",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 165673
+      }
+    ],
+    "automatically-aligned": true,
+    "transcription-guidelines": "Automated transcript alignment with Transkribus",
+    "_pid": "ff2af829a"
+  },
   "35f73e074": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Caroline Minuscule by Rescribe",
@@ -10084,12 +10558,10 @@
       "count": "1",
       "precision": "exact"
     },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "format": "Alto-XML",
     "volume": [
       {
@@ -10524,5 +10996,77 @@
     "automatically-aligned": false,
     "_bibtex": "@dataset{michalcova_2022_7467034,\n  author       = {Michalcov\u00e1, Anna and\n                  Bazelides, Kamil and\n                  Haji\u010d, Jan and\n                  P\u011bnkavov\u00e1, Eli\u0161ka and\n                  Maniakov\u00e1, Laura and\n                  Kreisingerov\u00e1, Hana and\n                  Filipov\u00e1, Jitka and\n                  Chi-hung Lu and\n                  Dvo\u0159\u00e1kov\u00e1, Martina},\n  title        = {{Pade\u0159ov-Bible-handwriting-ground-truth: Initial \n                   release}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          = {https://doi.org/10.5281/zenodo.7467034}\n}",
     "_pid": "43573de7e"
+  },
+  "96b246dfa": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Belfort",
+    "url": "https://zenodo.org/record/8041668",
+    "authors": [
+      {
+        "name": "Sol\u00e8ne",
+        "surname": "Tarride",
+        "orcid": "0000-0001-6174-9865"
+      },
+      {
+        "name": "Tristan",
+        "surname": "Faine"
+      },
+      {
+        "name": "M\u00e9lodie",
+        "surname": "Boillet",
+        "orcid": "0000-0002-0618-7852"
+      },
+      {
+        "name": "Harold",
+        "surname": "Mouch\u00e8re",
+        "orcid": "0000-0001-6220-7216"
+      },
+      {
+        "name": "Christopher",
+        "surname": "Kermorvant",
+        "orcid": "0000-0002-7508-4080"
+      }
+    ],
+    "institutions": [],
+    "description": "This dataset includes minutes of Belfort municipal council drawn up between 1790 and 1946. Documents include deliberations, lists of councillors, convocations, and agendas. The dataset includes 24,105 text-line images that were automatically detected from pages. \nUp to four transcriptions are available for each line image: \n* two from human annotators (in `Transcriptions/callico_1/` and `Transcriptions/callico_2/`)\n* two from automatic models (in `Transcriptions/dan/` and `Transcriptions/pylaia/`) \n",
+    "project-name": "Handwritten Text Recognition from Crowdsourced Annotations",
+    "project-website": "https://arxiv.org/abs/2306.10878",
+    "language": [
+      "fra"
+    ],
+    "production-software": "Callico",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1790",
+      "notAfter": "1946"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Image-Text-Pairs",
+    "sources": [
+      {
+        "reference": "Sol\u00e8ne Tarride, Tristan Faine, M\u00e9lodie Boillet, Harold Mouch\u00e8re, & Christopher Kermorvant. (2023). The Belfort dataset: Handwritten Text Recognition from Crowdsourced Annotations [Data set]. 7th International Workshop on Historical Document Imaging and Processing (HIP'23), San Jos\u00e9, California, USA. Zenodo. https://doi.org/10.5281/zenodo.8041668",
+        "link": "https://arxiv.org/abs/2306.10878"
+      }
+    ],
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 24105
+      }
+    ],
+    "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {{The Belfort dataset: Handwritten Text Recognition \n                   from Crowdsourced Annotations}},\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668}\n}",
+    "_pid": "96b246dfa"
   }
 }
