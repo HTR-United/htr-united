@@ -141,7 +141,6 @@
   - name: Peter
     roles:
     - transcriber
-    - project-manager
     surname: Nahon
   - name: Simon
     orcid: 0000-0001-9094-4475
@@ -149,6 +148,7 @@
     - transcriber
     - project-manager
     - quality-control
+    - support
     surname: Gabay
   automatically-aligned: false
   characters:
@@ -288,6 +288,49 @@
     month = {11},\ntitle = {FoNDUE-FR-MSS-18},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18},\n\
     year = {2023}\n}\n"
   _apa: "Gabay S., Nahon P. (2023). FoNDUE-FR-MSS-18 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18\n"
+- authors:
+  - name: Gabay
+    orcid: 0000-0001-9094-4475
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+    surname: Simon
+  citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
+  description: ' Transcriptions of French 16th c. prints '
+  format: Alto-XML
+  hands:
+    count: unknown
+    precision: exact
+  language:
+  - fra
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: FoNDUE
+  project-website: https://github.com/FoNDUE-HTR/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1600'
+    notBefore: '1500'
+  title: FONDUE-FR-PRINT-16
+  transcription-guidelines: SegmOnto
+  url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16
+  volume:
+  - count: 504656
+    metric: characters
+  - count: 930
+    metric: files
+  - count: 17817
+    metric: lines
+  - count: 2829
+    metric: regions
+  automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FONDUE-FR-PRINT-17
   url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-17
@@ -340,6 +383,7 @@
     roles:
     - project-manager
     - quality-control
+    - support
     surname: Simon
   characters:
     members:
@@ -471,111 +515,154 @@
     metric: regions
   automatically-aligned: false
 - authors:
-  - name: Joyeux-Prunel
-    orcid: 0000-0003-1046-7002
+  - name: Gabay
+    orcid: 0000-0001-9094-4475
     roles:
     - transcriber
     - project-manager
     - quality-control
-    surname: Béatrice
-  - name: Gabay
-    orcid: 0000-0001-9094-4475
-    roles:
-    - quality-control
     - support
     surname: Simon
+  - name: Joyeux-Prunel
+    orcid: 0000-0003-1046-7002
+    roles:
+    - transcriber
+    surname: Béatrice
+  - name: Rizzello
+    orcid: 0000-0003-0131-192X
+    roles:
+    - transcriber
+    surname: Martina
+  - name: Berlincourt
+    orcid: 0000-0001-5739-8839
+    roles:
+    - transcriber
+    surname: Valéry
+  - name: Rizzi
+    orcid: 0000-0002-8542-7091
+    roles:
+    - transcriber
+    surname: Elena Maria
+  - affiliation: Ca' Foscari University
+    name: Tesser
+    orcid: 0000-0001-9553-1100
+    roles:
+    - transcriber
+    surname: Stefania
+  - name: Bukvic
+    roles:
+    - transcriber
+    surname: Victoria
+  - name: Diaz
+    roles:
+    - transcriber
+    surname: Jaime
+  - name: Aebi
+    roles:
+    - transcriber
+    surname: Guillaume
+  - name: Bickel
+    roles:
+    - transcriber
+    surname: Raoul
   characters:
     members:
     - e
     - n
     - .
     - r
-    - a
     - i
-    - '0'
-    - l
+    - a
     - u
     - t
+    - l
     - s
+    - '0'
     - o
     - h
     - d
     - '1'
     - c
-    - m
     - '2'
+    - m
     - g
     - '5'
-    - '3'
-    - b
     - ̈
+    - '3'
     - f
+    - b
+    - ','
     - M
     - B
     - '4'
-    - A
     - S
-    - G
-    - ','
+    - A
     - '6'
-    - '7'
-    - v
-    - '8'
-    - p
-    - L
     - F
-    - P
-    - '9'
-    - z
-    - y
-    - D
-    - W
-    - C
-    - R
-    - k
-    - K
-    - V
-    - E
-    - H
-    - ̀
-    - '-'
+    - G
+    - '7'
+    - '8'
+    - v
+    - p
     - )
     - (
+    - L
+    - '9'
+    - z
+    - P
+    - k
+    - R
+    - V
+    - D
+    - K
+    - y
+    - W
+    - E
+    - H
+    - C
+    - –
+    - ̀
     - w
-    - T
     - J
-    - ́
-    - —
-    - N
+    - T
     - Z
-    - O
+    - ́
+    - '-'
+    - N
     - I
+    - —
     - q
-    - ̂
+    - O
     - U
+    -  
+    - ̂
     - ’
     - x
     - j
-    - '*'
-    - ;
-    - X
-    - œ
-    - Q
-    - ¬
-    - »
-    - ':'
     - '"'
+    - »
+    - ¬
+    - ;
+    - œ
+    - X
     - ̧
+    - Q
     - "'"
+    - ':'
+    - ß
+    - «
+    - '?'
     - §
     - Y
+    - æ
     - '['
     - ']'
-    - æ
-    - '?'
-    -  
     - /
-    - «
+    - †
+    - '!'
+    - „
+    - “
+    - …
     - '&'
     mode: NFD
   citation-file-link: https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff
@@ -600,29 +687,33 @@
     notAfter: '1961'
     notBefore: '1842'
   title: FONDUE-MLT-ART
+  transcription-guidelines: No segmentation, only transcription.
   url: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART
   volume:
-  - count: 101227
+  - count: 141786
     metric: characters
-  - count: 158
+  - count: 215
     metric: files
-  - count: 4192
+  - count: 5664
     metric: lines
   - count: 60
     metric: pages
-  - count: 158
+  - count: 215
     metric: regions
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, Béatrice},\nmonth =\
-    \ {12},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\n\
-    year = {2022}\n}\n"
-  _apa: "Joyeux-Prunel B. (2022). FONDUE-MLT-ART (version Artlas 0.8.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n"
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, Béatrice and Gabay,\
+    \ Simon and Rizzello, Martina and Berlincourt, Valéry and Rizzi, Elena Maria and\
+    \ Tesser, Stefania and Bukvic, Victoria and Diaz, Jaime and Aebi, Guillaume and\
+    \ Bickel, Raoul},\nmonth = {11},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\n\
+    year = {2023}\n}\n"
+  _apa: "Joyeux-Prunel B., Gabay S., Rizzello M., Berlincourt V., Rizzi E.M., Tesser\
+    \ S., Bukvic V., Diaz J., Aebi G., Bickel R. (2023). FONDUE-MLT-ART (version 1.0).\
+    \ URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n"
 - authors:
   - name: Pradier
     orcid: 0000-0002-3476-7248
     roles:
     - transcriber
-    - project-manager
     surname: Frédérine
   - name: Gabay
     orcid: 0000-0001-9094-4475
@@ -648,11 +739,11 @@
     - transcriber
     surname: Esteban
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff
-  description: 'Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed
-    in France but not only. Segmentation include an extra zone `CustomeZone: entry`'
+  description: Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed
+    in France but not only.
   format: Alto-XML
   hands:
-    count: '1'
+    count: unknown
     precision: exact
   institutions: []
   language:
@@ -664,6 +755,7 @@
     url: https://creativecommons.org/licenses/by/4.0/
   production-software: eScriptorium + Kraken
   project-name: FoNDUE
+  project-website: https://github.com/FoNDUE-HTR
   schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
@@ -671,7 +763,8 @@
   time:
     notAfter: '1972'
     notBefore: '1818'
-  title: FoNDUE - Datasets for historical catalogues
+  title: FONDUE-MLT-CAT
+  transcription-guidelines: 'Segmentation include an extra zone `CustomeZone: entry`'
   url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
   volume:
   - count: 1285120
@@ -1957,8 +2050,8 @@
     - ̂
     - R
     - '2'
-    - '4'
     - ^
+    - '4'
     - z
     - '0'
     - E
@@ -2039,7 +2132,7 @@
     are preceeded by ^. '
   url: https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus
   volume:
-  - count: 87768
+  - count: 87726
     metric: characters
   - count: 226
     metric: files
@@ -4781,6 +4874,783 @@
   _apa: "Chagué A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E., Vanneau\
     \ L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us Corpus\
     \ DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n"
+- au thors:
+  - name: Leroy
+    orcid: 0000-0002-7843-5050
+    roles:
+    - transcriber
+    surname: Noé
+  - name: Pinche
+    orcid: 0000-0001-7764-9690
+    roles:
+    - project-manager
+    - quality-control
+    surname: Ariane
+  - name: Jean-Baptiste
+    orcid: 0000-0001-7764-9690
+    roles:
+    - project-manager
+    surname: Camps
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+    surname: Chagué
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - project-manager
+    surname: Clérice
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - i
+    - s
+    - a
+    - t
+    - n
+    - u
+    - o
+    - r
+    - l
+    - c
+    - m
+    - d
+    - p
+    - .
+    - f
+    - q
+    - g
+    - ̃
+    - z
+    - h
+    - ⁊
+    - b
+    - ̾
+    - y
+    - Q
+    - x
+    - S
+    - ͥ
+    - ':'
+    - E
+    - L
+    - ͣ
+    - C
+    - I
+    - A
+    - D
+    - M
+    - ꝯ
+    - ꝑ
+    - ꝰ
+    - R
+    - P
+    - T
+    - O
+    - N
+    - ᷑
+    - U
+    - B
+    - F
+    - ͤ
+    - k
+    - G
+    - K
+    - ','
+    - H
+    - ͦ
+    - ̌
+    - ᷤ
+    - '1'
+    - ⟦
+    - ⟧
+    - ÷
+    - ꝓ
+    - w
+    - '2'
+    - '-'
+    - '&'
+    - '9'
+    - '4'
+    - ̵
+    - 
+    - ẜ
+    - '0'
+    - ͭ
+    - ⁜
+    - ^
+    - ᷠ
+    - ͬ
+    - '6'
+    - '3'
+    - /
+    - ̧
+    - ᵈ
+    - Y
+    - ͨ
+    - "'"
+    - '5'
+    - Ʒ
+    mode: NFD
+  description: >-
+    Ground truth of Old French and Middle French manuscripts. Manuscripts vary in
+    themes,
+    period, etc. Most manuscript have at most 10 columns transcribed.
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  institutions: []
+  language:
+  - fro
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: HTRomance
+  project-website: https://htromance-project.github.io
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1499'
+    notBefore: '1200'
+  title: HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition
+    and Layout Segmentation
+  transcription-guidelines: >2-
+
+    The transcription guidelines are described in a paper available on
+    [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the
+    Journal for Open Humanities Data. It provides specific details about the
+    selection process, the transcription methods and choices, as well as details
+    about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin
+    and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for
+    [Kraken](https://kraken.re))
+  url: https://github.com/HTRomance-Project/medieval-french
+  volume:
+  - count: 80808
+    metric: characters
+  - count: 48
+    metric: files
+  - count: 2823
+    metric: lines
+  - count: 269
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Leroy, Noé and Pinche, Ariane and\
+    \ Camps, Jean-Baptiste and Clérice, Thibault and Chagué, Alix},\ntitle = {HTRomance,\
+    \ Medieval French corpus of ground-truth for Handwritten Text Recognition and\
+    \ Layout Segmentation},\nurl = {https://github.com/HTRomance-Project/middle-ages-in-spain}\n\
+    }\n"
+  _apa: "Leroy N., Pinche A., Camps J., Clérice T., Chagué A. HTRomance, Medieval\
+    \ French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation\
+    \ URL: https://github.com/HTRomance-Project/middle-ages-in-spain\n"
+- authors:
+  - name: Rachele
+    roles:
+    - transcriber
+    surname: Alba
+  - name: Giorgia
+    roles:
+    - transcriber
+    surname: Rubin
+  - name: Federico
+    orcid: 0000-0002-7810-7735
+    roles:
+    - project-manager
+    - quality-control
+    surname: Boschetti
+  - name: Franz
+    roles:
+    - project-manager
+    surname: Fischer
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+    surname: Chagué
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - project-manager
+    surname: Clérice
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - a
+    - o
+    - i
+    - l
+    - n
+    - r
+    - t
+    - u
+    - s
+    - c
+    - d
+    - m
+    - p
+    - g
+    - h
+    - f
+    - .
+    - ̃
+    - q
+    - b
+    - ⁊
+    - ','
+    - ꝑ
+    - E
+    - C
+    - z
+    - x
+    - ̾
+    - A
+    - I
+    - ̧
+    - D
+    - L
+    - M
+    - ͤ
+    - O
+    - S
+    - R
+    - ͧ
+    - y
+    - ꝙ
+    - ͬ
+    - ł
+    - F
+    - N
+    - U
+    - T
+    - Q
+    - ͦ
+    - P
+    - B
+    - ́
+    - ͥ
+    - '='
+    - ':'
+    - ꝯ
+    - X
+    - ẜ
+    - G
+    - ͣ
+    - H
+    - '2'
+    - '9'
+    - '1'
+    - ¶
+    - '4'
+    - ꝓ
+    - '3'
+    - '5'
+    - k
+    - ͭ
+    - '7'
+    - '8'
+    - /
+    - "'"
+    - ε
+    - ɨ
+    - đ
+    - '6'
+    - ι
+    - ο
+    - '0'
+    - ̓
+    - ν
+    - ꝗ
+    - ̈
+    - μ
+    - λ
+    - ꝰ
+    - α
+    - ω
+    - π
+    - σ
+    - ͫ
+    - Y
+    - '-'
+    - θ
+    - γ
+    - η
+    - Ο
+    - υ
+    - ρ
+    - ̔
+    - ͂
+    - β
+    - +
+    - Z
+    mode: NFD
+  description: Transcription of samples of Medieval Italian manuscripts
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  language:
+  - ita
+  - vec
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: HTRomance
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1499'
+    notBefore: '1100'
+  title: HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition
+    and Layout Segmentation
+  url: https://github.com/HTRomance-Project/medieval-italian
+  volume:
+  - count: 84383
+    metric: characters
+  - count: 60
+    metric: files
+  - count: 3086
+    metric: lines
+  - count: 60
+    metric: pages
+  - count: 353
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Alba, Rachele and Rubin, Giorgia and\
+    \ Boschetti, Federico and Fischer, Franz and Clérice, Thibault and Chagué, Alix},\n\
+    doi = {10.5281/zenodo.8256728},\ntitle = {HTRomance, Medieval Italian corpus of\
+    \ ground-truth for Handwritten Text Recognition and Layout Segmentation},\nurl\
+    \ = {https://github.com/HTRomance-Project/medieval-italian}\n}\n"
+  _apa: "Alba R., Rubin G., Boschetti F., Fischer F., Clérice T., Chagué A. HTRomance,\
+    \ Medieval Italian corpus of ground-truth for Handwritten Text Recognition and\
+    \ Layout Segmentation DOI: 10.5281/zenodo.8256728 URL: https://github.com/HTRomance-Project/medieval-italian\n"
+- authors:
+  - name: Anthony
+    orcid: 0000-0003-4715-5184
+    roles:
+    - transcriber
+    surname: Glaise
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - project-manager
+    - quality-control
+    surname: Clérice
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+    surname: Chagué
+  - name: Federico
+    orcid: 0000-0002-7810-7735
+    roles:
+    - project-manager
+    surname: Boschetti
+  - name: Franz
+    orcid: 0000-0002-2162-5531
+    roles:
+    - project-manager
+    surname: Fischer
+  automatically-aligned: false
+  characters:
+    members:
+    - i
+    - e
+    - t
+    - a
+    - u
+    - s
+    - o
+    - n
+    - ̃
+    - r
+    - c
+    - d
+    - m
+    - .
+    - l
+    - p
+    - b
+    - q
+    - g
+    - ̾
+    - f
+    - h
+    - 
+    - x
+    - ⁊
+    - ꝰ
+    - ꝑ
+    - ł
+    - ͥ
+    - ͣ
+    - ꝵ
+    - ᷑
+    - ͦ
+    - ꝙ
+    - ꝯ
+    - ':'
+    - y
+    - '&'
+    - '-'
+    - ꝓ
+    - ¶
+    - C
+    - N
+    - Q
+    - E
+    - S
+    - A
+    - ħ
+    - I
+    - z
+    - D
+    - ᷤ
+    - ͫ
+    - ̧
+    - R
+    - '2'
+    - '4'
+    - L
+    - U
+    - M
+    - '3'
+    - /
+    - '1'
+    - '0'
+    - ⟦
+    - ⟧
+    - T
+    - ͨ
+    - G
+    - H
+    - P
+    - ẜ
+    - ÷
+    - ^
+    - ꝗ
+    - ͭ
+    - '7'
+    - ͤ
+    - đ
+    - '6'
+    - O
+    - ᷝ
+    - '9'
+    - k
+    - '*'
+    - ͧ
+    - B
+    - '8'
+    - Ø
+    - F
+    - K
+    - ¬
+    - ᷠ
+    - '5'
+    - X
+    - ᵈ
+    - +
+    mode: NFD
+  description: >-
+    Ground truth of Latin medieval manuscripts. Manuscripts vary in themes,
+    period, etc. Most manuscript have at most 10 columns transcribed.
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  institutions: []
+  language:
+  - lat
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: HTRomance
+  project-website: https://htromance-project.github.io
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1499'
+    notBefore: '1100'
+  title: HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition
+    and Layout Segmentation
+  transcription-guidelines: >2-
+
+    The transcription guidelines are described in a paper available on
+    [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the
+    Journal for Open Humanities Data. It provides specific details about the
+    selection process, the transcription methods and choices, as well as details
+    about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin
+    and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for
+    [Kraken](https://kraken.re))
+  url: https://github.com/HTRomance-Project/medieval-latin
+  volume:
+  - count: 81928
+    metric: characters
+  - count: 31
+    metric: files
+  - count: 2500
+    metric: lines
+  - count: 265
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Glaise, Anthony and Clérice, Thibault\
+    \ and Boschetti, Federico and Fischer, Franz and Chagué, Alix},\ntitle = {HTRomance,\
+    \ Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout\
+    \ Segmentation},\nurl = {https://github.com/HTRomance-Project/medieval-latin}\n\
+    }\n"
+  _apa: "Glaise A., Clérice T., Boschetti F., Fischer F., Chagué A. HTRomance, Medieval\
+    \ Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation\
+    \ URL: https://github.com/HTRomance-Project/medieval-latin\n"
+- authors:
+  - name: Julie
+    orcid: 0009-0004-0769-8875
+    roles:
+    - transcriber
+    surname: Bordier
+  - name: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - project-manager
+    - quality-control
+    surname: Gille Levenson
+  - name: Olivier
+    orcid: 0000-0001-7809-3890
+    roles:
+    - project-manager
+    - quality-control
+    surname: Brisville-Fertin
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+    surname: Chagué
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - project-manager
+    surname: Clérice
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - a
+    - o
+    - s
+    - n
+    - r
+    - l
+    - i
+    - d
+    - u
+    - t
+    - c
+    - ̃
+    - m
+    - p
+    - q
+    - g
+    - f
+    - b
+    - .
+    - y
+    - /
+    - h
+    - ⁊
+    - ̧
+    - z
+    - E
+    - x
+    - R
+    - C
+    - ¶
+    - ꝑ
+    - ','
+    - ͣ
+    - ͥ
+    - ̾
+    - D
+    - M
+    - ͦ
+    - ':'
+    - '-'
+    - ᷤ
+    - S
+    - ẜ
+    - ́
+    - A
+    - L
+    - P
+    - ꝯ
+    - Q
+    - ͬ
+    - I
+    - B
+    - ⟦
+    - ⟧
+    - O
+    - N
+    - ̇
+    - T
+    - ꝓ
+    - ̈
+    - F
+    - U
+    - ͤ
+    - '1'
+    - G
+    - X
+    - '2'
+    - '0'
+    - '3'
+    - H
+    - Y
+    - ᷎
+    - ℥
+    - '4'
+    - '6'
+    - '8'
+    - Ꞧ
+    - '7'
+    - '5'
+    - ͫ
+    - '9'
+    - ꝰ
+    - ħ
+    - ͭ
+    - ꝫ
+    - ᷑
+    - ᷝ
+    - ͧ
+    - ꝟ
+    - ⁿ
+    - †
+    - K
+    - ꝵ
+    - ꝙ
+    - ᷠ
+    - Z
+    - ł
+    - Ꝯ
+    - 
+    - ͪ
+    - ͩ
+    - k
+    mode: NFD
+  description: >-
+    Ground truth of medieval manuscripts from Spain. Manuscripts vary in themes,
+    period, etc. Most manuscript have at most 10 columns transcribed.
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  institutions: []
+  language:
+  - lat
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: HTRomance
+  project-website: https://htromance-project.github.io
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1499'
+    notBefore: '1100'
+  title: HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition
+    and Layout Segmentation
+  transcription-guidelines: >2-
+
+    The transcription guidelines are described in a paper available on
+    [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the
+    Journal for Open Humanities Data. It provides specific details about the
+    selection process, the transcription methods and choices, as well as details
+    about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin
+    and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for
+    [Kraken](https://kraken.re))
+  url: https://github.com/HTRomance-Project/middle-ages-in-spain
+  volume:
+  - count: 160876
+    metric: characters
+  - count: 86
+    metric: files
+  - count: 4437
+    metric: lines
+  - count: 395
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Bordier, Julie and Gille Levenson,\
+    \ Matthias and Brisville-Fertin, Olivier and Clérice, Thibault and Chagué, Alix},\n\
+    title = {HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text\
+    \ Recognition and Layout Segmentation},\nurl = {https://github.com/HTRomance-Project/middle-ages-in-spain}\n\
+    }\n"
+  _apa: "Bordier J., Gille Levenson M., Brisville-Fertin O., Clérice T., Chagué A.\
+    \ HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition\
+    \ and Layout Segmentation URL: https://github.com/HTRomance-Project/middle-ages-in-spain\n"
+
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Corpus Modern Roman Languages
+  url: https://github.com/HTRomance-Project/modern-roman-languages
+  authors:
+  - name: Jade
+    surname: Norindr
+    roles:
+    - transcriber
+  - name: Alix
+    surname: Chagué
+    orcid: 0000-0002-0136-4434
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  institutions: []
+  description: >-
+    Dataset for modern roman languages created within the context of the HTRomance
+    project, using manuscripts from the Gallica digital library.
+  project-name: HTRomance
+  language:
+  - fra
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1600'
+    notAfter: '1800'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: lines
+    count: 456
+  transcription-guidelines: >-
+    The transcription guidelines are described in a paper available on HAL and
+    published at the Journal for Open Humanities Data. It provides specific
+    details about the selection process, the transcription methods and choices, as
+    well as details about output (mainly the Generic CREMMA Model for Medieval
+    Manuscripts (Latin and Old French) for Kraken)
+
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Norindr, Jade and Clérice, Thibault\
+    \ and Chagué, Alix},\ntitle = {HTRomance, Modern language corpus of ground-truth\
+    \ for Handwritten Text Recognition and Layout Segmentation},\nurl = {https://github.com/HTRomance-Project/medieval-italian}\n\
+    }\n"
+  _apa: "Norindr J., Clérice T., Chagué A. HTRomance, Modern language corpus of ground-truth\
+    \ for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/medieval-italian\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés
     de Paris et du département de la Seine (1898-1923)
