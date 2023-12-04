@@ -200,73 +200,81 @@
 198,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,files,180,Alto-XML,mainly-manuscript
 199,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,lines,3932,Alto-XML,mainly-manuscript
 200,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,regions,981,Alto-XML,mainly-manuscript
-201,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,characters,27734,Alto-XML,only-manuscript
-202,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,files,45,Alto-XML,only-manuscript
-203,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,lines,1016,Alto-XML,only-manuscript
-204,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,regions,45,Alto-XML,only-manuscript
-205,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,characters,97505,Alto-XML,only-manuscript
-206,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,files,67,Alto-XML,only-manuscript
-207,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,lines,2307,Alto-XML,only-manuscript
-208,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,regions,151,Alto-XML,only-manuscript
-209,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
-210,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
-211,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
-212,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
-213,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
-214,https://github.com/calfa-co/tarima,TariMa,1500,1899,files,120,Page-XML,mainly-manuscript
-215,https://github.com/calfa-co/tarima,TariMa,1500,1899,lines,2673,Page-XML,mainly-manuscript
-216,https://github.com/calfa-co/tarima,TariMa,1500,1899,characters,146667,Page-XML,mainly-manuscript
-217,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-218,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-219,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-220,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
-221,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
-222,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
-223,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
-224,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
-225,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
-226,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
-227,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,lines,7100,Page-XML,only-manuscript
-228,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,files,337,Page-XML,only-manuscript
-229,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,pages,337,Page-XML,only-manuscript
-230,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
-231,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
-232,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
-233,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
-234,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
-235,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,lines,1700,Alto-XML,only-manuscript
-236,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,files,19,Alto-XML,only-manuscript
-237,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,regions,40,Alto-XML,only-manuscript
-238,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,characters,55970,Alto-XML,only-manuscript
-239,https://github.com/pstroe/bullinger-htr,Bullinger HTR Dataset,1523,1575,lines,165673,Image-Text-Pairs,only-manuscript
-240,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,17155,Alto-XML,only-manuscript
-241,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
-242,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
-243,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,46,Alto-XML,only-manuscript
-244,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
-245,https://github.com/vedph/episearch-htr,EpiSearch HTR,1705,1709,files,34,Alto-XML,only-manuscript
-246,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,characters,83312,Alto-XML,mainly-manuscript
-247,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,lines,2987,Alto-XML,mainly-manuscript
-248,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,pages,200,Alto-XML,mainly-manuscript
-249,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,files,200,Alto-XML,mainly-manuscript
-250,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
-251,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
-252,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
-253,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
-254,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
-255,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
-256,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
-257,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
-258,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
-259,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
-260,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
-261,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
-262,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
-263,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
-264,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
-265,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
-266,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
-267,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
-268,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
-269,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
-270,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
+201,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,characters,286256,Alto-XML,only-typed
+202,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,files,404,Alto-XML,only-typed
+203,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,lines,11778,Alto-XML,only-typed
+204,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,regions,1365,Alto-XML,only-typed
+205,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,characters,662316,Alto-XML,only-typed
+206,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,files,915,Alto-XML,only-typed
+207,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,lines,25220,Alto-XML,only-typed
+208,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,regions,2813,Alto-XML,only-typed
+209,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,characters,27734,Alto-XML,only-manuscript
+210,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,files,45,Alto-XML,only-manuscript
+211,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,lines,1016,Alto-XML,only-manuscript
+212,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,regions,45,Alto-XML,only-manuscript
+213,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,characters,97505,Alto-XML,only-manuscript
+214,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,files,67,Alto-XML,only-manuscript
+215,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,lines,2307,Alto-XML,only-manuscript
+216,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,regions,151,Alto-XML,only-manuscript
+217,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
+218,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
+219,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript
+220,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,regions,676,Page-XML,only-manuscript
+221,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,characters,403034,Page-XML,only-manuscript
+222,https://github.com/calfa-co/tarima,TariMa,1500,1899,files,120,Page-XML,mainly-manuscript
+223,https://github.com/calfa-co/tarima,TariMa,1500,1899,lines,2673,Page-XML,mainly-manuscript
+224,https://github.com/calfa-co/tarima,TariMa,1500,1899,characters,146667,Page-XML,mainly-manuscript
+225,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+226,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+227,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+228,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+229,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
+230,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
+231,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
+232,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
+233,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
+234,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
+235,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,lines,7100,Page-XML,only-manuscript
+236,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,files,337,Page-XML,only-manuscript
+237,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,pages,337,Page-XML,only-manuscript
+238,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
+239,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
+240,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
+241,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
+242,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
+243,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,lines,1700,Alto-XML,only-manuscript
+244,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,files,19,Alto-XML,only-manuscript
+245,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,regions,40,Alto-XML,only-manuscript
+246,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,characters,55970,Alto-XML,only-manuscript
+247,https://github.com/pstroe/bullinger-htr,Bullinger HTR Dataset,1523,1575,lines,165673,Image-Text-Pairs,only-manuscript
+248,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,17155,Alto-XML,only-manuscript
+249,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
+250,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
+251,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,46,Alto-XML,only-manuscript
+252,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
+253,https://github.com/vedph/episearch-htr,EpiSearch HTR,1705,1709,files,34,Alto-XML,only-manuscript
+254,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,characters,83312,Alto-XML,mainly-manuscript
+255,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,lines,2987,Alto-XML,mainly-manuscript
+256,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,pages,200,Alto-XML,mainly-manuscript
+257,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,files,200,Alto-XML,mainly-manuscript
+258,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
+259,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
+260,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
+261,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
+262,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
+263,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
+264,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
+265,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
+266,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
+267,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
+268,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
+269,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
+270,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
+271,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
+272,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
+273,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
+274,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
+275,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
+276,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
+277,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
+278,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
