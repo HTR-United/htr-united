@@ -6126,6 +6126,11 @@
     \ le bruit (tâches qui ont été prises pour du texte par l’OCR)."
   production-software: eScriptorium + Kraken
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Carta, Constance and Jacsont, Pauline\
+    \ and Leblanc, Élina},\nmonth = {3},\ntitle = {FoNDUE Spanish chapbooks 19th c.\
+    \ Dataset},\nyear = {2022}\n}\n"
+  _apa: "Carta C., Jacsont P., Leblanc É. (2022). FoNDUE Spanish chapbooks 19th c.\
+    \ Dataset (version 1.0).\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
   url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
@@ -6181,6 +6186,11 @@
     \ are resolved. \LItems that are crossed out or struck through will be transcribed\
     \ with a \"€\"."
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline and Simon, Gabay\
+    \ and Weddigen, Tristan},\nmonth = {1},\ntitle = {GroundTruth for archival data\
+    \ of the Kunsthistorisches Institut UZH},\nyear = {2023}\n}\n"
+  _apa: "Jacsont P., Simon G., Weddigen T. (2023). GroundTruth for archival data of\
+    \ the Kunsthistorisches Institut UZH (version 1.0).\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
@@ -6927,6 +6937,11 @@
     \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
     \ to the MUFI fonts."
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\n\
+    title = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\n\
+    year = {2022}\n}\n"
+  _apa: "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek\
+    \ of Berne. (version 1.0).\n"
 - authors:
   - name: Dubois
     roles:
@@ -7278,6 +7293,7 @@
     roles:
     - project-manager
     surname: Solfaroli Camillocci
+  automatically-aligned: false
   characters:
     members:
     - e
@@ -7362,19 +7378,24 @@
     - v
     - ꝯ
     mode: NFD
-  description: Data for the SETAF project, 16th-century French prints in Gothic characters.
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic
+    characters.
   format: Alto-XML
   hands:
     count: '1'
     precision: exact
+  institutions: []
   language:
   - fra
   license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+    type: CC-BY
+    version: 4.0
   production-software: eScriptorium + Kraken
-  project-name: SETAF project
-  project-website: https://www.unige.ch/setaf/
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
   schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
@@ -7383,11 +7404,11 @@
     notAfter: '1600'
     notBefore: '1500'
   title: HTR-SETAF-Jean-Michel
-  transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
-    Our transcription guidelines follow a graphematic approach, without regularisation.
-    We keep the original punctuation and abbreviations. A detailed presentation (about
-    30 pages) of the rules we established for the transcriptions will be available
-    on our website.
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).  Our
+    transcription guidelines follow a graphematic approach, without  regularisation.
+    We keep the original punctuation and abbreviations. A detailed  presentation of
+    our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
   volume:
   - count: 286256
@@ -7398,7 +7419,6 @@
     metric: lines
   - count: 1365
     metric: regions
-  automatically-aligned: false
 - authors:
   - name: Sonia
     orcid: 0009-0009-7367-048X
@@ -7435,6 +7455,7 @@
     roles:
     - project-manager
     surname: Solfaroli Camillocci
+  automatically-aligned: false
   characters:
     members:
     - e
@@ -7462,10 +7483,10 @@
     - b
     - ⁊
     - z
+    - ¬
     - x
     - ':'
     - C
-    - ¬
     - I
     - E
     - D
@@ -7475,7 +7496,6 @@
     - A
     - M
     - S
-    - '-'
     - '2'
     - ¶
     - ͥ
@@ -7506,6 +7526,7 @@
     - F
     - ꝑ
     - ◊
+    - '-'
     - ̈
     - ł
     -  
@@ -7530,19 +7551,24 @@
     - ̇
     - ̌
     mode: NFD
-  description: Data for the SETAF project, 16th-century French prints in Gothic characters.
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic
+    characters.
   format: Alto-XML
   hands:
     count: '1'
     precision: exact
+  institutions: []
   language:
   - fra
   license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+    type: CC-BY
+    version: 4.0
   production-software: eScriptorium + Kraken
-  project-name: SETAF project
-  project-website: https://www.unige.ch/setaf/
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
   schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
@@ -7551,11 +7577,11 @@
     notAfter: '1600'
     notBefore: '1500'
   title: HTR-SETAF-Pierre-de-Vingle
-  transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
-    Our transcription guidelines follow a graphematic approach, without regularisation.
-    We keep the original punctuation and abbreviations. A detailed presentation (about
-    30 pages) of the rules we established for the transcriptions will be available
-    on our website.
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).  Our
+    transcription guidelines follow a graphematic approach, without  regularisation.
+    We keep the original punctuation and abbreviations. A detailed  presentation of
+    our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
   - count: 662316
@@ -7564,9 +7590,8 @@
     metric: files
   - count: 25220
     metric: lines
-  - count: 2813
+  - count: 2812
     metric: regions
-  automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
   url: https://github.com/alix-tz/moonshines
