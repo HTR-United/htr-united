@@ -32,9 +32,13 @@ authors:
   - quality-control
 - name: Daniela
   surname: Solfaroli Camillocci
+  orcid: 0000-0002-2601-668X
   roles:
   - project-manager
-description: Data for the SETAF project, 16th-century French prints in Gothic characters.
+citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff
+description: >-
+  OCR data for the SETAF project, 16th-century French prints in Gothic
+  characters.
 format: Alto-XML
 hands:
   count: '1'
@@ -42,12 +46,13 @@ hands:
 language:
 - fra
 license:
-- name: CC-BY 4.0
-  url: https://creativecommons.org/licenses/by/4.0/
+  type: CC-BY
+  version: 4.0
 production-software: eScriptorium + Kraken
-project-name: SETAF project
-project-website: https://www.unige.ch/setaf/
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+project-name: FoNDUE
+project-website: >-
+  https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 script:
 - iso: Latn
 script-type: only-typed
@@ -55,16 +60,20 @@ time:
   notAfter: '1600'
   notBefore: '1500'
 title: HTR-SETAF-Pierre-de-Vingle
-transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our transcription guidelines follow a graphematic approach, without regularisation. We keep the original punctuation and abbreviations. A detailed presentation (about 30 pages) of the rules we established for the transcriptions will be available on our website.
+transcription-guidelines: >-
+  Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our
+  transcription guidelines follow a graphematic approach, without regularisation.
+  We keep the original punctuation and abbreviations. A detailed presentation of
+  our rules is available on HAL (https://hal.science/hal-04281804).
 url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
 volume:
-- count: 648066
+- count: 662316
   metric: characters
-- count: 895
+- count: 915
   metric: files
-- count: 24703
+- count: 25220
   metric: lines
-- count: 2817
+- count: 2812
   metric: regions
 characters:
   members:
@@ -93,6 +102,7 @@ characters:
   - b
   - ⁊
   - z
+  - ¬
   - x
   - ':'
   - C
@@ -100,8 +110,6 @@ characters:
   - E
   - D
   - '1'
-  - ¬
-  - '-'
   - P
   - L
   - A
@@ -114,18 +122,18 @@ characters:
   - T
   - N
   - Q
-  - '4'
   - ͬ
+  - '4'
   - R
   - '5'
   - U
   - '?'
   - ꝰ
+  - ','
   - '6'
   - O
-  - H
-  - ','
   - '0'
+  - H
   - G
   - B
   - (
@@ -136,26 +144,27 @@ characters:
   - ꝓ
   - F
   - ꝑ
-  - ̈
-  -  
   - ◊
-  - ꝯ
+  - '-'
+  - ̈
   - ł
+  -  
+  - ꝯ
   - ð
+  - ;
   - ꝝ
   - "'"
-  - k
   - ̀
+  - k
   - v
-  - K
-  - V
-  - Y
   - Z
-  - X
+  - K
   - ́
+  - Y
+  - V
+  - X
   - J
   - ꝫ
-  - ;
   - w
   - ꝗ
   - ̇
