@@ -7464,6 +7464,171 @@
     - i
     - a
     - t
+    - n
+    - r
+    - o
+    - l
+    - c
+    - d
+    - p
+    - m
+    - /
+    - .
+    - q
+    - f
+    - ⁊
+    - ̃
+    - y
+    - g
+    - h
+    - z
+    - b
+    - ¬
+    - x
+    - I
+    - ':'
+    - C
+    - E
+    - P
+    - '1'
+    - ¶
+    - L
+    - D
+    - S
+    - '2'
+    - A
+    - ꝰ
+    - M
+    - R
+    - ͥ
+    - '3'
+    - N
+    - '?'
+    - '4'
+    - Q
+    - T
+    - '6'
+    - ͬ
+    - '7'
+    - H
+    - '8'
+    - '5'
+    - '0'
+    - '9'
+    - U
+    - B
+    - G
+    - O
+    - F
+    - )
+    - (
+    - ꝑ
+    - ꝓ
+    - v
+    - J
+    - '-'
+    - ꝫ
+    - ł
+    - ꝯ
+    - Z
+    - k
+    - K
+    - ᗅ
+    - ð
+    - ꝗ
+    - ̈
+    - ◊
+    - ','
+    - V
+    - ᑕ
+    - j
+    mode: NFD
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic
+    characters.
+  format: Alto-XML
+  hands:
+    count: '1'
+    precision: exact
+  institutions: []
+  language:
+  - fra
+  license:
+    type: CC-BY
+    version: 4.0
+  production-software: eScriptorium + Kraken
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1600'
+    notBefore: '1500'
+  title: HTR-SETAF-LesFaictzJCH
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).  Our
+    transcription guidelines follow a graphematic approach, without  regularisation.
+    We keep the original punctuation and abbreviations. A detailed  presentation of
+    our rules is available on HAL  (https://hal.science/hal-04281804).
+  url: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH
+  volume:
+  - count: 205523
+    metric: characters
+  - count: 144
+    metric: files
+  - count: 4765
+    metric: lines
+  - count: 485
+    metric: regions
+- authors:
+  - name: Sonia
+    orcid: 0009-0009-7367-048X
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Solfrini
+  - name: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - support
+    surname: Gabay
+  - name: Geneviève
+    orcid: 0009-0006-5367-4262
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Gross
+  - name: Pierre-Olivier
+    orcid: 0009-0009-2475-6017
+    roles:
+    - transcriber
+    - quality-control
+    surname: Beaulnes
+  - name: Aurélia
+    orcid: 0009-0009-9678-9811
+    roles:
+    - transcriber
+    - quality-control
+    surname: Marques Oliveira
+  - name: Daniela
+    roles:
+    - project-manager
+    surname: Solfaroli Camillocci
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - s
+    - u
+    - i
+    - a
+    - t
     - r
     - n
     - o
