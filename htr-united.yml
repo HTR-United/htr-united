@@ -6126,11 +6126,6 @@
     \ le bruit (tâches qui ont été prises pour du texte par l’OCR)."
   production-software: eScriptorium + Kraken
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Carta, Constance and Jacsont, Pauline\
-    \ and Leblanc, Élina},\nmonth = {3},\ntitle = {FoNDUE Spanish chapbooks 19th c.\
-    \ Dataset},\nyear = {2022}\n}\n"
-  _apa: "Carta C., Jacsont P., Leblanc É. (2022). FoNDUE Spanish chapbooks 19th c.\
-    \ Dataset (version 1.0).\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
   url: https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank
@@ -6186,11 +6181,6 @@
     \ are resolved. \LItems that are crossed out or struck through will be transcribed\
     \ with a \"€\"."
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline and Simon, Gabay\
-    \ and Weddigen, Tristan},\nmonth = {1},\ntitle = {GroundTruth for archival data\
-    \ of the Kunsthistorisches Institut UZH},\nyear = {2023}\n}\n"
-  _apa: "Jacsont P., Simon G., Weddigen T. (2023). GroundTruth for archival data of\
-    \ the Kunsthistorisches Institut UZH (version 1.0).\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
@@ -6937,11 +6927,6 @@
     \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
     \ to the MUFI fonts."
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\n\
-    title = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\n\
-    year = {2022}\n}\n"
-  _apa: "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek\
-    \ of Berne. (version 1.0).\n"
 - authors:
   - name: Dubois
     roles:
@@ -7290,10 +7275,10 @@
     - quality-control
     surname: Marques Oliveira
   - name: Daniela
+    orcid: 0000-0002-2601-668X
     roles:
     - project-manager
     surname: Solfaroli Camillocci
-  automatically-aligned: false
   characters:
     members:
     - e
@@ -7386,7 +7371,6 @@
   hands:
     count: '1'
     precision: exact
-  institutions: []
   language:
   - fra
   license:
@@ -7452,10 +7436,10 @@
     - quality-control
     surname: Marques Oliveira
   - name: Daniela
+    orcid: 0000-0002-2601-668X
     roles:
     - project-manager
     surname: Solfaroli Camillocci
-  automatically-aligned: false
   characters:
     members:
     - e
@@ -7551,7 +7535,6 @@
   hands:
     count: '1'
     precision: exact
-  institutions: []
   language:
   - fra
   license:
@@ -7617,10 +7600,10 @@
     - quality-control
     surname: Marques Oliveira
   - name: Daniela
+    orcid: 0000-0002-2601-668X
     roles:
     - project-manager
     surname: Solfaroli Camillocci
-  automatically-aligned: false
   characters:
     members:
     - e
@@ -7724,7 +7707,6 @@
   hands:
     count: '1'
     precision: exact
-  institutions: []
   language:
   - fra
   license:

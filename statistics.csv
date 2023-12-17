@@ -24,10 +24,10 @@
 22,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,files,149,Alto-XML,only-typed
 23,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,lines,7608,Alto-XML,only-typed
 24,Gallicorpora/HTR-incunable-15e-siecle,Données HTR incunables du 15e siècle,1400,1500,regions,535,Alto-XML,only-typed
-25,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,87726,Alto-XML,only-manuscript
-26,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,226,Alto-XML,only-manuscript
-27,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,3330,Alto-XML,only-manuscript
-28,HTR-United/CREMMA-AN-TestamentDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,553,Alto-XML,only-manuscript
+25,HTR-United/CREMMA-AN-TestamentsDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,characters,87726,Alto-XML,only-manuscript
+26,HTR-United/CREMMA-AN-TestamentsDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,files,226,Alto-XML,only-manuscript
+27,HTR-United/CREMMA-AN-TestamentsDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,lines,3330,Alto-XML,only-manuscript
+28,HTR-United/CREMMA-AN-TestamentsDePoilus, CREMMA-AN Testament De Poilus ,1914,1918,regions,553,Alto-XML,only-manuscript
 29,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,lines,0,Alto-XML,only-manuscript
 30,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,files,0,Alto-XML,only-manuscript
 31,HTR-United/CREMMA-MSS-15,CREMMA Manuscrits du 15e,1400,1499,regions,0,Alto-XML,only-manuscript
