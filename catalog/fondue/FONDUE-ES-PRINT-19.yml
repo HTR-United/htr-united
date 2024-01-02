@@ -1,0 +1,137 @@
+authors:
+- name: Simon
+  orcid: 0000-0001-9094-4475
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Gabay
+- name: Carmen
+  roles:
+  - transcriber
+  surname: Carrasco Luján
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - a
+  - o
+  - s
+  - n
+  - r
+  - i
+  - l
+  - d
+  - u
+  - t
+  - c
+  - m
+  - .
+  - p
+  - ́
+  - ','
+  - b
+  - g
+  - y
+  - q
+  - h
+  - v
+  - ¬
+  - f
+  - j
+  - z
+  - –
+  - A
+  - ;
+  - E
+  - '!'
+  - x
+  - S
+  - ̃
+  - I
+  - P
+  - B
+  - U
+  - C
+  - D
+  - L
+  - T
+  - '?'
+  - ':'
+  - '0'
+  - O
+  - R
+  - N
+  - H
+  - Y
+  - ¿
+  - V
+  - J
+  - M
+  - '1'
+  - ¡
+  - '2'
+  - —
+  - '"'
+  - k
+  - F
+  - '8'
+  - '7'
+  - '4'
+  - '5'
+  - G
+  - '-'
+  - '3'
+  - '6'
+  - K
+  - (
+  - )
+  - '9'
+  - Q
+  - ̀
+  - ̈
+  - X
+  - W
+  - '['
+  - ']'
+  - '&'
+  - w
+  - '*'
+  - §
+  - °
+  - ǝ
+  mode: NFD
+citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19/blob/master/CITATION.cff
+description: Novels written in Spanish
+format: Alto-XML
+hands:
+  count: unknown
+  precision: exact
+institutions: []
+language:
+- spa
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+project-website: https://github.com/FoNDUE-HTR
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1800'
+  notBefore: '1899'
+title: FONDUE-ES-PRINT-19
+transcription-guidelines: SegmOnto
+url: https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19
+volume:
+- count: 53687
+  metric: characters
+- count: 38
+  metric: files
+- count: 1375
+  metric: lines
+- count: 103
+  metric: regions

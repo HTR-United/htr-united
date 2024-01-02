@@ -1,0 +1,139 @@
+authors:
+- name: Simon
+  orcid: 0000-0001-9094-4475
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Gabay
+- name: Sophie
+  orcid: 0009-0005-6841-0158
+  roles:
+  - transcriber
+  surname: Dolto
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - a
+  - s
+  - i
+  - t
+  - r
+  - n
+  - u
+  - l
+  - o
+  - d
+  - c
+  - p
+  - m
+  - ́
+  - ','
+  - .
+  - v
+  - ’
+  - g
+  - f
+  - b
+  - q
+  - h
+  - ̀
+  - ̂
+  - x
+  - j
+  - L
+  - y
+  - '-'
+  - I
+  - "'"
+  - —
+  - A
+  - G
+  - E
+  - M
+  - P
+  - C
+  - B
+  - J
+  - D
+  - z
+  - ̧
+  - S
+  - '!'
+  - T
+  - '?'
+  - ¬
+  - V
+  - ;
+  - U
+  - O
+  - R
+  - Q
+  - ':'
+  - '1'
+  - k
+  - F
+  - H
+  - œ
+  - '0'
+  - (
+  - )
+  - “
+  - '2'
+  - N
+  - '6'
+  - '9'
+  - '8'
+  - '5'
+  - ̈
+  - '3'
+  - w
+  - W
+  - '4'
+  - Y
+  - ”
+  -  
+  - '7'
+  - Z
+  - '*'
+  - /
+  - K
+  - '"'
+  - «
+  - »
+  mode: NFD
+citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20/blob/master/CITATION.cff
+description: French novels
+format: Alto-XML
+hands:
+  count: unknown
+  precision: exact
+institutions: []
+language:
+- eng
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+project-website: https://github.com/FoNDUE-HTR
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1900'
+  notBefore: '1999'
+title: FONDUE-FR-PRINT-20
+transcription-guidelines: SegmOnto
+url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20
+volume:
+- count: 81599
+  metric: characters
+- count: 55
+  metric: files
+- count: 1604
+  metric: lines
+- count: 64
+  metric: regions
