@@ -4265,88 +4265,100 @@
     - a
     - t
     - n
-    - u
-    - o
     - r
+    - o
+    - u
     - l
     - c
     - m
     - d
     - p
     - .
+    - ̃
     - f
     - q
     - g
-    - ̃
-    - z
-    - h
     - ⁊
+    - h
     - b
     - ̾
-    - y
+    - z
     - Q
-    - x
-    - S
     - ͥ
-    - ':'
-    - E
+    - S
+    - x
+    - C
+    - ꝑ
+    - ꝯ
     - L
     - ͣ
-    - C
-    - I
-    - A
+    - E
+    - y
     - D
-    - M
-    - ꝯ
-    - ꝑ
+    - A
+    - I
     - ꝰ
-    - R
+    - M
+    - k
+    - ':'
+    - N
     - P
     - T
-    - O
-    - N
     - ᷑
+    - R
+    - O
     - U
-    - B
+    - ᷤ
+    - ¶
     - F
+    - B
     - ͤ
-    - k
     - G
     - K
-    - ','
     - H
+    - w
     - ͦ
-    - ̌
-    - ᷤ
-    - '1'
-    - ⟦
-    - ⟧
+    - ','
     - ÷
     - ꝓ
-    - w
-    - '2'
+    - ⟦
+    - ⟧
     - '-'
-    - '&'
-    - '9'
-    - '4'
-    - ̵
-    - 
-    - ẜ
     - '0'
+    - '2'
+    - '1'
+    - ̵
+    - ̌
+    - ẜ
+    - '9'
+    - '5'
+    - '4'
+    - '3'
+    - '7'
+    - '6'
+    - '&'
+    - 
+    - ͬ
+    - ˣ
+    - Y
     - ͭ
     - ⁜
-    - ^
-    - ᷠ
-    - ͬ
-    - '6'
-    - '3'
+    - ͫ
     - /
+    - ᷠ
+    - "'"
+    - '8'
+    - ^
+    - 
+    - ͨ
+    - ́
+    - ͧ
+    - ̂
+    - X
+    - ł
     - ̧
     - ᵈ
-    - Y
-    - ͨ
-    - "'"
-    - '5'
+    - ꝙ
     - Ʒ
     mode: NFD
   description: >-
@@ -4386,13 +4398,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-french
   volume:
-  - count: 80808
+  - count: 192943
     metric: characters
-  - count: 48
+  - count: 91
     metric: files
-  - count: 2823
+  - count: 7173
     metric: lines
-  - count: 269
+  - count: 525
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Leroy, Noé and Pinche, Ariane and\
     \ Camps, Jean-Baptiste and Clérice, Thibault and Chagué, Alix},\ntitle = {HTRomance,\
@@ -4628,90 +4640,91 @@
     - c
     - d
     - m
-    - .
     - l
+    - .
     - p
     - b
     - q
     - g
     - ̾
     - f
+    - x
     - h
     - 
-    - x
-    - ⁊
     - ꝰ
+    - ⁊
     - ꝑ
-    - ł
     - ͥ
+    - ł
     - ͣ
     - ꝵ
-    - ᷑
-    - ͦ
-    - ꝙ
     - ꝯ
-    - ':'
-    - y
-    - '&'
-    - '-'
-    - ꝓ
+    - ꝙ
+    - ͦ
+    - ᷑
     - ¶
-    - C
+    - D
+    - y
+    - ꝓ
+    - ':'
+    - /
     - N
+    - I
+    - '&'
+    - ħ
+    - '-'
+    - C
+    - S
     - Q
     - E
-    - S
     - A
-    - ħ
-    - I
     - z
-    - D
+    - R
     - ᷤ
+    - U
     - ͫ
     - ̧
-    - R
     - '2'
-    - '4'
     - L
-    - U
-    - M
-    - '3'
-    - /
-    - '1'
-    - '0'
+    - ^
+    - '4'
     - ⟦
     - ⟧
+    - M
+    - '3'
+    - '1'
+    - '0'
     - T
+    - ẜ
     - ͨ
     - G
     - H
     - P
-    - ẜ
     - ÷
-    - ^
     - ꝗ
     - ͭ
     - '7'
     - ͤ
-    - đ
     - '6'
+    - đ
+    - k
     - O
     - ᷝ
     - '9'
-    - k
     - '*'
     - ͧ
     - B
+    - F
     - '8'
     - Ø
-    - F
-    - K
     - ¬
+    - K
     - ᷠ
+    - +
     - '5'
+    - ͬ
     - X
     - ᵈ
-    - +
     mode: NFD
   description: >-
     Ground truth of Latin medieval manuscripts. Manuscripts vary in themes,
@@ -4749,13 +4762,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-latin
   volume:
-  - count: 81928
+  - count: 102887
     metric: characters
-  - count: 31
+  - count: 33
     metric: files
-  - count: 2500
+  - count: 3046
     metric: lines
-  - count: 265
+  - count: 288
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Glaise, Anthony and Clérice, Thibault\
     \ and Boschetti, Federico and Fischer, Franz and Chagué, Alix},\ntitle = {HTRomance,\
@@ -6450,27 +6463,118 @@
     year = {2022}\n}\n"
   _apa: "Guimarães I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford\
     \ (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: OCR Corse
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
-  project-name: ENC - Bonnes pratiques du developpement collaboratif
-  authors:
+- authors:
   - name: Sarbach-Pulicani
-    surname: Vincent
     roles:
     - transcriber
     - project-manager
+    surname: Vincent
   - name: Saïag
     surname: Violette
   - name: Escoda
-    surname: Adrien
     roles:
     - transcriber
+    surname: Adrien
   - name: Miaille
-    surname: Théophile
     roles:
     - transcriber
     - project-manager
+    surname: Théophile
+  - name: Gabay
+    orcid: 0000-0001-9094-4475
+    roles:
+    - transcriber
+    - quality-control
+    surname: Simon
+  characters:
+    members:
+    - e
+    - a
+    - i
+    - u
+    - n
+    - r
+    - t
+    - s
+    - o
+    - l
+    - c
+    - d
+    - p
+    - m
+    - ','
+    - g
+    - .
+    - ̀
+    - v
+    - ’
+    - f
+    - h
+    - b
+    - C
+    - ́
+    - ¬
+    - P
+    - q
+    - z
+    - '?'
+    - "'"
+    - A
+    - M
+    - I
+    - L
+    - S
+    - '1'
+    - D
+    - ̂
+    - G
+    - j
+    - F
+    - U
+    - E
+    - Q
+    - '-'
+    - x
+    - '!'
+    - B
+    - ':'
+    - V
+    - '7'
+    - '9'
+    - R
+    - N
+    - ;
+    - –
+    - O
+    - '8'
+    - T
+    - '2'
+    - '0'
+    - «
+    - '3'
+    - '6'
+    - y
+    - »
+    - '5'
+    - ̧
+    - (
+    - )
+    - —
+    - '4'
+    - J
+    - °
+    - H
+    - '*'
+    - X
+    - œ
+    - '"'
+    - ̈
+    - K
+    - ^
+    - “
+    - '='
+    mode: NFD
+  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
   description: "Le premier ouvrage s’intitule *Pontenôvu* a été écrit par Petru Rocca\
     \ et publié par la \"Stamparia di a Muvra\" en 1927. Il s'agit d'un recueil de\
     \ poèmes en corse et en français dont les thèmes varient. *A Muvra* est un journal\
@@ -6487,41 +6591,44 @@
     \ qu'il ne s'agisse pas réellement d'un recueil de poèmes, le style d'écriture\
     \ de cet ouvrage est particulièrement intéressant. Il reprend un style qui se\
     \ rapproche des écrits bibliques.\n"
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
   language:
   - cos
   - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: only-typed
   time:
-    notBefore: '1926'
     notAfter: '1927'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse/main/CITATION.CFF
-  transcription-guidelines: ''
+    notBefore: '1926'
+  title: OCR Corse
+  transcription-guidelines: SegmOnto
+  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse
   volume:
-  - metric: characters
-    count: 40957
-  - metric: files
-    count: 47
-  - metric: lines
-    count: 1664
-  - metric: regions
-    count: 146
+  - count: 41205
+    metric: characters
+  - count: 47
+    metric: files
+  - count: 1681
+    metric: lines
+  - count: 126
+    metric: regions
   production-software: Unknown [Automatically filled]
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Sarbach-Pulicani, Vincent and Miaille,\
-    \ Théophile and Escoda, Adrien and Saïag, Violette},\ndoi = {10.5281/zenodo.6126641},\n\
+    \ Théophile and Escoda, Adrien and Saïag, Violette and Gabay, Simon},\ndoi = {10.5281/zenodo.6126641},\n\
     month = {2},\ntitle = {OCR d'une poésie corse},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse},\n\
     year = {2022}\n}\n"
-  _apa: "Sarbach-Pulicani V., Miaille T., Escoda A., Saïag V. (2022). OCR d'une poésie\
-    \ corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n"
+  _apa: "Sarbach-Pulicani V., Miaille T., Escoda A., Saïag V., Gabay S. (2022). OCR\
+    \ d'une poésie corse (version 1.0). DOI: 10.5281/zenodo.6126641 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Argus des Brevets
   url: https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets

@@ -97,19 +97,19 @@
 95,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
 96,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
 97,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,587,Page-XML,evenly-mixed
-98,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,80808,Alto-XML,only-manuscript
-99,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,48,Alto-XML,only-manuscript
-100,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,2823,Alto-XML,only-manuscript
-101,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,269,Alto-XML,only-manuscript
+98,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,192943,Alto-XML,only-manuscript
+99,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,91,Alto-XML,only-manuscript
+100,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,7173,Alto-XML,only-manuscript
+101,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,525,Alto-XML,only-manuscript
 102,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,84383,Alto-XML,only-manuscript
 103,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,60,Alto-XML,only-manuscript
 104,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,3086,Alto-XML,only-manuscript
 105,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,pages,60,Alto-XML,only-manuscript
 106,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,353,Alto-XML,only-manuscript
-107,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,81928,Alto-XML,only-manuscript
-108,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,31,Alto-XML,only-manuscript
-109,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,2500,Alto-XML,only-manuscript
-110,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,265,Alto-XML,only-manuscript
+107,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,102887,Alto-XML,only-manuscript
+108,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,33,Alto-XML,only-manuscript
+109,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,3046,Alto-XML,only-manuscript
+110,HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,288,Alto-XML,only-manuscript
 111,HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,160876,Alto-XML,only-manuscript
 112,HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,86,Alto-XML,only-manuscript
 113,HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,4437,Alto-XML,only-manuscript
@@ -167,10 +167,10 @@
 165,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,files,41,Alto-XML,evenly-mixed
 166,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,lines,770,Alto-XML,evenly-mixed
 167,https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford,Memorials for Jane Lathrop Stanford,1905,1905,regions,51,Alto-XML,evenly-mixed
-168,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,characters,40957,Alto-XML,only-typed
+168,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,characters,41205,Alto-XML,only-typed
 169,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,files,47,Alto-XML,only-typed
-170,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,lines,1664,Alto-XML,only-typed
-171,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,regions,146,Alto-XML,only-typed
+170,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,lines,1681,Alto-XML,only-typed
+171,https://github.com/PSL-Chartes-HTR-Students/HN2021-OCR-Poesie-Corse,OCR Corse,1926,1927,regions,126,Alto-XML,only-typed
 172,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,characters,55156,Alto-XML,only-typed
 173,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,files,17,Alto-XML,only-typed
 174,https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-ArgusDesBrevets,Argus des Brevets,1910,1910,lines,1962,Alto-XML,only-typed
