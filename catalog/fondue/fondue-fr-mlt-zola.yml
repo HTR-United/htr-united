@@ -1,6 +1,6 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: FoNDUE-FR-MLT-ZOLA
-url: https://github.com/FoNDUE-HTR/FoNDUE-FR-MLT-ZOLA/tree/main/Data
+url: https://github.com/FoNDUE-HTR/FoNDUE-FR-MLT-ZOLA/tree/main
 authors:
   - name: Pauline
     surname: Jacsont
@@ -34,8 +34,8 @@ hands:
   count: '1'
   precision: exact
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 sources:
   - reference: ''
