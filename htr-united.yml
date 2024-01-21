@@ -657,32 +657,31 @@
   url: https://github.com/Gallicorpora/HTR-imprime-18e-siecle
   authors:
   - name: Gabay
+    roles:
+    - project-manager
     surname: Simon
-    roles:
-    - project-manager
   - name: Pinche
-    surname: Ariane
     roles:
     - project-manager
+    surname: Ariane
   - name: Fabert
-    surname: Eliott
     roles:
     - transcriber
+    surname: Eliott
   - name: Christensen
-    surname: Kelly
     roles:
     - support
+    surname: Kelly
   project-name: Gallicorpora
   project-website: https://github.com/Gallicorpora
   language:
-  - frm
   - fra
   script:
   - iso: Latn
   script-type: only-typed
   time:
-    notBefore: '1699'
-    notAfter: '1700'
+    notBefore: '1700'
+    notAfter: '1799'
   hands:
     count: 1-per-folder
     precision: estimated
@@ -692,119 +691,158 @@
   format: Alto-XML
   volume:
   - metric: characters
-    count: 151402
+    count: 255981
   - metric: files
-    count: 160
+    count: 327
   - metric: lines
-    count: 4500
+    count: 8950
   - metric: regions
-    count: 624
+    count: 1185
   transcription-guidelines: Les normes de transcription suivent les préconisations
-    du projet Gallicorpora
+    du projet gallicorpora
   citation-file-link: https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff
   production-software: eScriptorium + Kraken
   characters:
     mode: NFD
     members:
     - e
-    - a
-    - i
-    - r
     - u
+    - r
+    - a
     - n
+    - i
     - t
-    - s
     - o
     - l
-    - d
+    - s
     - ſ
+    - d
     - c
-    - p
     - m
+    - p
     - ','
     - v
     - q
-    - ́
     - .
-    - ’
     - f
     - g
-    - E
-    - h
     - b
-    - ̀
-    - ¬
-    - A
-    - j
-    - '&'
-    - x
-    - I
+    - E
+    - ’
+    - h
     - y
+    - ́
+    - A
+    - '&'
+    - "'"
+    - S
+    - I
+    - x
+    - ¬
     - L
     - C
-    - S
-    - M
     - R
-    - N
     - P
-    - "'"
     - D
-    - O
-    - ̂
-    - '-'
-    - T
-    - ;
-    - U
+    - ̀
+    - M
     - V
-    - F
+    - T
+    - O
+    - N
     - z
-    - H
-    - J
-    - G
-    - B
-    - Q
-    - '1'
-    - ̈
     - ':'
+    - Q
+    - j
+    - '-'
+    - F
+    - G
+    - ̃
+    - B
+    - ;
+    - H
+    - ̈
+    - '1'
+    - ̂
     - ̧
-    - '0'
-    - (
-    - )
-    - '?'
     - '2'
-    - œ
-    - '5'
+    - '?'
     - '3'
-    - '6'
-    - '*'
+    - œ
     - '4'
-    - '!'
+    - '5'
     - Y
+    - U
+    - Z
+    - '6'
     - '7'
     - '8'
-    - w
-    - '9'
-    - Z
-    - K
+    - '0'
     - X
-    - «
-    - k
-    - ʳ
+    - J
+    - '9'
+    - (
     - æ
-    - ß
-    - ᵉ
-    - ˢ
+    - )
     - Æ
-    - †
+    - ι
+    - α
+    - '!'
+    - ß
+    - ο
+    - ν
+    - ε
+    - ρ
+    - ̓
+    - υ
+    - κ
+    - '*'
+    - σ
+    - τ
+    - ω
+    - '['
+    - ']'
+    - ꝰ
+    - K
+    - Α
+    - χ
+    - ς
+    - π
+    - γ
+    - ̨
+    - μ
+    - k
+    - ͂
+    - Ν
+    - Β
+    - λ
+    - Σ
+    - Κ
+    - η
+    - θ
     - W
-    - ᗅ
-    - ᵍ
-    - ⁿ
-    - ᵘ
     - Œ
+    - δ
+    - Τ
+    - ͅ
     - »
+    - ᵉ
+    - ˡ
+    - ͧ
+    - Ζ
+    - β
+    - ̔
+    - ̇
     - °
-    - ᗞ
+    - w
+    - ẞ
+    - Φ
+    - Λ
+    - Χ
+    - φ
+    - Ι
+    - ʳ
+    - ᵐ
   automatically-aligned: false
 - authors:
   - name: Pinche
@@ -3529,89 +3567,140 @@
     \ R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou\
     \ M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA\
     \ (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: DAHN Corpus
-  url: https://github.com/HTR-United/dahncorpus
-  project-name: DAHN
-  project-website: https://digitalintellectuals.hypotheses.org/category/dahn
-  authors:
-  - surname: Floriane
-    name: Chiffoleau
+- authors:
+  - name: Chiffoleau
     roles:
     - project-manager
     - aligner
+    surname: Floriane
+  characters:
+    members:
+    - e
+    - s
+    - a
+    - n
+    - r
+    - i
+    - t
+    - u
+    - o
+    - l
+    - d
+    - c
+    - m
+    - p
+    - ́
+    - ','
+    - v
+    - .
+    - f
+    - q
+    - g
+    - ̀
+    - '-'
+    - E
+    - b
+    - ’
+    - "'"
+    - h
+    - A
+    - L
+    - N
+    - x
+    - j
+    - S
+    - R
+    - I
+    - T
+    - M
+    - ̂
+    - C
+    - P
+    - y
+    - O
+    - ;
+    - '1'
+    - £
+    - U
+    - D
+    - B
+    - F
+    - J
+    - G
+    - '"'
+    - '0'
+    - z
+    - V
+    - '9'
+    - '2'
+    - ':'
+    - X
+    -  
+    - €
+    - H
+    - '5'
+    - '!'
+    - '3'
+    - '4'
+    - ̧
+    - °
+    - W
+    - Y
+    - '6'
+    - '8'
+    - '?'
+    - '7'
+    - K
+    - Q
+    - /
+    - (
+    - )
+    - k
+    - œ
+    - w
+    - ̈
+    - …
+    - Z
+    - –
+    - '&'
+    - '%'
+    - '='
+    - $
+    - _
+    mode: NFD
   description: OCR ground Truth dataset based on French 20th typewritten letters
-  license:
-  - url: https://creativecommons.org/licenses/by/4.0/
-    name: CC-BY 4.0
   format: Alto-XML
-  script:
-  - iso: Latn
-  volume:
-  - metric: characters
-    count: 1210754
-  - metric: files
-    count: 546
-  - metric: lines
-    count: 12482
-  - metric: pages
-    count: 527
-  - metric: regions
-    count: 546
-  language:
-  - fra
-  time:
-    notBefore: '1914'
-    notAfter: '1924'
   hands:
     count: less-than-11
     precision: exact
-  script-type: only-typed
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
   production-software: eScriptorium + Kraken
-  characters:
-    mode: NFD
-    members:
-    - e
-    - t
-    - a
-    - /
-    - c
-    - '0'
-    - n
-    - r
-    - m
-    - h
-    - p
-    - s
-    - o
-    - g
-    - '7'
-    - '5'
-    - '9'
-    - f
-    - '1'
-    - E
-    - .
-    - i
-    - '-'
-    - '2'
-    - d
-    - <
-    - l
-    - '{'
-    - ':'
-    - P
-    - A
-    - G
-    - '}'
-    - U
-    - x
-    - '>'
-    - '8'
-    - '4'
-    - b
-    - '6'
-    - '3'
+  project-name: DAHN
+  project-website: https://digitalintellectuals.hypotheses.org/category/dahn
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1924'
+    notBefore: '1914'
+  title: DAHN Corpus
+  url: https://github.com/HTR-United/dahncorpus
+  volume:
+  - count: 475849
+    metric: characters
+  - count: 547
+    metric: files
+  - count: 12539
+    metric: lines
+  - count: 527
+    metric: pages
+  - count: 547
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chiffoleau, Floriane},\ndoi = {10.5281/zenodo.5911868},\n\
     month = {3},\ntitle = {dahncorpus},\nurl = {https://github.com/HTR-United/dahncorpus},\n\
@@ -4095,131 +4184,178 @@
     year = {2021}\n}\n"
   _apa: "Chagué A. (2021). Tappus Corpus (version 1.0). DOI: 10.5072/zenodo.977649\
     \ URL: https://github.com/HTR-United/tapuscorpus\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: TIMEUS Corpus
-  url: https://github.com/HTR-United/timeuscorpus
-  project-name: ANR TIME US
-  project-website: https://timeus.hypotheses.org/
-  authors:
+- authors:
   - name: Chagué
+    roles:
+    - transcriber
+    - aligner
+    - support
     surname: Alix
-    roles:
-    - transcriber
-    - aligner
-    - support
   - name: Riondet
-    surname: Charles
     roles:
     - support
+    surname: Charles
   - name: Le Fourner
+    roles:
+    - transcriber
     surname: Victoria
-    roles:
-    - transcriber
   - name: Bey
+    roles:
+    - transcriber
     surname: Laura
-    roles:
-    - transcriber
   - name: Vanneau
+    roles:
+    - transcriber
     surname: Laurie
-    roles:
-    - transcriber
   - name: Skilbeck-Gaborit
+    roles:
+    - transcriber
     surname: Eden
-    roles:
-    - transcriber
   - name: Meissel
-    surname: Nina
     roles:
     - transcriber
+    surname: Nina
   - name: Genero
-    surname: Jean-Damien
     roles:
     - aligner
+    surname: Jean-Damien
   - name: Champougny
-    surname: Kevin
     roles:
     - transcriber
+    surname: Kevin
   - name: Albert
+    roles:
+    - project-manager
     surname: Anaïs
-    roles:
-    - project-manager
   - name: Martini
-    surname: Manuela
     roles:
     - project-manager
+    surname: Manuela
+  characters:
+    members:
+    - e
+    - n
+    - a
+    - i
+    - t
+    - r
+    - u
+    - s
+    - l
+    - o
+    - d
+    - p
+    - c
+    - m
+    - ́
+    - v
+    - f
+    - q
+    - x
+    - ̀
+    - ','
+    - g
+    - h
+    - "'"
+    - ;
+    - j
+    - C
+    - b
+    - P
+    - D
+    - ’
+    - y
+    - B
+    - .
+    - L
+    - M
+    - ̂
+    - z
+    - J
+    - A
+    - G
+    - E
+    - '-'
+    -  
+    - S
+    - V
+    - '?'
+    - T
+    - Q
+    - F
+    - '='
+    - R
+    - '4'
+    - '2'
+    - ̧
+    - k
+    - —
+    - '7'
+    - W
+    - O
+    - N
+    - '1'
+    - '3'
+    - '8'
+    - '0'
+    - '9'
+    - ':'
+    - –
+    - '5'
+    - ̈
+    - Y
+    - K
+    - H
+    - œ
+    - I
+    - )
+    - (
+    - U
+    - Z
+    - _
+    - '@'
+    - '!'
+    - ‘
+    - »
+    - '&'
+    - '6'
+    - ─
+    - /
+    mode: NFD
   description: Ground-Truth for French 19th century pre-printed documents created
     by administrative services.
+  format: Page-XML
+  hands:
+    count: less-than-11
+    precision: estimated
   language:
   - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: ANR TIME US
+  project-website: https://timeus.hypotheses.org/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: evenly-mixed
   time:
-    notBefore: '1858'
     notAfter: '1858'
-  hands:
-    count: less-than-11
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
+    notBefore: '1858'
+  title: TIMEUS Corpus
+  url: https://github.com/HTR-United/timeuscorpus
   volume:
-  - metric: characters
-    count: 746997
-  - metric: files
-    count: 248
-  - metric: lines
-    count: 7701
-  - metric: pages
-    count: 159
-  - metric: regions
-    count: 587
-  production-software: eScriptorium + Kraken
-  characters:
-    mode: NFD
-    members:
-    - e
-    - t
-    - /
-    - a
-    - c
-    - '0'
-    - n
-    - r
-    - '9'
-    - m
-    - h
-    - p
-    - s
-    - o
-    - g
-    - '7'
-    - '1'
-    - E
-    - .
-    - i
-    - '-'
-    - '2'
-    - d
-    - f
-    - '5'
-    - '6'
-    - <
-    - l
-    - '{'
-    - ':'
-    - P
-    - A
-    - G
-    - '}'
-    - U
-    - x
-    - '>'
-    - '4'
-    - b
-    - '8'
-    - '3'
+  - count: 401304
+    metric: characters
+  - count: 250
+    metric: files
+  - count: 7701
+    metric: lines
+  - count: 159
+    metric: pages
+  - count: 586
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Champougny, Kévin\
     \ and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau,\

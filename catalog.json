@@ -2149,37 +2149,36 @@
     "authors": [
       {
         "name": "Gabay",
-        "surname": "Simon",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Simon"
       },
       {
         "name": "Pinche",
-        "surname": "Ariane",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Ariane"
       },
       {
         "name": "Fabert",
-        "surname": "Eliott",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Eliott"
       },
       {
         "name": "Christensen",
-        "surname": "Kelly",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Kelly"
       }
     ],
     "project-name": "Gallicorpora",
     "project-website": "https://github.com/Gallicorpora",
     "language": [
-      "frm",
       "fra"
     ],
     "script": [
@@ -2189,8 +2188,8 @@
     ],
     "script-type": "only-typed",
     "time": {
-      "notBefore": "1699",
-      "notAfter": "1700"
+      "notBefore": "1700",
+      "notAfter": "1799"
     },
     "hands": {
       "count": "1-per-folder",
@@ -2206,126 +2205,165 @@
     "volume": [
       {
         "metric": "characters",
-        "count": 151402
+        "count": 255981
       },
       {
         "metric": "files",
-        "count": 160
+        "count": 327
       },
       {
         "metric": "lines",
-        "count": 4500
+        "count": 8950
       },
       {
         "metric": "regions",
-        "count": 624
+        "count": 1185
       }
     ],
-    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet Gallicorpora",
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet gallicorpora",
     "citation-file-link": "https://github.com/Gallicorpora/HTR-imprime-18e-siecle/CITATION.cff",
     "production-software": "eScriptorium + Kraken",
     "characters": {
       "mode": "NFD",
       "members": [
         "e",
-        "a",
-        "i",
-        "r",
         "u",
+        "r",
+        "a",
         "n",
+        "i",
         "t",
-        "s",
         "o",
         "l",
-        "d",
+        "s",
         "\u017f",
+        "d",
         "c",
-        "p",
         "m",
+        "p",
         ",",
         "v",
         "q",
-        "\u0301",
         ".",
-        "\u2019",
         "f",
         "g",
-        "E",
-        "h",
         "b",
-        "\u0300",
-        "\u00ac",
-        "A",
-        "j",
-        "&",
-        "x",
-        "I",
+        "E",
+        "\u2019",
+        "h",
         "y",
+        "\u0301",
+        "A",
+        "&",
+        "'",
+        "S",
+        "I",
+        "x",
+        "\u00ac",
         "L",
         "C",
-        "S",
-        "M",
         "R",
-        "N",
         "P",
-        "'",
         "D",
-        "O",
-        "\u0302",
-        "-",
-        "T",
-        ";",
-        "U",
+        "\u0300",
+        "M",
         "V",
-        "F",
+        "T",
+        "O",
+        "N",
         "z",
-        "H",
-        "J",
-        "G",
-        "B",
-        "Q",
-        "1",
-        "\u0308",
         ":",
+        "Q",
+        "j",
+        "-",
+        "F",
+        "G",
+        "\u0303",
+        "B",
+        ";",
+        "H",
+        "\u0308",
+        "1",
+        "\u0302",
         "\u0327",
-        "0",
-        "(",
-        ")",
-        "?",
         "2",
-        "\u0153",
-        "5",
+        "?",
         "3",
-        "6",
-        "*",
+        "\u0153",
         "4",
-        "!",
+        "5",
         "Y",
+        "U",
+        "Z",
+        "6",
         "7",
         "8",
-        "w",
-        "9",
-        "Z",
-        "K",
+        "0",
         "X",
-        "\u00ab",
-        "k",
-        "\u02b3",
+        "J",
+        "9",
+        "(",
         "\u00e6",
-        "\u00df",
-        "\u1d49",
-        "\u02e2",
+        ")",
         "\u00c6",
-        "\u2020",
+        "\u03b9",
+        "\u03b1",
+        "!",
+        "\u00df",
+        "\u03bf",
+        "\u03bd",
+        "\u03b5",
+        "\u03c1",
+        "\u0313",
+        "\u03c5",
+        "\u03ba",
+        "*",
+        "\u03c3",
+        "\u03c4",
+        "\u03c9",
+        "[",
+        "]",
+        "\ua770",
+        "K",
+        "\u0391",
+        "\u03c7",
+        "\u03c2",
+        "\u03c0",
+        "\u03b3",
+        "\u0328",
+        "\u03bc",
+        "k",
+        "\u0342",
+        "\u039d",
+        "\u0392",
+        "\u03bb",
+        "\u03a3",
+        "\u039a",
+        "\u03b7",
+        "\u03b8",
         "W",
-        "\u15c5",
-        "\u1d4d",
-        "\u207f",
-        "\u1d58",
         "\u0152",
+        "\u03b4",
+        "\u03a4",
+        "\u0345",
         "\u00bb",
+        "\u1d49",
+        "\u02e1",
+        "\u0367",
+        "\u0396",
+        "\u03b2",
+        "\u0314",
+        "\u0307",
         "\u00b0",
-        "\u15de"
+        "w",
+        "\u1e9e",
+        "\u03a6",
+        "\u039b",
+        "\u03a7",
+        "\u03c6",
+        "\u0399",
+        "\u02b3",
+        "\u1d50"
       ]
     },
     "automatically-aligned": false,
@@ -5855,115 +5893,166 @@
     "_pid": "f99aaacfc"
   },
   "bde559631": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "DAHN Corpus",
-    "url": "https://github.com/HTR-United/dahncorpus",
-    "project-name": "DAHN",
-    "project-website": "https://digitalintellectuals.hypotheses.org/category/dahn",
     "authors": [
       {
-        "surname": "Floriane",
         "name": "Chiffoleau",
         "roles": [
           "project-manager",
           "aligner"
-        ]
+        ],
+        "surname": "Floriane"
       }
     ],
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "a",
+        "n",
+        "r",
+        "i",
+        "t",
+        "u",
+        "o",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "\u0301",
+        ",",
+        "v",
+        ".",
+        "f",
+        "q",
+        "g",
+        "\u0300",
+        "-",
+        "E",
+        "b",
+        "\u2019",
+        "'",
+        "h",
+        "A",
+        "L",
+        "N",
+        "x",
+        "j",
+        "S",
+        "R",
+        "I",
+        "T",
+        "M",
+        "\u0302",
+        "C",
+        "P",
+        "y",
+        "O",
+        ";",
+        "1",
+        "\u00a3",
+        "U",
+        "D",
+        "B",
+        "F",
+        "J",
+        "G",
+        "\"",
+        "0",
+        "z",
+        "V",
+        "9",
+        "2",
+        ":",
+        "X",
+        "\u00a0",
+        "\u20ac",
+        "H",
+        "5",
+        "!",
+        "3",
+        "4",
+        "\u0327",
+        "\u00b0",
+        "W",
+        "Y",
+        "6",
+        "8",
+        "?",
+        "7",
+        "K",
+        "Q",
+        "/",
+        "(",
+        ")",
+        "k",
+        "\u0153",
+        "w",
+        "\u0308",
+        "\u2026",
+        "Z",
+        "\u2013",
+        "&",
+        "%",
+        "=",
+        "$",
+        "_"
+      ],
+      "mode": "NFD"
+    },
     "description": "OCR ground Truth dataset based on French 20th typewritten letters",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
     "license": [
       {
-        "url": "https://creativecommons.org/licenses/by/4.0/",
-        "name": "CC-BY 4.0"
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "format": "Alto-XML",
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "DAHN",
+    "project-website": "https://digitalintellectuals.hypotheses.org/category/dahn",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
       }
     ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1924",
+      "notBefore": "1914"
+    },
+    "title": "DAHN Corpus",
+    "url": "https://github.com/HTR-United/dahncorpus",
     "volume": [
       {
-        "metric": "characters",
-        "count": 1210754
+        "count": 475849,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 546
+        "count": 547,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 12482
+        "count": 12539,
+        "metric": "lines"
       },
       {
-        "metric": "pages",
-        "count": 527
+        "count": 527,
+        "metric": "pages"
       },
       {
-        "metric": "regions",
-        "count": 546
+        "count": 547,
+        "metric": "regions"
       }
     ],
-    "language": [
-      "fra"
-    ],
-    "time": {
-      "notBefore": "1914",
-      "notAfter": "1924"
-    },
-    "hands": {
-      "count": "less-than-11",
-      "precision": "exact"
-    },
-    "script-type": "only-typed",
-    "production-software": "eScriptorium + Kraken",
-    "characters": {
-      "mode": "NFD",
-      "members": [
-        "e",
-        "t",
-        "a",
-        "/",
-        "c",
-        "0",
-        "n",
-        "r",
-        "m",
-        "h",
-        "p",
-        "s",
-        "o",
-        "g",
-        "7",
-        "5",
-        "9",
-        "f",
-        "1",
-        "E",
-        ".",
-        "i",
-        "-",
-        "2",
-        "d",
-        "<",
-        "l",
-        "{",
-        ":",
-        "P",
-        "A",
-        "G",
-        "}",
-        "U",
-        "x",
-        ">",
-        "8",
-        "4",
-        "b",
-        "6",
-        "3"
-      ]
-    },
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chiffoleau, Floriane},\ndoi = {10.5281/zenodo.5911868},\nmonth = {3},\ntitle = {dahncorpus},\nurl = {https://github.com/HTR-United/dahncorpus},\nyear = {2021}\n}\n",
     "_apa": "Chiffoleau F. (2021). dahncorpus (version 1.0.0). DOI: 10.5281/zenodo.5911868 URL: https://github.com/HTR-United/dahncorpus\n",
@@ -6550,96 +6639,199 @@
     "_pid": "c5d771d11"
   },
   "fe0e382bb": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "TIMEUS Corpus",
-    "url": "https://github.com/HTR-United/timeuscorpus",
-    "project-name": "ANR TIME US",
-    "project-website": "https://timeus.hypotheses.org/",
     "authors": [
       {
         "name": "Chagu\u00e9",
-        "surname": "Alix",
         "roles": [
           "transcriber",
           "aligner",
           "support"
-        ]
+        ],
+        "surname": "Alix"
       },
       {
         "name": "Riondet",
-        "surname": "Charles",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Charles"
       },
       {
         "name": "Le Fourner",
-        "surname": "Victoria",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Victoria"
       },
       {
         "name": "Bey",
-        "surname": "Laura",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Laura"
       },
       {
         "name": "Vanneau",
-        "surname": "Laurie",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Laurie"
       },
       {
         "name": "Skilbeck-Gaborit",
-        "surname": "Eden",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Eden"
       },
       {
         "name": "Meissel",
-        "surname": "Nina",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Nina"
       },
       {
         "name": "Genero",
-        "surname": "Jean-Damien",
         "roles": [
           "aligner"
-        ]
+        ],
+        "surname": "Jean-Damien"
       },
       {
         "name": "Champougny",
-        "surname": "Kevin",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Kevin"
       },
       {
         "name": "Albert",
-        "surname": "Ana\u00efs",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Ana\u00efs"
       },
       {
         "name": "Martini",
-        "surname": "Manuela",
         "roles": [
           "project-manager"
-        ]
+        ],
+        "surname": "Manuela"
       }
     ],
+    "characters": {
+      "members": [
+        "e",
+        "n",
+        "a",
+        "i",
+        "t",
+        "r",
+        "u",
+        "s",
+        "l",
+        "o",
+        "d",
+        "p",
+        "c",
+        "m",
+        "\u0301",
+        "v",
+        "f",
+        "q",
+        "x",
+        "\u0300",
+        ",",
+        "g",
+        "h",
+        "'",
+        ";",
+        "j",
+        "C",
+        "b",
+        "P",
+        "D",
+        "\u2019",
+        "y",
+        "B",
+        ".",
+        "L",
+        "M",
+        "\u0302",
+        "z",
+        "J",
+        "A",
+        "G",
+        "E",
+        "-",
+        "\u00a0",
+        "S",
+        "V",
+        "?",
+        "T",
+        "Q",
+        "F",
+        "=",
+        "R",
+        "4",
+        "2",
+        "\u0327",
+        "k",
+        "\u2014",
+        "7",
+        "W",
+        "O",
+        "N",
+        "1",
+        "3",
+        "8",
+        "0",
+        "9",
+        ":",
+        "\u2013",
+        "5",
+        "\u0308",
+        "Y",
+        "K",
+        "H",
+        "\u0153",
+        "I",
+        ")",
+        "(",
+        "U",
+        "Z",
+        "_",
+        "@",
+        "!",
+        "\u2018",
+        "\u00bb",
+        "&",
+        "6",
+        "\u2500",
+        "/"
+      ],
+      "mode": "NFD"
+    },
     "description": "Ground-Truth for French 19th century pre-printed documents created by administrative services.",
+    "format": "Page-XML",
+    "hands": {
+      "count": "less-than-11",
+      "precision": "estimated"
+    },
     "language": [
       "fra"
     ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "ANR TIME US",
+    "project-website": "https://timeus.hypotheses.org/",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -6647,89 +6839,33 @@
     ],
     "script-type": "evenly-mixed",
     "time": {
-      "notBefore": "1858",
-      "notAfter": "1858"
+      "notAfter": "1858",
+      "notBefore": "1858"
     },
-    "hands": {
-      "count": "less-than-11",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Page-XML",
+    "title": "TIMEUS Corpus",
+    "url": "https://github.com/HTR-United/timeuscorpus",
     "volume": [
       {
-        "metric": "characters",
-        "count": 746997
+        "count": 401304,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 248
+        "count": 250,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 7701
+        "count": 7701,
+        "metric": "lines"
       },
       {
-        "metric": "pages",
-        "count": 159
+        "count": 159,
+        "metric": "pages"
       },
       {
-        "metric": "regions",
-        "count": 587
+        "count": 586,
+        "metric": "regions"
       }
     ],
-    "production-software": "eScriptorium + Kraken",
-    "characters": {
-      "mode": "NFD",
-      "members": [
-        "e",
-        "t",
-        "/",
-        "a",
-        "c",
-        "0",
-        "n",
-        "r",
-        "9",
-        "m",
-        "h",
-        "p",
-        "s",
-        "o",
-        "g",
-        "7",
-        "1",
-        "E",
-        ".",
-        "i",
-        "-",
-        "2",
-        "d",
-        "f",
-        "5",
-        "6",
-        "<",
-        "l",
-        "{",
-        ":",
-        "P",
-        "A",
-        "G",
-        "}",
-        "U",
-        "x",
-        ">",
-        "4",
-        "b",
-        "8",
-        "3"
-      ]
-    },
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Champougny, K\u00e9vin and Meissel, Nina and Genero, Jean-Damien and Skilbeck-Gaborit, Eden and Vanneau, Laurie and Bey, Laura and Le Fourner, Victoria and Albert, Ana\u00efs and Riondet, Charles and Martini, Manuela},\ndoi = {10.5281/zenodo.6230755},\ntitle = {Time Us Corpus},\nurl = {https://github.com/HTR-United/timeuscorpus}\n}\n",
     "_apa": "Chagu\u00e9 A., Champougny K., Meissel N., Genero J., Skilbeck-Gaborit E., Vanneau L., Bey L., Le Fourner V., Albert A., Riondet C., Martini M. Time Us Corpus DOI: 10.5281/zenodo.6230755 URL: https://github.com/HTR-United/timeuscorpus\n",

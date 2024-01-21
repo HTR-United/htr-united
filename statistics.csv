@@ -12,10 +12,10 @@
 10,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,files,327,Alto-XML,only-typed
 11,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,lines,8950,Alto-XML,only-typed
 12,Gallicorpora/HTR-imprime-17e-siecle,Imprimés 17e siècle,1600,1699,regions,1185,Alto-XML,only-typed
-13,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,characters,151402,Alto-XML,only-typed
-14,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,files,160,Alto-XML,only-typed
-15,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,lines,4500,Alto-XML,only-typed
-16,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1699,1700,regions,624,Alto-XML,only-typed
+13,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1700,1799,characters,255981,Alto-XML,only-typed
+14,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1700,1799,files,327,Alto-XML,only-typed
+15,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1700,1799,lines,8950,Alto-XML,only-typed
+16,Gallicorpora/HTR-imprime-18e-siecle,Données imprimés du 18e siècle,1700,1799,regions,1185,Alto-XML,only-typed
 17,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,characters,90742,Alto-XML,evenly-mixed
 18,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,files,80,Alto-XML,evenly-mixed
 19,Gallicorpora/HTR-imprime-gothique-16e-siecle,Données imprimés gothiques du 16e siècle,1500,1599,lines,2971,Alto-XML,evenly-mixed
@@ -68,11 +68,11 @@
 66,HTR-United/cremma-wikipedia,CREMMA WIKIPEDIA,2022,2023,files,304,Alto-XML,only-manuscript
 67,HTR-United/cremma-wikipedia,CREMMA WIKIPEDIA,2022,2023,lines,1697,Alto-XML,only-manuscript
 68,HTR-United/cremma-wikipedia,CREMMA WIKIPEDIA,2022,2023,regions,305,Alto-XML,only-manuscript
-69,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,1210754,Alto-XML,only-typed
-70,HTR-United/dahncorpus,DAHN Corpus,1914,1924,files,546,Alto-XML,only-typed
-71,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12482,Alto-XML,only-typed
+69,HTR-United/dahncorpus,DAHN Corpus,1914,1924,characters,475849,Alto-XML,only-typed
+70,HTR-United/dahncorpus,DAHN Corpus,1914,1924,files,547,Alto-XML,only-typed
+71,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12539,Alto-XML,only-typed
 72,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
-73,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,546,Alto-XML,only-typed
+73,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,547,Alto-XML,only-typed
 74,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359676,Page-XML,only-manuscript
 75,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
 76,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
@@ -92,11 +92,11 @@
 90,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
 91,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
 92,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,150,Page-XML,only-typed
-93,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,746997,Page-XML,evenly-mixed
-94,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,248,Page-XML,evenly-mixed
+93,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,401304,Page-XML,evenly-mixed
+94,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,250,Page-XML,evenly-mixed
 95,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
 96,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
-97,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,587,Page-XML,evenly-mixed
+97,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,586,Page-XML,evenly-mixed
 98,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,192943,Alto-XML,only-manuscript
 99,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,91,Alto-XML,only-manuscript
 100,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,7173,Alto-XML,only-manuscript
