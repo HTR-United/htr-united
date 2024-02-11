@@ -73,25 +73,25 @@
 71,HTR-United/dahncorpus,DAHN Corpus,1914,1924,lines,12539,Alto-XML,only-typed
 72,HTR-United/dahncorpus,DAHN Corpus,1914,1924,pages,527,Alto-XML,only-typed
 73,HTR-United/dahncorpus,DAHN Corpus,1914,1924,regions,547,Alto-XML,only-typed
-74,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359676,Page-XML,only-manuscript
+74,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,characters,359094,Page-XML,only-manuscript
 75,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,files,100,Page-XML,only-manuscript
-76,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3708,Page-XML,only-manuscript
+76,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,lines,3702,Page-XML,only-manuscript
 77,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,pages,200,Page-XML,only-manuscript
-78,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,100,Page-XML,only-manuscript
-79,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,1969585,Page-XML,mainly-manuscript
+78,HTR-United/lectaurep-bronod,Notaires de Paris - Bronod,1742,1745,regions,296,Page-XML,only-manuscript
+79,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,characters,1969488,Page-XML,mainly-manuscript
 80,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,files,104,Page-XML,mainly-manuscript
-81,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20305,Page-XML,mainly-manuscript
+81,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,lines,20304,Page-XML,mainly-manuscript
 82,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,pages,105,Page-XML,mainly-manuscript
-83,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,regions,105,Page-XML,mainly-manuscript
-84,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,525619,Alto-XML,mainly-manuscript
+83,HTR-United/lectaurep-mariages-et-divorces,Notaires de Paris - Mariages et Divorces,1829,1928,regions,324,Page-XML,mainly-manuscript
+84,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,characters,525786,Alto-XML,mainly-manuscript
 85,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,files,218,Alto-XML,mainly-manuscript
 86,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,lines,29410,Alto-XML,mainly-manuscript
-87,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1138,Alto-XML,mainly-manuscript
-88,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,399155,Page-XML,only-typed
-89,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,files,150,Page-XML,only-typed
-90,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4115,Page-XML,only-typed
+87,HTR-United/lectaurep-repertoires,Notaires de Paris - Répertoires,1830,1939,regions,1181,Alto-XML,mainly-manuscript
+88,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,characters,131511,Page-XML,only-typed
+89,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,files,151,Page-XML,only-typed
+90,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,lines,4376,Page-XML,only-typed
 91,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,pages,150,Page-XML,only-typed
-92,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,150,Page-XML,only-typed
+92,HTR-United/tapuscorpus,Tapus Corpus,1900,1999,regions,375,Page-XML,only-typed
 93,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,characters,401304,Page-XML,evenly-mixed
 94,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,files,250,Page-XML,evenly-mixed
 95,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed

@@ -3707,89 +3707,52 @@
     year = {2021}\n}\n"
   _apa: "Chiffoleau F. (2021). dahncorpus (version 1.0.0). DOI: 10.5281/zenodo.5911868\
     \ URL: https://github.com/HTR-United/dahncorpus\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Notaires de Paris - Bronod
-  url: https://github.com/HTR-United/lectaurep-bronod
-  project-name: "LECTAUREP\n"
-  project-website: https://lectaurep.hypotheses.org/
-  authors:
+- authors:
   - name: Limon-Bonnet
-    surname: Françoise
     roles:
     - transcriber
     - aligner
     - quality-control
+    surname: Françoise
   - name: Chagué
-    surname: Alix
     roles:
     - support
-  description: "Ground truth for Maître Bronod’s registers, notary in Paris during\
-    \ the 18th century.\n"
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1742'
-    notAfter: '1745'
-  hands:
-    count: '1'
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: characters
-    count: 359676
-  - metric: files
-    count: 100
-  - metric: lines
-    count: 3708
-  - metric: pages
-    count: 200
-  - metric: regions
-    count: 100
-  sources:
-  - reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre
-      Bronod\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software].
-      https://doi.org/10.5072/zenodo.977735
-    link: ''
-  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff
-  transcription-guidelines: "Transcription fidèle aux manuscrits : la casse et les\
-    \ abréviations sont respectées. Les portions de texte suscrites sont précédées\
-    \ d'un symbole `^`. Pas de traitement particulier des éventuels s longs.'\n"
-  production-software: eScriptorium + Kraken
+    - project-manager
+    - quality-control
+    surname: Alix
+  - name: Rostaing
+    roles:
+    - project-manager
+    surname: Aurélia
   characters:
-    mode: NFD
     members:
     - e
     - t
-    - /
     - a
-    - c
+    - /
     - '0'
+    - c
     - n
     - r
-    - '7'
     - m
     - h
     - p
     - s
     - o
     - g
-    - '9'
+    - '5'
+    - '7'
     - '1'
     - E
     - .
     - i
     - '-'
-    - '4'
-    - '5'
-    - f
+    - '3'
+    - '9'
     - '2'
+    - f
     - d
+    - '8'
     - <
     - l
     - '{'
@@ -3802,185 +3765,202 @@
     - x
     - '>'
     - b
-    - '8'
+    - '4'
     - '6'
-    - '3'
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Notaires de Paris - Mariages et Divorces
-  url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
+    mode: NFD
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff
+  description: "Ground truth for Maître Bronod’s registers, notary in Paris during\
+    \ the 18th century.\n"
+  format: Page-XML
+  hands:
+    count: '1'
+    precision: exact
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
   project-name: "LECTAUREP\n"
   project-website: https://lectaurep.hypotheses.org/
-  authors:
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  sources:
+  - link: ''
+    reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre
+      Bronod\u0027s documents (French XVIIIth century) (Version 1.0) [Computer software].
+      https://doi.org/10.5072/zenodo.977735
+  time:
+    notAfter: '1745'
+    notBefore: '1742'
+  title: Notaires de Paris - Bronod
+  transcription-guidelines: "Transcription fidèle aux manuscrits : la casse et les\
+    \ abréviations sont respectées. Les portions de texte suscrites sont précédées\
+    \ d'un symbole `^`. Pas de traitement particulier des éventuels s longs.'\n"
+  url: https://github.com/HTR-United/lectaurep-bronod
+  volume:
+  - count: 359094
+    metric: characters
+  - count: 100
+    metric: files
+  - count: 3702
+    metric: lines
+  - count: 200
+    metric: pages
+  - count: 296
+    metric: regions
+  automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Limon-Bonnet, Marie-Françoise and\
+    \ Chagué, Alix and Rostaing, Aurélia},\ndoi = {10.5281/zenodo.10631355},\nmonth\
+    \ = {2},\ntitle = {Lectaurep-Bronod, ground truth for Maitre Bronod's documents\
+    \ (French XVIIIth century)},\nurl = {https://lectaurep.hypotheses.org/},\nyear\
+    \ = {2024}\n}\n"
+  _apa: "Limon-Bonnet M., Chagué A., Rostaing A. (2024). Lectaurep-Bronod, ground\
+    \ truth for Maitre Bronod's documents (French XVIIIth century) DOI: 10.5281/zenodo.10631355\
+    \ URL: https://lectaurep.hypotheses.org/\n"
+- authors:
   - name: Denis
-    surname: Nathalie
     roles:
     - transcriber
     - aligner
+    surname: Nathalie
   - name: Rostaing
+    roles:
+    - project-manager
+    - quality-control
+    - support
     surname: Aurélia
-    roles:
-    - project-manager
-    - quality-control
-    - support
   - name: Chagué
-    surname: Alix
     roles:
     - project-manager
     - quality-control
     - support
+    surname: Alix
+  characters:
+    members:
+    - e
+    - t
+    - /
+    - a
+    - c
+    - '0'
+    - n
+    - r
+    - m
+    - h
+    - p
+    - s
+    - o
+    - g
+    - '1'
+    - '7'
+    - '2'
+    - E
+    - .
+    - i
+    - '-'
+    - f
+    - '9'
+    - d
+    - '8'
+    - '5'
+    - <
+    - l
+    - '{'
+    - ':'
+    - P
+    - A
+    - G
+    - '}'
+    - U
+    - x
+    - '>'
+    - b
+    - '4'
+    - '6'
+    - '3'
+    mode: NFD
+  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff
   description: "Ground truth for the Registres des Contrats de Mariages et des Séparations\
     \ et Divorces in Paris. The documents are written in Franch during the 19th century,\
     \ contain many names and addresses. The information is organized in tables spreading\
     \ on two pages. The table’s headers and the preamble are printed.\n"
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: mainly-manuscript
-  time:
-    notBefore: '1829'
-    notAfter: '1928'
+  format: Page-XML
   hands:
     count: more-than-10
     precision: estimated
+  language:
+  - fra
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: characters
-    count: 1969585
-  - metric: files
-    count: 104
-  - metric: lines
-    count: 20305
-  - metric: pages
-    count: 105
-  - metric: regions
-    count: 105
+  production-software: eScriptorium + Kraken
+  project-name: "LECTAUREP\n"
+  project-website: https://lectaurep.hypotheses.org/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
   sources:
-  - reference: 'Rostaing, A., Denis, N., & Chagué, A. (2021). Lectaurep-Mariages-et-Divorces:
+  - link: ''
+    reference: 'Rostaing, A., Denis, N., & Chagué, A. (2021). Lectaurep-Mariages-et-Divorces:
       ground truth for the Enregistrements des Contrats de Mariages et des Séparations
       et Divorces in Paris (French 19th century)  (Version 1.0) [Computer software].
       https://doi.org/10.5072/zenodo.977697'
-    link: ''
-  citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff
+  time:
+    notAfter: '1928'
+    notBefore: '1829'
+  title: Notaires de Paris - Mariages et Divorces
   transcription-guidelines: "The transcription respects what is written (abbreviations\
     \ are not developed, capitalization follows 19th century practices). Superscripted\
     \ portions of text are signaled by `^` and many signatures are transcription with\
     \ ¥. The lines containing printed text are associated with the type `printed`\
     \ and the signatures are associated with the type `signature`. Thus they can both\
     \ be removed from the dataset if necessary.'\n"
-  production-software: eScriptorium + Kraken
-  characters:
-    mode: NFD
-    members:
-    - e
-    - t
-    - /
-    - a
-    - c
-    - '0'
-    - n
-    - r
-    - '7'
-    - m
-    - h
-    - p
-    - s
-    - o
-    - g
-    - '1'
-    - E
-    - .
-    - i
-    - '-'
-    - '2'
-    - '9'
-    - '5'
-    - f
-    - '3'
-    - d
-    - <
-    - l
-    - '{'
-    - ':'
-    - P
-    - A
-    - G
-    - '}'
-    - U
-    - x
-    - '>'
-    - b
-    - '8'
-    - '6'
-    - '4'
+  url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
+  volume:
+  - count: 1969488
+    metric: characters
+  - count: 104
+    metric: files
+  - count: 20304
+    metric: lines
+  - count: 105
+    metric: pages
+  - count: 324
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Rostaing, Aurélia and Denis, Nathalie\
-    \ and Chagué, Alix},\ndoi = {10.5072/zenodo.977697},\nmonth = {11},\ntitle = {Lectaurep-Mariages-et-Divorces:\
+    \ and Chagué, Alix},\ndoi = {10.5281/zenodo.10632593},\nmonth = {2},\ntitle =\
+    \ {Lectaurep-Mariages-et-Divorces: ground truth for the Enregistrements des Contrats\
+    \ de Mariages et des Séparations et Divorces in Paris (French 19th century) },\n\
+    url = {https://github.com/HTR-United/lectaurep-mariages-et-divorces},\nyear =\
+    \ {2024}\n}\n"
+  _apa: "Rostaing A., Denis N., Chagué A. (2024). Lectaurep-Mariages-et-Divorces:\
     \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
-    \ et Divorces in Paris (French 19th century) },\nurl = {https://github.com/HTR-United/lectaurep-mariages-et-divorces},\n\
-    year = {2021}\n}\n"
-  _apa: "Rostaing A., Denis N., Chagué A. (2021). Lectaurep-Mariages-et-Divorces:\
-    \ ground truth for the Enregistrements des Contrats de Mariages et des Séparations\
-    \ et Divorces in Paris (French 19th century)  (version 1.0). DOI: 10.5072/zenodo.977697\
+    \ et Divorces in Paris (French 19th century)  (version 2.0). DOI: 10.5281/zenodo.10632593\
     \ URL: https://github.com/HTR-United/lectaurep-mariages-et-divorces\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Notaires de Paris - Répertoires
-  url: https://github.com/HTR-United/lectaurep-repertoires
-  authors:
+- authors:
   - name: Durand
-    surname: Marc
     roles:
     - transcriber
     - aligner
+    surname: Marc
   - name: Rostaing
-    surname: Aurélia
     roles:
     - transcriber
     - project-manager
     - quality-control
+    surname: Aurélia
   - name: Chagué
-    surname: Alix
     roles:
     - project-manager
     - quality-control
     - support
-  description: Ground truth for various Parisian registries of notary deeds written
-    in French during the 19th century. The information is organized following pre-printed
-    tables (with printed headers) and contain many names, addresses, numbers and abbreviations.
-  project-name: LECTAUREP
-  project-website: https://lectaurep.hypotheses.org/
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: mainly-manuscript
-  time:
-    notBefore: '1830'
-    notAfter: '1939'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 525619
-  - metric: files
-    count: 218
-  - metric: lines
-    count: 29410
-  - metric: regions
-    count: 1138
-  citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
-  production-software: eScriptorium + Kraken
+    surname: Alix
   characters:
-    mode: NFD
     members:
     - e
     - r
@@ -4027,8 +4007,8 @@
     - L
     - '8'
     - '9'
-    - '4'
     - ^
+    - '4'
     - '6'
     - B
     - O
@@ -4080,6 +4060,41 @@
     - ̃
     - '>'
     - ½
+    mode: NFD
+  citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
+  description: Ground truth for various Parisian registries of notary deeds written
+    in French during the 19th century. The information is organized following pre-printed
+    tables (with printed headers) and contain many names, addresses, numbers and abbreviations.
+  format: Alto-XML
+  hands:
+    count: more-than-10
+    precision: estimated
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: LECTAUREP
+  project-website: https://lectaurep.hypotheses.org/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: mainly-manuscript
+  time:
+    notAfter: '1939'
+    notBefore: '1830'
+  title: Notaires de Paris - Répertoires
+  url: https://github.com/HTR-United/lectaurep-repertoires
+  volume:
+  - count: 525786
+    metric: characters
+  - count: 218
+    metric: files
+  - count: 29410
+    metric: lines
+  - count: 1181
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {LECTAUREP and Rostaing, Aurélia and\
     \ Durand, Marc and Chagué, Alix},\ndoi = {10.5072/zenodo.977691},\nmonth = {12},\n\
@@ -4089,95 +4104,144 @@
   _apa: "LECTAUREP, Rostaing A., Durand M., Chagué A. (2021). Notaires de Paris -\
     \ Répertoires, ground truth for various Parisian registries of notary deeds (French\
     \ 19th and 20th centuries) (version 2.0.0). DOI: 10.5072/zenodo.977691 URL: https://github.com/HTR-United/lectaurep-repertoires\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Tapus Corpus
-  url: https://github.com/HTR-United/tapuscorpus
-  project-name: "HTR-United\n"
-  project-website: https://htr-united.github.io/
-  authors:
+- authors:
   - name: Chagué
-    surname: Alix
     roles:
     - transcriber
     - project-manager
+    surname: Alix
+  characters:
+    members:
+    - e
+    - a
+    - s
+    - n
+    - t
+    - r
+    - i
+    - u
+    - o
+    - l
+    - d
+    - c
+    - m
+    - p
+    - ́
+    - .
+    - '~'
+    - v
+    - ','
+    - "'"
+    - '-'
+    - f
+    - g
+    - h
+    - q
+    - b
+    - ̀
+    - _
+    - E
+    - L
+    - A
+    - I
+    - C
+    - x
+    - S
+    - M
+    - j
+    - T
+    - ̂
+    - R
+    - N
+    - '1'
+    - O
+    - P
+    - y
+    - '"'
+    - U
+    - J
+    - D
+    - '2'
+    - ':'
+    - )
+    - (
+    - B
+    - '0'
+    - '5'
+    - '3'
+    - '4'
+    - z
+    - '6'
+    - F
+    - H
+    - Q
+    - '!'
+    - '9'
+    - G
+    - '7'
+    - V
+    - '8'
+    - '?'
+    - ⟦
+    - ⟧
+    - ̧
+    - Y
+    - ;
+    - ’
+    - °
+    - k
+    - X
+    - ̈
+    - +
+    - '='
+    - W
+    - /
+    - K
+    - ^
+    - w
+    - Z
+    - '%'
+    - '*'
+    mode: NFD
+  citation-file-link: https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff
   description: Ground truth based on a variety of French typewritten documents from
     the 20th century. Contains exerpts plays, poems, letters and administrative reports.
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-typed
-  time:
-    notBefore: '1900'
-    notAfter: '1999'
+  format: Page-XML
   hands:
     count: 1-per-folder
     precision: exact
+  language:
+  - fra
   license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  format: Page-XML
-  volume:
-  - metric: characters
-    count: 399155
-  - metric: files
-    count: 150
-  - metric: lines
-    count: 4115
-  - metric: pages
-    count: 150
-  - metric: regions
-    count: 150
-  sources:
-  - reference: Chagué, A. (2021). Tapuscorpus (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977649
-    link: ''
-  citation-file-link: https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff
-  transcription-guidelines: See README in repository.
   production-software: eScriptorium + Kraken
-  characters:
-    mode: NFD
-    members:
-    - e
-    - t
-    - /
-    - '0'
-    - a
-    - c
-    - n
-    - r
-    - '7'
-    - m
-    - h
-    - p
-    - s
-    - o
-    - g
-    - '4'
-    - d
-    - '1'
-    - E
-    - .
-    - i
-    - '-'
-    - '2'
-    - '9'
-    - '5'
-    - f
-    - <
-    - l
-    - '{'
-    - ':'
-    - P
-    - A
-    - G
-    - '}'
-    - U
-    - x
-    - '>'
-    - b
-    - '8'
-    - '3'
-    - '6'
+  project-name: "HTR-United\n"
+  project-website: https://htr-united.github.io/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  sources:
+  - link: ''
+    reference: Chagué, A. (2021). Tapuscorpus (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977649
+  time:
+    notAfter: '1999'
+    notBefore: '1900'
+  title: Tapus Corpus
+  transcription-guidelines: See README in repository.
+  url: https://github.com/HTR-United/tapuscorpus
+  volume:
+  - count: 131511
+    metric: characters
+  - count: 151
+    metric: files
+  - count: 4376
+    metric: lines
+  - count: 150
+    metric: pages
+  - count: 375
+    metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix},\ndoi = {10.5072/zenodo.977649},\n\
     month = {12},\ntitle = {Tappus Corpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\n\
