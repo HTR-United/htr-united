@@ -4791,994 +4791,936 @@
     "_pid": "632310da4"
   },
   "f99aaacfc": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA WIKIPEDIA",
-    "url": "https://github.com/HTR-United/cremma-wikipedia",
     "authors": [
       {
         "name": "Chagu\u00e9",
-        "surname": "Alix",
+        "orcid": "0000-0002-0136-4434",
         "roles": [
           "project-manager",
           "quality-control",
           "digitization",
           "support"
         ],
-        "orcid": "0000-0002-0136-4434"
+        "surname": "Alix"
       },
       {
         "name": "Cl\u00e9rice",
-        "surname": "Thibault",
+        "orcid": "0000-0003-1852-9204",
         "roles": [
           "project-manager",
           "quality-control"
         ],
-        "orcid": "0000-0003-1852-9204"
+        "surname": "Thibault"
       },
       {
         "name": "Van Kote",
-        "surname": "Elsa",
         "roles": [
           "aligner",
           "transcriber"
-        ]
+        ],
+        "surname": "Elsa"
       },
       {
         "name": "Carrow",
-        "surname": "Jennifer",
         "roles": [
           "aligner",
           "transcriber",
           "support"
-        ]
+        ],
+        "surname": "Jennifer"
       },
       {
         "name": "Wissam",
-        "surname": "Antoum",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Yann",
-        "surname": "Audin",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Anne",
-        "surname": "Baillot",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Marl\u00e8ne",
-        "surname": "Baron",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Alexandre",
-        "surname": "Bartz",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Rachel",
-        "surname": "Bawden",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Alice",
-        "surname": "Beaudry-Lagarde",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Rishika",
-        "surname": "Bhagwatkar",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Federico",
-        "surname": "Boschetti",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Camille",
-        "surname": "Bourgeois",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Alice",
-        "surname": "Brenon",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "William",
-        "surname": "Brubacher",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Donovan",
-        "surname": "Brunot",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Roxanne",
-        "surname": "Brusseau",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Talitha",
-        "surname": "Bueno Mottes",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Zo\u00e9",
-        "surname": "Cappe",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Roman",
-        "surname": "Castagn\u00e9",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Galo",
-        "surname": "Castillo",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Brigitte",
-        "surname": "Chagu\u00e9",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Denis",
-        "surname": "Chagu\u00e9",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Emeric",
-        "surname": "Chagu\u00e9",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "L\u00e9a",
-        "surname": "Charette",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Emmanuel",
-        "surname": "Chateau",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Jean-Baptiste",
-        "surname": "Chaudron",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Anna",
-        "surname": "Chepaikina",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Floriane",
-        "surname": "Chiffoleau",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Kelly",
-        "surname": "Christensen",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Federico",
-        "surname": "Cuartas Aristizabal",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Maria Laura",
-        "surname": "Cucciniello",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Aurore",
-        "surname": "Cu\u00e9llar",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Baudoin",
-        "surname": "Davoury",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Eric",
-        "surname": "de la Clergerie",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Roch",
-        "surname": "Delanney",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Camille",
-        "surname": "Delattre",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "B\u00e9atrice",
-        "surname": "Denis",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Philippe",
-        "surname": "Deschamps",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Valentine",
-        "surname": "Desmorat",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Cindy",
-        "surname": "Dionisio",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Am\u00e9lie",
-        "surname": "Disant",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Elsa",
-        "surname": "Dufourg",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Jean-Luc",
-        "surname": "Falcone",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Margaux",
-        "surname": "Faure",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Glenda",
-        "surname": "Ferbeyre Rodriguez",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Giulia",
-        "surname": "Ferretti",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Fabien",
-        "surname": "Fizaine",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Jeanne",
-        "surname": "Flamant",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Cl\u00e9mence",
-        "surname": "Foisy-Marquis",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Anna",
-        "surname": "Fr\u00f6hlich",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Anne",
-        "surname": "Garcia Fernancez",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Vincent",
-        "surname": "Giovannangeli",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Gabrielle",
-        "surname": "Grondin",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Morgane",
-        "surname": "Guichard",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Jessica",
-        "surname": "Guiraud",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Anahi",
-        "surname": "Haedo",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Pauline",
-        "surname": "Hennequart",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Yanet",
-        "surname": "Hernandez Pedroza",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Lucence",
-        "surname": "Ing",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Pauline",
-        "surname": "Jacsont",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Juliette",
-        "surname": "Janes",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Corinne",
-        "surname": "Jeanne",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Arilys",
-        "surname": "Jia",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Vincent",
-        "surname": "Jolivet",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Katrina",
-        "surname": "Kaustina",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Ben",
-        "surname": "Kiessling",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Ozcar",
-        "surname": "Koc",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Lena",
-        "surname": "Krause",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Gabriel",
-        "surname": "Labrie",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Am\u00e9lie",
-        "surname": "Lapointe",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "David",
-        "surname": "Lassner",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Emmanuelle",
-        "surname": "Lescouet",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Danny",
-        "surname": "L\u00e9tourneau",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Marie-Fran\u00e7oise",
-        "surname": "Limon-Bonnet",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Gabrielle",
-        "surname": "Lodi",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Victoria",
-        "surname": "Lupascu",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Elsa",
-        "surname": "Marguin-Hamon",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Orestis",
-        "surname": "Marinamis",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Gina",
-        "surname": "Mars",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Eug\u00e9nie",
-        "surname": "Matthey-Jonais",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Dilson",
-        "surname": "Mayunga",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Margot",
-        "surname": "Mellet",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Matt",
-        "surname": "Moskal",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Shannon",
-        "surname": "Moskal",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Zo\u00e9",
-        "surname": "Mozin",
-        "roles": [
-          "support"
-        ]
-      },
-      {
-        "name": "Lydia",
-        "surname": "Nishimwe",
         "roles": [
           "support"
         ],
-        "orcid": "0009-0009-7082-4711"
+        "surname": "Antoum"
       },
       {
-        "name": "Jade",
-        "surname": "Norindr",
+        "name": "Yann",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Audin"
       },
       {
-        "name": "Jules",
-        "surname": "Nuguet",
+        "name": "Anne",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Baillot"
       },
       {
-        "name": "Sarah",
-        "surname": "Orsini",
+        "name": "Marl\u00e8ne",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Baron"
       },
       {
-        "name": "Pedro",
-        "surname": "Ortiz Suarez",
+        "name": "Alexandre",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Bartz"
       },
       {
-        "name": "Kenan",
-        "surname": "Oudin",
+        "name": "Rachel",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Bawden"
+      },
+      {
+        "name": "Alice",
+        "roles": [
+          "support"
+        ],
+        "surname": "Beaudry-Lagarde"
+      },
+      {
+        "name": "Rishika",
+        "roles": [
+          "support"
+        ],
+        "surname": "Bhagwatkar"
+      },
+      {
+        "name": "Federico",
+        "roles": [
+          "support"
+        ],
+        "surname": "Boschetti"
+      },
+      {
+        "name": "Camille",
+        "roles": [
+          "support"
+        ],
+        "surname": "Bourgeois"
+      },
+      {
+        "name": "Alice",
+        "roles": [
+          "support"
+        ],
+        "surname": "Brenon"
+      },
+      {
+        "name": "William",
+        "roles": [
+          "support"
+        ],
+        "surname": "Brubacher"
+      },
+      {
+        "name": "Donovan",
+        "roles": [
+          "support"
+        ],
+        "surname": "Brunot"
+      },
+      {
+        "name": "Roxanne",
+        "roles": [
+          "support"
+        ],
+        "surname": "Brusseau"
+      },
+      {
+        "name": "Talitha",
+        "roles": [
+          "support"
+        ],
+        "surname": "Bueno Mottes"
+      },
+      {
+        "name": "Zo\u00e9",
+        "roles": [
+          "support"
+        ],
+        "surname": "Cappe"
+      },
+      {
+        "name": "Roman",
+        "roles": [
+          "support"
+        ],
+        "surname": "Castagn\u00e9"
+      },
+      {
+        "name": "Galo",
+        "roles": [
+          "support"
+        ],
+        "surname": "Castillo"
+      },
+      {
+        "name": "Brigitte",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Denis",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Emeric",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "L\u00e9a",
+        "roles": [
+          "support"
+        ],
+        "surname": "Charette"
+      },
+      {
+        "name": "Emmanuel",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chateau"
+      },
+      {
+        "name": "Jean-Baptiste",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chaudron"
+      },
+      {
+        "name": "Anna",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chepaikina"
+      },
+      {
+        "name": "Floriane",
+        "roles": [
+          "support"
+        ],
+        "surname": "Chiffoleau"
+      },
+      {
+        "name": "Kelly",
+        "roles": [
+          "support"
+        ],
+        "surname": "Christensen"
+      },
+      {
+        "name": "Federico",
+        "roles": [
+          "support"
+        ],
+        "surname": "Cuartas Aristizabal"
+      },
+      {
+        "name": "Maria Laura",
+        "roles": [
+          "support"
+        ],
+        "surname": "Cucciniello"
+      },
+      {
+        "name": "Aurore",
+        "roles": [
+          "support"
+        ],
+        "surname": "Cu\u00e9llar"
+      },
+      {
+        "name": "Baudoin",
+        "roles": [
+          "support"
+        ],
+        "surname": "Davoury"
+      },
+      {
+        "name": "Eric",
+        "roles": [
+          "support"
+        ],
+        "surname": "de la Clergerie"
+      },
+      {
+        "name": "Roch",
+        "roles": [
+          "support"
+        ],
+        "surname": "Delanney"
+      },
+      {
+        "name": "Camille",
+        "roles": [
+          "support"
+        ],
+        "surname": "Delattre"
+      },
+      {
+        "name": "B\u00e9atrice",
+        "roles": [
+          "support"
+        ],
+        "surname": "Denis"
+      },
+      {
+        "name": "Philippe",
+        "roles": [
+          "support"
+        ],
+        "surname": "Deschamps"
+      },
+      {
+        "name": "Valentine",
+        "roles": [
+          "support"
+        ],
+        "surname": "Desmorat"
+      },
+      {
+        "name": "Cindy",
+        "roles": [
+          "support"
+        ],
+        "surname": "Dionisio"
+      },
+      {
+        "name": "Am\u00e9lie",
+        "roles": [
+          "support"
+        ],
+        "surname": "Disant"
+      },
+      {
+        "name": "Elsa",
+        "roles": [
+          "support"
+        ],
+        "surname": "Dufourg"
+      },
+      {
+        "name": "Jean-Luc",
+        "roles": [
+          "support"
+        ],
+        "surname": "Falcone"
+      },
+      {
+        "name": "Margaux",
+        "roles": [
+          "support"
+        ],
+        "surname": "Faure"
+      },
+      {
+        "name": "Glenda",
+        "roles": [
+          "support"
+        ],
+        "surname": "Ferbeyre Rodriguez"
+      },
+      {
+        "name": "Giulia",
+        "roles": [
+          "support"
+        ],
+        "surname": "Ferretti"
+      },
+      {
+        "name": "Fabien",
+        "roles": [
+          "support"
+        ],
+        "surname": "Fizaine"
+      },
+      {
+        "name": "Jeanne",
+        "roles": [
+          "support"
+        ],
+        "surname": "Flamant"
+      },
+      {
+        "name": "Cl\u00e9mence",
+        "roles": [
+          "support"
+        ],
+        "surname": "Foisy-Marquis"
+      },
+      {
+        "name": "Anna",
+        "roles": [
+          "support"
+        ],
+        "surname": "Fr\u00f6hlich"
+      },
+      {
+        "name": "Anne",
+        "roles": [
+          "support"
+        ],
+        "surname": "Garcia Fernancez"
+      },
+      {
+        "name": "Vincent",
+        "roles": [
+          "support"
+        ],
+        "surname": "Giovannangeli"
       },
       {
         "name": "Gabrielle",
-        "surname": "Pannetier-Leboeuf",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Grondin"
+      },
+      {
+        "name": "Morgane",
+        "roles": [
+          "support"
+        ],
+        "surname": "Guichard"
+      },
+      {
+        "name": "Jessica",
+        "roles": [
+          "support"
+        ],
+        "surname": "Guiraud"
+      },
+      {
+        "name": "Anahi",
+        "roles": [
+          "support"
+        ],
+        "surname": "Haedo"
+      },
+      {
+        "name": "Pauline",
+        "roles": [
+          "support"
+        ],
+        "surname": "Hennequart"
+      },
+      {
+        "name": "Yanet",
+        "roles": [
+          "support"
+        ],
+        "surname": "Hernandez Pedroza"
+      },
+      {
+        "name": "Lucence",
+        "roles": [
+          "support"
+        ],
+        "surname": "Ing"
+      },
+      {
+        "name": "Pauline",
+        "roles": [
+          "support"
+        ],
+        "surname": "Jacsont"
+      },
+      {
+        "name": "Juliette",
+        "roles": [
+          "support"
+        ],
+        "surname": "Janes"
+      },
+      {
+        "name": "Corinne",
+        "roles": [
+          "support"
+        ],
+        "surname": "Jeanne"
+      },
+      {
+        "name": "Arilys",
+        "roles": [
+          "support"
+        ],
+        "surname": "Jia"
+      },
+      {
+        "name": "Vincent",
+        "roles": [
+          "support"
+        ],
+        "surname": "Jolivet"
+      },
+      {
+        "name": "Katrina",
+        "roles": [
+          "support"
+        ],
+        "surname": "Kaustina"
+      },
+      {
+        "name": "Ben",
+        "roles": [
+          "support"
+        ],
+        "surname": "Kiessling"
+      },
+      {
+        "name": "Ozcar",
+        "roles": [
+          "support"
+        ],
+        "surname": "Koc"
+      },
+      {
+        "name": "Lena",
+        "roles": [
+          "support"
+        ],
+        "surname": "Krause"
+      },
+      {
+        "name": "Gabriel",
+        "roles": [
+          "support"
+        ],
+        "surname": "Labrie"
+      },
+      {
+        "name": "Am\u00e9lie",
+        "roles": [
+          "support"
+        ],
+        "surname": "Lapointe"
+      },
+      {
+        "name": "David",
+        "roles": [
+          "support"
+        ],
+        "surname": "Lassner"
+      },
+      {
+        "name": "Emmanuelle",
+        "roles": [
+          "support"
+        ],
+        "surname": "Lescouet"
+      },
+      {
+        "name": "Danny",
+        "roles": [
+          "support"
+        ],
+        "surname": "L\u00e9tourneau"
+      },
+      {
+        "name": "Marie-Fran\u00e7oise",
+        "roles": [
+          "support"
+        ],
+        "surname": "Limon-Bonnet"
+      },
+      {
+        "name": "Gabrielle",
+        "roles": [
+          "support"
+        ],
+        "surname": "Lodi"
+      },
+      {
+        "name": "Victoria",
+        "roles": [
+          "support"
+        ],
+        "surname": "Lupascu"
+      },
+      {
+        "name": "Elsa",
+        "roles": [
+          "support"
+        ],
+        "surname": "Marguin-Hamon"
+      },
+      {
+        "name": "Orestis",
+        "roles": [
+          "support"
+        ],
+        "surname": "Marinamis"
+      },
+      {
+        "name": "Gina",
+        "roles": [
+          "support"
+        ],
+        "surname": "Mars"
+      },
+      {
+        "name": "Eug\u00e9nie",
+        "roles": [
+          "support"
+        ],
+        "surname": "Matthey-Jonais"
+      },
+      {
+        "name": "Dilson",
+        "roles": [
+          "support"
+        ],
+        "surname": "Mayunga"
+      },
+      {
+        "name": "Margot",
+        "roles": [
+          "support"
+        ],
+        "surname": "Mellet"
+      },
+      {
+        "name": "Matt",
+        "roles": [
+          "support"
+        ],
+        "surname": "Moskal"
+      },
+      {
+        "name": "Shannon",
+        "roles": [
+          "support"
+        ],
+        "surname": "Moskal"
+      },
+      {
+        "name": "Zo\u00e9",
+        "roles": [
+          "support"
+        ],
+        "surname": "Mozin"
+      },
+      {
+        "name": "Lydia",
+        "orcid": "0009-0009-7082-4711",
+        "roles": [
+          "support"
+        ],
+        "surname": "Nishimwe"
+      },
+      {
+        "name": "Jade",
+        "roles": [
+          "support"
+        ],
+        "surname": "Norindr"
+      },
+      {
+        "name": "Jules",
+        "roles": [
+          "support"
+        ],
+        "surname": "Nuguet"
+      },
+      {
+        "name": "Sarah",
+        "roles": [
+          "support"
+        ],
+        "surname": "Orsini"
+      },
+      {
+        "name": "Pedro",
+        "roles": [
+          "support"
+        ],
+        "surname": "Ortiz Suarez"
+      },
+      {
+        "name": "Kenan",
+        "roles": [
+          "support"
+        ],
+        "surname": "Oudin"
+      },
+      {
+        "name": "Gabrielle",
+        "roles": [
+          "support"
+        ],
+        "surname": "Pannetier-Leboeuf"
       },
       {
         "name": "Thierry",
-        "surname": "Paquet",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Paquet"
       },
       {
         "name": "Thomas",
-        "surname": "Parisot",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Parisot"
       },
       {
         "name": "Elodie",
-        "surname": "Paupe",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Paupe"
       },
       {
         "name": "Ga\u00ebl",
-        "surname": "Poux",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Poux"
       },
       {
         "name": "Montaine",
-        "surname": "Proph\u00eate",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Proph\u00eate"
       },
       {
         "name": "Alix",
-        "surname": "Raoux",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Raoux"
       },
       {
         "name": "Ga\u00ebtan",
-        "surname": "Raoux",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Raoux"
       },
       {
         "name": "Elise",
-        "surname": "Razafindrakoto",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Razafindrakoto"
       },
       {
         "name": "Camille",
-        "surname": "Rey",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Rey"
       },
       {
         "name": "Arij",
-        "surname": "Riabi",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Riabi"
       },
       {
         "name": "Karen",
-        "surname": "Ross",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Ross"
       },
       {
         "name": "Manon",
-        "surname": "Rouill\u00e9",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Rouill\u00e9"
       },
       {
         "name": "Louise",
-        "surname": "Ruby",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Ruby"
       },
       {
         "name": "Beno\u00eet",
-        "surname": "Sagot",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Sagot"
       },
       {
         "name": "Hugo",
-        "surname": "Scheithauer",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Scheithauer"
       },
       {
         "name": "Anne-Val\u00e9rie",
-        "surname": "Schweyer",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Schweyer"
       },
       {
         "name": "Djam\u00e9",
-        "surname": "Seddah",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Seddah"
       },
       {
         "name": "Paula",
-        "surname": "Seidel",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Seidel"
       },
       {
         "name": "Peter",
-        "surname": "Stokes",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Stokes"
       },
       {
         "name": "Yves",
-        "surname": "Tadjo",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Tadjo"
       },
       {
         "name": "Lionel",
-        "surname": "Tadjou",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Tadjou"
       },
       {
         "name": "Kristin",
-        "surname": "Tanton",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Tanton"
       },
       {
         "name": "Marie",
-        "surname": "Tariol",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Tariol"
       },
       {
         "name": "Rian",
-        "surname": "Touchent",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Touchent"
       },
       {
         "name": "Anne-Kim",
-        "surname": "Tremblay",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Tremblay"
       },
       {
         "name": "Pierre",
-        "surname": "Vauterin",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Vauterin"
       },
       {
         "name": "Mathilde",
-        "surname": "Verstraete",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Verstraete"
       },
       {
         "name": "Magalie",
-        "surname": "Vetter",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Vetter"
       },
       {
         "name": "Marcello",
-        "surname": "Vitali Rosati",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Vitali Rosati"
       },
       {
         "name": "Malamatenia",
-        "surname": "Vlachou-Estathiou",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Vlachou-Estathiou"
       },
       {
         "name": "Rosanne",
-        "surname": "Wingert",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Wingert"
       },
       {
         "name": "D\u00e9bora",
-        "surname": "Yi",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": "Yi"
       },
       {
         "name": "Antoine\"",
-        "surname": "",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": ""
       },
       {
         "name": "Camille",
-        "surname": "",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": ""
       },
       {
         "name": "Manon",
-        "surname": "",
         "roles": [
           "support"
-        ]
+        ],
+        "surname": ""
       },
       {
         "name": "Yohan",
-        "surname": "",
         "roles": [
           "support"
-        ]
-      }
-    ],
-    "institutions": [
-      {
-        "name": "6e-1 du Coll\u00e8ge Martin-Luther-King de Charvieu-Chavagneux",
-        "roles": [
-          "support"
-        ]
-      }
-    ],
-    "description": "The CREMMA-WIKIPEDIA project aims at creating a collection of ground truth to train HTR models on contemporary French handwriting.\n\nEach image represents an exerpt from a randomly selected Wikipedia page, copied by hand by volunteers. We then took care of the alignment between the handwritten portion and the original text, also present on the image.",
-    "project-name": "CREMMA",
-    "language": [
-      "fra"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "2022",
-      "notAfter": "2023"
-    },
-    "hands": {
-      "count": "1-per-file",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "transcription-guidelines": "The transcription guidelines follow CREMMA's convention (https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4). In short: superscript is preceded by a ^. Strikethrough elements are transcribed with \"><\" when unreadable, \">word<\" when readeable.  The text to copy may have included phonetic transcription. Non-french letters and diacritics were rendered as well. ",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 84018
-      },
-      {
-        "metric": "files",
-        "count": 304
-      },
-      {
-        "metric": "lines",
-        "count": 1697
-      },
-      {
-        "metric": "regions",
-        "count": 305
+        ],
+        "surname": ""
       }
     ],
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "a",
         "n",
         "i",
-        "t",
         "s",
+        "t",
         "r",
         "l",
         "o",
@@ -5788,8 +5730,8 @@
         "m",
         "p",
         "\u0301",
-        "g",
         ",",
+        "g",
         "h",
         "v",
         "f",
@@ -5803,74 +5745,75 @@
         "y",
         "0",
         "C",
-        "E",
         "9",
+        "E",
         "S",
-        "A",
         "2",
         "-",
-        "I",
+        "A",
         "(",
         ")",
-        "k",
+        "I",
         "x",
-        "R",
+        "k",
         "M",
         "P",
-        "T",
-        "B",
+        "R",
         "j",
+        "B",
         "8",
+        "T",
         "N",
-        "O",
-        "6",
-        "\u0302",
         "D",
+        "\u0302",
+        "6",
         "4",
+        "O",
+        "G",
+        "3",
         "5",
         "7",
-        "3",
-        "G",
         "F",
-        "=",
         "H",
-        "V",
-        "w",
         "U",
+        "w",
+        "V",
+        "=",
         "z",
         "\u0327",
         "J",
         ":",
         "\u0308",
-        "K",
         "W",
+        "K",
         ">",
         "<",
+        "\"",
         "\u00ab",
         "\u00bb",
         "Y",
         "X",
-        "^",
-        "\"",
         "[",
         "]",
-        "\u017f",
+        "^",
         "/",
+        "\u017f",
         "\u0304",
-        "Q",
         ";",
+        "Q",
         "Z",
-        "\u030c",
-        "\u2019",
         "\u0153",
+        "\u030c",
+        "!",
+        "\u2019",
         "\u00f8",
         "\u0303",
         "%",
         "&",
         "\u2013",
-        "!",
         "\u025b",
         "\u030a",
+        "\u00b0",
         "\u00df",
         "\u0279",
         "\u2014",
@@ -5881,12 +5824,72 @@
         "#",
         "\u0259",
         "\u20ac",
+        "\u2026",
+        "\u0142",
         "\u00a0",
         "\u0251",
         "\u0254",
         "\u0281"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "description": "The CREMMA-WIKIPEDIA project aims at creating a collection of ground truth to train HTR models on contemporary French handwriting.\n\nEach image represents an exerpt from a randomly selected Wikipedia page, copied by hand by volunteers. We then took care of the alignment between the handwritten portion and the original text, also present on the image.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-file",
+      "precision": "estimated"
+    },
+    "institutions": [
+      {
+        "name": "6e-1 du Coll\u00e8ge Martin-Luther-King de Charvieu-Chavagneux",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "2023",
+      "notBefore": "2022"
+    },
+    "title": "CREMMA WIKIPEDIA",
+    "transcription-guidelines": "The transcription guidelines follow CREMMA's convention (https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4). In short: superscript is preceded by a ^. Strikethrough elements are transcribed with \"><\" when unreadable, \">word<\" when readeable.  The text to copy may have included phonetic transcription. Non-french letters and diacritics were rendered as well. ",
+    "url": "https://github.com/HTR-United/cremma-wikipedia",
+    "volume": [
+      {
+        "count": 99680,
+        "metric": "characters"
+      },
+      {
+        "count": 350,
+        "metric": "files"
+      },
+      {
+        "count": 1971,
+        "metric": "lines"
+      },
+      {
+        "count": 351,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix and Cl\u00e9rice, Thibault and Van Kote, Elsa and Carrow, Jennifer and Antoum, Wissam and Audin, Yann and Baillot, Anne and Baron, Marl\u00e8ne and Bartz, Alexandre and Bawden, Rachel and Beaudry-Lagarde, Alice and Bhagwatkar, Rishika and Boschetti, Federico and Bourgeois, Camille and Brenon, Alice and Brubacher, William and Brunot, Donovan and Brusseau, Roxanne and Bueno Mottes, Talitha and Cappe, Zo\u00e9 and Castagn\u00e9, Roman and Castillo, Galo and Chagu\u00e9, Brigitte and Chagu\u00e9, Denis and Chagu\u00e9, Emeric and Charette, L\u00e9a and Chateau, Emmanuel and Chaudron, Jean-Baptiste and Chepaikina, Anna and Chiffoleau, Floriane and Christensen, Kelly and Cuartas Aristizabal, Federico and Cucciniello, Maria Laura and Cu\u00e9llar, Aurore and Davoury, Baudoin and de la Clergerie, Eric and Delanney, Roch and Delattre, Camille and Denis, B\u00e9atrice and Deschamps, Philippe and Desmorat, Valentine and Dionisio, Cindy and Disant, Am\u00e9lie and Dufourg, Elsa and Falcone, Jean-Luc and Faure, Margaux and Ferbeyre Rodriguez, Glenda and Ferretti, Giulia and Fizaine, Fabien and Flamant, Jeanne and Foisy-Marquis, Cl\u00e9mence and Fr\u00f6hlich, Anna and Garcia Fernancez, Anne and Giovannangeli, Vincent and Grondin, Gabrielle and Guichard, Morgane and Guiraud, Jessica and Haedo, Anahi and Hennequart, Pauline and Hernandez Pedroza, Yanet and Ing, Lucence and Jacsont, Pauline and Janes, Juliette and Jeanne, Corinne and Jia, Arilys and Jolivet, Vincent and Kaustina, Katrina and Kiessling, Ben and Koc, Ozcar and Krause, Lena and Labrie, Gabriel and Lapointe, Am\u00e9lie and Lassner, David and Lescouet, Emmanuelle and L\u00e9tourneau, Danny and Limon-Bonnet, Marie-Fran\u00e7oise and Lodi, Gabrielle and Lupascu, Victoria and Marguin-Hamon, Elsa and Marinamis, Orestis and Mars, Gina and Matthey-Jonais, Eug\u00e9nie and Mayunga, Dilson and Mellet, Margot and Moskal, Matt and Moskal, Shannon and Mozin, Zo\u00e9 and Nishimwe, Lydia and Norindr, Jade and Nuguet, Jules and Orsini, Sarah and Ortiz Suarez, Pedro and Oudin, Kenan and Pannetier-Leboeuf, Gabrielle and Paquet, Thierry and Parisot, Thomas and Paupe, Elodie and Poux, Ga\u00ebl and Proph\u00eate, Montaine and Raoux, Alix and Raoux, Ga\u00ebtan and Razafindrakoto, Elise and Rey, Camille and Riabi, Arij and Ross, Karen and Rouill\u00e9, Manon and Ruby, Louise and Sagot, Beno\u00eet and Scheithauer, Hugo and Schweyer, Anne-Val\u00e9rie and Seddah, Djam\u00e9 and Seidel, Paula and Stokes, Peter and Tadjo, Yves and Tadjou, Lionel and Tanton, Kristin and Tariol, Marie and Touchent, Rian and Tremblay, Anne-Kim and Vauterin, Pierre and Verstraete, Mathilde and Vetter, Magalie and Vitali Rosati, Marcello and Vlachou-Estathiou, Malamatenia and Wingert, Rosanne and Yi, D\u00e9bora and other anonymous contributers},\ndoi = {10.5281/zenodo.7782065},\nmonth = {3},\ntitle = {CREMMA WIKIPEDIA},\nurl = {https://github.com/HTR-United/cremma-wikipedia},\nyear = {2023}\n}\n",
     "_apa": "Chagu\u00e9 A., Cl\u00e9rice T., Van Kote E., Carrow J., Antoum W., Audin Y., Baillot A., Baron M., Bartz A., Bawden R., Beaudry-Lagarde A., Bhagwatkar R., Boschetti F., Bourgeois C., Brenon A., Brubacher W., Brunot D., Brusseau R., Bueno Mottes T., Cappe Z., Castagn\u00e9 R., Castillo G., Chagu\u00e9 B., Chagu\u00e9 D., Chagu\u00e9 E., Charette L., Chateau E., Chaudron J., Chepaikina A., Chiffoleau F., Christensen K., Cuartas Aristizabal F., Cucciniello M.L., Cu\u00e9llar A., Davoury B., de la Clergerie E., Delanney R., Delattre C., Denis B., Deschamps P., Desmorat V., Dionisio C., Disant A., Dufourg E., Falcone J., Faure M., Ferbeyre Rodriguez G., Ferretti G., Fizaine F., Flamant J., Foisy-Marquis C., Fr\u00f6hlich A., Garcia Fernancez A., Giovannangeli V., Grondin G., Guichard M., Guiraud J., Haedo A., Hennequart P., Hernandez Pedroza Y., Ing L., Jacsont P., Janes J., Jeanne C., Jia A., Jolivet V., Kaustina K., Kiessling B., Koc O., Krause L., Labrie G., Lapointe A., Lassner D., Lescouet E., L\u00e9tourneau D., Limon-Bonnet M., Lodi G., Lupascu V., Marguin-Hamon E., Marinamis O., Mars G., Matthey-Jonais E., Mayunga D., Mellet M., Moskal M., Moskal S., Mozin Z., Nishimwe L., Norindr J., Nuguet J., Orsini S., Ortiz Suarez P., Oudin K., Pannetier-Leboeuf G., Paquet T., Parisot T., Paupe E., Poux G., Proph\u00eate M., Raoux A., Raoux G., Razafindrakoto E., Rey C., Riabi A., Ross K., Rouill\u00e9 M., Ruby L., Sagot B., Scheithauer H., Schweyer A., Seddah D., Seidel P., Stokes P., Tadjo Y., Tadjou L., Tanton K., Tariol M., Touchent R., Tremblay A., Vauterin P., Verstraete M., Vetter M., Vitali Rosati M., Vlachou-Estathiou M., Wingert R., Yi D., other anonymous contributers (2023). CREMMA WIKIPEDIA (version 1.0.3). DOI: 10.5281/zenodo.7782065 URL: https://github.com/HTR-United/cremma-wikipedia\n",
