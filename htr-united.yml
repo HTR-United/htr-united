@@ -6594,78 +6594,188 @@
     year = {2022}\n}\n"
   _apa: "L’Eveque Z., Ekaterina K., Kasparian A. (2022). Projet Kovaleswky - 1893\
     \ (version 1.0). DOI: 10.5281/zenodo.6126633 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Kovalewsky-1893\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: Memorials for Jane Lathrop Stanford
-  url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
-  project-name: "ENC - Bonnes pratiques du developpement collaboratif\n"
-  authors:
-  - name: Guimarães
-    surname: Ingrid
+- authors:
+  - name: Ingrid
     roles:
     - transcriber
     - aligner
-  - name: Maurel
-    surname: Perrine
+    surname: Guimarães
+  - name: Perrine
     roles:
     - transcriber
     - aligner
-  - name: Ozturk
-    surname: Yagmur
+    surname: Maurel
+  - name: Yagmur
     roles:
     - transcriber
     - aligner
-  description: "Les données sources ont été téléversées sur le site From the page\
-    \ par les Archives de l’Université Stanford qui en sont les propriétaires. Elles\
-    \ ont ensuite été retranscrites par des bénévoles anonymes ; c’est leur travail\
-    \ nous a servi de base pour corriger nos propres retranscriptions. Les documents\
-    \ sources choisies sont des lettres de différents auteurs portant sur les obsèques\
-    \ de Jane Lathrop Stanford.  Les lettres sélectionnées étaient les lettres : 42,\
-    \ 43, 46, 49, 50, 54, 57 à 60, 69, 75, 76 [section 1, retranscrites par Perrine\
-    \ MAUREL] ; 80 à 93 [section 2, retranscrites par Ingrid GUIMARÃES] ; 241 à 242\
-    \  [section 3, retranscrites par Yagmur OZTURK].\n"
+    surname: Ozturk
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - quality-control
+    surname: Chagué
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - support
+    surname: Clérice
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - t
+    - r
+    - o
+    - a
+    - n
+    - i
+    - s
+    - h
+    - l
+    - .
+    - d
+    - f
+    - c
+    - u
+    - y
+    - m
+    - ','
+    - S
+    - M
+    - w
+    - p
+    - g
+    - b
+    - C
+    - I
+    - v
+    - R
+    - A
+    - E
+    - D
+    - F
+    - P
+    - T
+    - k
+    - O
+    - L
+    - N
+    - W
+    - '1'
+    - B
+    - J
+    - H
+    - '2'
+    - '-'
+    - U
+    - '0'
+    - G
+    - Y
+    - '5'
+    - '9'
+    - ':'
+    - "'"
+    - q
+    - x
+    - V
+    - '3'
+    - K
+    - '4'
+    - ᗅ
+    - '8'
+    - '7'
+    - (
+    - )
+    - j
+    - ^
+    - '"'
+    - '&'
+    - z
+    - '6'
+    - '?'
+    - ⟦
+    - ⟧
+    - ᗞ
+    - Q
+    - ;
+    - ᑕ
+    - $
+    - +
+    - '*'
+    - Z
+    mode: NFD
+  citation-file-link: >-
+    https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
+  description: >-
+    "Les données sources ont été téléversées sur le site From the page par les
+    Archives de l’Université Stanford qui en sont les propriétaires. Elles ont
+    ensuite été retranscrites par des bénévoles anonymes ; c'est leur travail nous
+    a servi de base pour corriger nos propres retranscriptions. Les documents
+    sources choisies sont des lettres de diffé  rents auteurs portant sur les
+    obsèques de Jane Lathrop Stanford.  Les lettres sélectionnées étaient les
+    lettres : 42, 43, 46, 49, 50, 54, 57 à 60, 69, 75, 76 [section 1,
+    retranscrites par Perrine MAUREL] ; 80 à 93 [section 2, retranscrites par
+    Ingrid GUIMARÃES] ; 241 à 242  [section 3, retranscrites par Yagmur OZTURK].
+  format: Alto-XML
+  hands:
+    count: 1-per-file
+    precision: estimated
+  institutions: []
   language:
   - eng
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: ENC - Bonnes pratiques du developpement collaboratif
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: evenly-mixed
   time:
-    notBefore: '1905'
     notAfter: '1905'
-  hands:
-    count: 1-per-file
-    precision: estimated
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  citation-file-link: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF
-  transcription-guidelines: "Notre retranscription en elle-même a cherché à retranscrire\
-    \ le texte ipsis litteris, sans le corriger, en conservant donc les erreurs éventuelles\
-    \ intrinsèques au document. Il convient toutefois de noter que dans certains cas,\
-    \ les documents présentaient des mentions imprécises qui n’avaient pas été prises\
-    \ en compte par les retranscriptions originelles, ou alors qui avaient été soulignées\
-    \ comme étant une retranscription incertaine. Nous avons alors fait le choix d’être\
-    \ plus exhaustif que la retranscription originelle si possible, et nous avons\
-    \ parfois fait des choix de retranscription différents sur la base de notre ressenti\
-    \ visuel lors du travail. En raison de ces choix, la taille d’une page s’est donc\
-    \ parfois avérée rallongée par rapport à l’estimation première.'\n"
+    notBefore: '1905'
+  title: Memorials for Jane Lathrop Stanford
+  transcription-guidelines: >-
+    Notre retranscription en elle-même a cherché à retranscrire le texte ipsis
+    litteris, sans le corriger, en conservant donc les erreurs éventuelles
+    intrinsèques au document. Il convient toutefois de noter que dans certains
+    cas, les documents présentaient des mentions imprécises qui n'avaient pas été
+    prises en compte par les retranscriptions originelles, ou alors qui avaient
+    été soulignées comme étant une retranscription incertaine. Nous avons alors
+    fait le choix d'être plus exhaustif que la retranscription originelle si
+    possible, et nous avons parfois fait des choix de retranscription différents
+    sur la base de notre ressenti visuel lors du travail. En raison de ces choix,
+    la taille d'une page s'est donc parfois avérée rallongée par rapport à
+    l'estimation première.
+
+
+    Addition: les règles de transcriptions ont été adaptées pour être compatibles
+    avec les préconisations CREMMA/CATMuS, à savoir : les portions de texte
+    suscrites sont précédées d'un "^", les mots barrés ou illisible sont encadrés
+    des signes "⟦" et "⟧". Les zones ne sont pas tracées dans le document, mais
+    l'ontologie segmOnto a été appliquée pour le typage des lignes, en suivant 5
+    types possibles: DefaultLine:Handwritten, DefaultLine:Print,
+    DefaultLine:Typewritten, DefaultLine:Signature et InterlinearLine:Handwritten.
+    Cela permet de distinguer aisément les lignes manuscrites ou tapuscrites des
+    en-têtes préimprimées des papiers à lettre.
+  url: >-
+    https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford
   volume:
-  - metric: characters
-    count: 18063
-  - metric: files
-    count: 41
-  - metric: lines
-    count: 770
-  - metric: regions
-    count: 51
-  production-software: Unknown [Automatically filled]
-  automatically-aligned: false
+  - count: 18323
+    metric: characters
+  - count: 41
+    metric: files
+  - count: 774
+    metric: lines
+  - count: 50
+    metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Guimarães, Ingrid and Maurel, Perrine\
-    \ and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle =\
-    \ {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\n\
-    year = {2022}\n}\n"
-  _apa: "Guimarães I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford\
-    \ (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n"
+    \ and Ozturk, Yagmur and Chagué, Alix},\ndoi = {10.5281/zenodo.6126625},\nmonth\
+    \ = {2},\ntitle = {Memorials for Jane Lathrop Stanford},\nyear = {2022}\n}\n"
+  _apa: "Guimarães I., Maurel P., Ozturk Y., Chagué A. (2022). Memorials for Jane\
+    \ Lathrop Stanford (version 1.0). DOI: 10.5281/zenodo.6126625\n"
 - authors:
   - name: Sarbach-Pulicani
     roles:

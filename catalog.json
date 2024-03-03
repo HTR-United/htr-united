@@ -8077,40 +8077,153 @@
     "_pid": "c7fda1044"
   },
   "084b4588d": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Memorials for Jane Lathrop Stanford",
-    "url": "https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford",
-    "project-name": "ENC - Bonnes pratiques du developpement collaboratif\n",
     "authors": [
       {
-        "name": "Guimar\u00e3es",
-        "surname": "Ingrid",
+        "name": "Ingrid",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Guimar\u00e3es"
       },
       {
-        "name": "Maurel",
-        "surname": "Perrine",
+        "name": "Perrine",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Maurel"
       },
       {
-        "name": "Ozturk",
-        "surname": "Yagmur",
+        "name": "Yagmur",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Ozturk"
+      },
+      {
+        "name": "Alix",
+        "orcid": "0000-0002-0136-4434",
+        "roles": [
+          "quality-control"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Thibault",
+        "orcid": "0000-0003-1852-9204",
+        "roles": [
+          "support"
+        ],
+        "surname": "Cl\u00e9rice"
       }
     ],
-    "description": "Les donn\u00e9es sources ont \u00e9t\u00e9 t\u00e9l\u00e9vers\u00e9es sur le site From the page par les Archives de l\u2019Universit\u00e9 Stanford qui en sont les propri\u00e9taires. Elles ont ensuite \u00e9t\u00e9 retranscrites par des b\u00e9n\u00e9voles anonymes ; c\u2019est leur travail nous a servi de base pour corriger nos propres retranscriptions. Les documents sources choisies sont des lettres de diff\u00e9rents auteurs portant sur les obs\u00e8ques de Jane Lathrop Stanford.  Les lettres s\u00e9lectionn\u00e9es \u00e9taient les lettres : 42, 43, 46, 49, 50, 54, 57 \u00e0 60, 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80 \u00e0 93 [section 2, retranscrites par Ingrid GUIMAR\u00c3ES] ; 241 \u00e0 242  [section 3, retranscrites par Yagmur OZTURK].\n",
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "t",
+        "r",
+        "o",
+        "a",
+        "n",
+        "i",
+        "s",
+        "h",
+        "l",
+        ".",
+        "d",
+        "f",
+        "c",
+        "u",
+        "y",
+        "m",
+        ",",
+        "S",
+        "M",
+        "w",
+        "p",
+        "g",
+        "b",
+        "C",
+        "I",
+        "v",
+        "R",
+        "A",
+        "E",
+        "D",
+        "F",
+        "P",
+        "T",
+        "k",
+        "O",
+        "L",
+        "N",
+        "W",
+        "1",
+        "B",
+        "J",
+        "H",
+        "2",
+        "-",
+        "U",
+        "0",
+        "G",
+        "Y",
+        "5",
+        "9",
+        ":",
+        "'",
+        "q",
+        "x",
+        "V",
+        "3",
+        "K",
+        "4",
+        "\u15c5",
+        "8",
+        "7",
+        "(",
+        ")",
+        "j",
+        "^",
+        "\"",
+        "&",
+        "z",
+        "6",
+        "?",
+        "\u27e6",
+        "\u27e7",
+        "\u15de",
+        "Q",
+        ";",
+        "\u1455",
+        "$",
+        "+",
+        "*",
+        "Z"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF",
+    "description": "\"Les donn\u00e9es sources ont \u00e9t\u00e9 t\u00e9l\u00e9vers\u00e9es sur le site From the page par les Archives de l\u2019Universit\u00e9 Stanford qui en sont les propri\u00e9taires. Elles ont ensuite \u00e9t\u00e9 retranscrites par des b\u00e9n\u00e9voles anonymes ; c'est leur travail nous a servi de base pour corriger nos propres retranscriptions. Les documents sources choisies sont des lettres de diff\u00e9  rents auteurs portant sur les obs\u00e8ques de Jane Lathrop Stanford.  Les lettres s\u00e9lectionn\u00e9es \u00e9taient les lettres : 42, 43, 46, 49, 50, 54, 57 \u00e0 60, 69, 75, 76 [section 1, retranscrites par Perrine MAUREL] ; 80 \u00e0 93 [section 2, retranscrites par Ingrid GUIMAR\u00c3ES] ; 241 \u00e0 242  [section 3, retranscrites par Yagmur OZTURK].",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-file",
+      "precision": "estimated"
+    },
+    "institutions": [],
     "language": [
       "eng"
     ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "ENC - Bonnes pratiques du developpement collaboratif",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -8118,44 +8231,32 @@
     ],
     "script-type": "evenly-mixed",
     "time": {
-      "notBefore": "1905",
-      "notAfter": "1905"
+      "notAfter": "1905",
+      "notBefore": "1905"
     },
-    "hands": {
-      "count": "1-per-file",
-      "precision": "estimated"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "citation-file-link": "https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford/main/CITATION.CFF",
-    "transcription-guidelines": "Notre retranscription en elle-m\u00eame a cherch\u00e9 \u00e0 retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les erreurs \u00e9ventuelles intrins\u00e8ques au document. Il convient toutefois de noter que dans certains cas, les documents pr\u00e9sentaient des mentions impr\u00e9cises qui n\u2019avaient pas \u00e9t\u00e9 prises en compte par les retranscriptions originelles, ou alors qui avaient \u00e9t\u00e9 soulign\u00e9es comme \u00e9tant une retranscription incertaine. Nous avons alors fait le choix d\u2019\u00eatre plus exhaustif que la retranscription originelle si possible, et nous avons parfois fait des choix de retranscription diff\u00e9rents sur la base de notre ressenti visuel lors du travail. En raison de ces choix, la taille d\u2019une page s\u2019est donc parfois av\u00e9r\u00e9e rallong\u00e9e par rapport \u00e0 l\u2019estimation premi\u00e8re.'\n",
+    "title": "Memorials for Jane Lathrop Stanford",
+    "transcription-guidelines": "Notre retranscription en elle-m\u00eame a cherch\u00e9 \u00e0 retranscrire le texte ipsis litteris, sans le corriger, en conservant donc les erreurs \u00e9ventuelles intrins\u00e8ques au document. Il convient toutefois de noter que dans certains cas, les documents pr\u00e9sentaient des mentions impr\u00e9cises qui n'avaient pas \u00e9t\u00e9 prises en compte par les retranscriptions originelles, ou alors qui avaient \u00e9t\u00e9 soulign\u00e9es comme \u00e9tant une retranscription incertaine. Nous avons alors fait le choix d'\u00eatre plus exhaustif que la retranscription originelle si possible, et nous avons parfois fait des choix de retranscription diff\u00e9rents sur la base de notre ressenti visuel lors du travail. En raison de ces choix, la taille d'une page s'est donc parfois av\u00e9r\u00e9e rallong\u00e9e par rapport \u00e0 l'estimation premi\u00e8re.\n\nAddition: les r\u00e8gles de transcriptions ont \u00e9t\u00e9 adapt\u00e9es pour \u00eatre compatibles avec les pr\u00e9conisations CREMMA/CATMuS, \u00e0 savoir : les portions de texte suscrites sont pr\u00e9c\u00e9d\u00e9es d'un \"^\", les mots barr\u00e9s ou illisible sont encadr\u00e9s des signes \"\u27e6\" et \"\u27e7\". Les zones ne sont pas trac\u00e9es dans le document, mais l'ontologie segmOnto a \u00e9t\u00e9 appliqu\u00e9e pour le typage des lignes, en suivant 5 types possibles: DefaultLine:Handwritten, DefaultLine:Print, DefaultLine:Typewritten, DefaultLine:Signature et InterlinearLine:Handwritten. Cela permet de distinguer ais\u00e9ment les lignes manuscrites ou tapuscrites des en-t\u00eates pr\u00e9imprim\u00e9es des papiers \u00e0 lettre.",
+    "url": "https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford",
     "volume": [
       {
-        "metric": "characters",
-        "count": 18063
+        "count": 18323,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 41
+        "count": 41,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 770
+        "count": 774,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 51
+        "count": 50,
+        "metric": "regions"
       }
     ],
-    "production-software": "Unknown [Automatically filled]",
-    "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Guimar\u00e3es, Ingrid and Maurel, Perrine and Ozturk, Yagmur},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle = {Memorials for Jane Lathrop Stanford},\nurl = {https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford},\nyear = {2022}\n}\n",
-    "_apa": "Guimar\u00e3es I., Maurel P., Ozturk Y. (2022). Memorials for Jane Lathrop Stanford (version 1.0). DOI: 10.5281/zenodo.6126625 URL: https://github.com/PSL-Chartes-HTR-Students/HN2021-Memorials_Jane_Lathrop_Stanford\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Guimar\u00e3es, Ingrid and Maurel, Perrine and Ozturk, Yagmur and Chagu\u00e9, Alix},\ndoi = {10.5281/zenodo.6126625},\nmonth = {2},\ntitle = {Memorials for Jane Lathrop Stanford},\nyear = {2022}\n}\n",
+    "_apa": "Guimar\u00e3es I., Maurel P., Ozturk Y., Chagu\u00e9 A. (2022). Memorials for Jane Lathrop Stanford (version 1.0). DOI: 10.5281/zenodo.6126625\n",
     "_pid": "084b4588d"
   },
   "cae2922ee": {
