@@ -4468,9 +4468,9 @@
     - a
     - t
     - n
-    - r
-    - o
     - u
+    - o
+    - r
     - l
     - c
     - m
@@ -4484,84 +4484,89 @@
     - ⁊
     - h
     - b
-    - ̾
     - z
-    - Q
-    - ͥ
-    - S
+    - ̾
+    - y
     - x
+    - ͥ
+    - Q
+    - S
+    - E
     - C
     - ꝑ
-    - ꝯ
-    - L
-    - ͣ
-    - E
-    - y
-    - D
-    - A
     - I
+    - ͣ
+    - L
+    - ꝯ
+    - A
+    - D
     - ꝰ
+    - R
     - M
     - k
+    - ','
     - ':'
-    - N
-    - P
     - T
+    - P
+    - N
     - ᷑
-    - R
     - O
     - U
-    - ᷤ
-    - ¶
-    - F
-    - B
     - ͤ
-    - G
-    - K
-    - H
-    - w
-    - ͦ
-    - ','
-    - ÷
-    - ꝓ
+    - ᷤ
     - ⟦
     - ⟧
+    - B
+    - F
+    - K
+    - ¶
+    - G
+    - ͦ
+    - ^
+    - w
+    - H
+    - 
+    - ꝓ
+    - ÷
     - '-'
+    - ẜ
+    - ̵
+    - '3'
+    - '9'
     - '0'
     - '2'
     - '1'
-    - ̵
-    - ̌
-    - ẜ
-    - '9'
-    - '5'
-    - '4'
-    - '3'
-    - '7'
-    - '6'
-    - '&'
-    - 
-    - ͬ
-    - ˣ
-    - Y
     - ͭ
-    - ⁜
+    - '5'
+    - ̌
+    - ł
+    - '4'
+    - '6'
+    - '7'
+    - ͬ
     - ͫ
+    - '&'
+    - ꝙ
+    - ꝭ
     - /
+    - ˣ
+    - ͨ
+    - Y
     - ᷠ
+    - ⁜
     - "'"
     - '8'
-    - ^
-    - 
-    - ͨ
-    - ́
+    - ꝵ
     - ͧ
+    - ᷝ
+    - ħ
+    - 
+    - '*'
+    - ́
     - ̂
     - X
-    - ł
     - ̧
     - ᵈ
-    - ꝙ
     - Ʒ
     mode: NFD
   description: >-
@@ -4601,13 +4606,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-french
   volume:
-  - count: 192943
+  - count: 247397
     metric: characters
-  - count: 91
+  - count: 124
     metric: files
-  - count: 7173
+  - count: 8890
     metric: lines
-  - count: 525
+  - count: 714
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Leroy, Noé and Pinche, Ariane and\
     \ Camps, Jean-Baptiste and Clérice, Thibault and Chagué, Alix},\ntitle = {HTRomance,\

@@ -97,10 +97,10 @@
 95,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
 96,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
 97,HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,586,Page-XML,evenly-mixed
-98,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,192943,Alto-XML,only-manuscript
-99,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,91,Alto-XML,only-manuscript
-100,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,7173,Alto-XML,only-manuscript
-101,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,525,Alto-XML,only-manuscript
+98,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,247397,Alto-XML,only-manuscript
+99,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,124,Alto-XML,only-manuscript
+100,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,8890,Alto-XML,only-manuscript
+101,HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,714,Alto-XML,only-manuscript
 102,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,84383,Alto-XML,only-manuscript
 103,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,60,Alto-XML,only-manuscript
 104,HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,3086,Alto-XML,only-manuscript
