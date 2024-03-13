@@ -3268,32 +3268,125 @@
     "_pid": "2a76930c9"
   },
   "92add71a0": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Manuscrits du 16e",
-    "url": "https://github.com/HTR-United/CREMMA-MSS-16",
-    "project-name": "CREMMA",
     "authors": [
       {
-        "name": "Cl\u00e9rice",
-        "surname": "Thibault",
+        "name": "Thibault",
+        "orcid": "0000-0003-1852-9204",
         "roles": [
           "project-manager",
-          "quality-control"
-        ]
+          "quality-control",
+          "support"
+        ],
+        "surname": "Cl\u00e9rice"
       },
       {
-        "name": "Chagu\u00e9",
-        "surname": "Alix",
+        "name": "Alix",
+        "orcid": "0000-0002-0136-4434",
         "roles": [
           "project-manager",
-          "quality-control"
-        ]
+          "quality-control",
+          "support"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Ana\u00efs",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Mazoue"
       }
     ],
-    "description": "Manuscripts of the 16th century\n",
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "r",
+        "n",
+        "a",
+        "u",
+        "o",
+        "t",
+        "i",
+        "l",
+        "\u017f",
+        "d",
+        "s",
+        "c",
+        "m",
+        "p",
+        "v",
+        "y",
+        "q",
+        "g",
+        "f",
+        "b",
+        "z",
+        "h",
+        "J",
+        "/",
+        "x",
+        "R",
+        "^",
+        "L",
+        "I",
+        ".",
+        "E",
+        "\u1e9c",
+        "\u204a",
+        "M",
+        "1",
+        "\ua751",
+        "A",
+        "\u0301",
+        "\u033e",
+        "<",
+        ">",
+        "j",
+        "C",
+        "D",
+        "3",
+        "\ua759",
+        "9",
+        "V",
+        "7",
+        "6",
+        "\u2019",
+        "P",
+        "8",
+        "\ua750",
+        "\u0303",
+        "T",
+        "(",
+        "S",
+        "N",
+        ";",
+        "Q",
+        "\u0300",
+        "5",
+        "0",
+        "U"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/HTR-United/CREMMA-MSS-16/CITATION.cff",
+    "description": "Manuscripts of the 16th century",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "institutions": [],
     "language": [
       "fra"
     ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -3301,41 +3394,32 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1500",
-      "notAfter": "1599"
+      "notAfter": "1599",
+      "notBefore": "1500"
     },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
+    "title": "CREMMA MSS 16",
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-16",
     "volume": [
       {
-        "count": 0,
-        "metric": "lines"
+        "count": 10911,
+        "metric": "characters"
       },
       {
-        "count": 0,
+        "count": 9,
         "metric": "files"
       },
       {
-        "count": 0,
-        "metric": "regions"
+        "count": 244,
+        "metric": "lines"
       },
       {
-        "count": 0,
-        "metric": "characters"
+        "count": 18,
+        "metric": "regions"
       }
     ],
-    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
-    "production-software": "eScriptorium + Kraken",
-    "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Mazoue, Ana\u00efs and Cl\u00e9rice, Thibault and Chagu\u00e9, Alix},\nmonth = {3},\ntitle = {CREMMA-MSS-16},\nurl = {https://github.com/HTR-United/CREMMA-MSS-16},\nyear = {2024}\n}\n",
+    "_apa": "Mazoue A., Cl\u00e9rice T., Chagu\u00e9 A. (2024). CREMMA-MSS-16 URL: https://github.com/HTR-United/CREMMA-MSS-16\n",
     "_pid": "92add71a0"
   },
   "f31231d2b": {
@@ -3541,105 +3625,55 @@
     "_pid": "f31231d2b"
   },
   "080333ca7": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Manuscrits du 18e",
-    "url": "https://github.com/HTR-United/CREMMA-MSS-18",
-    "project-name": "CREMMA",
     "authors": [
       {
         "name": "Chagu\u00e9",
-        "surname": "Alix",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Alix"
       },
       {
         "name": "Cl\u00e9rice",
-        "surname": "Thibault",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Thibault"
       },
       {
         "name": "Norindr",
-        "surname": "Jade",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Jade"
       },
       {
         "name": "Norindr",
-        "surname": "Jade",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Jade"
       },
       {
-        "name": "Falcoz",
-        "surname": "Elsa",
+        "name": "Van Kote",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Elsa"
       },
       {
         "name": "Faure",
-        "surname": "Margaux",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Margaux"
       }
     ],
-    "description": "Manuscripts of the 18th century",
-    "language": [
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1700",
-      "notAfter": "1799"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 141747
-      },
-      {
-        "metric": "files",
-        "count": 125
-      },
-      {
-        "metric": "lines",
-        "count": 4017
-      },
-      {
-        "metric": "regions",
-        "count": 329
-      }
-    ],
-    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "s",
@@ -3698,19 +3732,19 @@
         "5",
         "\u0303",
         "-",
-        "[",
-        "]",
         "7",
         "B",
         "8",
-        "X",
         "A",
+        "[",
+        "]",
         "9",
         "N",
         "F",
         "G",
         "T",
         "?",
+        "X",
         "\u0327",
         "/",
         ":",
@@ -3744,9 +3778,61 @@
         "\u0304",
         "\u00bb",
         "\u0366"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "description": "Manuscripts of the 18th century",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1799",
+      "notBefore": "1700"
+    },
+    "title": "CREMMA Manuscrits du 18e",
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-18",
+    "volume": [
+      {
+        "count": 141690,
+        "metric": "characters"
+      },
+      {
+        "count": 125,
+        "metric": "files"
+      },
+      {
+        "count": 4019,
+        "metric": "lines"
+      },
+      {
+        "count": 329,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Van Kote, Elsa and Faure, Margaux and Norindr, Jade and Cl\u00e9rice, Thibault and Chagu\u00e9, Alix},\nmonth = {3},\ntitle = {CREMMA-MSS-18},\nurl = {https://github.com/HTR-United/CREMMA-MSS-18},\nyear = {2024}\n}\n",
+    "_apa": "Van Kote E., Faure M., Norindr J., Cl\u00e9rice T., Chagu\u00e9 A. (2024). CREMMA-MSS-18 URL: https://github.com/HTR-United/CREMMA-MSS-18\n",
     "_pid": "080333ca7"
   },
   "6bd8117b0": {
@@ -7830,6 +7916,84 @@
     "_apa": "Norindr J., Cl\u00e9rice T., Chagu\u00e9 A. HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/medieval-italian\n",
     "_pid": "6a0153816"
   },
+  "0e00a1bee": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "gt_structure_text",
+    "url": "https://github.com/OCR-D/gt_structure_text",
+    "authors": [
+      {
+        "name": "Matthias",
+        "surname": "Boenig",
+        "orcid": "0000-0003-4615-4753",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control",
+          "digitization",
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The OCR-D Ground Truth text and structure corpus was created between 2015-2017. In the years since 2017, this corpus has been further curated and supplemented with metadata where appropriate. The corpus includes page XML files within annotations of the text and structure include. The data is based on transcription data stored in the German Text Archive (DTA) (https://www.deutschestextarchiv.de/).",
+    "project-name": "OCR-D",
+    "project-website": "https://ocr-d.de/",
+    "language": [
+      "eng",
+      "fra",
+      "deu",
+      "heb",
+      "lat"
+    ],
+    "production-software": "Aletheia",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      },
+      {
+        "iso": "Goth"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1900",
+      "notBefore": "1500"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 640976,
+        "metric": "characters"
+      },
+      {
+        "count": 217,
+        "metric": "files"
+      },
+      {
+        "count": 6608,
+        "metric": "lines"
+      },
+      {
+        "count": 1647,
+        "metric": "regions"
+      }
+    ],
+    "citation-file-link": "https://raw.githubusercontent.com/OCR-D/gt_structure_text/main/CITATION.cff",
+    "transcription-guidelines": "OCR-D Ground Truth Guidelines https://ocr-d.de/en/gt-guidelines/trans/",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {2},\ntitle = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\nyear = {2024}\n}\n",
+    "_apa": "Boenig M. (2024). gt_structure_text (version 52_v1.1.9). URL: https://github.com/OCR-D/gt_structure_text\n",
+    "_pid": "0e00a1bee"
+  },
   "f1d4dac34": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "De la g\u00e9n\u00e9alogie des dieux",
@@ -9810,8 +9974,8 @@
         "b",
         "\u204a",
         "z",
-        "\u00ac",
         "x",
+        "\u00ac",
         ":",
         "C",
         "I",
@@ -9830,18 +9994,18 @@
         "T",
         "N",
         "Q",
-        "\u036c",
         "4",
-        "R",
+        "\u036c",
         "5",
+        "R",
         "U",
         "?",
         "\ua770",
-        ",",
         "6",
         "O",
         "0",
         "H",
+        ",",
         "G",
         "B",
         "(",
@@ -9852,14 +10016,13 @@
         "\ua753",
         "F",
         "\ua751",
-        "\u25ca",
-        "-",
         "\u0308",
         "\u0142",
         "\u00a0",
         "\ua76f",
+        "-",
+        "\u25ca",
         "\u00f0",
-        ";",
         "\ua75d",
         "'",
         "\u0300",
@@ -9874,6 +10037,7 @@
         "J",
         "\ua76b",
         "w",
+        ";",
         "\ua757",
         "\u0307",
         "\u030c"
@@ -9913,19 +10077,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 662312,
+        "count": 648218,
         "metric": "characters"
       },
       {
-        "count": 915,
+        "count": 895,
         "metric": "files"
       },
       {
-        "count": 25220,
+        "count": 24701,
         "metric": "lines"
       },
       {
-        "count": 2812,
+        "count": 2752,
         "metric": "regions"
       }
     ],

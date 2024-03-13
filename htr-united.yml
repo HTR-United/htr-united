@@ -1582,49 +1582,132 @@
   transcription-guidelines: Abréviations conservées.
   production-software: eScriptorium + Kraken
   automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: CREMMA Manuscrits du 16e
-  url: https://github.com/HTR-United/CREMMA-MSS-16
-  project-name: CREMMA
-  authors:
-  - name: Clérice
-    surname: Thibault
+- authors:
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
     roles:
     - project-manager
     - quality-control
-  - name: Chagué
-    surname: Alix
+    - support
+    surname: Clérice
+  - name: Alix
+    orcid: 0000-0002-0136-4434
     roles:
     - project-manager
     - quality-control
-  description: "Manuscripts of the 16th century\n"
+    - support
+    surname: Chagué
+  - name: Anaïs
+    roles:
+    - transcriber
+    surname: Mazoue
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - r
+    - n
+    - a
+    - u
+    - o
+    - t
+    - i
+    - l
+    - ſ
+    - d
+    - s
+    - c
+    - m
+    - p
+    - v
+    - y
+    - q
+    - g
+    - f
+    - b
+    - z
+    - h
+    - J
+    - /
+    - x
+    - R
+    - ^
+    - L
+    - I
+    - .
+    - E
+    - ẜ
+    - ⁊
+    - M
+    - '1'
+    - ꝑ
+    - A
+    - ́
+    - ̾
+    - <
+    - '>'
+    - j
+    - C
+    - D
+    - '3'
+    - ꝙ
+    - '9'
+    - V
+    - '7'
+    - '6'
+    - ’
+    - P
+    - '8'
+    - Ꝑ
+    - ̃
+    - T
+    - (
+    - S
+    - N
+    - ;
+    - Q
+    - ̀
+    - '5'
+    - '0'
+    - U
+    mode: NFD
+  citation-file-link: https://github.com/HTR-United/CREMMA-MSS-16/CITATION.cff
+  description: Manuscripts of the 16th century
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
+  institutions: []
   language:
   - fra
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: CREMMA
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1500'
     notAfter: '1599'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - count: 0
-    metric: lines
-  - count: 0
-    metric: files
-  - count: 0
-    metric: regions
-  - count: 0
-    metric: characters
+    notBefore: '1500'
+  title: CREMMA MSS 16
   transcription-guidelines: Abréviations conservées.
-  production-software: eScriptorium + Kraken
-  automatically-aligned: false
+  url: https://github.com/HTR-United/CREMMA-MSS-16
+  volume:
+  - count: 10911
+    metric: characters
+  - count: 9
+    metric: files
+  - count: 244
+    metric: lines
+  - count: 18
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Mazoue, Anaïs and Clérice, Thibault\
+    \ and Chagué, Alix},\nmonth = {3},\ntitle = {CREMMA-MSS-16},\nurl = {https://github.com/HTR-United/CREMMA-MSS-16},\n\
+    year = {2024}\n}\n"
+  _apa: "Mazoue A., Clérice T., Chagué A. (2024). CREMMA-MSS-16 URL: https://github.com/HTR-United/CREMMA-MSS-16\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 17e
   url: https://github.com/HTR-United/CREMMA-MSS-17
@@ -1785,68 +1868,36 @@
     - ε
     - ϕ
   automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: CREMMA Manuscrits du 18e
-  url: https://github.com/HTR-United/CREMMA-MSS-18
-  project-name: CREMMA
-  authors:
+- authors:
   - name: Chagué
+    roles:
+    - project-manager
+    - quality-control
     surname: Alix
-    roles:
-    - project-manager
-    - quality-control
   - name: Clérice
-    surname: Thibault
     roles:
     - project-manager
     - quality-control
+    surname: Thibault
   - name: Norindr
-    surname: Jade
     roles:
     - transcriber
-  - name: Norindr
     surname: Jade
+  - name: Norindr
     roles:
     - transcriber
-  - name: Falcoz
+    surname: Jade
+  - name: Van Kote
+    roles:
+    - transcriber
+    - aligner
     surname: Elsa
-    roles:
-    - transcriber
-    - aligner
   - name: Faure
-    surname: Margaux
     roles:
     - transcriber
     - aligner
-  description: Manuscripts of the 18th century
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1700'
-    notAfter: '1799'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 141747
-  - metric: files
-    count: 125
-  - metric: lines
-    count: 4017
-  - metric: regions
-    count: 329
-  transcription-guidelines: Abréviations conservées.
-  production-software: eScriptorium + Kraken
+    surname: Margaux
   characters:
-    mode: NFD
     members:
     - e
     - s
@@ -1905,19 +1956,19 @@
     - '5'
     - ̃
     - '-'
-    - '['
-    - ']'
     - '7'
     - B
     - '8'
-    - X
     - A
+    - '['
+    - ']'
     - '9'
     - N
     - F
     - G
     - T
     - '?'
+    - X
     - ̧
     - /
     - ':'
@@ -1951,7 +2002,45 @@
     - ̄
     - »
     - ͦ
+    mode: NFD
+  description: Manuscripts of the 18th century
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: CREMMA
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1799'
+    notBefore: '1700'
+  title: CREMMA Manuscrits du 18e
+  transcription-guidelines: Abréviations conservées.
+  url: https://github.com/HTR-United/CREMMA-MSS-18
+  volume:
+  - count: 141690
+    metric: characters
+  - count: 125
+    metric: files
+  - count: 4019
+    metric: lines
+  - count: 329
+    metric: regions
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Van Kote, Elsa and Faure, Margaux\
+    \ and Norindr, Jade and Clérice, Thibault and Chagué, Alix},\nmonth = {3},\ntitle\
+    \ = {CREMMA-MSS-18},\nurl = {https://github.com/HTR-United/CREMMA-MSS-18},\nyear\
+    \ = {2024}\n}\n"
+  _apa: "Van Kote E., Faure M., Norindr J., Clérice T., Chagué A. (2024). CREMMA-MSS-18\
+    \ URL: https://github.com/HTR-United/CREMMA-MSS-18\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: CREMMA Manuscrits du 19e
   url: https://github.com/HTR-United/CREMMA-MSS-19
@@ -6403,6 +6492,67 @@
     \ with a \"€\"."
   automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: gt_structure_text
+  url: https://github.com/OCR-D/gt_structure_text
+  authors:
+  - name: Matthias
+    surname: Boenig
+    orcid: 0000-0003-4615-4753
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  institutions: []
+  description: >-
+    The OCR-D Ground Truth text and structure corpus was created between
+    2015-2017. In the years since 2017, this corpus has been further curated and
+    supplemented with metadata where appropriate. The corpus includes page XML
+    files within annotations of the text and structure include. The data is based
+    on transcription data stored in the German Text Archive (DTA)
+    (https://www.deutschestextarchiv.de/).
+  project-name: OCR-D
+  project-website: https://ocr-d.de/
+  language:
+  - eng
+  - fra
+  - deu
+  - heb
+  - lat
+  production-software: Aletheia
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  - iso: Goth
+  script-type: only-typed
+  time:
+    notAfter: '1900'
+    notBefore: '1500'
+  hands:
+    count: less-than-11
+    precision: exact
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  volume:
+  - count: 640976
+    metric: characters
+  - count: 217
+    metric: files
+  - count: 6608
+    metric: lines
+  - count: 1647
+    metric: regions
+  citation-file-link: https://raw.githubusercontent.com/OCR-D/gt_structure_text/main/CITATION.cff
+  transcription-guidelines: OCR-D Ground Truth Guidelines https://ocr-d.de/en/gt-guidelines/trans/
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {2},\n\
+    title = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\n\
+    year = {2024}\n}\n"
+  _apa: "Boenig M. (2024). gt_structure_text (version 52_v1.1.9). URL: https://github.com/OCR-D/gt_structure_text\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
   project-name: ENC - Bonnes pratiques du developpement collaboratif
@@ -8056,8 +8206,8 @@
     - b
     - ⁊
     - z
-    - ¬
     - x
+    - ¬
     - ':'
     - C
     - I
@@ -8076,18 +8226,18 @@
     - T
     - N
     - Q
-    - ͬ
     - '4'
-    - R
+    - ͬ
     - '5'
+    - R
     - U
     - '?'
     - ꝰ
-    - ','
     - '6'
     - O
     - '0'
     - H
+    - ','
     - G
     - B
     - (
@@ -8098,14 +8248,13 @@
     - ꝓ
     - F
     - ꝑ
-    - ◊
-    - '-'
     - ̈
     - ł
     -  
     - ꝯ
+    - '-'
+    - ◊
     - ð
-    - ;
     - ꝝ
     - "'"
     - ̀
@@ -8120,6 +8269,7 @@
     - J
     - ꝫ
     - w
+    - ;
     - ꝗ
     - ̇
     - ̌
@@ -8156,13 +8306,13 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 662312
+  - count: 648218
     metric: characters
-  - count: 915
+  - count: 895
     metric: files
-  - count: 25220
+  - count: 24701
     metric: lines
-  - count: 2812
+  - count: 2752
     metric: regions
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
