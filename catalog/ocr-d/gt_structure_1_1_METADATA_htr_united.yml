@@ -1,0 +1,51 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: gt_structure_1_1
+url: https://github.com/OCR-D/gt_structure_1_1
+authors:
+      - name: Matthias 
+        surname: Boenig
+        orcid: 0000-0003-4615-4753
+        roles:
+          - transcriber
+          - aligner
+          - project-manager
+          - quality-control
+          - digitization
+          - support
+institutions: []
+description: >-
+  The repo gt_structure_1_1 is part of the OCR-D Ground Truth Structure corpus. Only the structure of the printed page is annotated. The corpus was created as a result of the DFG project OCR-D. Corrections and extensions can be reported, please use the Issues.
+project-name: OCR-D
+project-website: https://ocr-d.de/
+language:
+  - deu
+production-software: Aletheia
+automatically-aligned: false
+script:
+  - iso: Latn
+  - iso: Goth
+script-type: 
+    only-typed
+time:
+  notAfter: '1920'
+  notBefore: '1600'
+hands:
+  count: unknown
+  precision: exact
+license:
+  name: CC0 1.0
+  url: https://creativecommons.org/licenses/zero/1.0/
+format: Page-XML
+volume:
+- count: 0
+  metric: characters
+  - count: 1317
+  metric: files
+  - count: 0
+  metric: lines
+  - count: 9457
+  metric: regions
+citation-file-link: https://github.com/OCR-D/gt_structure_1_1/blob/main/CITATION.cff
+transcription-guidelines: >-
+  OCR-D-GT-Guideline, Part: Structur Ground Truth
+https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
