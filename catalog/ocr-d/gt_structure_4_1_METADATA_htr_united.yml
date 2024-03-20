@@ -37,13 +37,13 @@ license:
   url: https://creativecommons.org/licenses/zero/1.0/
 format: Page-XML
 volume:
-  - count: 0
+- count: 0
   metric: characters
-  - count: 1646
+- count: 1646
   metric: files
-  - count: 0
+- count: 0
   metric: lines
-  - count: 6005
+- count: 6005
   metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_4_1/blob/main/CITATION.cff
 transcription-guidelines: >-
