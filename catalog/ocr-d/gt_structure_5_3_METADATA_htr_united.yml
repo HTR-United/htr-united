@@ -1,6 +1,6 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: gt_structure_2_4
-url: https://github.com/OCR-D/gt_structure_2_4
+title: gt_structure_5_3
+url: https://github.com/OCR-D/tboenig/gt_structure_5_3
 authors:
       - name: Matthias 
         surname: Boenig
@@ -14,7 +14,7 @@ authors:
           - support
 institutions: []
 description: >-
-  The repo gt_structure_2_4 is part of the OCR-D Ground Truth Structure corpus. Only the structure of the printed page is annotated. The corpus was created as a result of the DFG project OCR-D. Corrections and extensions can be reported, please use the Issues.
+  The repo gt_structure_5_3 is part of the OCR-D Ground Truth Structure corpus. Only the structure of the printed page is annotated. The corpus was created as a result of the DFG project OCR-D. Corrections and extensions can be reported, please use the Issues.
 project-name: OCR-D
 project-website: https://ocr-d.de/
 language:
@@ -39,13 +39,13 @@ format: Page-XML
 volume:
   - count: 0
   metric: characters
-  - count: 1388
+  - count: 1768
   metric: files
   - count: 0
   metric: lines
-  - count: 5358
+  - count: 8132
   metric: regions
-citation-file-link: https://github.com/OCR-D/gt_structure_2_4/blob/main/CITATION.cff
+citation-file-link: https://github.com/OCR-D/gt_structure_5_3/blob/main/CITATION.cff
 transcription-guidelines: >-
   OCR-D-GT-Guideline, Part: Structur Ground Truth
 https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html

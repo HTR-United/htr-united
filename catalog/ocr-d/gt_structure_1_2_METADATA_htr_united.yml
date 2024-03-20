@@ -37,7 +37,7 @@ license:
   url: https://creativecommons.org/licenses/zero/1.0/
 format: Page-XML
 volume:
-- count: 0
+  - count: 0
   metric: characters
   - count: 1336
   metric: files
@@ -45,7 +45,7 @@ volume:
   metric: lines
   - count: 7224
   metric: regions
-citation-file-link: 
+citation-file-link: https://github.com/OCR-D/gt_structure_1_2/blob/main/CITATION.cff
 transcription-guidelines: >-
   OCR-D-GT-Guideline, Part: Structur Ground Truth
 https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
