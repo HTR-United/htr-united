@@ -8693,45 +8693,55 @@
     "_pid": "43d1c93c7"
   },
   "563cfbd31": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "DecameronFR",
-    "url": "https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR",
-    "project-name": "ENC - Bonnes pratiques du developpement collaboratif\n",
     "authors": [
       {
         "name": "Biay",
-        "surname": "S\u00e9bastien",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "S\u00e9bastien"
       },
       {
         "name": "Cappe",
-        "surname": "Zo\u00e9",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Zo\u00e9"
       },
       {
         "name": "Konstantinova",
-        "surname": "Kristina",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Kristina"
       },
       {
         "name": "Boby",
-        "surname": "Victor",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Victor"
       }
     ],
+    "citation-file-link": "https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff",
     "description": "Le projet vise \u00e0 la consitution de v\u00e9rit\u00e9s de terrain pour l\u2019entra\u00eenement de mod\u00e8les HTR \u00e0 partir d'un manuscrit fran\u00e7ais des ann\u00e9es 1430-1455 : le manuscrit 5070 de la Biblioth\u00e8que de l'Arsenal (reproduit sur Gallica). Ce manuscrit contient la traduction fran\u00e7aise du Decameron de Boccace par Laurent de Premierfait. Nos v\u00e9rit\u00e9s de terrain recouvrent la description de la peste \u00e0 Florence situ\u00e9e dans le prologue de l'ouvrage.\n",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
     "language": [
       "frm"
     ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "project-name": "ENC - Bonnes pratiques du developpement collaboratif\n",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -8739,38 +8749,28 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1430",
-      "notAfter": "1455"
+      "notAfter": "1455",
+      "notBefore": "1430"
     },
-    "hands": {
-      "count": "1",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "citation-file-link": "https://raw.githubusercontent.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/main/CITATION.cff",
+    "title": "DecameronFR",
     "transcription-guidelines": "Cf. https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR/blob/main/normesTranscription.md\n",
+    "url": "https://github.com/PSL-Chartes-HTR-Students/TNAH-2021-DecameronFR",
     "volume": [
       {
-        "metric": "characters",
-        "count": 19821
+        "count": 19821,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 9
+        "count": 9,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 751
+        "count": 751,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 41
+        "count": 41,
+        "metric": "regions"
       }
     ],
     "production-software": "Unknown [Automatically filled]",
