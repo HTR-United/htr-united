@@ -1,0 +1,26 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Biblia Arabica Example Code
+url: https://github.com/biblia-arabica/academies
+authors: []
+institutions: []
+description: >-
+  Results of a pilot project for Arabic biblical manuscripts with general and
+  manuscript-specific models.
+language:
+  - ara
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Arab
+script-type: only-manuscript
+time:
+  notBefore: '0900'
+  notAfter: '1900'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+transcription-guidelines: https://github.com/biblia-arabica/academies/tree/main/htr/conventions
