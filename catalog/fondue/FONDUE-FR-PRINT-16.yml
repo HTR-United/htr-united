@@ -1,0 +1,42 @@
+authors:
+- name: Gabay
+  orcid: 0000-0001-9094-4475
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  - support
+  surname: Simon
+citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff
+description: ' Transcriptions of French 16th c. prints '
+format: Alto-XML
+hands:
+  count: unknown
+  precision: exact
+language:
+- fra
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+project-website: https://github.com/FoNDUE-HTR/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1600'
+  notBefore: '1500'
+title: FONDUE-FR-PRINT-16
+transcription-guidelines: SegmOnto
+url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16
+volume:
+- count: 504656
+  metric: characters
+- count: 930
+  metric: files
+- count: 17817
+  metric: lines
+- count: 2829
+  metric: regions

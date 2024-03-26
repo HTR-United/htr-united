@@ -1,0 +1,66 @@
+authors:
+- name: Pradier
+  orcid: 0000-0002-3476-7248
+  roles:
+  - transcriber
+  surname: Frédérine
+- name: Gabay
+  orcid: 0000-0001-9094-4475
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  - support
+  surname: Simon
+- name: Kervegan
+  orcid: 0000-0003-2821-8821
+  roles:
+  - transcriber
+  surname: Paul
+- name: Janès
+  orcid: 0000-0002-8971-6173
+  roles:
+  - transcriber
+  surname: Juliette
+- name: Sánchez Oeconomo
+  orcid: 0000-0002-8591-5394
+  roles:
+  - transcriber
+  surname: Esteban
+citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff
+description: 'Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed
+  in France but not only.'
+transcription-guidelines: 'Segmentation include an extra zone `CustomeZone: entry`'
+format: Alto-XML
+hands:
+  count: unknown
+  precision: exact
+institutions: []
+language:
+- por
+- fra
+- ita
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+project-website: https://github.com/FoNDUE-HTR
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1972'
+  notBefore: '1818'
+title: FONDUE-MLT-CAT
+url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
+volume:
+- count: 1285120
+  metric: characters
+- count: 1381
+  metric: files
+- count: 43114
+  metric: lines
+- count: 10713
+  metric: regions

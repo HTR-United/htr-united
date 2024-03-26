@@ -1,0 +1,147 @@
+authors:
+- name: Peter
+  roles:
+  - transcriber
+  surname: Nahon
+- name: Simon
+  orcid: 0000-0001-9094-4475
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  - support
+  surname: Gabay
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - s
+  - a
+  - t
+  - u
+  - i
+  - r
+  - n
+  - o
+  - l
+  - d
+  - c
+  - m
+  - p
+  - ','
+  - v
+  - q
+  - .
+  - ́
+  - f
+  - g
+  - b
+  - h
+  - "'"
+  - ’
+  - I
+  - +
+  - y
+  - ¬
+  - '1'
+  - ̀
+  - ̂
+  - x
+  - V
+  - j
+  - S
+  - '2'
+  - ':'
+  - E
+  - X
+  - C
+  - L
+  - J
+  - '3'
+  - D
+  - '4'
+  - M
+  - ;
+  - ̈
+  - A
+  - '5'
+  - '6'
+  - '8'
+  - '9'
+  - '7'
+  - '0'
+  - P
+  - O
+  - ̧
+  - R
+  - '-'
+  - N
+  - G
+  - T
+  - '?'
+  - B
+  - œ
+  - H
+  -  
+  - Q
+  - α
+  - F
+  - z
+  - Z
+  - U
+  - ̓
+  - ο
+  - ν
+  - μ
+  - ω
+  - τ
+  - δ
+  - ε
+  - ρ
+  - φ
+  - (
+  - )
+  - '{'
+  - k
+  - Ψ
+  - ι
+  - υ
+  - π
+  - λ
+  - Y
+  - K
+  mode: NFD
+citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18/blob/master/CITATION.cff
+description: French Manuscripts of the 18th
+format: Alto-XML
+hands:
+  count: unknown
+  precision: exact
+institutions: []
+language:
+- fra
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: FoNDUE
+project-website: https://github.com/FoNDUE-HTR
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1799'
+  notBefore: '1700'
+title: FONDUE-FR-MSS-18
+transcription-guidelines: SegmOnto
+url: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18
+volume:
+- count: 108705
+  metric: characters
+- count: 82
+  metric: files
+- count: 2933
+  metric: lines
+- count: 203
+  metric: regions
