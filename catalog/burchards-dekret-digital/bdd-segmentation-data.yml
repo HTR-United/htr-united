@@ -1,0 +1,60 @@
+
+
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: bdd-segmentation-data
+url: https://github.com/michaelscho/bdd-segmentation-data
+authors:
+  - name: Michael
+    surname: Schonhardt
+    orcid: 0000-0002-2750-1900
+    roles:
+      - aligner
+      - project-manager
+      - quality-control
+  - name: Leo
+    surname: Felder
+    orcid: 0009-0008-7230-4229
+    roles:
+      - support
+  - name: Torben
+    surname: Jordan
+    orcid: 0009-0002-2143-0520
+    roles:
+      - support
+  - name: Christopher
+    surname: Oed
+    orcid: 0009-0001-3910-1832
+    roles:
+      - support
+institutions: []
+description: >-
+  This dataset comprises PageXML for training segmentation models in Transkribus
+  and Kraken. It is designed to capture the specific layout of medieval canon
+  law collections. Compiled from several 11th-century manuscripts of the
+  Decretum Burchardi, it supports the ongoing edition project Burchards Dekret
+  Digital. Annotations are tailored to project-specific needs but can be adapted
+  for other use cases. The data was first prepared using Transkribus and then
+  remasked in eScriptorium for usage in Kraken.
+project-name: Burchards Dekret Digital
+project-website: https://www.adwmainz.de/projekte/burchards-dekret-digital/informationen.html
+language:
+  - lat
+production-software: eScriptorium + Kraken + Transkribus
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1000'
+  notAfter: '1199'
+hands:
+  count: unknown
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: pages
+    count: 3000
+
