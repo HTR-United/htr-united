@@ -1822,7 +1822,6 @@
         "G",
         "F",
         "\u030c",
-        "\u0336",
         "\ua753",
         "J",
         "-",
@@ -1845,6 +1844,8 @@
         "'",
         "\u0399",
         "7",
+        "\u27e6",
+        "\u27e7",
         "8",
         "Y",
         "5",
@@ -1886,7 +1887,7 @@
     "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
     "volume": [
       {
-        "count": 90742,
+        "count": 90731,
         "metric": "characters"
       },
       {
