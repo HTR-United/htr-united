@@ -47,5 +47,4 @@ volume:
   metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_4_2/blob/main/CITATION.cff
 transcription-guidelines: >-
-  OCR-D-GT-Guideline, Part: Structure Ground Truth
-https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
+  OCR-D-GT-Guideline, Part: Structure Ground Truth  https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
