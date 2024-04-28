@@ -6552,7 +6552,7 @@
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {4},\n\
     title = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\n\
     year = {2024}\n}\n"
-  _apa: "Boenig M. (2024). gt_structure_text (version 57_v1.2.4). URL: https://github.com/OCR-D/gt_structure_text\n"
+  _apa: "Boenig M. (2024). gt_structure_text (version 62_v1.4.3). URL: https://github.com/OCR-D/gt_structure_text\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
