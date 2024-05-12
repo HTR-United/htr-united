@@ -749,7 +749,7 @@
       }
     ],
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n  url = {https://zenodo.org/record/6414086},\n  author = {Keijser, Liesbeth},\n  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC, WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n  url = {https://zenodo.org/doi/10.5281/zenodo.6414086},\n  author = {Liesbeth Keijser, },\n  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n  language = {odt},\n  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC, WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "3989ce92b"
   },
   "58807c215": {
