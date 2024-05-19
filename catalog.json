@@ -7991,8 +7991,8 @@
     ],
     "citation-file-link": "https://raw.githubusercontent.com/OCR-D/gt_structure_text/main/CITATION.cff",
     "transcription-guidelines": "OCR-D Ground Truth Guidelines https://ocr-d.de/en/gt-guidelines/trans/",
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {4},\ntitle = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\nyear = {2024}\n}\n",
-    "_apa": "Boenig M. (2024). gt_structure_text (version 62_v1.4.3). URL: https://github.com/OCR-D/gt_structure_text\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {5},\ntitle = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\nyear = {2024}\n}\n",
+    "_apa": "Boenig M. (2024). gt_structure_text (version 65_v1.4.6). URL: https://github.com/OCR-D/gt_structure_text\n",
     "_pid": "0e00a1bee"
   },
   "f1d4dac34": {
@@ -9975,8 +9975,8 @@
         "b",
         "\u204a",
         "z",
-        "x",
         "\u00ac",
+        "x",
         ":",
         "C",
         "I",
@@ -9992,13 +9992,13 @@
         "\u00b6",
         "\u0365",
         "3",
-        "T",
         "N",
+        "T",
         "Q",
         "4",
         "\u036c",
-        "5",
         "R",
+        "5",
         "U",
         "?",
         "\ua770",
@@ -10078,19 +10078,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 648218,
+        "count": 661548,
         "metric": "characters"
       },
       {
-        "count": 895,
+        "count": 913,
         "metric": "files"
       },
       {
-        "count": 24701,
+        "count": 25191,
         "metric": "lines"
       },
       {
-        "count": 2752,
+        "count": 2815,
         "metric": "regions"
       }
     ],
