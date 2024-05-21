@@ -38,14 +38,13 @@ license:
 format: Page-XML
 volume:
   - count: 0
-  metric: characters
+    metric: characters
   - count: 1317
-  metric: files
+    metric: files
   - count: 0
-  metric: lines
+    metric: lines
   - count: 9457
-  metric: regions
+    metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_1_1/blob/main/CITATION.cff
 transcription-guidelines: >-
-  OCR-D-GT-Guideline, Part: Structure Ground Truth
-https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
+  OCR-D-GT-Guideline, Part: Structure Ground Truth https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html

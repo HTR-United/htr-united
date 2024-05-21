@@ -42,13 +42,13 @@ license:
 format: Page-XML
 volume:
   - count: 221156
-  metric: characters
+    metric: characters
   - count: 217
-  metric: files
+    metric: files
   - count: 6609
-  metric: lines
+    metric: lines
   - count: 1889
-  metric: regions
+    metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_text/blob/main/CITATION.cff
 transcription-guidelines: >-
   OCR-D Ground Truth Guidelines https://ocr-d.de/en/gt-guidelines/trans/
