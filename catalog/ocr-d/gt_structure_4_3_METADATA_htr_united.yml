@@ -23,7 +23,7 @@ production-software: Aletheia
 automatically-aligned: false
 script:
   - iso: Latn
-  - iso: Goth
+  - iso: Latf
 script-type: 
     only-typed
 time:
@@ -37,14 +37,15 @@ license:
   url: https://creativecommons.org/licenses/zero/1.0/
 format: Page-XML
 volume:
-- count: 0
+  - count: 0
   metric: characters
-- count: 1721
+  - count: 1721
   metric: files
-- count: 0
+  - count: 0
   metric: lines
-- count: 7775
+  - count: 7775
   metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_4_3/blob/main/CITATION.cff
 transcription-guidelines: >-
-  OCR-D-GT-Guideline, Part: Structure Ground Truth  https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
+  OCR-D-GT-Guideline, Part: Structure Ground Truth
+https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html

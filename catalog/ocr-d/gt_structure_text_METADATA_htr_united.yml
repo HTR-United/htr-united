@@ -27,7 +27,7 @@ production-software: Aletheia
 automatically-aligned: false
 script:
   - iso: Latn
-  - iso: Goth
+  - iso: Latf
 script-type: 
     only-typed
 time:
@@ -41,13 +41,13 @@ license:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 format: Page-XML
 volume:
-- count: 221156
+  - count: 221156
   metric: characters
-- count: 217
+  - count: 217
   metric: files
-- count: 6609
+  - count: 6609
   metric: lines
-- count: 1889
+  - count: 1889
   metric: regions
 citation-file-link: https://github.com/OCR-D/gt_structure_text/blob/main/CITATION.cff
 transcription-guidelines: >-
