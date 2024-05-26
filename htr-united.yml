@@ -6553,7 +6553,7 @@
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {5},\n\
     title = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\n\
     year = {2024}\n}\n"
-  _apa: "Boenig M. (2024). gt_structure_text (version 65_v1.4.6). URL: https://github.com/OCR-D/gt_structure_text\n"
+  _apa: "Boenig M. (2024). gt_structure_text (version 67_v1.4.8). URL: https://github.com/OCR-D/gt_structure_text\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
@@ -8196,8 +8196,8 @@
     - c
     - d
     - p
-    - .
     - m
+    - .
     - ̃
     - /
     - q
@@ -8228,22 +8228,22 @@
     - N
     - T
     - Q
-    - '4'
     - ͬ
+    - '4'
     - R
-    - '5'
     - U
+    - '5'
     - '?'
     - ꝰ
     - '6'
     - O
-    - '0'
     - H
+    - '0'
     - ','
+    - )
+    - (
     - G
     - B
-    - (
-    - )
     - '8'
     - '7'
     - '9'
@@ -8251,9 +8251,9 @@
     - F
     - ꝑ
     - ̈
+    - ꝯ
     - ł
     -  
-    - ꝯ
     - '-'
     - ◊
     - ð
@@ -8308,13 +8308,13 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 661548
+  - count: 705804
     metric: characters
-  - count: 913
+  - count: 979
     metric: files
-  - count: 25191
+  - count: 26830
     metric: lines
-  - count: 2815
+  - count: 3013
     metric: regions
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
