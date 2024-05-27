@@ -66,9 +66,12 @@ hands:
   count: more-than-10
   precision: estimated
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
+volume:
+  - metric: files
+    count: 30
 transcription-guidelines: >-
   1. Only transcribe the lines that are Bible text, not headings, rubrics,
   marginalia, catchwords, etc.
