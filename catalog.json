@@ -1464,6 +1464,196 @@
     "automatically-aligned": false,
     "_pid": "c6e6eefe0"
   },
+  "8239384d8": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "EHRI Dataset",
+    "url": "https://github.com/FloChiff/ehri-dataset",
+    "project-name": "European Holocaust Research Infrastructure\n",
+    "project-website": "https://www.ehri-project.eu/",
+    "authors": [
+      {
+        "name": "Floriane",
+        "surname": "Chiffoleau",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Sarah",
+        "surname": "Beniere",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Michal",
+        "surname": "Frankl",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Wolfgang",
+        "surname": "Schellenbacher",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Zolt\u00e1n",
+        "surname": "V\u00e1gi",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "G\u00e1bor",
+        "surname": "K\u00e1d\u00e1r",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Magdalena",
+        "surname": "Sedlick\u00e1",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Miriam",
+        "surname": "Schulz",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Christine",
+        "surname": "Schmidt",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Jessica",
+        "surname": "Green",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Martina",
+        "surname": "Ravagnan",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Daniela",
+        "surname": "Bart\u00e1kov\u00e1",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Judith",
+        "surname": "Levin",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Daphna",
+        "surname": "Sehayek",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Micha\u0142",
+        "surname": "Czajka",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Marta",
+        "surname": "Wojas",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Dagmara",
+        "surname": "Che\u0142stowska",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Winfried",
+        "surname": "Garscha",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Claudia",
+        "surname": "Kuretsidis-Haider",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "description": "Multilingual dataset from various corpus of the EHRI project \n",
+    "language": [
+      "eng",
+      "ces",
+      "deu",
+      "slk",
+      "hun",
+      "pol",
+      "dan"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1936",
+      "notAfter": "1958"
+    },
+    "hands": {
+      "count": "unknown",
+      "precision": "estimated"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "files",
+        "count": 252
+      },
+      {
+        "metric": "characters",
+        "count": 540645
+      },
+      {
+        "metric": "lines",
+        "count": 9203
+      }
+    ],
+    "production-software": "Unknown [Automatically filled]",
+    "automatically-aligned": false,
+    "_pid": "8239384d8"
+  },
   "dcb8b4eaf": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
