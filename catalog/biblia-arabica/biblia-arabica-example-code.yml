@@ -1,8 +1,54 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: Biblia Arabica Example Code
 url: https://github.com/biblia-arabica/academies
-authors: []
-institutions: []
+authors:
+  - name: Gregor
+    surname: Schwarb
+    orcid: 0000-0002-9090-1878
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+  - name: Nathan
+    surname: Gibson
+    orcid: 0000-0003-0786-8075
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+  - name: Ronny
+    surname: Vollandt
+    orcid: 0000-0003-3701-9429
+    roles:
+      - project-manager
+      - quality-control
+  - name: Daniel
+    surname: Stökl Ben Ezra
+    orcid: 0000-0001-5668-493X
+    roles:
+      - quality-control
+      - support
+  - name: Bilal
+    surname: Safiou
+    roles:
+      - transcriber
+      - aligner
+  - name: Aicha
+    surname: Belabid
+    roles:
+      - transcriber
+      - aligner
+  - name: Eliyahu
+    surname: Friedman
+    roles:
+      - transcriber
+      - aligner
+institutions:
+  - name: Ludwig-Maximilians-Universität München
+  - name: Goethe-Universität Frankfurt
+  - name: École Pratique des Hautes Études
 description: >-
   Results of a pilot project for Arabic biblical manuscripts with general and
   manuscript-specific models.
@@ -14,7 +60,7 @@ script:
   - iso: Arab
 script-type: only-manuscript
 time:
-  notBefore: '0900'
+  notBefore: '900'
   notAfter: '1900'
 hands:
   count: more-than-10
@@ -23,4 +69,27 @@ license:
   - name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
-transcription-guidelines: https://github.com/biblia-arabica/academies/tree/main/htr/conventions
+transcription-guidelines: >-
+  1. Only transcribe the lines that are Bible text, not headings, rubrics,
+  marginalia, catchwords, etc.
+
+  2. Everything should be typed exactly as it appears in the manuscript.
+
+  3. Don't add any dots to the rasm that aren't in the manuscript.
+      - E.g., if you see فال instead of قال or حعل instead of جعل, don't correct it.
+      - Pay attention to ي vs. ى and ة vs. ه. Many manuscripts do not place dots above a ta marbuta.
+      - For undotted initial/medial ب، ت، ث، ن، ي use the undotted ى (which you can get by pressing the shift key).
+      - For undotted final ب، ت، or ث use the ٮ (you can copy it from here).
+      - Final ن is always ن even if it is undotted in the manuscript.
+      - For an undotted initial/medial ف/ق, which cannot be distinguished from each other, use ٯ ("dotless qaf" not waw, copy it from here).
+  4. Do not transcribe any vowels at all, even if the manuscript has them.
+
+  5. Do not transcribe any hamza diacritics (e.g. أ) or shadda even if the
+  manuscript has them.
+      - Except: Allah can be written as الله even if the manuscript doesn't have the diacritics.
+  6. Pay careful attention not to add ء (hamza) as a consonant unless it is in
+  the manuscript. Do not standardize spellings.
+
+  7. Transcribe all dividers (dots, circles, crosses, etc.) with a simple period
+  with spaces on each side ( . )
+
