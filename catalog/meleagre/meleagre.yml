@@ -95,7 +95,7 @@ sources:
 time:
   notAfter: '1000'
   notBefore: '900'
-title: HTR_CPgr23
+title: Ground truth for the Palatine Anthology (HTR_CPgr23)
 transcription-guidelines: we do not resolve the abbreviation, except when they are
   non ambiguous. Full guidelines available here https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23
 url: https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23
