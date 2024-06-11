@@ -11776,6 +11776,152 @@
     "automatically-aligned": false,
     "_pid": "c2cf58d8f"
   },
+  "548220461": {
+    "authors": [
+      {
+        "name": "Maxime",
+        "orcid": "0009-0006-2076-1220",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ],
+        "surname": "Gu\u00e9nette"
+      },
+      {
+        "name": "Mathilde",
+        "orcid": "0000-0003-1642-8610",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ],
+        "surname": "Verstraete"
+      },
+      {
+        "name": "Alix",
+        "orcid": "0000-0002-0136-4434",
+        "roles": [
+          "quality-control",
+          "support"
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Marcello",
+        "orcid": "0000-0001-6424-3229",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Vitali-Rosati"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "\u03b1",
+        "\u03b9",
+        "\u0301",
+        "\u03bf",
+        "\u03b5",
+        "\u03bd",
+        "\u03c3",
+        "\u03c4",
+        "\u0313",
+        "\u03c5",
+        "\u03c1",
+        "\u00b7",
+        "\u03ba",
+        "\u03bb",
+        "\u03b7",
+        "\u0300",
+        "\u03c0",
+        "\u03bc",
+        "\u03b4",
+        "\u03c9",
+        "\u0342",
+        "\u03b8",
+        "\u03b3",
+        "\u0314",
+        "\u03c7",
+        "\u03c6",
+        ":",
+        "\u03b2",
+        "\u1fbd",
+        "\u22c7",
+        "\u205b",
+        "\u03be",
+        "\u0308",
+        "~",
+        "\u03b6",
+        "\u03c8",
+        "\u203b",
+        "\u223b",
+        "\u0373"
+      ],
+      "mode": "NFD"
+    },
+    "description": "Ground Truth dataset for the Codex palatinus graecus 23 (Palatine Anthology), byzantine writing from the X^th^ century. ",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "less-than-11",
+      "precision": "estimated"
+    },
+    "institutions": [],
+    "language": [
+      "grc"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-website": "https://anthologiagraeca.org/",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Grek",
+        "qualify": "byzantine"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "sources": [
+      {
+        "link": "https://doi.org/10.11588/diglit.3449",
+        "reference": "Cod. Pal. graec. 23 (10e s. av., Constantinople).  Universit\u00e4tsbibliothek Heidelberg, Germany."
+      }
+    ],
+    "time": {
+      "notAfter": "1000",
+      "notBefore": "900"
+    },
+    "title": "Ground truth for the Palatine Anthology (HTR_CPgr23)",
+    "transcription-guidelines": "we do not resolve the abbreviation, except when they are non ambiguous. Full guidelines available here https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23",
+    "url": "https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23",
+    "volume": [
+      {
+        "count": 114273,
+        "metric": "characters"
+      },
+      {
+        "count": 70,
+        "metric": "files"
+      },
+      {
+        "count": 3374,
+        "metric": "lines"
+      },
+      {
+        "count": 50,
+        "metric": "pages"
+      },
+      {
+        "count": 574,
+        "metric": "regions"
+      }
+    ],
+    "_pid": "548220461"
+  },
   "afc133c30": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "La Correspondances Jacques Doucet - Ren\u00e9 Jean",

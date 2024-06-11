@@ -9591,6 +9591,118 @@
   - metric: files
     count: 34
   automatically-aligned: false
+- authors:
+  - name: Maxime
+    orcid: 0009-0006-2076-1220
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+    surname: Guénette
+  - name: Mathilde
+    orcid: 0000-0003-1642-8610
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+    surname: Verstraete
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - quality-control
+    - support
+    surname: Chagué
+  - name: Marcello
+    orcid: 0000-0001-6424-3229
+    roles:
+    - project-manager
+    surname: Vitali-Rosati
+  automatically-aligned: false
+  characters:
+    members:
+    - α
+    - ι
+    - ́
+    - ο
+    - ε
+    - ν
+    - σ
+    - τ
+    - ̓
+    - υ
+    - ρ
+    - ·
+    - κ
+    - λ
+    - η
+    - ̀
+    - π
+    - μ
+    - δ
+    - ω
+    - ͂
+    - θ
+    - γ
+    - ̔
+    - χ
+    - φ
+    - ':'
+    - β
+    - ᾽
+    - ⋇
+    - ⁛
+    - ξ
+    - ̈
+    - '~'
+    - ζ
+    - ψ
+    - ※
+    - ∻
+    - ͳ
+    mode: NFD
+  description: >-
+    Ground Truth dataset for the Codex palatinus graecus 23 (Palatine Anthology),
+    byzantine writing from the X^th^ century. 
+  format: Alto-XML
+  hands:
+    count: less-than-11
+    precision: estimated
+  institutions: []
+  language:
+  - grc
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-website: https://anthologiagraeca.org/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Grek
+    qualify: byzantine
+  script-type: only-manuscript
+  sources:
+  - link: https://doi.org/10.11588/diglit.3449
+    reference: >-
+      Cod. Pal. graec. 23 (10e s. av., Constantinople).  Universitätsbibliothek
+      Heidelberg, Germany.
+  time:
+    notAfter: '1000'
+    notBefore: '900'
+  title: Ground truth for the Palatine Anthology (HTR_CPgr23)
+  transcription-guidelines: we do not resolve the abbreviation, except when they are
+    non ambiguous. Full guidelines available here https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23
+  url: https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23
+  volume:
+  - count: 114273
+    metric: characters
+  - count: 70
+    metric: files
+  - count: 3374
+    metric: lines
+  - count: 50
+    metric: pages
+  - count: 574
+    metric: regions
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: La Correspondances Jacques Doucet - René Jean
   url: https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean
