@@ -1003,8 +1003,8 @@
   characters:
     members:
     - e
-    - u
     - s
+    - u
     - t
     - a
     - i
@@ -1030,7 +1030,6 @@
     - E
     - '-'
     - ','
-    - ſ
     - ¶
     - L
     - ͥ
@@ -4555,109 +4554,108 @@
     - e
     - i
     - s
-    - a
     - t
-    - n
+    - a
     - u
+    - n
     - o
     - r
     - l
     - c
-    - m
     - d
+    - m
     - p
     - .
     - ̃
     - f
     - q
     - g
-    - ⁊
     - h
+    - ⁊
     - b
     - z
     - ̾
     - y
     - x
-    - ͥ
-    - Q
-    - S
     - E
+    - S
+    - I
+    - Q
+    - ͥ
     - C
     - ꝑ
-    - I
-    - ͣ
-    - L
     - ꝯ
-    - A
+    - L
     - D
-    - ꝰ
+    - ͣ
+    - A
     - R
-    - M
+    - ꝰ
     - k
+    - M
     - ','
-    - ':'
     - T
     - P
     - N
     - ᷑
-    - O
+    - ':'
     - U
+    - O
     - ͤ
-    - ᷤ
+    - K
     - ⟦
     - ⟧
-    - B
+    - ᷤ
     - F
-    - K
-    - ¶
     - G
+    - B
+    - ¶
     - ͦ
     - ^
     - w
     - H
     - 
-    - ꝓ
-    - ÷
-    - '-'
     - ẜ
-    - ̵
-    - '3'
-    - '9'
+    - ł
+    - ꝓ
+    - '-'
+    - ÷
     - '0'
+    - '3'
     - '2'
     - '1'
+    - ̵
+    - '9'
     - ͭ
-    - '5'
-    - ̌
-    - ł
-    - '4'
-    - '6'
-    - '7'
     - ͬ
+    - '5'
+    - '4'
     - ͫ
-    - '&'
     - ꝙ
     - ꝭ
+    - '7'
+    - '6'
+    - ħ
+    - '&'
+    - ⁜
+    - ᷠ
     - /
     - ˣ
     - ͨ
     - Y
-    - ᷠ
-    - ⁜
+    - ꝵ
     - "'"
     - '8'
-    - ꝵ
     - ͧ
+    - W
+    - đ
     - ᷝ
-    - ħ
     - 
     - '*'
     - ́
-    - ̂
     - X
     - ̧
     - ᵈ
-    - Ʒ
     mode: NFD
   description: >-
     Ground truth of Old French and Middle French manuscripts. Manuscripts vary in
@@ -4696,13 +4694,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-french
   volume:
-  - count: 247397
+  - count: 300070
     metric: characters
-  - count: 124
+  - count: 138
     metric: files
-  - count: 8890
+  - count: 10385
     metric: lines
-  - count: 714
+  - count: 789
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Leroy, Noé and Pinche, Ariane and\
     \ Camps, Jean-Baptiste and Clérice, Thibault and Chagué, Alix},\ntitle = {HTRomance,\
@@ -4877,7 +4875,7 @@
     and Layout Segmentation
   url: https://github.com/HTRomance-Project/medieval-italian
   volume:
-  - count: 84383
+  - count: 84366
     metric: characters
   - count: 60
     metric: files
@@ -4931,98 +4929,127 @@
     - a
     - u
     - s
-    - o
     - n
-    - ̃
+    - o
     - r
     - c
-    - d
     - m
+    - ̃
+    - d
     - l
     - .
     - p
     - b
     - q
     - g
-    - ̾
     - f
-    - x
-    - h
     - 
+    - h
+    - x
+    - ̾
     - ꝰ
-    - ⁊
     - ꝑ
+    - ':'
+    - '&'
     - ͥ
     - ł
-    - ͣ
-    - ꝵ
-    - ꝯ
-    - ꝙ
-    - ͦ
-    - ᷑
-    - ¶
-    - D
-    - y
-    - ꝓ
-    - ':'
-    - /
-    - N
+    - ̧
     - I
-    - '&'
-    - ħ
-    - '-'
+    - ⁊
+    - ͣ
+    - E
+    - ꝵ
     - C
     - S
-    - Q
-    - E
     - A
-    - z
-    - R
-    - ᷤ
+    - N
+    - ᷑
+    - D
+    - Q
     - U
-    - ͫ
-    - ̧
-    - '2'
+    - ͦ
+    - ','
+    - ꝓ
+    - ꝙ
+    - ¶
+    - T
+    - y
+    - ꝯ
+    - P
+    - ꝗ
+    - M
+    - ħ
+    - R
+    - đ
+    - H
+    - O
+    - /
+    - '-'
+    - F
     - L
-    - ^
-    - '4'
+    - ÷
+    - ͬ
     - ⟦
     - ⟧
-    - M
-    - '3'
-    - '1'
-    - '0'
-    - T
-    - ẜ
-    - ͨ
-    - G
-    - H
-    - P
-    - ÷
-    - ꝗ
-    - ͭ
-    - '7'
-    - ͤ
-    - '6'
-    - đ
-    - k
-    - O
-    - ᷝ
-    - '9'
-    - '*'
-    - ͧ
+    - "'"
+    - z
+    - ᷤ
     - B
-    - F
-    - '8'
-    - Ø
-    - ¬
-    - K
-    - ᷠ
-    - +
-    - '5'
-    - ͬ
+    - G
+    - '4'
+    - '1'
+    - '3'
+    - ^
+    - ͫ
+    - '2'
+    - ͭ
+    - ẜ
     - X
+    - ͨ
+    - ͤ
+    - '0'
+    - '6'
+    - k
+    - '7'
+    - '9'
+    - ƀ
+    - ᷝ
+    - '8'
+    - ͧ
+    - K
+    - Ø
+    - Ꝙ
+    - '*'
+    - '5'
     - ᵈ
+    - ͯ
+    - ℥
+    - ¬
+    - ᷠ
+    - Y
+    - ̵
+    - Z
+    - ꝭ
+    - +
+    - ι
+    - Ι
+    - Μ
+    - ̈
+    - Ε
+    - υ
+    - χ
+    - α
+    - ρ
+    - σ
+    - τ
+    - κ
+    - ο
+    - ́
+    - ν
+    - Τ
+    - ❧
+    - ⁿ
+    - ᶻ
     mode: NFD
   description: >-
     Ground truth of Latin medieval manuscripts. Manuscripts vary in themes,
@@ -5060,13 +5087,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-latin
   volume:
-  - count: 102887
+  - count: 299033
     metric: characters
-  - count: 33
+  - count: 142
     metric: files
-  - count: 3046
+  - count: 8878
     metric: lines
-  - count: 288
+  - count: 749
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Glaise, Anthony and Clérice, Thibault\
     \ and Boschetti, Federico and Fischer, Franz and Chagué, Alix},\ntitle = {HTRomance,\
@@ -5604,6 +5631,76 @@
     \  url = {https://heidata.uni-heidelberg.de/citation?persistentId=doi:10.11588/data/L2KRZO},\n\
     \  author = {{Tübingen University Library}},\n  title = {Ground Truth data for\
     \ printed Malayalam},\n  publisher = {heiDATA},\n  year = {2023}\n}\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Incunabula Reichenau
+  url: https://doi.org/10.5281/zenodo.11046061
+  authors:
+  - name: Annika
+    surname: Stello
+    orcid: 0000-0002-6305-4810
+    roles:
+    - project-manager
+  - name: Gerit
+    surname: Heim
+    orcid: 0000-0002-5820-7771
+    roles:
+    - project-manager
+  - name: Katharina
+    surname: Ost
+    orcid: 0000-0002-6234-9721
+    roles:
+    - transcriber
+  institutions: []
+  description: >-
+    This data set contains the training data for the following three published
+    Transkribus models\:
+
+    German Incunabula (Reichenau)
+    Latin Incunabula (Reichenau)
+    Latin/German Bilingual Incunabula (Reichenau)
+
+    This data set represents an excerpt of a collection of incunabula and post-incunabula
+    of the   former Reichenau monastery, now held at the Badische Landesbibliothek
+    in
+    Karlsruhe (see https://digital.blb-karlsruhe.de/topic/view/7530707). As, typically,
+    1-20 pages were drawn from single prints, it reflects a wide range of typefaces
+    used
+    by early printers from the German language area and Northern Italy.
+
+    The data was created as part of the project Digitalisierung und Volltexterkennung
+    der ehemals Reichenauer Inkunabeln at the Badische Landesbibliothek, which was
+    funded by the Stiftung Kulturgut Baden-Württemberg.
+  project-name: Digitalisierung und Volltexterkennung der ehemals Reichenauer Inkunabeln
+  language:
+  - lat
+  - deu
+  production-software: Transkribus
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  - iso: Goth
+  script-type: only-typed
+  time:
+    notBefore: '1470'
+    notAfter: '1510'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  volume:
+  - metric: pages
+    count: 2200
+  transcription-guidelines: Abbreviations are represented through special characters,
+    please see the project repository for a full documentation.
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.11046061,\n  doi = {10.5281/ZENODO.11046061},\n\
+    \  url = {https://zenodo.org/doi/10.5281/zenodo.11046061},\n  author = {{Badische\
+    \ Landesbibliothek} and Ost, Katharina and Stello, Annika and Heim, Gerrit},\n\
+    \  language = {de},\n  title = {Training Data Incunabula Reichenau},\n  publisher\
+    \ = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution Share\
+    \ Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: 'Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch
     X'
