@@ -1,0 +1,46 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: ARletta
+url: zenodo.org/records/11191457
+authors:
+ - name: Lith
+   surname: Lefranc
+ - name: Ilja
+   surname: Van Damme
+ - name: Thibault
+   surname: Clérice
+ - name: Mike
+   surname: Kestemont
+institutions:
+ - name: University of Antwerp
+ - name: National Institute for Research in Digital Science and Technology, Paris
+description: Open-source handwritten text recognition models for historic Dutch
+project-name: Bias in History
+project-website: https://www.bias-in-history.eu/
+language:
+ - nld
+ - fra
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1600'
+ notAfter: '1940'
+hands:
+ count: more-than-10
+ precision: estimated
+license:
+ name: CC-BY-SA 4.0
+ url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Page-XML
+volume:
+ - metric: lines
+   count: 431359
+ - metric: regions
+   count: 44536
+ - metric: pages
+   count: 10267
+ - metric: characters
+   count: 14253206
+transcription-guidelines: diplomatic transcription
