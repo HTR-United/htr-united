@@ -1,0 +1,61 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Incunabula Reichenau
+url: https://doi.org/10.5281/zenodo.11046061
+authors:
+ - name: Annika
+   surname: Stello
+   orcid: 0000-0002-6305-4810
+   roles:
+     - project-manager
+ - name: Gerit
+   surname: Heim
+   orcid: 0000-0002-5820-7771
+   roles:
+     - project-manager
+ - name: Katharina
+   surname: Ost
+   orcid: 0000-0002-6234-9721
+   roles:
+     - transcriber
+institutions: []
+description: >-
+ This data set contains the training data for the following three published
+ Transkribus models\:
+
+ German Incunabula (Reichenau)
+ Latin Incunabula (Reichenau)
+ Latin/German Bilingual Incunabula (Reichenau)
+
+ This data set represents an excerpt of a collection of incunabula and post-incunabula
+ of the   former Reichenau monastery, now held at the Badische Landesbibliothek in
+ Karlsruhe (see https://digital.blb-karlsruhe.de/topic/view/7530707). As, typically,
+ 1-20 pages were drawn from single prints, it reflects a wide range of typefaces used
+ by early printers from the German language area and Northern Italy.
+
+ The data was created as part of the project Digitalisierung und Volltexterkennung
+ der ehemals Reichenauer Inkunabeln at the Badische Landesbibliothek, which was
+ funded by the Stiftung Kulturgut Baden-Württemberg.
+project-name: Digitalisierung und Volltexterkennung der ehemals Reichenauer Inkunabeln
+language:
+ - lat
+ - deu
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Latn
+ - iso: Goth
+script-type: only-typed
+time:
+ notBefore: '1470'
+ notAfter: '1510'
+hands:
+ count: more-than-10
+ precision: exact
+license:
+ name: CC-BY-SA 4.0
+ url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Page-XML
+volume:
+ - metric: pages
+   count: 2200
+transcription-guidelines: Abbreviations are represented through special characters, please see the project repository for a full documentation.
