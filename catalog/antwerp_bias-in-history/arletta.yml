@@ -43,14 +43,16 @@ volume:
    count: 10267
  - metric: characters
    count: 14253206
-transcription-guidelines: diplomatic transcription: all of the text was transcribed verbatim, preserving all of its original features:
- - orthography: preserve original spelling
- - abbreviations: do not expand abbreviations
- - capitalization: retain original use of uppercase and lowercase letters
- - punctuation: transcribe punctuation marks exactly as they appear, even of they are unconventional by modern standards
- - special characters: include any special characters or symbols as they appear
- - formatting: maintain original formatting such as underlining or strikethrough
- - errors and corrections: include all errors and corrections found in the text
- - non-interpretative: avoid interpreting or modernizing the text
- - use the '@' symbol for characters you can not read an tag them as 'unclear' on baseline level
- - tag marginal text as 'marginalia' and main body text as 'paragraph' on region level
+transcription-guidelines: >-
+  diplomatic transcription: all of the text was transcribed verbatim, preserving
+  all of its original features:
+   - orthography: preserve original spelling
+   - abbreviations: do not expand abbreviations
+   - capitalization: retain original use of uppercase and lowercase letters
+   - punctuation: transcribe punctuation marks exactly as they appear, even of they are unconventional by modern standards
+   - special characters: include any special characters or symbols as they appear
+   - formatting: maintain original formatting such as underlining or strikethrough
+   - errors and corrections: include all errors and corrections found in the text
+   - non-interpretative: avoid interpreting or modernizing the text
+   - use the '@' symbol for characters you can not read an tag them as 'unclear' on baseline level
+   - tag marginal text as 'marginalia' and main body text as 'paragraph' on region level
