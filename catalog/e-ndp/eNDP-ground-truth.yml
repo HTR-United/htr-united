@@ -1,5 +1,5 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: eNDP-ground-truth
+title: ANR e-NDP Ground Truth
 url: https://zenodo.org/records/7575693
 authors:
  - name: Julie
@@ -95,13 +95,16 @@ authors:
      - transcriber
 institutions: []
 description: >-
- The e-NDP project : collaborative digital edition of the Chapter registers of
- Notre-Dame of Paris (1326-1504). Ground-truth for handwriting text recognition
- (HTR) on late medieval manuscripts.
+ This repository hosts HTR ground truth created within the context of the ANR e-NDP project.
+
+ This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris cathedral chapter.
+ The volumes containing the chapter conclusions were conceived to serve as memorial records, but above all as documents for regular use and consultation in the daily practice of administration and management. 
+ The registers were written using a Cursive script (ca. late XIIIe - XVIe) and their content is were written mainly in Latin, the
+rest in French. There are no fewer than 18 hands in these pages.
+
+ The transcriptions were manually completed in two rounds by a group of 12 contributors, including historians and paleographers, over the course of 2021-2022 using eScriptorium.
 project-name: >-
- The e-NDP project : collaborative digital edition of the Chapter registers of
- Notre-Dame of Paris (1326-1504). Ground-truth for handwriting text recognition
- (HTR) on late medieval manuscripts.
+ ANR e-NDP
 project-website: https://endp.hypotheses.org/presentation
 language:
  - fra
