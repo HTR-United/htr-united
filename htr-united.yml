@@ -10463,6 +10463,169 @@
     \         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n\
     \  url          = {https://doi.org/10.5281/zenodo.8041668}\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: ANR e-NDP Ground Truth
+  url: https://zenodo.org/records/7575693
+  authors:
+  - name: Julie
+    surname: Claustre
+    orcid: 0000-0001-8504-3920
+    roles:
+    - transcriber
+    - project-manager
+  - name: Darwin
+    surname: Smith
+    roles:
+    - transcriber
+    - project-manager
+  - name: Sergio
+    surname: Torres Aguilar
+    orcid: 0000-0002-1801-3147
+    roles:
+    - aligner
+    - quality-control
+    - support
+  - name: Isabelle
+    surname: Bretthauer
+    orcid: 0000-0002-1780-772X
+    roles:
+    - transcriber
+  - name: Pierre
+    surname: Brochard
+    orcid: 0000-0003-1955-556X
+    roles:
+    - quality-control
+  - name: Olivier
+    surname: Canteaut
+    orcid: 0000-0003-4586-1931
+    roles:
+    - transcriber
+    - quality-control
+  - name: Emilie
+    surname: Cottereau
+    orcid: 0000-0001-6880-2112
+    roles:
+    - transcriber
+  - name: Fabrice
+    surname: Delivré
+    roles:
+    - transcriber
+  - name: Mathilde
+    surname: Denglos
+    roles:
+    - transcriber
+  - name: Vincent
+    surname: Jolivet
+    orcid: 0000-0003-0600-0362
+    roles:
+    - aligner
+    - quality-control
+    - support
+  - name: Véronique
+    surname: Julerot
+    roles:
+    - transcriber
+  - name: Thierry
+    surname: Kouamé
+    orcid: 0000-0001-9728-2988
+    roles:
+    - transcriber
+  - name: Elisabeth
+    surname: Lusset
+    orcid: 0000-0003-1572-1890
+    roles:
+    - transcriber
+  - name: Anne
+    surname: Massoni
+    orcid: 0000-0002-1690-9804
+    roles:
+    - transcriber
+  - name: Sebastien
+    surname: Nadiras
+    roles:
+    - transcriber
+  - name: Nicolas
+    surname: Perreaux
+    orcid: 0000-0002-0103-817X
+    roles:
+    - transcriber
+  - name: Hugo
+    surname: Regazzi
+    orcid: 0000-0002-3059-2874
+    roles:
+    - transcriber
+  - name: Mathilde
+    surname: Treglia
+    roles:
+    - transcriber
+  institutions: []
+  description: >-
+    This repository hosts HTR ground truth created within the context of the ANR
+    e-NDP project.
+
+     This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris
+    cathedral chapter.
+     The volumes containing the chapter conclusions were conceived to serve as memorial
+    records, but above all as documents for regular use and consultation in the daily
+    practice of administration and management. 
+     The registers were written using a Cursive script (ca. late XIIIe - XVIe) and
+    their content is were written mainly in Latin, the
+    rest in French. There are no fewer than 18 hands in these pages.
+
+     The transcriptions were manually completed in two rounds by a group of 12 contributors,
+    including historians and paleographers, over the course of 2021-2022 using eScriptorium.
+  project-name: ANR e-NDP
+  project-website: https://endp.hypotheses.org/presentation
+  language:
+  - fra
+  - lat
+  production-software: eScriptorium + Kraken
+  automatically-aligned: true
+  script:
+  - iso: Latn
+    qualify: cursive
+  script-type: only-manuscript
+  time:
+    notBefore: '1326'
+    notAfter: '1504'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  volume:
+  - metric: pages
+    count: 512
+  - metric: lines
+    count: 34231
+  - metric: characters
+    count: 3320407
+  - metric: files
+    count: 512
+  - metric: regions
+    count: 2448
+  transcription-guidelines: |-
+    - The abbreviations have been resolved, both those by suspension (facimꝰ --->
+     facimus) and by contraction (dñi --> domini). Likewise, those using
+     conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. 
+
+     - The named entities (names of persons, places and institutions) have been
+     capitalized. The beginning of a block of text as well as the original capitals
+     used by the notary are also capitalized.
+
+     The consonantal i and u characters have been transcribed as j and v in both
+     French and Latin.
+
+     - The punctuation marks used in the text: . and / have been transcribed, but
+     the transcription has not been standardized with modern punctuation.
+
+     - Corrections and words that appear cancelled in the manuscript have been
+     transcribed surrounded by the sign $ at the beginning and at the end.
+
+     - More specific transcription rules can be found into the file
+     transcription_guidelines.pdf on Zenodo repository. 
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ARletta
   url: zenodo.org/records/11191457
   authors:

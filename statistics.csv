@@ -295,7 +295,12 @@
 293,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
 294,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
 295,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
-296,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
-297,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
-298,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
-299,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript
+296,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
+297,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
+298,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
+299,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
+300,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
+301,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
+302,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
+303,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
+304,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript
