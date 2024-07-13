@@ -1,0 +1,36 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: NuBIS-OCR
+url: https://github.com/ksefil/NuBIS-OCR
+authors:
+  - name: Kutay
+    surname: Sefil
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  Ground truth dataset for a selection of printed books from NuBIS, the digital
+  library of the Bibliothèque Interuniversitaire de la Sorbonne.
+language:
+  - fra
+  - lat
+production-software: eScriptorium + Kraken
+automatically-aligned: true
+script:
+  - iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1602'
+  notAfter: '1989'
+hands:
+  count: unknown
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+sources:
+  - reference: ''
+    link: https://nubis.bis-sorbonne.fr/
+volume:
+  - metric: pages
+    count: 57
