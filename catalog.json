@@ -7044,8 +7044,8 @@
       }
     ],
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {10.5072/zenodo.977649},\nmonth = {12},\ntitle = {Tappus Corpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\nyear = {2021}\n}\n",
-    "_apa": "Chagu\u00e9 A. (2021). Tappus Corpus (version 1.0). DOI: 10.5072/zenodo.977649 URL: https://github.com/HTR-United/tapuscorpus\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Chagu\u00e9, Alix},\ndoi = {10.5072/zenodo.977649},\nmonth = {12},\ntitle = {Tapuscorpus},\nurl = {https://github.com/HTR-United/tapuscorpus},\nyear = {2021}\n}\n",
+    "_apa": "Chagu\u00e9 A. (2021). Tapuscorpus (version 1.0). DOI: 10.5072/zenodo.977649 URL: https://github.com/HTR-United/tapuscorpus\n",
     "_pid": "c5d771d11"
   },
   "fe0e382bb": {
