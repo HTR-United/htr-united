@@ -1,0 +1,161 @@
+authors:
+- name: Jade
+  roles:
+  - transcriber
+  surname: Norindr
+- name: Anna
+  roles:
+  - transcriber
+  surname: Mikhalchuk
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Chagué
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  surname: Clérice
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - s
+  - r
+  - a
+  - n
+  - t
+  - u
+  - i
+  - o
+  - l
+  - d
+  - c
+  - p
+  - m
+  - v
+  - q
+  - .
+  - "'"
+  - ́
+  - f
+  - ','
+  - b
+  - g
+  - y
+  - h
+  - j
+  - M
+  - L
+  - C
+  - I
+  - x
+  - '1'
+  - z
+  - E
+  - V
+  - ^
+  - S
+  - '-'
+  - R
+  - ̀
+  - A
+  - J
+  - ̃
+  - P
+  - '3'
+  - '2'
+  - D
+  - '5'
+  - '4'
+  - '7'
+  - '6'
+  - '0'
+  - B
+  - '8'
+  - ̂
+  - '9'
+  - N
+  - T
+  - X
+  - '>'
+  - <
+  - ̈
+  - G
+  - (
+  - '='
+  - ;
+  - )
+  - ⁊
+  - '"'
+  - U
+  - F
+  - ':'
+  - O
+  - H
+  - '&'
+  - ̧
+  - /
+  - '['
+  - W
+  - ']'
+  - Q
+  - k
+  - '?'
+  - ⎀
+  - w
+  - ¬
+  - ̾
+  - '*'
+  - ̶
+  - ꝑ
+  - ͨ
+  - Z
+  - K
+  - Y
+  - ͫ
+  - '!'
+  - +
+  mode: NFD
+description: >-
+  Dataset for modern roman languages created within the context of the HTRomance
+  project, using manuscripts from the Gallica digital library.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+institutions: []
+language:
+- fra
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: HTRomance
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1800'
+  notBefore: '1600'
+title: Corpus Modern Roman Languages
+transcription-guidelines: >-
+  The transcription guidelines are described in a paper available on HAL and
+  published at the Journal for Open Humanities Data. It provides specific
+  details about the selection process, the transcription methods and choices, as
+  well as details about output (mainly the Generic CREMMA Model for Medieval
+  Manuscripts (Latin and Old French) for Kraken)
+url: https://github.com/HTRomance-Project/modern-roman-languages
+volume:
+- count: 114094
+  metric: characters
+- count: 168
+  metric: files
+- count: 3386
+  metric: lines
+- count: 441
+  metric: regions

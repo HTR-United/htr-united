@@ -1,0 +1,111 @@
+authors:
+- name: Denis
+  roles:
+  - transcriber
+  - aligner
+  surname: Nathalie
+- name: Rostaing
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Aurélia
+- name: Chagué
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Alix
+characters:
+  members:
+  - e
+  - t
+  - /
+  - a
+  - c
+  - '0'
+  - n
+  - r
+  - m
+  - h
+  - p
+  - s
+  - o
+  - g
+  - '1'
+  - '7'
+  - '2'
+  - E
+  - .
+  - i
+  - '-'
+  - f
+  - '9'
+  - d
+  - '8'
+  - '5'
+  - <
+  - l
+  - '{'
+  - ':'
+  - P
+  - A
+  - G
+  - '}'
+  - U
+  - x
+  - '>'
+  - b
+  - '4'
+  - '6'
+  - '3'
+  mode: NFD
+citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-mariages-et-divorces/main/CITATION.cff
+description: "Ground truth for the Registres des Contrats de Mariages et des Séparations\
+  \ et Divorces in Paris. The documents are written in Franch during the 19th century,\
+  \ contain many names and addresses. The information is organized in tables spreading\
+  \ on two pages. The table’s headers and the preamble are printed.\n"
+format: Page-XML
+hands:
+  count: more-than-10
+  precision: estimated
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: "LECTAUREP\n"
+project-website: https://lectaurep.hypotheses.org/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: mainly-manuscript
+sources:
+- link: ''
+  reference: 'Rostaing, A., Denis, N., & Chagué, A. (2021). Lectaurep-Mariages-et-Divorces:
+    ground truth for the Enregistrements des Contrats de Mariages et des Séparations
+    et Divorces in Paris (French 19th century)  (Version 1.0) [Computer software].
+    https://doi.org/10.5072/zenodo.977697'
+time:
+  notAfter: '1928'
+  notBefore: '1829'
+title: Notaires de Paris - Mariages et Divorces
+transcription-guidelines: "The transcription respects what is written (abbreviations\
+  \ are not developed, capitalization follows 19th century practices). Superscripted\
+  \ portions of text are signaled by `^` and many signatures are transcription with\
+  \ ¥. The lines containing printed text are associated with the type `printed` and\
+  \ the signatures are associated with the type `signature`. Thus they can both be\
+  \ removed from the dataset if necessary.'\n"
+url: https://github.com/HTR-United/lectaurep-mariages-et-divorces
+volume:
+- count: 1969488
+  metric: characters
+- count: 104
+  metric: files
+- count: 20304
+  metric: lines
+- count: 105
+  metric: pages
+- count: 324
+  metric: regions

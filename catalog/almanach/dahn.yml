@@ -1,0 +1,134 @@
+authors:
+- name: Chiffoleau
+  roles:
+  - project-manager
+  - aligner
+  surname: Floriane
+characters:
+  members:
+  - e
+  - s
+  - a
+  - n
+  - r
+  - i
+  - t
+  - u
+  - o
+  - l
+  - d
+  - c
+  - m
+  - p
+  - ́
+  - ','
+  - v
+  - .
+  - f
+  - q
+  - g
+  - ̀
+  - '-'
+  - E
+  - b
+  - ’
+  - "'"
+  - h
+  - A
+  - L
+  - N
+  - x
+  - j
+  - S
+  - R
+  - I
+  - T
+  - M
+  - ̂
+  - C
+  - P
+  - y
+  - O
+  - ;
+  - '1'
+  - £
+  - U
+  - D
+  - B
+  - F
+  - J
+  - G
+  - '"'
+  - '0'
+  - z
+  - V
+  - '9'
+  - '2'
+  - ':'
+  - X
+  -  
+  - €
+  - H
+  - '5'
+  - '!'
+  - '3'
+  - '4'
+  - ̧
+  - °
+  - W
+  - Y
+  - '6'
+  - '8'
+  - '?'
+  - '7'
+  - K
+  - Q
+  - /
+  - (
+  - )
+  - k
+  - œ
+  - w
+  - ̈
+  - …
+  - Z
+  - –
+  - '&'
+  - '%'
+  - '='
+  - $
+  - _
+  mode: NFD
+description: OCR ground Truth dataset based on French 20th typewritten letters
+format: Alto-XML
+hands:
+  count: less-than-11
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: DAHN
+project-website: https://digitalintellectuals.hypotheses.org/category/dahn
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1924'
+  notBefore: '1914'
+title: DAHN Corpus
+url: https://github.com/HTR-United/dahncorpus
+volume:
+- count: 475849
+  metric: characters
+- count: 547
+  metric: files
+- count: 12539
+  metric: lines
+- count: 527
+  metric: pages
+- count: 547
+  metric: regions

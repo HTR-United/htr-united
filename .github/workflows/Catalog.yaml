@@ -26,7 +26,7 @@ jobs:
         pip install htruc
     - name: Run HTRUC
       run: |
-        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --organization htr-united --organization gallicorpora --remote --check-link --organization htromance-project
+        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --check-link
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"

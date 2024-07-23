@@ -1,0 +1,175 @@
+authors:
+- name: Rachele
+  roles:
+  - transcriber
+  surname: Alba
+- name: Giorgia
+  roles:
+  - transcriber
+  surname: Rubin
+- name: Federico
+  orcid: 0000-0002-7810-7735
+  roles:
+  - project-manager
+  - quality-control
+  surname: Boschetti
+- name: Franz
+  roles:
+  - project-manager
+  surname: Fischer
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  surname: Chagué
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  surname: Clérice
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - a
+  - o
+  - i
+  - l
+  - n
+  - r
+  - t
+  - u
+  - s
+  - c
+  - d
+  - m
+  - p
+  - g
+  - h
+  - f
+  - .
+  - ̃
+  - q
+  - b
+  - ⁊
+  - ','
+  - ꝑ
+  - E
+  - C
+  - z
+  - x
+  - ̾
+  - A
+  - I
+  - ̧
+  - D
+  - L
+  - M
+  - ͤ
+  - O
+  - S
+  - R
+  - ͧ
+  - y
+  - ꝙ
+  - ͬ
+  - ł
+  - F
+  - N
+  - U
+  - T
+  - Q
+  - ͦ
+  - P
+  - B
+  - ́
+  - ͥ
+  - '='
+  - ':'
+  - ꝯ
+  - X
+  - ẜ
+  - G
+  - ͣ
+  - H
+  - '2'
+  - '9'
+  - '1'
+  - ¶
+  - '4'
+  - ꝓ
+  - '3'
+  - '5'
+  - k
+  - ͭ
+  - '7'
+  - '8'
+  - /
+  - "'"
+  - ε
+  - ɨ
+  - đ
+  - '6'
+  - ι
+  - ο
+  - '0'
+  - ̓
+  - ν
+  - ꝗ
+  - ̈
+  - μ
+  - λ
+  - ꝰ
+  - α
+  - ω
+  - π
+  - σ
+  - ͫ
+  - Y
+  - '-'
+  - θ
+  - γ
+  - η
+  - Ο
+  - υ
+  - ρ
+  - ̔
+  - ͂
+  - β
+  - +
+  - Z
+  mode: NFD
+description: Transcription of samples of Medieval Italian manuscripts
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+language:
+- ita
+- vec
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: HTRomance
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1499'
+  notBefore: '1100'
+title: HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition
+  and Layout Segmentation
+url: https://github.com/HTRomance-Project/medieval-italian
+volume:
+- count: 84366
+  metric: characters
+- count: 60
+  metric: files
+- count: 3086
+  metric: lines
+- count: 60
+  metric: pages
+- count: 353
+  metric: regions

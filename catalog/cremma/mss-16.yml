@@ -1,0 +1,122 @@
+authors:
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Clérice
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Chagué
+- name: Anaïs
+  roles:
+  - transcriber
+  surname: Mazoue
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - r
+  - n
+  - a
+  - u
+  - o
+  - t
+  - i
+  - l
+  - ſ
+  - d
+  - s
+  - c
+  - m
+  - p
+  - v
+  - y
+  - q
+  - g
+  - f
+  - b
+  - z
+  - h
+  - J
+  - /
+  - x
+  - R
+  - ^
+  - L
+  - I
+  - .
+  - E
+  - ẜ
+  - ⁊
+  - M
+  - '1'
+  - ꝑ
+  - A
+  - ́
+  - ̾
+  - <
+  - '>'
+  - j
+  - C
+  - D
+  - '3'
+  - ꝙ
+  - '9'
+  - V
+  - '7'
+  - '6'
+  - ’
+  - P
+  - '8'
+  - Ꝑ
+  - ̃
+  - T
+  - (
+  - S
+  - N
+  - ;
+  - Q
+  - ̀
+  - '5'
+  - '0'
+  - U
+  mode: NFD
+citation-file-link: https://github.com/HTR-United/CREMMA-MSS-16/CITATION.cff
+description: Manuscripts of the 16th century
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+institutions: []
+language:
+- fra
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CREMMA
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1599'
+  notBefore: '1500'
+title: CREMMA MSS 16
+transcription-guidelines: Abréviations conservées.
+url: https://github.com/HTR-United/CREMMA-MSS-16
+volume:
+- count: 10911
+  metric: characters
+- count: 9
+  metric: files
+- count: 244
+  metric: lines
+- count: 18
+  metric: regions

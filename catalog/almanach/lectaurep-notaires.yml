@@ -1,0 +1,153 @@
+authors:
+- name: Durand
+  roles:
+  - transcriber
+  - aligner
+  surname: Marc
+- name: Rostaing
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  surname: Aurélia
+- name: Chagué
+  roles:
+  - project-manager
+  - quality-control
+  - support
+  surname: Alix
+characters:
+  members:
+  - e
+  - r
+  - a
+  - i
+  - n
+  - t
+  - o
+  - u
+  - s
+  - d
+  - l
+  - c
+  - p
+  - '1'
+  - m
+  - S
+  - ̀
+  - ','
+  - E
+  - ́
+  - '2'
+  - P
+  - .
+  - M
+  - '0'
+  - A
+  - C
+  - '5'
+  - '3'
+  - h
+  - T
+  - v
+  - g
+  - D
+  - '7'
+  - )
+  - (
+  - R
+  - N
+  - f
+  - I
+  - b
+  - L
+  - '8'
+  - '9'
+  - ^
+  - '4'
+  - '6'
+  - B
+  - O
+  - J
+  - V
+  - y
+  - "'"
+  - G
+  - F
+  - '-'
+  - x
+  - q
+  - °
+  - H
+  - ̂
+  - U
+  - '"'
+  - X
+  - '&'
+  - z
+  - ;
+  - ̧
+  - ':'
+  - j
+  - +
+  - Q
+  - '|'
+  - ̈
+  - /
+  - k
+  - '='
+  - '%'
+  - W
+  - K
+  - Y
+  - Z
+  - w
+  - '~'
+  - ¥
+  - ȼ
+  - _
+  - €
+  - '`'
+  - '['
+  - ']'
+  - œ
+  - '?'
+  - '*'
+  - ̃
+  - '>'
+  - ½
+  mode: NFD
+citation-file-link: https://github.com/HTR-United/lectaurep-repertoires/raw/main/CITATION.cff
+description: Ground truth for various Parisian registries of notary deeds written
+  in French during the 19th century. The information is organized following pre-printed
+  tables (with printed headers) and contain many names, addresses, numbers and abbreviations.
+format: Alto-XML
+hands:
+  count: more-than-10
+  precision: estimated
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: LECTAUREP
+project-website: https://lectaurep.hypotheses.org/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: mainly-manuscript
+time:
+  notAfter: '1939'
+  notBefore: '1830'
+title: Notaires de Paris - Répertoires
+url: https://github.com/HTR-United/lectaurep-repertoires
+volume:
+- count: 525786
+  metric: characters
+- count: 218
+  metric: files
+- count: 29410
+  metric: lines
+- count: 1181
+  metric: regions

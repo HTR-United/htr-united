@@ -1,0 +1,123 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: CREMMA Manuscrits du 20e
+url: https://github.com/HTR-United/CREMMA-MSS-20
+project-name: CREMMA
+authors:
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - project-manager
+  - quality-control
+- name: "Chagu\xE9"
+  surname: Alix
+  roles:
+  - project-manager
+  - quality-control
+description: 'Manuscripts of the 20th century
+
+  '
+language:
+- fra
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1900'
+  notAfter: '1999'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 5764
+- metric: files
+  count: 13
+- metric: lines
+  count: 224
+- metric: regions
+  count: 25
+transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFKD
+  members:
+  - e
+  - a
+  - s
+  - n
+  - t
+  - r
+  - i
+  - u
+  - l
+  - o
+  - d
+  - c
+  - m
+  - p
+  - "\u0301"
+  - <
+  - '>'
+  - ''''
+  - v
+  - q
+  - ','
+  - .
+  - "\u0300"
+  - b
+  - g
+  - h
+  - j
+  - f
+  - F
+  - J
+  - '1'
+  - '-'
+  - "\u0302"
+  - M
+  - A
+  - E
+  - x
+  - T
+  - y
+  - C
+  - D
+  - ^
+  - O
+  - '8'
+  - N
+  - '7'
+  - B
+  - S
+  - '0'
+  - "\u0327"
+  - P
+  - G
+  - R
+  - H
+  - L
+  - '9'
+  - z
+  - I
+  - '2'
+  - ':'
+  - U
+  - '&'
+  - k
+  - +
+  - ;
+  - $
+  - V
+  - "\u0153"
+  - '['
+  - '?'
+  - ']'
+  - '4'
+  - '3'
+  - (
+  - )
+  - '6'
