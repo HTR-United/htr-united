@@ -1,0 +1,67 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Stavronikita Monastery Collection No. 53
+url: https://zenodo.org/records/5595669
+authors:
+  - name: Ioannis
+    surname: Pratikakis
+    orcid: 0000-0002-4124-3688
+    roles:
+      - transcriber
+      - project-manager
+  - name: Aleksandros
+    surname: Papazoglou
+    roles:
+      - transcriber
+      - project-manager
+  - name: Symeon
+    surname: Symeonidis
+    orcid: 0000-0002-3259-614X
+    roles:
+      - transcriber
+      - project-manager
+  - name: Lazaros
+    surname: Tsochatzidis
+    orcid: 0000-0002-4634-7419
+    roles:
+      - transcriber
+      - project-manager
+institutions: []
+description: >-
+  The collection is one of the oldest Stavronikita Monastery on Mount Athos. 
+  It is a parchment, four-gospel manuscript which has been written between 
+  1301 and 1350. It comprises 54 pages with dimensions that are approximately
+   250x185 mm. The script is elegant minuscule and the use of majuscule letters
+   is rare. Tachygraphical symbols and abbreviations are encountered in the 
+   manuscript as well. Furthermore, the manuscript is enriched with 
+   chrysography, elegant epititles and initials. 
+
+   The dataset of ΧΦ53 consists of 1038 lines of text containing 5592 words
+   (2374 unique words) that are distributed over 54 scanned handwritten text pages.
+language:
+  - grc
+transcription-guidelines: |
+  - Abbreviation and ligatures were resolved
+  - Minuscule in the beginning of sentences were kept as such.
+  - Polytonic spelling and diaeresis are kept
+production-software: Unknown
+automatically-aligned: false
+characters:
+  mode: NFD
+script:
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '1301'
+  notAfter: '1350'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+    - {count: 1038, metric: "lines"}
+    - {count: 54, metric: "files"}
+    - {count: 54, metric: "regions"}
+    - {count: 37070, metric: "characters"}

@@ -1,0 +1,73 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: EPARCHOS
+url: https://zenodo.org/records/4095301
+authors:
+  - name: Aleksandros
+    surname: Papazoglou
+    roles:
+      - transcriber
+      - project-manager
+  - name: Ioannis
+    surname: Pratikakis
+    orcid: 0000-0002-4124-3688
+    roles:
+      - transcriber
+      - project-manager
+  - name: Kleopatra
+    surname: Markou
+    roles:
+      - transcriber
+      - project-manager
+  - name: Lazaros
+    surname: Tsochatzidis
+    orcid: 0000-0002-4634-7419
+    roles:
+      - transcriber
+      - project-manager
+institutions: []
+description: >-
+  The dataset originates from a Greek handwritten codex that dates from around
+  1500-1530. This is the subset of the codex British Museum Addit. 6791, written
+  by two hands, one by Antonius Eparchos and the other by Camillos Zanettus (ff.
+  104r-174v) and delivers texts by Hierocles (In Aureum carmen), Matthaeus
+  Blastares (Collectio alphabetica) and, notably, texts by Michael Psellos (De
+  omnifaria doctrina). The writing delivers the most important abbreviations,
+  logograms and conjunctions, which are cited in virtually every Greek minuscule
+  handwritten codex from the years of the manuscript transliteration and the
+  prevalence of the minuscule script (9th century) to the post-Byzantine years.
+  This dataset consists of 120 scanned handwritten text pages, containing 9285
+  lines of text, 18809 words (6787 unique words). For each page, a PageXML is
+  provided containing the following groundtruth:
+  1. Text region polygon coordinates
+  2. Text line polygon coordinates with the corresponding transcription text
+  3. Word polygon coordinated with the corresponding transcription text
+language:
+  - grc
+transcription-guidelines: |
+  - Abbreviation and ligatures were resolved
+  - Minuscule in the beginning of sentences were kept as such.
+  - Polytonic spelling and diaeresis are kept
+production-software: Unknown
+automatically-aligned: false
+characters:
+  mode: NFD
+script:
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '1500'
+  notAfter: '1530'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 2272
+  - metric: characters
+    count: 116894
+  - metric: files
+    count: 120

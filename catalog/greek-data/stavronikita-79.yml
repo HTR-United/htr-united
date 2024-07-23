@@ -1,0 +1,67 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Stavronikita Monastery Collection No. 79
+url: https://zenodo.org/records/4095301
+authors:
+  - name: Ioannis
+    surname: Pratikakis
+    orcid: 0000-0002-4124-3688
+    roles:
+      - transcriber
+      - project-manager
+  - name: Aleksandros
+    surname: Papazoglou
+    roles:
+      - transcriber
+      - project-manager
+  - name: Symeon
+    surname: Symeonidis
+    orcid: 0000-0002-3259-614X
+    roles:
+      - transcriber
+      - project-manager
+  - name: Lazaros
+    surname: Tsochatzidis
+    orcid: 0000-0002-4634-7419
+    roles:
+      - transcriber
+      - project-manager
+institutions: []
+description: >-
+  It comprises manuscripts made of paper, written in the 16th century and its 
+  dimensions are 220X165 mm. The manuscript is embellished with epititles and 
+  red initials. Tachygraphical symbols and abbreviations are encountered in 
+  the manuscript as well. The dataset of XΦ79 consists of 803 lines of text 
+  containing 4389 words (2069 unique words) that are distributed over 
+  40 scanned handwritten text pages.
+  For each page, a PageXML is provided containing the following ground-truth:
+  1. Text region polygon coordinates
+  2. Text line polygon coordinates with the corresponding transcription text
+  3. Word polygon coordinated with the corresponding transcription text
+language:
+  - grc
+transcription-guidelines: |
+  - Abbreviation and ligatures were resolved
+  - Minuscule in the beginning of sentences were kept as such.
+  - Polytonic spelling and diaeresis are kept
+production-software: Unknown
+automatically-aligned: false
+characters:
+  mode: NFD
+script:
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '1501'
+  notAfter: '1600'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+    - {count: 803, metric: "lines"}
+    - {count: 40, metric: "files"}
+    - {count: 40, metric: "regions"}
+    - {count: 29112, metric: "characters"}
