@@ -14,7 +14,7 @@ language:
   - fra
   - lat
 production-software: eScriptorium + Kraken
-automatically-aligned: true
+automatically-aligned: false
 script:
   - iso: Latn
 script-type: only-typed
