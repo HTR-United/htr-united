@@ -98,9 +98,11 @@ description: >-
   This repository hosts HTR ground truth created within the context of the ANR
   e-NDP project.
 
-   This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris cathedral chapter.
-   The volumes containing the chapter conclusions were conceived to serve as memorial records, but above all as documents for regular use and consultation in the daily practice of administration and management. 
-   The registers were written using a Cursive script (ca. late XIIIe - XVIe) and their content is were written mainly in Latin, the
+  This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris cathedral chapter.
+  
+  The volumes containing the chapter conclusions were conceived to serve as memorial records, but above all as documents for regular use and consultation in the daily practice of administration and management. 
+  
+  The registers were written using a Cursive script (ca. late XIIIe - XVIe) and their content is were written mainly in Latin, the
   rest in French. There are no fewer than 18 hands in these pages.
 
    The transcriptions were manually completed in two rounds by a group of 12 contributors, including historians and paleographers, over the course of 2021-2022 using eScriptorium.
@@ -137,22 +139,10 @@ volume:
  - metric: regions
    count: 2448
 transcription-guidelines: |-
-  - The abbreviations have been resolved, both those by suspension (facimꝰ --->
-   facimus) and by contraction (dñi --> domini). Likewise, those using
-   conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. 
-
-   - The named entities (names of persons, places and institutions) have been
-   capitalized. The beginning of a block of text as well as the original capitals
+  - The abbreviations have been resolved, both those by suspension (facimꝰ ---> facimus) and by contraction (dñi --> domini). Likewise, those using conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. 
+  - The named entities (names of persons, places and institutions) have been capitalized. The beginning of a block of text as well as the original capitals
    used by the notary are also capitalized.
-
-   The consonantal i and u characters have been transcribed as j and v in both
-   French and Latin.
-
-   - The punctuation marks used in the text: . and / have been transcribed, but
-   the transcription has not been standardized with modern punctuation.
-
-   - Corrections and words that appear cancelled in the manuscript have been
-   transcribed surrounded by the sign $ at the beginning and at the end.
-
-   - More specific transcription rules can be found into the file
-   transcription_guidelines.pdf on Zenodo repository. 
+  - The consonantal i and u characters have been transcribed as j and v in both French and Latin.
+  - The punctuation marks used in the text: . and / have been transcribed, but the transcription has not been standardized with modern punctuation.
+  - Corrections and words that appear cancelled in the manuscript have been transcribed surrounded by the sign $ at the beginning and at the end.
+  - More specific transcription rules can be found into the file `transcription_guidelines.pdf` on Zenodo repository. 
