@@ -13387,6 +13387,88 @@
     "automatically-aligned": false,
     "_pid": "c2cf58d8f"
   },
+  "12401acca": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "HPGTR Dataset",
+    "url": "https://github.com/vivianpl/hpgtr",
+    "authors": [
+      {
+        "name": "Paraskevi",
+        "surname": "Platanou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "John",
+        "surname": "Pavlopoulos",
+        "orcid": "0000-0001-9188-7425",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Georgios",
+        "surname": "Papaioannou",
+        "orcid": "0000-0003-4774-0746",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The HPGT dataset consists of images of Handwritten Paleographic  Greek Text, derived from the Bodleian Libraries' Greek manuscript  collection, specifically the Barocci collection, which dates from the 8th to the 17th centuries. This dataset is divided into two editions: HPGTR.N, which contains 77 unsegmented images categorized  by century from the 10th to the 16th, and HPGTR.S, which features  carefully segmented lines from selected images to facilitate machine  learning tasks. The dataset captures a range of characteristics,  including variations in writing style, page conditions, and  manuscript production details.\nThis dataset is part of the following work: Paraskevi Platanou,  John Pavlopoulos, and Georgios Papaioannou. 2022. Handwritten  Paleographic Greek Text Recognition: A Century-Based Approach.  In *Proceedings of the \"Thirteenth Language Resources and Evaluation Conference\"*, pages 6585\u20136589, Marseille, France. European Language Resources Association.",
+    "language": [
+      "grc"
+    ],
+    "transcription-guidelines": "- Abbreviation and ligatures were resolved\n- Minuscule in the beginning of sentences were kept as such.\n- Polytonic spelling and diaeresis are kept\n",
+    "production-software": "Unknown",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "0901",
+      "notAfter": "1600"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-NC-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 1698,
+        "metric": "lines"
+      },
+      {
+        "count": 70,
+        "metric": "files"
+      },
+      {
+        "count": 178,
+        "metric": "regions"
+      },
+      {
+        "count": 64952,
+        "metric": "characters"
+      }
+    ],
+    "_pid": "12401acca"
+  },
   "548220461": {
     "authors": [
       {
@@ -14464,32 +14546,41 @@
     ],
     "_pid": "fc63dcc30"
   },
-  "d9283ba57": {
+  "a4fc096c0": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Stavronikita Monastery Collection No. 114",
-    "url": "https://zenodo.org/records/5578251",
+    "title": "Stavronikita Monastery Collection No. 79",
+    "url": "https://zenodo.org/records/5578136",
     "authors": [
       {
-        "name": "Paraskevi",
-        "surname": "Platanou",
+        "name": "Ioannis",
+        "surname": "Pratikakis",
+        "orcid": "0000-0002-4124-3688",
         "roles": [
           "transcriber",
           "project-manager"
         ]
       },
       {
-        "name": "John",
-        "surname": "Pavlopoulos",
-        "orcid": "0000-0001-9188-7425",
+        "name": "Aleksandros",
+        "surname": "Papazoglou",
         "roles": [
           "transcriber",
           "project-manager"
         ]
       },
       {
-        "name": "Georgios",
-        "surname": "Papaioannou",
-        "orcid": "0000-0003-4774-0746",
+        "name": "Symeon",
+        "surname": "Symeonidis",
+        "orcid": "0000-0002-3259-614X",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Lazaros",
+        "surname": "Tsochatzidis",
+        "orcid": "0000-0002-4634-7419",
         "roles": [
           "transcriber",
           "project-manager"
@@ -14497,7 +14588,7 @@
       }
     ],
     "institutions": [],
-    "description": "The HPGT dataset consists of images of Handwritten Paleographic  Greek Text, derived from the Bodleian Libraries' Greek manuscript  collection, specifically the Barocci collection, which dates from the 8th to the 17th centuries. This dataset is divided into two editions: HPGTR.N, which contains 77 unsegmented images categorized  by century from the 10th to the 16th, and HPGTR.S, which features  carefully segmented lines from selected images to facilitate machine  learning tasks. The dataset captures a range of characteristics,  including variations in writing style, page conditions, and  manuscript production details.\nThis dataset is part of the following work: Paraskevi Platanou,  John Pavlopoulos, and Georgios Papaioannou. 2022. Handwritten  Paleographic Greek Text Recognition: A Century-Based Approach.  In *Proceedings of the \"Thirteenth Language Resources and Evaluation Conference\"*, pages 6585\u20136589, Marseille, France. European Language Resources Association.",
+    "description": "It comprises manuscripts made of paper, written in the 16th century and its  dimensions are 220X165 mm. The manuscript is embellished with epititles and  red initials. Tachygraphical symbols and abbreviations are encountered in  the manuscript as well. The dataset of X\u03a679 consists of 803 lines of text  containing 4389 words (2069 unique words) that are distributed over  40 scanned handwritten text pages. For each page, a PageXML is provided containing the following ground-truth: 1. Text region polygon coordinates 2. Text line polygon coordinates with the corresponding transcription text 3. Word polygon coordinated with the corresponding transcription text",
     "language": [
       "grc"
     ],
@@ -14514,7 +14605,7 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "0901",
+      "notBefore": "1501",
       "notAfter": "1600"
     },
     "hands": {
@@ -14522,25 +14613,116 @@
       "precision": "exact"
     },
     "license": {
-      "name": "CC-BY-NC-SA 3.0",
+      "name": "CC-BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
     },
     "format": "Page-XML",
     "volume": [
       {
-        "count": 1698,
+        "count": 803,
         "metric": "lines"
       },
       {
-        "count": 70,
+        "count": 40,
         "metric": "files"
       },
       {
-        "count": 178,
+        "count": 40,
         "metric": "regions"
       },
       {
-        "count": 64952,
+        "count": 29112,
+        "metric": "characters"
+      }
+    ],
+    "_pid": "a4fc096c0"
+  },
+  "d9283ba57": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Stavronikita Monastery Collection No. 114",
+    "url": "https://zenodo.org/records/5578251",
+    "authors": [
+      {
+        "name": "Ioannis",
+        "surname": "Pratikakis",
+        "orcid": "0000-0002-4124-3688",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Aleksandros",
+        "surname": "Papazoglou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Symeon",
+        "surname": "Symeonidis",
+        "orcid": "0000-0002-3259-614X",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Lazaros",
+        "surname": "Tsochatzidis",
+        "orcid": "0000-0002-4634-7419",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "It comprises manuscripts made of paper, written at the end of the 15th century  and its dimensions are 218X150 mm. In various pages, we find red initials and epititles which enrich the manuscript\u2019s decoration. \nThe dataset of \u03a7\u03a6114 consists of 1051 lines of text containing 5467 (2877  unique words) words that are distributed over 44 scanned handwritten text pages. \nFor each page, a PageXML is provided containing the following ground-truth:\n1. Text region polygon coordinates 2. Text line polygon coordinates with the corresponding transcription text 3. Word polygon coordinated with the corresponding transcription text",
+    "language": [
+      "grc"
+    ],
+    "transcription-guidelines": "- Abbreviation and ligatures were resolved\n- Minuscule in the beginning of sentences were kept as such.\n- Polytonic spelling and diaeresis are kept\n",
+    "production-software": "Unknown",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1401",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 1006,
+        "metric": "lines"
+      },
+      {
+        "count": 44,
+        "metric": "files"
+      },
+      {
+        "count": 44,
+        "metric": "regions"
+      },
+      {
+        "count": 36898,
         "metric": "characters"
       }
     ],
