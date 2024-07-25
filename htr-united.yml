@@ -12046,12 +12046,14 @@
     This repository hosts HTR ground truth created within the context of the ANR
     e-NDP project.
 
-     This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris
+    This dataset based on 512 pages from the 26 registers of the Notre-Dame de Paris
     cathedral chapter.
-     The volumes containing the chapter conclusions were conceived to serve as memorial
+
+    The volumes containing the chapter conclusions were conceived to serve as memorial
     records, but above all as documents for regular use and consultation in the daily
     practice of administration and management. 
-     The registers were written using a Cursive script (ca. late XIIIe - XVIe) and
+
+    The registers were written using a Cursive script (ca. late XIIIe - XVIe) and
     their content is were written mainly in Latin, the
     rest in French. There are no fewer than 18 hands in these pages.
 
@@ -12090,25 +12092,12 @@
   - metric: regions
     count: 2448
   transcription-guidelines: |-
-    - The abbreviations have been resolved, both those by suspension (facimꝰ --->
-     facimus) and by contraction (dñi --> domini). Likewise, those using
-     conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. 
-
-     - The named entities (names of persons, places and institutions) have been
-     capitalized. The beginning of a block of text as well as the original capitals
-     used by the notary are also capitalized.
-
-     The consonantal i and u characters have been transcribed as j and v in both
-     French and Latin.
-
-     - The punctuation marks used in the text: . and / have been transcribed, but
-     the transcription has not been standardized with modern punctuation.
-
-     - Corrections and words that appear cancelled in the manuscript have been
-     transcribed surrounded by the sign $ at the beginning and at the end.
-
-     - More specific transcription rules can be found into the file
-     transcription_guidelines.pdf on Zenodo repository. 
+    - The abbreviations have been resolved, both those by suspension (facimꝰ ---> facimus) and by contraction (dñi --> domini). Likewise, those using conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. 
+    - The named entities (names of persons, places and institutions) have been capitalized. The beginning of a block of text as well as the original capitals used by the notary are also capitalized.
+    - The consonantal i and u characters have been transcribed as j and v in both French and Latin.
+    - The punctuation marks used in the text: . and / have been transcribed, but the transcription has not been standardized with modern punctuation.
+    - Corrections and words that appear cancelled in the manuscript have been transcribed surrounded by the sign $ at the beginning and at the end.
+    - More specific transcription rules can be found into the file `transcription_guidelines.pdf` on Zenodo repository. 
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ARletta
   url: zenodo.org/records/11191457
@@ -12155,18 +12144,28 @@
   - metric: characters
     count: 14253206
   transcription-guidelines: >-
-    diplomatic transcription: all of the text was transcribed verbatim, preserving
+    **Diplomatic transcription.** All of the text was transcribed verbatim, preserving
     all of its original features:
-     - orthography: preserve original spelling
-     - abbreviations: do not expand abbreviations
-     - capitalization: retain original use of uppercase and lowercase letters
-     - punctuation: transcribe punctuation marks exactly as they appear, even of they
+
+    - orthography: preserve original spelling
+
+    - abbreviations: do not expand abbreviations
+
+    - capitalization: retain original use of uppercase and lowercase letters
+
+    - punctuation: transcribe punctuation marks exactly as they appear, even of they
     are unconventional by modern standards
-     - special characters: include any special characters or symbols as they appear
-     - formatting: maintain original formatting such as underlining or strikethrough
-     - errors and corrections: include all errors and corrections found in the text
-     - non-interpretative: avoid interpreting or modernizing the text
-     - use the '@' symbol for characters you can not read an tag them as 'unclear'
+
+    - special characters: include any special characters or symbols as they appear
+
+    - formatting: maintain original formatting such as underlining or strikethrough
+
+    - errors and corrections: include all errors and corrections found in the text
+
+    - non-interpretative: avoid interpreting or modernizing the text
+
+    - use the '@' symbol for characters you can not read an tag them as 'unclear'
     on baseline level
-     - tag marginal text as 'marginalia' and main body text as 'paragraph' on region
+
+    - tag marginal text as 'marginalia' and main body text as 'paragraph' on region
     level
