@@ -44,9 +44,7 @@ volume:
  - metric: characters
    count: 14253206
 transcription-guidelines: >-
-  diplomatic transcription: all of the text was transcribed verbatim, preserving
-
-  all of its original features:
+  **Diplomatic transcription.** All of the text was transcribed verbatim, preserving all of its original features:
   
   - orthography: preserve original spelling
   
