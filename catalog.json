@@ -1725,6 +1725,1312 @@
     "automatically-aligned": false,
     "_pid": "8239384d8"
   },
+  "3f3c2f48e": {
+    "authors": [
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Jessica",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Da Silva Fernandes"
+      },
+      {
+        "name": "Myriam",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Perregaux"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "t",
+        "o",
+        "n",
+        "a",
+        "i",
+        "r",
+        "s",
+        "h",
+        "d",
+        "l",
+        "c",
+        "u",
+        "m",
+        "f",
+        "g",
+        "p",
+        ",",
+        "y",
+        "w",
+        "b",
+        "v",
+        ".",
+        "k",
+        "1",
+        "I",
+        "\u00ac",
+        "C",
+        "S",
+        "T",
+        "-",
+        "9",
+        "A",
+        ";",
+        "8",
+        "M",
+        "x",
+        "4",
+        "2",
+        "/",
+        "6",
+        "N",
+        "G",
+        "R",
+        "D",
+        "q",
+        "0",
+        "\"",
+        "H",
+        "E",
+        "5",
+        "z",
+        "P",
+        "W",
+        "U",
+        "7",
+        "(",
+        "j",
+        ")",
+        "3",
+        "B",
+        "'",
+        "\u2019",
+        "L",
+        ":",
+        "Y",
+        "O",
+        "V",
+        "Q",
+        "\u2013",
+        "?",
+        "F",
+        "J",
+        "!",
+        "K",
+        "\u201c",
+        "[",
+        "]",
+        "X",
+        "Z",
+        "\u0301",
+        "\u201d",
+        "\u2014"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-EN-PRINT-20/blob/master/CITATION.cff",
+    "description": "Various prints (academic, archives, novels\u2026)",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "eng"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1900",
+      "notBefore": "1999"
+    },
+    "title": "FONDUE-EN-PRINT-20",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-EN-PRINT-20",
+    "volume": [
+      {
+        "count": 82834,
+        "metric": "characters"
+      },
+      {
+        "count": 30,
+        "metric": "files"
+      },
+      {
+        "count": 1728,
+        "metric": "lines"
+      },
+      {
+        "count": 72,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Perregaux, Myriam and Da Silva Fernandes, Jessica},\nmonth = {12},\ntitle = {FONDUE-EN-PRINT-20},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-EN-PRINT-20},\nyear = {2023}\n}\n",
+    "_apa": "Gabay S., Perregaux M., Da Silva Fernandes J. (2023). FONDUE-EN-PRINT-20 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-EN-PRINT-20\n",
+    "_pid": "3f3c2f48e"
+  },
+  "5d6e6d6d8": {
+    "authors": [
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Carmen",
+        "orcid": "0009-0004-1508-9076",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Carrasco Luj\u00e1n"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "a",
+        "o",
+        "s",
+        "n",
+        "r",
+        "i",
+        "l",
+        "d",
+        "u",
+        "t",
+        "c",
+        "m",
+        "p",
+        ".",
+        "\u0301",
+        ",",
+        "b",
+        "g",
+        "y",
+        "q",
+        "h",
+        "v",
+        "\u00ac",
+        "f",
+        "j",
+        "z",
+        "A",
+        "E",
+        ";",
+        "\u2013",
+        "!",
+        "\u0303",
+        "S",
+        "x",
+        "I",
+        "P",
+        "C",
+        "L",
+        "B",
+        "U",
+        "D",
+        "R",
+        ":",
+        "T",
+        "?",
+        "O",
+        "N",
+        "0",
+        "H",
+        "Y",
+        "\u00bf",
+        "M",
+        "V",
+        "\u00a1",
+        "1",
+        "J",
+        "2",
+        "\u2014",
+        "\"",
+        "G",
+        "F",
+        "k",
+        "8",
+        "7",
+        "4",
+        "5",
+        "-",
+        "Q",
+        "6",
+        "3",
+        "\u0300",
+        "K",
+        "9",
+        "(",
+        ")",
+        "\u0308",
+        "X",
+        "\u00bb",
+        "W",
+        "[",
+        "]",
+        "Z",
+        "&",
+        "w",
+        "*",
+        "\u00a7",
+        "\u00a0",
+        "\u00b0",
+        "\u01dd",
+        "\u00ab"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19/blob/master/CITATION.cff",
+    "description": "Novels written in Spanish",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "spa"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1800",
+      "notBefore": "1899"
+    },
+    "title": "FONDUE-ES-PRINT-19",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19",
+    "volume": [
+      {
+        "count": 64038,
+        "metric": "characters"
+      },
+      {
+        "count": 48,
+        "metric": "files"
+      },
+      {
+        "count": 1668,
+        "metric": "lines"
+      },
+      {
+        "count": 129,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Carrasco Luj\u00e1n, Carmen},\nmonth = {2},\ntitle = {FONDUE-ES-PRINT-19},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19},\nyear = {2024}\n}\n",
+    "_apa": "Gabay S., Carrasco Luj\u00e1n C. (2024). FONDUE-ES-PRINT-19 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-ES-PRINT-19\n",
+    "_pid": "5d6e6d6d8"
+  },
+  "625707f6d": {
+    "authors": [
+      {
+        "name": "Peter",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Nahon"
+      },
+      {
+        "name": "Marco",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Cicchini"
+      },
+      {
+        "name": "Yvan",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Jaureguy"
+      },
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Gabay"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "a",
+        "r",
+        "u",
+        "t",
+        "n",
+        "i",
+        "o",
+        "l",
+        "d",
+        "c",
+        "m",
+        "p",
+        "v",
+        ",",
+        ".",
+        "\u0301",
+        "q",
+        "h",
+        "f",
+        "g",
+        "'",
+        "b",
+        "y",
+        "M",
+        "L",
+        "j",
+        "x",
+        "1",
+        "C",
+        "I",
+        "\u2019",
+        "E",
+        "S",
+        "+",
+        "\u0300",
+        "\u0302",
+        "2",
+        "\u00ac",
+        "z",
+        "V",
+        "\u02b3",
+        "D",
+        "J",
+        ":",
+        "X",
+        "3",
+        "4",
+        "P",
+        "A",
+        "\u0308",
+        "7",
+        ";",
+        "\u1d49",
+        "5",
+        "6",
+        "R",
+        "B",
+        "9",
+        "0",
+        "G",
+        "8",
+        "T",
+        "^",
+        "N",
+        "O",
+        "\u0327",
+        "-",
+        "\u1d57",
+        "?",
+        "\u1d48",
+        "\u2014",
+        "H",
+        "Q",
+        "k",
+        "\u0153",
+        "\u27e6",
+        "\u27e7",
+        "\u02e2",
+        "\u02e1",
+        "F",
+        "\u1d47",
+        "\u00a0",
+        "[",
+        "]",
+        "W",
+        "\u03b1",
+        "Z",
+        "U",
+        "(",
+        ")",
+        "\u0313",
+        "\u03bf",
+        "\u03bd",
+        "\u0303",
+        "\u2071",
+        "w",
+        "\u03bc",
+        "\u03c9",
+        "\u03c4",
+        "\u03b4",
+        "\u03b5",
+        "&",
+        "K",
+        "\u0304",
+        "\u03c1",
+        "\u03c6",
+        "{",
+        "\u03a8",
+        "\u03b9",
+        "\u03c5",
+        "\u03c0",
+        "\u03bb",
+        "Y"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18/blob/master/CITATION.cff",
+    "description": "French Manuscripts of the 18th",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1799",
+      "notBefore": "1700"
+    },
+    "title": "FONDUE-FR-MSS-18",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18",
+    "volume": [
+      {
+        "count": 178939,
+        "metric": "characters"
+      },
+      {
+        "count": 163,
+        "metric": "files"
+      },
+      {
+        "count": 5050,
+        "metric": "lines"
+      },
+      {
+        "count": 499,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Nahon, Peter and Cicchini, Marco and Jaureguy, Yvan},\nmonth = {11},\ntitle = {FoNDUE-FR-MSS-18},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18},\nyear = {2023}\n}\n",
+    "_apa": "Gabay S., Nahon P., Cicchini M., Jaureguy Y. (2023). FoNDUE-FR-MSS-18 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18\n",
+    "_pid": "625707f6d"
+  },
+  "e7af0e31e": {
+    "authors": [
+      {
+        "name": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Simon"
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16/blob/master/CITATION.cff",
+    "description": " Transcriptions of French 16th c. prints ",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR/",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1600",
+      "notBefore": "1500"
+    },
+    "title": "FONDUE-FR-PRINT-16",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16",
+    "volume": [
+      {
+        "count": 504656,
+        "metric": "characters"
+      },
+      {
+        "count": 930,
+        "metric": "files"
+      },
+      {
+        "count": 17817,
+        "metric": "lines"
+      },
+      {
+        "count": 2829,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_pid": "e7af0e31e"
+  },
+  "7c7c90001": {
+    "authors": [
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Sophie",
+        "orcid": "0009-0005-6841-0158",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Dolto"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "a",
+        "s",
+        "i",
+        "t",
+        "r",
+        "n",
+        "u",
+        "l",
+        "o",
+        "d",
+        "c",
+        "p",
+        "m",
+        "\u0301",
+        ",",
+        ".",
+        "v",
+        "\u2019",
+        "g",
+        "f",
+        "b",
+        "q",
+        "h",
+        "\u0300",
+        "\u0302",
+        "x",
+        "j",
+        "L",
+        "y",
+        "-",
+        "I",
+        "'",
+        "\u2014",
+        "A",
+        "G",
+        "E",
+        "M",
+        "P",
+        "C",
+        "B",
+        "J",
+        "D",
+        "z",
+        "\u0327",
+        "S",
+        "!",
+        "T",
+        "?",
+        "\u00ac",
+        "V",
+        ";",
+        "U",
+        "O",
+        "R",
+        "Q",
+        ":",
+        "1",
+        "k",
+        "F",
+        "H",
+        "\u0153",
+        "0",
+        "(",
+        ")",
+        "\u201c",
+        "2",
+        "N",
+        "6",
+        "9",
+        "8",
+        "5",
+        "\u0308",
+        "3",
+        "w",
+        "W",
+        "4",
+        "Y",
+        "\u201d",
+        "\u00a0",
+        "7",
+        "Z",
+        "*",
+        "/",
+        "K",
+        "\"",
+        "\u00ab",
+        "\u00bb"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20/blob/master/CITATION.cff",
+    "description": "French novels",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "eng"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1900",
+      "notBefore": "1999"
+    },
+    "title": "FONDUE-FR-PRINT-20",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20",
+    "volume": [
+      {
+        "count": 81599,
+        "metric": "characters"
+      },
+      {
+        "count": 55,
+        "metric": "files"
+      },
+      {
+        "count": 1604,
+        "metric": "lines"
+      },
+      {
+        "count": 64,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Dolto, Sophie},\nmonth = {2},\ntitle = {FONDUE-FR-PRINT-20},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20},\nyear = {2024}\n}\n",
+    "_apa": "Gabay S., Dolto S. (2024). FONDUE-FR-PRINT-20 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20\n",
+    "_pid": "7c7c90001"
+  },
+  "ced371a4c": {
+    "authors": [
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Maddalena",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Zaglio"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "a",
+        "i",
+        "o",
+        "r",
+        "n",
+        "t",
+        "l",
+        "s",
+        "c",
+        "d",
+        "u",
+        "p",
+        "m",
+        "v",
+        ",",
+        "g",
+        "h",
+        "f",
+        "b",
+        ".",
+        "z",
+        "\u0300",
+        "\u00ac",
+        "q",
+        "I",
+        "-",
+        "C",
+        "A",
+        "'",
+        "\u2019",
+        "M",
+        "P",
+        "E",
+        "\"",
+        "S",
+        ";",
+        "L",
+        "=",
+        "T",
+        "R",
+        "O",
+        "D",
+        "V",
+        "G",
+        ":",
+        "N",
+        "1",
+        "!",
+        "B",
+        ")",
+        "\u2014",
+        "4",
+        "(",
+        "F",
+        "[",
+        "]",
+        "Q",
+        "2",
+        "?",
+        "0",
+        "3",
+        "9",
+        "5",
+        "U",
+        "\u00b0",
+        "\u2b2a",
+        "6",
+        "y",
+        "Z",
+        "k",
+        "\u15c5",
+        "K",
+        "x",
+        "\u00a7",
+        "H",
+        "8",
+        "X",
+        "7",
+        "W",
+        "\u2013",
+        "^",
+        "\u201c",
+        "\u1455",
+        "\u15de",
+        "w"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20/blob/master/CITATION.cff",
+    "description": "Archives and novels",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "ita"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1900",
+      "notBefore": "1999"
+    },
+    "title": "FONDUE-IT-PRINT-20",
+    "transcription-guidelines": "SegmOnto",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20",
+    "volume": [
+      {
+        "count": 54628,
+        "metric": "characters"
+      },
+      {
+        "count": 28,
+        "metric": "files"
+      },
+      {
+        "count": 1150,
+        "metric": "lines"
+      },
+      {
+        "count": 67,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Zaglio, Maddalena},\nmonth = {12},\ntitle = {FONDUE-IT-PRINT-20},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20},\nyear = {2023}\n}\n",
+    "_apa": "Gabay S., Zaglio M. (2023). FONDUE-IT-PRINT-20 (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20\n",
+    "_pid": "ced371a4c"
+  },
+  "dd2357d22": {
+    "authors": [
+      {
+        "name": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Simon"
+      },
+      {
+        "name": "Joyeux-Prunel",
+        "orcid": "0000-0003-1046-7002",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "B\u00e9atrice"
+      },
+      {
+        "name": "Rizzello",
+        "orcid": "0000-0003-0131-192X",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Martina"
+      },
+      {
+        "name": "Berlincourt",
+        "orcid": "0000-0001-5739-8839",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Val\u00e9ry"
+      },
+      {
+        "name": "Rizzi",
+        "orcid": "0000-0002-8542-7091",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Elena Maria"
+      },
+      {
+        "affiliation": "Ca' Foscari University",
+        "name": "Tesser",
+        "orcid": "0000-0001-9553-1100",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Stefania"
+      },
+      {
+        "name": "Bukvic",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Victoria"
+      },
+      {
+        "name": "Diaz",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Jaime"
+      },
+      {
+        "name": "Aebi",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Guillaume"
+      },
+      {
+        "name": "Bickel",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Raoul"
+      }
+    ],
+    "characters": {
+      "members": [
+        "e",
+        "n",
+        ".",
+        "r",
+        "i",
+        "a",
+        "u",
+        "t",
+        "l",
+        "s",
+        "0",
+        "o",
+        "h",
+        "d",
+        "1",
+        "c",
+        "2",
+        "m",
+        "g",
+        "5",
+        "\u0308",
+        "3",
+        "f",
+        "b",
+        ",",
+        "M",
+        "B",
+        "4",
+        "S",
+        "A",
+        "6",
+        "F",
+        "G",
+        "7",
+        "8",
+        "v",
+        "p",
+        ")",
+        "(",
+        "L",
+        "9",
+        "z",
+        "P",
+        "k",
+        "R",
+        "V",
+        "D",
+        "K",
+        "y",
+        "W",
+        "E",
+        "H",
+        "C",
+        "\u2013",
+        "\u0300",
+        "w",
+        "J",
+        "T",
+        "Z",
+        "\u0301",
+        "-",
+        "N",
+        "I",
+        "\u2014",
+        "q",
+        "O",
+        "U",
+        "\u00a0",
+        "\u0302",
+        "\u2019",
+        "x",
+        "j",
+        "\"",
+        "\u00bb",
+        "\u00ac",
+        ";",
+        "\u0153",
+        "X",
+        "\u0327",
+        "Q",
+        "'",
+        ":",
+        "\u00df",
+        "\u00ab",
+        "?",
+        "\u00a7",
+        "Y",
+        "\u00e6",
+        "[",
+        "]",
+        "/",
+        "\u2020",
+        "!",
+        "\u201e",
+        "\u201c",
+        "\u2026",
+        "&"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://raw.githubusercontent.com/FoNDUE-HTR/FONDUE-MLT-ART/main/CITATION.cff",
+    "description": "Swiss art exhibitions catalogues",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "deu"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1961",
+      "notBefore": "1842"
+    },
+    "title": "FONDUE-MLT-ART",
+    "transcription-guidelines": "No segmentation, only transcription.",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-ART",
+    "volume": [
+      {
+        "count": 141786,
+        "metric": "characters"
+      },
+      {
+        "count": 215,
+        "metric": "files"
+      },
+      {
+        "count": 5664,
+        "metric": "lines"
+      },
+      {
+        "count": 60,
+        "metric": "pages"
+      },
+      {
+        "count": 215,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Joyeux-Prunel, B\u00e9atrice and Gabay, Simon and Rizzello, Martina and Berlincourt, Val\u00e9ry and Rizzi, Elena Maria and Tesser, Stefania and Bukvic, Victoria and Diaz, Jaime and Aebi, Guillaume and Bickel, Raoul},\nmonth = {11},\ntitle = {FONDUE-MLT-ART},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-ART},\nyear = {2023}\n}\n",
+    "_apa": "Joyeux-Prunel B., Gabay S., Rizzello M., Berlincourt V., Rizzi E.M., Tesser S., Bukvic V., Diaz J., Aebi G., Bickel R. (2023). FONDUE-MLT-ART (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-ART\n",
+    "_pid": "dd2357d22"
+  },
+  "74eadcb57": {
+    "authors": [
+      {
+        "name": "Pradier",
+        "orcid": "0000-0002-3476-7248",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Fr\u00e9d\u00e9rine"
+      },
+      {
+        "name": "Gabay",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "support"
+        ],
+        "surname": "Simon"
+      },
+      {
+        "name": "Kervegan",
+        "orcid": "0000-0003-2821-8821",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Paul"
+      },
+      {
+        "name": "Jan\u00e8s",
+        "orcid": "0000-0002-8971-6173",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Juliette"
+      },
+      {
+        "name": "S\u00e1nchez Oeconomo",
+        "orcid": "0000-0002-8591-5394",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Esteban"
+      }
+    ],
+    "citation-file-link": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT/blob/main/CITATION.cff",
+    "description": "Groundtruth for 19th/20th sale/exhibition catalogues, mainly printed in France but not only.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "institutions": [],
+    "language": [
+      "por",
+      "fra",
+      "ita"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://github.com/FoNDUE-HTR",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1972",
+      "notBefore": "1818"
+    },
+    "title": "FONDUE-MLT-CAT",
+    "transcription-guidelines": "Segmentation include an extra zone `CustomeZone: entry`",
+    "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT",
+    "volume": [
+      {
+        "count": 1285120,
+        "metric": "characters"
+      },
+      {
+        "count": 1381,
+        "metric": "files"
+      },
+      {
+        "count": 43114,
+        "metric": "lines"
+      },
+      {
+        "count": 10713,
+        "metric": "regions"
+      }
+    ],
+    "automatically-aligned": false,
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Pradier, Frederine and Gabay, Simon and Jan\u00e8s, Juliette and S\u00e1nchez Oeconomo, Esteban and Kervegan, Paul},\nmonth = {10},\ntitle = {FoNDUE - Datasets for historical catalogues},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT},\nyear = {2022}\n}\n",
+    "_apa": "Pradier F., Gabay S., Jan\u00e8s J., S\u00e1nchez Oeconomo E., Kervegan P. (2022). FoNDUE - Datasets for historical catalogues (version 0.9). URL: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT\n",
+    "_pid": "74eadcb57"
+  },
   "dcb8b4eaf": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "FoNDUE_Kunsthistorisches-UZH_Archivdatenbank",
@@ -1994,7 +3300,18 @@
     "_pid": "70e2b99f0"
   },
   "4b2e8b703": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Donn\u00e9es imprim\u00e9s du 16e si\u00e8cle",
+    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 16e si\u00e8cle",
+    "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
     "authors": [
+      {
+        "name": "Gabay",
+        "surname": "Simon",
+        "roles": [
+          "project-manager"
+        ]
+      },
       {
         "name": "Pinche",
         "roles": [
@@ -2003,124 +3320,27 @@
         "surname": "Ariane"
       },
       {
-        "name": "Gabay",
-        "roles": [
-          "project-manager"
-        ],
-        "surname": "Simon"
-      },
-      {
         "name": "Vlachou-Efstathiou",
+        "surname": "malamatenia",
         "roles": [
           "transcriber"
-        ],
-        "surname": "malamatenia"
+        ]
       },
       {
         "name": "Christensen",
+        "surname": "Kelly",
         "roles": [
           "support"
-        ],
-        "surname": "Kelly"
+        ]
       }
     ],
-    "characters": {
-      "members": [
-        "e",
-        "u",
-        "a",
-        "i",
-        "t",
-        "r",
-        "n",
-        "o",
-        "s",
-        "l",
-        "d",
-        "c",
-        "m",
-        "p",
-        "\u017f",
-        "q",
-        "y",
-        "\u0303",
-        "f",
-        "g",
-        "b",
-        ".",
-        "h",
-        ",",
-        "z",
-        "\u204a",
-        "x",
-        "E",
-        "\u00ac",
-        "\u00b6",
-        "C",
-        "S",
-        "L",
-        "D",
-        "P",
-        "A",
-        "I",
-        "\u0365",
-        "M",
-        "v",
-        "Q",
-        "\ua770",
-        "O",
-        "T",
-        ":",
-        "V",
-        "B",
-        "?",
-        "\ua751",
-        "H",
-        "N",
-        "\u036c",
-        "R",
-        ";",
-        "G",
-        "F",
-        "\u030c",
-        "\ua753",
-        "J",
-        "-",
-        "\ua76f",
-        "(",
-        ")",
-        "1",
-        "U",
-        "9",
-        "\u033e",
-        "\u00e6",
-        "X",
-        "4",
-        "\ua759",
-        "\u0327",
-        "\u0364",
-        "2",
-        "*",
-        "6",
-        "'",
-        "\u0399",
-        "7",
-        "\u27e6",
-        "\u27e7",
-        "8",
-        "Y",
-        "5",
-        "0"
-      ],
-      "mode": "NFD"
-    },
-    "description": "Corpus d'entrainement pour l'HTR constitu\u00e9 d'imprim\u00e9s du 16e si\u00e8cle",
     "format": "Alto-XML",
     "hands": {
       "count": "1-per-folder",
       "precision": "estimated"
     },
     "language": [
+      "frm",
       "fra"
     ],
     "license": [
@@ -2129,41 +3349,146 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       }
     ],
-    "production-software": "eScriptorium + Kraken",
     "project-name": "Gallicorpora",
     "project-website": "https://github.com/Gallicorpora",
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
       }
     ],
-    "script-type": "evenly-mixed",
+    "script-type": "only-typed",
     "time": {
       "notAfter": "1599",
       "notBefore": "1500"
     },
-    "title": "Donn\u00e9es imprim\u00e9s gothiques du 16e si\u00e8cle",
-    "transcription-guidelines": "Les transcriptions suivent les normes de transcription du projet Gallicorpora",
-    "url": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle",
+    "transcription-guidelines": "Les normes de transcription suivent les pr\u00e9conisations du projet Gallicorpora",
     "volume": [
       {
-        "count": 90731,
-        "metric": "characters"
+        "metric": "characters",
+        "count": 186202
       },
       {
-        "count": 80,
-        "metric": "files"
+        "metric": "files",
+        "count": 180
       },
       {
-        "count": 2971,
-        "metric": "lines"
+        "metric": "lines",
+        "count": 4918
       },
       {
-        "count": 233,
-        "metric": "regions"
+        "metric": "regions",
+        "count": 591
       }
     ],
+    "citation-file-link": "https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff",
+    "production-software": "eScriptorium + Kraken",
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        "e",
+        "u",
+        "r",
+        "a",
+        "n",
+        "i",
+        "t",
+        "o",
+        "l",
+        "s",
+        "\u017f",
+        "d",
+        "c",
+        "m",
+        "p",
+        ",",
+        "q",
+        "y",
+        "v",
+        "f",
+        "g",
+        "b",
+        "h",
+        ".",
+        "\u2019",
+        "&",
+        "E",
+        "x",
+        "'",
+        "z",
+        "\u0301",
+        "\u0300",
+        "A",
+        "\u00ac",
+        "\u0303",
+        "D",
+        "C",
+        "R",
+        ":",
+        "L",
+        "I",
+        "S",
+        "P",
+        "N",
+        "M",
+        "O",
+        "Q",
+        "T",
+        "V",
+        "G",
+        "H",
+        "B",
+        "F",
+        "-",
+        "\u0327",
+        "j",
+        "?",
+        "(",
+        "\u0308",
+        ")",
+        "\u00bb",
+        "1",
+        "\u0153",
+        "\u00b6",
+        "!",
+        "U",
+        "2",
+        "X",
+        ";",
+        "9",
+        "Y",
+        "4",
+        "3",
+        "\u00df",
+        "5",
+        "\"",
+        "7",
+        "J",
+        "8",
+        "\u00e6",
+        "\ua770",
+        "6",
+        "0",
+        "\u0302",
+        "\u02b3",
+        "\u204a",
+        "Z",
+        "\u00ab",
+        "*",
+        "\ua757",
+        "\ua753",
+        "\u00a0",
+        "\u204b",
+        "\u0399",
+        "\ua751",
+        "]",
+        "\u0365",
+        "\u1d49",
+        "\u0395",
+        "[",
+        "\u03a4",
+        "/"
+      ]
+    },
     "automatically-aligned": false,
     "_pid": "4b2e8b703"
   },
@@ -8145,36 +9470,160 @@
     "_pid": "1d53e18cf"
   },
   "6a0153816": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "Corpus Modern Roman Languages",
-    "url": "https://github.com/HTRomance-Project/modern-roman-languages",
     "authors": [
       {
         "name": "Jade",
-        "surname": "Norindr",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Norindr"
+      },
+      {
+        "name": "Anna",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Mikhalchuk"
       },
       {
         "name": "Alix",
-        "surname": "Chagu\u00e9",
         "orcid": "0000-0002-0136-4434",
         "roles": [
           "project-manager",
           "quality-control",
           "support"
-        ]
+        ],
+        "surname": "Chagu\u00e9"
+      },
+      {
+        "name": "Thibault",
+        "orcid": "0000-0003-1852-9204",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Cl\u00e9rice"
       }
     ],
-    "institutions": [],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "r",
+        "a",
+        "n",
+        "t",
+        "u",
+        "i",
+        "o",
+        "l",
+        "d",
+        "c",
+        "p",
+        "m",
+        "v",
+        "q",
+        ".",
+        "'",
+        "\u0301",
+        "f",
+        ",",
+        "b",
+        "g",
+        "y",
+        "h",
+        "j",
+        "M",
+        "L",
+        "C",
+        "I",
+        "x",
+        "1",
+        "z",
+        "E",
+        "V",
+        "^",
+        "S",
+        "-",
+        "R",
+        "\u0300",
+        "A",
+        "J",
+        "\u0303",
+        "P",
+        "3",
+        "2",
+        "D",
+        "5",
+        "4",
+        "7",
+        "6",
+        "0",
+        "B",
+        "8",
+        "\u0302",
+        "9",
+        "N",
+        "T",
+        "X",
+        ">",
+        "<",
+        "\u0308",
+        "G",
+        "(",
+        "=",
+        ";",
+        ")",
+        "\u204a",
+        "\"",
+        "U",
+        "F",
+        ":",
+        "O",
+        "H",
+        "&",
+        "\u0327",
+        "/",
+        "[",
+        "W",
+        "]",
+        "Q",
+        "k",
+        "?",
+        "\u2380",
+        "w",
+        "\u00ac",
+        "\u033e",
+        "*",
+        "\u0336",
+        "\ua751",
+        "\u0368",
+        "Z",
+        "K",
+        "Y",
+        "\u036b",
+        "!",
+        "+"
+      ],
+      "mode": "NFD"
+    },
     "description": "Dataset for modern roman languages created within the context of the HTRomance project, using manuscripts from the Gallica digital library.",
-    "project-name": "HTRomance",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "institutions": [],
     "language": [
       "fra"
     ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "production-software": "eScriptorium + Kraken",
-    "automatically-aligned": false,
+    "project-name": "HTRomance",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -8182,27 +9631,32 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1600",
-      "notAfter": "1800"
+      "notAfter": "1800",
+      "notBefore": "1600"
     },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "estimated"
-    },
-    "license": {
-      "name": "CC-BY 4.0",
-      "url": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    "format": "Alto-XML",
+    "title": "Corpus Modern Roman Languages",
+    "transcription-guidelines": "The transcription guidelines are described in a paper available on HAL and published at the Journal for Open Humanities Data. It provides specific details about the selection process, the transcription methods and choices, as well as details about output (mainly the Generic CREMMA Model for Medieval Manuscripts (Latin and Old French) for Kraken)",
+    "url": "https://github.com/HTRomance-Project/modern-roman-languages",
     "volume": [
       {
-        "metric": "lines",
-        "count": 456
+        "count": 114094,
+        "metric": "characters"
+      },
+      {
+        "count": 168,
+        "metric": "files"
+      },
+      {
+        "count": 3386,
+        "metric": "lines"
+      },
+      {
+        "count": 441,
+        "metric": "regions"
       }
     ],
-    "transcription-guidelines": "The transcription guidelines are described in a paper available on HAL and published at the Journal for Open Humanities Data. It provides specific details about the selection process, the transcription methods and choices, as well as details about output (mainly the Generic CREMMA Model for Medieval Manuscripts (Latin and Old French) for Kraken)",
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Norindr, Jade and Cl\u00e9rice, Thibault and Chagu\u00e9, Alix},\ntitle = {HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation},\nurl = {https://github.com/HTRomance-Project/medieval-italian}\n}\n",
-    "_apa": "Norindr J., Cl\u00e9rice T., Chagu\u00e9 A. HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/medieval-italian\n",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Norindr, Jade and Mikhalchuk, Anna and Cl\u00e9rice, Thibault and Chagu\u00e9, Alix},\ntitle = {HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation},\nurl = {https://github.com/HTRomance-Project/modern-roman-languages}\n}\n",
+    "_apa": "Norindr J., Mikhalchuk A., Cl\u00e9rice T., Chagu\u00e9 A. HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/modern-roman-languages\n",
     "_pid": "6a0153816"
   },
   "0e00a1bee": {
@@ -11140,6 +12594,60 @@
     "automatically-aligned": false,
     "_pid": "cc159d01a"
   },
+  "f95039357": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "NuBIS-OCR",
+    "url": "https://github.com/ksefil/NuBIS-OCR",
+    "authors": [
+      {
+        "name": "Kutay",
+        "surname": "Sefil",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ground truth dataset for a selection of printed books from NuBIS, the digital library of the Biblioth\u00e8que Interuniversitaire de la Sorbonne.",
+    "language": [
+      "fra",
+      "lat"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1602",
+      "notAfter": "1989"
+    },
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "sources": [
+      {
+        "reference": "",
+        "link": "https://nubis.bis-sorbonne.fr/"
+      }
+    ],
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 57
+      }
+    ],
+    "_pid": "f95039357"
+  },
   "a23a0f5a1": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Eutyches",
@@ -11203,6 +12711,82 @@
     "_bibtex": "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\ntitle = {Eutyches \"de uerbo\" glossed}\n}\n",
     "_apa": "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n",
     "_pid": "a23a0f5a1"
+  },
+  "218580cef": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Burchards Dekret Digital (BDD) Segmentation Data",
+    "url": "https://github.com/michaelscho/bdd-segmentation-data",
+    "authors": [
+      {
+        "name": "Michael",
+        "surname": "Schonhardt",
+        "orcid": "0000-0002-2750-1900",
+        "roles": [
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Leo",
+        "surname": "Felder",
+        "orcid": "0009-0008-7230-4229",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Torben",
+        "surname": "Jordan",
+        "orcid": "0009-0002-2143-0520",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Christopher",
+        "surname": "Oed",
+        "orcid": "0009-0001-3910-1832",
+        "roles": [
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "This dataset comprises PageXML for training segmentation models in Transkribus and Kraken. It is designed to capture the specific layout of medieval canon law collections. Compiled from several 11th-century manuscripts of the Decretum Burchardi, it supports the ongoing edition project Burchards Dekret Digital. Annotations are tailored to project-specific needs but can be adapted for other use cases. The data was first prepared using Transkribus and then remasked in eScriptorium for usage in Kraken.",
+    "project-name": "Burchards Dekret Digital",
+    "project-website": "https://www.adwmainz.de/projekte/burchards-dekret-digital/informationen.html",
+    "language": [
+      "lat"
+    ],
+    "production-software": "eScriptorium + Kraken + Transkribus",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1000",
+      "notAfter": "1199"
+    },
+    "hands": {
+      "count": "unknown",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 3000
+      }
+    ],
+    "_pid": "218580cef"
   },
   "7e15a5255": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
@@ -12864,6 +14448,336 @@
     ],
     "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {{The Belfort dataset: Handwritten Text Recognition \n                   from Crowdsourced Annotations}},\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668}\n}",
     "_pid": "96b246dfa"
+  },
+  "fc63dcc30": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "EPARCHOS",
+    "url": "https://zenodo.org/records/4095301",
+    "authors": [
+      {
+        "name": "Aleksandros",
+        "surname": "Papazoglou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Ioannis",
+        "surname": "Pratikakis",
+        "orcid": "0000-0002-4124-3688",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Kleopatra",
+        "surname": "Markou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Lazaros",
+        "surname": "Tsochatzidis",
+        "orcid": "0000-0002-4634-7419",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The dataset originates from a Greek handwritten codex that dates from around 1500-1530. This is the subset of the codex British Museum Addit. 6791, written by two hands, one by Antonius Eparchos and the other by Camillos Zanettus (ff. 104r-174v) and delivers texts by Hierocles (In Aureum carmen), Matthaeus Blastares (Collectio alphabetica) and, notably, texts by Michael Psellos (De omnifaria doctrina). The writing delivers the most important abbreviations, logograms and conjunctions, which are cited in virtually every Greek minuscule handwritten codex from the years of the manuscript transliteration and the prevalence of the minuscule script (9th century) to the post-Byzantine years. This dataset consists of 120 scanned handwritten text pages, containing 9285 lines of text, 18809 words (6787 unique words). For each page, a PageXML is provided containing the following groundtruth: 1. Text region polygon coordinates 2. Text line polygon coordinates with the corresponding transcription text 3. Word polygon coordinated with the corresponding transcription text",
+    "language": [
+      "grc"
+    ],
+    "transcription-guidelines": "- Abbreviation and ligatures were resolved\n- Minuscule in the beginning of sentences were kept as such.\n- Polytonic spelling and diaeresis are kept\n",
+    "production-software": "Unknown",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1530"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 2272
+      },
+      {
+        "metric": "characters",
+        "count": 116894
+      },
+      {
+        "metric": "files",
+        "count": 120
+      }
+    ],
+    "_pid": "fc63dcc30"
+  },
+  "d9283ba57": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Stavronikita Monastery Collection No. 114",
+    "url": "https://zenodo.org/records/5578251",
+    "authors": [
+      {
+        "name": "Paraskevi",
+        "surname": "Platanou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "John",
+        "surname": "Pavlopoulos",
+        "orcid": "0000-0001-9188-7425",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Georgios",
+        "surname": "Papaioannou",
+        "orcid": "0000-0003-4774-0746",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The HPGT dataset consists of images of Handwritten Paleographic  Greek Text, derived from the Bodleian Libraries' Greek manuscript  collection, specifically the Barocci collection, which dates from the 8th to the 17th centuries. This dataset is divided into two editions: HPGTR.N, which contains 77 unsegmented images categorized  by century from the 10th to the 16th, and HPGTR.S, which features  carefully segmented lines from selected images to facilitate machine  learning tasks. The dataset captures a range of characteristics,  including variations in writing style, page conditions, and  manuscript production details.\nThis dataset is part of the following work: Paraskevi Platanou,  John Pavlopoulos, and Georgios Papaioannou. 2022. Handwritten  Paleographic Greek Text Recognition: A Century-Based Approach.  In *Proceedings of the \"Thirteenth Language Resources and Evaluation Conference\"*, pages 6585\u20136589, Marseille, France. European Language Resources Association.",
+    "language": [
+      "grc"
+    ],
+    "transcription-guidelines": "- Abbreviation and ligatures were resolved\n- Minuscule in the beginning of sentences were kept as such.\n- Polytonic spelling and diaeresis are kept\n",
+    "production-software": "Unknown",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "0901",
+      "notAfter": "1600"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-NC-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 1698,
+        "metric": "lines"
+      },
+      {
+        "count": 70,
+        "metric": "files"
+      },
+      {
+        "count": 178,
+        "metric": "regions"
+      },
+      {
+        "count": 64952,
+        "metric": "characters"
+      }
+    ],
+    "_pid": "d9283ba57"
+  },
+  "f61ad9fc5": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Stavronikita Monastery Collection No. 53",
+    "url": "https://zenodo.org/records/5595669",
+    "authors": [
+      {
+        "name": "Ioannis",
+        "surname": "Pratikakis",
+        "orcid": "0000-0002-4124-3688",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Aleksandros",
+        "surname": "Papazoglou",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Symeon",
+        "surname": "Symeonidis",
+        "orcid": "0000-0002-3259-614X",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Lazaros",
+        "surname": "Tsochatzidis",
+        "orcid": "0000-0002-4634-7419",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The collection is one of the oldest Stavronikita Monastery on Mount Athos.  It is a parchment, four-gospel manuscript which has been written between  1301 and 1350. It comprises 54 pages with dimensions that are approximately\n 250x185 mm. The script is elegant minuscule and the use of majuscule letters\n is rare. Tachygraphical symbols and abbreviations are encountered in the \n manuscript as well. Furthermore, the manuscript is enriched with \n chrysography, elegant epititles and initials. \n\n The dataset of \u03a7\u03a653 consists of 1038 lines of text containing 5592 words\n (2374 unique words) that are distributed over 54 scanned handwritten text pages.",
+    "language": [
+      "grc"
+    ],
+    "transcription-guidelines": "- Abbreviation and ligatures were resolved\n- Minuscule in the beginning of sentences were kept as such.\n- Polytonic spelling and diaeresis are kept\n",
+    "production-software": "Unknown",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1301",
+      "notAfter": "1350"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 1038,
+        "metric": "lines"
+      },
+      {
+        "count": 54,
+        "metric": "files"
+      },
+      {
+        "count": 54,
+        "metric": "regions"
+      },
+      {
+        "count": 37070,
+        "metric": "characters"
+      }
+    ],
+    "_pid": "f61ad9fc5"
+  },
+  "6bd74ee8c": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition",
+    "url": "https://zenodo.org/records/6565706",
+    "authors": [
+      {
+        "name": "Isabelle",
+        "surname": "Marthot-Santaniello",
+        "orcid": "0000-0003-0407-8748",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Hodel",
+        "surname": "Tobias",
+        "orcid": "0000-0002-2071-6407",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Diplomatic transcription of papyri found in the Zenon archive [see en.wikipedia.org/wiki/Zenon_of_Kaunos]\n\nManually prepared as PageXML with Transkribus within D-Scribes project.",
+    "project-name": "D-Scribes",
+    "project-website": "https://d-scribes.philhist.unibas.ch/en/",
+    "language": [
+      "grc"
+    ],
+    "production-software": "Transkribus",
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD"
+    },
+    "script": [
+      {
+        "iso": "Grek"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "-250",
+      "notAfter": "-230"
+    },
+    "hands": {
+      "count": "unknown",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 321
+      },
+      {
+        "metric": "characters",
+        "count": 5850
+      },
+      {
+        "metric": "files",
+        "count": 27
+      }
+    ],
+    "_pid": "6bd74ee8c"
   },
   "b5b1358dc": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
