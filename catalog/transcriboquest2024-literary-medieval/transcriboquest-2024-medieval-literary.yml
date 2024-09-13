@@ -1,0 +1,50 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: TranscriboQuest 2024 Medieval Literary
+url: 10.5281/zenodo.13757440
+authors:
+  - name: Jessie
+    surname: Dummer
+  - name: Emmanuelle
+    surname: Kuhry
+  - name: Zdzislaw
+    surname: Koczarski
+  - name: Sylvain
+    surname: Besson
+  - name: Caroline
+    surname: Chevalier-Royet
+    orcid: 0000-0002-7574-6742
+  - name: Caroline
+    surname: Vandyck
+    roles:
+      - project-manager
+institutions: []
+description: >-
+  This dataset was created in the context of TranscriboQuest 2024 (Medieval
+  Literary Team) held in Lyon (11/09/2024-13/09/2024). We opted to focus on
+  medieval scientific documents that are damaged, in several different
+  languages. The result is 808 lines transcribed by experts in the field. The
+  dataset contains the images of the manuscripts and ALTO-XMLs.
+language:
+  - lat
+  - dum
+  - fro
+  - gmh
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '800'
+  notAfter: '1500'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 800
+transcription-guidelines: CATMuS Guidelines (https://catmus-guidelines.github.io)
