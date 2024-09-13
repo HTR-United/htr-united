@@ -1,0 +1,62 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Les Papiers Barye
+url: https://gitlab.inha.fr/snr/LesPapiersBarye
+authors:
+  - name: Claass
+    surname: Victor
+    roles:
+      - transcriber
+      - project-manager
+      - quality-control
+  - name: Gain
+    surname: Justine
+    roles:
+      - transcriber
+      - quality-control
+  - name: Martin-Vigier
+    surname: Suzanne
+    roles:
+      - transcriber
+      - quality-control
+institutions:
+  - name: Institut National de l'histoire de l'art (INHA)
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+      - digitization
+description: >-
+  Ensemble de documents autour du sculpteur Antoine-Louis Barye. Paris,
+  Bibliothèque de l’Institut national d’histoire de l’art, collections Jacques
+  Doucet, Archives 166. Institut National de l’Histoire de l’art (INHA) /
+  Set of documents about the sculptor Antoine-Louis Barye. Paris,
+  Library of the Institut national d'histoire de l'art, Jacques
+  Doucet, Archives 166. National Institute of Art History (INHA)
+project-name: PENSE@INHA
+project-website: https://skylab.inha.fr/PENSE/LesPapiersBarye/
+language:
+  - fra
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: mainly-manuscript
+time:
+  notBefore: '1819'
+  notAfter: '1914'
+hands:
+  count: more-than-10
+  precision: exact
+license:
+  - name: Etalab OL 2.0
+    url: https://spdx.org/licenses/etalab-2.0.html
+format: Alto-XML
+volume:
+  - metric: characters
+    count: 362629
+  - metric: lines
+    count: 17880
+  - metric: pages
+    count: 918
+  - metric: files
+    count: 918

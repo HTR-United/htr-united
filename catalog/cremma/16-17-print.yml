@@ -1,0 +1,207 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: CREMMA Early Modern Books
+url: https://github.com/HTR-United/cremma-16-17-print
+project-name: CREMMA
+authors:
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - transcriber
+  - project-manager
+description: Collection of book samples in early print forms, 16th to 17th century,
+  in Latin and pre-orthographic French.
+language:
+- frm
+- lat
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1500'
+  notAfter: '1779'
+hands:
+  count: 1-per-folder
+  precision: estimated
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 84726
+- metric: files
+  count: 98
+- metric: lines
+  count: 2603
+- metric: regions
+  count: 451
+sources:
+- reference: Omnia Andreae Alciati v.c. emblemata cum commentariis
+  link: http://pid.emory.edu/ark:/25593/b70rv
+- reference: "15.. \tHistoria de duobus amantibus Eurialo et Lucretia "
+  link: https://gallica.bnf.fr/ark:/12148/bpt6k533863
+- reference: "1520 \tEpigrammata clarissimi disertissimique viri Thomae Mori..."
+  link: https://doi.org/10.3931/e-rara-74397
+- reference: "'1550 \tLa description de l'isle d'Utopie, o\xFA est comprins '\n"
+  link: https://gallica.bnf.fr/ark:/12148/bpt6k6566444g
+- reference: "1779 \tZoologia Danica, seu, Animalium Daniae et Norvegiae "
+  link: https://archive.org/details/zoologiadanicase01mlle
+- reference: '''L''Achileyde de Stace... traduction en vers, avec ...'''
+  link: https://gallica.bnf.fr/view3if/ga/ark:/12148/bpt6k3103841
+- reference: "1681 \tVigili\xE6 Rhetorum, Et Somnia Poetarvm, Symbolic\xE8"
+  link: http://diglib.hab.de/drucke/qun-607-5/start.htm
+- reference: "Aneau, Barth\xE9lemy: Picta Poesis - Lugduni : Pesnot, 1564"
+  link: http://diglib.hab.de/drucke/231-5-poet/start.htm
+citation-file-link: https://raw.githubusercontent.com/HTR-United/cremma-16-17-print/main/CITATION.CFF
+transcription-guidelines: Kept abbreviation and transcribed long s as long s
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - i
+  - u
+  - a
+  - t
+  - r
+  - n
+  - o
+  - l
+  - "\u017F"
+  - m
+  - s
+  - c
+  - d
+  - p
+  - ','
+  - .
+  - q
+  - b
+  - g
+  - f
+  - h
+  - v
+  - A
+  - I
+  - E
+  - "\xAC"
+  - '&'
+  - x
+  - S
+  - "\u0301"
+  - "\u0303"
+  - y
+  - "\u2019"
+  - C
+  - P
+  - "\u0300"
+  - T
+  - R
+  - M
+  - ':'
+  - V
+  - "\xE6"
+  - L
+  - N
+  - O
+  - D
+  - "\uE8BF"
+  - z
+  - Q
+  - j
+  - H
+  - G
+  - B
+  - F
+  - '2'
+  - "\u0308"
+  - '-'
+  - '1'
+  - ''''
+  - "\u0153"
+  - ;
+  - '?'
+  - (
+  - "\u0302"
+  - )
+  - '7'
+  - U
+  - X
+  - '3'
+  - "\u03BF"
+  - "\u03B9"
+  - "\u03B1"
+  - '5'
+  - '6'
+  - '4'
+  - "\u03B5"
+  - "\u0327"
+  - "\u03BD"
+  - "\u03C4"
+  - '8'
+  - "\u0313"
+  - "\u03C0"
+  - '9'
+  - '!'
+  - J
+  - '0'
+  - "\uA770"
+  - "\u03C2"
+  - "\u03BB"
+  - "\u03C5"
+  - Y
+  - "\xA7"
+  - "\uA759"
+  - "\xC6"
+  - "\u03C3"
+  - "\u0391"
+  - "\u03C9"
+  - ']'
+  - Z
+  - /
+  - "\u03C1"
+  - k
+  - "\u039F"
+  - "\u039D"
+  - "\u03B7"
+  - "\u0342"
+  - "\u03BC"
+  - "\u03BA"
+  - '*'
+  - K
+  - "\u03A5"
+  - "\u03B4"
+  - "\u03B8"
+  - "\uA757"
+  - "\u211F"
+  - "\u0395"
+  - "\u03A1"
+  - "\u03A9"
+  - "\u03A0"
+  - "\u0399"
+  - "\u03A4"
+  - "\u03C6"
+  - "\u0142"
+  - "\u030A"
+  - "\u039C"
+  - "\u0398"
+  - "\u03A3"
+  - "\u0392"
+  - "\u039B"
+  - "\u03B3"
+  - '|'
+  - "\xBD"
+  - "\u0330"
+  - "\_"
+  - "\u0314"
+  - "\u03C7"
+  - "\u03DB"
+  - "\xDF"
+  - "\u0345"
+  - "\u0393"
+  - "\u0394"
+  - W
+  - "\u03A7"
+  - "\u03BE"
+  - "\uF1A7"
+  - '#'

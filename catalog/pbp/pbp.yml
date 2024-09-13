@@ -1,0 +1,147 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Paris Bible Project (PBP)
+url: https://github.com/parisbible/ground_truth
+authors:
+  - name: Estelle
+    surname: Guéville
+    orcid: 0000-0003-2603-1051
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+  - name: David
+    surname: Wrisley
+    orcid: 0000-0002-0355-1487
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+  - name: Niccolò Acram
+    surname: Cappelletto
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+institutions: []
+description: >-
+  The Paris Bible Project aims to understand the production and diffusion of
+  medieval Latin Bibles in Europe. The dataset includes ground truth from Paris
+  Bibles produced in the 13th and 14th centuries. We also provide the most
+  recent version of our list of Paris Bible manuscripts found in the world along
+  with information about them.
+project-website: https://parisbible.github.io/
+language:
+  - lat
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1200'
+  notAfter: '1399'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: lines
+  count: 1700
+- metric: files
+  count: 19
+- metric: regions
+  count: 40
+- metric: characters
+  count: 55970
+characters:
+  mode: NFKD
+  members:
+  - i
+  - e
+  - t
+  - u
+  - a
+  - s
+  - o
+  - n
+  - ̄
+  - c
+  - m
+  - r
+  - l
+  - ꝺ
+  - "."
+  - p
+  - b
+  - q
+  - "⁊"
+  - g
+  - f
+  - ́
+  - ꝛ
+  - h
+  - "-"
+  - d
+  - ꝫ
+  - ";"
+  - x
+  - ꝯ
+  - ̾
+  - ꝑ
+  - ͥ
+  - E
+  - ̕
+  - ꝝ
+  - ̃
+  - ꝓ
+  - y
+  - ̈
+  - N
+  - ̇
+  - Q
+  - "·"
+  - D
+  - S
+  - I
+  - A
+  - ͦ
+  - C
+  - T
+  - ᔆ
+  - ꝙ
+  - H
+  - F
+  - P
+  - ͣ
+  - '2'
+  - V
+  - M
+  - ":"
+  - R
+  - z
+  - L
+  - O
+  - U
+  - v
+  - "℟"
+  - G
+  - ͨ
+  - ͧ
+  - "&"
+  - ẜ
+  - ᷤ
+  - ͤ
+  - ʀ
+  - B
+  - X
+  - Ꝙ
+  - "?"
+  - k
+  - ᣳ
+  - j
+  - ͬ
+transcription-guidelines: 'See: https://parisbible.github.io/guidelines/'

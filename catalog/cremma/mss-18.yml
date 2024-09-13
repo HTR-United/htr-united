@@ -1,0 +1,166 @@
+authors:
+- name: Chagué
+  roles:
+  - project-manager
+  - quality-control
+  surname: Alix
+- name: Clérice
+  roles:
+  - project-manager
+  - quality-control
+  surname: Thibault
+- name: Norindr
+  roles:
+  - transcriber
+  surname: Jade
+- name: Norindr
+  roles:
+  - transcriber
+  surname: Jade
+- name: Van Kote
+  roles:
+  - transcriber
+  - aligner
+  surname: Elsa
+- name: Faure
+  roles:
+  - transcriber
+  - aligner
+  surname: Margaux
+characters:
+  members:
+  - e
+  - s
+  - a
+  - r
+  - t
+  - n
+  - u
+  - i
+  - o
+  - l
+  - d
+  - p
+  - c
+  - m
+  - v
+  - .
+  - q
+  - f
+  - ́
+  - "'"
+  - ','
+  - g
+  - b
+  - h
+  - y
+  - x
+  - j
+  - L
+  - C
+  - ̀
+  - ^
+  - '1'
+  - M
+  - S
+  - ̂
+  - z
+  - E
+  - R
+  - ;
+  - '2'
+  - I
+  - '6'
+  - '0'
+  - '>'
+  - <
+  - D
+  - V
+  - J
+  - '4'
+  - '3'
+  - (
+  - )
+  - P
+  - ̈
+  - '5'
+  - ̃
+  - '-'
+  - '7'
+  - B
+  - '8'
+  - A
+  - '['
+  - ']'
+  - '9'
+  - N
+  - F
+  - G
+  - T
+  - '?'
+  - X
+  - ̧
+  - /
+  - ':'
+  - O
+  - H
+  - ’
+  - ¬
+  - +
+  -  
+  - œ
+  - U
+  - '&'
+  - «
+  - Q
+  - '='
+  - K
+  - '!'
+  - k
+  - W
+  - Z
+  - w
+  - °
+  - ⁊
+  - ꝑ
+  - ſ
+  - ‸
+  - '#'
+  - ̶
+  - _
+  - Y
+  - ̄
+  - »
+  - ͦ
+  mode: NFD
+description: Manuscripts of the 18th century
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CREMMA
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1799'
+  notBefore: '1700'
+title: CREMMA Manuscrits du 18e
+transcription-guidelines: Abréviations conservées.
+url: https://github.com/HTR-United/CREMMA-MSS-18
+volume:
+- count: 141690
+  metric: characters
+- count: 125
+  metric: files
+- count: 4019
+  metric: lines
+- count: 329
+  metric: regions

@@ -1,0 +1,115 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: EHRI Multilingual Dataset
+url: https://github.com/FloChiff/ehri-dataset
+authors:
+    - name: Floriane
+      surname: Chiffoleau
+      roles:
+      - transcriber
+    - name: Sarah
+      surname: Beniere
+      roles:
+      - transcriber
+    - name: Michal
+      surname: Frankl
+      roles:
+      - transcriber
+    - name: Wolfgang
+      surname: Schellenbacher
+      roles:
+      - transcriber
+    - name: Zoltán
+      surname: Vági
+      roles:
+      - transcriber
+    - name: Gábor
+      surname: Kádár
+      roles:
+      - transcriber
+    - name: Magdalena
+      surname: Sedlická
+      roles:
+      - transcriber
+    - name: Miriam
+      surname: Schulz
+      roles:
+      - transcriber
+    - name: Christine
+      surname: Schmidt
+      roles:
+      - transcriber
+    - name: Jessica
+      surname: Green
+      roles:
+      - transcriber
+    - name: Martina
+      surname: Ravagnan
+      roles:
+      - transcriber
+    - name: Daniela
+      surname: Bartáková
+      roles:
+      - transcriber
+    - name: Judith
+      surname: Levin
+      roles:
+      - transcriber
+    - name: Daphna
+      surname: Sehayek
+      roles:
+      - transcriber
+    - name: Michał
+      surname: Czajka
+      roles:
+      - transcriber
+    - name: Marta
+      surname: Wojas
+      roles:
+      - transcriber
+    - name: Dagmara
+      surname: Chełstowska
+      roles:
+      - transcriber
+    - name: Winfried
+      surname: Garscha
+      roles:
+      - transcriber
+    - name: Claudia
+      surname: Kuretsidis-Haider
+      roles:
+      - transcriber
+institutions: []
+description: This dataset has been created with files from various corpora made by the EHRI Project. As this project diffuse archives from World War II and the Holocaust, the dataset is constituted of documents of several languages (Czech, Danish, English, German, Hungarian, Polish, and Slovak) and of various types (reports, testimonies, letters, etc.). The common thread among all of those documents is that they have been typewritten.
+project-name: European Holocaust Research Infrastructure
+project-website: https://www.ehri-project.eu/
+language:
+  - eng
+  - ces
+  - deu
+  - slk
+  - hun
+  - dan
+  - pol
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1936'
+  notAfter: '1958'
+hands:
+  count: unknown
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: files
+    count: 252
+  - metric: characters
+    count: 540645
+  - metric: lines
+    count: 9203
+transcription-guidelines: The texts reproduce exactly what is on the images, except for two characters from the Slovak and Czech parts of the dataset. Those languages have caron on several of their alphabet characters. They were encoded as such, except when it was placed on a 'd' or a 't', as it was not possible to do it on eScriptorium. In that case, the character has been modified to have an apostrophe-like stroke next to it.

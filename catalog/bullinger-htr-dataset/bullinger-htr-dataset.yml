@@ -1,0 +1,92 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Bullinger HTR Dataset
+url: https://github.com/pstroe/bullinger-htr
+authors:
+  - name: Phillip Benjamin
+    surname: Ströbel
+    orcid: 0000-0003-2063-5495
+    roles:
+      - aligner
+      - support
+  - name: Tobias
+    surname: Hodel
+    orcid: 0000-0002-2071-6407
+    roles:
+      - aligner
+      - project-manager
+  - name: Christian
+    surname: Sieber
+    orcid: 0000-0002-9364-6921
+    roles:
+      - digitization
+  - name: Patricia
+    surname: Scheurer
+    roles:
+      - quality-control
+      - support
+  - name: David Selim
+    surname: Schoch
+    orcid: 0000-0002-9936-8459
+    roles:
+      - aligner
+  - name: Anna
+    surname: Janka
+    roles:
+      - aligner
+  - name: Raphael
+    surname: Schwitter
+    roles:
+      - aligner
+  - name: Beat
+    surname: Wolf
+    roles:
+      - aligner
+  - name: Jonas
+    surname: Widmer
+    roles:
+      - aligner
+  - name: Peter
+    surname: Rechsteiner
+    roles:
+      - quality-control
+      - support
+  - name: Raphael
+    surname: Müller
+    roles:
+      - quality-control
+      - digitization
+      - support
+institutions: []
+description: >-
+  This dataset contains 165,673 image and corresponding text line files (.png
+  for images and .txt for the texts) in a random 80/10/10 training, validation
+  and test set split. The source is the extensive correspondence of Swiss
+  reformer Heinrich Bullinger (1504-1575) and his over 800 different
+  correspondents. It therefore contains great variety in handwriting styles.
+  Furthermore, it is multilingual since there are Latin and Early New High
+  German (and sometimes mixed) letters. The data is split into Latin and Early
+  New High German (determined with langid) and put into separate folders (de for
+  Early New High German and la for Latin).
+project-website: https://www.bullinger-digital.ch/
+language:
+  - lat
+  - deu
+production-software: Transkribus, own
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1523'
+  notAfter: '1575'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Image-Text-Pairs
+volume:
+  - metric: lines
+    count: 165673
+automatically-aligned: true
+transcription-guidelines: Automated transcript alignment with Transkribus

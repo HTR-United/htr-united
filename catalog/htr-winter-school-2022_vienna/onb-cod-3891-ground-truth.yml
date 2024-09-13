@@ -1,0 +1,138 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: ÖNB, Cod. 3891. Ground Truth
+url: 10.5281/zenodo.7467249
+authors:
+  - name: Ainonen
+    surname: Tuija
+    roles:
+      - transcriber
+  - name: Andresen
+    surname: Suse
+    roles:
+      - transcriber
+  - name: Bakker
+    surname: Loïs
+    roles:
+      - transcriber
+  - name: Boylan
+    surname: Amy
+    roles:
+      - transcriber
+  - name: Della Manna
+    surname: Silvia
+    roles:
+      - transcriber
+  - name: Dziemski
+    surname: Wiktor
+    orcid: 0000-0001-8166-2249
+  - name: Henderson
+    surname: C. E. M.
+    orcid: 0000-0002-5040-9926
+    roles:
+      - transcriber
+  - name: ' Impagnatiello'
+    surname: Michele
+    roles:
+      - transcriber
+  - name: Jenko Kovačič
+    surname: Ana
+    orcid: 0000-0001-7243-7082
+    roles:
+      - transcriber
+  - name: Komatović
+    surname: Stevan
+    roles:
+      - transcriber
+  - name: Ku
+    surname: Ruby Wai-Ying
+    orcid: 0000-0003-2688-6287
+    roles:
+      - transcriber
+  - name: Loss
+    surname: Edward
+    orcid: 0000-0002-9837-8321
+    roles:
+      - transcriber
+  - name: Mairhofer
+    surname: Daniela
+    orcid: 0000-0002-3531-9658
+    roles:
+      - transcriber
+      - project-manager
+  - name: Morcos
+    surname: Erene
+    roles:
+      - transcriber
+  - name: Odstrčilík
+    surname: Jan
+    orcid: 0000-0001-9104-9827
+    roles:
+      - transcriber
+  - name: Paternicò
+    surname: Giuseppe
+    orcid: 0000-0002-7124-8869
+    roles:
+      - transcriber
+  - name: Riparante
+    surname: Marta
+    roles:
+      - transcriber
+  - name: Schimdt
+    surname: Nathalie
+    roles:
+      - transcriber
+  - name: Sołomieniuk
+    surname: Michal
+    roles:
+      - transcriber
+  - name: Walczak
+    surname: 'Tomasz '
+    roles:
+      - transcriber
+  - name: Zharov
+    surname: Dmitry
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  The Ground Truth was produced by the participants of the HTR Winter School
+  2022 in the Late Latin Group (more information:
+  https://www.oeaw.ac.at/imafo/veranstaltungen/detail/introduction-into-handwritten-text-recognition).
+
+
+  The Ground Thruth includes the following folios: 1-3r, 6-8, 11r, 27 and is
+  still work in progress. We are adding more pages soon. If you find any errors
+  we kindly ask you to contact Jan Odstrčilík (jan.odstrcilik@oeaw.ac.at).
+
+
+  The Supervisors of the Late Latin Group: Jan Odstrčilík PhD, Austrian Acadamy
+  of Sciences, Daniela Mairhofer PhD, Princeton University, Tobias Hodel PhD,
+  University of Bern.
+project-name: HTR Winter School 2022, Vienna
+language:
+  - lat
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1200'
+  notAfter: '1299'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 952
+transcription-guidelines: |-
+  Regular transcription with expansion of abbreviations. 
+  - Normalization of J to I 
+  - V to U in the vowel function, U to V in the consonant function
+  - long S to S. 
+  - No correction of mispellings (tagged in the ground truth)
+  - No standardization of lower-case and upper-case letters
+  - No added interpunction

@@ -1,0 +1,159 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: CREMMA Manuscrits du 17e
+url: https://github.com/HTR-United/CREMMA-MSS-17
+project-name: CREMMA
+authors:
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - project-manager
+  - quality-control
+- name: "Chagu\xE9"
+  surname: Alix
+  roles:
+  - project-manager
+  - quality-control
+- name: Faure
+  surname: Margaux
+  roles:
+  - transcriber
+- name: Norindr
+  surname: Jade
+  roles:
+  - transcriber
+- name: Mazoue
+  surname: Anais
+  roles:
+  - transcriber
+- name: Davoury
+  surname: Baudoin
+  roles:
+  - transcriber
+description: Various Manuscripts of the 17th century
+language:
+- fra
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1600'
+  notAfter: '1699'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 81909
+- metric: files
+  count: 111
+- metric: lines
+  count: 2245
+- metric: regions
+  count: 264
+transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - s
+  - r
+  - a
+  - n
+  - u
+  - i
+  - o
+  - t
+  - l
+  - d
+  - c
+  - m
+  - p
+  - v
+  - q
+  - .
+  - ','
+  - y
+  - ''''
+  - f
+  - b
+  - g
+  - "\u0301"
+  - h
+  - j
+  - "\u0303"
+  - M
+  - x
+  - R
+  - z
+  - C
+  - '1'
+  - J
+  - ^
+  - "\u0300"
+  - P
+  - L
+  - S
+  - V
+  - '&'
+  - A
+  - E
+  - '>'
+  - I
+  - <
+  - '2'
+  - X
+  - '3'
+  - T
+  - '7'
+  - D
+  - '6'
+  - ']'
+  - B
+  - '4'
+  - '['
+  - '0'
+  - '?'
+  - '-'
+  - "\u0302"
+  - "\u0308"
+  - '9'
+  - '5'
+  - ;
+  - G
+  - N
+  - '8'
+  - ':'
+  - F
+  - "\u0327"
+  - )
+  - (
+  - Q
+  - O
+  - H
+  - W
+  - "\u0153"
+  - "\u2038"
+  - "\u204A"
+  - U
+  - "\u0304"
+  - /
+  - "\uA757"
+  - +
+  - k
+  - "\xB0"
+  - "\_"
+  - w
+  - "\u05DD"
+  - Z
+  - "\u03C2"
+  - '#'
+  - "\xE6"
+  - "\uA759"
+  - "\u0363"
+  - "\u03B5"
+  - "\u03D5"

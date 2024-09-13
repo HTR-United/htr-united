@@ -1,0 +1,75 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022
+url: https://zenodo.org/record/7467027#.Y6LRj3bMK3B
+authors:
+  - name: Geelhaar
+    surname: Tim
+    orcid: 0000-0002-7653-5859
+    roles:
+      - transcriber
+      - project-manager
+  - name: D'Amico
+    surname: Sara
+    orcid: 0000-0002-8937-2040
+    roles:
+      - transcriber
+  - name: Hofmann
+    surname: Lara
+    orcid: 0000-0003-4698-3906
+    roles:
+      - transcriber
+  - name: Gnasso
+    surname: Alessandro
+    orcid: 0000-0001-5964-2989
+    roles:
+      - transcriber
+  - name: Audebrand
+    surname: Justine
+    roles:
+      - transcriber
+  - name: Stitts
+    surname: Jeremy
+    orcid: 0000-0001-6988-1836
+    roles:
+      - transcriber
+  - name: Sweeney
+    surname: Mary
+    orcid: 0000-0001-7028-2072
+    roles:
+      - transcriber
+  - name: Atwood
+    surname: Grace
+    orcid: 0000-0002-1546-6546
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  This is Ground Truth data created during the HTR Winter School 2022 for the
+  Cod. 2160 ÖNB that contains one version of the so called Lex Dei. 
+project-name: HTR Winter School 2022, Vienna
+language:
+  - lat
+production-software: Transkribus
+script:
+  - iso: Latn
+    qualify: Carolingian Minuscule
+script-type: only-manuscript
+time:
+  notBefore: '850'
+  notAfter: '900'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+sources:
+  - reference: ''
+    link: http://data.onb.ac.at/rec/AC13956457
+volume:
+  - metric: pages
+    count: 40
+transcription-guidelines: >-
+  Abbreviations resolved, but no normalization and no correcting of mispelling.
+  No transcription of initials and interlinear script.

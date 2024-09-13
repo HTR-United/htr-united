@@ -1,0 +1,60 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: 'GT4HistCommentLayout: Layout Ground Truth for Historical Commentaries'
+url: https://github.com/AjaxMultiCommentary/GT-commentaries-OLR
+authors:
+- name: Matteo
+  surname: Romanello
+  orcid: 0000-0002-7406-6286
+  roles:
+  - project-manager
+- name: Sven
+  surname: Najem-Meyer
+  orcid: 0000-0002-3661-4579
+  roles:
+  - transcriber
+  - quality-control
+- name: Carla
+  surname: Amaya
+  roles:
+  - transcriber
+description: 'This dataset contains layout annotations for ca. 370 pages sampled from
+  8 public domain classical commentaries, published in the 19th century in English,
+  German and Latin. The commentaries concern Ancient Greek and Latin works from prose
+  and poetry (caveat: AGreek poetry is slightly over-represented). Pages were annotated
+  according to a taxonomy mapped to the SegmOnto controlled vocabulary.'
+project-name: Ajax Multi-Commentary
+project-website: https://mromanello.github.io/ajax-multi-commentary/
+language:
+- eng
+- deu
+- lat
+- grc
+production-software: Kraken + VGG Image Annotator (VIA)
+script:
+- iso: Latn
+- iso: Grek
+script-type: only-typed
+time:
+  notBefore: '1835'
+  notAfter: '1903'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 0
+- metric: files
+  count: 371
+- metric: lines
+  count: 0
+- metric: regions
+  count: 2386
+transcription-guidelines: SegmOnto guidelines (v. 0.9)
+citation-file-link: https://github.com/AjaxMultiCommentary/GT-commentaries-layout/blob/master/CITATION.cff
+characters:
+  mode: NFD
+  members: []

@@ -1,0 +1,190 @@
+authors:
+- name: Pinche
+  orcid: 0000-0002-7843-5050
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - quality-control
+  - support
+  surname: Ariane
+- name: Camps
+  roles:
+  - transcriber
+  surname: Jean-Baptiste
+- name: Mariotti
+  roles:
+  - transcriber
+  surname: Viola
+- name: Nolibois
+  roles:
+  - transcriber
+  surname: Alice
+- name: Carnaille
+  roles:
+  - transcriber
+  surname: Camille
+- name: Deleville
+  roles:
+  - transcriber
+  surname: Prunelle
+- name: Lecomte
+  roles:
+  - transcriber
+  surname: Sophie
+- name: Meylan
+  roles:
+  - transcriber
+  surname: Aminoel
+- name: Ventura
+  roles:
+  - transcriber
+  surname: Simone
+- name: Dugaz
+  roles:
+  - transcriber
+  surname: Lucien
+characters:
+  members:
+  - e
+  - i
+  - s
+  - t
+  - n
+  - a
+  - r
+  - u
+  - o
+  - l
+  - c
+  - d
+  - m
+  - p
+  - .
+  - q
+  - f
+  - g
+  - ̃
+  - z
+  - b
+  - h
+  - ⁊
+  - y
+  - ':'
+  - E
+  - x
+  - Q
+  - L
+  - S
+  - ꝑ
+  - D
+  - ̾
+  - ͥ
+  - C
+  - ꝯ
+  - ͣ
+  - A
+  - I
+  - M
+  - "'"
+  - ꝰ
+  - ́
+  - T
+  - P
+  - O
+  - k
+  - N
+  - '9'
+  - U
+  - ͬ
+  - G
+  - R
+  - ᷑
+  - F
+  - 
+  - ͤ
+  - '&'
+  - '1'
+  - B
+  - ꝓ
+  - H
+  - ͦ
+  - ᷤ
+  - '7'
+  - '2'
+  - Λ
+  - ÷
+  - ł
+  - '6'
+  - '0'
+  - '3'
+  - '8'
+  - '4'
+  - ̽
+  - w
+  - '-'
+  - '5'
+  - ','
+  - ͭ
+  - ¶
+  - Y
+  - ẜ
+  -  
+  - ⟦
+  - ⟧
+  - ͨ
+  - ̈
+  - X
+  - ħ
+  - K
+  - δ
+  - /
+  - ŧ
+  - j
+  mode: NFD
+citation-file-link: https://github.com/HTR-United/cremma-medieval/blob/main/citation.cff
+description: Transcription corpora for training HTR models for medieval manuscripts
+  from the 12th to the 15th century.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+language:
+- fra
+- fro
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CremmaLab
+project-website: https://cremmalab.hypotheses.org
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1499'
+  notBefore: '1100'
+title: Cremma Medieval
+transcription-guidelines: "As the data come from different projects, transcriptions\
+  \ have been standardized to strengthen HTR models. We chose a graphemic transcription\
+  \ method, following D. Stutzmann definitions (see bibliography), to have a sign\
+  \ in the image corresponding to a sign in our text: all the abbreviations are kept,\
+  \ and u/v or i/j are not distinguished. The spaces in the dataset are not homogeneously\
+  \ represented, sometimes transcriptions reproduce the manuscript spacing while others\
+  \ use lexical spaces. It must be stressed that spaces are the most important source\
+  \ of error in medieval HTR models. Most of the transcription follow the layout segmentation\
+  \ of the SegmOnto ontology (https://github.com/SegmOnto/examples), separating the\
+  \ main column, margin, numbering, drop capital, etc. All the recommendations are\
+  \ described in\n  the following document  : Ariane Pinche, Guide de transcription\
+  \ pour les manuscrits du Xe au XVe siècle, 2022, ⟨hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>."
+url: https://github.com/HTR-United/cremma-medieval
+volume:
+- count: 612134
+  metric: characters
+- count: 279
+  metric: files
+- count: 22913
+  metric: lines
+- count: 1889
+  metric: regions

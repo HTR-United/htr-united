@@ -1,0 +1,103 @@
+authors:
+- name: Limon-Bonnet
+  roles:
+  - transcriber
+  - aligner
+  - quality-control
+  surname: Françoise
+- name: Chagué
+  roles:
+  - support
+  - project-manager
+  - quality-control
+  surname: Alix
+- name: Rostaing
+  roles:
+  - project-manager
+  surname: Aurélia
+characters:
+  members:
+  - e
+  - t
+  - a
+  - /
+  - '0'
+  - c
+  - n
+  - r
+  - m
+  - h
+  - p
+  - s
+  - o
+  - g
+  - '5'
+  - '7'
+  - '1'
+  - E
+  - .
+  - i
+  - '-'
+  - '3'
+  - '9'
+  - '2'
+  - f
+  - d
+  - '8'
+  - <
+  - l
+  - '{'
+  - ':'
+  - P
+  - A
+  - G
+  - '}'
+  - U
+  - x
+  - '>'
+  - b
+  - '4'
+  - '6'
+  mode: NFD
+citation-file-link: https://raw.githubusercontent.com/HTR-United/lectaurep-bronod/master/CITATION.cff
+description: "Ground truth for Maître Bronod’s registers, notary in Paris during the\
+  \ 18th century.\n"
+format: Page-XML
+hands:
+  count: '1'
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: "LECTAUREP\n"
+project-website: https://lectaurep.hypotheses.org/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+sources:
+- link: ''
+  reference: Limon-Bonnet, M. (2021). Lectaurep-Bronod, ground truth for Maitre Bronod\u0027s
+    documents (French XVIIIth century) (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977735
+time:
+  notAfter: '1745'
+  notBefore: '1742'
+title: Notaires de Paris - Bronod
+transcription-guidelines: "Transcription fidèle aux manuscrits : la casse et les abréviations\
+  \ sont respectées. Les portions de texte suscrites sont précédées d'un symbole `^`.\
+  \ Pas de traitement particulier des éventuels s longs.'\n"
+url: https://github.com/HTR-United/lectaurep-bronod
+volume:
+- count: 359094
+  metric: characters
+- count: 100
+  metric: files
+- count: 3702
+  metric: lines
+- count: 200
+  metric: pages
+- count: 296
+  metric: regions

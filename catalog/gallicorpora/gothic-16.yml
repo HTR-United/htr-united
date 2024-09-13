@@ -1,0 +1,138 @@
+authors:
+- name: Pinche
+  roles:
+  - project-manager
+  surname: Ariane
+- name: Gabay
+  roles:
+  - project-manager
+  surname: Simon
+- name: Vlachou-Efstathiou
+  roles:
+  - transcriber
+  surname: malamatenia
+- name: Christensen
+  roles:
+  - support
+  surname: Kelly
+characters:
+  members:
+  - e
+  - u
+  - a
+  - i
+  - t
+  - r
+  - n
+  - o
+  - s
+  - l
+  - d
+  - c
+  - m
+  - p
+  - ſ
+  - q
+  - y
+  - ̃
+  - f
+  - g
+  - b
+  - .
+  - h
+  - ','
+  - z
+  - ⁊
+  - x
+  - E
+  - ¬
+  - ¶
+  - C
+  - S
+  - L
+  - D
+  - P
+  - A
+  - I
+  - ͥ
+  - M
+  - v
+  - Q
+  - ꝰ
+  - O
+  - T
+  - ':'
+  - V
+  - B
+  - '?'
+  - ꝑ
+  - H
+  - N
+  - ͬ
+  - R
+  - ;
+  - G
+  - F
+  - ̌
+  - ꝓ
+  - J
+  - '-'
+  - ꝯ
+  - (
+  - )
+  - '1'
+  - U
+  - '9'
+  - ̾
+  - æ
+  - X
+  - '4'
+  - ꝙ
+  - ̧
+  - ͤ
+  - '2'
+  - '*'
+  - '6'
+  - "'"
+  - Ι
+  - '7'
+  - ⟦
+  - ⟧
+  - '8'
+  - Y
+  - '5'
+  - '0'
+  mode: NFD
+description: Corpus d'entrainement pour l'HTR constitué d'imprimés du 16e siècle
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: Gallicorpora
+project-website: https://github.com/Gallicorpora
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: evenly-mixed
+time:
+  notAfter: '1599'
+  notBefore: '1500'
+title: Données imprimés gothiques du 16e siècle
+transcription-guidelines: Les transcriptions suivent les normes de transcription du
+  projet Gallicorpora
+url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
+volume:
+- count: 90731
+  metric: characters
+- count: 80
+  metric: files
+- count: 2971
+  metric: lines
+- count: 233
+  metric: regions

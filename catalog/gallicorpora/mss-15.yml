@@ -1,0 +1,156 @@
+authors:
+- name: Gabay
+  roles:
+  - project-manager
+  surname: Simon
+- name: Pinche
+  roles:
+  - project-manager
+  surname: Ariane
+- name: Leroy
+  roles:
+  - transcriber
+  surname: Noé
+- name: Christensen
+  roles:
+  - support
+  surname: Kelly
+characters:
+  members:
+  - e
+  - i
+  - s
+  - t
+  - u
+  - n
+  - a
+  - r
+  - o
+  - l
+  - d
+  - c
+  - m
+  - p
+  - q
+  - f
+  - g
+  - .
+  - ̃
+  - h
+  - b
+  - z
+  - y
+  - I
+  - x
+  - ⁊
+  - ','
+  - R
+  - E
+  - C
+  - ̾
+  - Q
+  - L
+  - S
+  - A
+  - D
+  - M
+  - ͣ
+  - ꝑ
+  - ͥ
+  - P
+  - ꝯ
+  - T
+  - N
+  - ¶
+  - O
+  - B
+  - ͤ
+  - U
+  - '-'
+  - '1'
+  - ꝰ
+  - ᷑
+  - ̽
+  - '2'
+  - '3'
+  - ẜ
+  - F
+  - ⟦
+  - ⟧
+  - '6'
+  - ħ
+  - ꝓ
+  - '7'
+  - '4'
+  - ͨ
+  - '9'
+  - '8'
+  - ;
+  - G
+  - '0'
+  - ͦ
+  - '5'
+  - H
+  - "'"
+  - ̀
+  - ł
+  - đ
+  - ́
+  - ͫ
+  - ‸
+  - '&'
+  - k
+  - °
+  - ẞ
+  - ͬ
+  - ᷤ
+  - K
+  - '['
+  - ']'
+  - ͯ
+  - ̧
+  - (
+  - )
+  - Y
+  - Z
+  - ':'
+  - ͧ
+  - ᷠ
+  - X
+  mode: NFD
+citation-file-link: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/CITATION.
+description: Corpus d'entrainement pour l'HTR composé de manuscrits français du 15e
+  s.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+language:
+- frm
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: Gallicorpora
+project-website: https://github.com/Gallicorpora
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1500'
+  notBefore: '1400'
+title: Données HTR manuscrits du 15e siècle
+transcription-guidelines: 'Les normes de transcription suivent les préconisations
+  du projet CREMMALAB : https://cremmalab.hypotheses.org'
+url: https://github.com/Gallicorpora/HTR-MSS-15e-Siecle
+volume:
+- count: 169207
+  metric: characters
+- count: 85
+  metric: files
+- count: 5937
+  metric: lines
+- count: 458
+  metric: regions

@@ -1,0 +1,138 @@
+authors:
+- name: Chagué
+  roles:
+  - transcriber
+  - project-manager
+  surname: Alix
+characters:
+  members:
+  - e
+  - a
+  - s
+  - n
+  - t
+  - r
+  - i
+  - u
+  - o
+  - l
+  - d
+  - c
+  - m
+  - p
+  - ́
+  - .
+  - '~'
+  - v
+  - ','
+  - "'"
+  - '-'
+  - f
+  - g
+  - h
+  - q
+  - b
+  - ̀
+  - _
+  - E
+  - L
+  - A
+  - I
+  - C
+  - x
+  - S
+  - M
+  - j
+  - T
+  - ̂
+  - R
+  - N
+  - '1'
+  - O
+  - P
+  - y
+  - '"'
+  - U
+  - J
+  - D
+  - '2'
+  - ':'
+  - )
+  - (
+  - B
+  - '0'
+  - '5'
+  - '3'
+  - '4'
+  - z
+  - '6'
+  - F
+  - H
+  - Q
+  - '!'
+  - '9'
+  - G
+  - '7'
+  - V
+  - '8'
+  - '?'
+  - ⟦
+  - ⟧
+  - ̧
+  - Y
+  - ;
+  - ’
+  - °
+  - k
+  - X
+  - ̈
+  - +
+  - '='
+  - W
+  - /
+  - K
+  - ^
+  - w
+  - Z
+  - '%'
+  - '*'
+  mode: NFD
+citation-file-link: https://github.com/HTR-United/tapuscorpus/raw/main/citation.cff
+description: Ground truth based on a variety of French typewritten documents from
+  the 20th century. Contains exerpts plays, poems, letters and administrative reports.
+format: Page-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: "HTR-United\n"
+project-website: https://htr-united.github.io/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+sources:
+- link: ''
+  reference: Chagué, A. (2021). Tapuscorpus (Version 1.0) [Computer software]. https://doi.org/10.5072/zenodo.977649
+time:
+  notAfter: '1999'
+  notBefore: '1900'
+title: Tapus Corpus
+transcription-guidelines: See README in repository.
+url: https://github.com/HTR-United/tapuscorpus
+volume:
+- count: 131511
+  metric: characters
+- count: 151
+  metric: files
+- count: 4376
+  metric: lines
+- count: 150
+  metric: pages
+- count: 375
+  metric: regions

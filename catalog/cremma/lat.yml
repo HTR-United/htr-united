@@ -1,0 +1,178 @@
+authors:
+- name: Cl\xE9rice
+  orcid: 0000-0003-1852-9204
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - quality-control
+  surname: Thibault
+- name: Chagu\xE9
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  surname: Alix
+- name: Vlachou Efstathiou
+  orcid: 0000-0002-9397-356X
+  roles:
+  - transcriber
+  - aligner
+  surname: Malamatenia
+characters:
+  members:
+  - i
+  - e
+  - t
+  - a
+  - u
+  - s
+  - ̃
+  - o
+  - n
+  - r
+  - c
+  - d
+  - m
+  - l
+  - p
+  - .
+  - ̾
+  - q
+  - b
+  - g
+  - f
+  - ⁊
+  - 
+  - ͣ
+  - h
+  - ꝰ
+  - ꝑ
+  - ͥ
+  - x
+  - ł
+  - ᷑
+  - ᷤ
+  - ͦ
+  - ꝙ
+  - ꝯ
+  - I
+  - ':'
+  - ͤ
+  - ͭ
+  - ꝵ
+  - ꝓ
+  - S
+  - ͫ
+  - ¶
+  - ẜ
+  - E
+  - U
+  - A
+  - ͨ
+  - C
+  - ħ
+  - N
+  - Q
+  - y
+  - ꝗ
+  - ᵈ
+  - D
+  - ̵
+  - R
+  - P
+  - ͬ
+  - ᷝ
+  - M
+  - T
+  - ꝭ
+  - /
+  - ^
+  - '2'
+  - ͧ
+  - '&'
+  - z
+  - ','
+  - H
+  - O
+  - ¬
+  - L
+  - '1'
+  - '3'
+  - '4'
+  - F
+  - '='
+  - G
+  - ᷠ
+  - ÷
+  - ℥
+  - '5'
+  - B
+  - '9'
+  - Ø
+  - ̇
+  - Ꝙ
+  - '6'
+  - ̧
+  - X
+  - '8'
+  - '0'
+  - ᵇ
+  - k
+  - '7'
+  - "'"
+  - '*'
+  - 
+  - w
+  - '-'
+  - Y
+  - ́
+  - ̈
+  - +
+  - Z
+  - đ
+  -  
+  - K
+  - ⁋
+  - ᵖ
+  - 
+  - ι
+  mode: NFD
+description: Ground truth for medieval latin manuscripts. Formerly `CREMMA-Medieval-LAT`.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+institutions: []
+language:
+- lat
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CREMMA
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1599'
+  notBefore: '1100'
+title: CREMMA Medii Aevi
+transcription-guidelines: 'Not a graphetic/"allographetique" transcription but rather
+  a graphemic one that preserves the sequence of letters and reduces each form to
+  its meaning in an alphabetical system. Abbreviations are preserved (e.g. pro, pre,
+  tironian et, "est" etc.), as well as abbreviative signs, ligatures are reduced to
+  their component letters. Spaces between letters reproduce the original (e.g. in
+  the case of a semicontinuous script). Punctuations are simplified, reducing to ":"
+  all two-component punctuation (e.g. punctus elevatus). Rare characters have been
+  preserved such as "instans" and metric values (e.g. ounces). '
+url: https://github.com/HTR-United/CREMMA-Medieval-LAT
+volume:
+- count: 263222
+  metric: characters
+- count: 121
+  metric: files
+- count: 7274
+  metric: lines
+- count: 441
+  metric: regions

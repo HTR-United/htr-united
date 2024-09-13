@@ -1,0 +1,69 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Stavronikita Monastery Collection No. 114
+url: https://zenodo.org/records/5578251
+authors:
+  - name: Ioannis
+    surname: Pratikakis
+    orcid: 0000-0002-4124-3688
+    roles:
+      - transcriber
+      - project-manager
+  - name: Aleksandros
+    surname: Papazoglou
+    roles:
+      - transcriber
+      - project-manager
+  - name: Symeon
+    surname: Symeonidis
+    orcid: 0000-0002-3259-614X
+    roles:
+      - transcriber
+      - project-manager
+  - name: Lazaros
+    surname: Tsochatzidis
+    orcid: 0000-0002-4634-7419
+    roles:
+      - transcriber
+      - project-manager
+institutions: []
+description: >-
+  It comprises manuscripts made of paper, written at the end of the 15th century 
+  and its dimensions are 218X150 mm. In various pages, we find red initials and
+  epititles which enrich the manuscript’s decoration. 
+
+  The dataset of ΧΦ114 consists of 1051 lines of text containing 5467 (2877 
+  unique words) words that are distributed over 44 scanned handwritten text pages. 
+
+  For each page, a PageXML is provided containing the following ground-truth:
+
+  1. Text region polygon coordinates
+  2. Text line polygon coordinates with the corresponding transcription text
+  3. Word polygon coordinated with the corresponding transcription text
+language:
+  - grc
+transcription-guidelines: |
+  - Abbreviation and ligatures were resolved
+  - Minuscule in the beginning of sentences were kept as such.
+  - Polytonic spelling and diaeresis are kept
+production-software: Unknown
+automatically-aligned: false
+characters:
+  mode: NFD
+script:
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '1401'
+  notAfter: '1500'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+    - {count: 1006, metric: "lines"}
+    - {count: 44, metric: "files"}
+    - {count: 44, metric: "regions"}
+    - {count: 36898, metric: "characters"}

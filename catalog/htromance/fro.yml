@@ -1,0 +1,180 @@
+authors:
+- name: Leroy
+  orcid: 0000-0002-7843-5050
+  roles:
+  - transcriber
+  surname: Noé
+- name: Pinche
+  orcid: 0000-0001-7764-9690
+  roles:
+  - project-manager
+  - quality-control
+  surname: Ariane
+- name: Jean-Baptiste
+  orcid: 0000-0001-7764-9690
+  roles:
+  - project-manager
+  surname: Camps
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  surname: Chagué
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  surname: Clérice
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - i
+  - s
+  - t
+  - a
+  - u
+  - n
+  - o
+  - r
+  - l
+  - c
+  - d
+  - m
+  - p
+  - .
+  - ̃
+  - f
+  - q
+  - g
+  - h
+  - ⁊
+  - b
+  - z
+  - ̾
+  - y
+  - x
+  - E
+  - S
+  - I
+  - Q
+  - ͥ
+  - C
+  - ꝑ
+  - ꝯ
+  - L
+  - D
+  - ͣ
+  - A
+  - R
+  - ꝰ
+  - k
+  - M
+  - ','
+  - T
+  - P
+  - N
+  - ᷑
+  - ':'
+  - U
+  - O
+  - ͤ
+  - K
+  - ⟦
+  - ⟧
+  - ᷤ
+  - F
+  - G
+  - B
+  - ¶
+  - ͦ
+  - ^
+  - w
+  - H
+  - 
+  - ẜ
+  - ł
+  - ꝓ
+  - '-'
+  - ÷
+  - '0'
+  - '3'
+  - '2'
+  - '1'
+  - ̵
+  - '9'
+  - ͭ
+  - ͬ
+  - '5'
+  - '4'
+  - ͫ
+  - ꝙ
+  - ꝭ
+  - '7'
+  - '6'
+  - ħ
+  - '&'
+  - ⁜
+  - ᷠ
+  - /
+  - ˣ
+  - ͨ
+  - Y
+  - ꝵ
+  - "'"
+  - '8'
+  - ͧ
+  - W
+  - đ
+  - ᷝ
+  - 
+  - '*'
+  - ́
+  - X
+  - ̧
+  - ᵈ
+  mode: NFD
+description: >-
+  Ground truth of Old French and Middle French manuscripts. Manuscripts vary in themes,
+  period, etc. Most manuscript have at most 10 columns transcribed.
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+institutions: []
+language:
+- fro
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: HTRomance
+project-website: https://htromance-project.github.io
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1499'
+  notBefore: '1200'
+title: HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition
+  and Layout Segmentation
+transcription-guidelines: >2-
+
+  The transcription guidelines are described in a paper available on
+  [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the
+  Journal for Open Humanities Data. It provides specific details about the
+  selection process, the transcription methods and choices, as well as details
+  about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin
+  and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for
+  [Kraken](https://kraken.re))
+url: https://github.com/HTRomance-Project/medieval-french
+volume:
+- count: 300070
+  metric: characters
+- count: 138
+  metric: files
+- count: 10385
+  metric: lines
+- count: 789
+  metric: regions

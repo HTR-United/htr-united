@@ -1,0 +1,692 @@
+authors:
+- name: Chagué
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  - quality-control
+  - digitization
+  - support
+  surname: Alix
+- name: Clérice
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  - quality-control
+  surname: Thibault
+- name: Van Kote
+  roles:
+  - aligner
+  - transcriber
+  surname: Elsa
+- name: Carrow
+  roles:
+  - aligner
+  - transcriber
+  - support
+  surname: Jennifer
+- name: Wissam
+  roles:
+  - support
+  surname: Antoum
+- name: Yann
+  roles:
+  - support
+  surname: Audin
+- name: Anne
+  roles:
+  - support
+  surname: Baillot
+- name: Marlène
+  roles:
+  - support
+  surname: Baron
+- name: Alexandre
+  roles:
+  - support
+  surname: Bartz
+- name: Rachel
+  roles:
+  - support
+  surname: Bawden
+- name: Alice
+  roles:
+  - support
+  surname: Beaudry-Lagarde
+- name: Rishika
+  roles:
+  - support
+  surname: Bhagwatkar
+- name: Federico
+  roles:
+  - support
+  surname: Boschetti
+- name: Camille
+  roles:
+  - support
+  surname: Bourgeois
+- name: Alice
+  roles:
+  - support
+  surname: Brenon
+- name: William
+  roles:
+  - support
+  surname: Brubacher
+- name: Donovan
+  roles:
+  - support
+  surname: Brunot
+- name: Roxanne
+  roles:
+  - support
+  surname: Brusseau
+- name: Talitha
+  roles:
+  - support
+  surname: Bueno Mottes
+- name: Zoé
+  roles:
+  - support
+  surname: Cappe
+- name: Roman
+  roles:
+  - support
+  surname: Castagné
+- name: Galo
+  roles:
+  - support
+  surname: Castillo
+- name: Brigitte
+  roles:
+  - support
+  surname: Chagué
+- name: Denis
+  roles:
+  - support
+  surname: Chagué
+- name: Emeric
+  roles:
+  - support
+  surname: Chagué
+- name: Léa
+  roles:
+  - support
+  surname: Charette
+- name: Emmanuel
+  roles:
+  - support
+  surname: Chateau
+- name: Jean-Baptiste
+  roles:
+  - support
+  surname: Chaudron
+- name: Anna
+  roles:
+  - support
+  surname: Chepaikina
+- name: Floriane
+  roles:
+  - support
+  surname: Chiffoleau
+- name: Kelly
+  roles:
+  - support
+  surname: Christensen
+- name: Federico
+  roles:
+  - support
+  surname: Cuartas Aristizabal
+- name: Maria Laura
+  roles:
+  - support
+  surname: Cucciniello
+- name: Aurore
+  roles:
+  - support
+  surname: Cuéllar
+- name: Baudoin
+  roles:
+  - support
+  surname: Davoury
+- name: Eric
+  roles:
+  - support
+  surname: de la Clergerie
+- name: Roch
+  roles:
+  - support
+  surname: Delanney
+- name: Camille
+  roles:
+  - support
+  surname: Delattre
+- name: Béatrice
+  roles:
+  - support
+  surname: Denis
+- name: Philippe
+  roles:
+  - support
+  surname: Deschamps
+- name: Valentine
+  roles:
+  - support
+  surname: Desmorat
+- name: Cindy
+  roles:
+  - support
+  surname: Dionisio
+- name: Amélie
+  roles:
+  - support
+  surname: Disant
+- name: Elsa
+  roles:
+  - support
+  surname: Dufourg
+- name: Jean-Luc
+  roles:
+  - support
+  surname: Falcone
+- name: Margaux
+  roles:
+  - support
+  surname: Faure
+- name: Glenda
+  roles:
+  - support
+  surname: Ferbeyre Rodriguez
+- name: Giulia
+  roles:
+  - support
+  surname: Ferretti
+- name: Fabien
+  roles:
+  - support
+  surname: Fizaine
+- name: Jeanne
+  roles:
+  - support
+  surname: Flamant
+- name: Clémence
+  roles:
+  - support
+  surname: Foisy-Marquis
+- name: Anna
+  roles:
+  - support
+  surname: Fröhlich
+- name: Anne
+  roles:
+  - support
+  surname: Garcia Fernancez
+- name: Vincent
+  roles:
+  - support
+  surname: Giovannangeli
+- name: Gabrielle
+  roles:
+  - support
+  surname: Grondin
+- name: Morgane
+  roles:
+  - support
+  surname: Guichard
+- name: Jessica
+  roles:
+  - support
+  surname: Guiraud
+- name: Anahi
+  roles:
+  - support
+  surname: Haedo
+- name: Pauline
+  roles:
+  - support
+  surname: Hennequart
+- name: Yanet
+  roles:
+  - support
+  surname: Hernandez Pedroza
+- name: Lucence
+  roles:
+  - support
+  surname: Ing
+- name: Pauline
+  roles:
+  - support
+  surname: Jacsont
+- name: Juliette
+  roles:
+  - support
+  surname: Janes
+- name: Corinne
+  roles:
+  - support
+  surname: Jeanne
+- name: Arilys
+  roles:
+  - support
+  surname: Jia
+- name: Vincent
+  roles:
+  - support
+  surname: Jolivet
+- name: Katrina
+  roles:
+  - support
+  surname: Kaustina
+- name: Ben
+  roles:
+  - support
+  surname: Kiessling
+- name: Ozcar
+  roles:
+  - support
+  surname: Koc
+- name: Lena
+  roles:
+  - support
+  surname: Krause
+- name: Gabriel
+  roles:
+  - support
+  surname: Labrie
+- name: Amélie
+  roles:
+  - support
+  surname: Lapointe
+- name: David
+  roles:
+  - support
+  surname: Lassner
+- name: Emmanuelle
+  roles:
+  - support
+  surname: Lescouet
+- name: Danny
+  roles:
+  - support
+  surname: Létourneau
+- name: Marie-Françoise
+  roles:
+  - support
+  surname: Limon-Bonnet
+- name: Gabrielle
+  roles:
+  - support
+  surname: Lodi
+- name: Victoria
+  roles:
+  - support
+  surname: Lupascu
+- name: Elsa
+  roles:
+  - support
+  surname: Marguin-Hamon
+- name: Orestis
+  roles:
+  - support
+  surname: Marinamis
+- name: Gina
+  roles:
+  - support
+  surname: Mars
+- name: Eugénie
+  roles:
+  - support
+  surname: Matthey-Jonais
+- name: Dilson
+  roles:
+  - support
+  surname: Mayunga
+- name: Margot
+  roles:
+  - support
+  surname: Mellet
+- name: Matt
+  roles:
+  - support
+  surname: Moskal
+- name: Shannon
+  roles:
+  - support
+  surname: Moskal
+- name: Zoé
+  roles:
+  - support
+  surname: Mozin
+- name: Lydia
+  orcid: 0009-0009-7082-4711
+  roles:
+  - support
+  surname: Nishimwe
+- name: Jade
+  roles:
+  - support
+  surname: Norindr
+- name: Jules
+  roles:
+  - support
+  surname: Nuguet
+- name: Sarah
+  roles:
+  - support
+  surname: Orsini
+- name: Pedro
+  roles:
+  - support
+  surname: Ortiz Suarez
+- name: Kenan
+  roles:
+  - support
+  surname: Oudin
+- name: Gabrielle
+  roles:
+  - support
+  surname: Pannetier-Leboeuf
+- name: Thierry
+  roles:
+  - support
+  surname: Paquet
+- name: Thomas
+  roles:
+  - support
+  surname: Parisot
+- name: Elodie
+  roles:
+  - support
+  surname: Paupe
+- name: Gaël
+  roles:
+  - support
+  surname: Poux
+- name: Montaine
+  roles:
+  - support
+  surname: Prophête
+- name: Alix
+  roles:
+  - support
+  surname: Raoux
+- name: Gaëtan
+  roles:
+  - support
+  surname: Raoux
+- name: Elise
+  roles:
+  - support
+  surname: Razafindrakoto
+- name: Camille
+  roles:
+  - support
+  surname: Rey
+- name: Arij
+  roles:
+  - support
+  surname: Riabi
+- name: Karen
+  roles:
+  - support
+  surname: Ross
+- name: Manon
+  roles:
+  - support
+  surname: Rouillé
+- name: Louise
+  roles:
+  - support
+  surname: Ruby
+- name: Benoît
+  roles:
+  - support
+  surname: Sagot
+- name: Hugo
+  roles:
+  - support
+  surname: Scheithauer
+- name: Anne-Valérie
+  roles:
+  - support
+  surname: Schweyer
+- name: Djamé
+  roles:
+  - support
+  surname: Seddah
+- name: Paula
+  roles:
+  - support
+  surname: Seidel
+- name: Peter
+  roles:
+  - support
+  surname: Stokes
+- name: Yves
+  roles:
+  - support
+  surname: Tadjo
+- name: Lionel
+  roles:
+  - support
+  surname: Tadjou
+- name: Kristin
+  roles:
+  - support
+  surname: Tanton
+- name: Marie
+  roles:
+  - support
+  surname: Tariol
+- name: Rian
+  roles:
+  - support
+  surname: Touchent
+- name: Anne-Kim
+  roles:
+  - support
+  surname: Tremblay
+- name: Pierre
+  roles:
+  - support
+  surname: Vauterin
+- name: Mathilde
+  roles:
+  - support
+  surname: Verstraete
+- name: Magalie
+  roles:
+  - support
+  surname: Vetter
+- name: Marcello
+  roles:
+  - support
+  surname: Vitali Rosati
+- name: Malamatenia
+  roles:
+  - support
+  surname: Vlachou-Estathiou
+- name: Rosanne
+  roles:
+  - support
+  surname: Wingert
+- name: Débora
+  roles:
+  - support
+  surname: Yi
+- name: Antoine"
+  roles:
+  - support
+  surname: ''
+- name: Camille
+  roles:
+  - support
+  surname: ''
+- name: Manon
+  roles:
+  - support
+  surname: ''
+- name: Yohan
+  roles:
+  - support
+  surname: ''
+characters:
+  members:
+  - e
+  - a
+  - n
+  - i
+  - s
+  - t
+  - r
+  - l
+  - o
+  - u
+  - d
+  - c
+  - m
+  - p
+  - ́
+  - ','
+  - g
+  - h
+  - v
+  - f
+  - .
+  - b
+  - ̀
+  - "'"
+  - q
+  - '1'
+  - L
+  - y
+  - '0'
+  - C
+  - '9'
+  - E
+  - S
+  - '2'
+  - '-'
+  - A
+  - (
+  - )
+  - I
+  - x
+  - k
+  - M
+  - P
+  - R
+  - j
+  - B
+  - '8'
+  - T
+  - N
+  - D
+  - ̂
+  - '6'
+  - '4'
+  - O
+  - G
+  - '3'
+  - '5'
+  - '7'
+  - F
+  - H
+  - U
+  - w
+  - V
+  - '='
+  - z
+  - ̧
+  - J
+  - ':'
+  - ̈
+  - W
+  - K
+  - '>'
+  - <
+  - '"'
+  - «
+  - »
+  - Y
+  - X
+  - '['
+  - ']'
+  - ^
+  - /
+  - ſ
+  - ̄
+  - ;
+  - Q
+  - Z
+  - œ
+  - ̌
+  - '!'
+  - ’
+  - ø
+  - ̃
+  - '%'
+  - '&'
+  - –
+  - ɛ
+  - ̊
+  - °
+  - ß
+  - ɹ
+  - —
+  - Æ
+  - ²
+  - ̆
+  - ᑕ
+  - '#'
+  - ə
+  - €
+  - …
+  - ł
+  -  
+  - ɑ
+  - ɔ
+  - ʁ
+  mode: NFD
+description: "The CREMMA-WIKIPEDIA project aims at creating a collection of ground\
+  \ truth to train HTR models on contemporary French handwriting.\n\nEach image represents\
+  \ an exerpt from a randomly selected Wikipedia page, copied by hand by volunteers.\
+  \ We then took care of the alignment between the handwritten portion and the original\
+  \ text, also present on the image."
+format: Alto-XML
+hands:
+  count: 1-per-file
+  precision: estimated
+institutions:
+- name: 6e-1 du Collège Martin-Luther-King de Charvieu-Chavagneux
+  roles:
+  - support
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CREMMA
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '2023'
+  notBefore: '2022'
+title: CREMMA WIKIPEDIA
+transcription-guidelines: "The transcription guidelines follow CREMMA's convention\
+  \ (https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4). In short:\
+  \ superscript is preceded by a ^. Strikethrough elements are transcribed with \"\
+  ><\" when unreadable, \">word<\" when readeable.  The text to copy may have included\
+  \ phonetic transcription. Non-french letters and diacritics were rendered as well. "
+url: https://github.com/HTR-United/cremma-wikipedia
+volume:
+- count: 99680
+  metric: characters
+- count: 350
+  metric: files
+- count: 1971
+  metric: lines
+- count: 351
+  metric: regions

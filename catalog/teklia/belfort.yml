@@ -1,0 +1,61 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Belfort
+url: https://zenodo.org/record/8041668
+authors:
+  - name: Solène
+    surname: Tarride
+    orcid: 0000-0001-6174-9865
+  - name: Tristan
+    surname: Faine
+  - name: Mélodie
+    surname: Boillet
+    orcid: 0000-0002-0618-7852
+  - name: Harold
+    surname: Mouchère
+    orcid: 0000-0001-6220-7216
+  - name: Christopher
+    surname: Kermorvant
+    orcid: 0000-0002-7508-4080
+institutions: []
+description: >
+  This dataset includes minutes of Belfort municipal council drawn up between
+  1790 and 1946. Documents include deliberations, lists of councillors,
+  convocations, and agendas. The dataset includes 24,105 text-line images that
+  were automatically detected from pages. 
+
+  Up to four transcriptions are available for each line image: 
+
+  * two from human annotators (in `Transcriptions/callico_1/` and
+  `Transcriptions/callico_2/`)
+
+  * two from automatic models (in `Transcriptions/dan/` and
+  `Transcriptions/pylaia/`) 
+project-name: Handwritten Text Recognition from Crowdsourced Annotations
+project-website: https://arxiv.org/abs/2306.10878
+language:
+  - fra
+production-software: Callico
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1790'
+  notAfter: '1946'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Image-Text-Pairs
+sources:
+  - reference: >-
+      Solène Tarride, Tristan Faine, Mélodie Boillet, Harold Mouchère, &
+      Christopher Kermorvant. (2023). The Belfort dataset: Handwritten Text
+      Recognition from Crowdsourced Annotations [Data set]. 7th International
+      Workshop on Historical Document Imaging and Processing (HIP'23), San
+      José, California, USA. Zenodo. https://doi.org/10.5281/zenodo.8041668
+    link: https://arxiv.org/abs/2306.10878
+volume:
+  - metric: lines
+    count: 24105

@@ -1,0 +1,158 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: "Donn\xE9es imprim\xE9s du 16e si\xE8cle"
+description: "Corpus d'entrainement pour l'HTR constitu\xE9 d'imprim\xE9s du 16e si\xE8\
+  cle"
+url: https://github.com/Gallicorpora/HTR-imprime-16e-siecle
+authors:
+- name: Gabay
+  surname: Simon
+  roles:
+  - project-manager
+- name: Pinche
+  roles:
+  - project-manager
+  surname: Ariane
+- name: Vlachou-Efstathiou
+  surname: malamatenia
+  roles:
+  - transcriber
+- name: Christensen
+  surname: Kelly
+  roles:
+  - support
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: estimated
+language:
+- frm
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+project-name: Gallicorpora
+project-website: https://github.com/Gallicorpora
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1599'
+  notBefore: '1500'
+transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+  \ du projet Gallicorpora"
+volume:
+- metric: characters
+  count: 186202
+- metric: files
+  count: 180
+- metric: lines
+  count: 4918
+- metric: regions
+  count: 591
+citation-file-link: https://github.com/Gallicorpora/HTR-imprime-16e-siecle/CITATION.cff
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - u
+  - r
+  - a
+  - n
+  - i
+  - t
+  - o
+  - l
+  - s
+  - "\u017F"
+  - d
+  - c
+  - m
+  - p
+  - ','
+  - q
+  - y
+  - v
+  - f
+  - g
+  - b
+  - h
+  - .
+  - "\u2019"
+  - '&'
+  - E
+  - x
+  - ''''
+  - z
+  - "\u0301"
+  - "\u0300"
+  - A
+  - "\xAC"
+  - "\u0303"
+  - D
+  - C
+  - R
+  - ':'
+  - L
+  - I
+  - S
+  - P
+  - N
+  - M
+  - O
+  - Q
+  - T
+  - V
+  - G
+  - H
+  - B
+  - F
+  - '-'
+  - "\u0327"
+  - j
+  - '?'
+  - (
+  - "\u0308"
+  - )
+  - "\xBB"
+  - '1'
+  - "\u0153"
+  - "\xB6"
+  - '!'
+  - U
+  - '2'
+  - X
+  - ;
+  - '9'
+  - Y
+  - '4'
+  - '3'
+  - "\xDF"
+  - '5'
+  - '"'
+  - '7'
+  - J
+  - '8'
+  - "\xE6"
+  - "\uA770"
+  - '6'
+  - '0'
+  - "\u0302"
+  - "\u02B3"
+  - "\u204A"
+  - Z
+  - "\xAB"
+  - '*'
+  - "\uA757"
+  - "\uA753"
+  - "\_"
+  - "\u204B"
+  - "\u0399"
+  - "\uA751"
+  - ']'
+  - "\u0365"
+  - "\u1D49"
+  - "\u0395"
+  - '['
+  - "\u03A4"
+  - /

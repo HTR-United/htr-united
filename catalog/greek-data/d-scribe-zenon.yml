@@ -1,0 +1,51 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition
+url: https://zenodo.org/records/6565706
+authors:
+  - name: Isabelle
+    surname: Marthot-Santaniello
+    orcid: 0000-0003-0407-8748
+    roles:
+      - transcriber
+      - project-manager
+  - name: Hodel
+    surname: Tobias
+    orcid: 0000-0002-2071-6407
+    roles:
+      - transcriber
+      - project-manager
+institutions: []
+description: >-
+  Diplomatic transcription of papyri found in the Zenon archive [see
+  en.wikipedia.org/wiki/Zenon_of_Kaunos]
+
+
+  Manually prepared as PageXML with Transkribus within D-Scribes project.
+project-name: D-Scribes
+project-website: https://d-scribes.philhist.unibas.ch/en/
+language:
+  - grc
+production-software: Transkribus
+automatically-aligned: false
+characters:
+  mode: NFD
+script:
+  - iso: Grek
+script-type: only-manuscript
+time:
+  notBefore: '-250'
+  notAfter: '-230'
+hands:
+  count: unknown
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 321
+  - metric: characters
+    count: 5850
+  - metric: files
+    count: 27

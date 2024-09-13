@@ -1,0 +1,86 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: 'Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release'
+url: https://doi.org/10.5281/zenodo.7466927
+authors:
+  - name: Berger
+    surname: Michael
+    orcid: 0000-0002-6627-5272
+  - name: Bolte
+    surname: Henrike
+  - name: Führer
+    surname: Veronika
+    orcid: 0000-0003-3145-4083
+  - name: Hausleitner
+    surname: Felix
+    orcid: 0000-0002-9788-8127
+  - name: Hutterer
+    surname: Sarah
+  - name: Lüthi
+    surname: Tim
+    orcid: 0000-0003-1925-7175
+  - name: Nancu
+    surname: Mihaela
+  - name: Passoni
+    surname: Erica
+  - name: Pataki
+    surname: Katalin
+    orcid: 0000-0003-0331-8295
+  - name: Schröcksnadel
+    surname: Sophie
+  - name: Verri
+    surname: Giovanni
+    orcid: 0000-0002-1297-2152
+  - name: Wegener
+    surname: Dennis
+    orcid: 0000-0002-9410-9191
+institutions: []
+description: >-
+  This is ground truth for the vast collection of sermons of Nikolaus von
+  Dinkelsbühl (ca. 1360 to 17th March 1433), translated and reorganised by a
+  German redactor, from the 15th century has never been edited until now. It
+  consists of 361 folios of parchment and paper. The text speaks about various
+  topics such as fasting and other religious practices. Being one of the leading
+  intellectuals of his time, Nikolaus von Dinkelsbühl also contributed to the
+  development of the University of Vienna. The manuscript was probably produced
+  in the vicinity of Klosterneuburg in Austria and is still kept there today
+  (Shelfmark: Cod. 48).
+
+
+  Data collection and ground truth creation:
+
+
+  The edition at hand was produced by an international team of researchers from
+  various fields in the context of the Vienna HTR Winter School 2022 with the
+  help of Transkribus Expert Client.
+
+
+  We uploaded the images of the manuscript into the Transkribus platform,
+  applied the line recognition tool and manually copied the transcribed text
+  lines into the recognised line boxes. Various models were trained with the
+  ground truth (20% of the entire codex) created by the team.
+
+
+  Images of the Klosterneuburg, Augustiner-Chorherrenstift, Cod. 48 are
+  available at: https://manuscripta.at/diglit/AT5000-48/0001
+project-name: HTR Winter School 2022, Vienna
+language:
+  - gmh
+production-software: Transkribus
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1440'
+  notAfter: '1449'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: pages
+    count: 68
+  - metric: lines
+    count: 4605

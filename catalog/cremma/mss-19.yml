@@ -1,0 +1,153 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: CREMMA Manuscrits du 19e
+url: https://github.com/HTR-United/CREMMA-MSS-19
+project-name: CREMMA
+authors:
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - project-manager
+  - quality-control
+- name: "Chagu\xE9"
+  surname: Alix
+  roles:
+  - project-manager
+  - quality-control
+- name: Davoury
+  surname: Baudouin
+  roles:
+  - transcriber
+  - aligner
+- name: Doat
+  surname: Soline
+  roles:
+  - transcriber
+  - aligner
+- name: Faure
+  surname: Margaux
+  roles:
+  - transcriber
+  - aligner
+- name: Humeau
+  surname: Maxime
+  roles:
+  - transcriber
+  - aligner
+description: Manuscripts of the 19th century
+language:
+- fra
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1800'
+  notAfter: '1899'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 55581
+- metric: files
+  count: 69
+- metric: lines
+  count: 1807
+- metric: regions
+  count: 167
+transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - s
+  - a
+  - i
+  - u
+  - n
+  - r
+  - t
+  - o
+  - l
+  - d
+  - m
+  - c
+  - p
+  - v
+  - ','
+  - "\u0301"
+  - ''''
+  - q
+  - f
+  - .
+  - g
+  - b
+  - h
+  - "\u0300"
+  - j
+  - x
+  - '-'
+  - "\u0302"
+  - L
+  - C
+  - M
+  - y
+  - J
+  - z
+  - A
+  - D
+  - P
+  - '"'
+  - '>'
+  - <
+  - E
+  - '!'
+  - N
+  - S
+  - Q
+  - '1'
+  - ;
+  - '?'
+  - ':'
+  - R
+  - I
+  - T
+  - B
+  - V
+  - "\u0153"
+  - '6'
+  - O
+  - (
+  - _
+  - )
+  - '2'
+  - '3'
+  - H
+  - '4'
+  - ^
+  - '9'
+  - '8'
+  - '7'
+  - F
+  - '0'
+  - G
+  - '5'
+  - "\u0327"
+  - U
+  - '&'
+  - '['
+  - ']'
+  - "\xB0"
+  - "\u0308"
+  - k
+  - $
+  - w
+  - X
+  - W
+  - Y
+  - +
+  - Z

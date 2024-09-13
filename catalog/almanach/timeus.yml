@@ -1,0 +1,172 @@
+authors:
+- name: Chagué
+  roles:
+  - transcriber
+  - aligner
+  - support
+  surname: Alix
+- name: Riondet
+  roles:
+  - support
+  surname: Charles
+- name: Le Fourner
+  roles:
+  - transcriber
+  surname: Victoria
+- name: Bey
+  roles:
+  - transcriber
+  surname: Laura
+- name: Vanneau
+  roles:
+  - transcriber
+  surname: Laurie
+- name: Skilbeck-Gaborit
+  roles:
+  - transcriber
+  surname: Eden
+- name: Meissel
+  roles:
+  - transcriber
+  surname: Nina
+- name: Genero
+  roles:
+  - aligner
+  surname: Jean-Damien
+- name: Champougny
+  roles:
+  - transcriber
+  surname: Kevin
+- name: Albert
+  roles:
+  - project-manager
+  surname: Anaïs
+- name: Martini
+  roles:
+  - project-manager
+  surname: Manuela
+characters:
+  members:
+  - e
+  - n
+  - a
+  - i
+  - t
+  - r
+  - u
+  - s
+  - l
+  - o
+  - d
+  - p
+  - c
+  - m
+  - ́
+  - v
+  - f
+  - q
+  - x
+  - ̀
+  - ','
+  - g
+  - h
+  - "'"
+  - ;
+  - j
+  - C
+  - b
+  - P
+  - D
+  - ’
+  - y
+  - B
+  - .
+  - L
+  - M
+  - ̂
+  - z
+  - J
+  - A
+  - G
+  - E
+  - '-'
+  -  
+  - S
+  - V
+  - '?'
+  - T
+  - Q
+  - F
+  - '='
+  - R
+  - '4'
+  - '2'
+  - ̧
+  - k
+  - —
+  - '7'
+  - W
+  - O
+  - N
+  - '1'
+  - '3'
+  - '8'
+  - '0'
+  - '9'
+  - ':'
+  - –
+  - '5'
+  - ̈
+  - Y
+  - K
+  - H
+  - œ
+  - I
+  - )
+  - (
+  - U
+  - Z
+  - _
+  - '@'
+  - '!'
+  - ‘
+  - »
+  - '&'
+  - '6'
+  - ─
+  - /
+  mode: NFD
+description: Ground-Truth for French 19th century pre-printed documents created by
+  administrative services.
+format: Page-XML
+hands:
+  count: less-than-11
+  precision: estimated
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: ANR TIME US
+project-website: https://timeus.hypotheses.org/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: evenly-mixed
+time:
+  notAfter: '1858'
+  notBefore: '1858'
+title: TIMEUS Corpus
+url: https://github.com/HTR-United/timeuscorpus
+volume:
+- count: 401304
+  metric: characters
+- count: 250
+  metric: files
+- count: 7701
+  metric: lines
+- count: 159
+  metric: pages
+- count: 586
+  metric: regions

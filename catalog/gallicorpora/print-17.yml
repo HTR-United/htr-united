@@ -1,0 +1,198 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: "Imprim\xE9s 17e si\xE8cle"
+description: "Corpus d'entrainement pour l'HTR compos\xE9 d'imprim\xE9s fran\xE7ais\
+  \ du 17e s."
+url: https://github.com/Gallicorpora/HTR-imprime-17e-siecle
+authors:
+- name: Gabay
+  surname: Simon
+  roles:
+  - project-manager
+- name: Pinche
+  surname: Ariane
+  roles:
+  - project-manager
+- name: Fabert
+  surname: Eliott
+  roles:
+  - transcriber
+- name: Vlachou-Efstathiou
+  surname: malamatenia
+  roles:
+  - transcriber
+- name: Christensen
+  surname: Kelly
+  roles:
+  - support
+project-name: Gallicorpora
+project-website: https://github.com/Gallicorpora
+language:
+- frm
+- fra
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1600'
+  notAfter: '1699'
+hands:
+  count: 1-per-folder
+  precision: estimated
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 255981
+- metric: files
+  count: 327
+- metric: lines
+  count: 8950
+- metric: regions
+  count: 1185
+transcription-guidelines: "Les normes de transcription suivent les pr\xE9conisations\
+  \ du projet gallicorpora"
+citation-file-link: https://github.com/Gallicorpora/HTR-imprime-17e-siecle/CITATION.cff
+production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - u
+  - r
+  - a
+  - n
+  - i
+  - t
+  - o
+  - l
+  - s
+  - "\u017F"
+  - d
+  - c
+  - m
+  - p
+  - ','
+  - v
+  - q
+  - .
+  - f
+  - g
+  - b
+  - E
+  - "\u2019"
+  - h
+  - y
+  - "\u0301"
+  - A
+  - '&'
+  - ''''
+  - S
+  - I
+  - x
+  - "\xAC"
+  - L
+  - C
+  - R
+  - P
+  - D
+  - "\u0300"
+  - M
+  - V
+  - T
+  - O
+  - N
+  - z
+  - ':'
+  - Q
+  - j
+  - '-'
+  - F
+  - G
+  - "\u0303"
+  - B
+  - ;
+  - H
+  - "\u0308"
+  - '1'
+  - "\u0302"
+  - "\u0327"
+  - '2'
+  - '?'
+  - '3'
+  - "\u0153"
+  - '4'
+  - '5'
+  - Y
+  - U
+  - Z
+  - '6'
+  - '7'
+  - '8'
+  - '0'
+  - X
+  - J
+  - '9'
+  - (
+  - "\xE6"
+  - )
+  - "\xC6"
+  - "\u03B9"
+  - "\u03B1"
+  - '!'
+  - "\xDF"
+  - "\u03BF"
+  - "\u03BD"
+  - "\u03B5"
+  - "\u03C1"
+  - "\u0313"
+  - "\u03C5"
+  - "\u03BA"
+  - '*'
+  - "\u03C3"
+  - "\u03C4"
+  - "\u03C9"
+  - '['
+  - ']'
+  - "\uA770"
+  - K
+  - "\u0391"
+  - "\u03C7"
+  - "\u03C2"
+  - "\u03C0"
+  - "\u03B3"
+  - "\u0328"
+  - "\u03BC"
+  - k
+  - "\u0342"
+  - "\u039D"
+  - "\u0392"
+  - "\u03BB"
+  - "\u03A3"
+  - "\u039A"
+  - "\u03B7"
+  - "\u03B8"
+  - W
+  - "\u0152"
+  - "\u03B4"
+  - "\u03A4"
+  - "\u0345"
+  - "\xBB"
+  - "\u1D49"
+  - "\u02E1"
+  - "\u0367"
+  - "\u0396"
+  - "\u03B2"
+  - "\u0314"
+  - "\u0307"
+  - "\xB0"
+  - w
+  - "\u1E9E"
+  - "\u03A6"
+  - "\u039B"
+  - "\u03A7"
+  - "\u03C6"
+  - "\u0399"
+  - "\u02B3"
+  - "\u1D50"

@@ -1,0 +1,125 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: Moonshines
+url: https://github.com/alix-tz/moonshines
+authors:
+- name: Alix
+  surname: "Chagu\xE9"
+  orcid: 0000-0002-0136-4434
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - digitization
+institutions: []
+description: This dataset is composed of pages of text written in 2023 by a single
+  person, copying texts taken from Guillaume Apollinaire's poems published in Alcools,
+  and taken from Guillaume Apollinaire's Wikipedia page.
+language:
+- fra
+production-software: eScriptorium + Kraken
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '2023'
+  notAfter: '2023'
+hands:
+  count: '1'
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- metric: characters
+  count: 27734
+- metric: files
+  count: 45
+- metric: lines
+  count: 1016
+- metric: regions
+  count: 45
+citation-file-link: https://github.com/alix-tz/moonshines/blob/master/CITATION.cff
+transcription-guidelines: The transcription strictly follows what is written on the
+  images, including accentuation or capitalization errors. The segmentation follows
+  the SegmOnto ontology and mostly relies on MainZone and DefaultLine. Beware that
+  this dataset barely contains any ponctuation and that most lines begin with a capital
+  letter.
+characters:
+  mode: NFD
+  members:
+  - e
+  - s
+  - a
+  - n
+  - r
+  - i
+  - t
+  - u
+  - o
+  - l
+  - d
+  - m
+  - c
+  - p
+  - "\u0301"
+  - ''''
+  - v
+  - g
+  - b
+  - h
+  - "\u0300"
+  - f
+  - L
+  - q
+  - E
+  - '1'
+  - A
+  - C
+  - x
+  - y
+  - "\u0302"
+  - S
+  - '9'
+  - P
+  - M
+  - j
+  - T
+  - D
+  - '-'
+  - N
+  - J
+  - R
+  - '0'
+  - z
+  - O
+  - I
+  - '2'
+  - '8'
+  - V
+  - F
+  - G
+  - U
+  - '5'
+  - B
+  - Q
+  - )
+  - H
+  - '3'
+  - (
+  - '7'
+  - '6'
+  - w
+  - k
+  - '4'
+  - "\u0327"
+  - K
+  - Z
+  - "\u0308"
+  - Y
+  - '{'
+  - '}'
+  - W
+  - .
+  - X
+  - ','

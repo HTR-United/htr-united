@@ -7,6 +7,8 @@ on:
     branches:
       - master
   workflow_dispatch: #Allows for manual triggering
+  schedule:
+    - cron: "0 23 * * 0"
 jobs:
   catalog:
     runs-on: ubuntu-latest
@@ -14,21 +16,22 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
+    - name: Set up Python 3.10
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: "3.11"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install htruc
     - name: Run HTRUC
       run: |
-        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --organization htr-united --organization gallicorpora --organization fondue-htr
+        htruc make ./catalog --access_token ${{ secrets. GITHUB_TOKEN }} --graph-csv data.csv --statistics statistics.csv --output htr-united.yml --graph graph.png --json catalog.json --ids catalog-ids.json --check-link --no-remote
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        python3 spid.py
         git add htr-united.yml graph.png statistics.csv catalog.json
         git commit -m "[Automatic] Update of the Catalog" || echo "Nothing to commit"
         git push || echo "Nothing to push"
