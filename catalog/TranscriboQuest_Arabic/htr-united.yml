@@ -1,0 +1,63 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: TranscriboQuest_Arabic_team
+url: https://doi.org/10.5281/zenodo.13757236
+authors:
+  - name: Ephrem Aboud
+    surname: Ishac
+    orcid: 0000-0003-2943-6556
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+  - name: Enki
+    surname: Baptiste
+    orcid: 0009-0004-3456-9796
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+institutions: []
+description: 'Dataset on an Arabic corpus of Christian-Islamic theology. '
+project-name: TranscriboQuest 2024
+language:
+  - ara
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Arab
+script-type: only-manuscript
+time:
+  notBefore: '1200'
+  notAfter: '1600'
+hands:
+  count: 1-per-folder
+  precision: estimated
+license:
+  name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 153
+transcription-guidelines: >-
+  ▶ Data format: XML ALTO
+
+  ▶ Number of transcribed lines: 153
+
+  ▶ author/creator/curator of the dataset: Enki Baptiste and Ephrem Aboud Ishac 
+
+  ▶ Segmentation tools, HTR engine and interface: OpenITI model
+  (https://github.com/OpenITI/acdc_results/blob/main/models/gen2-print-n7m5-union-ft_best.mlmodel);
+  eScriptorium; Kraken
+
+  ▶ Language of the corpus, Date: Arabic, end of the 16th century
+
+  ▶ Type, support of documents, script: paper; mashriqi naskh 
+
+  ▶ Transcription method: diplomatic transcription respecting the tanwin, the
+  shadda and the diacritic marks.
+
+  ▶ Theme, collection, object of the dataset: theology; Maktabat al-Sālimī,
+  Bidiyya, Oman, ms. AS 250 4v-5f
+  (https://elibrary.mara.gov.om/en/omani-library/imam-nour-al-din-al-salmi-s-library/book/?id=324#book/7);
+  St Mark Monastery, Jerusalem, SMMJ 00264 2v-5r
