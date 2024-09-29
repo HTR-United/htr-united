@@ -9405,13 +9405,13 @@
     - d
     - p
     - m
-    - .
     - ̃
+    - .
     - /
     - q
     - f
-    - y
     - g
+    - y
     - h
     - b
     - ⁊
@@ -9421,63 +9421,63 @@
     - x
     - C
     - I
-    - E
-    - D
     - '1'
+    - E
     - L
+    - D
     - P
     - A
-    - M
     - ¶
     - ͥ
+    - M
     - '2'
-    - S
     - '?'
+    - S
     - '3'
     - ͬ
-    - Q
     - '4'
+    - Q
     - N
     - T
     - ꝰ
-    - R
-    - U
     - '5'
+    - U
+    - R
+    - '7'
+    - '6'
+    - '0'
+    - H
     - ','
     - O
-    - H
-    - '6'
-    - '7'
-    - '0'
-    - (
-    - G
-    - )
     - '8'
-    - B
+    - (
     - '9'
+    - )
+    - G
     - ꝓ
+    - B
     - ꝑ
     - F
-    - ◊
     - '-'
     - ꝯ
+    - ◊
     - ̈
     - ł
     - ð
     -  
-    - ꝝ
     - Y
-    - k
-    - "'"
-    - v
+    - ꝝ
     - Z
-    - ̀
+    - k
+    - v
+    - "'"
     - K
+    - ̀
     - ́
     - ꝫ
+    - J
     - V
     - X
-    - J
     - w
     - ;
     - ꝗ
@@ -9517,13 +9517,13 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1254980
+  - count: 1707540
     metric: characters
-  - count: 1466
+  - count: 1833
     metric: files
-  - count: 48238
+  - count: 64310
     metric: lines
-  - count: 6259
+  - count: 8537
     metric: regions
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
