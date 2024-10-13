@@ -1754,16 +1754,21 @@
     - quality-control
     - support
     surname: Gabay
+  - name: Loraine
+    orcid: 0000-0002-9598-9151
+    roles:
+    - transcriber
+    surname: Chappuis
   automatically-aligned: false
   characters:
     members:
     - e
-    - s
     - a
+    - s
     - r
-    - u
     - t
     - n
+    - u
     - i
     - o
     - l
@@ -1772,96 +1777,98 @@
     - m
     - p
     - v
-    - ','
-    - .
     - ́
+    - .
+    - ','
     - q
     - h
     - f
     - g
-    - "'"
     - b
+    - "'"
     - y
-    - M
     - L
-    - j
-    - x
-    - '1'
+    - M
     - C
+    - S
+    - x
+    - j
+    - E
+    - '1'
+    - z
+    - ̀
     - I
     - ’
-    - E
-    - S
-    - +
-    - ̀
     - ̂
     - '2'
-    - ¬
-    - z
-    - V
-    - ʳ
-    - D
     - J
-    - ':'
-    - X
-    - '3'
-    - '4'
+    - +
+    - D
+    - V
+    - ¬
+    - ʳ
+    - ^
     - P
+    - ':'
+    - '4'
+    - '3'
+    - X
+    - R
+    - '7'
     - A
     - ̈
-    - '7'
-    - ;
-    - ᵉ
-    - '5'
-    - '6'
-    - R
     - B
-    - '9'
-    - '0'
-    - G
-    - '8'
+    - '6'
+    - ;
+    - '5'
     - T
-    - ^
+    - G
+    - '9'
+    - ᵉ
+    - '0'
+    - '8'
     - N
-    - O
+    - —
     - ̧
+    - O
+    - F
     - '-'
     - ᵗ
     - '?'
     - ᵈ
-    - —
-    - H
     - Q
     - k
-    - œ
+    - H
     - ⟦
     - ⟧
-    - ˢ
-    - ˡ
-    - F
-    - ᵇ
-    -  
     - '['
     - ']'
+    - œ
+    - ˢ
+    - ˡ
+    - ᵇ
+    - Z
+    -  
     - W
     - α
-    - Z
+    - w
     - U
+    - ̃
     - (
     - )
     - ̓
     - ο
     - ν
-    - ̃
+    - '&'
+    - K
     - ⁱ
-    - w
     - μ
     - ω
     - τ
     - δ
     - ε
-    - '&'
-    - K
+    - °
+    - Y
     - ̄
     - ρ
     - φ
@@ -1871,7 +1878,8 @@
     - υ
     - π
     - λ
-    - Y
+    - $
+    - /
     mode: NFD
   citation-file-link: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18/blob/master/CITATION.cff
   description: French Manuscripts of the 18th
@@ -1899,19 +1907,20 @@
   transcription-guidelines: SegmOnto
   url: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18
   volume:
-  - count: 178939
+  - count: 232519
     metric: characters
-  - count: 163
+  - count: 228
     metric: files
-  - count: 5050
+  - count: 6446
     metric: lines
-  - count: 499
+  - count: 709
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Nahon, Peter and\
-    \ Cicchini, Marco and Jaureguy, Yvan},\nmonth = {11},\ntitle = {FoNDUE-FR-MSS-18},\n\
-    url = {https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18},\nyear = {2023}\n}\n"
-  _apa: "Gabay S., Nahon P., Cicchini M., Jaureguy Y. (2023). FoNDUE-FR-MSS-18 (version\
-    \ 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18\n"
+    \ Cicchini, Marco and Jaureguy, Yvan and Chappuis, Loraine},\nmonth = {11},\n\
+    title = {FoNDUE-FR-MSS-18},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18},\n\
+    year = {2023}\n}\n"
+  _apa: "Gabay S., Nahon P., Cicchini M., Jaureguy Y., Chappuis L. (2023). FoNDUE-FR-MSS-18\
+    \ (version 1.0). URL: https://github.com/FoNDUE-HTR/FONDUE-FR-MSS-18\n"
 - authors:
   - name: Gabay
     orcid: 0000-0001-9094-4475
