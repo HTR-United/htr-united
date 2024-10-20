@@ -9407,8 +9407,8 @@
     - a
     - t
     - r
-    - o
     - n
+    - o
     - l
     - c
     - d
@@ -9429,8 +9429,8 @@
     - ':'
     - x
     - C
-    - I
     - '1'
+    - I
     - E
     - L
     - D
@@ -9438,62 +9438,62 @@
     - A
     - ¶
     - ͥ
-    - M
     - '2'
+    - M
     - S
     - '3'
-    - '?'
+    - '*'
     - ͬ
     - Q
+    - '?'
     - '4'
     - N
     - T
     - ꝰ
     - '5'
-    - '*'
-    - U
-    - R
     - '6'
+    - R
+    - U
     - '0'
-    - ','
-    - '7'
-    - H
     - '8'
+    - ','
+    - H
     - O
+    - '7'
     - '9'
     - (
     - )
     - ꝓ
     - G
-    - B
     - ꝑ
+    - B
     - F
     - ̈
     - ꝯ
-    - '-'
     - ł
-    - ◊
     - ð
+    - ◊
+    - '-'
     -  
     - ꝝ
-    - Z
     - v
-    - Y
+    - Z
     - k
     - "'"
     - K
-    - ̀
+    - Y
     - X
-    - ́
+    - ̀
     - ꝫ
     - V
+    - ́
     - J
     - ꝙ
+    - ᵉ
     - w
     - ;
     - ꝗ
     - ̇
-    - ᵉ
     - ̌
     mode: NFD
   citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff
@@ -9528,11 +9528,11 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1708929
+  - count: 1709856
     metric: characters
   - count: 1833
     metric: files
-  - count: 64295
+  - count: 64290
     metric: lines
   - count: 8537
     metric: regions
