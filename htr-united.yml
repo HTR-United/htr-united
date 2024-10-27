@@ -208,7 +208,8 @@
     \ artificielle)},\n  language = {fr},\n  title = {Données vérité de terrain HTR+\
     \ Annuaire des propriétaires et des propriétés de Paris et du département de la\
     \ Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n\
-    \  year = {2021}\n}\n"
+    \  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial\
+    \ Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: >-
     University of Denver Jewish Consumptives Relief Society Medical Records   Training
