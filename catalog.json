@@ -1,4 +1,76 @@
 {
+  "918807511": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "TranscriboQuest 2024 Medieval Literary",
+    "url": "10.5281/zenodo.13757440",
+    "authors": [
+      {
+        "name": "Jessie",
+        "surname": "Dummer"
+      },
+      {
+        "name": "Emmanuelle",
+        "surname": "Kuhry"
+      },
+      {
+        "name": "Zdzislaw",
+        "surname": "Koczarski"
+      },
+      {
+        "name": "Sylvain",
+        "surname": "Besson"
+      },
+      {
+        "name": "Caroline",
+        "surname": "Chevalier-Royet",
+        "orcid": "0000-0002-7574-6742"
+      },
+      {
+        "name": "Caroline",
+        "surname": "Vandyck",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "This dataset was created in the context of TranscriboQuest 2024 (Medieval Literary Team) held in Lyon (11/09/2024-13/09/2024). We opted to focus on medieval scientific documents that are damaged, in several different languages. The result is 808 lines transcribed by experts in the field. The dataset contains the images of the manuscripts and ALTO-XMLs.",
+    "language": [
+      "lat",
+      "dum",
+      "fro",
+      "gmh"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "800",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 800
+      }
+    ],
+    "transcription-guidelines": "CATMuS Guidelines (https://catmus-guidelines.github.io)",
+    "_pid": "918807511"
+  },
   "255da7ea1": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "\u00d6NB, Cod. 3891. Ground Truth",
@@ -524,6 +596,128 @@
     "transcription-guidelines": "Abbreviations are represented through special characters, please see the project repository for a full documentation.",
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.11046061,\n  doi = {10.5281/ZENODO.11046061},\n  url = {https://zenodo.org/doi/10.5281/zenodo.11046061},\n  author = {{Badische Landesbibliothek} and Ost, Katharina and Stello, Annika and Heim, Gerrit},\n  language = {de},\n  title = {Training Data Incunabula Reichenau},\n  publisher = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution Share Alike 4.0 International}\n}\n",
     "_pid": "0a089ab6d"
+  },
+  "24b1b7a85": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "TranscriboQuest_Arabic_team",
+    "url": "https://doi.org/10.5281/zenodo.13757236",
+    "authors": [
+      {
+        "name": "Ephrem Aboud",
+        "surname": "Ishac",
+        "orcid": "0000-0003-2943-6556",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Enki",
+        "surname": "Baptiste",
+        "orcid": "0009-0004-3456-9796",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Dataset on an Arabic corpus of Christian-Islamic theology. ",
+    "project-name": "TranscriboQuest 2024",
+    "language": [
+      "ara"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Arab"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1200",
+      "notAfter": "1600"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 153
+      }
+    ],
+    "transcription-guidelines": "\u25b6 Data format: XML ALTO\n\u25b6 Number of transcribed lines: 153\n\u25b6 author/creator/curator of the dataset: Enki Baptiste and Ephrem Aboud Ishac \n\u25b6 Segmentation tools, HTR engine and interface: OpenITI model (https://github.com/OpenITI/acdc_results/blob/main/models/gen2-print-n7m5-union-ft_best.mlmodel); eScriptorium; Kraken\n\u25b6 Language of the corpus, Date: Arabic, end of the 16th century\n\u25b6 Type, support of documents, script: paper; mashriqi naskh \n\u25b6 Transcription method: diplomatic transcription respecting the tanwin, the shadda and the diacritic marks.\n\u25b6 Theme, collection, object of the dataset: theology; Maktabat al-S\u0101lim\u012b, Bidiyya, Oman, ms. AS 250 4v-5f (https://elibrary.mara.gov.om/en/omani-library/imam-nour-al-din-al-salmi-s-library/book/?id=324#book/7); St Mark Monastery, Jerusalem, SMMJ 00264 2v-5r",
+    "_pid": "24b1b7a85"
+  },
+  "fbe9216af": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
+    "url": "https://doi.org/10.5281/zenodo.3643393",
+    "authors": [
+      {
+        "name": "Gille Levenson",
+        "surname": "Matthias",
+        "orcid": "0000-0001-9488-5986",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The data set corresponds to 60 pages printed in 1494 by Estanislao Polono and Meinardo Ungut in Seville. These pages are taken from the Regimiento de los Pr\u00edn\u00e7ipes (also known as 'Glosa castellana al Regimiento de pr\u00edn\u00e7ipes'), and the exemplar used is the\n INC/901 of the Biblioteca Nacional de Espa\u00f1a. The type used for this incunabulum is 97G (Mart\u00edn Abad and Moyano Andr\u00e9s, Estanislao Polono, 2002, p. 61). This type was used between 1494 and 1500. For other incunabula produced in this period, see op. cit, p.112-121.",
+    "language": [
+      "spa"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notBefore": "1494",
+      "notAfter": "1500"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "format": "Alto-XML",
+    "sources": [
+      {
+        "reference": "Matthias Gille Levenson. (2022). Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500 (Version v5) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7006981",
+        "link": ""
+      }
+    ],
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 4836
+      }
+    ],
+    "transcription-guidelines": "Transcription diplomatique, sans normalisation, sans r\u00e9solution d'abr\u00e9viations ni corrections. ",
+    "automatically-aligned": false,
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n  url = {https://zenodo.org/record/3643393},\n  author = {Levenson, Matthias Gille},\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial 4.0 International}\n}\n",
+    "_pid": "fbe9216af"
   },
   "7dcc35e88": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
