@@ -753,13 +753,6 @@
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
   production-software: Transkribus
   automatically-aligned: false
-  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
-    \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
-    \ David and Dängeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
-    \ Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten\
-    \ Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X},\n\
-    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
-    \ Non Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)
   url: https://doi.org/10.5281/zenodo.5179361
@@ -1129,6 +1122,76 @@
     \ Ground Truth for Historical Commentaries}\n}\n"
   _apa: "Matteo, Najem-Meyer S., Amaya C. GT4HistCommentLayout: Layout Ground Truth\
     \ for Historical Commentaries (version 1.0). DOI: 10.5281/zenodo.7271729\n"
+- authors:
+  - name: Alexandre
+    orcid: 0009-0007-4781-3294
+    roles:
+    - aligner
+    - quality-control
+    surname: Matos
+  - name: Rui
+    orcid: 0000-0001-5767-1583
+    roles:
+    - transcriber
+    surname: Neves
+  - name: Gonçalo
+    roles:
+    - transcriber
+    surname: Monteiro
+  - name: Catarina
+    roles:
+    - transcriber
+    surname: Coelho
+  - name: Pedro
+    orcid: 0009-0004-9005-6688
+    roles:
+    - aligner
+    surname: Bastos
+  automatically-aligned: false
+  description: >-
+    This dataset was designed for training machine learning models in the context
+    of the [iForal project](https://iforal.hypotheses.org/), which focuses on
+    transcribing medieval Portuguese texts, specifically forais (charters). It
+    includes images of medieval manuscripts, along with corresponding line-level
+    transcription labels, to facilitate the development of models capable of
+    recognizing and transcribing historical handwriting.
+
+    The dataset is ideal for OCR/HTR tasks and segmentation tasks within the
+    domain of medieval document transcription. It serves as a critical resource
+    for advancing automated transcription tools for medieval texts, making
+    historical archives more accessible.
+  format: Page-XML
+  hands:
+    count: unknown
+    precision: exact
+  institutions: []
+  language:
+  - lat
+  - por
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: iForal
+  project-website: https://iforal.hypotheses.org/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1491'
+    notBefore: '1217'
+  title: iForal-Dataset
+  url: https://github.com/Arch-W/iForal-Dataset
+  volume:
+  - count: 776873
+    metric: characters
+  - count: 180
+    metric: files
+  - count: 8009
+    metric: lines
+  - count: 183
+    metric: regions
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Fabliaux
   url: https://github.com/CIHAM-HTR/Fabliaux
