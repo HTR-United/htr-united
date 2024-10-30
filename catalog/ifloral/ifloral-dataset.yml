@@ -1,0 +1,70 @@
+authors:
+- name: Alexandre
+  orcid: 0009-0007-4781-3294
+  roles:
+  - aligner
+  - quality-control
+  surname: Matos
+- name: Rui
+  orcid: 0000-0001-5767-1583
+  roles:
+  - transcriber
+  surname: Neves
+- name: Gonçalo
+  roles:
+  - transcriber
+  surname: Monteiro
+- name: Catarina
+  roles:
+  - transcriber
+  surname: Coelho
+- name: Pedro
+  orcid: 0009-0004-9005-6688
+  roles:
+  - aligner
+  surname: Bastos
+automatically-aligned: false
+description: >-
+  This dataset was designed for training machine learning models in the context
+  of the [iForal project](https://iforal.hypotheses.org/), which focuses on
+  transcribing medieval Portuguese texts, specifically forais (charters). It
+  includes images of medieval manuscripts, along with corresponding line-level
+  transcription labels, to facilitate the development of models capable of
+  recognizing and transcribing historical handwriting.
+
+  The dataset is ideal for OCR/HTR tasks and segmentation tasks within the
+  domain of medieval document transcription. It serves as a critical resource
+  for advancing automated transcription tools for medieval texts, making
+  historical archives more accessible.
+format: Page-XML
+hands:
+  count: unknown
+  precision: exact
+institutions: []
+language:
+- lat
+- por
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: iForal
+project-website: https://iforal.hypotheses.org/
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1491'
+  notBefore: '1217'
+title: iForal-Dataset
+url: https://github.com/Arch-W/iForal-Dataset
+volume:
+- count: 776873
+  metric: characters
+- count: 180
+  metric: files
+- count: 8009
+  metric: lines
+- count: 183
+  metric: regions
