@@ -753,6 +753,13 @@
   transcription-guidelines: 'See: http://gams.uni-graz.at/o:ufbas.1563'
   production-software: Transkribus
   automatically-aligned: false
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n\
+    \  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch,\
+    \ David and Dängeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground\
+    \ Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten\
+    \ Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X},\n\
+    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution\
+    \ Non Commercial Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)
   url: https://doi.org/10.5281/zenodo.5179361

@@ -860,6 +860,7 @@
     "transcription-guidelines": "See: http://gams.uni-graz.at/o:ufbas.1563",
     "production-software": "Transkribus",
     "automatically-aligned": false,
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.5153263,\n  doi = {10.5281/ZENODO.5153263},\n  url = {https://zenodo.org/record/5153263},\n  author = {Hodel, Tobias and Schoch, David and D\u00e4ngeli, Peter},\n  keywords = {Handwritten Text Recognition, Ground Truth, Early Modern German Kurrent},\n  language = {de},\n  title = {Handwritten Text Recognition Ground Truth Set: StABS Ratsb\u00fccher O10, Urfehdenbuch X},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
     "_pid": "7dcc35e88"
   },
   "782b1e7da": {
