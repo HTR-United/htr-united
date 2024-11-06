@@ -1,0 +1,83 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: The Sloane Lab HTR Model
+url: https://github.com/sloanelab-org/HTR-Model
+authors:
+ - name: Marco
+   surname: Humbel
+   orcid: 0000-0003-1861-162X
+   roles:
+     - aligner
+ - name: 'Andreas '
+   surname: Vlachidis
+   roles:
+     - project-manager
+ - name: 'Julianne '
+   surname: Nyhan
+   roles:
+     - project-manager
+ - name: 'The British Museum '
+   surname: ''
+   roles:
+     - digitization
+institutions:
+ - name: AEL Data Service
+   roles:
+     - transcriber
+description: >
+ This repository contains Handwritten Text Recognition training data (layout
+ segmentation and transcriptions ) for the Sloane Lab HTR model. The HTR model
+ is trained on the handwriting of Hans Sloane (1660-1753). 
+
+
+ Funding: 
+
+ Enlightenment Architectures: Leverhulme Trust Project Grant 2016-21
+
+ The Sloane Lab: Towards a National Collection – AHRC AH/W003457/1
+project-name: 'The Sloane Lab: Looking back to build future shared collections'
+project-website: https://sloanelab.org/
+language:
+ - eng
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1680'
+ notAfter: '1750'
+hands:
+ count: less-than-11
+ precision: estimated
+license:
+ name: CC BY-NC-SA 4.0
+ url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+format: Alto-XML
+sources:
+ - reference: >-
+     Sloan, K., Ortolja-Baird, A., Nyhan, J., Pickering, V., & Fleming, M.
+     (Eds.). (2019). Sir Hans Sloane’s Miscellanea which comprises his
+     catalogues of Miscellanies, Antiquities, Seals, Pictures, Mathematical
+     Instruments, Agate Handles and Agate Cups, Bottles, Spoons (Digital
+     Edition). 
+   link: >-
+     https://enlightenmentarchitectures.reconstructingsloane.org/cataloguemiscellanies/index.html
+volume:
+ - metric: pages
+   count: 196
+citation-file-link: https://github.com/sloanelab-org/HTR-Model/blob/main/Citation_SL_HTR_Model.cff
+transcription-guidelines: >-
+  Transcription rules can be found alongside the dataset. They include the
+  following rules:
+
+  - Exclusion of overwritten text from training data
+
+  - Exclusion of text not identified by the automated layout recognition
+
+  - Exclusion of faded text
+
+  - Inserted words are treated as separate text lines
+
+  - Exclusion of textual features such as dotted lines
+
+  - Base line separation for text written apart
