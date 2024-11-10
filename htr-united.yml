@@ -9479,8 +9479,8 @@
   characters:
     members:
     - e
-    - s
     - u
+    - s
     - i
     - a
     - t
@@ -9492,76 +9492,89 @@
     - d
     - p
     - m
-    - /
     - .
+    - ſ
     - q
+    - /
     - f
-    - ⁊
-    - ̃
     - y
     - g
+    - ̃
     - h
+    - ','
     - z
     - b
+    - ⁊
     - ¬
     - x
+    - '&'
     - I
     - ':'
-    - C
+    - v
     - E
+    - C
     - P
+    - ’
     - '1'
-    - ¶
-    - L
     - D
+    - L
     - S
+    - ̀
     - '2'
+    - ¶
+    - ́
     - A
-    - ꝰ
     - M
     - R
-    - ͥ
     - '3'
+    - ꝰ
     - N
     - '?'
-    - '4'
-    - Q
+    - ͥ
+    - "'"
     - T
+    - Q
+    - '4'
     - '6'
-    - ͬ
     - '7'
+    - '0'
     - H
     - '8'
     - '5'
-    - '0'
     - '9'
-    - U
     - B
     - G
+    - ͬ
     - O
     - F
+    - U
+    - ◊
     - )
     - (
+    - V
+    - œ
     - ꝑ
+    - Z
     - ꝓ
-    - v
     - J
     - '-'
+    - ß
+    - K
     - ꝫ
+    - j
     - ł
     - ꝯ
-    - Z
+    - ̧
     - k
-    - K
-    - ᗅ
-    - ð
     - ꝗ
+    - ᗅ
+    - ̂
+    - ;
+    - ð
     - ̈
-    - ◊
-    - ','
-    - V
+    - X
     - ᑕ
-    - j
+    - '*'
     mode: NFD
   citation-file-link: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH/blob/main/CITATION.cff
   description: >-
@@ -9595,13 +9608,13 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH
   volume:
-  - count: 205523
+  - count: 311547
     metric: characters
-  - count: 144
+  - count: 232
     metric: files
-  - count: 4765
+  - count: 6853
     metric: lines
-  - count: 485
+  - count: 751
     metric: regions
 - authors:
   - name: Sonia
