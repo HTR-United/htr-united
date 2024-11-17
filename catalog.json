@@ -12064,19 +12064,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 1709856,
+        "count": 1718361,
         "metric": "characters"
       },
       {
-        "count": 1833,
+        "count": 1835,
         "metric": "files"
       },
       {
-        "count": 64290,
+        "count": 64388,
         "metric": "lines"
       },
       {
-        "count": 8537,
+        "count": 8546,
         "metric": "regions"
       }
     ],
