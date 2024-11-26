@@ -1,0 +1,169 @@
+authors:
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  - support
+  surname: Chagué
+- name: Julie
+  roles:
+  - transcriber
+  - quality-control
+  surname: Cissé
+- name: Radia
+  roles:
+  - transcriber
+  - quality-control
+  surname: Kichou
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - a
+  - s
+  - r
+  - n
+  - t
+  - i
+  - u
+  - l
+  - o
+  - d
+  - p
+  - c
+  - m
+  - ́
+  - '-'
+  - "'"
+  - v
+  - ','
+  - ̀
+  - f
+  - b
+  - q
+  - g
+  - h
+  - .
+  - A
+  - x
+  - j
+  - P
+  - L
+  - '1'
+  - E
+  - ̂
+  - M
+  - '2'
+  - ^
+  - y
+  - S
+  - C
+  - D
+  - ̧
+  - J
+  - T
+  - z
+  - R
+  - I
+  - G
+  - '9'
+  - F
+  - '"'
+  - '?'
+  - ;
+  - '!'
+  - N
+  - '4'
+  - '0'
+  - U
+  - '5'
+  - B
+  - (
+  - )
+  - '3'
+  - '8'
+  - '6'
+  - '7'
+  - '['
+  - ']'
+  - H
+  - Q
+  - k
+  - '='
+  - ':'
+  - ×
+  - Y
+  - ⟦
+  - ⟧
+  - O
+  mode: NFD
+citation-file-link: https://github.com/alix-tz/dataset-celestine-doniau-danest/CITATION.cff
+description: >-
+  Jeu de vérités de terrain pour la transcription automatique produit avec
+  eScriptorium dans le cadre du cours HNU2000 à l’Université de Montréal au
+  trimestre d'automne 2024. Le jeu de données contient 5 pages tirées
+  aléatoirement des numérisation du "Journal de Célestine Doniau-Danest sur les
+  débuts de la Guerre 1914-1918" mis en ligne par les Archives départementales
+  de la Somme. 
+
+
+  *Ground Truth dataset for automatic text recognition created with eScriptorium
+  during the HNU 2000 course at the Université de Montréal during the Fall 2024
+  semester. The dataset contains 5 pages taken randomly from the digitization of
+  the "Journal de Célestine Doniau-Danest sur les débuts de la Guerre 1914-1918"
+  (Diary of Célestine Doniau-Danest on the beginning of the 1914-1918 war),
+  published by the departmental archives of Somme.*
+format: Alto-XML
+hands:
+  count: '1'
+  precision: exact
+institutions: []
+language:
+- fra
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: HNU2000@UdeM
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+sources:
+- link: https://archives.somme.fr/ark:/58483/tjrd8pq42716
+  reference: ''
+time:
+  notAfter: '1915'
+  notBefore: '1914'
+title: GT Celestine Doniau-Danest
+transcription-guidelines: >-
+  De manière générale, les règles de transcription suivies sont immitatives. 
+
+
+  - Mots illisibles: durant la phase de transcription, les mots illisibles ont
+  été transcrits par \[???\]. Ils ont ensuite été résolus collectivement.
+
+  - Décoration du texte: les décorations comme le soulignage, etc, n'ont pas
+  fait l'objet d'une transcription distincte du reste du texte.
+
+  - Correction et normalisation: les fautes d'orthographes ont été reproduites
+  telles que dans la source, les espacements sont en revanche normalisés selon
+  l'usage moderne.
+
+  - Ponctuation: 
+      - pour la transcription des points (.) et des tirets (-), on a respecté le tracé
+  dans la source plutôt que l'usage attendu car le tracé de ces deux signes est très
+  distinct. 
+      - les signes de ponctuation double (:;?!) ne sont pas précédé d'un espace.
+url: https://github.com/alix-tz/dataset-celestine-doniau-danest
+volume:
+- count: 8024
+  metric: characters
+- count: 4
+  metric: files
+- count: 144
+  metric: lines
+- count: 8
+  metric: regions
