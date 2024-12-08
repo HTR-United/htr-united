@@ -14304,7 +14304,7 @@
     ],
     "production-software": "Transkribus",
     "automatically-aligned": false,
-    "_bibtex": "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Str\u00f6bel and\n                  Simon Clematide},\n  title        = {{Ground truth for Neue Z\u00fcrcher Zeitung black letter \n                   period}},\n  month        = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          = {https://doi.org/10.5281/zenodo.3333627}\n}",
+    "_bibtex": "@dataset{phillip_strobel_2019_3333627,\n  author       = {Phillip Str\u00f6bel and\n                  Simon Clematide},\n  title        = {Ground truth for Neue Z\u00fcrcher Zeitung black letter\n                   period\n                  },\n  month        = jul,\n  year         = 2019,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.3333627},\n  url          = {https://doi.org/10.5281/zenodo.3333627}\n}",
     "_pid": "1dd38d4a3"
   },
   "d136cb2a7": {
@@ -14374,7 +14374,7 @@
     ],
     "production-software": "Transkribus",
     "automatically-aligned": false,
-    "_bibtex": "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n                  Phillip Str\u00f6bel},\n  title        = {{bullinger-digital/gwalther-handwriting-ground- \n                   truth: Initial release}},\n  month        = may,\n  year         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n}",
+    "_bibtex": "@dataset{peter_stotz_2021_4780947,\n  author       = {Peter Stotz and\n                  Phillip Str\u00f6bel},\n  title        = {bullinger-digital/gwalther-handwriting-ground-\n                   truth: Initial release\n                  },\n  month        = may,\n  year         = 2021,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.4780947},\n  url          = {https://doi.org/10.5281/zenodo.4780947}\n}",
     "_pid": "d136cb2a7"
   },
   "9bb25da33": {
@@ -14549,7 +14549,7 @@
     ],
     "transcription-guidelines": "The text is transcribed as in the image (no correction of mispelling, no resolution of abbreviation).\nSince the lines are extracted from table rows, we defined 4 special characters to describe the structure of the text:\n    \u00a4 : indicates an empty cell\n    / : indicates the separation into columns\n    ? : indicates that the content of the cell following this symbol is written above the regular baseline\n    ! : indicates that the content of the cell following this symbol is written below the regular baseline\n",
     "automatically-aligned": false,
-    "_bibtex": "@dataset{constum_2022_6581158,\n  author       = {CONSTUM, Thomas and\n                  KEMPF, Nicolas and\n                  PAQUET, Thierry and\n                  TRANOUEZ, Pierrick and\n                  CHATELAIN, Cl\u00e9ment and\n                  BREE, Sandra and\n                  MERVEILLE, Fran\u00e7ois},\n  title        = {{POPP Datasets : Datasets for handwriting \n                   recognition from French population census}},\n  month        = may,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n}",
+    "_bibtex": "@dataset{constum_2022_6581158,\n  author       = {CONSTUM, Thomas and\n                  KEMPF, Nicolas and\n                  PAQUET, Thierry and\n                  TRANOUEZ, Pierrick and\n                  CHATELAIN, Cl\u00e9ment and\n                  BREE, Sandra and\n                  MERVEILLE, Fran\u00e7ois},\n  title        = {POPP Datasets : Datasets for handwriting\n                   recognition from French population census\n                  },\n  month        = may,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version      = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          = {https://doi.org/10.5281/zenodo.6581158}\n}",
     "_pid": "3980a7dcd"
   },
   "32f975946": {
@@ -14665,7 +14665,7 @@
     ],
     "transcription-guidelines": "Abbreviations resolved, but no normalization and no correcting of mispelling. No transcription of initials and interlinear script.",
     "automatically-aligned": false,
-    "_bibtex": "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n                  Sweeney and\n                  Stitts and\n                  Audebrand and\n                  D'Amico and\n                  Geelhaar and\n                  Hofmann and\n                  Gnasso},\n  title        = {{Wien \u00d6NB Cod. 2160 f. 164-184 Ground Truth from \n                   HTR Winter School 2022}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n}",
+    "_bibtex": "@dataset{attwood_2022_7467027,\n  author       = {Attwood and\n                  Sweeney and\n                  Stitts and\n                  Audebrand and\n                  D'Amico and\n                  Geelhaar and\n                  Hofmann and\n                  Gnasso},\n  title        = {Wien \u00d6NB Cod. 2160 f. 164-184 Ground Truth from\n                   HTR Winter School 2022\n                  },\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.7467027},\n  url          = {https://doi.org/10.5281/zenodo.7467027}\n}",
     "_pid": "32f975946"
   },
   "43573de7e": {
@@ -14785,7 +14785,7 @@
     ],
     "transcription-guidelines": "Transliteration. Differentiates long and short \"s\". Abbreviations tagged and expanded. No misspelling corrections.",
     "automatically-aligned": false,
-    "_bibtex": "@dataset{michalcova_2022_7467034,\n  author       = {Michalcov\u00e1, Anna and\n                  Bazelides, Kamil and\n                  Haji\u010d, Jan and\n                  P\u011bnkavov\u00e1, Eli\u0161ka and\n                  Maniakov\u00e1, Laura and\n                  Kreisingerov\u00e1, Hana and\n                  Filipov\u00e1, Jitka and\n                  Chi-hung Lu and\n                  Dvo\u0159\u00e1kov\u00e1, Martina},\n  title        = {{Pade\u0159ov-Bible-handwriting-ground-truth: Initial \n                   release}},\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          = {https://doi.org/10.5281/zenodo.7467034}\n}",
+    "_bibtex": "@dataset{michalcova_2022_7467034,\n  author       = {Michalcov\u00e1, Anna and\n                  Bazelides, Kamil and\n                  Haji\u010d, Jan and\n                  P\u011bnkavov\u00e1, Eli\u0161ka and\n                  Maniakov\u00e1, Laura and\n                  Kreisingerov\u00e1, Hana and\n                  Filipov\u00e1, Jitka and\n                  Chi-hung Lu and\n                  Dvo\u0159\u00e1kov\u00e1, Martina},\n  title        = {Pade\u0159ov-Bible-handwriting-ground-truth: Initial\n                   release\n                  },\n  month        = dec,\n  year         = 2022,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.7467034},\n  url          = {https://doi.org/10.5281/zenodo.7467034}\n}",
     "_pid": "43573de7e"
   },
   "96b246dfa": {
@@ -14857,7 +14857,7 @@
         "count": 24105
       }
     ],
-    "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {{The Belfort dataset: Handwritten Text Recognition \n                   from Crowdsourced Annotations}},\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668}\n}",
+    "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {The Belfort dataset: Handwritten Text Recognition\n                   from Crowdsourced Annotations\n                  },\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668}\n}",
     "_pid": "96b246dfa"
   },
   "fc63dcc30": {
