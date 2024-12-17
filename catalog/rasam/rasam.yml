@@ -3,22 +3,25 @@ title: RASAM
 url: https://github.com/calfa-co/rasam-dataset
 project-website: https://calfa.fr/blog/26
 authors:
-- name: "Vidal-Gor\xE8ne"
+- name: "Vidal-Gorène"
   surname: Chahan
+  orcid: 0000-0003-1567-6508
   roles:
   - project-manager
 - name: Lucas
-  surname: "No\xEBmie"
+  surname: "Noémie"
+  orcid: 0000-0003-2236-6778
   roles:
   - project-manager
   - quality-control
 - name: Salah
-  surname: "Cl\xE9ment"
+  surname: "Clément"
+  orcid: 0000-0002-7846-4054
   roles:
   - transcriber
   - quality-control
 - name: Decours-Perez
-  surname: "Ali\xE9nor"
+  surname: "Aliénor"
   roles:
   - support
 - name: Dupin
@@ -33,9 +36,7 @@ description: 'The Dataset is made up of 300 images, with their related ground tr
   main text. This dataset is the result of a collaborative transcription. All the
   participants are credited on the official deposit. With the support of the French
   Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East
-  and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
-
-  '
+  and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.'
 language:
 - ara
 script:
