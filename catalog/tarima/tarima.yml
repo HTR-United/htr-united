@@ -7,10 +7,19 @@ authors:
     orcid: 0000-0002-5035-4283
     roles:
       - project-manager
+  - name: Chahan
+    surname: Vidal-Gorène
+    orcid: 0000-0003-1567-6508
+    roles:
+      - project-manager
 institutions:
   - name: BULAC
     roles:
       - project-manager
+  - name: Calfa
+    roles:
+      - project-manager
+      - transcriber      
 description: >-
   The dataset has been collated within the frame of the TariMa project (Tarih
   al-Maghrib. Writing History in the Maghreb in the modern and contemporary
