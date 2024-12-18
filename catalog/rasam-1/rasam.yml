@@ -28,7 +28,11 @@ authors:
   surname: Boris
   roles:
   - support
-institutions: ["BULAC", "Calfa", "DISTAM", "GIS MOMM"]
+institutions:
+  - name: BULAC
+  - name: Calfa
+  - name: DISTAM
+  - name: GIS MOMM
 description: 'The Dataset is made up of 300 images, with their related ground truth
   stored in a XML file (pageXML format). Images come from three manuscripts selected
   among the collections of the BULAC Library (Paris). It covers a representative part

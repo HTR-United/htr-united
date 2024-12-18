@@ -30,7 +30,11 @@ authors:
     - project-manager
     - quality-control
     - transcriber
-institutions: ["BULAC", "Calfa", "DISTAM", "GIS MOMM"]
+institutions:
+  - name: BULAC
+  - name: Calfa
+  - name: DISTAM
+  - name: GIS MOMM
 description: 'The Dataset is made up of 250 images, with their related ground truth
   stored in a XML file (pageXML format). Images come from fifteen manuscripts selected
   among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends RASAM 1 by covering a very wide variety of hands, text density, and cursiveness. This dataset is the result of a collaborative transcription. All the
