@@ -1,0 +1,72 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: HTR Winter School 2024 - Medieval Czech - Prague Bible (1488)
+url: https://github.com/HTR-School-Vienna/2024--medieval-czech
+authors:
+  - name: Martin
+    surname: Plechatý
+    orcid: 0009-0000-3305-2075
+    roles:
+      - transcriber
+  - name: Daniel
+    surname: Katscher
+    orcid: 0009-0008-3475-2522
+    roles:
+      - transcriber
+  - name: Václav
+    surname: Steiner
+    orcid: 0009-0004-8336-9846
+    roles:
+      - transcriber
+  - name: Jan
+    surname: Švarc
+    orcid: 0009-0005-1274-0545
+    roles:
+      - transcriber
+  - name: 'Martina '
+    surname: Spěváčková
+    orcid: 0000-0002-9357-4614
+    roles:
+      - transcriber
+  - name: Jan
+    surname: Škvrňák
+    orcid: 0000-0003-0985-4144
+  - name: Marie
+    surname: Hedvíková
+    orcid: 0009-0008-3693-6288
+    roles:
+      - transcriber
+  - name: Anna
+    surname: Michalcová
+    orcid: 0000-0003-4760-6950
+    roles:
+      - project-manager
+      - quality-control
+institutions: []
+description: >-
+  The Prague Bible (1488, Vienna, Österreichische Nationalbibliothek, shelfmark
+  Ink 13.C.5, available from: http://data.onb.ac.at/rec/AC07537625, Old Czech)
+
+  Print: Old Czech, Bastarda, end of the 15th C.
+language:
+  - ces
+production-software: Transkribus
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-typed
+time:
+  notBefore: '1488'
+  notAfter: '1488'
+hands:
+  count: '1'
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+citation-file-link: >-
+  https://github.com/HTR-School-Vienna/2024--medieval-czech/blob/38a20c857757150d8e2da0e8c865fbf7d026cdee/CITATION.cff
+transcription-guidelines: >-
+  The transcription rules were based on semi-diplomatic transcription rules set
+  by Pero OCR and Směrnice pro vydávání starších českých textů by Jiří Daňhelka
+  (https://vokabular.ujc.cas.cz/moduly/edicnipoznamka.aspx?id=DanhelkaSmernice).

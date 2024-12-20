@@ -1,0 +1,156 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: HTR Winter School 2024/2025 - Late Medieval Latin, ONB 4135; ONB 4680
+url: https://github.com/HTR-School-Vienna/2024--late-medieval-latin
+authors:
+  - name: Jan
+    surname: Maliszewski
+    orcid: 0000-0002-3798-933X
+    roles: []
+  - name: Jakub
+    surname: Fiala
+    orcid: 0009-0009-9152-4742
+    roles: []
+  - name: Courtney
+    surname: Van de Mosselaer
+    orcid: 0000-0003-4536-4900
+    roles: []
+  - name: Štefan
+    surname: Pacola
+    orcid: 0009-0000-6176-8724
+    roles: []
+  - name: Annamária
+    surname: Kovács
+    orcid: 0009-0008-2990-988X
+    roles: []
+  - name: Michal
+    surname: Ťapák
+    orcid: 0009-0006-9945-250X
+    roles: []
+  - name: Cerys
+    surname: Warwick
+    orcid: 0009-0005-9949-1683
+    roles: []
+  - name: Jan
+    surname: Odstrcilik
+    orcid: 0000-0001-9104-9827
+    roles: []
+  - name: Miroslav
+    surname: Kotrha
+    orcid: 0009-0006-6353-9195
+    roles: []
+  - name: Lorenzo
+    surname: Livorsi
+    orcid: 0000-0003-0859-5072
+    roles: []
+  - name: Eva
+    surname: Rutšeková
+    orcid: 0009-0006-6141-9544
+    roles: []
+  - name: Davide
+    surname: Obili
+    orcid: 0009-0006-7944-7623
+    roles: []
+  - name: Dorota
+    surname: Labašová
+    orcid: 0009-0009-2081-4021
+    roles: []
+  - name: Giorgio
+    surname: Di Michino
+    orcid: 0009-0002-7535-8149
+    roles: []
+  - name: Zuzana
+    surname: Čermáková Lukšová
+    orcid: 0000-0001-5450-6785
+    roles: []
+  - name: J.P.
+    surname: Osmond
+    orcid:
+    roles: []
+  - name: Abigail
+    surname: Provan
+    orcid:
+    roles: []
+  - name: Alexandre
+    surname: Parent
+    orcid:
+    roles: []
+  - name: Ballo
+    surname: Harald
+    orcid:
+    roles: []
+  - name: Claudia
+    surname: Meneghetti
+    orcid:
+    roles: []
+  - name: Emmarae
+    surname: Stein
+    orcid:
+    roles: []
+  - name: Erika
+    surname: Dell'Aquila
+    orcid:
+    roles: []
+  - name: Ignacio
+    surname: Arias Philippi
+    orcid:
+    roles: []
+  - name: Katharina
+    surname: Strika
+    orcid: 0009-0003-9354-9261
+    roles: []
+  - name: Nico
+    surname: Faltin
+    orcid:
+    roles: []
+  - name: Peter Buch
+    surname: Hvarregaard
+    orcid: 0009-0007-0910-6775
+    roles: []
+  - name: Viktor
+    surname: Tuček
+    orcid:
+    roles: []
+institutions: []
+description: >-
+ Transcriptions from codd. 4680 and 4135, Wien, Österreichische
+ Nationalbibliothek (ÖNB). Both are saec. XV, Latin.
+language:
+ - lat
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1388'
+ notAfter: '1500'
+hands:
+ count: more-than-10
+ precision: exact
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+ - metric: lines
+   count: 5634
+citation-file-link: >-
+ https://github.com/HTR-School-Vienna/2024--late-medieval-latin/blob/b0835f4cd3205d71011afdedb147c0781fdccca0/CITATION.cff
+transcription-guidelines: >-
+ The guidelines followed are those prescribed by CATMuS (Consistent Approaches
+ for Transcribing Manuscripts) - see https://catmus-guidelines.github.io/.
+ [Ariane Pinche, Thibault Clérice, Alix Chagué, Jean-Baptiste Camps,
+ Malamatenia Vlachou- Efstathiou, et al., CATMuS-Medieval: Consistent
+ Approaches to Transcribing ManuScripts: A generalized set of guidelines and
+ models for Latin scripts from Middle Ages (8th–16th century). 2023.
+ hal-04346939]
+
+
+ Due to the level of complexity in the manuscripts studied, significant
+ interpretation of the guidelines was required. It was necessary to agree on
+ general conventions in order to produce a consistent approach in transcribing;
+ nevertheless, some minor variation will be found based on individual
+ interpretation.
+
+
+ Source of images: Austrian National Library
