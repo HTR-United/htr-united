@@ -36,6 +36,13 @@ license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 format: Page-XML
+sources:
+  - reference: >-
+      Yatsyk, S. (2024). DISTINGUO : Ground truth for Handwritten Text
+      Recognition (HTR) on Collections of Distinctions (late 13th to late 15th
+      century) (Version 1) [Data set]. NAKALA - https://nakala.fr (Huma-Num -
+      CNRS).
+    link: https://doi.org/10.34847/NKL.48AD8B8D
 volume:
   - metric: lines
     count: 15190
