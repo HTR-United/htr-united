@@ -1,0 +1,45 @@
+
+
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: >-
+  DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections
+  of Distinctions (late 13th to late 15th century) 
+url: https://nakala.fr/10.34847/nkl.48ad8b8d
+authors:
+  - name: Svetlana
+    surname: Yatsyk
+    orcid: 0000-0001-5356-7746
+    roles:
+      - transcriber
+      - aligner
+  - name: Marjorie
+    surname: Burghart
+    orcid: 0000-0001-7754-4389
+institutions: []
+description: >-
+  This dataset contains normalized transcriptions of collections of
+  distinctions, specifically "Summa de abstinentia" by Nicolas of Biard and
+  "Dictionarium bovis" by Thomas of Pavia. They were prepared as part of the
+  DISTINGUO project, dedicated to the study of distinctiones in medieval Latin
+  preaching and led by Marjorie Burghart in 2019-2024.
+project-website: https://distinguo.huma-num.fr/
+language:
+  - lat
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1250'
+  notAfter: '1499'
+hands:
+  count: 1-per-folder
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: lines
+    count: 15190
