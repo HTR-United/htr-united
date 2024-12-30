@@ -12,9 +12,6 @@ authors:
     roles:
       - transcriber
       - aligner
-  - name: Marjorie
-    surname: Burghart
-    orcid: 0000-0001-7754-4389
 institutions: []
 description: >-
   This dataset contains normalized transcriptions of collections of
@@ -23,8 +20,7 @@ description: >-
   DISTINGUO project, dedicated to the study of distinctiones in medieval Latin
   preaching and led by Marjorie Burghart in 2019-2024.
 project-website: https://distinguo.huma-num.fr/
-language:
-  - lat
+language: []
 production-software: eScriptorium + Kraken
 automatically-aligned: false
 script:
@@ -43,3 +39,10 @@ format: Page-XML
 volume:
   - metric: lines
     count: 15190
+  - metric: lines
+    count: 15190
+  - metric: lines
+    count: 15190
+  - metric: pages
+    count: 318
+
