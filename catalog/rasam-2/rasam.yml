@@ -25,11 +25,11 @@ authors:
   - support
 - name: Antoine
   surname: Perrier
-    orcid: 0000-0002-5035-4283
-    roles:
-    - project-manager
-    - quality-control
-    - transcriber
+  orcid: 0000-0002-5035-4283
+  roles:
+  - project-manager
+  - quality-control
+  - transcriber
 institutions:
   - name: BULAC
   - name: Calfa
