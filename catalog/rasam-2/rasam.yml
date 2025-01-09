@@ -24,7 +24,7 @@ authors:
   roles:
   - support
 - name: Antoine
-    surname: Perrier
+  surname: Perrier
     orcid: 0000-0002-5035-4283
     roles:
     - project-manager
