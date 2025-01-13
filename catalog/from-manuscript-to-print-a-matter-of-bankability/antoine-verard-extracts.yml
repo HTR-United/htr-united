@@ -1,0 +1,45 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Antoine Verard extracts
+url: https://github.com/LaurieHoeben/Verard-corpus
+authors:
+  - name: Laurie
+    surname: Hoeben
+    roles:
+      - transcriber
+      - aligner
+institutions: []
+description: >-
+  Parts of Antoine Vérard’s editions princeps of "Tristan", "Merlin" and "Gyron
+  le Courtoys".
+project-name: 'From Manuscript to Print: a Matter of Bankability?'
+project-website: https://www.universityofgalway.ie/rebpaf/
+language:
+  - frm
+production-software: 'eScriptorium '
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: mainly-typed
+time:
+  notBefore: '1489'
+  notAfter: '1503'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+  name: Etalab OL 2.0
+  url: https://spdx.org/licenses/etalab-2.0.html
+format: Page-XML
+sources:
+  - reference: ''
+    link: https://catalogue.bnf.fr/ark:/12148/cb33631875s
+  - reference: ''
+    link: https://catalogue.bnf.fr/ark:/12148/cb39334880d
+  - reference: ''
+    link: https://catalogue.bnf.fr/ark:/12148/cb334128727
+volume:
+  - metric: lines
+    count: 4710
+transcription-guidelines: >-
+  Ariane Pinche. Guide de transcription pour les manuscrits du Xe au XVe siècle.
+  2022. hal-03697382f
