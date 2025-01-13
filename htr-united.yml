@@ -3661,6 +3661,176 @@
   - count: 535
     metric: regions
   automatically-aligned: false
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Wien ÖNB, Cod. 940, ff. 13r-142v Ground Truth from HTR Winter School 2024
+  url: https://github.com/HTR-School-Vienna/-2024--carolingian-latin.git
+  authors:
+  - name: 'Cinzia '
+    surname: Grifoni
+    orcid: 0000-0002-0560-6031
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  - name: 'Leon '
+    surname: Pürstinger
+    orcid: 0000-0002-7027-1020
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  - name: Fabio
+    surname: Mantegazza
+    orcid: 0009-0003-1254-0952
+    roles:
+    - transcriber
+  - name: 'Elena '
+    surname: 'De Luca '
+    orcid: 0009-0001-0851-4909
+    roles:
+    - transcriber
+  - name: Eddie
+    surname: Meehan
+    orcid: 0000-0003-3138-1048
+    roles:
+    - transcriber
+  - name: 'Daniela '
+    surname: Schulz
+    orcid: 0000-0003-3167-5089
+    roles:
+    - transcriber
+  - name: Till
+    surname: Stüber
+    orcid: 0000-0003-3917-1280
+    roles:
+    - transcriber
+  - name: Elena Alexa
+    surname: Riepl
+    orcid: 0009-0004-3455-341X
+    roles:
+    - transcriber
+  - name: Camilla
+    surname: Bertoletti
+    orcid: 0000-0002-4333-0670
+    roles:
+    - transcriber
+  - name: Kendall M.
+    surname: Bitner
+    orcid: 0000-0002-6238-878X
+    roles:
+    - transcriber
+  - name: Leonardo
+    surname: Napoletano
+    orcid: 0009-0007-3188-0476
+    roles:
+    - transcriber
+  - name: Martina
+    surname: Carandino
+    orcid: 0009-0007-5629-983X
+    roles:
+    - transcriber
+  - name: Silvio Lorenzo
+    surname: Ruberto
+    orcid: 0009-0006-8687-3874
+    roles:
+    - transcriber
+  - name: Nathalie
+    surname: Pfeuffer
+    orcid: 0009-0004-0245-9015
+    roles:
+    - transcriber
+  - name: Luca
+    surname: Abelli
+    orcid: 0009-0000-1748-2729
+    roles:
+    - transcriber
+  - name: 'Anne '
+    surname: Sieberichs
+    orcid: 0009-0005-7983-0844
+    roles:
+    - transcriber
+  - name: Barbora
+    surname: Kulhová
+    orcid: 0009-0006-6233-7268
+    roles:
+    - transcriber
+  - name: Gerda
+    surname: Heydemann
+    orcid: 0000-0002-2584-7190
+    roles:
+    - transcriber
+  - name: Ulrike
+    surname: Steurer
+    orcid: 0009-0001-0398-010X
+    roles:
+    - transcriber
+  - name: William Vernon
+    surname: Weiss III
+    orcid: 0009-0005-6711-922X
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    - digitization
+    - support
+  institutions: []
+  description: >-
+    An anonymous Irish commentary on the Gospel of Matthew (end of the 8th/early
+    9th c.), from a manuscript from Salzburg/Saint Amand possibly under bishop Arn
+    (785-821).
+
+    Files: 2
+
+    Lines: 7835
+
+    Latin, Carolingian Minuscule (9th century)  
+  project-name: HTR Winter School Carolingian Latin 2024
+  language:
+  - lat
+  production-software: Transkribus
+  automatically-aligned: true
+  script:
+  - iso: Latn
+    qualify: Caroline minuscule
+  script-type: only-manuscript
+  time:
+    notBefore: '800'
+    notAfter: '850'
+  hands:
+    count: less-than-11
+    precision: estimated
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  sources:
+  - reference: Wien ÖNB Cod. 940
+    link: https://manuscripta.at/hs_detail.php?ID=10262
+  volume:
+  - metric: lines
+    count: 7835
+  citation-file-link: >-
+    https://github.com/HTR-School-Vienna/-2024--carolingian-latin/blob/e46f03843cb7c52ca565a3df6b3305d7c48fa249/CITATION(2).cff
+  transcription-guidelines: >-
+    we used the transcription guidelines prepared by Tim Geelhaar according to his
+    public model Latin - Carolingian Minuscule on Transkribus
+    (https://readcoop.eu/de/modelle/latin-carolingian-minuscule/). These will be
+    published soon in a forthcoming book: Tim Geelhaar, Tobias Hodel, Jan
+    Odstrcilik, and Michael Schonhardt, “Vademecum of ATR.”
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Grifoni, Cinzia and Mantegazza, Fabio\
+    \ and De Luca, Elena and Meehan, Eddie and Schulz, Daniela  and Stüber, Till \
+    \ and Riepl, Elena Alexa and Bertoletti, Camilla and Bitner, Kendall M. and Napoletano,\
+    \ Leonardo and Carandino, Martina and Ruberto, Silvio Lorenzo and Pfeuffer, Nathalie\
+    \ and Abelli, Luca and Pürstinger, Leon and Sieberichs, Anne and Kulhová, Barbora\
+    \ and Heydemann, Gerda and Steurer, Ulrike},\ntitle = {Citation file HTR Carolingian\
+    \ Latin 2023-2024}\n}\n"
 - authors:
   - name: Emmanuelle
     roles:
