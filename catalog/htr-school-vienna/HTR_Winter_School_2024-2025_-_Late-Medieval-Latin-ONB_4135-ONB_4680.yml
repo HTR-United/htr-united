@@ -64,35 +64,27 @@ authors:
     roles: []
   - name: J.P.
     surname: Osmond
-    orcid:
     roles: []
   - name: Abigail
     surname: Provan
-    orcid:
     roles: []
   - name: Alexandre
     surname: Parent
-    orcid:
     roles: []
   - name: Ballo
     surname: Harald
-    orcid:
     roles: []
   - name: Claudia
     surname: Meneghetti
-    orcid:
     roles: []
   - name: Emmarae
     surname: Stein
-    orcid:
     roles: []
   - name: Erika
     surname: Dell'Aquila
-    orcid:
     roles: []
   - name: Ignacio
     surname: Arias Philippi
-    orcid:
     roles: []
   - name: Katharina
     surname: Strika
@@ -100,7 +92,6 @@ authors:
     roles: []
   - name: Nico
     surname: Faltin
-    orcid:
     roles: []
   - name: Peter Buch
     surname: Hvarregaard
@@ -108,7 +99,6 @@ authors:
     roles: []
   - name: Viktor
     surname: Tuček
-    orcid:
     roles: []
 institutions: []
 description: >-
