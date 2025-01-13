@@ -64,6 +64,9 @@ license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 format: Page-XML
+volume:
+ - metric: files
+   count: 30
 citation-file-link: >-
   https://github.com/HTR-School-Vienna/2024--medieval-czech/blob/38a20c857757150d8e2da0e8c865fbf7d026cdee/CITATION.cff
 transcription-guidelines: >-
