@@ -10009,6 +10009,181 @@
     metric: lines
   - count: 8546
     metric: regions
+- authors:
+  - name: Alix
+    orcid: 0000-0002-0136-4434
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - support
+    surname: Chagué
+  - name: Julie
+    roles:
+    - transcriber
+    - quality-control
+    surname: Cissé
+  - name: Radia
+    roles:
+    - transcriber
+    - quality-control
+    surname: Kichou
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - a
+    - s
+    - r
+    - n
+    - t
+    - i
+    - u
+    - l
+    - o
+    - d
+    - p
+    - c
+    - m
+    - ́
+    - '-'
+    - "'"
+    - v
+    - ','
+    - ̀
+    - f
+    - b
+    - q
+    - g
+    - h
+    - .
+    - A
+    - x
+    - j
+    - P
+    - L
+    - '1'
+    - E
+    - ̂
+    - M
+    - '2'
+    - ^
+    - y
+    - S
+    - C
+    - D
+    - ̧
+    - J
+    - T
+    - z
+    - R
+    - I
+    - G
+    - '9'
+    - F
+    - '"'
+    - '?'
+    - ;
+    - '!'
+    - N
+    - '4'
+    - '0'
+    - U
+    - '5'
+    - B
+    - (
+    - )
+    - '3'
+    - '8'
+    - '6'
+    - '7'
+    - '['
+    - ']'
+    - H
+    - Q
+    - k
+    - '='
+    - ':'
+    - ×
+    - Y
+    - ⟦
+    - ⟧
+    - O
+    mode: NFD
+  citation-file-link: https://github.com/alix-tz/dataset-celestine-doniau-danest/CITATION.cff
+  description: >-
+    Jeu de vérités de terrain pour la transcription automatique produit avec
+    eScriptorium dans le cadre du cours HNU2000 à l’Université de Montréal au
+    trimestre d'automne 2024. Le jeu de données contient des pages tirées
+    aléatoirement des numérisation du "Journal de Célestine Doniau-Danest sur les
+    débuts de la Guerre 1914-1918" mis en ligne par les Archives départementales
+    de la Somme. 
+
+
+    *Ground Truth dataset for automatic text recognition created with eScriptorium
+    during the HNU 2000 course at the Université de Montréal during the Fall 2024
+    semester. The dataset contains pages taken randomly from the digitization of
+    the "Journal de Célestine Doniau-Danest sur les débuts de la Guerre 1914-1918"
+    (Diary of Célestine Doniau-Danest on the beginning of the 1914-1918 war),
+    published by the departmental archives of Somme.*
+  format: Alto-XML
+  hands:
+    count: '1'
+    precision: exact
+  institutions: []
+  language:
+  - fra
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: HNU2000@UdeM
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  sources:
+  - link: https://archives.somme.fr/ark:/58483/tjrd8pq42716
+    reference: ''
+  time:
+    notAfter: '1915'
+    notBefore: '1914'
+  title: GT Celestine Doniau-Danest
+  transcription-guidelines: >-
+    De manière générale, les règles de transcription suivies sont immitatives. 
+
+
+    - Mots illisibles: durant la phase de transcription, les mots illisibles ont
+    été transcrits par \[???\]. Ils ont ensuite été résolus collectivement.
+
+    - Décoration du texte: les décorations comme le soulignage, etc, n'ont pas
+    fait l'objet d'une transcription distincte du reste du texte.
+
+    - Correction et normalisation: les fautes d'orthographes ont été reproduites
+    telles que dans la source, les espacements sont en revanche normalisés selon
+    l'usage moderne.
+
+    - Ponctuation: 
+        - pour la transcription des points (.) et des tirets (-), on a respecté le
+    tracé
+    dans la source plutôt que l'usage attendu car le tracé de ces deux signes est
+    très
+    distinct. 
+        - les signes de ponctuation double (:;?!) ne sont pas précédé d'un espace.
+  url: https://github.com/alix-tz/dataset-celestine-doniau-danest
+  volume:
+  - count: 8024
+    metric: characters
+  - count: 4
+    metric: files
+  - count: 144
+    metric: lines
+  - count: 8
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Chagué, Alix and Cissé, Julie and\
+    \ Kichou, Radia},\ntitle = {GT Celestine Doniau-Danest},\nurl = {https://archives.somme.fr/ark:/58483/tjrd8pq42716}\n\
+    }\n"
+  _apa: "Chagué A., Cissé J., Kichou R. GT Celestine Doniau-Danest URL: https://archives.somme.fr/ark:/58483/tjrd8pq42716\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Moonshines
   url: https://github.com/alix-tz/moonshines
@@ -11661,6 +11836,61 @@
   - metric: files
     count: 918
   automatically-aligned: false
+
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: >-
+    DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections
+    of Distinctions (late 13th to late 15th century) 
+  url: https://nakala.fr/10.34847/nkl.48ad8b8d
+  authors:
+  - name: Svetlana
+    surname: Yatsyk
+    orcid: 0000-0001-5356-7746
+    roles:
+    - transcriber
+    - aligner
+  institutions: []
+  description: >-
+    This dataset contains normalized transcriptions of collections of
+    distinctions, specifically "Summa de abstinentia" by Nicolas of Biard and
+    "Dictionarium bovis" by Thomas of Pavia. They were prepared as part of the
+    DISTINGUO project, dedicated to the study of distinctiones in medieval Latin
+    preaching and led by Marjorie Burghart in 2019-2024.
+  project-website: https://distinguo.huma-num.fr/
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1250'
+    notAfter: '1499'
+  hands:
+    count: 1-per-folder
+    precision: estimated
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Page-XML
+  sources:
+  - reference: >-
+      Yatsyk, S. (2024). DISTINGUO : Ground truth for Handwritten Text
+      Recognition (HTR) on Collections of Distinctions (late 13th to late 15th
+      century) (Version 1) [Data set]. NAKALA - https://nakala.fr (Huma-Num -
+      CNRS).
+    link: https://doi.org/10.34847/NKL.48AD8B8D
+  volume:
+  - metric: lines
+    count: 15190
+  - metric: characters
+    count: 682486
+  - metric: regions
+    count: 1076
+  - metric: pages
+    count: 318
+
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Ground truth for Neue Zürcher Zeitung black letter period
   url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
