@@ -20,7 +20,8 @@ description: >-
   DISTINGUO project, dedicated to the study of distinctiones in medieval Latin
   preaching and led by Marjorie Burghart in 2019-2024.
 project-website: https://distinguo.huma-num.fr/
-language: []
+language:
+ - lat
 production-software: eScriptorium + Kraken
 automatically-aligned: false
 script:
