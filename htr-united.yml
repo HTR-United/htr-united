@@ -5464,8 +5464,8 @@
     - M
     - "'"
     - ꝰ
-    - ́
     - T
+    - ́
     - P
     - O
     - k
@@ -5556,13 +5556,13 @@
     \ pour les manuscrits du Xe au XVe siècle, 2022, ⟨hal-03697382>, en ligne : <https://hal.archives-ouvertes.fr/hal-03697382>."
   url: https://github.com/HTR-United/cremma-medieval
   volume:
-  - count: 612134
+  - count: 612000
     metric: characters
   - count: 279
     metric: files
-  - count: 22913
+  - count: 22848
     metric: lines
-  - count: 1889
+  - count: 1851
     metric: regions
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Pinche, Ariane},\ndoi = {10.5281/zenodo.5235185},\n\
@@ -7452,13 +7452,13 @@
     - ł
     - F
     - N
+    - ́
     - U
     - T
-    - Q
     - ͦ
     - P
+    - Q
     - B
-    - ́
     - ͥ
     - '='
     - ':'
@@ -7513,6 +7513,7 @@
     - ͂
     - β
     - +
+    - ^
     - Z
     mode: NFD
   description: Transcription of samples of Medieval Italian manuscripts
@@ -7539,15 +7540,15 @@
     and Layout Segmentation
   url: https://github.com/HTRomance-Project/medieval-italian
   volume:
-  - count: 84366
+  - count: 84404
     metric: characters
   - count: 60
     metric: files
-  - count: 3086
+  - count: 2945
     metric: lines
   - count: 60
     metric: pages
-  - count: 353
+  - count: 213
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Alba, Rachele and Rubin, Giorgia and\
     \ Boschetti, Federico and Fischer, Franz and Clérice, Thibault and Chagué, Alix},\n\
@@ -7656,8 +7657,8 @@
     - ⟦
     - ⟧
     - "'"
-    - z
     - ᷤ
+    - z
     - B
     - G
     - '4'
@@ -7751,7 +7752,7 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-latin
   volume:
-  - count: 299062
+  - count: 299067
     metric: characters
   - count: 142
     metric: files

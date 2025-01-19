@@ -6803,8 +6803,8 @@
         "M",
         "'",
         "\ua770",
-        "\u0301",
         "T",
+        "\u0301",
         "P",
         "O",
         "k",
@@ -6895,7 +6895,7 @@
     "url": "https://github.com/HTR-United/cremma-medieval",
     "volume": [
       {
-        "count": 612134,
+        "count": 612000,
         "metric": "characters"
       },
       {
@@ -6903,11 +6903,11 @@
         "metric": "files"
       },
       {
-        "count": 22913,
+        "count": 22848,
         "metric": "lines"
       },
       {
-        "count": 1889,
+        "count": 1851,
         "metric": "regions"
       }
     ],
@@ -9366,13 +9366,13 @@
         "\u0142",
         "F",
         "N",
+        "\u0301",
         "U",
         "T",
-        "Q",
         "\u0366",
         "P",
+        "Q",
         "B",
-        "\u0301",
         "\u0365",
         "=",
         ":",
@@ -9427,6 +9427,7 @@
         "\u0342",
         "\u03b2",
         "+",
+        "^",
         "Z"
       ],
       "mode": "NFD"
@@ -9462,7 +9463,7 @@
     "url": "https://github.com/HTRomance-Project/medieval-italian",
     "volume": [
       {
-        "count": 84366,
+        "count": 84404,
         "metric": "characters"
       },
       {
@@ -9470,7 +9471,7 @@
         "metric": "files"
       },
       {
-        "count": 3086,
+        "count": 2945,
         "metric": "lines"
       },
       {
@@ -9478,7 +9479,7 @@
         "metric": "pages"
       },
       {
-        "count": 353,
+        "count": 213,
         "metric": "regions"
       }
     ],
@@ -9602,8 +9603,8 @@
         "\u27e6",
         "\u27e7",
         "'",
-        "z",
         "\u1de4",
+        "z",
         "B",
         "G",
         "4",
@@ -9696,7 +9697,7 @@
     "url": "https://github.com/HTRomance-Project/medieval-latin",
     "volume": [
       {
-        "count": 299062,
+        "count": 299067,
         "metric": "characters"
       },
       {
