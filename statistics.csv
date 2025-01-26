@@ -169,23 +169,23 @@
 167,https://github.com/HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,lines,7701,Page-XML,evenly-mixed
 168,https://github.com/HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,pages,159,Page-XML,evenly-mixed
 169,https://github.com/HTR-United/timeuscorpus,TIMEUS Corpus,1858,1858,regions,586,Page-XML,evenly-mixed
-170,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,300070,Alto-XML,only-manuscript
+170,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,characters,301037,Alto-XML,only-manuscript
 171,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,files,138,Alto-XML,only-manuscript
-172,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,10385,Alto-XML,only-manuscript
-173,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,789,Alto-XML,only-manuscript
-174,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,84404,Alto-XML,only-manuscript
-175,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,60,Alto-XML,only-manuscript
-176,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,2945,Alto-XML,only-manuscript
+172,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,lines,10769,Alto-XML,only-manuscript
+173,https://github.com/HTRomance-Project/medieval-french,"HTRomance, Medieval French corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1200,1499,regions,682,Alto-XML,only-manuscript
+174,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,84694,Alto-XML,only-manuscript
+175,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,61,Alto-XML,only-manuscript
+176,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,2956,Alto-XML,only-manuscript
 177,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,pages,60,Alto-XML,only-manuscript
 178,https://github.com/HTRomance-Project/medieval-italian,"HTRomance, Medieval Italian corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,213,Alto-XML,only-manuscript
-179,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,299067,Alto-XML,only-manuscript
-180,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,142,Alto-XML,only-manuscript
-181,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,8879,Alto-XML,only-manuscript
-182,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,749,Alto-XML,only-manuscript
-183,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,160876,Alto-XML,only-manuscript
+179,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,297334,Alto-XML,only-manuscript
+180,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,143,Alto-XML,only-manuscript
+181,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,9008,Alto-XML,only-manuscript
+182,https://github.com/HTRomance-Project/medieval-latin,"HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,762,Alto-XML,only-manuscript
+183,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,characters,160772,Alto-XML,only-manuscript
 184,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,files,86,Alto-XML,only-manuscript
-185,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,4437,Alto-XML,only-manuscript
-186,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,395,Alto-XML,only-manuscript
+185,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,lines,4504,Alto-XML,only-manuscript
+186,https://github.com/HTRomance-Project/middle-ages-in-spain,"HTRomance, Medieval Spain corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation",1100,1499,regions,397,Alto-XML,only-manuscript
 187,https://github.com/HTRomance-Project/modern-roman-languages,Corpus Modern Roman Languages,1600,1800,characters,114094,Alto-XML,only-manuscript
 188,https://github.com/HTRomance-Project/modern-roman-languages,Corpus Modern Roman Languages,1600,1800,files,168,Alto-XML,only-manuscript
 189,https://github.com/HTRomance-Project/modern-roman-languages,Corpus Modern Roman Languages,1600,1800,lines,3386,Alto-XML,only-manuscript

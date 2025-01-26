@@ -7248,8 +7248,8 @@
     - ͥ
     - C
     - ꝑ
-    - ꝯ
     - L
+    - ꝯ
     - D
     - ͣ
     - A
@@ -7257,7 +7257,6 @@
     - ꝰ
     - k
     - M
-    - ','
     - T
     - P
     - N
@@ -7267,59 +7266,58 @@
     - O
     - ͤ
     - K
-    - ⟦
     - ⟧
-    - ᷤ
+    - ⟦
     - F
     - G
     - B
     - ¶
     - ͦ
-    - ^
+    - ᷤ
+    - ‸
     - w
     - H
     - 
     - ẜ
-    - ł
     - ꝓ
     - '-'
     - ÷
+    - ł
     - '0'
     - '3'
+    - '9'
     - '2'
     - '1'
-    - ̵
-    - '9'
-    - ͭ
-    - ͬ
     - '5'
+    - ̶
+    - ͭ
     - '4'
+    - ͬ
     - ͫ
     - ꝙ
     - ꝭ
-    - '7'
     - '6'
+    - '7'
     - ħ
-    - '&'
     - ⁜
+    - '&'
     - ᷠ
     - /
     - ˣ
     - ͨ
     - Y
     - ꝵ
-    - "'"
     - '8'
     - ͧ
     - W
     - đ
     - ᷝ
-    - 
-    - '*'
+    - ᵒ
     - ́
     - X
     - ̧
     - ᵈ
+    - ᶜ
     mode: NFD
   description: >-
     Ground truth of Old French and Middle French manuscripts. Manuscripts vary in
@@ -7358,13 +7356,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-french
   volume:
-  - count: 300070
+  - count: 301037
     metric: characters
   - count: 138
     metric: files
-  - count: 10385
+  - count: 10769
     metric: lines
-  - count: 789
+  - count: 682
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Leroy, Noé and Pinche, Ariane and\
     \ Camps, Jean-Baptiste and Clérice, Thibault and Chagué, Alix},\ntitle = {HTRomance,\
@@ -7415,26 +7413,24 @@
     - r
     - t
     - u
-    - s
     - c
+    - s
     - d
     - m
     - p
     - g
     - h
-    - f
     - .
+    - f
     - ̃
     - q
     - b
     - ⁊
-    - ','
     - ꝑ
     - E
     - C
     - z
     - x
-    - ̾
     - A
     - I
     - ̧
@@ -7442,6 +7438,7 @@
     - L
     - M
     - ͤ
+    - "'"
     - O
     - S
     - R
@@ -7452,20 +7449,23 @@
     - ł
     - F
     - N
-    - ́
     - U
+    - ̾
     - T
-    - ͦ
     - P
     - Q
+    - ̀
     - B
+    - ':'
     - ͥ
     - '='
-    - ':'
     - ꝯ
     - X
+    - ß
+    - ᵒ
     - ẜ
     - G
+    - ͦ
     - ͣ
     - H
     - '2'
@@ -7474,6 +7474,7 @@
     - ¶
     - '4'
     - ꝓ
+    - ́
     - '3'
     - '5'
     - k
@@ -7481,16 +7482,19 @@
     - '7'
     - '8'
     - /
-    - "'"
     - ε
     - ɨ
     - đ
+    - Z
     - '6'
     - ι
     - ο
     - '0'
+    - Ꝑ
+    -  
     - ̓
     - ν
+    - ς
     - ꝗ
     - ̈
     - μ
@@ -7500,9 +7504,12 @@
     - ω
     - π
     - σ
+    - ‸
     - ͫ
     - Y
     - '-'
+    - (
+    - )
     - θ
     - γ
     - η
@@ -7512,9 +7519,10 @@
     - ̔
     - ͂
     - β
+    - '~'
     - +
-    - ^
-    - Z
+    - ɂ
+    - ᵉ
     mode: NFD
   description: Transcription of samples of Medieval Italian manuscripts
   format: Alto-XML
@@ -7540,11 +7548,11 @@
     and Layout Segmentation
   url: https://github.com/HTRomance-Project/medieval-italian
   volume:
-  - count: 84404
+  - count: 84694
     metric: characters
-  - count: 60
+  - count: 61
     metric: files
-  - count: 2945
+  - count: 2956
     metric: lines
   - count: 60
     metric: pages
@@ -7618,37 +7626,37 @@
     - '&'
     - ͥ
     - ł
-    - ̧
     - I
     - ⁊
     - ͣ
     - E
     - ꝵ
     - C
+    - ̨
     - S
-    - A
     - N
     - ᷑
+    - A
     - D
     - Q
     - U
     - ͦ
-    - ','
     - ꝓ
+    - ꝯ
     - ꝙ
     - ¶
     - T
     - y
-    - ꝯ
     - P
     - ꝗ
     - M
+    - /
     - ħ
-    - R
     - đ
+    - R
+    - ̧
     - H
     - O
-    - /
     - '-'
     - F
     - L
@@ -7656,27 +7664,27 @@
     - ͬ
     - ⟦
     - ⟧
-    - "'"
-    - ᷤ
+    - ̇
     - z
-    - B
     - G
+    - B
     - '4'
     - '1'
     - '3'
-    - ^
     - ͫ
-    - '2'
+    - ‸
     - ͭ
+    - '2'
     - ẜ
     - X
     - ͨ
-    - ͤ
     - '0'
+    - ͤ
+    - ᷤ
     - '6'
     - k
-    - '7'
     - '9'
+    - '7'
     - ƀ
     - ᷝ
     - '8'
@@ -7685,23 +7693,31 @@
     - Ø
     - Ꝙ
     - '*'
-    - '5'
     - ᵈ
     - ͯ
+    - '5'
+    - ']'
+    - ˢ
     - ℥
     - ¬
     - ᷠ
+    - '['
     - Y
-    - ̵
+    - ̶
     - Z
+    - ̂
     - ꝭ
-    - +
+    - ^
     - ι
+    - ⁱ
+    - (
+    - )
     - Ι
     - Μ
     - ̈
     - Ε
     - υ
+    - ̓
     - χ
     - α
     - ρ
@@ -7709,11 +7725,12 @@
     - τ
     - κ
     - ο
-    - ́
+    - ̀
     - ν
     - Τ
     - ❧
     - ⁿ
+    - ᵉ
     - ᶻ
     mode: NFD
   description: >-
@@ -7752,13 +7769,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/medieval-latin
   volume:
-  - count: 299067
+  - count: 297334
     metric: characters
-  - count: 142
+  - count: 143
     metric: files
-  - count: 8879
+  - count: 9008
     metric: lines
-  - count: 749
+  - count: 762
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Glaise, Anthony and Clérice, Thibault\
     \ and Boschetti, Federico and Fischer, Franz and Chagué, Alix},\ntitle = {HTRomance,\
@@ -7817,8 +7834,8 @@
     - q
     - g
     - f
-    - b
     - .
+    - b
     - y
     - /
     - h
@@ -7831,7 +7848,6 @@
     - C
     - ¶
     - ꝑ
-    - ','
     - ͣ
     - ͥ
     - ̾
@@ -7840,22 +7856,21 @@
     - ͦ
     - ':'
     - '-'
-    - ᷤ
     - S
     - ẜ
-    - ́
     - A
     - L
     - P
     - ꝯ
     - Q
+    - ᷤ
     - ͬ
     - I
-    - B
     - ⟦
     - ⟧
-    - O
+    - B
     - N
+    - O
     - ̇
     - T
     - ꝓ
@@ -7871,7 +7886,6 @@
     - '3'
     - H
     - Y
-    - ᷎
     - ℥
     - '4'
     - '6'
@@ -7883,8 +7897,10 @@
     - '9'
     - ꝰ
     - ħ
+    - (
+    - )
     - ͭ
-    - ꝫ
+    - 
     - ᷑
     - ᷝ
     - ͧ
@@ -7896,8 +7912,11 @@
     - ꝙ
     - ᷠ
     - Z
+    - ́
     - ł
     - Ꝯ
+    - ᷒
+    - ͯ
     - 
     - ͪ
     - ͩ
@@ -7939,13 +7958,13 @@
     [Kraken](https://kraken.re))
   url: https://github.com/HTRomance-Project/middle-ages-in-spain
   volume:
-  - count: 160876
+  - count: 160772
     metric: characters
   - count: 86
     metric: files
-  - count: 4437
+  - count: 4504
     metric: lines
-  - count: 395
+  - count: 397
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Bordier, Julie and Gille Levenson,\
     \ Matthias and Brisville-Fertin, Olivier and Clérice, Thibault and Chagué, Alix},\n\
@@ -9182,6 +9201,11 @@
     \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
     \ to the MUFI fonts."
   automatically-aligned: false
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\n\
+    title = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\n\
+    year = {2022}\n}\n"
+  _apa: "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek\
+    \ of Berne. (version 1.0).\n"
 - authors:
   - name: Dubois
     roles:
@@ -12171,7 +12195,7 @@
     \ and\n                  BREE, Sandra and\n                  MERVEILLE, François},\n\
     \  title        = {POPP Datasets : Datasets for handwriting\n                \
     \   recognition from French population census\n                  },\n  month \
-    \       = may,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version\
+    \       = mar,\n  year         = 2022,\n  publisher    = {Zenodo},\n  version\
     \      = {v1.0},\n  doi          = {10.5281/zenodo.6581158},\n  url          =\
     \ {https://doi.org/10.5281/zenodo.6581158},\n}"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
