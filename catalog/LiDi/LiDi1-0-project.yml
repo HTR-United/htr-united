@@ -1,0 +1,72 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: LiDi1.0-project
+url: https://github.com/Giorgiaagostini/LiDi1.0-project
+authors:
+ - name: Giorgia
+   surname: Agostini
+   orcid: 0009-0007-9887-5129
+   roles:
+     - transcriber
+     - aligner
+     - project-manager
+     - quality-control
+institutions: []
+description: >-
+ This repository contains all data relating to the LiDi 1.0 project. In
+ particular HTR GT of 16th antiquarian Pirro Ligorio, used to create
+ Transkribus public model Ligorio 0.3 PyL.
+project-name: LiDi 1.0
+project-website: https://lidiws-limes.cfs.unipi.it
+language:
+ - ita
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Latn
+ - iso: Grek
+script-type: only-manuscript
+time:
+ notBefore: '1568'
+ notAfter: '1580'
+hands:
+ count: '1'
+ precision: estimated
+license:
+ name: CC-BY-SA 4.0
+ url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+sources:
+ - reference: ''
+   link: >-
+     https://archiviodistatotorino.beniculturali.it/dbadd/visvol_bibl.php?uid=300146
+volume:
+ - metric: files
+   count: 195
+citation-file-link: >-
+ https://github.com/Giorgiaagostini/LiDi1.0-project/blob/main/Data/Ground%20Truth/CITATION.cff
+transcription-guidelines: >-
+ - Normalisation of «V» to «U» except in Latin inscriptions;
+
+ - Preservation of the diacritical marks and punctuation as used by the Author
+ except for the part in Greek;
+
+ - Where the use of capital and small caps is not distinguished, it is
+ transcribed according to the grammatical rules of the Italian language;
+
+ - Tagging of uncertain words with the «unclear» tag;
+
+ - Tagging of illegible words with three dots (...) and the «unclear» tag;
+
+ - Use of the angle dash, instead of the hyphen, to divide words into syllables
+ at the end of a line.
+
+ Moreover due to some issues in the visualization of ancient symbols unicode,
+ the Roman Denarius (U+10196) and the Roman Sestersius (U+10198) signs were
+ transcribed using other symbols not used by the author from the Astronomical
+ chart:
+
+ Roman denarius sign ➛♀(U+2640 Female sign)
+
+ Roman sestertius sign➛☿ (U+263F Mercury)
+
+ In order to change them to the correct one during post-processing.
