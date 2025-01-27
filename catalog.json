@@ -659,6 +659,66 @@
     "transcription-guidelines": "\u25b6 Data format: XML ALTO\n\u25b6 Number of transcribed lines: 153\n\u25b6 author/creator/curator of the dataset: Enki Baptiste and Ephrem Aboud Ishac \n\u25b6 Segmentation tools, HTR engine and interface: OpenITI model (https://github.com/OpenITI/acdc_results/blob/main/models/gen2-print-n7m5-union-ft_best.mlmodel); eScriptorium; Kraken\n\u25b6 Language of the corpus, Date: Arabic, end of the 16th century\n\u25b6 Type, support of documents, script: paper; mashriqi naskh \n\u25b6 Transcription method: diplomatic transcription respecting the tanwin, the shadda and the diacritic marks.\n\u25b6 Theme, collection, object of the dataset: theology; Maktabat al-S\u0101lim\u012b, Bidiyya, Oman, ms. AS 250 4v-5f (https://elibrary.mara.gov.om/en/omani-library/imam-nour-al-din-al-salmi-s-library/book/?id=324#book/7); St Mark Monastery, Jerusalem, SMMJ 00264 2v-5r",
     "_pid": "24b1b7a85"
   },
+  "07c3105cd": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript",
+    "url": "https://doi.org/10.5281/zenodo.14356190",
+    "authors": [
+      {
+        "name": "Stefan",
+        "surname": "Beckert",
+        "orcid": "0009-0005-2394-0075",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "This dataset contains ten pages of Ground Truth from the Dresden Court Diaries of elector Johann Georg II. as Page XML, Alto XML and jpg. ",
+    "language": [
+      "deu"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn",
+        "qualify": "Kurrent"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1665",
+      "notAfter": "1665"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-NC-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "sources": [
+      {
+        "reference": "Beckert, S. (2024). Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14356190",
+        "link": ""
+      }
+    ],
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 10
+      }
+    ],
+    "transcription-guidelines": "Transcription guidelines are oriented on the DTABF-M schema (https://www.deutschestextarchiv.de/doku/basisformat/manuskript.html), but have been adapted as follows:\n\n- I and J majuscules are not distinguished\n- u and v are reproduced true to the original (e.g. vnd)\n- Long-s (\u017f) and round-s (s) are distinguished\n- sz ligature is rendered as \u00df in Kurrent scripts and as sz (e.g. \"Libusza\") in Antiqua scripts\n- ij ligature is rendered as y\n- other ligatures, if they occur at all, are dissolved\n- r graphemes are rendered as r in their modern day form\n- an m with a nasal stroke was rendered as a simple m\n- Where possible, abbreviation signs (Abbrechungszeichen) for the contemporary identification of abbreviations have been included as single letters and not marked separately. The subsequent punctuation mark (\u201c.\u201d or \u201c:\u201d) for further identification of the abbreviation has also been included (cf. also Capelli, 1928, Lexicon abbreviaturarum I, p.X) \n- Diacritics in u were not marked\n- In the case of uncertain capitalization, an approximation is sought via the letter size",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14356190,\n  doi = {10.5281/ZENODO.14356190},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14356190},\n  author = {Beckert, Stefan},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript},\n  publisher = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_pid": "07c3105cd"
+  },
   "fbe9216af": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
