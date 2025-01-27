@@ -522,7 +522,7 @@
   automatically-aligned: false
   script:
   - iso: Latn
-  - iso: Goth
+  - iso: Latf
   script-type: only-typed
   time:
     notBefore: '1470'
@@ -8382,7 +8382,7 @@
   automatically-aligned: false
   script:
   - iso: Latn
-  - iso: Goth
+  - iso: Latf
   script-type: only-typed
   time:
     notAfter: '1900'
