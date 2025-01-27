@@ -32,7 +32,7 @@ production-software: Aletheia
 automatically-aligned: false
 script:
 - iso: Latn
-- iso: Goth
+  qualify: Fraktur
 script-type: only-typed
 time:
   notAfter: '1900'
