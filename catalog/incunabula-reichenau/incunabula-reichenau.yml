@@ -43,7 +43,7 @@ production-software: Transkribus
 automatically-aligned: false
 script:
  - iso: Latn
- - iso: Goth
+ - iso: Latf
 script-type: only-typed
 time:
  notBefore: '1470'
