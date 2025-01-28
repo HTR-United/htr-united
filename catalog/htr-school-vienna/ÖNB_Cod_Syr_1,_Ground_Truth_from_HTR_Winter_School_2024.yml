@@ -1,0 +1,131 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: ÖNB Cod. Syr. 1, Ground Truth from HTR Winter School 2024
+url: https://github.com/HTR-School-Vienna/2024--Syriac
+authors:
+ - name: Ephrem
+   surname: Aboud Ishac
+   orcid: 0000-0003-2943-6556
+   roles:
+     - project-manager
+ - name: Christine
+   surname: Roughan
+   orcid: 0009-0004-5999-8749
+   roles:
+     - project-manager
+ - name: Ammar
+   surname: Awad
+   roles:
+     - transcriber
+ - name: Carlo Biuzzi
+   surname: Emilio
+   orcid: 0000-0002-6108-3650
+   roles:
+     - transcriber
+ - name: Saranya
+   surname: Chandran
+   roles:
+     - transcriber
+ - name: Jennifer
+   surname: Griggs
+   orcid: 0000-0002-7857-806X
+   roles:
+     - transcriber
+ - name: Polina
+   surname: Ivanova
+   orcid: 0009-0002-6853-2129
+   roles:
+     - transcriber
+ - name: Branko
+   surname: Malešević
+   orcid: 0009-0008-2419-6323
+   roles:
+     - transcriber
+ - name: Stefan
+   surname: Marić
+   orcid: 0009-0008-5129-1932
+   roles:
+     - transcriber
+ - name: Francesca
+   surname: Nateri
+   roles:
+     - transcriber
+ - name: Ivan
+   surname: Petrov
+   orcid: 0000-0003-4386-0097
+   roles:
+     - transcriber
+ - name: Cristina
+   surname: Tava
+   roles:
+     - transcriber
+ - name: Maria S.
+   surname: Thomas
+   orcid: 0009-0008-1416-3499
+   roles:
+     - transcriber
+institutions: []
+description: >-
+ Ground truth of 140 folios of ÖNB Cod. Syr. 1. This ground truth was produced
+ by participants of the Vienna 2024 HTR Winter School, who used Transkribus to
+ manually correct a preliminary automatic transcription that had been generated
+ using Kraken/eScriptorium.
+language:
+ - syr
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Syrj
+script-type: only-manuscript
+time:
+ notBefore: '1545'
+ notAfter: '1545'
+hands:
+ count: '1'
+ precision: exact
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+ - metric: lines
+   count: 2869
+citation-file-link: https://github.com/HTR-School-Vienna/2024--Syriac/blob/main/CITATION.cff
+transcription-guidelines: >-
+ The segmentation of the folios followed the SegmOnto vocabulary for annotation
+ of regions:
+
+
+ - MainZone: the main column of text.
+
+ - MainZone-gold: any sections of the main column where the text is written in
+ gold block characters, as in the start of the text here. (The - character is a
+ substitution for SegmOnto's recommended : character for declaring subtypes,
+ since Transkribus did not allow for use of the colon character in the region
+ name.)
+
+ - MarginTextZone: any marginal words or phrases, including catchwords. Also
+ used for interlinear glosses.
+
+ - NumberingZone: any page or folio numbers.
+
+
+ The transcription includes spaces, the Syriac letters, some diacritics,
+ punctuation, and no vowel dots or markings.
+
+
+ - Allowed diacritics:
+  - Syome
+  - Dots over feminine suffix heh
+  - Dots in pronouns: above for demonstrative, below for personal
+  - Dots in verbs: to distinguish participles and perfects
+  - Dots to distinguish homographs
+ - Excluded diacritics:
+  - Vowel dots
+  - Dots of hardening and softening (qushoyo and rukokho)
+
+ Punctuation marks were not normalized, but rather transcribed as they appear
+ in the manuscript (. ܆ ܇ : ܀).
+
+
+ Transkribus's unclear tag was used when readings were uncertain or the text
+ was damaged or unclear.
