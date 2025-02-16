@@ -9359,11 +9359,6 @@
     \ but indicated by this type of bracket ⟨ ⟩. Special characters are encoded according\
     \ to the MUFI fonts."
   automatically-aligned: false
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\n\
-    title = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\n\
-    year = {2022}\n}\n"
-  _apa: "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek\
-    \ of Berne. (version 1.0).\n"
 - authors:
   - name: Dubois
     roles:

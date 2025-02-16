@@ -11526,8 +11526,6 @@
     "citation-file-link": "https://github.com/PaulineJac/GasparoSardiToponomasia/blob/main/HTR/CITATION.cff",
     "transcription-guidelines": " The transcriptions were made following the rules of the github cremma-medieval repository - https://github.com/HTR-United/cremma-medieval. The transcription is strictly diplomatic and graphmatic. No abbreviations are resolved, no standardization of 'i' and 'v' with ramist letters, and accents, punctuation, spaces, and line breaks are strictly adhered to. Following Leiden conventions, crossed out or crossed out elements are transcribed with double brackets \u27e6\u27e7, and elements that are illegible in the picture will not be restored but indicated by this type of bracket \u27e8 \u27e9. Special characters are encoded according to the MUFI fonts.",
     "automatically-aligned": false,
-    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Jacsont, Pauline},\nmonth = {7},\ntitle = {Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne.},\nyear = {2022}\n}\n",
-    "_apa": "Jacsont P. (2022). Toponomasia : an edition of cod. 174 from the Burgerbibliothek of Berne. (version 1.0).\n",
     "_pid": "a45f799c4"
   },
   "4522813d9": {
