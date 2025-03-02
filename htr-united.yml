@@ -9706,6 +9706,12 @@
     - transcriber
     - quality-control
     surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
   - name: Daniela
     orcid: 0000-0002-2601-668X
     roles:
@@ -9867,6 +9873,12 @@
     - transcriber
     - quality-control
     surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
   - name: Daniela
     orcid: 0000-0002-2601-668X
     roles:
@@ -10044,6 +10056,12 @@
     - transcriber
     - quality-control
     surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
   - name: Daniela
     orcid: 0000-0002-2601-668X
     roles:
