@@ -8405,10 +8405,10 @@
     metric: regions
   citation-file-link: https://raw.githubusercontent.com/OCR-D/gt_structure_text/main/CITATION.cff
   transcription-guidelines: OCR-D Ground Truth Guidelines https://ocr-d.de/en/gt-guidelines/trans/
-  _bibtex: "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {7},\n\
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Boenig, Matthias},\nmonth = {3},\n\
     title = {gt_structure_text},\nurl = {https://github.com/OCR-D/gt_structure_text},\n\
-    year = {2024}\n}\n"
-  _apa: "Boenig M. (2024). gt_structure_text (version 68_v1.5.0). URL: https://github.com/OCR-D/gt_structure_text\n"
+    year = {2025}\n}\n"
+  _apa: "Boenig M. (2025). gt_structure_text (version 69_v1.5.0). URL: https://github.com/OCR-D/gt_structure_text\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: De la généalogie des dieux
   url: https://github.com/PSL-Chartes-HTR-Students/HN2021-Boccace
@@ -10671,6 +10671,50 @@
     url = {https://github.com/alix-tz/peraire-ground-truth},\nyear = {2023}\n}\n"
   _apa: "Chagué A., Pérez G. (2023). Peraire Ground Truth (version 2.0.0). DOI: 10.5281/zenodo.7185907\
     \ URL: https://github.com/alix-tz/peraire-ground-truth\n"
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: Copiste d’un jour
+  url: https://github.com/banq-dcn/Copiste-d-un-jour
+  authors: []
+  institutions:
+  - name: BAnQ
+  description: >-
+    This project draws inspiration from the CREMMA WIKIPEDA data set, with the
+    objective to create a ground truth repository of contemporary Québécois
+    handwriting to train HTR models. It is based on a collection of randomly
+    selected Wikipedia summaries. Each text comprises between 125 and 175 words
+    and was copied by hand by volunteers. The texts were ordered in a way to
+    prioritize texts that presented rare character 1- and 2-grams. Non-French
+    characters were replaced with "-". In general, the copy of one text took
+    between 1 and 2 pages. In total, 267 volunteers copied 265 texts (2 texts were
+    unfortunately copied twice by two different volunteers). We took care of the
+    alignment between the handwritten portion and the original text.
+  language:
+  - fra
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '2024'
+    notAfter: '2024'
+  hands:
+    count: 1-per-file
+    precision: estimated
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 333
+  - metric: lines
+    count: 6989
+  - metric: characters
+    count: 316715
+  - metric: pages
+    count: 333
+  transcription-guidelines: 'https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4 '
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: RASAM
   url: https://github.com/calfa-co/rasam-dataset
