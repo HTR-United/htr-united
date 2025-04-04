@@ -719,6 +719,149 @@
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14356190,\n  doi = {10.5281/ZENODO.14356190},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14356190},\n  author = {Beckert, Stefan},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript},\n  publisher = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "07c3105cd"
   },
+  "6c810ce76": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "\u00d6NB Cod. Syr. 1, Ground Truth from HTR Winter School 2024",
+    "url": "https://doi.org/10.5281/zenodo.14714089",
+    "authors": [
+      {
+        "name": "Ephrem",
+        "surname": "Aboud Ishac",
+        "orcid": "0000-0003-2943-6556",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Christine",
+        "surname": "Roughan",
+        "orcid": "0009-0004-5999-8749",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Ammar",
+        "surname": "Awad",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Carlo Biuzzi",
+        "surname": "Emilio",
+        "orcid": "0000-0002-6108-3650",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Saranya",
+        "surname": "Chandran",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "surname": "Griggs",
+        "orcid": "0000-0002-7857-806X",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Polina",
+        "surname": "Ivanova",
+        "orcid": "0009-0002-6853-2129",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Branko",
+        "surname": "Male\u0161evi\u0107",
+        "orcid": "0009-0008-2419-6323",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Stefan",
+        "surname": "Mari\u0107",
+        "orcid": "0009-0008-5129-1932",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Francesca",
+        "surname": "Nateri",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Ivan",
+        "surname": "Petrov",
+        "orcid": "0000-0003-4386-0097",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Cristina",
+        "surname": "Tava",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Maria S.",
+        "surname": "Thomas",
+        "orcid": "0009-0008-1416-3499",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ground truth of 140 folios of \u00d6NB Cod. Syr. 1. This ground truth was produced by participants of the Vienna 2024 HTR Winter School, who used Transkribus to manually correct a preliminary automatic transcription that had been generated using Kraken/eScriptorium.",
+    "language": [
+      "syr"
+    ],
+    "production-software": "Transkribus",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Syrj"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1545",
+      "notAfter": "1545"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 2869
+      }
+    ],
+    "citation-file-link": "https://github.com/HTR-School-Vienna/2024--Syriac/blob/main/CITATION.cff",
+    "transcription-guidelines": "The segmentation of the folios followed the SegmOnto vocabulary for annotation of regions:\n\n- MainZone: the main column of text.\n- MainZone-gold: any sections of the main column where the text is written in gold block characters, as in the start of the text here. (The - character is a substitution for SegmOnto's recommended : character for declaring subtypes, since Transkribus did not allow for use of the colon character in the region name.)\n- MarginTextZone: any marginal words or phrases, including catchwords. Also used for interlinear glosses.\n- NumberingZone: any page or folio numbers.\n\nThe transcription includes spaces, the Syriac letters, some diacritics, punctuation, and no vowel dots or markings.\n\n- Allowed diacritics:\n - Syome\n - Dots over feminine suffix heh\n - Dots in pronouns: above for demonstrative, below for personal\n - Dots in verbs: to distinguish participles and perfects\n - Dots to distinguish homographs\n- Excluded diacritics:\n - Vowel dots\n - Dots of hardening and softening (qushoyo and rukokho)\n\nPunctuation marks were not normalized, but rather transcribed as they appear in the manuscript (. \u0706 \u0707 : \u0700).\n\nTranskribus's unclear tag was used when readings were uncertain or the text was damaged or unclear.",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14714089,\n  doi = {10.5281/ZENODO.14714089},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14714089},\n  author = {Aboud Ishac, Ephrem and Roughan, Christine and Awad, Ammar and Emilio, Carlo Biuzzi and Chandran, Saranya and Griggs, Jennifer and Ivanova, Polina and Male\u0161evi\u0107, Branko and Mari\u0107, Stefan and Nateri, Francesca and Petrov, Ivan and Tava, Cristina and Thomas, Maria S.},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syc},\n  title = {HTR Winter School 2024 - Syriac, \u00d6NB Cod. Syr. 1},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_pid": "6c810ce76"
+  },
   "fbe9216af": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
@@ -776,7 +919,7 @@
     ],
     "transcription-guidelines": "Transcription diplomatique, sans normalisation, sans r\u00e9solution d'abr\u00e9viations ni corrections. ",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n  url = {https://zenodo.org/record/3643393},\n  author = {Levenson, Matthias Gille},\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial 4.0 International}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n  url = {https://zenodo.org/doi/10.5281/zenodo.3643393},\n  author = {Matthias Gille Levenson, },\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial 4.0 International}\n}\n",
     "_pid": "fbe9216af"
   },
   "7dcc35e88": {
