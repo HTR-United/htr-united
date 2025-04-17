@@ -14,7 +14,8 @@ authors:
     orcid: 0009-0002-5683-2423
     roles:
       - project-manager
-institutions: []
+institutions:
+  - name: Banq
 description: >-
   This project draws inspiration from the CREMMA WIKIPEDA data set, with the
   objective to create a ground truth repository of contemporary Québécois
