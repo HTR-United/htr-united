@@ -1,9 +1,22 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: Copiste d’un jour
 url: https://github.com/banq-dcn/Copiste-d-un-jour
-authors: []
+authors: 
+ - name: Adèle
+  surname: Aubin
+  orcid: 0009-0009-3756-1606
+  roles:
+  - transcriber
+  - project-manager
+  - digitization
+ - name: Pascale
+  surname: Montmartin
+  orcid: 0009-0002-5683-2423
+  roles:
+  - project-manager
 institutions:
  - name: BAnQ
+project-name: Copiste d'un jour
 description: >-
  This project draws inspiration from the CREMMA WIKIPEDA data set, with the
  objective to create a ground truth repository of contemporary Québécois
