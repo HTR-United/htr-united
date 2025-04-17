@@ -1,57 +1,56 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: Copiste d’un jour
 url: https://github.com/banq-dcn/Copiste-d-un-jour
-authors: 
- - name: Adèle
-  surname: Aubin
-  orcid: 0009-0009-3756-1606
-  roles:
-  - transcriber
-  - project-manager
-  - digitization
- - name: Pascale
-  surname: Montmartin
-  orcid: 0009-0002-5683-2423
-  roles:
-  - project-manager
-institutions:
- - name: BAnQ
-project-name: Copiste d'un jour
+authors:
+  - name: Adèle
+    surname: Aubin
+    orcid: 0009-0009-3756-1606
+    roles:
+      - transcriber
+      - project-manager
+      - digitization
+  - name: Pascale
+    surname: Montmartin
+    orcid: 0009-0002-5683-2423
+    roles:
+      - project-manager
+institutions: []
 description: >-
- This project draws inspiration from the CREMMA WIKIPEDA data set, with the
- objective to create a ground truth repository of contemporary Québécois
- handwriting to train HTR models. It is based on a collection of randomly
- selected Wikipedia summaries. Each text comprises between 125 and 175 words
- and was copied by hand by volunteers. The texts were ordered in a way to
- prioritize texts that presented rare character 1- and 2-grams. Non-French
- characters were replaced with "-". In general, the copy of one text took
- between 1 and 2 pages. In total, 267 volunteers copied 265 texts (2 texts were
- unfortunately copied twice by two different volunteers). We took care of the
- alignment between the handwritten portion and the original text.
+  This project draws inspiration from the CREMMA WIKIPEDA data set, with the
+  objective to create a ground truth repository of contemporary Québécois
+  handwriting to train HTR models. It is based on a collection of randomly
+  selected Wikipedia summaries. Each text comprises between 125 and 175 words
+  and was copied by hand by volunteers. The texts were ordered in a way to
+  prioritize texts that presented rare character 1- and 2-grams. Non-French
+  characters were replaced with "-". In general, the copy of one text took
+  between 1 and 2 pages. In total, 267 volunteers copied 265 texts (2 texts were
+  unfortunately copied twice by two different volunteers). We took care of the
+  alignment between the handwritten portion and the original text.
+project-name: Copiste d'un jour
 language:
- - fra
+  - fra
 production-software: eScriptorium + Kraken
 automatically-aligned: false
 script:
- - iso: Latn
+  - iso: Latn
 script-type: only-manuscript
 time:
- notBefore: '2024'
- notAfter: '2024'
+  notBefore: '2024'
+  notAfter: '2024'
 hands:
- count: 1-per-file
- precision: estimated
+  count: 1-per-file
+  precision: exact
 license:
- name: CC-BY 4.0
- url: https://creativecommons.org/licenses/by/4.0/
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 volume:
- - metric: files
-   count: 333
- - metric: lines
-   count: 6989
- - metric: characters
-   count: 316715
- - metric: pages
-   count: 333
-transcription-guidelines: 'https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4 '
+  - metric: files
+    count: 333
+  - metric: pages
+    count: 333
+  - metric: characters
+    count: 316715
+  - metric: lines
+    count: 6989
+transcription-guidelines: https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4
