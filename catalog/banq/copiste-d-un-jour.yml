@@ -15,7 +15,7 @@ authors:
     roles:
       - project-manager
 institutions:
-  - name: Banq
+  - name: BAnQ
 description: >-
   This project draws inspiration from the CREMMA WIKIPEDA data set, with the
   objective to create a ground truth repository of contemporary Québécois
@@ -40,7 +40,7 @@ time:
   notAfter: '2024'
 hands:
   count: 1-per-file
-  precision: exact
+  precision: estimated
 license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
