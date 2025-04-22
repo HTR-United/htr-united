@@ -273,9 +273,9 @@
 271,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,lines,2307,Alto-XML,only-manuscript
 272,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,regions,151,Alto-XML,only-manuscript
 273,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,files,333,Alto-XML,only-manuscript
-274,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,lines,6989,Alto-XML,only-manuscript
+274,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,pages,333,Alto-XML,only-manuscript
 275,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,characters,316715,Alto-XML,only-manuscript
-276,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,pages,333,Alto-XML,only-manuscript
+276,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,lines,6989,Alto-XML,only-manuscript
 277,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,pages,300,Page-XML,only-manuscript
 278,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,lines,7540,Page-XML,only-manuscript
 279,https://github.com/calfa-co/rasam-dataset,RASAM,1700,1899,files,300,Page-XML,only-manuscript

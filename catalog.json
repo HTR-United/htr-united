@@ -13204,13 +13204,32 @@
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Copiste d\u2019un jour",
     "url": "https://github.com/banq-dcn/Copiste-d-un-jour",
-    "authors": [],
+    "authors": [
+      {
+        "name": "Ad\u00e8le",
+        "surname": "Aubin",
+        "orcid": "0009-0009-3756-1606",
+        "roles": [
+          "transcriber",
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Pascale",
+        "surname": "Montmartin",
+        "orcid": "0009-0002-5683-2423",
+        "roles": [
+          "project-manager"
+        ]
+      }
+    ],
     "institutions": [
       {
         "name": "BAnQ"
       }
     ],
     "description": "This project draws inspiration from the CREMMA WIKIPEDA data set, with the objective to create a ground truth repository of contemporary Qu\u00e9b\u00e9cois handwriting to train HTR models. It is based on a collection of randomly selected Wikipedia summaries. Each text comprises between 125 and 175 words and was copied by hand by volunteers. The texts were ordered in a way to prioritize texts that presented rare character 1- and 2-grams. Non-French characters were replaced with \"-\". In general, the copy of one text took between 1 and 2 pages. In total, 267 volunteers copied 265 texts (2 texts were unfortunately copied twice by two different volunteers). We took care of the alignment between the handwritten portion and the original text.",
+    "project-name": "Copiste d'un jour",
     "language": [
       "fra"
     ],
@@ -13241,19 +13260,19 @@
         "count": 333
       },
       {
-        "metric": "lines",
-        "count": 6989
+        "metric": "pages",
+        "count": 333
       },
       {
         "metric": "characters",
         "count": 316715
       },
       {
-        "metric": "pages",
-        "count": 333
+        "metric": "lines",
+        "count": 6989
       }
     ],
-    "transcription-guidelines": "https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4 ",
+    "transcription-guidelines": "https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4",
     "_pid": "4b59743f4"
   },
   "983e367d9": {
