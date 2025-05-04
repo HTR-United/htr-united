@@ -63,10 +63,10 @@
 61,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,files,930,Alto-XML,only-typed
 62,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,lines,17817,Alto-XML,only-typed
 63,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-16,FONDUE-FR-PRINT-16,1500,1600,regions,2829,Alto-XML,only-typed
-64,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,characters,81599,Alto-XML,only-typed
-65,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,files,55,Alto-XML,only-typed
-66,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,lines,1604,Alto-XML,only-typed
-67,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,regions,64,Alto-XML,only-typed
+64,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,characters,80643,Alto-XML,only-typed
+65,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,files,54,Alto-XML,only-typed
+66,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,lines,1581,Alto-XML,only-typed
+67,https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20,FONDUE-FR-PRINT-20,1999,1900,regions,63,Alto-XML,only-typed
 68,https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20,FONDUE-IT-PRINT-20,1999,1900,characters,54628,Alto-XML,only-typed
 69,https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20,FONDUE-IT-PRINT-20,1999,1900,files,28,Alto-XML,only-typed
 70,https://github.com/FoNDUE-HTR/FONDUE-IT-PRINT-20,FONDUE-IT-PRINT-20,1999,1900,lines,1150,Alto-XML,only-typed
@@ -76,9 +76,9 @@
 74,https://github.com/FoNDUE-HTR/FONDUE-MLT-ART,FONDUE-MLT-ART,1842,1961,lines,5664,Alto-XML,only-typed
 75,https://github.com/FoNDUE-HTR/FONDUE-MLT-ART,FONDUE-MLT-ART,1842,1961,pages,60,Alto-XML,only-typed
 76,https://github.com/FoNDUE-HTR/FONDUE-MLT-ART,FONDUE-MLT-ART,1842,1961,regions,215,Alto-XML,only-typed
-77,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,characters,1285120,Alto-XML,only-typed
+77,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,characters,1285113,Alto-XML,only-typed
 78,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,files,1381,Alto-XML,only-typed
-79,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,lines,43114,Alto-XML,only-typed
+79,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,lines,43112,Alto-XML,only-typed
 80,https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT,FONDUE-MLT-CAT,1818,1972,regions,10713,Alto-XML,only-typed
 81,https://github.com/FoNDUE-HTR/FoNDUE_Kunsthistorisches-UZH_Archivdatenbank,FoNDUE_Kunsthistorisches-UZH_Archivdatenbank,1900,1999,pages,1100,Alto-XML,evenly-mixed
 82,https://github.com/Gallicorpora/HTR-MSS-15e-Siecle,Données HTR manuscrits du 15e siècle,1400,1500,characters,169207,Alto-XML,only-manuscript

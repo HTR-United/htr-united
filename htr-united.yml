@@ -2487,14 +2487,14 @@
     - G
     - E
     - M
-    - P
     - C
+    - P
     - B
     - J
     - D
     - z
-    - ̧
     - S
+    - ̧
     - '!'
     - T
     - '?'
@@ -2516,8 +2516,8 @@
     - )
     - “
     - '2'
-    - N
     - '6'
+    - N
     - '9'
     - '8'
     - '5'
@@ -2564,13 +2564,13 @@
   transcription-guidelines: SegmOnto
   url: https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20
   volume:
-  - count: 81599
+  - count: 80643
     metric: characters
-  - count: 55
+  - count: 54
     metric: files
-  - count: 1604
+  - count: 1581
     metric: lines
-  - count: 64
+  - count: 63
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Gabay, Simon and Dolto, Sophie},\n\
     month = {2},\ntitle = {FONDUE-FR-PRINT-20},\nurl = {https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20},\n\
@@ -2970,11 +2970,11 @@
   transcription-guidelines: 'Segmentation include an extra zone `CustomeZone: entry`'
   url: https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT
   volume:
-  - count: 1285120
+  - count: 1285113
     metric: characters
   - count: 1381
     metric: files
-  - count: 43114
+  - count: 43112
     metric: lines
   - count: 10713
     metric: regions

@@ -2909,14 +2909,14 @@
         "G",
         "E",
         "M",
-        "P",
         "C",
+        "P",
         "B",
         "J",
         "D",
         "z",
-        "\u0327",
         "S",
+        "\u0327",
         "!",
         "T",
         "?",
@@ -2938,8 +2938,8 @@
         ")",
         "\u201c",
         "2",
-        "N",
         "6",
+        "N",
         "9",
         "8",
         "5",
@@ -2996,19 +2996,19 @@
     "url": "https://github.com/FoNDUE-HTR/FONDUE-FR-PRINT-20",
     "volume": [
       {
-        "count": 81599,
+        "count": 80643,
         "metric": "characters"
       },
       {
-        "count": 55,
+        "count": 54,
         "metric": "files"
       },
       {
-        "count": 1604,
+        "count": 1581,
         "metric": "lines"
       },
       {
-        "count": 64,
+        "count": 63,
         "metric": "regions"
       }
     ],
@@ -3512,7 +3512,7 @@
     "url": "https://github.com/FoNDUE-HTR/FONDUE-MLT-CAT",
     "volume": [
       {
-        "count": 1285120,
+        "count": 1285113,
         "metric": "characters"
       },
       {
@@ -3520,7 +3520,7 @@
         "metric": "files"
       },
       {
-        "count": 43114,
+        "count": 43112,
         "metric": "lines"
       },
       {
