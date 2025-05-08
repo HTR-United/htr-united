@@ -862,6 +862,112 @@
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14714089,\n  doi = {10.5281/ZENODO.14714089},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14714089},\n  author = {Aboud Ishac, Ephrem and Roughan, Christine and Awad, Ammar and Emilio, Carlo Biuzzi and Chandran, Saranya and Griggs, Jennifer and Ivanova, Polina and Male\u0161evi\u0107, Branko and Mari\u0107, Stefan and Nateri, Francesca and Petrov, Ivan and Tava, Cristina and Thomas, Maria S.},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syc},\n  title = {HTR Winter School 2024 - Syriac, \u00d6NB Cod. Syr. 1},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "6c810ce76"
   },
+  "0cd54f1c8": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1673 (Mscr.Dresd.K.117) - 17th century Kurrent manuscript ",
+    "url": "https://doi.org/10.5281/zenodo.15303243",
+    "authors": [
+      {
+        "name": "Stefan",
+        "surname": "Beckert",
+        "orcid": "0009-0005-2394-0075",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Twenty pages of Ground Truth from the \"Hofdiarium des Kurf\u00fcrsten Johann Georgs II. 1673\" (SLUB Mscr.Dresd.K.117; https://www.wikidata.org/wiki/Q134220291). The handwriting is a typical late 17th century Saxon kurrent (\"Kanzleikurrent\"), with occasional words written in bastarda or fraktur-like script.\n\nThis transcription is part of a larger project regarding the Dresden court diaries. Check https://slub-dresden.academia.edu/StefanBeckert for further updates.\n",
+    "language": [
+      "deu"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1673",
+      "notAfter": "1673"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 20
+      }
+    ],
+    "transcription-guidelines": "Transcription guidelines are oriented on the DTABF-M schema (https://www.deutschestextarchiv.de/doku/basisformat/manuskript.html), but have been adapted as follows:\n\n- I and J majuscules are not distinguished\n- u and v are reproduced true to the original (e.g. vnd)\n- Long-s (\u017f) and round-s (s) are distinguished\n- sz ligature is rendered as \u00df in Kurrent scripts and as sz (e.g. \"Libusza\") in Antiqua scripts\n- ij ligature is rendered as y\n- other ligatures, if they occur at all, are dissolved\n- r graphemes are rendered as r in their modern day form\n- an m with a nasal stroke was rendered as a simple mm\n- Where possible, abbreviation signs (Abbrechungszeichen) for the contemporary identification of abbreviations have been included as single letters and not marked separately. The subsequent punctuation mark (\u201c.\u201d or \u201c:\u201d) for further identification of the abbreviation has also been included (cf. also Capelli, 1928, Lexicon abbreviaturarum I, p.X) \n- Diacritics in u were not marked\n- In the case of uncertain capitalization, an approximation is sought via the letter size",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.15303243,\n  doi = {10.5281/ZENODO.15303243},\n  url = {https://zenodo.org/doi/10.5281/zenodo.15303243},\n  author = {Beckert, Stefan},\n  keywords = {Handwritten Text Recognition, HTR, OCR, Digital Humanities, Digital History, Saxon History},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1673 (Mscr.Dresd.K.117) - 17th century Kurrent manuscript},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_pid": "0cd54f1c8"
+  },
+  "59b624e81": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1653-56 (Mscr.Dresd.K.113) - 17th century Kurrent manuscript",
+    "url": "https://doi.org/10.5281/zenodo.15303398",
+    "authors": [
+      {
+        "name": "Stefan",
+        "surname": "Beckert",
+        "orcid": "0009-0005-2394-0075",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Twelve pages of Ground Truth from the \"Hofdiarium des Kurf\u00fcrsten Johann Georgs II. 1653-1656\" (SLUB Mscr.Dresd.K113; https://www.wikidata.org/wiki/Q133883726). The handwriting is a typical late 17th century Saxon kurrent (\"Kanzleikurrent\"), with occasional words written in bastarda or fraktur-like script.\n\nThis transcription is part of a larger project regarding the Dresden court diaries. Check https://slub-dresden.academia.edu/StefanBeckert for further updates.",
+    "language": [
+      "deu"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1653",
+      "notAfter": "1656"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 12
+      }
+    ],
+    "transcription-guidelines": "Transcription guidelines are oriented on the DTABF-M schema (https://www.deutschestextarchiv.de/doku/basisformat/manuskript.html), but have been adapted as follows:\n\n- I and J majuscules are not distinguished\n- u and v are reproduced true to the original (e.g. vnd)\n- Long-s (\u017f) and round-s (s) are distinguished\n- sz ligature is rendered as \u00df in Kurrent scripts and as sz (e.g. \"Libusza\") in Antiqua scripts\n- ij ligature is rendered as y\n- other ligatures, if they occur at all, are dissolved\n- r graphemes are rendered as r in their modern day form\n- an m with a nasal stroke was rendered as a simple mm\n- Where possible, abbreviation signs (Abbrechungszeichen) for the contemporary identification of abbreviations have been included as single letters and not marked separately. The subsequent punctuation mark (\u201c.\u201d or \u201c:\u201d) for further identification of the abbreviation has also been included (cf. also Capelli, 1928, Lexicon abbreviaturarum I, p.X) \n- Diacritics in u were not marked\n- In the case of uncertain capitalization, an approximation is sought via the letter size",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.15303398,\n  doi = {10.5281/ZENODO.15303398},\n  url = {https://zenodo.org/doi/10.5281/zenodo.15303398},\n  author = {Beckert, Stefan},\n  keywords = {Digital Humanities, Digital History, HTR, OCR, Handwritten Text Recognition, History, Early Modern History, Saxon History},\n  language = {de},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1653-56 (Mscr.Dresd.K.113) - 17th century Kurrent manuscript},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_pid": "59b624e81"
+  },
   "fbe9216af": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
