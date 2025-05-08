@@ -13275,39 +13275,64 @@
     "transcription-guidelines": "https://gist.github.com/alix-tz/6f89444521bf1cab0522da520f7e4ff4",
     "_pid": "4b59743f4"
   },
-  "983e367d9": {
+  "828c87293": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "RASAM",
-    "url": "https://github.com/calfa-co/rasam-dataset",
-    "project-website": "https://calfa.fr/blog/26",
+    "title": "CHI-KNOW-PO CORPUS",
+    "url": "https://github.com/calfa-co/chi-know-po",
     "authors": [
       {
-        "name": "Vidal-Gor\u00e8ne",
-        "surname": "Chahan",
-        "roles": [
-          "project-manager"
-        ]
-      },
-      {
-        "name": "Lucas",
-        "surname": "No\u00ebmie",
+        "name": "Marie",
+        "surname": "Bizais-Lillig",
+        "orcid": "0000-0002-2426-2641",
         "roles": [
           "project-manager",
           "quality-control"
         ]
       },
       {
-        "name": "Salah",
-        "surname": "Cl\u00e9ment",
+        "name": "Hu",
+        "surname": "Xinmin",
         "roles": [
-          "transcriber",
-          "quality-control"
+          "transcriber"
         ]
       },
       {
-        "name": "Decours-Perez",
-        "surname": "Ali\u00e9nor",
+        "name": "LIAO",
+        "surname": "Shueh-Ying",
         "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Cuill\u00e9",
+        "surname": "Elsa",
+        "orcid": "0000-0002-6060-0724",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Tanelian",
+        "surname": "ani",
+        "roles": [
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Kasparian",
+        "surname": "Anahide",
+        "roles": [
+          "quality-control",
+          "support"
+        ]
+      },
+      {
+        "name": "Vidal-Gor\u00e8ne",
+        "surname": "Chahan",
+        "orcid": "0000-0003-1567-6508",
+        "roles": [
+          "quality-control",
           "support"
         ]
       },
@@ -13319,7 +13344,130 @@
         ]
       }
     ],
-    "description": "The Dataset is made up of 300 images, with their related ground truth stored in a XML file (pageXML format). Images come from three manuscripts selected among the collections of the BULAC Library (Paris). It covers a representative part of the handwritten production in Arabic Maghrebi scripts and includes an annotation of the layout (TextRegions, baselines and polygons) and the transcription of the main text. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.\n",
+    "institutions": [
+      {
+        "name": "Universit\u00e9 de Strasbourg, G\u00c9O (UR1340)"
+      },
+      {
+        "name": "CNRS, UAR2999, Distam"
+      },
+      {
+        "name": "Calfa"
+      }
+    ],
+    "description": "HTR ground-truth of the CHI-KNOW-PO project (Collex-Pers\u00e9e), that aimed to digitize a corpus of belletristic anthologies, scholarly collections, dictionaries and encyclopedias from the Chinese medieval period (ca. 200-1000) and to process them using HTR.",
+    "project-website": "https://chi-know-po.gitpages.huma-num.fr",
+    "language": [
+      "lzh"
+    ],
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Hant"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1604",
+      "notAfter": "1921"
+    },
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 1248
+      },
+      {
+        "metric": "characters",
+        "count": 104536
+      },
+      {
+        "metric": "files",
+        "count": 327
+      }
+    ],
+    "sources": [
+      {
+        "reference": "Bizais-Lillig, M., Vidal-Gor\u00e8ne, C., & Dupin, B. (2024, August). Optimizing HTR and Reading Order Strategies for Chinese Imperial Editions with Few-Shot Learning. In International Conference on Document Analysis and Recognition (pp. 37-56). Cham: Springer Nature Switzerland.",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-031-70642-4_3"
+      }
+    ],
+    "transcription-guidelines": "Regions and baselines are distinguished by types, mainly to differentiate between main text from commentaries. Diplomatic transcription with the following exceptions: characters are transcribed in their standard form based on the online dictionary of variants (https://dict.variants.moe.edu.tw/).",
+    "production-software": "Calfa Vision",
+    "_pid": "828c87293"
+  },
+  "983e367d9": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "RASAM 2",
+    "url": "https://github.com/calfa-co/rasam-dataset",
+    "authors": [
+      {
+        "name": "Vidal-Gor\u00e8ne",
+        "surname": "Chahan",
+        "orcid": "0000-0003-1567-6508",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Salah",
+        "surname": "Cl\u00e9ment",
+        "orcid": "0000-0002-7846-4054",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Lucas",
+        "surname": "No\u00e9mie",
+        "orcid": "0000-0003-2236-6778",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Decours-Perez",
+        "surname": "Ali\u00e9nor",
+        "roles": [
+          "support"
+        ]
+      },
+      {
+        "name": "Antoine",
+        "surname": "Perrier",
+        "orcid": "0000-0002-5035-4283",
+        "roles": [
+          "project-manager",
+          "quality-control",
+          "transcriber"
+        ]
+      }
+    ],
+    "institutions": [
+      {
+        "name": "BULAC"
+      },
+      {
+        "name": "Calfa"
+      },
+      {
+        "name": "DISTAM"
+      },
+      {
+        "name": "GIS MOMM"
+      }
+    ],
+    "description": "The Dataset is made up of 250 images, with their related ground truth stored in a XML file (pageXML format). Images come from fifteen manuscripts selected among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends RASAM 1 by covering a very wide variety of hands, text density, and cursiveness. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.",
     "language": [
       "ara"
     ],
@@ -13334,7 +13482,7 @@
       "notAfter": "1899"
     },
     "hands": {
-      "count": "less-than-11",
+      "count": "more-than-10",
       "precision": "exact"
     },
     "license": [
@@ -13346,33 +13494,29 @@
     "format": "Page-XML",
     "volume": [
       {
-        "metric": "pages",
-        "count": 300
+        "metric": "lines",
+        "count": 3750
       },
       {
-        "count": 7540,
-        "metric": "lines"
+        "metric": "files",
+        "count": 250
       },
       {
-        "count": 300,
-        "metric": "files"
+        "metric": "regions",
+        "count": 839
       },
       {
-        "count": 676,
-        "metric": "regions"
-      },
-      {
-        "count": 403034,
-        "metric": "characters"
+        "metric": "characters",
+        "count": 522371
       }
     ],
     "sources": [
       {
-        "reference": "Vidal-Gor\u00e8ne, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin, B. (2021, September). RASAM\u2013A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi. In International Conference on Document Analysis and Recognition (pp. 265-281). Springer, Cham",
-        "link": "https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19"
+        "reference": "Chahan Vidal-Gor\u00e8ne, Cl\u00e9ment Salah, No\u00ebmie Lucas, Ali\u00e9nor Decours-Perez, Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216.",
+        "link": "https://ceur-ws.org/Vol-3834/paper35.pdf"
       }
     ],
-    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper.'\n",
+    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper. Following RASAM 1 specifications.",
     "production-software": "Calfa Vision",
     "automatically-aligned": false,
     "_pid": "983e367d9"
@@ -13389,6 +13533,14 @@
         "roles": [
           "project-manager"
         ]
+      },
+      {
+        "name": "Chahan",
+        "surname": "Vidal-Gor\u00e8ne",
+        "orcid": "0000-0003-1567-6508",
+        "roles": [
+          "project-manager"
+        ]
       }
     ],
     "institutions": [
@@ -13397,9 +13549,16 @@
         "roles": [
           "project-manager"
         ]
+      },
+      {
+        "name": "Calfa",
+        "roles": [
+          "project-manager",
+          "transcriber"
+        ]
       }
     ],
-    "description": "The dataset has been collated within the frame of the TariMa project (Tarih al-Maghrib. Writing History in the Maghreb in the modern and contemporary era), sponsored by the French agency Collex-Persee and supervised by Antoine Perrier (CNRS). It comprises different image resolution and size (width from 982px to 8049px), different layouts (double page, multiple columns), and state of conservation. It also mixes microfilms, scans and lithographies. It presents a very wide variety representative of the Maghrebi Arabic production.",
+    "description": "The dataset has been collated within the frame of the TariMa project (Tarih al-Maghrib. Writing History in the Maghreb in the modern and contemporary era), sponsored by the French agency Collex-Persee and led by Antoine Perrier (CNRS). It comprises different image resolution and size (width from 982px to 8049px), different layouts (double page, multiple columns), and state of conservation. It also mixes microfilms, scans and lithographies. It presents a very wide variety representative of the Maghrebi Arabic production.",
     "project-website": "https://www.collexpersee.eu/projet/tarima/",
     "language": [
       "ara"
