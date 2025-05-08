@@ -1,0 +1,72 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: RASAM 2
+url: https://github.com/calfa-co/rasam-dataset
+authors:
+- name: "Vidal-Gorène"
+  surname: Chahan
+  orcid: 0000-0003-1567-6508
+  roles:
+  - project-manager
+- name: Salah
+  surname: "Clément"
+  orcid: 0000-0002-7846-4054
+  roles:
+  - transcriber
+  - quality-control
+- name: Lucas
+  surname: "Noémie"
+  orcid: 0000-0003-2236-6778
+  roles:
+  - project-manager
+  - quality-control
+- name: Decours-Perez
+  surname: "Aliénor"
+  roles:
+  - support
+- name: Antoine
+  surname: Perrier
+  orcid: 0000-0002-5035-4283
+  roles:
+  - project-manager
+  - quality-control
+  - transcriber
+institutions:
+  - name: BULAC
+  - name: Calfa
+  - name: DISTAM
+  - name: GIS MOMM
+description: 'The Dataset is made up of 250 images, with their related ground truth
+  stored in a XML file (pageXML format). Images come from fifteen manuscripts selected
+  among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends RASAM 1 by covering a very wide variety of hands, text density, and cursiveness. This dataset is the result of a collaborative transcription. All the
+  participants are credited on the official deposit. With the support of the French
+  Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East
+  and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.'
+language:
+- ara
+script:
+- iso: Arab
+script-type: only-manuscript
+time:
+  notBefore: '1700'
+  notAfter: '1899'
+hands:
+  count: more-than-10
+  precision: exact
+license:
+- name: Apache-2.0 License
+  url: https://www.apache.org/licenses/LICENSE-2.0
+format: Page-XML
+volume:
+- metric: lines
+  count: 3750
+- metric: files
+  count: 250
+- metric: regions
+  count: 839
+- metric: characters
+  count: 522371
+sources:
+- reference: "Chahan Vidal-Gorène, Clément Salah, Noëmie Lucas, Aliénor Decours-Perez, Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216."
+  link: https://ceur-ws.org/Vol-3834/paper35.pdf
+transcription-guidelines: 'Full description of specifications for transcription available on Github and in the paper. Following RASAM 1 specifications.'
+production-software: "Calfa Vision"
