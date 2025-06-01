@@ -10155,6 +10155,14 @@
     metric: lines
   - count: 1365
     metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des imprimés de Jean Michel (projet SETAF)},\n\
+    url = {https://github.com/SETAFDH/HTR-SETAF-Jean-Michel},\nyear = {2023}\n}\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des imprimés\
+    \ de Jean Michel (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel\n"
 - authors:
   - name: Sonia
     orcid: 0009-0009-7367-048X
@@ -10338,6 +10346,15 @@
     metric: lines
   - count: 751
     metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des Faits de Jésus Christ et du pape (projet\
+    \ SETAF)},\nurl = {https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH},\nyear =\
+    \ {2023}\n}\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des Faits de\
+    \ Jésus Christ et du pape (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH\n"
 - authors:
   - name: Sonia
     orcid: 0009-0009-7367-048X
@@ -10519,6 +10536,15 @@
     metric: lines
   - count: 8546
     metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des imprimés de Pierre de Vingle (projet SETAF)},\n\
+    url = {https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle},\nyear = {2023}\n\
+    }\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des imprimés\
+    \ de Pierre de Vingle (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle\n"
 - authors:
   - name: Alix
     orcid: 0000-0002-0136-4434
