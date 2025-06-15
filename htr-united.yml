@@ -10036,10 +10036,10 @@
     - e
     - s
     - u
-    - a
     - i
-    - n
+    - a
     - t
+    - n
     - r
     - o
     - l
@@ -10048,70 +10048,73 @@
     - p
     - m
     - .
-    - ','
+    - ̃
     - f
     - q
-    - g
-    - ̃
-    - y
-    - b
-    - h
     - /
-    - z
+    - ','
+    - y
+    - h
+    - g
+    - b
     - ⁊
+    - z
     - ¬
-    - ':'
     - C
-    - D
     - x
+    - D
     - E
+    - ':'
     - I
     - P
-    - L
     - S
     - '1'
+    - L
     - A
     - M
-    - Q
     - '2'
-    - U
-    - '?'
+    - Q
+    - ꝰ
+    - ͥ
     - '3'
+    - '?'
+    - ͬ
+    - '4'
     - N
     - T
-    - '4'
-    - O
-    - ͥ
-    - B
+    - U
     - R
-    - ꝰ
-    - H
-    - '6'
     - '5'
-    - ͬ
-    - G
-    - '8'
-    - F
+    - O
+    - '6'
+    - B
     - (
     - )
-    - '0'
-    - '9'
-    - ¶
-    - '7'
-    - ◊
+    - H
     - ꝓ
-    -  
+    - '8'
+    - G
+    - ¶
+    - '0'
     - ꝑ
+    - '7'
+    - '9'
+    - F
+    - ◊
+    - ꝯ
+    -  
+    - ð
     - ᑕ
+    - ᗞ
     - V
     - '-'
     - Y
-    - ;
-    - ᗞ
-    - J
+    - K
     - k
+    - ;
+    - J
+    - "'"
     - ̀
-    - ꝯ
     - Z
     - v
     mode: NFD
@@ -10147,13 +10150,13 @@
     our rules is available on HAL  (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
   volume:
-  - count: 286256
+  - count: 507504
     metric: characters
-  - count: 404
+  - count: 667
     metric: files
-  - count: 11778
+  - count: 19807
     metric: lines
-  - count: 1365
+  - count: 2796
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
     \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
@@ -11554,8 +11557,8 @@
     words).  Annotation of the layout made with SegmOnto controlled vocabulary.
   automatically-aligned: false
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Vlachou-Efstathiou, Malamatenia},\n\
-    title = {Eutyches \"de uerbo\" glossed}\n}\n"
-  _apa: "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed\n"
+    doi = {10.5281/zenodo.15646103},\ntitle = {Eutyches \"de uerbo\" glossed}\n}\n"
+  _apa: "Vlachou-Efstathiou M. Eutyches \"de uerbo\" glossed DOI: 10.5281/zenodo.15646103\n"
 
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Burchards Dekret Digital (BDD) Segmentation Data
