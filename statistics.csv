@@ -250,139 +250,127 @@
 248,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,files,180,Alto-XML,mainly-manuscript
 249,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,lines,3932,Alto-XML,mainly-manuscript
 250,https://github.com/Proyecto-Ocupacion-Araucania-UChile/HTR_Araucania_XIX,HTR - Araucania manuscript XIX,1859,1877,regions,981,Alto-XML,mainly-manuscript
-251,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,characters,507504,Alto-XML,only-typed
-252,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,files,667,Alto-XML,only-typed
-253,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,lines,19807,Alto-XML,only-typed
-254,https://github.com/SETAFDH/HTR-SETAF-Jean-Michel,HTR-SETAF-Jean-Michel,1500,1600,regions,2796,Alto-XML,only-typed
-255,https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH,HTR-SETAF-LesFaictzJCH,1500,1600,characters,311547,Alto-XML,only-typed
-256,https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH,HTR-SETAF-LesFaictzJCH,1500,1600,files,232,Alto-XML,only-typed
-257,https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH,HTR-SETAF-LesFaictzJCH,1500,1600,lines,6853,Alto-XML,only-typed
-258,https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH,HTR-SETAF-LesFaictzJCH,1500,1600,regions,751,Alto-XML,only-typed
-259,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,characters,1718361,Alto-XML,only-typed
-260,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,files,1835,Alto-XML,only-typed
-261,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,lines,64388,Alto-XML,only-typed
-262,https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle,HTR-SETAF-Pierre-de-Vingle,1500,1600,regions,8546,Alto-XML,only-typed
-263,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,characters,8024,Alto-XML,only-manuscript
-264,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,files,4,Alto-XML,only-manuscript
-265,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,lines,144,Alto-XML,only-manuscript
-266,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,regions,8,Alto-XML,only-manuscript
-267,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,characters,27734,Alto-XML,only-manuscript
-268,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,files,45,Alto-XML,only-manuscript
-269,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,lines,1016,Alto-XML,only-manuscript
-270,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,regions,45,Alto-XML,only-manuscript
-271,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,characters,97505,Alto-XML,only-manuscript
-272,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,files,67,Alto-XML,only-manuscript
-273,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,lines,2307,Alto-XML,only-manuscript
-274,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,regions,151,Alto-XML,only-manuscript
-275,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,files,333,Alto-XML,only-manuscript
-276,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,pages,333,Alto-XML,only-manuscript
-277,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,characters,316715,Alto-XML,only-manuscript
-278,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,lines,6989,Alto-XML,only-manuscript
-279,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,lines,1248,Page-XML,only-manuscript
-280,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,characters,104536,Page-XML,only-manuscript
-281,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,files,327,Page-XML,only-manuscript
-282,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,pages,300,Page-XML,only-manuscript
-283,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,lines,7540,Page-XML,only-manuscript
-284,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,files,300,Page-XML,only-manuscript
-285,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,regions,676,Page-XML,only-manuscript
-286,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,characters,403034,Page-XML,only-manuscript
-287,https://github.com/calfa-co/tarima,TariMa,1500,1899,files,120,Page-XML,mainly-manuscript
-288,https://github.com/calfa-co/tarima,TariMa,1500,1899,lines,2673,Page-XML,mainly-manuscript
-289,https://github.com/calfa-co/tarima,TariMa,1500,1899,characters,146667,Page-XML,mainly-manuscript
-290,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
-291,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
-292,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
-293,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
-294,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
-295,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
-296,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
-297,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
-298,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
-299,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
-300,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,lines,7100,Page-XML,only-manuscript
-301,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,files,337,Page-XML,only-manuscript
-302,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,pages,337,Page-XML,only-manuscript
-303,https://github.com/ksefil/NuBIS-OCR,NuBIS-OCR,1602,1989,pages,57,Alto-XML,only-typed
-304,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
-305,https://github.com/michaelscho/bdd-segmentation-data,Burchards Dekret Digital (BDD) Segmentation Data,1000,1199,pages,3000,Page-XML,only-manuscript
-306,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
-307,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
-308,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
-309,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
-310,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,lines,1700,Alto-XML,only-manuscript
-311,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,files,19,Alto-XML,only-manuscript
-312,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,regions,40,Alto-XML,only-manuscript
-313,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,characters,55970,Alto-XML,only-manuscript
-314,https://github.com/pstroe/bullinger-htr,Bullinger HTR Dataset,1523,1575,lines,165673,Image-Text-Pairs,only-manuscript
-315,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,17155,Alto-XML,only-manuscript
-316,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
-317,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
-318,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,46,Alto-XML,only-manuscript
-319,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
-320,https://github.com/sloanelab-org/HTR-Model,The Sloane Lab HTR Model,1680,1750,pages,196,Alto-XML,only-manuscript
-321,https://github.com/vedph/episearch-htr,EpiSearch HTR,1705,1709,files,34,Alto-XML,only-manuscript
-322,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,lines,1698,Page-XML,only-manuscript
-323,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,files,70,Page-XML,only-manuscript
-324,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,regions,178,Page-XML,only-manuscript
-325,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,characters,64952,Page-XML,only-manuscript
-326,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,characters,114273,Alto-XML,only-manuscript
-327,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,files,70,Alto-XML,only-manuscript
-328,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,lines,3374,Alto-XML,only-manuscript
-329,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,pages,50,Alto-XML,only-manuscript
-330,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,regions,574,Alto-XML,only-manuscript
-331,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,characters,83312,Alto-XML,mainly-manuscript
-332,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,lines,2987,Alto-XML,mainly-manuscript
-333,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,pages,200,Alto-XML,mainly-manuscript
-334,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,files,200,Alto-XML,mainly-manuscript
-335,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
-336,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
-337,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
-338,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
-339,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,lines,15190,Page-XML,only-manuscript
-340,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,characters,682486,Page-XML,only-manuscript
-341,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,regions,1076,Page-XML,only-manuscript
-342,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,pages,318,Page-XML,only-manuscript
-343,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
-344,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
-345,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
-346,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
-347,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
-348,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
-349,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
-350,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
-351,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
-352,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
-353,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
-354,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
-355,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
-356,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
-357,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
-358,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
-359,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
-360,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
-361,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
-362,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
-363,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
-364,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
-365,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
-366,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
-367,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
-368,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
-369,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
-370,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
-371,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
-372,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
-373,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
-374,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
-375,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
-376,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
-377,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
-378,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
-379,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
-380,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
-381,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
-382,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
-383,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
-384,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
-385,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
-386,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript
+251,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,characters,8024,Alto-XML,only-manuscript
+252,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,files,4,Alto-XML,only-manuscript
+253,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,lines,144,Alto-XML,only-manuscript
+254,https://github.com/alix-tz/dataset-celestine-doniau-danest,GT Celestine Doniau-Danest,1914,1915,regions,8,Alto-XML,only-manuscript
+255,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,characters,27734,Alto-XML,only-manuscript
+256,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,files,45,Alto-XML,only-manuscript
+257,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,lines,1016,Alto-XML,only-manuscript
+258,https://github.com/alix-tz/moonshines,Moonshines,2023,2023,regions,45,Alto-XML,only-manuscript
+259,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,characters,97505,Alto-XML,only-manuscript
+260,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,files,67,Alto-XML,only-manuscript
+261,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,lines,2307,Alto-XML,only-manuscript
+262,https://github.com/alix-tz/peraire-ground-truth,Peraire Ground Truth,1928,1990,regions,151,Alto-XML,only-manuscript
+263,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,files,333,Alto-XML,only-manuscript
+264,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,pages,333,Alto-XML,only-manuscript
+265,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,characters,316715,Alto-XML,only-manuscript
+266,https://github.com/banq-dcn/Copiste-d-un-jour,Copiste d’un jour,2024,2024,lines,6989,Alto-XML,only-manuscript
+267,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,lines,1248,Page-XML,only-manuscript
+268,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,characters,104536,Page-XML,only-manuscript
+269,https://github.com/calfa-co/chi-know-po,CHI-KNOW-PO CORPUS,1604,1921,files,327,Page-XML,only-manuscript
+270,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,pages,300,Page-XML,only-manuscript
+271,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,lines,7540,Page-XML,only-manuscript
+272,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,files,300,Page-XML,only-manuscript
+273,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,regions,676,Page-XML,only-manuscript
+274,https://github.com/calfa-co/rasam-dataset,RASAM 1,1700,1899,characters,403034,Page-XML,only-manuscript
+275,https://github.com/calfa-co/tarima,TariMa,1500,1899,files,120,Page-XML,mainly-manuscript
+276,https://github.com/calfa-co/tarima,TariMa,1500,1899,lines,2673,Page-XML,mainly-manuscript
+277,https://github.com/calfa-co/tarima,TariMa,1500,1899,characters,146667,Page-XML,mainly-manuscript
+278,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,lines,25628,Alto-XML,only-typed
+279,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,files,965,Alto-XML,only-typed
+280,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,regions,3923,Alto-XML,only-typed
+281,https://github.com/e-ditiones/OCR17plus,OCR17plus,1600,1700,characters,686335,Alto-XML,only-typed
+282,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,pages,300,Alto-XML,only-manuscript
+283,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,images,150,Alto-XML,only-manuscript
+284,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,files,150,Alto-XML,only-manuscript
+285,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,characters,186366,Alto-XML,only-manuscript
+286,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,lines,21557,Alto-XML,only-manuscript
+287,https://github.com/jpmjpmjpm/genauto-td-htr.git,GenAuto TD Corpus,1792,1902,regions,608,Alto-XML,only-manuscript
+288,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,lines,7100,Page-XML,only-manuscript
+289,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,files,337,Page-XML,only-manuscript
+290,https://github.com/jschaefer738b/JosephHookerHTR.git,Joseph Hooker HTR,1850,1911,pages,337,Page-XML,only-manuscript
+291,https://github.com/ksefil/NuBIS-OCR,NuBIS-OCR,1602,1989,pages,57,Alto-XML,only-typed
+292,https://github.com/malamatenia/Eutyches,Eutyches,850,900,pages,65,Alto-XML,only-manuscript
+293,https://github.com/michaelscho/bdd-segmentation-data,Burchards Dekret Digital (BDD) Segmentation Data,1000,1199,pages,3000,Page-XML,only-manuscript
+294,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,lines,5354,Alto-XML,only-typed
+295,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,files,131,Alto-XML,only-typed
+296,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,regions,131,Alto-XML,only-typed
+297,https://github.com/millawell/ocr-data,Shakespeare-Scott translations,1815,1852,characters,192264,Alto-XML,only-typed
+298,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,lines,1700,Alto-XML,only-manuscript
+299,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,files,19,Alto-XML,only-manuscript
+300,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,regions,40,Alto-XML,only-manuscript
+301,https://github.com/parisbible/ground_truth,Paris Bible Project (PBP),1200,1399,characters,55970,Alto-XML,only-manuscript
+302,https://github.com/pstroe/bullinger-htr,Bullinger HTR Dataset,1523,1575,lines,165673,Image-Text-Pairs,only-manuscript
+303,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,characters,17155,Alto-XML,only-manuscript
+304,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,files,17,Alto-XML,only-manuscript
+305,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,lines,457,Alto-XML,only-manuscript
+306,https://github.com/rescribe/carolineminuscule-groundtruth,Caroline Minuscule by Rescribe,800,1199,regions,46,Alto-XML,only-manuscript
+307,https://github.com/sbiay/CdS-edition/tree/main/htr/verite-terrain,Éditer la correspondance de Constance de Salm (1767-1845),1800,1825,lines,1754,Alto-XML,only-manuscript
+308,https://github.com/sloanelab-org/HTR-Model,The Sloane Lab HTR Model,1680,1750,pages,196,Alto-XML,only-manuscript
+309,https://github.com/vedph/episearch-htr,EpiSearch HTR,1705,1709,files,34,Alto-XML,only-manuscript
+310,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,lines,1698,Page-XML,only-manuscript
+311,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,files,70,Page-XML,only-manuscript
+312,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,regions,178,Page-XML,only-manuscript
+313,https://github.com/vivianpl/hpgtr,HPGTR Dataset,901,1600,characters,64952,Page-XML,only-manuscript
+314,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,characters,114273,Alto-XML,only-manuscript
+315,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,files,70,Alto-XML,only-manuscript
+316,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,lines,3374,Alto-XML,only-manuscript
+317,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,pages,50,Alto-XML,only-manuscript
+318,https://gitlab.huma-num.fr/ecrinum/anthologia/htr_cpgr23,Ground truth for the Palatine Anthology (HTR_CPgr23),900,1000,regions,574,Alto-XML,only-manuscript
+319,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,characters,83312,Alto-XML,mainly-manuscript
+320,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,lines,2987,Alto-XML,mainly-manuscript
+321,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,pages,200,Alto-XML,mainly-manuscript
+322,https://gitlab.inha.fr/snr/LaCorrespondanceDoucetReneJean,La Correspondances Jacques Doucet - René Jean,1908,1929,files,200,Alto-XML,mainly-manuscript
+323,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,characters,362629,Alto-XML,mainly-manuscript
+324,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,lines,17880,Alto-XML,mainly-manuscript
+325,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,pages,918,Alto-XML,mainly-manuscript
+326,https://gitlab.inha.fr/snr/LesPapiersBarye,Les Papiers Barye,1819,1914,files,918,Alto-XML,mainly-manuscript
+327,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,lines,15190,Page-XML,only-manuscript
+328,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,characters,682486,Page-XML,only-manuscript
+329,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,regions,1076,Page-XML,only-manuscript
+330,https://nakala.fr/10.34847/nkl.48ad8b8d,DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ,1250,1499,pages,318,Page-XML,only-manuscript
+331,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,lines,43173,Alto-XML,only-typed
+332,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,files,167,Alto-XML,only-typed
+333,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,regions,6318,Alto-XML,only-typed
+334,https://zenodo.org/record/3333627#.YhN1G1vMLUQ,Ground truth for Neue Zürcher Zeitung black letter period,1780,1946,characters,1768146,Alto-XML,only-typed
+335,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,lines,4040,Alto-XML,only-manuscript
+336,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,files,142,Alto-XML,only-manuscript
+337,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,regions,155,Alto-XML,only-manuscript
+338,https://zenodo.org/record/4780947#.YhN5pVvMLUQ,Gwalther Handwriting Ground Truth,1540,1580,characters,144301,Alto-XML,only-manuscript
+339,https://zenodo.org/record/5167263,BiblIA,1000,1499,files,202,Alto-XML,only-manuscript
+340,https://zenodo.org/record/5167263,BiblIA,1000,1499,pages,202,Alto-XML,only-manuscript
+341,https://zenodo.org/record/5167263,BiblIA,1000,1499,lines,12461,Alto-XML,only-manuscript
+342,https://zenodo.org/record/5167263,BiblIA,1000,1499,regions,509,Alto-XML,only-manuscript
+343,https://zenodo.org/record/5167263,BiblIA,1000,1499,characters,278641,Alto-XML,only-manuscript
+344,https://zenodo.org/record/6581158,The POPP datasets,1926,1926,lines,7050,Alto-XML,only-manuscript
+345,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
+346,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
+347,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
+348,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
+349,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
+350,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
+351,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
+352,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
+353,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
+354,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
+355,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
+356,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
+357,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
+358,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
+359,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
+360,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
+361,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
+362,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
+363,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
+364,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
+365,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
+366,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
+367,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
+368,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
+369,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
+370,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
+371,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
+372,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
+373,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
+374,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript
