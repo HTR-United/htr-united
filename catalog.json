@@ -12156,6 +12156,653 @@
     "automatically-aligned": false,
     "_pid": "3a60c6704"
   },
+  "96463e268": {
+    "authors": [
+      {
+        "name": "Sonia",
+        "orcid": "0009-0009-7367-048X",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Solfrini"
+      },
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Genevi\u00e8ve",
+        "orcid": "0009-0006-5367-4262",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Gross"
+      },
+      {
+        "name": "Pierre-Olivier",
+        "orcid": "0009-0009-2475-6017",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Beaulnes"
+      },
+      {
+        "name": "Aur\u00e9lia",
+        "orcid": "0009-0009-9678-9811",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Marques Oliveira"
+      },
+      {
+        "name": "Myl\u00e8ne",
+        "orcid": "0009-0000-9696-9868",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Dejouy"
+      },
+      {
+        "name": "Daniela",
+        "orcid": "0000-0002-2601-668X",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Solfaroli Camillocci"
+      }
+    ],
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "u",
+        "i",
+        "a",
+        "t",
+        "n",
+        "r",
+        "o",
+        "l",
+        "c",
+        "d",
+        "p",
+        "m",
+        ".",
+        "\u0303",
+        "f",
+        "q",
+        ",",
+        "/",
+        "y",
+        "h",
+        "g",
+        "b",
+        "\u204a",
+        "z",
+        "\u00ac",
+        "C",
+        "x",
+        "D",
+        "E",
+        ":",
+        "I",
+        "P",
+        "S",
+        "1",
+        "L",
+        "A",
+        "M",
+        "2",
+        "Q",
+        "\ua770",
+        "\u0365",
+        "3",
+        "?",
+        "4",
+        "\u036c",
+        "N",
+        "T",
+        "U",
+        "R",
+        "5",
+        "6",
+        "O",
+        "B",
+        "8",
+        "(",
+        ")",
+        "\ua753",
+        "H",
+        "G",
+        "0",
+        "F",
+        "\u00b6",
+        "\ua751",
+        "7",
+        "9",
+        "\u25ca",
+        "\ua76f",
+        "\u00a0",
+        "\u00f0",
+        "\u15de",
+        "K",
+        "\u1455",
+        "V",
+        "-",
+        "Y",
+        ";",
+        "J",
+        "Z",
+        "k",
+        "\u0300",
+        "\ua75d",
+        "\u15c5",
+        "v"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/SETAFDH/HTR-SETAF-Jean-Michel/blob/main/CITATION.cff",
+    "description": "OCR data for the SETAF project, 16th-century French prints in Gothic characters.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "type": "CC-BY",
+      "version": 4.0
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1600",
+      "notBefore": "1500"
+    },
+    "title": "HTR-SETAF-Jean-Michel",
+    "transcription-guidelines": "Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our transcription guidelines follow a graphematic approach, without  regularisation. We keep the original punctuation and abbreviations. A detailed presentation of our rules is available on HAL (https://hal.science/hal-04281804).",
+    "url": "https://github.com/SETAFDH/HTR-SETAF-Jean-Michel",
+    "volume": [
+      {
+        "count": 507856,
+        "metric": "characters"
+      },
+      {
+        "count": 667,
+        "metric": "files"
+      },
+      {
+        "count": 19807,
+        "metric": "lines"
+      },
+      {
+        "count": 2797,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and Gross, Genevi\u00e8ve and Beaulnes, Pierre-Olivier and Marques Oliveira, Aur\u00e9lia and Dejouy, Myl\u00e8ne and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle = {Donn\u00e9es OCR et segmentation des imprim\u00e9s de Jean Michel (projet SETAF)},\nurl = {https://github.com/SETAFDH/HTR-SETAF-Jean-Michel},\nyear = {2023}\n}\n",
+    "_apa": "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy M., Solfaroli Camillocci D. (2023). Donn\u00e9es OCR et segmentation des imprim\u00e9s de Jean Michel (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel\n",
+    "_pid": "96463e268"
+  },
+  "9d5c1595c": {
+    "authors": [
+      {
+        "name": "Sonia",
+        "orcid": "0009-0009-7367-048X",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Solfrini"
+      },
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Genevi\u00e8ve",
+        "orcid": "0009-0006-5367-4262",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Gross"
+      },
+      {
+        "name": "Pierre-Olivier",
+        "orcid": "0009-0009-2475-6017",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Beaulnes"
+      },
+      {
+        "name": "Aur\u00e9lia",
+        "orcid": "0009-0009-9678-9811",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Marques Oliveira"
+      },
+      {
+        "name": "Myl\u00e8ne",
+        "orcid": "0009-0000-9696-9868",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Dejouy"
+      },
+      {
+        "name": "Daniela",
+        "orcid": "0000-0002-2601-668X",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Solfaroli Camillocci"
+      }
+    ],
+    "characters": {
+      "members": [
+        "e",
+        "u",
+        "s",
+        "i",
+        "a",
+        "t",
+        "n",
+        "r",
+        "o",
+        "l",
+        "c",
+        "d",
+        "p",
+        "m",
+        ".",
+        "\u017f",
+        "q",
+        "/",
+        "f",
+        "y",
+        "g",
+        "\u0303",
+        "h",
+        ",",
+        "z",
+        "b",
+        "\u204a",
+        "\u00ac",
+        "x",
+        "&",
+        "I",
+        ":",
+        "v",
+        "E",
+        "C",
+        "P",
+        "\u2019",
+        "1",
+        "D",
+        "L",
+        "S",
+        "\u0300",
+        "2",
+        "\u00b6",
+        "\u0301",
+        "A",
+        "M",
+        "R",
+        "3",
+        "\ua770",
+        "N",
+        "?",
+        "\u0365",
+        "'",
+        "T",
+        "Q",
+        "4",
+        "6",
+        "7",
+        "0",
+        "H",
+        "8",
+        "5",
+        "9",
+        "B",
+        "G",
+        "\u036c",
+        "O",
+        "F",
+        "U",
+        "\u25ca",
+        ")",
+        "(",
+        "V",
+        "\u0153",
+        "\ua751",
+        "Z",
+        "\ua753",
+        "J",
+        "-",
+        "\u00df",
+        "K",
+        "\ua76b",
+        "j",
+        "\u0142",
+        "\ua76f",
+        "\u0327",
+        "k",
+        "\ua757",
+        "\u15c5",
+        "\u0302",
+        ";",
+        "\u00f0",
+        "\u0308",
+        "X",
+        "\u1455",
+        "*"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH/blob/main/CITATION.cff",
+    "description": "OCR data for the SETAF project, 16th-century French prints in Gothic and Roman characters.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "type": "CC-BY",
+      "version": 4.0
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1600",
+      "notBefore": "1500"
+    },
+    "title": "HTR-SETAF-LesFaictzJCH",
+    "transcription-guidelines": "Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our transcription guidelines follow a graphematic approach, without regularisation. We keep the original punctuation and abbreviations. A detailed presentation of our rules is available on HAL (https://hal.science/hal-04281804).",
+    "url": "https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH",
+    "volume": [
+      {
+        "count": 311547,
+        "metric": "characters"
+      },
+      {
+        "count": 232,
+        "metric": "files"
+      },
+      {
+        "count": 6853,
+        "metric": "lines"
+      },
+      {
+        "count": 751,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and Gross, Genevi\u00e8ve and Beaulnes, Pierre-Olivier and Marques Oliveira, Aur\u00e9lia and Dejouy, Myl\u00e8ne and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle = {Donn\u00e9es OCR et segmentation des Faits de J\u00e9sus Christ et du pape (projet SETAF)},\nurl = {https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH},\nyear = {2023}\n}\n",
+    "_apa": "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy M., Solfaroli Camillocci D. (2023). Donn\u00e9es OCR et segmentation des Faits de J\u00e9sus Christ et du pape (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH\n",
+    "_pid": "9d5c1595c"
+  },
+  "1f8e04f53": {
+    "authors": [
+      {
+        "name": "Sonia",
+        "orcid": "0009-0009-7367-048X",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Solfrini"
+      },
+      {
+        "name": "Simon",
+        "orcid": "0000-0001-9094-4475",
+        "roles": [
+          "support"
+        ],
+        "surname": "Gabay"
+      },
+      {
+        "name": "Genevi\u00e8ve",
+        "orcid": "0009-0006-5367-4262",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Gross"
+      },
+      {
+        "name": "Pierre-Olivier",
+        "orcid": "0009-0009-2475-6017",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Beaulnes"
+      },
+      {
+        "name": "Aur\u00e9lia",
+        "orcid": "0009-0009-9678-9811",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Marques Oliveira"
+      },
+      {
+        "name": "Myl\u00e8ne",
+        "orcid": "0009-0000-9696-9868",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Dejouy"
+      },
+      {
+        "name": "Daniela",
+        "orcid": "0000-0002-2601-668X",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Solfaroli Camillocci"
+      }
+    ],
+    "characters": {
+      "members": [
+        "e",
+        "s",
+        "u",
+        "i",
+        "a",
+        "t",
+        "r",
+        "n",
+        "o",
+        "l",
+        "c",
+        "d",
+        "p",
+        ".",
+        "\u0303",
+        "m",
+        "/",
+        "q",
+        "f",
+        "y",
+        "g",
+        "h",
+        "b",
+        "\u204a",
+        "z",
+        "\u00ac",
+        ":",
+        "x",
+        "C",
+        "1",
+        "I",
+        "E",
+        "D",
+        "L",
+        "P",
+        "A",
+        "\u0365",
+        "\u00b6",
+        "2",
+        "M",
+        "S",
+        "3",
+        "*",
+        "\u036c",
+        "Q",
+        "\ua770",
+        "?",
+        "4",
+        "T",
+        "N",
+        "5",
+        "6",
+        "R",
+        "U",
+        "0",
+        "8",
+        "H",
+        ",",
+        "7",
+        "O",
+        "9",
+        "(",
+        ")",
+        "\ua753",
+        "G",
+        "\ua751",
+        "B",
+        "F",
+        "\u0308",
+        "\ua76f",
+        "\u0142",
+        "\u00f0",
+        "\u25ca",
+        "-",
+        "\u00a0",
+        "\ua75d",
+        "v",
+        "Z",
+        "k",
+        "'",
+        "K",
+        "Y",
+        "X",
+        "\u0300",
+        "\ua76b",
+        "V",
+        "\u0301",
+        "J",
+        "\ua759",
+        "\u1d49",
+        "w",
+        ";",
+        "\ua757",
+        "\u0307",
+        "\u030c"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff",
+    "description": "OCR data for the SETAF project, 16th-century French prints in Gothic characters.",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "type": "CC-BY",
+      "version": 4.0
+    },
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "FoNDUE",
+    "project-website": "https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-typed",
+    "time": {
+      "notAfter": "1600",
+      "notBefore": "1500"
+    },
+    "title": "HTR-SETAF-Pierre-de-Vingle",
+    "transcription-guidelines": "Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our transcription guidelines follow a graphematic approach, without regularisation. We keep the original punctuation and abbreviations. A detailed presentation of our rules is available on HAL (https://hal.science/hal-04281804).",
+    "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
+    "volume": [
+      {
+        "count": 1824952,
+        "metric": "characters"
+      },
+      {
+        "count": 1979,
+        "metric": "files"
+      },
+      {
+        "count": 68587,
+        "metric": "lines"
+      },
+      {
+        "count": 9274,
+        "metric": "regions"
+      }
+    ],
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and Gross, Genevi\u00e8ve and Beaulnes, Pierre-Olivier and Marques Oliveira, Aur\u00e9lia and Dejouy, Myl\u00e8ne and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle = {Donn\u00e9es OCR et segmentation des imprim\u00e9s de Pierre de Vingle (projet SETAF)},\nurl = {https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle},\nyear = {2023}\n}\n",
+    "_apa": "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy M., Solfaroli Camillocci D. (2023). Donn\u00e9es OCR et segmentation des imprim\u00e9s de Pierre de Vingle (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle\n",
+    "_pid": "1f8e04f53"
+  },
   "b69c3be91": {
     "authors": [
       {
@@ -12873,9 +13520,8 @@
   },
   "983e367d9": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "RASAM 1",
+    "title": "RASAM 2",
     "url": "https://github.com/calfa-co/rasam-dataset",
-    "project-website": "https://calfa.fr/blog/26",
     "authors": [
       {
         "name": "Vidal-Gor\u00e8ne",
@@ -12883,15 +13529,6 @@
         "orcid": "0000-0003-1567-6508",
         "roles": [
           "project-manager"
-        ]
-      },
-      {
-        "name": "Lucas",
-        "surname": "No\u00e9mie",
-        "orcid": "0000-0003-2236-6778",
-        "roles": [
-          "project-manager",
-          "quality-control"
         ]
       },
       {
@@ -12904,6 +13541,15 @@
         ]
       },
       {
+        "name": "Lucas",
+        "surname": "No\u00e9mie",
+        "orcid": "0000-0003-2236-6778",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
         "name": "Decours-Perez",
         "surname": "Ali\u00e9nor",
         "roles": [
@@ -12911,10 +13557,13 @@
         ]
       },
       {
-        "name": "Dupin",
-        "surname": "Boris",
+        "name": "Antoine",
+        "surname": "Perrier",
+        "orcid": "0000-0002-5035-4283",
         "roles": [
-          "support"
+          "project-manager",
+          "quality-control",
+          "transcriber"
         ]
       }
     ],
@@ -12932,7 +13581,7 @@
         "name": "GIS MOMM"
       }
     ],
-    "description": "The Dataset is made up of 300 images, with their related ground truth stored in a XML file (pageXML format). Images come from three manuscripts selected among the collections of the BULAC Library (Paris). It covers a representative part of the handwritten production in Arabic Maghrebi scripts and includes an annotation of the layout (TextRegions, baselines and polygons) and the transcription of the main text. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.",
+    "description": "The Dataset is made up of 250 images, with their related ground truth stored in a XML file (pageXML format). Images come from fifteen manuscripts selected among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends RASAM 1 by covering a very wide variety of hands, text density, and cursiveness. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.",
     "language": [
       "ara"
     ],
@@ -12947,7 +13596,7 @@
       "notAfter": "1899"
     },
     "hands": {
-      "count": "less-than-11",
+      "count": "more-than-10",
       "precision": "exact"
     },
     "license": [
@@ -12959,33 +13608,29 @@
     "format": "Page-XML",
     "volume": [
       {
-        "metric": "pages",
-        "count": 300
+        "metric": "lines",
+        "count": 3750
       },
       {
-        "count": 7540,
-        "metric": "lines"
+        "metric": "files",
+        "count": 250
       },
       {
-        "count": 300,
-        "metric": "files"
+        "metric": "regions",
+        "count": 839
       },
       {
-        "count": 676,
-        "metric": "regions"
-      },
-      {
-        "count": 403034,
-        "metric": "characters"
+        "metric": "characters",
+        "count": 522371
       }
     ],
     "sources": [
       {
-        "reference": "Vidal-Gor\u00e8ne, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin, B. (2021, September). RASAM\u2013A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi. In International Conference on Document Analysis and Recognition (pp. 265-281). Springer, Cham",
-        "link": "https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19"
+        "reference": "Chahan Vidal-Gor\u00e8ne, Cl\u00e9ment Salah, No\u00ebmie Lucas, Ali\u00e9nor Decours-Perez, Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216.",
+        "link": "https://ceur-ws.org/Vol-3834/paper35.pdf"
       }
     ],
-    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper.'\n",
+    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper. Following RASAM 1 specifications.",
     "production-software": "Calfa Vision",
     "automatically-aligned": false,
     "_pid": "983e367d9"

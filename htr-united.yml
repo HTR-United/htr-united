@@ -9989,6 +9989,568 @@
     - ']'
   automatically-aligned: false
 - authors:
+  - name: Sonia
+    orcid: 0009-0009-7367-048X
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Solfrini
+  - name: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - support
+    surname: Gabay
+  - name: Geneviève
+    orcid: 0009-0006-5367-4262
+    roles:
+    - project-manager
+    - quality-control
+    surname: Gross
+  - name: Pierre-Olivier
+    orcid: 0009-0009-2475-6017
+    roles:
+    - transcriber
+    - quality-control
+    surname: Beaulnes
+  - name: Aurélia
+    orcid: 0009-0009-9678-9811
+    roles:
+    - transcriber
+    - quality-control
+    surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
+  - name: Daniela
+    orcid: 0000-0002-2601-668X
+    roles:
+    - project-manager
+    surname: Solfaroli Camillocci
+  characters:
+    members:
+    - e
+    - s
+    - u
+    - i
+    - a
+    - t
+    - n
+    - r
+    - o
+    - l
+    - c
+    - d
+    - p
+    - m
+    - .
+    - ̃
+    - f
+    - q
+    - ','
+    - /
+    - y
+    - h
+    - g
+    - b
+    - ⁊
+    - z
+    - ¬
+    - C
+    - x
+    - D
+    - E
+    - ':'
+    - I
+    - P
+    - S
+    - '1'
+    - L
+    - A
+    - M
+    - '2'
+    - Q
+    - ꝰ
+    - ͥ
+    - '3'
+    - '?'
+    - '4'
+    - ͬ
+    - N
+    - T
+    - U
+    - R
+    - '5'
+    - '6'
+    - O
+    - B
+    - '8'
+    - (
+    - )
+    - ꝓ
+    - H
+    - G
+    - '0'
+    - F
+    - ¶
+    - ꝑ
+    - '7'
+    - '9'
+    - ◊
+    - ꝯ
+    -  
+    - ð
+    - ᗞ
+    - K
+    - ᑕ
+    - V
+    - '-'
+    - Y
+    - ;
+    - J
+    - Z
+    - k
+    - ̀
+    - ꝝ
+    - ᗅ
+    - v
+    mode: NFD
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic
+    characters.
+  format: Alto-XML
+  hands:
+    count: '1'
+    precision: exact
+  language:
+  - fra
+  license:
+    type: CC-BY
+    version: 4.0
+  production-software: eScriptorium + Kraken
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1600'
+    notBefore: '1500'
+  title: HTR-SETAF-Jean-Michel
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
+    Our
+    transcription guidelines follow a graphematic approach, without  regularisation.
+    We keep the original punctuation and abbreviations. A detailed presentation of
+    our rules is available on HAL (https://hal.science/hal-04281804).
+  url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
+  volume:
+  - count: 507856
+    metric: characters
+  - count: 667
+    metric: files
+  - count: 19807
+    metric: lines
+  - count: 2797
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des imprimés de Jean Michel (projet SETAF)},\n\
+    url = {https://github.com/SETAFDH/HTR-SETAF-Jean-Michel},\nyear = {2023}\n}\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des imprimés\
+    \ de Jean Michel (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel\n"
+- authors:
+  - name: Sonia
+    orcid: 0009-0009-7367-048X
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Solfrini
+  - name: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - support
+    surname: Gabay
+  - name: Geneviève
+    orcid: 0009-0006-5367-4262
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Gross
+  - name: Pierre-Olivier
+    orcid: 0009-0009-2475-6017
+    roles:
+    - transcriber
+    - quality-control
+    surname: Beaulnes
+  - name: Aurélia
+    orcid: 0009-0009-9678-9811
+    roles:
+    - transcriber
+    - quality-control
+    surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
+  - name: Daniela
+    orcid: 0000-0002-2601-668X
+    roles:
+    - project-manager
+    surname: Solfaroli Camillocci
+  characters:
+    members:
+    - e
+    - u
+    - s
+    - i
+    - a
+    - t
+    - n
+    - r
+    - o
+    - l
+    - c
+    - d
+    - p
+    - m
+    - .
+    - ſ
+    - q
+    - /
+    - f
+    - y
+    - g
+    - ̃
+    - h
+    - ','
+    - z
+    - b
+    - ⁊
+    - ¬
+    - x
+    - '&'
+    - I
+    - ':'
+    - v
+    - E
+    - C
+    - P
+    - ’
+    - '1'
+    - D
+    - L
+    - S
+    - ̀
+    - '2'
+    - ¶
+    - ́
+    - A
+    - M
+    - R
+    - '3'
+    - ꝰ
+    - N
+    - '?'
+    - ͥ
+    - "'"
+    - T
+    - Q
+    - '4'
+    - '6'
+    - '7'
+    - '0'
+    - H
+    - '8'
+    - '5'
+    - '9'
+    - B
+    - G
+    - ͬ
+    - O
+    - F
+    - U
+    - ◊
+    - )
+    - (
+    - V
+    - œ
+    - ꝑ
+    - Z
+    - ꝓ
+    - J
+    - '-'
+    - ß
+    - K
+    - ꝫ
+    - j
+    - ł
+    - ꝯ
+    - ̧
+    - k
+    - ꝗ
+    - ᗅ
+    - ̂
+    - ;
+    - ð
+    - ̈
+    - X
+    - ᑕ
+    - '*'
+    mode: NFD
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic and Roman
+    characters.
+  format: Alto-XML
+  hands:
+    count: '1'
+    precision: exact
+  language:
+  - fra
+  license:
+    type: CC-BY
+    version: 4.0
+  production-software: eScriptorium + Kraken
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1600'
+    notBefore: '1500'
+  title: HTR-SETAF-LesFaictzJCH
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
+    Our
+    transcription guidelines follow a graphematic approach, without regularisation.
+    We keep the original punctuation and abbreviations. A detailed presentation of
+    our rules is available on HAL (https://hal.science/hal-04281804).
+  url: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH
+  volume:
+  - count: 311547
+    metric: characters
+  - count: 232
+    metric: files
+  - count: 6853
+    metric: lines
+  - count: 751
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des Faits de Jésus Christ et du pape (projet\
+    \ SETAF)},\nurl = {https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH},\nyear =\
+    \ {2023}\n}\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des Faits de\
+    \ Jésus Christ et du pape (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-LesFaictzJCH\n"
+- authors:
+  - name: Sonia
+    orcid: 0009-0009-7367-048X
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    surname: Solfrini
+  - name: Simon
+    orcid: 0000-0001-9094-4475
+    roles:
+    - support
+    surname: Gabay
+  - name: Geneviève
+    orcid: 0009-0006-5367-4262
+    roles:
+    - project-manager
+    - quality-control
+    surname: Gross
+  - name: Pierre-Olivier
+    orcid: 0009-0009-2475-6017
+    roles:
+    - transcriber
+    - quality-control
+    surname: Beaulnes
+  - name: Aurélia
+    orcid: 0009-0009-9678-9811
+    roles:
+    - transcriber
+    - quality-control
+    surname: Marques Oliveira
+  - name: Mylène
+    orcid: 0009-0000-9696-9868
+    roles:
+    - transcriber
+    - quality-control
+    surname: Dejouy
+  - name: Daniela
+    orcid: 0000-0002-2601-668X
+    roles:
+    - project-manager
+    surname: Solfaroli Camillocci
+  characters:
+    members:
+    - e
+    - s
+    - u
+    - i
+    - a
+    - t
+    - r
+    - n
+    - o
+    - l
+    - c
+    - d
+    - p
+    - .
+    - ̃
+    - m
+    - /
+    - q
+    - f
+    - y
+    - g
+    - h
+    - b
+    - ⁊
+    - z
+    - ¬
+    - ':'
+    - x
+    - C
+    - '1'
+    - I
+    - E
+    - D
+    - L
+    - P
+    - A
+    - ͥ
+    - ¶
+    - '2'
+    - M
+    - S
+    - '3'
+    - '*'
+    - ͬ
+    - Q
+    - ꝰ
+    - '?'
+    - '4'
+    - T
+    - N
+    - '5'
+    - '6'
+    - R
+    - U
+    - '0'
+    - '8'
+    - H
+    - ','
+    - '7'
+    - O
+    - '9'
+    - (
+    - )
+    - ꝓ
+    - G
+    - ꝑ
+    - B
+    - F
+    - ̈
+    - ꝯ
+    - ł
+    - ð
+    - ◊
+    - '-'
+    -  
+    - ꝝ
+    - v
+    - Z
+    - k
+    - "'"
+    - K
+    - Y
+    - X
+    - ̀
+    - ꝫ
+    - V
+    - ́
+    - J
+    - ꝙ
+    - ᵉ
+    - w
+    - ;
+    - ꝗ
+    - ̇
+    - ̌
+    mode: NFD
+  citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff
+  description: >-
+    OCR data for the SETAF project, 16th-century French prints in Gothic
+    characters.
+  format: Alto-XML
+  hands:
+    count: '1'
+    precision: exact
+  language:
+  - fra
+  license:
+    type: CC-BY
+    version: 4.0
+  production-software: eScriptorium + Kraken
+  project-name: FoNDUE
+  project-website: >-
+    https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-typed
+  time:
+    notAfter: '1600'
+    notBefore: '1500'
+  title: HTR-SETAF-Pierre-de-Vingle
+  transcription-guidelines: >-
+    Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
+    Our
+    transcription guidelines follow a graphematic approach, without regularisation.
+    We keep the original punctuation and abbreviations. A detailed presentation of
+    our rules is available on HAL (https://hal.science/hal-04281804).
+  url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
+  volume:
+  - count: 1824952
+    metric: characters
+  - count: 1979
+    metric: files
+  - count: 68587
+    metric: lines
+  - count: 9274
+    metric: regions
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
+    \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
+    \ and Dejouy, Mylène and Solfaroli Camillocci, Daniela},\nmonth = {12},\ntitle\
+    \ = {Données OCR et segmentation des imprimés de Pierre de Vingle (projet SETAF)},\n\
+    url = {https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle},\nyear = {2023}\n\
+    }\n"
+  _apa: "Solfrini S., Gabay S., Gross G., Beaulnes P., Marques Oliveira A., Dejouy\
+    \ M., Solfaroli Camillocci D. (2023). Données OCR et segmentation des imprimés\
+    \ de Pierre de Vingle (projet SETAF) (version 1.0). URL: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle\n"
+- authors:
   - name: Alix
     orcid: 0000-0002-0136-4434
     roles:
@@ -10598,49 +11160,50 @@
     based on the online dictionary of variants (https://dict.variants.moe.edu.tw/).'
   production-software: Calfa Vision
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: RASAM 1
+  title: RASAM 2
   url: https://github.com/calfa-co/rasam-dataset
-  project-website: https://calfa.fr/blog/26
   authors:
   - name: Vidal-Gorène
     surname: Chahan
     orcid: 0000-0003-1567-6508
     roles:
     - project-manager
-  - name: Lucas
-    surname: Noémie
-    orcid: 0000-0003-2236-6778
-    roles:
-    - project-manager
-    - quality-control
   - name: Salah
     surname: Clément
     orcid: 0000-0002-7846-4054
     roles:
     - transcriber
     - quality-control
+  - name: Lucas
+    surname: Noémie
+    orcid: 0000-0003-2236-6778
+    roles:
+    - project-manager
+    - quality-control
   - name: Decours-Perez
     surname: Aliénor
     roles:
     - support
-  - name: Dupin
-    surname: Boris
+  - name: Antoine
+    surname: Perrier
+    orcid: 0000-0002-5035-4283
     roles:
-    - support
+    - project-manager
+    - quality-control
+    - transcriber
   institutions:
   - name: BULAC
   - name: Calfa
   - name: DISTAM
   - name: GIS MOMM
-  description: The Dataset is made up of 300 images, with their related ground truth
-    stored in a XML file (pageXML format). Images come from three manuscripts selected
-    among the collections of the BULAC Library (Paris). It covers a representative
-    part of the handwritten production in Arabic Maghrebi scripts and includes an
-    annotation of the layout (TextRegions, baselines and polygons) and the transcription
-    of the main text. This dataset is the result of a collaborative transcription.
-    All the participants are credited on the official deposit. With the support of
-    the French Ministry of Higher Education, Research and Innovation, the Research
-    Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
+  description: The Dataset is made up of 250 images, with their related ground truth
+    stored in a XML file (pageXML format). Images come from fifteen manuscripts selected
+    among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends
+    RASAM 1 by covering a very wide variety of hands, text density, and cursiveness.
+    This dataset is the result of a collaborative transcription. All the participants
+    are credited on the official deposit. With the support of the French Ministry
+    of Higher Education, Research and Innovation, the Research Consortium Middle-East
+    and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
   language:
   - ara
   script:
@@ -10650,31 +11213,29 @@
     notBefore: '1700'
     notAfter: '1899'
   hands:
-    count: less-than-11
+    count: more-than-10
     precision: exact
   license:
   - name: Apache-2.0 License
     url: https://www.apache.org/licenses/LICENSE-2.0
   format: Page-XML
   volume:
-  - metric: pages
-    count: 300
-  - count: 7540
-    metric: lines
-  - count: 300
-    metric: files
-  - count: 676
-    metric: regions
-  - count: 403034
-    metric: characters
+  - metric: lines
+    count: 3750
+  - metric: files
+    count: 250
+  - metric: regions
+    count: 839
+  - metric: characters
+    count: 522371
   sources:
-  - reference: Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,
-      B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts
-      in Arabic Maghrebi. In International Conference on Document Analysis and Recognition
-      (pp. 265-281). Springer, Cham
-    link: https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19
-  transcription-guidelines: "Full description of specifications for transcription\
-    \ available on Github and in the paper.'\n"
+  - reference: 'Chahan Vidal-Gorène, Clément Salah, Noëmie Lucas, Aliénor Decours-Perez,
+      Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with
+      RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities
+      Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216.'
+    link: https://ceur-ws.org/Vol-3834/paper35.pdf
+  transcription-guidelines: Full description of specifications for transcription available
+    on Github and in the paper. Following RASAM 1 specifications.
   production-software: Calfa Vision
   automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
