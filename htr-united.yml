@@ -10533,11 +10533,11 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1825001
+  - count: 1825121
     metric: characters
   - count: 1979
     metric: files
-  - count: 68587
+  - count: 68588
     metric: lines
   - count: 9274
     metric: regions
@@ -11160,50 +11160,49 @@
     based on the online dictionary of variants (https://dict.variants.moe.edu.tw/).'
   production-software: Calfa Vision
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: RASAM 2
+  title: RASAM 1
   url: https://github.com/calfa-co/rasam-dataset
+  project-website: https://calfa.fr/blog/26
   authors:
   - name: Vidal-Gorène
     surname: Chahan
     orcid: 0000-0003-1567-6508
     roles:
     - project-manager
-  - name: Salah
-    surname: Clément
-    orcid: 0000-0002-7846-4054
-    roles:
-    - transcriber
-    - quality-control
   - name: Lucas
     surname: Noémie
     orcid: 0000-0003-2236-6778
     roles:
     - project-manager
     - quality-control
+  - name: Salah
+    surname: Clément
+    orcid: 0000-0002-7846-4054
+    roles:
+    - transcriber
+    - quality-control
   - name: Decours-Perez
     surname: Aliénor
     roles:
     - support
-  - name: Antoine
-    surname: Perrier
-    orcid: 0000-0002-5035-4283
+  - name: Dupin
+    surname: Boris
     roles:
-    - project-manager
-    - quality-control
-    - transcriber
+    - support
   institutions:
   - name: BULAC
   - name: Calfa
   - name: DISTAM
   - name: GIS MOMM
-  description: The Dataset is made up of 250 images, with their related ground truth
-    stored in a XML file (pageXML format). Images come from fifteen manuscripts selected
-    among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends
-    RASAM 1 by covering a very wide variety of hands, text density, and cursiveness.
-    This dataset is the result of a collaborative transcription. All the participants
-    are credited on the official deposit. With the support of the French Ministry
-    of Higher Education, Research and Innovation, the Research Consortium Middle-East
-    and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
+  description: The Dataset is made up of 300 images, with their related ground truth
+    stored in a XML file (pageXML format). Images come from three manuscripts selected
+    among the collections of the BULAC Library (Paris). It covers a representative
+    part of the handwritten production in Arabic Maghrebi scripts and includes an
+    annotation of the layout (TextRegions, baselines and polygons) and the transcription
+    of the main text. This dataset is the result of a collaborative transcription.
+    All the participants are credited on the official deposit. With the support of
+    the French Ministry of Higher Education, Research and Innovation, the Research
+    Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.
   language:
   - ara
   script:
@@ -11213,29 +11212,31 @@
     notBefore: '1700'
     notAfter: '1899'
   hands:
-    count: more-than-10
+    count: less-than-11
     precision: exact
   license:
   - name: Apache-2.0 License
     url: https://www.apache.org/licenses/LICENSE-2.0
   format: Page-XML
   volume:
-  - metric: lines
-    count: 3750
-  - metric: files
-    count: 250
-  - metric: regions
-    count: 839
-  - metric: characters
-    count: 522371
+  - metric: pages
+    count: 300
+  - count: 7540
+    metric: lines
+  - count: 300
+    metric: files
+  - count: 676
+    metric: regions
+  - count: 403034
+    metric: characters
   sources:
-  - reference: 'Chahan Vidal-Gorène, Clément Salah, Noëmie Lucas, Aliénor Decours-Perez,
-      Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with
-      RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities
-      Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216.'
-    link: https://ceur-ws.org/Vol-3834/paper35.pdf
-  transcription-guidelines: Full description of specifications for transcription available
-    on Github and in the paper. Following RASAM 1 specifications.
+  - reference: Vidal-Gorène, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin,
+      B. (2021, September). RASAM–A Dataset for the Recognition and Analysis of Scripts
+      in Arabic Maghrebi. In International Conference on Document Analysis and Recognition
+      (pp. 265-281). Springer, Cham
+    link: https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19
+  transcription-guidelines: "Full description of specifications for transcription\
+    \ available on Github and in the paper.'\n"
   production-software: Calfa Vision
   automatically-aligned: false
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
