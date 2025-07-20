@@ -10533,7 +10533,7 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1825121
+  - count: 1825120
     metric: characters
   - count: 1979
     metric: files
