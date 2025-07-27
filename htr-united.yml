@@ -10048,75 +10048,76 @@
     - m
     - .
     - ̃
-    - f
     - q
-    - ','
+    - f
     - /
     - y
     - h
     - g
     - b
+    - ','
     - ⁊
     - z
     - ¬
     - C
     - x
     - D
-    - E
     - ':'
+    - E
     - I
+    - '1'
     - P
     - S
-    - '1'
     - L
     - A
-    - M
     - '2'
-    - Q
+    - M
     - ꝰ
     - ͥ
+    - Q
     - '3'
-    - '?'
     - '4'
     - ͬ
-    - N
     - T
-    - U
-    - R
+    - N
+    - '?'
     - '5'
+    - R
+    - U
     - '6'
-    - O
-    - B
-    - '8'
-    - (
-    - )
-    - ꝓ
-    - H
-    - G
-    - '0'
-    - F
     - ¶
+    - O
+    - (
+    - '8'
+    - H
+    - )
+    - '0'
     - ꝑ
+    - B
     - '7'
+    - G
+    - F
+    - ꝓ
     - '9'
     - ◊
     - ꝯ
-    -  
     - ð
+    -  
     - ᗞ
     - K
     - ᑕ
-    - V
     - '-'
+    - V
+    - Z
     - Y
     - ;
     - J
-    - Z
+    - ꝝ
     - k
     - ̀
-    - ꝝ
     - ᗅ
     - v
+    - ł
     mode: NFD
   citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel/blob/main/CITATION.cff
   description: >-
@@ -10151,13 +10152,13 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
   volume:
-  - count: 507856
+  - count: 614554
     metric: characters
-  - count: 667
+  - count: 811
     metric: files
-  - count: 19807
+  - count: 24004
     metric: lines
-  - count: 2797
+  - count: 3525
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
     \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
@@ -10417,9 +10418,9 @@
     - c
     - d
     - p
-    - .
-    - ̃
     - m
+    - ̃
+    - .
     - /
     - q
     - f
@@ -10436,12 +10437,12 @@
     - '1'
     - I
     - E
-    - D
     - L
+    - D
     - P
     - A
-    - ͥ
     - ¶
+    - ͥ
     - '2'
     - M
     - S
@@ -10449,21 +10450,21 @@
     - '*'
     - ͬ
     - Q
-    - ꝰ
     - '?'
     - '4'
-    - T
     - N
+    - T
+    - ꝰ
     - '5'
     - '6'
     - R
     - U
     - '0'
     - '8'
-    - H
     - ','
-    - '7'
+    - H
     - O
+    - '7'
     - '9'
     - (
     - )
@@ -10533,13 +10534,13 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1825120
+  - count: 1718422
     metric: characters
-  - count: 1979
+  - count: 1835
     metric: files
-  - count: 68588
+  - count: 64391
     metric: lines
-  - count: 9274
+  - count: 8546
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
     \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
