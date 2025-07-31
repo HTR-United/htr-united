@@ -364,6 +364,77 @@
     \  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution\
     \ 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: AMSMB HTR
+  url: https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC
+  authors:
+  - name: Mariona
+    surname: Coll Ardanuy
+    orcid: 0000-0001-8455-7196
+    roles:
+    - project-manager
+    - quality-control
+    - support
+  - name: Ramon
+    surname: Sarobe
+    orcid: 0000-0003-2099-3567
+    roles:
+    - transcriber
+    - aligner
+  - name: Coral
+    surname: Cuadrada
+    orcid: 0000-0003-4577-2381
+    roles:
+    - project-manager
+    - digitization
+  institutions:
+  - name: Barcelona Supercomputing Center
+  - name: Arxiu dels Marquesos de Santa Maria de Barberà
+  - name: Arxiu Municipal de Vilassar de Dalt
+  description: >-
+    Dataset for handwritten text recognition on medieval notarial charters written
+    on parchment (1208-1499). The dataset is comprised of 100 digitized
+    manuscripts (3,369 lines), carefully selected to represent the large variation
+    that is present in the sources, encompassing at least 80 distinct hands and
+    various document types (from sales and inventories to last wills and marriage
+    contracts). Written primarily in Medieval Latin with fragments in Medieval
+    Catalan, these manuscripts exhibit varying stages of preservation and degrees
+    of deterioration.
+  project-website: https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh
+  language:
+  - lat
+  - cat
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '1208'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: exact
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Page-XML
+  sources:
+  - reference: >-
+      Coll Ardanuy, M., Cuadrada, C., & Sarobe, R. (2025). AMSMB HTR: A Dataset
+      for Handwritten Text Recognition in Medieval Notarial Charters Written on
+      Parchment (1208-1499) [Dataset]. BSC Dataverse.
+    link: https://dataverse.bsc.es/dataset.xhtml?persistentId=perma:BSC/0VB0MC
+  volume:
+  - metric: lines
+    count: 3369
+  - metric: files
+    count: 100
+  transcription-guidelines: >-
+    The transcription follows a semi-diplomatic approach, in which abbreviations
+    and symbols are expanded. Annotation and transcription decisions are
+    documented in the datasheet accompanying the original dataset at:
+    https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC.
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Ground truth data for printed Devanagari
   url: https://doi.org/10.11588/data/EGOKEI
   authors:
