@@ -1,0 +1,38 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: HTR Front Justice
+url: https://github.com/Front-Justice/htr-front-justice.git
+authors:
+ - name: Théo
+   surname: Burnel
+   orcid: 0000-0003-2235-0565
+   roles:
+     - transcriber
+     - digitization
+ - name: Giovanni Pietro
+   surname: Vitali
+   orcid: 0000-0003-2722-6766
+   roles:
+     - project-manager
+institutions: []
+description: >-
+ Some transcriptions of minute books from military court councils during the
+ First World War
+language:
+ - fra
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: evenly-mixed
+time:
+ notBefore: '1914'
+ notAfter: '1919'
+hands:
+ count: more-than-10
+ precision: estimated
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+citation-file-link: >-
+ https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
