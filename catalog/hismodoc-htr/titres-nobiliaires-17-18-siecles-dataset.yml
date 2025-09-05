@@ -1,0 +1,69 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Jeu de données HTR « Titres nobiliaires 17e-18e siècles »
+url: https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/tree/main
+authors:
+ - name: Jean-François
+   surname: Moufflet
+   roles:
+     - transcriber
+     - project-manager
+     - quality-control
+     - digitization
+ - name: Chloé
+   surname: Fize
+   roles:
+     - transcriber
+     - aligner
+ - name: Lucas
+   surname: Terriel
+   orcid: 0000-0002-9189-258X
+   roles:
+     - transcriber
+     - aligner
+     - quality-control
+     - support
+institutions: []
+description: >-
+ Ce dataset pour la reconnaissance des écritures automatiques est composé d’un
+ mélange de transcriptions de documents du 17e-18 siècle (actes de mariage,
+ preuves de noblesse etc.), essentiellement en français, et provenant de la
+ série M, titre III "Titres nobiliaires" des Archives nationales de France.
+language:
+ - fra
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1600'
+ notAfter: '1799'
+hands:
+ count: less-than-11
+ precision: estimated
+license:
+ name: Etalab OL 2.0
+ url: https://spdx.org/licenses/etalab-2.0.html
+format: Alto-XML
+volume:
+ - metric: lines
+   count: 726
+ - metric: pages
+   count: 44
+ - metric: regions
+   count: 242
+ - metric: characters
+   count: 25458
+citation-file-link: https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/blob/main/CITATION.cff
+transcription-guidelines: >-
+ Les transcriptions suivent les conventions éditoriales définies par :
+
+ Bernard Barbiche, Conseils pour l’édition des textes de l’époque moderne
+ (XVIe-XVIIIe siècle), École nationale des chartes, publié en ligne sur Thélème
+ (consulté le 01/03/2025).
+
+ Autres précisions : 
+
+ - Les abréviations ont été résolues.
+
+ - L'orthographe d'origine a été conservée, y compris les fautes éventuelles.
