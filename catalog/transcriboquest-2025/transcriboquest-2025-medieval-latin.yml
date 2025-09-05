@@ -1,0 +1,29 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: 'TranscriboQuest 2025: Medieval Latin'
+url: 10.5281/zenodo.17062009
+authors: []
+institutions: []
+description: Dataset from TranscriboQuest 2025, Medieval Latin group.
+language:
+ - lat
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '800'
+ notAfter: '1499'
+hands:
+ count: '1'
+ precision: exact
+license:
+ name: CC-BY-NC-SA 4.0
+ url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+ - metric: lines
+   count: 5060
+transcription-guidelines: |-
+ transcription — https://catmus-guidelines.github.io/
+ segmentation — https://segmonto.github.io/
