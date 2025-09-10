@@ -1,7 +1,50 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: 'TranscriboQuest 2025: Medieval Latin'
 url: 10.5281/zenodo.17062009
-authors: [Agnès Boutreux, Romain Chevalier, Chiara Corongiu, Sarah Gaucher, Estelle Guéville, Annabelle Kienzl, Jan Maliszewski, Matthias Gille Levenson (supervisor)]
+authors:
+  - name: Boutreux
+    surname: Agnès
+    roles:
+      - transcriber
+authors:
+  - name: Chevalier
+    surname: Romain
+    roles:
+      - transcriber
+authors:
+  - name: Corongiu
+    surname: Chiara
+    roles:
+      - transcriber
+authors:
+  - name: Gaucher
+    surname: Sarah
+    orcid: 0000-0002-1605-3583
+    roles:
+      - transcriber
+authors:
+  - name: Guéville
+    surname: Estelle
+    orcid: 0000-0003-2603-1051
+    roles:
+      - transcriber
+authors:
+  - name: Kienzl
+    surname: Annabelle
+    roles:
+      - transcriber
+authors:
+  - name: Maliszewski
+    surname: Jan
+    roles:
+      - transcriber
+authors:
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+      - supervisor
+      - quality-control
 description: Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset focuses on layout. All manuscripts are glossed latin manuscripts with complex layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed. 
 language:
  - lat
@@ -14,7 +57,7 @@ time:
  notBefore: '800'
  notAfter: '1499'
 hands:
- count: '10'
+ count: 'more-than-10'
  precision: estimated
 license:
  name: CC-BY-NC-SA 4.0
