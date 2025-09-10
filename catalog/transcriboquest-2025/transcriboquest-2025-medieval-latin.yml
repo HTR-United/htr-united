@@ -36,7 +36,8 @@ authors:
     surname: Matthias
     orcid: 0000-0001-9488-5986
     roles:
-      - supervisor
+      - project-manager
+      - support
       - quality-control
 description: Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset focuses on layout. All manuscripts are glossed latin manuscripts with complex layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed. 
 language:
