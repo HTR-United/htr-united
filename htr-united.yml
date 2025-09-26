@@ -49,6 +49,77 @@
     count: 800
   transcription-guidelines: CATMuS Guidelines (https://catmus-guidelines.github.io)
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: 'TranscriboQuest 2025: Medieval Latin'
+  url: 10.5281/zenodo.17062009
+  authors:
+  - name: Boutreux
+    surname: Agnès
+    roles:
+    - transcriber
+  - name: Chevalier
+    surname: Romain
+    roles:
+    - transcriber
+  - name: Corongiu
+    surname: Chiara
+    roles:
+    - transcriber
+  - name: Gaucher
+    surname: Sarah
+    orcid: 0000-0002-1605-3583
+    roles:
+    - transcriber
+  - name: Guéville
+    surname: Estelle
+    orcid: 0000-0003-2603-1051
+    roles:
+    - transcriber
+  - name: Kienzl
+    surname: Annabelle
+    roles:
+    - transcriber
+  - name: Maliszewski
+    surname: Jan
+    roles:
+    - transcriber
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - project-manager
+    - support
+    - quality-control
+  description: Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset
+    focuses on layout. All manuscripts are glossed latin manuscripts with complex
+    layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed.
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '800'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+    name: CC-BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 37
+  - metric: lines
+    count: 5060
+  - metric: regions
+    count: 358
+  transcription-guidelines: |-
+    transcription — https://catmus-guidelines.github.io/
+    segmentation — https://segmonto.github.io/
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ÖNB, Cod. 3891. Ground Truth
   url: 10.5281/zenodo.7467249
   authors:
@@ -10489,15 +10560,15 @@
     - c
     - d
     - p
+    - .
     - m
     - ̃
-    - .
     - /
     - q
     - f
-    - y
-    - g
     - h
+    - g
+    - y
     - b
     - ⁊
     - z
@@ -10505,44 +10576,44 @@
     - ':'
     - x
     - C
-    - '1'
     - I
     - E
-    - L
+    - '1'
     - D
+    - L
     - P
     - A
     - ¶
     - ͥ
-    - '2'
     - M
+    - '2'
     - S
     - '3'
     - '*'
     - ͬ
     - Q
     - '?'
-    - '4'
-    - N
     - T
+    - N
+    - '4'
     - ꝰ
     - '5'
-    - '6'
     - R
+    - '6'
     - U
     - '0'
     - '8'
-    - ','
     - H
+    - ','
     - O
     - '7'
     - '9'
+    - G
     - (
     - )
     - ꝓ
-    - G
-    - ꝑ
     - B
+    - ꝑ
     - F
     - ̈
     - ꝯ
@@ -10551,10 +10622,10 @@
     - ◊
     - '-'
     -  
+    - k
     - ꝝ
     - v
     - Z
-    - k
     - "'"
     - K
     - Y
@@ -10605,13 +10676,13 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1718422
+  - count: 1763608
     metric: characters
-  - count: 1835
+  - count: 1843
     metric: files
-  - count: 64391
+  - count: 65862
     metric: lines
-  - count: 8546
+  - count: 8596
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
     \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
