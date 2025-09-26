@@ -367,30 +367,34 @@
 365,https://zenodo.org/record/7467027#.Y6LRj3bMK3B,Wien ÖNB Cod. 2160 f. 164-184 Ground Truth from HTR Winter School 2022,850,900,pages,40,Alto-XML,only-manuscript
 366,https://zenodo.org/record/7467034#.Y6LQZBWZM2w,Padeřov-Bible-handwriting-ground-truth,1432,1435,pages,63,Page-XML,only-manuscript
 367,https://zenodo.org/record/8041668,Belfort,1790,1946,lines,24105,Image-Text-Pairs,only-manuscript
-368,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
-369,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
-370,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
-371,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
-372,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
-373,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
-374,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
-375,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
-376,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
-377,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
-378,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
-379,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
-380,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
-381,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
-382,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
-383,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
-384,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
-385,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
-386,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
-387,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
-388,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
-389,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
-390,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
-391,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
-392,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
-393,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
-394,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript
+368,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,files,3316,Alto-XML,only-manuscript
+369,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,lines,95990,Alto-XML,only-manuscript
+370,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,regions,9439,Alto-XML,only-manuscript
+371,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,characters,2997053,Alto-XML,only-manuscript
+372,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
+373,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
+374,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
+375,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
+376,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
+377,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
+378,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
+379,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
+380,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
+381,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
+382,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
+383,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
+384,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
+385,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
+386,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
+387,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
+388,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
+389,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
+390,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
+391,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
+392,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
+393,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
+394,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
+395,zenodo.org/records/11191457,ARletta,1600,1940,lines,431359,Page-XML,only-manuscript
+396,zenodo.org/records/11191457,ARletta,1600,1940,regions,44536,Page-XML,only-manuscript
+397,zenodo.org/records/11191457,ARletta,1600,1940,pages,10267,Page-XML,only-manuscript
+398,zenodo.org/records/11191457,ARletta,1600,1940,characters,14253206,Page-XML,only-manuscript

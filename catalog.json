@@ -16342,6 +16342,119 @@
     "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {The Belfort dataset: Handwritten Text Recognition\n                   from Crowdsourced Annotations\n                  },\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668},\n}",
     "_pid": "96b246dfa"
   },
+  "08cd06fcf": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English",
+    "url": "https://zenodo.org/records/15776323",
+    "authors": [
+      {
+        "name": "David Ragnar",
+        "surname": "Nelson",
+        "orcid": "0009-0006-7277-6600",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Jacob",
+        "surname": "Myers",
+        "orcid": "0009-0000-4976-3736",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Travis",
+        "surname": "Catalano",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Bryanna",
+        "surname": "Nase",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Victoria",
+        "surname": "Baker",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Isabella",
+        "surname": "Kolic",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Yumi Dineen",
+        "surname": "Shiroma",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The Revolutionary City is a partnership between the American Philosophical Society, the Historical Society of Pennsylvania, and the Library Company of Philadelphia to digitize all manuscript material related to Philadelphia and the American Revolution (1763-1804). This dataset is a transcribed subset of the larger digitized corpus, provided in ALTO format with an intended use in training Handwritten Text Recognition (HTR) models. The material is overwhelmingly in English, though a few letters in French have been included. The material contains a mixture of correspondence and journals. The correspondence has been annotated to distinguish between the different parts of a letter (Salutation, Date and Address, Addressee, Address, Closing, Postscript). The transcriptions were produced by staff and interns at the American Philosophical Society. Each document was reviewed at least once by another transcriber. The corpus exhibits a wide variety of variation in hands, handwriting styles, paper quality and levels of damage. The corpus encompasses material from 1758 to 1805, but the majority of the documents fall between the years 1774 to 1783.",
+    "project-name": "The Revolutionary City",
+    "project-website": "https://therevolutionarycity.org",
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1758",
+      "notAfter": "1805"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "files",
+        "count": 3316
+      },
+      {
+        "metric": "lines",
+        "count": 95990
+      },
+      {
+        "metric": "regions",
+        "count": 9439
+      },
+      {
+        "metric": "characters",
+        "count": 2997053
+      }
+    ],
+    "citation-file-link": "https://zenodo.org/records/15776323/files/CITATION.cff",
+    "transcription-guidelines": "Transcribers followed diplomatic transcription conventions. All abbreviations were transcribed as written. Superscript text was transcribed with a carat (^). Linebreaks were normalized to use a plain dash (-) regardless of the character used in the original document. The early modern glyph for \"per\" (\u214c) was transcribed as \"per.\" Other infrequently occurring glyphs were transcribed as written. Transcribers were advised to produce their best guesses for illegible text, but text that was illegible due to damage or other insurmountable problems was transcribed as [___]. Square brackets were used to indicate crossed-out text.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Nelson, David Ragnar and Myers, Jacob and Catalano, Travis and Nase, Bryanna and Baker, Victoria and Kolic, Isabella and Shiroma, Yumi Dineen},\ndoi = {10.5281/zenodo.15776323},\nmonth = {6},\ntitle = {The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English},\nurl = {https://therevolutionarycity.org},\nyear = {2025}\n}\n",
+    "_apa": "Nelson D.R., Myers J., Catalano T., Nase B., Baker V., Kolic I., Shiroma Y.D. (2025). The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English (version 1.0). DOI: 10.5281/zenodo.15776323 URL: https://therevolutionarycity.org\n",
+    "_pid": "08cd06fcf"
+  },
   "fc63dcc30": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "EPARCHOS",
