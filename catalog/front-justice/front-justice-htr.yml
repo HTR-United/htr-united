@@ -2,37 +2,142 @@ schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: HTR Front Justice
 url: https://github.com/Front-Justice/htr-front-justice.git
 authors:
- - name: Théo
-   surname: Burnel
-   orcid: 0000-0003-2235-0565
-   roles:
-     - transcriber
-     - digitization
- - name: Giovanni Pietro
-   surname: Vitali
-   orcid: 0000-0003-2722-6766
-   roles:
-     - project-manager
+- name: Théo
+  orcid: 0000-0003-2235-0565
+  roles:
+  - transcriber
+  - digitization
+  surname: Burnel
+- name: Giovanni Pietro
+  orcid: 0000-0003-2722-6766
+  roles:
+  - project-manager
+  surname: Vitali
 institutions: []
 description: >-
- Some transcriptions of minute books from military court councils during the
- First World War
+  Some transcriptions of minute books from military court councils during the
+  First World War
 language:
- - fra
+- fra
 production-software: eScriptorium + Kraken
 automatically-aligned: false
 script:
- - iso: Latn
+- iso: Latn
 script-type: evenly-mixed
 time:
- notBefore: '1914'
- notAfter: '1919'
+  notAfter: '1919'
+  notBefore: '1914'
 hands:
- count: more-than-10
- precision: estimated
+  count: more-than-10
+  precision: estimated
 license:
- name: CC-BY 4.0
- url: https://creativecommons.org/licenses/by/4.0/
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
 format: Alto-XML
 citation-file-link: >-
- https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
+  https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
+volume:
+- count: 795781
+  metric: characters
+- count: 250
+  metric: files
+- count: 13044
+  metric: lines
+- count: 1333
+  metric: regions
+transcription-guidelines: >-
+  See README (Annotation and Transcription Guidelines section)
+characters:
+  members:
+  - e
+  - .
+  - i
+  - r
+  - s
+  - n
+  - a
+  - t
+  - u
+  - l
+  - o
+  - d
+  - c
+  - ́
+  - m
+  - p
+  - ','
+  - f
+  - "'"
+  - v
+  - '1'
+  - q
+  - g
+  - C
+  - ̀
+  - b
+  - E
+  - j
+  - ^
+  - x
+  - L
+  - '2'
+  - A
+  - P
+  - (
+  - )
+  - h
+  - '-'
+  - '3'
+  - N
+  - R
+  - M
+  - G
+  - '9'
+  - D
+  - y
+  - I
+  - U
+  - '4'
+  - ̂
+  - T
+  - '0'
+  - F
+  - '6'
+  - '8'
+  - ;
+  - O
+  - S
+  - J
+  - '7'
+  - ':'
+  - '5'
+  - +
+  - B
+  - Q
+  - V
+  - z
+  - ̧
+  - H
+  - «
+  - X
+  - '?'
+  - ̈
+  - –
+  - '['
+  - ']'
+  - »
+  - _
+  - '"'
+  - /
+  - k
+  - '&'
+  - Z
+  - Y
+  - K
+  - W
+  - '>'
+  - <
+  - '%'
+  - '='
+  - '|'
+  mode: NFD
