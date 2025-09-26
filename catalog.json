@@ -10706,6 +10706,91 @@
     "_apa": "Norindr J., Mikhalchuk A., Cl\u00e9rice T., Chagu\u00e9 A. HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/modern-roman-languages\n",
     "_pid": "6a0153816"
   },
+  "1c9fc3ed7": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Jeu de donn\u00e9es HTR \u00ab Titres nobiliaires 17e-18e si\u00e8cles \u00bb",
+    "url": "https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/tree/main",
+    "authors": [
+      {
+        "name": "Jean-Fran\u00e7ois",
+        "surname": "Moufflet",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "digitization"
+        ]
+      },
+      {
+        "name": "Chlo\u00e9",
+        "surname": "Fize",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Lucas",
+        "surname": "Terriel",
+        "orcid": "0000-0002-9189-258X",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control",
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ce dataset pour la reconnaissance des \u00e9critures automatiques est compos\u00e9 d\u2019un m\u00e9lange de transcriptions de documents du 17e-18 si\u00e8cle (actes de mariage, preuves de noblesse etc.), essentiellement en fran\u00e7ais, et provenant de la s\u00e9rie M, titre III \"Titres nobiliaires\" des Archives nationales de France.",
+    "language": [
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1799"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "Etalab OL 2.0",
+      "url": "https://spdx.org/licenses/etalab-2.0.html"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 726
+      },
+      {
+        "metric": "pages",
+        "count": 44
+      },
+      {
+        "metric": "regions",
+        "count": 242
+      },
+      {
+        "metric": "characters",
+        "count": 25458
+      }
+    ],
+    "citation-file-link": "https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/blob/main/CITATION.cff",
+    "transcription-guidelines": "Les transcriptions suivent les conventions \u00e9ditoriales d\u00e9finies par :\nBernard Barbiche, Conseils pour l\u2019\u00e9dition des textes de l\u2019\u00e9poque moderne (XVIe-XVIIIe si\u00e8cle), \u00c9cole nationale des chartes, publi\u00e9 en ligne sur Th\u00e9l\u00e8me (consult\u00e9 le 01/03/2025).\nAutres pr\u00e9cisions : \n- Les abr\u00e9viations ont \u00e9t\u00e9 r\u00e9solues.\n- L'orthographe d'origine a \u00e9t\u00e9 conserv\u00e9e, y compris les fautes \u00e9ventuelles.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Moufflet, Jean-Fran\u00e7ois and Fize, Chlo\u00e9 and Terriel, Lucas},\nmonth = {8},\ntitle = {Titres nobiliaires 17e-18e si\u00e8cles},\nurl = {https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18},\nyear = {2025}\n}\n",
+    "_apa": "Moufflet J., Fize C., Terriel L. (2025). Titres nobiliaires 17e-18e si\u00e8cles (version 1.0.0). URL: https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18\n",
+    "_pid": "1c9fc3ed7"
+  },
   "8615f2b37": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Antoine Verard extracts",
