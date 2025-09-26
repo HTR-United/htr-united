@@ -3356,6 +3356,149 @@
     \ with a \"€\"."
   automatically-aligned: false
 - authors:
+  - name: Théo
+    orcid: 0000-0003-2235-0565
+    roles:
+    - transcriber
+    - digitization
+    surname: Burnel
+  - name: Giovanni Pietro
+    orcid: 0000-0003-2722-6766
+    roles:
+    - project-manager
+    surname: Vitali
+  automatically-aligned: false
+  characters:
+    members:
+    - e
+    - .
+    - i
+    - r
+    - s
+    - n
+    - a
+    - t
+    - u
+    - l
+    - o
+    - d
+    - c
+    - ́
+    - m
+    - p
+    - ','
+    - f
+    - "'"
+    - v
+    - '1'
+    - q
+    - g
+    - C
+    - ̀
+    - b
+    - E
+    - j
+    - ^
+    - x
+    - L
+    - '2'
+    - A
+    - P
+    - (
+    - )
+    - h
+    - '-'
+    - '3'
+    - N
+    - R
+    - M
+    - G
+    - '9'
+    - D
+    - y
+    - I
+    - U
+    - '4'
+    - ̂
+    - T
+    - '0'
+    - F
+    - '6'
+    - '8'
+    - ;
+    - O
+    - S
+    - J
+    - '7'
+    - ':'
+    - '5'
+    - +
+    - B
+    - Q
+    - V
+    - z
+    - ̧
+    - H
+    - «
+    - X
+    - '?'
+    - ̈
+    - –
+    - '['
+    - ']'
+    - »
+    - _
+    - '"'
+    - /
+    - k
+    - '&'
+    - Z
+    - Y
+    - K
+    - W
+    - '>'
+    - <
+    - '%'
+    - '='
+    - '|'
+    mode: NFD
+  citation-file-link: >-
+    https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
+  description: >-
+    Some transcriptions of minute books from military court councils during the
+    First World War
+  format: Alto-XML
+  hands:
+    count: more-than-10
+    precision: estimated
+  institutions: []
+  language:
+  - fra
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: evenly-mixed
+  time:
+    notAfter: '1919'
+    notBefore: '1914'
+  title: HTR Front Justice
+  transcription-guidelines: >-
+    See README (Annotation and Transcription Guidelines section)
+  url: https://github.com/Front-Justice/htr-front-justice.git
+  volume:
+  - count: 795781
+    metric: characters
+  - count: 250
+    metric: files
+  - count: 13044
+    metric: lines
+  - count: 1333
+    metric: regions
+- authors:
   - name: Gabay
     roles:
     - project-manager
