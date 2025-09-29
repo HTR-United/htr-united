@@ -71,6 +71,115 @@
     "transcription-guidelines": "CATMuS Guidelines (https://catmus-guidelines.github.io)",
     "_pid": "918807511"
   },
+  "3d17d95f9": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "TranscriboQuest 2025: Medieval Latin",
+    "url": "10.5281/zenodo.17062009",
+    "authors": [
+      {
+        "name": "Boutreux",
+        "surname": "Agn\u00e8s",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Chevalier",
+        "surname": "Romain",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Corongiu",
+        "surname": "Chiara",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Gaucher",
+        "surname": "Sarah",
+        "orcid": "0000-0002-1605-3583",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Gu\u00e9ville",
+        "surname": "Estelle",
+        "orcid": "0000-0003-2603-1051",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Kienzl",
+        "surname": "Annabelle",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Maliszewski",
+        "surname": "Jan",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Gille Levenson",
+        "surname": "Matthias",
+        "orcid": "0000-0001-9488-5986",
+        "roles": [
+          "project-manager",
+          "support",
+          "quality-control"
+        ]
+      }
+    ],
+    "description": "Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset focuses on layout. All manuscripts are glossed latin manuscripts with complex layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed.",
+    "language": [
+      "lat"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "800",
+      "notAfter": "1499"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY-NC-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "files",
+        "count": 37
+      },
+      {
+        "metric": "lines",
+        "count": 5060
+      },
+      {
+        "metric": "regions",
+        "count": 358
+      }
+    ],
+    "transcription-guidelines": "transcription \u2014 https://catmus-guidelines.github.io/\nsegmentation \u2014 https://segmonto.github.io/",
+    "_pid": "3d17d95f9"
+  },
   "255da7ea1": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "\u00d6NB, Cod. 3891. Ground Truth",
@@ -3806,6 +3915,173 @@
     "transcription-guidelines": "The transcription is strictly diplomatic: no abbreviations are resolved. \u2028Items that are crossed out or struck through will be transcribed with a \"\u20ac\".",
     "automatically-aligned": false,
     "_pid": "dcb8b4eaf"
+  },
+  "7610ce646": {
+    "authors": [
+      {
+        "name": "Th\u00e9o",
+        "orcid": "0000-0003-2235-0565",
+        "roles": [
+          "transcriber",
+          "digitization"
+        ],
+        "surname": "Burnel"
+      },
+      {
+        "name": "Giovanni Pietro",
+        "orcid": "0000-0003-2722-6766",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Vitali"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "members": [
+        "e",
+        ".",
+        "i",
+        "r",
+        "s",
+        "n",
+        "a",
+        "t",
+        "u",
+        "l",
+        "o",
+        "d",
+        "c",
+        "\u0301",
+        "m",
+        "p",
+        ",",
+        "f",
+        "'",
+        "v",
+        "1",
+        "q",
+        "g",
+        "C",
+        "\u0300",
+        "b",
+        "E",
+        "j",
+        "^",
+        "x",
+        "L",
+        "2",
+        "A",
+        "P",
+        "(",
+        ")",
+        "h",
+        "-",
+        "3",
+        "N",
+        "R",
+        "M",
+        "G",
+        "9",
+        "D",
+        "y",
+        "I",
+        "U",
+        "4",
+        "\u0302",
+        "T",
+        "0",
+        "F",
+        "6",
+        "8",
+        ";",
+        "O",
+        "S",
+        "J",
+        "7",
+        ":",
+        "5",
+        "+",
+        "B",
+        "Q",
+        "V",
+        "z",
+        "\u0327",
+        "H",
+        "\u00ab",
+        "X",
+        "?",
+        "\u0308",
+        "\u2013",
+        "[",
+        "]",
+        "\u00bb",
+        "_",
+        "\"",
+        "/",
+        "k",
+        "&",
+        "Z",
+        "Y",
+        "K",
+        "W",
+        ">",
+        "<",
+        "%",
+        "=",
+        "|"
+      ],
+      "mode": "NFD"
+    },
+    "citation-file-link": "https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff",
+    "description": "Some transcriptions of minute books from military court councils during the First World War",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "institutions": [],
+    "language": [
+      "fra"
+    ],
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "production-software": "eScriptorium + Kraken",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "evenly-mixed",
+    "time": {
+      "notAfter": "1919",
+      "notBefore": "1914"
+    },
+    "title": "HTR Front Justice",
+    "transcription-guidelines": "See README (Annotation and Transcription Guidelines section)",
+    "url": "https://github.com/Front-Justice/htr-front-justice.git",
+    "volume": [
+      {
+        "count": 795781,
+        "metric": "characters"
+      },
+      {
+        "count": 250,
+        "metric": "files"
+      },
+      {
+        "count": 13044,
+        "metric": "lines"
+      },
+      {
+        "count": 1333,
+        "metric": "regions"
+      }
+    ],
+    "_pid": "7610ce646"
   },
   "70e2b99f0": {
     "authors": [
@@ -10597,6 +10873,91 @@
     "_apa": "Norindr J., Mikhalchuk A., Cl\u00e9rice T., Chagu\u00e9 A. HTRomance, Modern language corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation URL: https://github.com/HTRomance-Project/modern-roman-languages\n",
     "_pid": "6a0153816"
   },
+  "1c9fc3ed7": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Jeu de donn\u00e9es HTR \u00ab Titres nobiliaires 17e-18e si\u00e8cles \u00bb",
+    "url": "https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/tree/main",
+    "authors": [
+      {
+        "name": "Jean-Fran\u00e7ois",
+        "surname": "Moufflet",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control",
+          "digitization"
+        ]
+      },
+      {
+        "name": "Chlo\u00e9",
+        "surname": "Fize",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ]
+      },
+      {
+        "name": "Lucas",
+        "surname": "Terriel",
+        "orcid": "0000-0002-9189-258X",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "quality-control",
+          "support"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ce dataset pour la reconnaissance des \u00e9critures automatiques est compos\u00e9 d\u2019un m\u00e9lange de transcriptions de documents du 17e-18 si\u00e8cle (actes de mariage, preuves de noblesse etc.), essentiellement en fran\u00e7ais, et provenant de la s\u00e9rie M, titre III \"Titres nobiliaires\" des Archives nationales de France.",
+    "language": [
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1799"
+    },
+    "hands": {
+      "count": "less-than-11",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "Etalab OL 2.0",
+      "url": "https://spdx.org/licenses/etalab-2.0.html"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 726
+      },
+      {
+        "metric": "pages",
+        "count": 44
+      },
+      {
+        "metric": "regions",
+        "count": 242
+      },
+      {
+        "metric": "characters",
+        "count": 25458
+      }
+    ],
+    "citation-file-link": "https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18/blob/main/CITATION.cff",
+    "transcription-guidelines": "Les transcriptions suivent les conventions \u00e9ditoriales d\u00e9finies par :\nBernard Barbiche, Conseils pour l\u2019\u00e9dition des textes de l\u2019\u00e9poque moderne (XVIe-XVIIIe si\u00e8cle), \u00c9cole nationale des chartes, publi\u00e9 en ligne sur Th\u00e9l\u00e8me (consult\u00e9 le 01/03/2025).\nAutres pr\u00e9cisions : \n- Les abr\u00e9viations ont \u00e9t\u00e9 r\u00e9solues.\n- L'orthographe d'origine a \u00e9t\u00e9 conserv\u00e9e, y compris les fautes \u00e9ventuelles.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Moufflet, Jean-Fran\u00e7ois and Fize, Chlo\u00e9 and Terriel, Lucas},\nmonth = {8},\ntitle = {Titres nobiliaires 17e-18e si\u00e8cles},\nurl = {https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18},\nyear = {2025}\n}\n",
+    "_apa": "Moufflet J., Fize C., Terriel L. (2025). Titres nobiliaires 17e-18e si\u00e8cles (version 1.0.0). URL: https://github.com/HisMoDoc-HTR/TitresNobiliaires_17_18\n",
+    "_pid": "1c9fc3ed7"
+  },
   "8615f2b37": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Antoine Verard extracts",
@@ -12757,60 +13118,60 @@
         "c",
         "d",
         "p",
+        ".",
         "m",
         "\u0303",
-        ".",
         "/",
         "q",
         "f",
-        "y",
-        "g",
         "h",
+        "g",
+        "y",
         "b",
         "\u204a",
         "z",
         "\u00ac",
-        ":",
         "x",
+        ":",
         "C",
-        "1",
         "I",
         "E",
-        "L",
+        "1",
         "D",
+        "L",
         "P",
         "A",
         "\u00b6",
         "\u0365",
-        "2",
         "M",
+        "2",
         "S",
         "3",
         "*",
         "\u036c",
         "Q",
         "?",
-        "4",
-        "N",
         "T",
+        "N",
+        "4",
         "\ua770",
         "5",
-        "6",
         "R",
+        "6",
         "U",
         "0",
         "8",
-        ",",
         "H",
+        ",",
         "O",
         "7",
         "9",
+        "G",
         "(",
         ")",
         "\ua753",
-        "G",
-        "\ua751",
         "B",
+        "\ua751",
         "F",
         "\u0308",
         "\ua76f",
@@ -12819,12 +13180,12 @@
         "\u25ca",
         "-",
         "\u00a0",
+        "k",
         "\ua75d",
         "v",
         "Z",
-        "k",
-        "'",
         "K",
+        "'",
         "Y",
         "X",
         "\u0300",
@@ -12875,19 +13236,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 1718422,
+        "count": 1775492,
         "metric": "characters"
       },
       {
-        "count": 1835,
+        "count": 1845,
         "metric": "files"
       },
       {
-        "count": 64391,
+        "count": 66243,
         "metric": "lines"
       },
       {
-        "count": 8546,
+        "count": 8610,
         "metric": "regions"
       }
     ],
@@ -16148,6 +16509,198 @@
     "_bibtex": "@dataset{solene_tarride_2023_8041668,\n  author       = {Sol\u00e8ne Tarride and\n                  Tristan Faine and\n                  M\u00e9lodie Boillet and\n                  Harold Mouch\u00e8re and\n                  Christopher Kermorvant},\n  title        = {The Belfort dataset: Handwritten Text Recognition\n                   from Crowdsourced Annotations\n                  },\n  month        = jun,\n  year         = 2023,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.8041668},\n  url          = {https://doi.org/10.5281/zenodo.8041668},\n}",
     "_pid": "96b246dfa"
   },
+  "1960c6ac5": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "ARletta",
+    "url": "https://zenodo.org/records/11191457",
+    "authors": [
+      {
+        "name": "Lith",
+        "surname": "Lefranc"
+      },
+      {
+        "name": "Ilja",
+        "surname": "Van Damme"
+      },
+      {
+        "name": "Thibault",
+        "surname": "Cl\u00e9rice"
+      },
+      {
+        "name": "Mike",
+        "surname": "Kestemont"
+      }
+    ],
+    "institutions": [
+      {
+        "name": "University of Antwerp"
+      },
+      {
+        "name": "National Institute for Research in Digital Science and Technology, Paris"
+      }
+    ],
+    "description": "Open-source handwritten text recognition models for historic Dutch",
+    "project-name": "Bias in History",
+    "project-website": "https://www.bias-in-history.eu/",
+    "language": [
+      "nld",
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1600",
+      "notAfter": "1940"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "lines",
+        "count": 431359
+      },
+      {
+        "metric": "regions",
+        "count": 44536
+      },
+      {
+        "metric": "pages",
+        "count": 10267
+      },
+      {
+        "metric": "characters",
+        "count": 14253206
+      }
+    ],
+    "transcription-guidelines": "**Diplomatic transcription.** All of the text was transcribed verbatim, preserving all of its original features:\n- orthography: preserve original spelling\n- abbreviations: do not expand abbreviations\n- capitalization: retain original use of uppercase and lowercase letters\n- punctuation: transcribe punctuation marks exactly as they appear, even of they are unconventional by modern standards\n- special characters: include any special characters or symbols as they appear\n- formatting: maintain original formatting such as underlining or strikethrough\n- errors and corrections: include all errors and corrections found in the text\n- non-interpretative: avoid interpreting or modernizing the text\n- use the '@' symbol for characters you can not read an tag them as 'unclear' on baseline level\n- tag marginal text as 'marginalia' and main body text as 'paragraph' on region level",
+    "_pid": "1960c6ac5"
+  },
+  "08cd06fcf": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English",
+    "url": "https://zenodo.org/records/15776323",
+    "authors": [
+      {
+        "name": "David Ragnar",
+        "surname": "Nelson",
+        "orcid": "0009-0006-7277-6600",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ]
+      },
+      {
+        "name": "Jacob",
+        "surname": "Myers",
+        "orcid": "0009-0000-4976-3736",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Travis",
+        "surname": "Catalano",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Bryanna",
+        "surname": "Nase",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Victoria",
+        "surname": "Baker",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Isabella",
+        "surname": "Kolic",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Yumi Dineen",
+        "surname": "Shiroma",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "The Revolutionary City is a partnership between the American Philosophical Society, the Historical Society of Pennsylvania, and the Library Company of Philadelphia to digitize all manuscript material related to Philadelphia and the American Revolution (1763-1804). This dataset is a transcribed subset of the larger digitized corpus, provided in ALTO format with an intended use in training Handwritten Text Recognition (HTR) models. The material is overwhelmingly in English, though a few letters in French have been included. The material contains a mixture of correspondence and journals. The correspondence has been annotated to distinguish between the different parts of a letter (Salutation, Date and Address, Addressee, Address, Closing, Postscript). The transcriptions were produced by staff and interns at the American Philosophical Society. Each document was reviewed at least once by another transcriber. The corpus exhibits a wide variety of variation in hands, handwriting styles, paper quality and levels of damage. The corpus encompasses material from 1758 to 1805, but the majority of the documents fall between the years 1774 to 1783.",
+    "project-name": "The Revolutionary City",
+    "project-website": "https://therevolutionarycity.org",
+    "language": [
+      "eng",
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1758",
+      "notAfter": "1805"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "volume": [
+      {
+        "metric": "files",
+        "count": 3316
+      },
+      {
+        "metric": "lines",
+        "count": 95990
+      },
+      {
+        "metric": "regions",
+        "count": 9439
+      },
+      {
+        "metric": "characters",
+        "count": 2997053
+      }
+    ],
+    "citation-file-link": "https://zenodo.org/records/15776323/files/CITATION.cff",
+    "transcription-guidelines": "Transcribers followed diplomatic transcription conventions. All abbreviations were transcribed as written. Superscript text was transcribed with a carat (^). Linebreaks were normalized to use a plain dash (-) regardless of the character used in the original document. The early modern glyph for \"per\" (\u214c) was transcribed as \"per.\" Other infrequently occurring glyphs were transcribed as written. Transcribers were advised to produce their best guesses for illegible text, but text that was illegible due to damage or other insurmountable problems was transcribed as [___]. Square brackets were used to indicate crossed-out text.",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Nelson, David Ragnar and Myers, Jacob and Catalano, Travis and Nase, Bryanna and Baker, Victoria and Kolic, Isabella and Shiroma, Yumi Dineen},\ndoi = {10.5281/zenodo.15776323},\nmonth = {6},\ntitle = {The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English},\nurl = {https://therevolutionarycity.org},\nyear = {2025}\n}\n",
+    "_apa": "Nelson D.R., Myers J., Catalano T., Nase B., Baker V., Kolic I., Shiroma Y.D. (2025). The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English (version 1.0). DOI: 10.5281/zenodo.15776323 URL: https://therevolutionarycity.org\n",
+    "_pid": "08cd06fcf"
+  },
   "fc63dcc30": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "EPARCHOS",
@@ -16783,84 +17336,5 @@
     ],
     "transcription-guidelines": "- The abbreviations have been resolved, both those by suspension (facim\ua770 ---> facimus) and by contraction (d\u00f1i --> domini). Likewise, those using conventional signs (\u204a --> et ; \ua753 --> pro) have been resolved. \n- The named entities (names of persons, places and institutions) have been capitalized. The beginning of a block of text as well as the original capitals used by the notary are also capitalized.\n- The consonantal i and u characters have been transcribed as j and v in both French and Latin.\n- The punctuation marks used in the text: . and / have been transcribed, but the transcription has not been standardized with modern punctuation.\n- Corrections and words that appear cancelled in the manuscript have been transcribed surrounded by the sign $ at the beginning and at the end.\n- More specific transcription rules can be found into the file `transcription_guidelines.pdf` on Zenodo repository. ",
     "_pid": "b5b1358dc"
-  },
-  "b00eb4153": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "ARletta",
-    "url": "zenodo.org/records/11191457",
-    "authors": [
-      {
-        "name": "Lith",
-        "surname": "Lefranc"
-      },
-      {
-        "name": "Ilja",
-        "surname": "Van Damme"
-      },
-      {
-        "name": "Thibault",
-        "surname": "Cl\u00e9rice"
-      },
-      {
-        "name": "Mike",
-        "surname": "Kestemont"
-      }
-    ],
-    "institutions": [
-      {
-        "name": "University of Antwerp"
-      },
-      {
-        "name": "National Institute for Research in Digital Science and Technology, Paris"
-      }
-    ],
-    "description": "Open-source handwritten text recognition models for historic Dutch",
-    "project-name": "Bias in History",
-    "project-website": "https://www.bias-in-history.eu/",
-    "language": [
-      "nld",
-      "fra"
-    ],
-    "production-software": "eScriptorium + Kraken",
-    "automatically-aligned": false,
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1600",
-      "notAfter": "1940"
-    },
-    "hands": {
-      "count": "more-than-10",
-      "precision": "estimated"
-    },
-    "license": {
-      "name": "CC-BY-SA 4.0",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-    },
-    "format": "Page-XML",
-    "volume": [
-      {
-        "metric": "lines",
-        "count": 431359
-      },
-      {
-        "metric": "regions",
-        "count": 44536
-      },
-      {
-        "metric": "pages",
-        "count": 10267
-      },
-      {
-        "metric": "characters",
-        "count": 14253206
-      }
-    ],
-    "transcription-guidelines": "**Diplomatic transcription.** All of the text was transcribed verbatim, preserving all of its original features:\n- orthography: preserve original spelling\n- abbreviations: do not expand abbreviations\n- capitalization: retain original use of uppercase and lowercase letters\n- punctuation: transcribe punctuation marks exactly as they appear, even of they are unconventional by modern standards\n- special characters: include any special characters or symbols as they appear\n- formatting: maintain original formatting such as underlining or strikethrough\n- errors and corrections: include all errors and corrections found in the text\n- non-interpretative: avoid interpreting or modernizing the text\n- use the '@' symbol for characters you can not read an tag them as 'unclear' on baseline level\n- tag marginal text as 'marginalia' and main body text as 'paragraph' on region level",
-    "_pid": "b00eb4153"
   }
 }
