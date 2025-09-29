@@ -49,77 +49,6 @@
     count: 800
   transcription-guidelines: CATMuS Guidelines (https://catmus-guidelines.github.io)
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: 'TranscriboQuest 2025: Medieval Latin'
-  url: 10.5281/zenodo.17062009
-  authors:
-  - name: Boutreux
-    surname: Agnès
-    roles:
-    - transcriber
-  - name: Chevalier
-    surname: Romain
-    roles:
-    - transcriber
-  - name: Corongiu
-    surname: Chiara
-    roles:
-    - transcriber
-  - name: Gaucher
-    surname: Sarah
-    orcid: 0000-0002-1605-3583
-    roles:
-    - transcriber
-  - name: Guéville
-    surname: Estelle
-    orcid: 0000-0003-2603-1051
-    roles:
-    - transcriber
-  - name: Kienzl
-    surname: Annabelle
-    roles:
-    - transcriber
-  - name: Maliszewski
-    surname: Jan
-    roles:
-    - transcriber
-  - name: Gille Levenson
-    surname: Matthias
-    orcid: 0000-0001-9488-5986
-    roles:
-    - project-manager
-    - support
-    - quality-control
-  description: Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset
-    focuses on layout. All manuscripts are glossed latin manuscripts with complex
-    layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed.
-  language:
-  - lat
-  production-software: eScriptorium + Kraken
-  automatically-aligned: false
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '800'
-    notAfter: '1499'
-  hands:
-    count: more-than-10
-    precision: estimated
-  license:
-    name: CC-BY-NC-SA 4.0
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-  format: Alto-XML
-  volume:
-  - metric: files
-    count: 37
-  - metric: lines
-    count: 5060
-  - metric: regions
-    count: 358
-  transcription-guidelines: |-
-    transcription — https://catmus-guidelines.github.io/
-    segmentation — https://segmonto.github.io/
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: ÖNB, Cod. 3891. Ground Truth
   url: 10.5281/zenodo.7467249
   authors:
@@ -12952,6 +12881,84 @@
   - metric: pages
     count: 318
 
+- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  title: 'TranscriboQuest 2025: Medieval Latin'
+  url: https://www.doi.org/10.5281/zenodo.17062009
+  authors:
+  - name: Boutreux
+    surname: Agnès
+    roles:
+    - transcriber
+  - name: Chevalier
+    surname: Romain
+    roles:
+    - transcriber
+  - name: Corongiu
+    surname: Chiara
+    roles:
+    - transcriber
+  - name: Gaucher
+    surname: Sarah
+    orcid: 0000-0002-1605-3583
+    roles:
+    - transcriber
+  - name: Guéville
+    surname: Estelle
+    orcid: 0000-0003-2603-1051
+    roles:
+    - transcriber
+  - name: Kienzl
+    surname: Annabelle
+    roles:
+    - transcriber
+  - name: Maliszewski
+    surname: Jan
+    roles:
+    - transcriber
+  - name: Gille Levenson
+    surname: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - project-manager
+    - support
+    - quality-control
+  description: Dataset from TranscriboQuest 2025, Medieval Latin group. This dataset
+    focuses on layout. All manuscripts are glossed latin manuscripts with complex
+    layouts. The dataset contains 5000 typed lines, 700 of which have been transcribed.
+  language:
+  - lat
+  production-software: eScriptorium + Kraken
+  automatically-aligned: false
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notBefore: '800'
+    notAfter: '1499'
+  hands:
+    count: more-than-10
+    precision: estimated
+  license:
+    name: CC-BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  format: Alto-XML
+  volume:
+  - metric: files
+    count: 37
+  - metric: lines
+    count: 5060
+  - metric: regions
+    count: 358
+  transcription-guidelines: |-
+    transcription — https://catmus-guidelines.github.io/
+    segmentation — https://segmonto.github.io/
+  _bibtex: "@misc{https://doi.org/10.5281/zenodo.17062009,\n  doi = {10.5281/ZENODO.17062009},\n\
+    \  url = {https://zenodo.org/doi/10.5281/zenodo.17062009},\n  author = {Kienzl,\
+    \ Annabelle and Corongiu, Chiara and Boutreux, Agnes and Gaucher, Sarah and Guéville,\
+    \ Estelle and Chevalier, Romain and Maliszewski, Jan and Gille Levenson, Matthias},\n\
+    \  title = {TranscriboQuest 2025: Medieval Latin},\n  publisher = {Zenodo},\n\
+    \  year = {2025},\n  copyright = {Creative Commons Attribution Non Commercial\
+    \ Share Alike 4.0 International}\n}\n"
 - schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   title: Ground truth for Neue Zürcher Zeitung black letter period
   url: https://zenodo.org/record/3333627#.YhN1G1vMLUQ
