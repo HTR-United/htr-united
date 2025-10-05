@@ -10696,18 +10696,18 @@
     members:
     - e
     - s
-    - u
     - i
+    - u
     - a
     - t
     - r
-    - n
     - o
+    - n
     - l
     - c
     - d
-    - p
     - .
+    - p
     - m
     - ̃
     - /
@@ -10717,45 +10717,45 @@
     - g
     - y
     - b
-    - ⁊
     - z
-    - ¬
+    - ⁊
     - x
+    - ¬
     - ':'
     - C
     - I
     - E
-    - '1'
     - D
+    - '1'
     - L
     - P
     - A
     - ¶
-    - ͥ
     - M
+    - ͥ
     - '2'
     - S
     - '3'
     - '*'
     - ͬ
     - Q
-    - '?'
     - T
+    - '?'
     - N
-    - '4'
     - ꝰ
-    - '5'
+    - '4'
     - R
+    - '5'
     - '6'
     - U
     - '0'
-    - '8'
     - H
-    - ','
+    - '8'
     - O
+    - ','
+    - G
     - '7'
     - '9'
-    - G
     - (
     - )
     - ꝓ
@@ -10771,8 +10771,8 @@
     -  
     - k
     - ꝝ
-    - v
     - Z
+    - v
     - K
     - "'"
     - Y
@@ -10823,13 +10823,13 @@
     our rules is available on HAL (https://hal.science/hal-04281804).
   url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
   volume:
-  - count: 1775492
+  - count: 1833395
     metric: characters
-  - count: 1845
+  - count: 1855
     metric: files
-  - count: 66243
+  - count: 68135
     metric: lines
-  - count: 8610
+  - count: 8673
     metric: regions
   _bibtex: "@misc{YourReferenceHere,\nauthor = {Solfrini, Sonia and Gabay, Simon and\
     \ Gross, Geneviève and Beaulnes, Pierre-Olivier and Marques Oliveira, Aurélia\
