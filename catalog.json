@@ -13028,8 +13028,8 @@
         "I",
         "E",
         "D",
-        "1",
         "L",
+        "1",
         "P",
         "A",
         "\u00b6",
@@ -13048,8 +13048,8 @@
         "4",
         "R",
         "5",
-        "6",
         "U",
+        "6",
         "0",
         "H",
         "8",
@@ -13058,22 +13058,22 @@
         "G",
         "7",
         "9",
-        "(",
         ")",
+        "(",
         "\ua753",
         "B",
         "\ua751",
         "F",
         "\u0308",
-        "\ua76f",
         "\u0142",
+        "\ua76f",
         "\u00f0",
         "\u25ca",
         "-",
         "\u00a0",
         "k",
-        "\ua75d",
         "Z",
+        "\ua75d",
         "v",
         "K",
         "'",
@@ -13127,19 +13127,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 1833395,
+        "count": 1843815,
         "metric": "characters"
       },
       {
-        "count": 1855,
+        "count": 1857,
         "metric": "files"
       },
       {
-        "count": 68135,
+        "count": 68511,
         "metric": "lines"
       },
       {
-        "count": 8673,
+        "count": 8686,
         "metric": "regions"
       }
     ],
