@@ -48,27 +48,20 @@ authors:
 institutions: []
 description: >-
   This dataset was created by a collaborative working group with the aim of
-  transcribing
-
-  medieval vernacular religious texts across a range of European languages. To
-  reflect the
-
-  linguistic expertise of the group members, the project included Old and Middle
-  French, Old and Middle Irish, Old Castilian, Old Swedish, and Early New High
-  German (Bavarian). Religious texts were chosen as a common thread because of
-  their wide diffusion in the European vernacular tradition, their high survival
-  rate in manuscripts, and their relevance for the study of medieval cultural
-  and textual practices.
-
-
+  transcribing medieval vernacular religious texts across a range of European
+  languages. To reflect the linguistic expertise of the group members, the
+  project included Old and Middle French, Old and Middle Irish, Old Castilian,
+  Old Swedish, and Early New High German (Bavarian). Religious texts were
+  chosen as a common thread because of their wide diffusion in the European
+  vernacular tradition, their high survival rate in manuscripts, and their
+  relevance for the study of medieval cultural and textual practices.
+  
   The dataset is based on manuscripts preserved in France, Spain, Sweden,
   Germany, and Ireland, dating from the 11th to the 15th centuries, with a
-  particular concentration in the 15th
-
-  century. All manuscripts belong to the category of medium to highly decorated
-  literary manuscripts. They are written in clearly identifiable scripts,
-  predominantly in one or two columns; two manuscripts also include marginal
-  texts.
+  particular concentration in the 15th century. All manuscripts belong to
+  the category of medium to highly decorated literary manuscripts. They
+  are written in clearly identifiable scripts, predominantly in one or two
+  columns; two manuscripts also include marginal texts.
 language:
   - fro
   - frm
@@ -82,7 +75,7 @@ automatically-aligned: false
 script:
   - iso: Latn
     qualify: >-
-      Eearly Insular Carolingian minuscule, as well as various Gothic books and
+      Early Insular Carolingian minuscule, as well as various Gothic books and
       cursive hands characteristic of high and late medieval manuscript culture.
 script-type: only-manuscript
 time:
