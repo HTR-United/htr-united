@@ -112,7 +112,7 @@ volume:
   - metric: lines
     count: 1279
 transcription-guidelines: >-
-  We followed the guidelines of CATMuS (1.6):
+  We followed the guidelines of CATMuS (1.6) :
 
   Pinche, A., Clérice, T., Vlachou-Efstathiou, M., Chagué, A., Camps, J.-B.,
   Gille Levenson, M., Brisville-Fertin, O., Boschetti, F., Fischer, F., Gervers,
@@ -120,7 +120,7 @@ transcription-guidelines: >-
   Medieval (1.6.0). Zenodo. [https://doi.org/10.5281/zenodo.15030337]
    
 
-  And used the SegmOnto controlled vocabulary:
+  And used the SegmOnto controlled vocabulary :
 
   Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, Nicola
   Carboni, *SegmOnto, A Controlled Vocabulary to Describe the Layout of Pages*,
@@ -128,6 +128,7 @@ transcription-guidelines: >-
    
    
   **Segmentation guidelines**
+
 
   **MainZone** : see SegmOnto. MainZone contains principle text, as a single
   block, without any paratext. If there are many columns, we made different
@@ -143,6 +144,7 @@ transcription-guidelines: >-
   subtype. Do not transcribe it.
 
   **RunningTitleZone** : see SegmOnto. Zone containing a running title.
+
 
   **DefaultLine / default (Kraken Result)** : standard textline.
 
@@ -179,4 +181,4 @@ transcription-guidelines: >-
   so that the dataset works for every vernacular language of our corpus. Every
   character is described in the CatMus guidelines:
 
- [https://catmus-guidelines.github.io/html/guidelines/en/character\_table.html](https://catmus-guidelines.github.io/html/guidelines/en/character_table.html)
+  [https://catmus-guidelines.github.io/html/guidelines/en/character\_table.html](https://catmus-guidelines.github.io/html/guidelines/en/character_table.html)
