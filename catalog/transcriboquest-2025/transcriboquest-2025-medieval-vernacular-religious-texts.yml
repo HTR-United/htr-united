@@ -1,0 +1,182 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: TranscriboQuest 2025 Medieval Vernacular Religious Texts
+url: https://doi.org/10.5281/zenodo.17062963
+authors:
+  - name: Pontus
+    surname: Henningsson
+    orcid: 0009-0002-8956-7312
+    roles:
+      - transcriber
+      - aligner
+      - support
+  - name: Ciaran
+    surname: McDonough
+    orcid: 0000-0002-5198-9205
+    roles:
+      - transcriber
+      - aligner
+  - name: Barbara
+    surname: Denicolò
+    orcid: 0000-0001-7155-9790
+    roles:
+      - transcriber
+      - aligner
+  - name: Roxane
+    surname: Bougrelle
+    orcid: 0009-0002-6343-2305
+    roles:
+      - transcriber
+      - aligner
+  - name: Maria Florencia
+    surname: Vieira
+    orcid: 0009-0001-8222-1178
+    roles:
+      - transcriber
+      - aligner
+  - name: Irene
+    surname: Salvo Garcia
+    orcid: 0000-0003-0155-1886
+    roles:
+      - transcriber
+      - aligner
+  - name: Catherine
+    surname: Dehaut
+    orcid: 0009-0000-5161-7906
+    roles:
+      - transcriber
+      - aligner
+institutions: []
+description: >-
+  This dataset was created by a collaborative working group with the aim of
+  transcribing
+
+  medieval vernacular religious texts across a range of European languages. To
+  reflect the
+
+  linguistic expertise of the group members, the project included Old and Middle
+  French, Old and Middle Irish, Old Castilian, Old Swedish, and Early New High
+  German (Bavarian). Religious texts were chosen as a common thread because of
+  their wide diffusion in the European vernacular tradition, their high survival
+  rate in manuscripts, and their relevance for the study of medieval cultural
+  and textual practices.
+
+
+  The dataset is based on manuscripts preserved in France, Spain, Sweden,
+  Germany, and Ireland, dating from the 11th to the 15th centuries, with a
+  particular concentration in the 15th
+
+  century. All manuscripts belong to the category of medium to highly decorated
+  literary manuscripts. They are written in clearly identifiable scripts,
+  predominantly in one or two columns; two manuscripts also include marginal
+  texts.
+language:
+  - fro
+  - frm
+  - mga
+  - lat
+  - osp
+  - swe
+  - bar
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+    qualify: >-
+      Eearly Insular Carolingian minuscule, as well as various Gothic books and
+      cursive hands characteristic of high and late medieval manuscript culture.
+script-type: only-manuscript
+time:
+  notBefore: '1000'
+  notAfter: '1499'
+hands:
+  count: less-than-11
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+sources:
+  - reference: >-
+      McDonough, C., Henningsson, P., Denicolò, B., Bougrelle, R., Vieira, M.
+      F., Salvo Garcia, I., Dehaut, C., & Pinche, A. (2025). TranscriboQuest
+      2025 Medieval Vernacular Religious Texts [Data set]. Zenodo.
+      https://doi.org/10.5281/zenodo.17062963
+    link: https://doi.org/10.5281/zenodo.17062963
+volume:
+  - metric: files
+    count: 18
+  - metric: lines
+    count: 74
+  - metric: lines
+    count: 59696
+  - metric: lines
+    count: 1279
+transcription-guidelines: >-
+  We followed the guidelines of CATMuS (1.6):
+
+  Pinche, A., Clérice, T., Vlachou-Efstathiou, M., Chagué, A., Camps, J.-B.,
+  Gille Levenson, M., Brisville-Fertin, O., Boschetti, F., Fischer, F., Gervers,
+  M., Boutreux, A., Manton, A., Gabay, S., & Ferrante, G. (2025). CATMuS
+  Medieval (1.6.0). Zenodo. [https://doi.org/10.5281/zenodo.15030337]
+   
+
+  And used the SegmOnto controlled vocabulary:
+
+  Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, Nicola
+  Carboni, *SegmOnto, A Controlled Vocabulary to Describe the Layout of Pages*,
+  version 0.9, Genève/Lyon/Paris, 2023, [https://segmonto.github.io/]
+   
+   
+  **Segmentation guidelines**
+
+  **MainZone** : see SegmOnto. MainZone contains principle text, as a single
+  block, without any paratext. If there are many columns, we made different
+  blocks. Interlinear glosses are part of the MainZone.
+
+  **NumberingZone** : see SegmOnto. Contains page numbers or folio numbers.
+
+  **GraphicZone** : images or decorations.
+
+  **MarginTextZone** : marginal glosses or additions.
+
+  **DropCapitalZone** : see SegmOnto. Any type of capital letters, without any
+  subtype. Do not transcribe it.
+
+  **RunningTitleZone** : see SegmOnto. Zone containing a running title.
+
+  **DefaultLine / default (Kraken Result)** : standard textline.
+
+  **HeadingLine** : Any heading, without consideration for the level.
+
+  **InterlinearLine** : Any line between standard baseline.
+
+
+  Verse initials (appearing at the start of each line of a versified text,
+  similar in size to the remaining text of the verse) should be included in the
+  line of the corresponding verse. They should thus be segmented in the MainZone
+  as normal text.
+   
+  Some initial letters (not illuminated), which hang slightly below the line are
+  not included in the mask, meaning that they have to be later added to the
+  transcription.
+   
+  **Transcription guidelines**
+
+  We followed the CATMus guidelines when transcribing our documents. Given the
+  diversity of our corpus, we chose a graphemic transcription system.
+  Allographic variants (‘u/v’ and ‘i’/’j’) were normalised. When it comes to
+  ‘z’/’s’, every allograph of ‘s’ was transcribed by ‘s’, and we made a
+  difference between ‘s’ and ‘z’. We didn’t separate agglutinated words and
+  verse initials were to be kept separated (using a space) from the rest of the
+  word. When it comes to the choice of signs, we used four main signs: “.” for
+  single dots, “:” for more than single dots, “/” for diastoles and signs that
+  look like virgulas and “¶” for section markers. We didn’t normalize capital
+  letters. We also transcribed hyphenations and diastoles. Also, if a character
+  does not exist in MUFI but carries linguistic importance and is a common
+  occurring character in a manuscript, a new character can be created by
+  combining MUFI characters and symbols. Abbreviations were not developed and we
+  transcribed them adhering to MUFI. In other words, we transcribe what we see,
+  so that the dataset works for every vernacular language of our corpus. Every
+  character is described in the CatMus guidelines:
+
+ [https://catmus-guidelines.github.io/html/guidelines/en/character\_table.html](https://catmus-guidelines.github.io/html/guidelines/en/character_table.html)
