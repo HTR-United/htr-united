@@ -12741,8 +12741,8 @@
         "\u0365",
         "Q",
         "3",
-        "4",
         "\u036c",
+        "4",
         "T",
         "N",
         "?",
@@ -12754,8 +12754,8 @@
         "O",
         "(",
         "8",
-        "H",
         ")",
+        "H",
         "0",
         "\ua751",
         "B",
@@ -12819,19 +12819,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Jean-Michel",
     "volume": [
       {
-        "count": 614554,
+        "count": 617742,
         "metric": "characters"
       },
       {
-        "count": 811,
+        "count": 816,
         "metric": "files"
       },
       {
-        "count": 24004,
+        "count": 24117,
         "metric": "lines"
       },
       {
-        "count": 3525,
+        "count": 3537,
         "metric": "regions"
       }
     ],
