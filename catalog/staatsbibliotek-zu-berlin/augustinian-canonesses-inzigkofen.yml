@@ -1,0 +1,40 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: >-
+ Transcriptions from medieval manuscripts related to the Augustinian canonesses
+ in Inzigkofen
+url: https://doi.org/10.5281/zenodo.17978574
+authors:
+ - name: Nicole
+   surname: Eichenberger
+   orcid: 0000-0002-3941-9461
+institutions: []
+description: >-
+ In a project of the Staatsbibliothek zu Berlin, we completely transcribed two
+ manuscripts (Ms. germ. oct. 842, Ms. germ. fol. 1045) related to the
+ Augustinian canonesses in Inzigkofen, dating from the 15th century and
+ containing German texts. They were written by three scribes in three different
+ Gothic scripts.
+language:
+ - gmh
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1400'
+ notAfter: '1499'
+hands:
+ count: less-than-11
+ precision: exact
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+ - metric: lines
+   count: 9726
+transcription-guidelines: >-
+ The transcriptions are mainly graphematic, reproducing the scribes' usage of
+ long s/round s, i/j, u/v, and superscripts. All abbreviations were kept, using
+ a relatively small set of special characters.
