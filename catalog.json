@@ -1190,6 +1190,148 @@
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.17062963,\n  doi = {10.5281/ZENODO.17062963},\n  url = {https://zenodo.org/doi/10.5281/zenodo.17062963},\n  author = {McDonough, Ciaran and Henningsson, Pontus and Denicol\u00f2, Barbara and Bougrelle, Roxane and Vieira, Maria Florencia and Salvo Garcia, Irene and Dehaut, Catherine and Pinche, Ariane},\n  keywords = {Literature, Medieval/history, HTR, ATR, eScriptorium, Medieval Religion, Medieval Religious Texts, Handwritten-Text Recognition, Automated Text Recognition},\n  language = {frm},\n  title = {TranscriboQuest 2025 Medieval Vernacular Religious Texts},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "99a6b21eb"
   },
+  "362a02e8c": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "MS Jerusalem, Saint Mark\u2019s Monastery 36, Ground Truth from HTR Winter School 2025",
+    "url": "https://doi.org/10.5281/zenodo.18157525",
+    "authors": [
+      {
+        "name": "Ephrem",
+        "surname": "Aboud Ishac",
+        "orcid": "0000-0003-2943-6556",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Christine",
+        "surname": "Roughan",
+        "orcid": "0009-0004-5999-8749",
+        "roles": [
+          "project-manager"
+        ]
+      },
+      {
+        "name": "Julius",
+        "surname": "Balski",
+        "orcid": "0009-0009-8607-2403",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Nima",
+        "surname": "Jamali",
+        "orcid": "0009-0001-3958-8783",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Jeanette",
+        "surname": "Kilicci",
+        "orcid": "0009-0009-1968-9016",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Chia-Wei",
+        "surname": "Lin",
+        "orcid": "0009-0002-0545-2623",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Andrei",
+        "surname": "Macar",
+        "orcid": "0009-0001-5473-9017",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Branko",
+        "surname": "Malesevic",
+        "orcid": "0009-0008-2419-6323"
+      },
+      {
+        "name": "Stefan",
+        "surname": "Maric",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Daniele",
+        "surname": "Reano",
+        "orcid": "0009-0005-6360-8907",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Rita",
+        "surname": "Sawaya",
+        "roles": [
+          "transcriber"
+        ]
+      },
+      {
+        "name": "Jonathan",
+        "surname": "Stutz",
+        "orcid": "0009-0000-3204-6327",
+        "roles": [
+          "transcriber"
+        ]
+      }
+    ],
+    "institutions": [],
+    "description": "Ground truth of 133 bifolio images of MS Jerusalem, Saint Mark\u2019s Monastery 36. This ground truth was produced by participants of the Vienna 2025 HTR Winter School, who used Transkribus to manually correct a preliminary automatic transcription that had been generated using Kraken/eScriptorium.",
+    "language": [
+      "syr"
+    ],
+    "production-software": "Transkribus",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Syre"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1100",
+      "notAfter": "1399"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "metric": "pages",
+        "count": 266
+      },
+      {
+        "metric": "lines",
+        "count": 17836
+      },
+      {
+        "metric": "characters",
+        "count": 311392
+      }
+    ],
+    "citation-file-link": "https://github.com/HTR-School-Vienna/2025-syriac/blob/main/CITATION.cff",
+    "transcription-guidelines": "The segmentation of the folios followed the SegmOnto vocabulary for annotation of regions:\n\n- MainZone: the main column of text.\n- MarginTextZone: any marginal words or phrases, including catchwords. Also used for interlinear glosses.\n- NumberingZone: any page or folio numbers.\n\nThe transcription guidelines included spaces, the Syriac letters, some diacritics, punctuation, and no vowel dots or markings.\n\n- Allowed diacritics:\n  - Syome\n  - Dots over feminine suffix heh\n  - Dots in pronouns: above for demonstrative, below for personal\n  - Dots in verbs: to distinguish participles and perfects\n  - Dots to distinguish homographs\n- Excluded diacritics:\n  - Vowel dots\n  - Dots of hardening and softening (qushoyo and rukokho)\n\nPunctuation marks were not normalized, but rather transcribed as they appear in the manuscript (. \u0706 \u0707 : \u0700).",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.18157525,\n  doi = {10.5281/ZENODO.18157525},\n  url = {https://zenodo.org/doi/10.5281/zenodo.18157525},\n  author = {Ishac, Ephrem Aboud and Roughan, Christine and Balski, Julius and Jamali, Nima and Kilicci, Jeanette and Lin, Chia-Wei and Macar, Andrei and Malesevic, Branko and Maric, Stefan and Reano, Daniele and Sawaya, Rita and Stutz, Jonathan},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syr},\n  title = {HTR Winter School 2025 - Syriac, MS Jerusalem, Saint Mark's Monastery 36},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+    "_pid": "362a02e8c"
+  },
   "fbe9216af": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Jeu de donn\u00e9es OCR - Incunables s\u00e9villans 1494-1500",
@@ -12745,23 +12887,23 @@
         "4",
         "T",
         "N",
+        "R",
         "?",
         "5",
-        "R",
         "U",
         "6",
-        "\u00b6",
         "O",
         "(",
-        "8",
+        "\u00b6",
         ")",
+        "8",
         "H",
         "0",
         "\ua751",
         "B",
+        "F",
         "7",
         "G",
-        "F",
         "\ua753",
         "9",
         "\u25ca",
@@ -12778,9 +12920,12 @@
         ";",
         "J",
         "\ua75d",
+        "\ua759",
+        "\u0308",
         "k",
         "\u0300",
         "\u15c5",
+        "w",
         "v",
         "\u0142"
       ],
@@ -12819,19 +12964,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Jean-Michel",
     "volume": [
       {
-        "count": 617742,
+        "count": 651491,
         "metric": "characters"
       },
       {
-        "count": 816,
+        "count": 858,
         "metric": "files"
       },
       {
-        "count": 24117,
+        "count": 25406,
         "metric": "lines"
       },
       {
-        "count": 3537,
+        "count": 3740,
         "metric": "regions"
       }
     ],
@@ -13191,8 +13336,8 @@
         "9",
         ")",
         "(",
-        "\ua753",
         "B",
+        "\ua753",
         "\ua751",
         "F",
         "\u0308",
@@ -13258,19 +13403,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 1843815,
+        "count": 1846690,
         "metric": "characters"
       },
       {
-        "count": 1857,
+        "count": 1858,
         "metric": "files"
       },
       {
-        "count": 68511,
+        "count": 68553,
         "metric": "lines"
       },
       {
-        "count": 8686,
+        "count": 8691,
         "metric": "regions"
       }
     ],
