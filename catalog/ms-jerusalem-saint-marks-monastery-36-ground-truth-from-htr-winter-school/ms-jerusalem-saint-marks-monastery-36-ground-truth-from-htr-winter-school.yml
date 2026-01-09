@@ -1,0 +1,123 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: >-
+  MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School
+  2025
+url: 'https://doi.org/10.5281/zenodo.18157525'
+authors:
+  - name: Ephrem
+    surname: Aboud Ishac
+    orcid: 0000-0003-2943-6556
+    roles:
+      - project-manager
+  - name: Christine
+    surname: Roughan
+    orcid: 0009-0004-5999-8749
+    roles:
+      - project-manager
+  - name: Julius
+    surname: Balski
+    orcid: 0009-0009-8607-2403
+    roles:
+      - transcriber
+  - name: Nima
+    surname: Jamali
+    orcid: 0009-0001-3958-8783
+    roles:
+      - transcriber
+  - name: Jeanette
+    surname: Kilicci
+    orcid: 0009-0009-1968-9016
+    roles:
+      - transcriber
+  - name: Chia-Wei
+    surname: Lin
+    orcid: 0009-0002-0545-2623
+    roles:
+      - transcriber
+  - name: Andrei
+    surname: Macar
+    orcid: 0009-0001-5473-9017
+    roles:
+      - transcriber
+  - name: Branko
+    surname: Malesevic
+    orcid: 0009-0008-2419-6323
+  - name: Stefan
+    surname: Maric
+    roles:
+      - transcriber
+  - name: Daniele
+    surname: Reano
+    orcid: 0009-0005-6360-8907
+    roles:
+      - transcriber
+  - name: Rita
+    surname: Sawaya
+    roles:
+      - transcriber
+  - name: Jonathan
+    surname: Stutz
+    orcid: 0009-0000-3204-6327
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  Ground truth of 133 bifolio images of MS Jerusalem, Saint Mark’s Monastery 36.
+  This ground truth was produced by participants of the Vienna 2025 HTR Winter
+  School, who used Transkribus to manually correct a preliminary automatic
+  transcription that had been generated using Kraken/eScriptorium.
+language:
+  - syr
+production-software: Transkribus
+automatically-aligned: false
+script:
+  - iso: Syre
+script-type: only-manuscript
+time:
+  notBefore: '1100'
+  notAfter: '1399'
+hands:
+  count: '1'
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+  - metric: pages
+    count: 266
+  - metric: lines
+    count: 17836
+  - metric: characters
+    count: 311392
+citation-file-link: https://github.com/HTR-School-Vienna/2025-syriac/blob/main/CITATION.cff
+transcription-guidelines: >-
+  The segmentation of the folios followed the SegmOnto vocabulary for annotation
+  of regions:
+
+
+  - MainZone: the main column of text.
+
+  - MarginTextZone: any marginal words or phrases, including catchwords. Also
+  used for interlinear glosses.
+
+  - NumberingZone: any page or folio numbers.
+
+
+  The transcription guidelines included spaces, the Syriac letters, some
+  diacritics, punctuation, and no vowel dots or markings.
+
+
+  - Allowed diacritics:
+    - Syome
+    - Dots over feminine suffix heh
+    - Dots in pronouns: above for demonstrative, below for personal
+    - Dots in verbs: to distinguish participles and perfects
+    - Dots to distinguish homographs
+  - Excluded diacritics:
+    - Vowel dots
+    - Dots of hardening and softening (qushoyo and rukokho)
+
+  Punctuation marks were not normalized, but rather transcribed as they appear
+  in the manuscript (. ܆ ܇ : ܀).
+
