@@ -1,0 +1,45 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: John Calvin’s handwriting
+url: https://github.com/pippaJeanne/HTR-Jean-Calvin
+authors:
+  - name: Yanet
+    surname: Hernández Pedraza
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+institutions: []
+description: >-
+  HTR Model for John Calvin’s handwriting trained on a subset of his handwritten
+  French letters.
+project-name: Lettres de Calvin
+project-website: https://lettres-calvin.netlify.app
+language:
+  - fra
+  - frm
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1500'
+  notAfter: '1599'
+hands:
+  count: '1'
+  precision: exact
+license:
+  name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Image-Text-Pairs
+sources:
+  - reference: >-
+      Jean Calvin (1509-1564). Correspondance française (1538-1564). Ms. fr. 194
+      | Ms. fr. 196 | Ms. lat. 107, Bibliothèque de Genève, Genève, Suisse.
+    link: https://archives.bge-geneve.ch/ark:/17786/vtadd0edf5681129ab0
+volume:
+  - metric: pages
+    count: 13
+citation-file-link: https://github.com/pippaJeanne/HTR-Jean-Calvin/blob/main/CITATION.cff
+transcription-guidelines: https://lettres-calvin.netlify.app/fr/recherche#protocole_transcription
