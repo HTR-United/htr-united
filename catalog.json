@@ -13377,18 +13377,18 @@
         "H",
         "8",
         "O",
-        ",",
-        "G",
         "7",
+        "G",
+        ",",
         "9",
-        ")",
         "(",
+        ")",
         "B",
         "\ua753",
         "\ua751",
         "F",
-        "\u0142",
         "\u0308",
+        "\u0142",
         "\ua76f",
         "\u00f0",
         "\u25ca",
@@ -13410,6 +13410,7 @@
         "\ua759",
         "\u1d49",
         "w",
+        "\u00b4",
         ";",
         "\ua757",
         "\u0307",
@@ -13450,19 +13451,19 @@
     "url": "https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle",
     "volume": [
       {
-        "count": 1889365,
+        "count": 1952820,
         "metric": "characters"
       },
       {
-        "count": 1926,
+        "count": 1992,
         "metric": "files"
       },
       {
-        "count": 70588,
+        "count": 72618,
         "metric": "lines"
       },
       {
-        "count": 8979,
+        "count": 9269,
         "metric": "regions"
       }
     ],
