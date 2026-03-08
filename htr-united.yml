@@ -5422,66 +5422,34 @@
     \ and Chagué, Alix},\nmonth = {3},\ntitle = {CREMMA-MSS-16},\nurl = {https://github.com/HTR-United/CREMMA-MSS-16},\n\
     year = {2024}\n}\n"
   _apa: "Mazoue A., Clérice T., Chagué A. (2024). CREMMA-MSS-16 URL: https://github.com/HTR-United/CREMMA-MSS-16\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: CREMMA Manuscrits du 17e
-  url: https://github.com/HTR-United/CREMMA-MSS-17
-  project-name: CREMMA
-  authors:
+- authors:
   - name: Clérice
+    roles:
+    - project-manager
+    - quality-control
     surname: Thibault
-    roles:
-    - project-manager
-    - quality-control
   - name: Chagué
-    surname: Alix
     roles:
     - project-manager
     - quality-control
+    surname: Alix
   - name: Faure
+    roles:
+    - transcriber
     surname: Margaux
-    roles:
-    - transcriber
   - name: Norindr
+    roles:
+    - transcriber
     surname: Jade
-    roles:
-    - transcriber
   - name: Mazoue
+    roles:
+    - transcriber
     surname: Anais
-    roles:
-    - transcriber
   - name: Davoury
-    surname: Baudoin
     roles:
     - transcriber
-  description: Various Manuscripts of the 17th century
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1600'
-    notAfter: '1699'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 81909
-  - metric: files
-    count: 111
-  - metric: lines
-    count: 2245
-  - metric: regions
-    count: 264
-  transcription-guidelines: Abréviations conservées.
-  production-software: eScriptorium + Kraken
+    surname: Baudoin
   characters:
-    mode: NFD
     members:
     - e
     - s
@@ -5581,6 +5549,38 @@
     - ͣ
     - ε
     - ϕ
+    mode: NFD
+  description: Various Manuscripts of the 17th century
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: CREMMA
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1699'
+    notBefore: '1600'
+  title: CREMMA Manuscrits du 17e
+  transcription-guidelines: Abréviations conservées.
+  url: https://github.com/HTR-United/CREMMA-MSS-17
+  volume:
+  - count: 81909
+    metric: characters
+  - count: 111
+    metric: files
+  - count: 2245
+    metric: lines
+  - count: 264
+    metric: regions
   automatically-aligned: false
 - authors:
   - name: Chagué
@@ -5755,70 +5755,38 @@
     \ = {2024}\n}\n"
   _apa: "Van Kote E., Faure M., Norindr J., Clérice T., Chagué A. (2024). CREMMA-MSS-18\
     \ URL: https://github.com/HTR-United/CREMMA-MSS-18\n"
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: CREMMA Manuscrits du 19e
-  url: https://github.com/HTR-United/CREMMA-MSS-19
-  project-name: CREMMA
-  authors:
+- authors:
   - name: Clérice
+    roles:
+    - project-manager
+    - quality-control
     surname: Thibault
-    roles:
-    - project-manager
-    - quality-control
   - name: Chagué
-    surname: Alix
     roles:
     - project-manager
     - quality-control
+    surname: Alix
   - name: Davoury
+    roles:
+    - transcriber
+    - aligner
     surname: Baudouin
-    roles:
-    - transcriber
-    - aligner
   - name: Doat
+    roles:
+    - transcriber
+    - aligner
     surname: Soline
-    roles:
-    - transcriber
-    - aligner
   - name: Faure
+    roles:
+    - transcriber
+    - aligner
     surname: Margaux
-    roles:
-    - transcriber
-    - aligner
   - name: Humeau
-    surname: Maxime
     roles:
     - transcriber
     - aligner
-  description: Manuscripts of the 19th century
-  language:
-  - fra
-  script:
-  - iso: Latn
-  script-type: only-manuscript
-  time:
-    notBefore: '1800'
-    notAfter: '1899'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 55581
-  - metric: files
-    count: 69
-  - metric: lines
-    count: 1807
-  - metric: regions
-    count: 167
-  transcription-guidelines: Abréviations conservées.
-  production-software: eScriptorium + Kraken
+    surname: Maxime
   characters:
-    mode: NFD
     members:
     - e
     - s
@@ -5908,51 +5876,51 @@
     - Y
     - +
     - Z
-  automatically-aligned: false
-- schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  title: CREMMA Manuscrits du 20e
-  url: https://github.com/HTR-United/CREMMA-MSS-20
-  project-name: CREMMA
-  authors:
-  - name: Clérice
-    surname: Thibault
-    roles:
-    - project-manager
-    - quality-control
-  - name: Chagué
-    surname: Alix
-    roles:
-    - project-manager
-    - quality-control
-  description: "Manuscripts of the 20th century\n"
+    mode: NFD
+  description: Manuscripts of the 19th century
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
   language:
   - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: CREMMA
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
   script:
   - iso: Latn
   script-type: only-manuscript
   time:
-    notBefore: '1900'
-    notAfter: '1999'
-  hands:
-    count: 1-per-folder
-    precision: exact
-  license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  format: Alto-XML
-  volume:
-  - metric: characters
-    count: 5764
-  - metric: files
-    count: 13
-  - metric: lines
-    count: 224
-  - metric: regions
-    count: 25
+    notAfter: '1899'
+    notBefore: '1800'
+  title: CREMMA Manuscrits du 19e
   transcription-guidelines: Abréviations conservées.
-  production-software: eScriptorium + Kraken
+  url: https://github.com/HTR-United/CREMMA-MSS-19
+  volume:
+  - count: 55581
+    metric: characters
+  - count: 69
+    metric: files
+  - count: 1807
+    metric: lines
+  - count: 167
+    metric: regions
+  automatically-aligned: false
+- authors:
+  - name: Clérice
+    roles:
+    - project-manager
+    - quality-control
+    surname: Thibault
+  - name: Chagué
+    roles:
+    - project-manager
+    - quality-control
+    surname: Alix
   characters:
-    mode: NFKD
     members:
     - e
     - a
@@ -6030,6 +5998,38 @@
     - (
     - )
     - '6'
+    mode: NFKD
+  description: "Manuscripts of the 20th century\n"
+  format: Alto-XML
+  hands:
+    count: 1-per-folder
+    precision: exact
+  language:
+  - fra
+  license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: CREMMA
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1999'
+    notBefore: '1900'
+  title: CREMMA Manuscrits du 20e
+  transcription-guidelines: Abréviations conservées.
+  url: https://github.com/HTR-United/CREMMA-MSS-20
+  volume:
+  - count: 5764
+    metric: characters
+  - count: 13
+    metric: files
+  - count: 224
+    metric: lines
+  - count: 25
+    metric: regions
   automatically-aligned: false
 - authors:
   - name: Cl\xE9rice

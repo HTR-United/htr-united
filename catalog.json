@@ -6414,103 +6414,53 @@
     "_pid": "92add71a0"
   },
   "f31231d2b": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Manuscrits du 17e",
-    "url": "https://github.com/HTR-United/CREMMA-MSS-17",
-    "project-name": "CREMMA",
     "authors": [
       {
         "name": "Cl\u00e9rice",
-        "surname": "Thibault",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Thibault"
       },
       {
         "name": "Chagu\u00e9",
-        "surname": "Alix",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Alix"
       },
       {
         "name": "Faure",
-        "surname": "Margaux",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Margaux"
       },
       {
         "name": "Norindr",
-        "surname": "Jade",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Jade"
       },
       {
         "name": "Mazoue",
-        "surname": "Anais",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Anais"
       },
       {
         "name": "Davoury",
-        "surname": "Baudoin",
         "roles": [
           "transcriber"
-        ]
+        ],
+        "surname": "Baudoin"
       }
     ],
-    "description": "Various Manuscripts of the 17th century",
-    "language": [
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1600",
-      "notAfter": "1699"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 81909
-      },
-      {
-        "metric": "files",
-        "count": 111
-      },
-      {
-        "metric": "lines",
-        "count": 2245
-      },
-      {
-        "metric": "regions",
-        "count": 264
-      }
-    ],
-    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "s",
@@ -6610,8 +6560,58 @@
         "\u0363",
         "\u03b5",
         "\u03d5"
-      ]
+      ],
+      "mode": "NFD"
     },
+    "description": "Various Manuscripts of the 17th century",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1699",
+      "notBefore": "1600"
+    },
+    "title": "CREMMA Manuscrits du 17e",
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-17",
+    "volume": [
+      {
+        "count": 81909,
+        "metric": "characters"
+      },
+      {
+        "count": 111,
+        "metric": "files"
+      },
+      {
+        "count": 2245,
+        "metric": "lines"
+      },
+      {
+        "count": 264,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_pid": "f31231d2b"
   },
@@ -6827,107 +6827,57 @@
     "_pid": "080333ca7"
   },
   "6bd8117b0": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Manuscrits du 19e",
-    "url": "https://github.com/HTR-United/CREMMA-MSS-19",
-    "project-name": "CREMMA",
     "authors": [
       {
         "name": "Cl\u00e9rice",
-        "surname": "Thibault",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Thibault"
       },
       {
         "name": "Chagu\u00e9",
-        "surname": "Alix",
         "roles": [
           "project-manager",
           "quality-control"
-        ]
+        ],
+        "surname": "Alix"
       },
       {
         "name": "Davoury",
-        "surname": "Baudouin",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Baudouin"
       },
       {
         "name": "Doat",
-        "surname": "Soline",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Soline"
       },
       {
         "name": "Faure",
-        "surname": "Margaux",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Margaux"
       },
       {
         "name": "Humeau",
-        "surname": "Maxime",
         "roles": [
           "transcriber",
           "aligner"
-        ]
+        ],
+        "surname": "Maxime"
       }
     ],
-    "description": "Manuscripts of the 19th century",
-    "language": [
-      "fra"
-    ],
-    "script": [
-      {
-        "iso": "Latn"
-      }
-    ],
-    "script-type": "only-manuscript",
-    "time": {
-      "notBefore": "1800",
-      "notAfter": "1899"
-    },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
-    "volume": [
-      {
-        "metric": "characters",
-        "count": 55581
-      },
-      {
-        "metric": "files",
-        "count": 69
-      },
-      {
-        "metric": "lines",
-        "count": 1807
-      },
-      {
-        "metric": "regions",
-        "count": 167
-      }
-    ],
-    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
-    "production-software": "eScriptorium + Kraken",
     "characters": {
-      "mode": "NFD",
       "members": [
         "e",
         "s",
@@ -7017,38 +6967,27 @@
         "Y",
         "+",
         "Z"
-      ]
+      ],
+      "mode": "NFD"
     },
-    "automatically-aligned": false,
-    "_pid": "6bd8117b0"
-  },
-  "b6e607ab9": {
-    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "CREMMA Manuscrits du 20e",
-    "url": "https://github.com/HTR-United/CREMMA-MSS-20",
-    "project-name": "CREMMA",
-    "authors": [
-      {
-        "name": "Cl\u00e9rice",
-        "surname": "Thibault",
-        "roles": [
-          "project-manager",
-          "quality-control"
-        ]
-      },
-      {
-        "name": "Chagu\u00e9",
-        "surname": "Alix",
-        "roles": [
-          "project-manager",
-          "quality-control"
-        ]
-      }
-    ],
-    "description": "Manuscripts of the 20th century\n",
+    "description": "Manuscripts of the 19th century",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
     "language": [
       "fra"
     ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "script": [
       {
         "iso": "Latn"
@@ -7056,42 +6995,53 @@
     ],
     "script-type": "only-manuscript",
     "time": {
-      "notBefore": "1900",
-      "notAfter": "1999"
+      "notAfter": "1899",
+      "notBefore": "1800"
     },
-    "hands": {
-      "count": "1-per-folder",
-      "precision": "exact"
-    },
-    "license": [
-      {
-        "name": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      }
-    ],
-    "format": "Alto-XML",
+    "title": "CREMMA Manuscrits du 19e",
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-19",
     "volume": [
       {
-        "metric": "characters",
-        "count": 5764
+        "count": 55581,
+        "metric": "characters"
       },
       {
-        "metric": "files",
-        "count": 13
+        "count": 69,
+        "metric": "files"
       },
       {
-        "metric": "lines",
-        "count": 224
+        "count": 1807,
+        "metric": "lines"
       },
       {
-        "metric": "regions",
-        "count": 25
+        "count": 167,
+        "metric": "regions"
       }
     ],
-    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
-    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "_pid": "6bd8117b0"
+  },
+  "b6e607ab9": {
+    "authors": [
+      {
+        "name": "Cl\u00e9rice",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Thibault"
+      },
+      {
+        "name": "Chagu\u00e9",
+        "roles": [
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Alix"
+      }
+    ],
     "characters": {
-      "mode": "NFKD",
       "members": [
         "e",
         "a",
@@ -7169,8 +7119,58 @@
         "(",
         ")",
         "6"
-      ]
+      ],
+      "mode": "NFKD"
     },
+    "description": "Manuscripts of the 20th century\n",
+    "format": "Alto-XML",
+    "hands": {
+      "count": "1-per-folder",
+      "precision": "exact"
+    },
+    "language": [
+      "fra"
+    ],
+    "license": [
+      {
+        "name": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "project-name": "CREMMA",
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notAfter": "1999",
+      "notBefore": "1900"
+    },
+    "title": "CREMMA Manuscrits du 20e",
+    "transcription-guidelines": "Abr\u00e9viations conserv\u00e9es.",
+    "url": "https://github.com/HTR-United/CREMMA-MSS-20",
+    "volume": [
+      {
+        "count": 5764,
+        "metric": "characters"
+      },
+      {
+        "count": 13,
+        "metric": "files"
+      },
+      {
+        "count": 224,
+        "metric": "lines"
+      },
+      {
+        "count": 25,
+        "metric": "regions"
+      }
+    ],
     "automatically-aligned": false,
     "_pid": "b6e607ab9"
   },
