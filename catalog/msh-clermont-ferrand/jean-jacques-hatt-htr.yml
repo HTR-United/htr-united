@@ -1,0 +1,80 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: >-
+  Les carnets de fouilles manuscrits de Jean-Jacques Hatt: verité de terrain
+  pour un modèle HTR
+url: https://nakala.fr/10.34847/nkl.116al580
+authors:
+  - name: Niven
+    surname: Dillange
+    orcid: 0009-0003-5411-5014
+    roles:
+      - transcriber
+  - name: Marion
+    surname: Dacko
+    orcid: 0009-0008-1865-1529
+    roles:
+      - quality-control
+      - support
+  - name: Claire
+    surname: Brossard
+    orcid: 0009-0008-6324-3065
+    roles:
+      - transcriber
+  - name: Sébastien
+    surname: Laroque
+    orcid: 0009-0005-5375-8696
+    roles:
+      - transcriber
+  - name: Aurelia
+    surname: Vasile
+    orcid: 0000-0002-2713-3212
+    roles:
+      - project-manager
+      - support
+institutions:
+  - name: Maison des Sciences Humaines de Clermont-Ferrand
+description: |-
+  Ce jeu de données contient la transcription et la segmentation de 107 pages
+  sélectionnées parmi les carnets de terrain de l’archéologue Jean-Jacques Hatt.
+  Ces opérations ont été réalisées à l’aide du logiciel eScriptorium (instance
+  INRIA). Le corpus contient des paires Texte-Image au format XML ALTO-JPG.
+  L’échantillon a été choisi pour privilégier des pages avec :
+  - des lignes de texte standard,
+  - une écriture de gauche à droite,
+  - un minimum d’insertions graphiques.
+  Certaines pages incluent cependant des zones graphiques, identifiées par une
+  segmentation manuelle.
+  Ces transcriptions ont servi à l’entraînement d’un modèle spécifique adapté à
+  l’écriture de Jean-Jacques Hatt. Les documents couvrent la période 1942-1944.
+project-name: >-
+  Les archives anciennes de l'archéologie liées au Quartier des Artisans de
+  Gergovie
+project-website: https://korpus.msh.uca.fr/s/gergovie-archives-de-fouilles/page/welcome
+language:
+  - fra
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1942'
+  notAfter: '1944'
+hands:
+  count: '1'
+  precision: exact
+license:
+  name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Image-Text-Pairs
+volume:
+  - metric: pages
+    count: 107
+transcription-guidelines: |-
+  La transcription respecte scrupuleusement le texte original, y compris les
+  graphies fautives. Voici les conventions appliquées :
+  Texte barré : transcrit sous la forme xxxx
+  Texte illisible : transcrit sous la forme […]
+  Lettres grecques : retranscrites en utilisant les caractères β, γ, α, M, A, Σ
+  Texte souligné : non reproduit dans la transcription
+  Exposants : développés
