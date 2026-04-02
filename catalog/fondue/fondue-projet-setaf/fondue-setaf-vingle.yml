@@ -1,40 +1,144 @@
 authors:
 - name: Sonia
-  surname: Solfrini
   orcid: 0009-0009-7367-048X
   roles:
   - transcriber
   - project-manager
   - quality-control
+  surname: Solfrini
 - name: Simon
-  surname: Gabay
   orcid: 0000-0001-9094-4475
   roles:
   - support
+  surname: Gabay
 - name: Geneviève
-  surname: Gross
   orcid: 0009-0006-5367-4262
   roles:
-  - transcriber
   - project-manager
   - quality-control
+  surname: Gross
 - name: Pierre-Olivier
-  surname: Beaulnes
   orcid: 0009-0009-2475-6017
   roles:
   - transcriber
   - quality-control
+  surname: Beaulnes
 - name: Aurélia
-  surname: Marques Oliveira
   orcid: 0009-0009-9678-9811
   roles:
   - transcriber
   - quality-control
+  surname: Marques Oliveira
+- name: Mylène
+  orcid: 0009-0000-9696-9868
+  roles:
+  - transcriber
+  - quality-control
+  surname: Dejouy
 - name: Daniela
-  surname: Solfaroli Camillocci
   orcid: 0000-0002-2601-668X
   roles:
   - project-manager
+  surname: Solfaroli Camillocci
+characters:
+  members:
+  - e
+  - s
+  - i
+  - u
+  - a
+  - t
+  - r
+  - o
+  - n
+  - l
+  - c
+  - d
+  - .
+  - p
+  - m
+  - ̃
+  - /
+  - q
+  - f
+  - h
+  - g
+  - y
+  - b
+  - z
+  - ⁊
+  - x
+  - ¬
+  - ':'
+  - C
+  - I
+  - E
+  - D
+  - '1'
+  - L
+  - P
+  - A
+  - ¶
+  - M
+  - ͥ
+  - '2'
+  - S
+  - '3'
+  - '*'
+  - ͬ
+  - T
+  - Q
+  - N
+  - '?'
+  - ꝰ
+  - '4'
+  - R
+  - '5'
+  - U
+  - '6'
+  - '0'
+  - H
+  - '8'
+  - O
+  - '7'
+  - G
+  - ','
+  - '9'
+  - (
+  - )
+  - B
+  - ꝓ
+  - ꝑ
+  - F
+  - ̈
+  - ł
+  - ꝯ
+  - ð
+  - ◊
+  - '-'
+  -  
+  - k
+  - Z
+  - ꝝ
+  - v
+  - K
+  - "'"
+  - Y
+  - X
+  - ̀
+  - ꝫ
+  - V
+  - ́
+  - J
+  - ꝙ
+  - ᵉ
+  - w
+  - ´
+  - ;
+  - ꝗ
+  - ̇
+  - ̌
+  mode: NFD
 citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle/blob/main/CITATION.cff
 description: >-
   OCR data for the SETAF project, 16th-century French prints in Gothic
@@ -51,7 +155,7 @@ license:
 production-software: eScriptorium + Kraken
 project-name: FoNDUE
 project-website: >-
-  https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+  https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 script:
 - iso: Latn
@@ -67,106 +171,11 @@ transcription-guidelines: >-
   our rules is available on HAL (https://hal.science/hal-04281804).
 url: https://github.com/SETAFDH/HTR-SETAF-Pierre-de-Vingle
 volume:
-- count: 662316
+- count: 1952820
   metric: characters
-- count: 915
+- count: 1992
   metric: files
-- count: 25220
+- count: 72618
   metric: lines
-- count: 2812
+- count: 9269
   metric: regions
-characters:
-  members:
-  - e
-  - s
-  - u
-  - i
-  - a
-  - t
-  - r
-  - n
-  - o
-  - l
-  - c
-  - d
-  - p
-  - .
-  - m
-  - ̃
-  - /
-  - q
-  - f
-  - y
-  - g
-  - h
-  - b
-  - ⁊
-  - z
-  - ¬
-  - x
-  - ':'
-  - C
-  - I
-  - E
-  - D
-  - '1'
-  - P
-  - L
-  - A
-  - M
-  - S
-  - '2'
-  - ¶
-  - ͥ
-  - '3'
-  - T
-  - N
-  - Q
-  - ͬ
-  - '4'
-  - R
-  - '5'
-  - U
-  - '?'
-  - ꝰ
-  - ','
-  - '6'
-  - O
-  - '0'
-  - H
-  - G
-  - B
-  - (
-  - )
-  - '8'
-  - '7'
-  - '9'
-  - ꝓ
-  - F
-  - ꝑ
-  - ◊
-  - '-'
-  - ̈
-  - ł
-  -  
-  - ꝯ
-  - ð
-  - ;
-  - ꝝ
-  - "'"
-  - ̀
-  - k
-  - v
-  - Z
-  - K
-  - ́
-  - Y
-  - V
-  - X
-  - J
-  - ꝫ
-  - w
-  - ꝗ
-  - ̇
-  - ̌
-  mode: NFD
