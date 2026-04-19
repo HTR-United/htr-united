@@ -4207,10 +4207,12 @@
         "8",
         ";",
         "O",
-        "S",
         "J",
+        "S",
         "7",
         ":",
+        "\u27e7",
+        "\u27e6",
         "5",
         "+",
         "B",
@@ -4276,7 +4278,7 @@
     "url": "https://github.com/Front-Justice/htr-front-justice.git",
     "volume": [
       {
-        "count": 795781,
+        "count": 793559,
         "metric": "characters"
       },
       {
@@ -4284,7 +4286,7 @@
         "metric": "files"
       },
       {
-        "count": 13044,
+        "count": 13043,
         "metric": "lines"
       },
       {

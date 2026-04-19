@@ -3720,10 +3720,12 @@
     - '8'
     - ;
     - O
-    - S
     - J
+    - S
     - '7'
     - ':'
+    - ⟧
+    - ⟦
     - '5'
     - +
     - B
@@ -3783,11 +3785,11 @@
     See README (Annotation and Transcription Guidelines section)
   url: https://github.com/Front-Justice/htr-front-justice.git
   volume:
-  - count: 795781
+  - count: 793559
     metric: characters
   - count: 250
     metric: files
-  - count: 13044
+  - count: 13043
     metric: lines
   - count: 1333
     metric: regions
