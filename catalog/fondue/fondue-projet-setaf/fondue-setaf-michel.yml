@@ -1,40 +1,137 @@
 authors:
 - name: Sonia
-  surname: Solfrini
   orcid: 0009-0009-7367-048X
   roles:
   - transcriber
   - project-manager
   - quality-control
+  surname: Solfrini
 - name: Simon
-  surname: Gabay
   orcid: 0000-0001-9094-4475
   roles:
   - support
+  surname: Gabay
 - name: Geneviève
-  surname: Gross
   orcid: 0009-0006-5367-4262
   roles:
-  - transcriber
   - project-manager
   - quality-control
+  surname: Gross
 - name: Pierre-Olivier
-  surname: Beaulnes
   orcid: 0009-0009-2475-6017
   roles:
   - transcriber
   - quality-control
+  surname: Beaulnes
 - name: Aurélia
-  surname: Marques Oliveira
   orcid: 0009-0009-9678-9811
   roles:
   - transcriber
   - quality-control
+  surname: Marques Oliveira
+- name: Mylène
+  orcid: 0009-0000-9696-9868
+  roles:
+  - transcriber
+  - quality-control
+  surname: Dejouy
 - name: Daniela
-  surname: Solfaroli Camillocci
   orcid: 0000-0002-2601-668X
   roles:
   - project-manager
+  surname: Solfaroli Camillocci
+characters:
+  members:
+  - e
+  - s
+  - u
+  - i
+  - a
+  - t
+  - n
+  - r
+  - o
+  - l
+  - c
+  - d
+  - p
+  - m
+  - .
+  - ̃
+  - q
+  - f
+  - /
+  - y
+  - h
+  - g
+  - b
+  - ','
+  - ⁊
+  - z
+  - ¬
+  - C
+  - x
+  - D
+  - ':'
+  - E
+  - I
+  - '1'
+  - P
+  - S
+  - L
+  - A
+  - '2'
+  - M
+  - ꝰ
+  - ͥ
+  - Q
+  - '3'
+  - ͬ
+  - '4'
+  - T
+  - N
+  - R
+  - '?'
+  - '5'
+  - U
+  - '6'
+  - O
+  - (
+  - ¶
+  - )
+  - '8'
+  - H
+  - '0'
+  - ꝑ
+  - B
+  - F
+  - '7'
+  - G
+  - ꝓ
+  - '9'
+  - ◊
+  - ꝯ
+  - ð
+  -  
+  - ᗞ
+  - K
+  - ᑕ
+  - '-'
+  - V
+  - Z
+  - Y
+  - ;
+  - J
+  - ꝝ
+  - ꝙ
+  - ̈
+  - k
+  - ̀
+  - ᗅ
+  - w
+  - v
+  - ł
+  mode: NFD
 citation-file-link: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel/blob/main/CITATION.cff
 description: >-
   OCR data for the SETAF project, 16th-century French prints in Gothic
@@ -51,7 +148,7 @@ license:
 production-software: eScriptorium + Kraken
 project-name: FoNDUE
 project-website: >-
-  https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue
+  https://www.unige.ch/lettres/humanites-numeriques/recherche/projets/projets-de-la-chaire/fondue
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 script:
 - iso: Latn
@@ -62,100 +159,16 @@ time:
 title: HTR-SETAF-Jean-Michel
 transcription-guidelines: >-
   Our data follow SegmOnto segmentation standards (https://segmonto.github.io). Our
-  transcription guidelines follow a graphematic approach, without regularisation.
+  transcription guidelines follow a graphematic approach, without  regularisation.
   We keep the original punctuation and abbreviations. A detailed presentation of
   our rules is available on HAL (https://hal.science/hal-04281804).
 url: https://github.com/SETAFDH/HTR-SETAF-Jean-Michel
 volume:
-- count: 286256
+- count: 651491
   metric: characters
-- count: 404
+- count: 858
   metric: files
-- count: 11778
+- count: 25406
   metric: lines
-- count: 1365
+- count: 3740
   metric: regions
-characters:
-  members:
-  - e
-  - s
-  - u
-  - a
-  - i
-  - n
-  - t
-  - r
-  - o
-  - l
-  - c
-  - d
-  - p
-  - m
-  - .
-  - ','
-  - f
-  - q
-  - g
-  - ̃
-  - y
-  - b
-  - h
-  - /
-  - z
-  - ⁊
-  - ¬
-  - ':'
-  - C
-  - D
-  - x
-  - E
-  - I
-  - P
-  - L
-  - S
-  - '1'
-  - A
-  - M
-  - Q
-  - '2'
-  - U
-  - '?'
-  - '3'
-  - N
-  - T
-  - '4'
-  - O
-  - ͥ
-  - B
-  - R
-  - ꝰ
-  - H
-  - '6'
-  - '5'
-  - ͬ
-  - G
-  - '8'
-  - F
-  - (
-  - )
-  - '0'
-  - '9'
-  - ¶
-  - '7'
-  - ◊
-  - ꝓ
-  -  
-  - ꝑ
-  - V
-  - ᑕ
-  - Y
-  - '-'
-  - ;
-  - ᗞ
-  - J
-  - k
-  - ̀
-  - Z
-  - v
-  - ꝯ
-  mode: NFD
