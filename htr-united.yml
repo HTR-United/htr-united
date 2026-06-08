@@ -13261,6 +13261,86 @@
   - count: 918
     metric: files
 - authors:
+  - name: Niven
+    orcid: 0009-0003-5411-5014
+    roles:
+    - transcriber
+    surname: Dillange
+  - name: Marion
+    orcid: 0009-0008-1865-1529
+    roles:
+    - quality-control
+    - support
+    surname: Dacko
+  - name: Claire
+    orcid: 0009-0008-6324-3065
+    roles:
+    - transcriber
+    surname: Brossard
+  - name: Sébastien
+    orcid: 0009-0005-5375-8696
+    roles:
+    - transcriber
+    surname: Laroque
+  - name: Aurelia
+    orcid: 0000-0002-2713-3212
+    roles:
+    - project-manager
+    - support
+    surname: Vasile
+  automatically-aligned: false
+  description: |-
+    Ce jeu de données contient la transcription et la segmentation de 107 pages
+    sélectionnées parmi les carnets de terrain de l’archéologue Jean-Jacques Hatt.
+    Ces opérations ont été réalisées à l’aide du logiciel eScriptorium (instance
+    INRIA). Le corpus contient des paires Texte-Image au format XML ALTO-JPG.
+    L’échantillon a été choisi pour privilégier des pages avec :
+    - des lignes de texte standard,
+    - une écriture de gauche à droite,
+    - un minimum d’insertions graphiques.
+    Certaines pages incluent cependant des zones graphiques, identifiées par une
+    segmentation manuelle.
+    Ces transcriptions ont servi à l’entraînement d’un modèle spécifique adapté à
+    l’écriture de Jean-Jacques Hatt. Les documents couvrent la période 1942-1944.
+  format: Image-Text-Pairs
+  hands:
+    count: '1'
+    precision: exact
+  institutions:
+  - name: Maison des Sciences Humaines de Clermont-Ferrand
+  language:
+  - fra
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: >-
+    Les archives anciennes de l'archéologie liées au Quartier des Artisans de
+    Gergovie
+  project-website: https://korpus.msh.uca.fr/s/gergovie-archives-de-fouilles/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1944'
+    notBefore: '1942'
+  title: >-
+    Les carnets de fouilles manuscrits de Jean-Jacques Hatt: verité de terrain
+    pour un modèle HTR
+  transcription-guidelines: |-
+    La transcription respecte scrupuleusement le texte original, y compris les
+    graphies fautives. Voici les conventions appliquées :
+    Texte barré : transcrit sous la forme xxxx
+    Texte illisible : transcrit sous la forme […]
+    Lettres grecques : retranscrites en utilisant les caractères β, γ, α, M, A, Σ
+    Texte souligné : non reproduit dans la transcription
+    Exposants : non développés, non transcrits sauf °
+  url: https://nakala.fr/10.34847/nkl.116al580
+  volume:
+  - count: 107
+    metric: pages
+- authors:
   - name: Svetlana
     orcid: 0000-0001-5356-7746
     roles:

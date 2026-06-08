@@ -16016,6 +16016,95 @@
     "automatically-aligned": false,
     "_pid": "98985e96b"
   },
+  "5521bcfaa": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Les carnets de fouilles manuscrits de Jean-Jacques Hatt: verit\u00e9 de terrain pour un mod\u00e8le HTR",
+    "url": "https://nakala.fr/10.34847/nkl.116al580",
+    "authors": [
+      {
+        "name": "Niven",
+        "orcid": "0009-0003-5411-5014",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Dillange"
+      },
+      {
+        "name": "Marion",
+        "orcid": "0009-0008-1865-1529",
+        "roles": [
+          "quality-control",
+          "support"
+        ],
+        "surname": "Dacko"
+      },
+      {
+        "name": "Claire",
+        "orcid": "0009-0008-6324-3065",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Brossard"
+      },
+      {
+        "name": "S\u00e9bastien",
+        "orcid": "0009-0005-5375-8696",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Laroque"
+      },
+      {
+        "name": "Aurelia",
+        "orcid": "0000-0002-2713-3212",
+        "roles": [
+          "project-manager",
+          "support"
+        ],
+        "surname": "Vasile"
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Maison des Sciences Humaines de Clermont-Ferrand"
+      }
+    ],
+    "description": "Ce jeu de donn\u00e9es contient la transcription et la segmentation de 107 pages\ns\u00e9lectionn\u00e9es parmi les carnets de terrain de l\u2019arch\u00e9ologue Jean-Jacques Hatt.\nCes op\u00e9rations ont \u00e9t\u00e9 r\u00e9alis\u00e9es \u00e0 l\u2019aide du logiciel eScriptorium (instance\nINRIA). Le corpus contient des paires Texte-Image au format XML ALTO-JPG.\nL\u2019\u00e9chantillon a \u00e9t\u00e9 choisi pour privil\u00e9gier des pages avec :\n- des lignes de texte standard,\n- une \u00e9criture de gauche \u00e0 droite,\n- un minimum d\u2019insertions graphiques.\nCertaines pages incluent cependant des zones graphiques, identifi\u00e9es par une\nsegmentation manuelle.\nCes transcriptions ont servi \u00e0 l\u2019entra\u00eenement d\u2019un mod\u00e8le sp\u00e9cifique adapt\u00e9 \u00e0\nl\u2019\u00e9criture de Jean-Jacques Hatt. Les documents couvrent la p\u00e9riode 1942-1944.",
+    "project-name": "Les archives anciennes de l'arch\u00e9ologie li\u00e9es au Quartier des Artisans de Gergovie",
+    "project-website": "https://korpus.msh.uca.fr/s/gergovie-archives-de-fouilles/",
+    "language": [
+      "fra"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1942",
+      "notAfter": "1944"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Image-Text-Pairs",
+    "volume": [
+      {
+        "count": 107,
+        "metric": "pages"
+      }
+    ],
+    "transcription-guidelines": "La transcription respecte scrupuleusement le texte original, y compris les\ngraphies fautives. Voici les conventions appliqu\u00e9es :\nTexte barr\u00e9 : transcrit sous la forme xxxx\nTexte illisible : transcrit sous la forme [\u2026]\nLettres grecques : retranscrites en utilisant les caract\u00e8res \u03b2, \u03b3, \u03b1, M, A, \u03a3\nTexte soulign\u00e9 : non reproduit dans la transcription\nExposants : non d\u00e9velopp\u00e9s, non transcrits sauf \u00b0",
+    "_pid": "5521bcfaa"
+  },
   "9f3c75a3b": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "DISTINGUO : Ground truth for Handwritten Text Recognition (HTR) on Collections of Distinctions (late 13th to late 15th century) ",
