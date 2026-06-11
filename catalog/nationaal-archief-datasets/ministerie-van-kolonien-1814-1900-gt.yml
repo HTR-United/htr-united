@@ -1,0 +1,49 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: >-
+ Ministerie van Kolonien, 2.10.01 & 2.10.02, ground truth for HTR training
+ (1814-1900)
+url: https://zenodo.org/records/19549948
+authors:
+ - name: Vincent
+   surname: Noppe
+   roles:
+     - quality-control
+     - digitization
+     - support
+ - name: Liesbeth
+   surname: Keijser
+   roles:
+     - project-manager
+institutions:
+ - name: Nationaal Archief
+   roles:
+     - digitization
+     - support
+description: >-
+ Set of PageXML Ground Truth for HTR training purposes. 
+
+ The zip file contains 2773 images including the transcriptions found in de
+ Page folder. The images are randomly chosen from the digitized archives of the
+ Ministerie van Kolonien, its inventories can be found here:
+ https://www.nationaalarchief.nl/onderzoeken/archief/2.10.01,
+ https://www.nationaalarchief.nl/onderzoeken/archief/2.10.02
+language:
+ - nld
+production-software: Transkribus
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1814'
+ notAfter: '1900'
+hands:
+ count: more-than-10
+ precision: exact
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+ - metric: files
+   count: 2773
