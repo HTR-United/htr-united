@@ -17117,6 +17117,70 @@
     "_apa": "Nelson D.R., Myers J., Catalano T., Nase B., Baker V., Kolic I., Shiroma Y.D. (2025). The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English (version 1.0). DOI: 10.5281/zenodo.15776323 URL: https://therevolutionarycity.org\n",
     "_pid": "08cd06fcf"
   },
+  "2cc31ae90": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ministerie van Kolonien, 2.10.01 & 2.10.02, ground truth for HTR training (1814-1900)",
+    "url": "https://zenodo.org/records/19549948",
+    "authors": [
+      {
+        "name": "Vincent",
+        "roles": [
+          "quality-control",
+          "digitization",
+          "support"
+        ],
+        "surname": "Noppe"
+      },
+      {
+        "name": "Liesbeth",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Keijser"
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Nationaal Archief",
+        "roles": [
+          "digitization",
+          "support"
+        ]
+      }
+    ],
+    "description": "Set of PageXML Ground Truth for HTR training purposes. \nThe zip file contains 2773 images including the transcriptions found in de Page folder. The images are randomly chosen from the digitized archives of the Ministerie van Kolonien, its inventories can be found here: https://www.nationaalarchief.nl/onderzoeken/archief/2.10.01, https://www.nationaalarchief.nl/onderzoeken/archief/2.10.02",
+    "language": [
+      "nld"
+    ],
+    "production-software": "Transkribus",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1814",
+      "notAfter": "1900"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 2773,
+        "metric": "files"
+      }
+    ],
+    "_pid": "2cc31ae90"
+  },
   "fc63dcc30": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "EPARCHOS",

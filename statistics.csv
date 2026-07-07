@@ -388,26 +388,27 @@
 386,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,lines,95990,Alto-XML,only-manuscript
 387,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,regions,9439,Alto-XML,only-manuscript
 388,https://zenodo.org/records/15776323,The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English,1758,1805,characters,2997053,Alto-XML,only-manuscript
-389,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
-390,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
-391,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
-392,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
-393,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
-394,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
-395,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
-396,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
-397,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
-398,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
-399,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
-400,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
-401,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
-402,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
-403,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
-404,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
-405,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
-406,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
-407,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
-408,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
-409,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
-410,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
-411,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
+389,https://zenodo.org/records/19549948,"Ministerie van Kolonien, 2.10.01 & 2.10.02, ground truth for HTR training (1814-1900)",1814,1900,files,2773,Page-XML,only-manuscript
+390,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,lines,2272,Page-XML,only-manuscript
+391,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,characters,116894,Page-XML,only-manuscript
+392,https://zenodo.org/records/4095301,EPARCHOS,1500,1530,files,120,Page-XML,only-manuscript
+393,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,lines,803,Page-XML,only-manuscript
+394,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,files,40,Page-XML,only-manuscript
+395,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,regions,40,Page-XML,only-manuscript
+396,https://zenodo.org/records/5578136,Stavronikita Monastery Collection No. 79,1501,1600,characters,29112,Page-XML,only-manuscript
+397,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,lines,1006,Page-XML,only-manuscript
+398,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,files,44,Page-XML,only-manuscript
+399,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,regions,44,Page-XML,only-manuscript
+400,https://zenodo.org/records/5578251,Stavronikita Monastery Collection No. 114,1401,1500,characters,36898,Page-XML,only-manuscript
+401,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,lines,1038,Page-XML,only-manuscript
+402,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,files,54,Page-XML,only-manuscript
+403,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,regions,54,Page-XML,only-manuscript
+404,https://zenodo.org/records/5595669,Stavronikita Monastery Collection No. 53,1301,1350,characters,37070,Page-XML,only-manuscript
+405,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,lines,321,Page-XML,only-manuscript
+406,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,characters,5850,Page-XML,only-manuscript
+407,https://zenodo.org/records/6565706,Ground-Truthed Data Set of Zenon Papyri for Handwritten Text Recognition,-250,-230,files,27,Page-XML,only-manuscript
+408,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,pages,512,Page-XML,only-manuscript
+409,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,lines,34231,Page-XML,only-manuscript
+410,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,characters,3320407,Page-XML,only-manuscript
+411,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,files,512,Page-XML,only-manuscript
+412,https://zenodo.org/records/7575693,ANR e-NDP Ground Truth,1326,1504,regions,2448,Page-XML,only-manuscript
