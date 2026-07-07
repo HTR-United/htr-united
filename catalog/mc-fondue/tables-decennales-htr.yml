@@ -1,0 +1,65 @@
+schema-location: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Tables_decennales_HTR
+url: https://github.com/Lucie-Louis/Tables_decennales_HTR
+authors:
+  - name: Lucie
+    surname: Louis
+    roles:
+      - transcriber
+      - aligner
+      - mainCreator
+institutions: []
+description: >-
+  Ce corpus est composé de pages d’entraînement préparées pour le fine-tuning du modèle Manu Mc
+  Fondue. Ces 17 doubles pages sont extraites des tables décennales (1902-1913) du 1er
+  arrondissement de Lyon et recouvrent chaque initiale de la table. Il manque uniquement la lettre
+  D. Le modèle de nommage des fichiers est le suivant : n°pagemanuscrit_initiale.xml/png
+language:
+  - fra
+script: []
+script-type: only-manuscript
+production-software: eScriptorium + Kraken
+time:
+  notBefore: "1902"
+  notAfter: "1913"
+hands:
+  count: 1perfile
+  precision: exact
+transcription-guidelines: >-
+  Ce projet a été réalisé avant d’avoir connaissance des guidelines Catmus trouvables ici :
+  https://catmus-guidelines.github.io/ Les règles suivies dans ce corpus sont les suivantes :
+
+
+  pas de développement des prénoms abrégés
+
+  les majuscules/minuscules suivent le manuscrit, même si une minuscule se trouve là où une
+  majuscule devrait être
+
+  les accents n’ont normalement pas été ajoutés s’ils étaient absents du manuscrit (mais des erreurs
+  sont possibles)
+
+  dans le cas de noms/prénoms glissés en interligne : une ligne de segmentation a été ajoutée puis
+  ils ont été transcrits sans signe distinctif
+
+  Cas lettres barrées d’une croix : elles ont été ignorées (ex. Manuscrit : m de Garampon barré
+  d’une croix / transcription = Garapon)
+
+  Mots complètement biffés : ils ont été ignorés à la transcription, aucune mention de leur présence
+  car la règle de mettre [] là où le mot se trouve ne m’était pas encore connue
+
+  cas d’ajout d’un mot dans une ligne en le mettant au-dessus de la ligne avec une flèche indiquant
+  où il se place : le mot est replacé au sein de la ligne (ex. Manuscrit : Fargier - Yvonne
+  Joséphine (reconnue) marala / transcription : Fargier - Yvonne Joséphine reconnue marala. Sachant
+  que le « reconnue » du manuscrit est surélevé)
+
+  Cas de textes qui se superposent (ex. si le nom dépasse sur les premiers chiffres de la date de
+  naissance) : la séparation a été ajoutée à la transcription
+
+  étoiles dessinées à côté de certains noms : elles ont été exclues de la segmentation autant que
+  possible et ignorées à la transcription
+volume: []
+automatically-aligned: false
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: []
