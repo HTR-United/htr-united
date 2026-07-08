@@ -6,8 +6,7 @@ authors:
     surname: Brochard
     roles:
       - aligner
-      - mainCreator
-      - qualityControl
+      - quality-control
     orcid: https://orcid.org/0000-0003-1955-556X
 institutions: []
 description: >-
