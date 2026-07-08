@@ -11238,6 +11238,63 @@
     "_apa": "Hoeben L. Antoine Verard extracts URL: https://github.com/LaurieHoeben/Verard-corpus\n",
     "_pid": "8615f2b37"
   },
+  "55b73e1b3": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Tables_decennales_HTR",
+    "url": "https://github.com/Lucie-Louis/Tables_decennales_HTR",
+    "authors": [
+      {
+        "name": "Lucie",
+        "roles": [
+          "transcriber",
+          "aligner"
+        ],
+        "surname": "Louis"
+      }
+    ],
+    "institutions": [],
+    "description": "Ce corpus est compos\u00e9 de pages d\u2019entra\u00eenement pr\u00e9par\u00e9es pour le fine-tuning du mod\u00e8le Manu Mc Fondue. Ces 17 doubles pages sont extraites des tables d\u00e9cennales (1902-1913) du 1er arrondissement de Lyon et recouvrent chaque initiale de la table. Il manque uniquement la lettre D. Le mod\u00e8le de nommage des fichiers est le suivant : n\u00b0pagemanuscrit_initiale.xml/png",
+    "language": [
+      "fra"
+    ],
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "production-software": "eScriptorium + Kraken",
+    "time": {
+      "notBefore": "1902",
+      "notAfter": "1913"
+    },
+    "hands": {
+      "count": "1-per-file",
+      "precision": "exact"
+    },
+    "transcription-guidelines": "Ce projet a \u00e9t\u00e9 r\u00e9alis\u00e9 avant d\u2019avoir connaissance des guidelines Catmus trouvables ici : https://catmus-guidelines.github.io/ Les r\u00e8gles suivies dans ce corpus sont les suivantes :\n\npas de d\u00e9veloppement des pr\u00e9noms abr\u00e9g\u00e9s\nles majuscules/minuscules suivent le manuscrit, m\u00eame si une minuscule se trouve l\u00e0 o\u00f9 une majuscule devrait \u00eatre\nles accents n\u2019ont normalement pas \u00e9t\u00e9 ajout\u00e9s s\u2019ils \u00e9taient absents du manuscrit (mais des erreurs sont possibles)\ndans le cas de noms/pr\u00e9noms gliss\u00e9s en interligne : une ligne de segmentation a \u00e9t\u00e9 ajout\u00e9e puis ils ont \u00e9t\u00e9 transcrits sans signe distinctif\nCas lettres barr\u00e9es d\u2019une croix : elles ont \u00e9t\u00e9 ignor\u00e9es (ex. Manuscrit : m de Garampon barr\u00e9 d\u2019une croix / transcription = Garapon)\nMots compl\u00e8tement biff\u00e9s : ils ont \u00e9t\u00e9 ignor\u00e9s \u00e0 la transcription, aucune mention de leur pr\u00e9sence car la r\u00e8gle de mettre [] l\u00e0 o\u00f9 le mot se trouve ne m\u2019\u00e9tait pas encore connue\ncas d\u2019ajout d\u2019un mot dans une ligne en le mettant au-dessus de la ligne avec une fl\u00e8che indiquant o\u00f9 il se place : le mot est replac\u00e9 au sein de la ligne (ex. Manuscrit : Fargier - Yvonne Jos\u00e9phine (reconnue) marala / transcription : Fargier - Yvonne Jos\u00e9phine reconnue marala. Sachant que le \u00ab reconnue \u00bb du manuscrit est sur\u00e9lev\u00e9)\nCas de textes qui se superposent (ex. si le nom d\u00e9passe sur les premiers chiffres de la date de naissance) : la s\u00e9paration a \u00e9t\u00e9 ajout\u00e9e \u00e0 la transcription\n\u00e9toiles dessin\u00e9es \u00e0 c\u00f4t\u00e9 de certains noms : elles ont \u00e9t\u00e9 exclues de la segmentation autant que possible et ignor\u00e9es \u00e0 la transcription",
+    "volume": [
+      {
+        "count": 1632,
+        "metric": "lines"
+      },
+      {
+        "count": 17,
+        "metric": "images"
+      },
+      {
+        "count": 31870,
+        "metric": "characters"
+      }
+    ],
+    "automatically-aligned": false,
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Alto-XML",
+    "_pid": "55b73e1b3"
+  },
   "0e00a1bee": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "gt_structure_text",
