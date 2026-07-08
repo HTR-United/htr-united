@@ -7,7 +7,6 @@ authors:
     roles:
       - transcriber
       - aligner
-      - mainCreator
 institutions: []
 description: >-
   Ce corpus est composé de pages d’entraînement préparées pour le fine-tuning du modèle Manu Mc
@@ -16,14 +15,15 @@ description: >-
   D. Le modèle de nommage des fichiers est le suivant : n°pagemanuscrit_initiale.xml/png
 language:
   - fra
-script: []
+script: 
+  - iso: "Latn"
 script-type: only-manuscript
 production-software: eScriptorium + Kraken
 time:
   notBefore: "1902"
   notAfter: "1913"
 hands:
-  count: 1perfile
+  count: 1-per-file
   precision: exact
 transcription-guidelines: >-
   Ce projet a été réalisé avant d’avoir connaissance des guidelines Catmus trouvables ici :
@@ -57,9 +57,15 @@ transcription-guidelines: >-
 
   étoiles dessinées à côté de certains noms : elles ont été exclues de la segmentation autant que
   possible et ignorées à la transcription
-volume: []
+volume:
+  - metric: lines
+    count: 1632
+  - metric: images
+    count: 17
+  - metric: characters
+    count: 31870
 automatically-aligned: false
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-format: []
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: "Alto-XML"
