@@ -11,7 +11,7 @@ authors:
       - quality-control
 institutions: []
 description: >-
-  HTR Model for John Calvin’s handwriting trained on a subset of his handwritten
+  Ground Truth associated with the HTR Model for John Calvin’s handwriting trained on a subset of his handwritten
   French letters.
 project-name: Lettres de Calvin
 project-website: https://lettres-calvin.netlify.app
