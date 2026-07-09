@@ -14279,6 +14279,54 @@
   description: >-
     Set of PageXML Ground Truth for HTR training purposes. 
 
+
+    The zip file contains 1879 images including the transcriptions found in de
+    Page folder. The images are randomly chosen from the digitized archives of het
+    Nationaal Archief, its inventories can be derived from the filenames of the
+    images and be found here: https://www.nationaalarchief.nl/onderzoeken
+  format: Page-XML
+  hands:
+    count: more-than-10
+    precision: exact
+  institutions:
+  - name: Nationaal Archief
+    roles:
+    - digitization
+    - support
+  language:
+  - nld
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: Transkribus
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  time:
+    notAfter: '1900'
+    notBefore: '1500'
+  title: Miscellaneous archives, ground truth for HTR training (16th to 19th 
+    centruy)
+  url: https://zenodo.org/records/19450810
+  volume:
+  - count: 1879
+    metric: files
+- authors:
+  - name: Vincent
+    roles:
+    - quality-control
+    - digitization
+    - support
+    surname: Noppe
+  - name: Liesbeth
+    roles:
+    - project-manager
+    surname: Keijser
+  automatically-aligned: false
+  description: >-
+    Set of PageXML Ground Truth for HTR training purposes. 
+
     The zip file contains 2773 images including the transcriptions found in de
     Page folder. The images are randomly chosen from the digitized archives of the
     Ministerie van Kolonien, its inventories can be found here:

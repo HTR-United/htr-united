@@ -17174,6 +17174,70 @@
     "_apa": "Nelson D.R., Myers J., Catalano T., Nase B., Baker V., Kolic I., Shiroma Y.D. (2025). The Revolutionary City Corpus (1758-1805): Ground Truth for Handwritten Text Recognition (HTR) for 18th Century Documents in English (version 1.0). DOI: 10.5281/zenodo.15776323 URL: https://therevolutionarycity.org\n",
     "_pid": "08cd06fcf"
   },
+  "1a6ec1eb3": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Miscellaneous archives, ground truth for HTR training (16th to 19th centruy)",
+    "url": "https://zenodo.org/records/19450810",
+    "authors": [
+      {
+        "name": "Vincent",
+        "roles": [
+          "quality-control",
+          "digitization",
+          "support"
+        ],
+        "surname": "Noppe"
+      },
+      {
+        "name": "Liesbeth",
+        "roles": [
+          "project-manager"
+        ],
+        "surname": "Keijser"
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Nationaal Archief",
+        "roles": [
+          "digitization",
+          "support"
+        ]
+      }
+    ],
+    "description": "Set of PageXML Ground Truth for HTR training purposes. \n\nThe zip file contains 1879 images including the transcriptions found in de Page folder. The images are randomly chosen from the digitized archives of het Nationaal Archief, its inventories can be derived from the filenames of the images and be found here: https://www.nationaalarchief.nl/onderzoeken",
+    "language": [
+      "nld"
+    ],
+    "production-software": "Transkribus",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1900"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "format": "Page-XML",
+    "volume": [
+      {
+        "count": 1879,
+        "metric": "files"
+      }
+    ],
+    "_pid": "1a6ec1eb3"
+  },
   "2cc31ae90": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Ministerie van Kolonien, 2.10.01 & 2.10.02, ground truth for HTR training (1814-1900)",
