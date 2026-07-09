@@ -15146,6 +15146,69 @@
     "_apa": "Gu\u00e9ville E., Wrisley D.J. (2021). Ground Truth Used in HTR for the Paris Bible Project (version 1.0.0). DOI: 10.5281/zenodo.7653691\n",
     "_pid": "da9453ee0"
   },
+  "c4a64d26b": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "John Calvin\u2019s handwriting",
+    "url": "https://github.com/pippaJeanne/HTR-Jean-Calvin",
+    "authors": [
+      {
+        "name": "Yanet",
+        "roles": [
+          "transcriber",
+          "aligner",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Hern\u00e1ndez Pedraza"
+      }
+    ],
+    "institutions": [],
+    "description": "Ground Truth associated with the HTR Model for John Calvin\u2019s handwriting trained on a subset of his handwritten French letters.",
+    "project-name": "Lettres de Calvin",
+    "project-website": "https://lettres-calvin.netlify.app",
+    "language": [
+      "fra",
+      "frm"
+    ],
+    "production-software": "eScriptorium + Kraken",
+    "automatically-aligned": false,
+    "script": [
+      {
+        "iso": "Latn"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "time": {
+      "notBefore": "1500",
+      "notAfter": "1599"
+    },
+    "hands": {
+      "count": "1",
+      "precision": "exact"
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Image-Text-Pairs",
+    "sources": [
+      {
+        "link": "https://archives.bge-geneve.ch/ark:/17786/vtadd0edf5681129ab0",
+        "reference": "Jean Calvin (1509-1564). Correspondance fran\u00e7aise (1538-1564). Ms. fr. 194 | Ms. fr. 196 | Ms. lat. 107, Biblioth\u00e8que de Gen\u00e8ve, Gen\u00e8ve, Suisse."
+      }
+    ],
+    "volume": [
+      {
+        "count": 13,
+        "metric": "pages"
+      }
+    ],
+    "citation-file-link": "https://github.com/pippaJeanne/HTR-Jean-Calvin/blob/main/CITATION.cff",
+    "transcription-guidelines": "https://lettres-calvin.netlify.app/fr/recherche#protocole_transcription",
+    "_bibtex": "@misc{YourReferenceHere,\nauthor = {Hern\u00e1ndez Pedraza, Yanet},\nmonth = {12},\ntitle = {HRT Jean Calvin},\nurl = {https://github.com/pippaJeanne/HTR-Jean-Calvin},\nyear = {2025}\n}\n",
+    "_apa": "Hern\u00e1ndez Pedraza Y. (2025). HRT Jean Calvin URL: https://github.com/pippaJeanne/HTR-Jean-Calvin\n",
+    "_pid": "c4a64d26b"
+  },
   "ff2af829a": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "Bullinger HTR Dataset",

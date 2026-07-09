@@ -12623,6 +12623,58 @@
     metric: regions
   - count: 55970
     metric: characters
+- _apa: "Hernández Pedraza Y. (2025). HRT Jean Calvin URL: https://github.com/pippaJeanne/HTR-Jean-Calvin\n"
+  _bibtex: "@misc{YourReferenceHere,\nauthor = {Hernández Pedraza, Yanet},\nmonth
+    = {12},\ntitle = {HRT Jean Calvin},\nurl = {https://github.com/pippaJeanne/HTR-Jean-Calvin},\n\
+    year = {2025}\n}\n"
+  authors:
+  - name: Yanet
+    roles:
+    - transcriber
+    - aligner
+    - project-manager
+    - quality-control
+    surname: Hernández Pedraza
+  automatically-aligned: false
+  citation-file-link: 
+    https://github.com/pippaJeanne/HTR-Jean-Calvin/blob/main/CITATION.cff
+  description: >-
+    Ground Truth associated with the HTR Model for John Calvin’s handwriting trained
+    on a subset of his handwritten
+    French letters.
+  format: Image-Text-Pairs
+  hands:
+    count: '1'
+    precision: exact
+  institutions: []
+  language:
+  - fra
+  - frm
+  license:
+    name: CC-BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: Lettres de Calvin
+  project-website: https://lettres-calvin.netlify.app
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+  script-type: only-manuscript
+  sources:
+  - link: https://archives.bge-geneve.ch/ark:/17786/vtadd0edf5681129ab0
+    reference: >-
+      Jean Calvin (1509-1564). Correspondance française (1538-1564). Ms. fr. 194
+      | Ms. fr. 196 | Ms. lat. 107, Bibliothèque de Genève, Genève, Suisse.
+  time:
+    notAfter: '1599'
+    notBefore: '1500'
+  title: John Calvin’s handwriting
+  transcription-guidelines: 
+    https://lettres-calvin.netlify.app/fr/recherche#protocole_transcription
+  url: https://github.com/pippaJeanne/HTR-Jean-Calvin
+  volume:
+  - count: 13
+    metric: pages
 - authors:
   - name: Phillip Benjamin
     orcid: 0000-0003-2063-5495
