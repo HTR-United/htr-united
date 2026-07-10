@@ -13747,6 +13747,63 @@
   - count: 918
     metric: files
 - authors:
+  - name: Melvin
+    orcid: 0009-0006-8774-8901
+    roles:
+    - transcriber
+    - aligner
+    - quality-control
+    surname: Wilde
+  - name: Christopher
+    orcid: 0009-0006-9455-6203
+    roles:
+    - transcriber
+    - quality-control
+    - digitization
+    surname: Kuhlmann
+  automatically-aligned: false
+  description: >-
+    This dataset contains 21,579 lines of high-quality Ground Truth data for
+    Handwritten Text Recognition (HTR). It was created by the FLOW Project at
+    Bielefeld University (Digital History) to facilitate the training of HTR
+    models for medieval administrative and legal documents.
+
+
+    The dataset consists of image snippets (lines) paired with their corresponding
+    transcriptions and the line coordinates. The material focuses on legal records
+    from the 13th and 14th centuries written in Anglicana script and Latin
+    language.
+  format: Image-Text-Pairs
+  hands:
+    count: more-than-10
+    precision: exact
+  institutions: []
+  language:
+  - lat
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken & Transkribus & TrOCR
+  project-name: FLOW Project
+  project-website: https://www.flow-project.net/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latn
+    qualify: Anglicana
+  script-type: only-manuscript
+  time:
+    notAfter: '1400'
+    notBefore: '1200'
+  title: Medieval Anglicana Legal Texts (13th-14th Century)
+  transcription-guidelines: >-
+    Diplomatic transcription. Resolution of abbreviations, no corrections  on misspellings,
+    no use of the letter j and no too strongly damaged  or blackened documents.
+  url: >-
+    https://huggingface.co/datasets/digital-history-bielefeld/image-text_anglicana-legal-texts
+  volume:
+  - count: 21579
+    metric: lines
+- authors:
   - name: Niven
     orcid: 0009-0003-5411-5014
     roles:
