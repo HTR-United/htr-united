@@ -14807,6 +14807,69 @@
   - count: 905
     metric: files
 - authors:
+  - name: Juszczak
+    orcid: 0009-0000-5330-6183
+    roles:
+    - transcriber
+    - quality-control
+    - digitization
+    surname: Adam Piotr
+  - name: Skidzun
+    orcid: 0009-0002-7712-4207
+    roles:
+    - transcriber
+    - project-manager
+    - quality-control
+    - digitization
+    surname: Frederik
+  automatically-aligned: false
+  citation-file-link: https://zenodo.org/records/21257167/files/CITATION.cff
+  description: >-
+    This repository contains a set of training data for ATR models (Kraken). It contains
+    50 pages of
+    ground truth as image files (jpg) and transcription files (PAGE xml), including
+    2,177 lines with  18,626 word tokens and 110,618 characters.
+  format: Page-XML
+  hands:
+    count: '1'
+    precision: exact
+  institutions: []
+  language:
+  - gmh
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium + Kraken
+  project-name: Regesta Imperii - Regesten Kaiser Friedrichs III
+  project-website: https://ri.bbaw.de/de
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Latf
+  script-type: only-manuscript
+  time:
+    notAfter: '1485'
+    notBefore: '1480'
+  title: >-
+    Diplomatic HTR ground truth dataset for an Early New High German transcription
+    model (15th
+    century), Version 2
+  transcription-guidelines: >-
+    The dataset was obtained using near-allographetic/diplomatic transcriptions. Abbreviations
+    were
+    not resolved, misspellings not corrected. Diacritics were only retained over letters
+    a, o, and u.
+
+    Detailed [transcription guidelines](https://zenodo.org/records/21257167?preview_file=README.md)  are
+    provided in the dataset's repository.
+  url: https://zenodo.org/records/21257167
+  volume:
+  - count: 2177
+    metric: lines
+  - count: 110618
+    metric: characters
+  - count: 50
+    metric: files
+- authors:
   - name: Aleksandros
     roles:
     - transcriber
