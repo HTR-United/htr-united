@@ -22,10 +22,8 @@ authors:
 institutions: []
 description: >-
   This repository contains a set of training data for ATR models (Kraken). It contains 50 pages of
-  ground truth as image files (jpg) and transcription files (PAGE xml).
-   
-  The ground truth contains 50 pages including 2,177 lines with 18,626 word tokens and 110,618
-  characters.
+  ground truth as image files (jpg) and transcription files (PAGE xml), including 2,177 lines with 
+  18,626 word tokens and 110,618 characters.
 project-name: Regesta Imperii - Regesten Kaiser Friedrichs III
 project-website: https://ri.bbaw.de/de
 language:
@@ -43,6 +41,9 @@ hands:
 transcription-guidelines: >-
   The dataset was obtained using near-allographetic/diplomatic transcriptions. Abbreviations were
   not resolved, misspellings not corrected. Diacritics were only retained over letters a, o, and u.
+  
+  Detailed [transcription guidelines](https://zenodo.org/records/21257167?preview_file=README.md) 
+  are provided in the dataset's repository.
 volume:
   - metric: lines
     count: 2177
@@ -55,4 +56,4 @@ license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 format: Page-XML
-citation-file-link: https://zenodo.org/records/21257167/files/CITATION.cff?download=1
+citation-file-link: https://zenodo.org/records/21257167/files/CITATION.cff
