@@ -1,0 +1,40 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Manicule-NUBIS-Tapuscrit-FR_FRO_LAT
+url: https://src.koda.cnrs.fr/lamop/Manicule-NUBIS-Tapuscrit-FR_FRO_LAT
+authors:
+  - surname: Brochard
+    name: Pierre
+    roles:
+      - aligner
+      - quality-control
+    orcid: 0000-0003-1955-556X
+institutions: []
+description: >-
+  This dataset is designed for Optical Character Recognition (OCR) training and includes manuscripts
+  sourced from the [Nubis catalog](https://nubis.bis-sorbonne.fr/). The data is available under the
+  Licence Ouverte / Open Licence. Version Parquet disponible sur
+  https://huggingface.co/datasets/LaMOP/Manicule-NUBIS-Tapuscrit-FR_FRO_LAT
+project-name: Manicule
+project-website: https://manicule.lamop.fr/
+language:
+  - fra
+  - lat
+  - fro
+script:
+  - iso: Latn
+script-type: only-typed
+production-software: YOLO+Chandra OCR 2
+time:
+  notBefore: "1856"
+  notAfter: "1983"
+hands:
+  count: 1-per-file
+  precision: exact
+volume:
+  - metric: lines
+    count: 3246
+automatically-aligned: false
+license:
+  name: Etalab OL 2.0
+  url: https://spdx.org/licenses/etalab-2.0.html
+format: Page-XML
