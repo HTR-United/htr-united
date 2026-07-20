@@ -14648,8 +14648,9 @@
   },
   "983e367d9": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
-    "title": "RASAM 2",
+    "title": "RASAM 1",
     "url": "https://github.com/calfa-co/rasam-dataset",
+    "project-website": "https://calfa.fr/blog/26",
     "authors": [
       {
         "name": "Vidal-Gor\u00e8ne",
@@ -14658,15 +14659,6 @@
           "project-manager"
         ],
         "surname": "Chahan"
-      },
-      {
-        "name": "Salah",
-        "orcid": "0000-0002-7846-4054",
-        "roles": [
-          "transcriber",
-          "quality-control"
-        ],
-        "surname": "Cl\u00e9ment"
       },
       {
         "name": "Lucas",
@@ -14678,6 +14670,15 @@
         "surname": "No\u00e9mie"
       },
       {
+        "name": "Salah",
+        "orcid": "0000-0002-7846-4054",
+        "roles": [
+          "transcriber",
+          "quality-control"
+        ],
+        "surname": "Cl\u00e9ment"
+      },
+      {
         "name": "Decours-Perez",
         "roles": [
           "support"
@@ -14685,14 +14686,11 @@
         "surname": "Ali\u00e9nor"
       },
       {
-        "name": "Antoine",
-        "orcid": "0000-0002-5035-4283",
+        "name": "Dupin",
         "roles": [
-          "project-manager",
-          "quality-control",
-          "transcriber"
+          "support"
         ],
-        "surname": "Perrier"
+        "surname": "Boris"
       }
     ],
     "institutions": [
@@ -14709,7 +14707,7 @@
         "name": "GIS MOMM"
       }
     ],
-    "description": "The Dataset is made up of 250 images, with their related ground truth stored in a XML file (pageXML format). Images come from fifteen manuscripts selected among the collections of the BULAC Library (Paris), in Magribi Arabic. It extends RASAM 1 by covering a very wide variety of hands, text density, and cursiveness. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.",
+    "description": "The Dataset is made up of 300 images, with their related ground truth stored in a XML file (pageXML format). Images come from three manuscripts selected among the collections of the BULAC Library (Paris). It covers a representative part of the handwritten production in Arabic Maghrebi scripts and includes an annotation of the layout (TextRegions, baselines and polygons) and the transcription of the main text. This dataset is the result of a collaborative transcription. All the participants are credited on the official deposit. With the support of the French Ministry of Higher Education, Research and Innovation, the Research Consortium Middle-East and Muslim Worlds (GIS MOMM), Calfa and the BULAC library.",
     "language": [
       "ara"
     ],
@@ -14724,7 +14722,7 @@
       "notAfter": "1899"
     },
     "hands": {
-      "count": "more-than-10",
+      "count": "less-than-11",
       "precision": "exact"
     },
     "license": [
@@ -14736,29 +14734,33 @@
     "format": "Page-XML",
     "volume": [
       {
-        "count": 3750,
+        "count": 300,
+        "metric": "pages"
+      },
+      {
+        "count": 7540,
         "metric": "lines"
       },
       {
-        "count": 250,
+        "count": 300,
         "metric": "files"
       },
       {
-        "count": 839,
+        "count": 676,
         "metric": "regions"
       },
       {
-        "count": 522371,
+        "count": 403034,
         "metric": "characters"
       }
     ],
     "sources": [
       {
-        "link": "https://ceur-ws.org/Vol-3834/paper35.pdf",
-        "reference": "Chahan Vidal-Gor\u00e8ne, Cl\u00e9ment Salah, No\u00ebmie Lucas, Ali\u00e9nor Decours-Perez, Antoine Perrier. Enhancing Arabic Maghribi Handwritten Text Recognition with RASAM 2: A Comprehensive Dataset and Benchmarking. Computational Humanities Research (CHR), Dec 2024, Aarhus, Denmark. pp.200-216."
+        "link": "https://link.springer.com/chapter/10.1007/978-3-030-86198-8_19",
+        "reference": "Vidal-Gor\u00e8ne, C., Lucas, N., Salah, C., Decours-Perez, A., & Dupin, B. (2021, September). RASAM\u2013A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi. In International Conference on Document Analysis and Recognition (pp. 265-281). Springer, Cham"
       }
     ],
-    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper. Following RASAM 1 specifications.",
+    "transcription-guidelines": "Full description of specifications for transcription available on Github and in the paper.'\n",
     "production-software": "Calfa Vision",
     "automatically-aligned": false,
     "_pid": "983e367d9"
