@@ -1,0 +1,53 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Front Justice -- italian documents
+url: https://github.com/Front-Justice/corpus-fj-italien
+authors:
+  - surname: Marques-Onofri
+    name: Ornella
+    roles:
+      - transcriber
+  - surname: Matilde
+    name: Rosa
+    roles:
+      - transcriber
+  - surname: Gille Levenson
+    name: Matthias
+    roles:
+      - support
+      - quality-control
+    orcid: 0000-0001-9488-5986
+  - surname: Pietro Vitali
+    name: Giovanni
+    roles:
+      - quality-control
+      - project-manager
+    orcid: 0000-0003-2722-6766
+institutions: []
+description: "Ground truth of italian trials during WW1. "
+project-name: FRONT_JUSTICE
+project-website: https://www.sciences-patrimoine.org/projet/frontjustice/
+language:
+  - ita
+script:
+  - iso: Latn
+script-type: only-manuscript
+production-software: Kraken
+time:
+  notBefore: "1915"
+  notAfter: "1919"
+hands:
+  count: more-than-10
+  precision: estimated
+transcription-guidelines: Use of catmus-modern annotation guidelines
+volume:
+  - metric: pages
+    count: 390
+  - metric: lines
+    count: 10500
+  - metric: files
+    count: 390
+automatically-aligned: false
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
