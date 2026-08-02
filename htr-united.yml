@@ -3678,6 +3678,12 @@
     - transcriber
     - digitization
     surname: Burnel
+  - name: Matthias
+    orcid: 0000-0001-9488-5986
+    roles:
+    - transcriber
+    - quality-control
+    surname: Gille Levenson
   - name: Giovanni Pietro
     orcid: 0000-0003-2722-6766
     roles:
@@ -3687,98 +3693,107 @@
   characters:
     members:
     - e
-    - .
     - i
+    - a
+    - n
     - r
     - s
-    - n
-    - a
     - t
     - u
     - l
     - o
     - d
+    - .
     - c
     - ́
     - m
     - p
     - ','
     - f
+    - '1'
     - "'"
     - v
-    - '1'
-    - q
     - g
     - C
+    - q
     - ̀
     - b
-    - E
-    - j
     - ^
+    - E
     - x
     - L
     - '2'
+    - j
     - A
+    - '-'
+    - '9'
+    - h
+    - G
+    - '3'
+    - M
+    - R
     - P
+    - D
     - (
     - )
-    - h
-    - '-'
-    - '3'
-    - N
-    - R
-    - M
-    - G
-    - '9'
-    - D
-    - y
     - I
-    - U
+    - N
+    - '6'
+    - y
+    - '8'
+    - '0'
+    - J
+    - S
     - '4'
     - ̂
     - T
-    - '0'
-    - F
-    - '6'
-    - '8'
-    - ;
-    - O
-    - J
-    - S
     - '7'
+    - O
+    - U
+    - ;
+    - F
+    - +
+    - '5'
     - ':'
+    - B
     - ⟧
     - ⟦
-    - '5'
-    - +
-    - B
     - Q
     - V
     - z
-    - ̧
     - H
+    - ̧
+    - '?'
     - «
     - X
-    - '?'
-    - ̈
-    - –
-    - '['
-    - ']'
-    - »
-    - _
     - '"'
+    - ̈
     - /
     - k
-    - '&'
+    - '['
+    - »
+    - K
+    - –
+    - ']'
     - Z
     - Y
-    - K
+    - '&'
+    - _
     - W
+    - °
+    - w
+    - '|'
     - '>'
     - <
+    - '!'
+    - '{'
     - '%'
     - '='
-    - '|'
+    - §
+    - $
+    - '*'
+    - ´
+    - '`'
     mode: NFD
   citation-file-link: >-
     https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
@@ -3808,13 +3823,13 @@
     See README (Annotation and Transcription Guidelines section)
   url: https://github.com/Front-Justice/htr-front-justice.git
   volume:
-  - count: 793559
+  - count: 1726913
     metric: characters
-  - count: 250
+  - count: 1286
     metric: files
-  - count: 13043
+  - count: 32352
     metric: lines
-  - count: 1333
+  - count: 3488
     metric: regions
 - authors:
   - name: Gabay
