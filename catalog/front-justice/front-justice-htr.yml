@@ -16,6 +16,10 @@ authors:
   orcid: 0000-0003-2722-6766
   roles:
   - project-manager
+- name: Stanislas
+  surname: Ibar
+  roles:
+  - transcriber
 automatically-aligned: false
 characters:
   members:
