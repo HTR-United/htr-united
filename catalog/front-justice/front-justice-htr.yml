@@ -1,25 +1,21 @@
 authors:
 - name: Théo
-  surname: Burnel
   orcid: 0000-0003-2235-0565
   roles:
   - transcriber
   - digitization
+  surname: Burnel
 - name: Matthias
-  surname: Gille Levenson
   orcid: 0000-0001-9488-5986
   roles:
   - transcriber
   - quality-control
+  surname: Gille Levenson
 - name: Giovanni Pietro
-  surname: Vitali
   orcid: 0000-0003-2722-6766
   roles:
   - project-manager
-- name: Stanislas
-  surname: Ibar
-  roles:
-  - transcriber
+  surname: Vitali
 automatically-aligned: false
 characters:
   members:
@@ -127,7 +123,7 @@ characters:
   - '`'
   mode: NFD
 citation-file-link: >-
-  https://github.com/Front-Justice/htr-front-justice/blob/e1b1562f84053f4910b421261dd5b6e817e18b0d/CITATION.cff
+  https://github.com/Front-Justice/htr-front-justice/blob/31bd9342dc774b5c0c4b6fd9a704bb186430c6e3/CITATION.cff
 description: >-
   Some transcriptions of minute books from military court councils during the
   First World War
@@ -151,14 +147,15 @@ time:
   notBefore: '1914'
 title: HTR Front Justice
 transcription-guidelines: >-
-  See README (Annotation and Transcription Guidelines section)
+  See README (Annotation and Transcription Guidelines section). CAVEAT: signatures are represented with '+', which can lead to 
+  unexpected results when training models on specific architectures (e.g. Party). We recommend removing those specific lines in that case.
 url: https://github.com/Front-Justice/htr-front-justice.git
 volume:
 - count: 1726913
   metric: characters
-- count: 1287
+- count: 1286
   metric: files
-- count: 32396
+- count: 32352
   metric: lines
-- count: 3491
+- count: 3488
   metric: regions
