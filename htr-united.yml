@@ -3820,7 +3820,11 @@
     notBefore: '1914'
   title: HTR Front Justice
   transcription-guidelines: >-
-    See README (Annotation and Transcription Guidelines section)
+    See README (Annotation and Transcription Guidelines section). CAVEAT: signatures
+    are represented with '+', which can lead to  unexpected results when training
+    models
+    on specific architectures (e.g. Party). We recommend removing those specific lines
+    in that case.
   url: https://github.com/Front-Justice/htr-front-justice.git
   volume:
   - count: 1726913
