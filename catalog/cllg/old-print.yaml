@@ -1,0 +1,305 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: old-ancient-greek-print-dataset
+url: 10.5281/zenodo.22098097
+authors:
+  - surname: Laurent
+    name: Maïna
+    roles:
+      - transcriber
+    orcid: 0009-0001-6479-2401
+  - surname: Karamolegkou
+    name: Antonia
+    roles:
+      - support
+    orcid: 0000-0002-6458-0986
+  - surname: Clérice
+    name: Thibault
+    roles:
+      - project-manager
+      - support
+    orcid: 0000-0003-1852-9204
+institutions: [Inria]
+description: Ancient greek dataset, with printed documents dated from 1644 to 2000. 
+project-name: CLLG
+project-website: https://cllg-project.github.io/
+language:
+  - grc
+  - lat
+script:
+  - iso: Grek
+script-type: only-typed
+production-software: eScriptorium
+time:
+  notBefore: "1644"
+  notAfter: "2000"
+hands:
+  count: less-than-11
+  precision: exact
+volume:
+  - metric: files
+    count: 37
+  - metric: lines
+    count: 2113
+  - metric: characters
+    count: 69351
+  - metric: regions
+    count: 262
+automatically-aligned: false
+characters:
+  mode: NFKC
+  members:
+    - " "
+    - "\""
+    - "&"
+    - "'"
+    - (
+    - )
+    - "*"
+    - ","
+    - "-"
+    - .
+    - "0"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - ":"
+    - ;
+    - "?"
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - I
+    - J
+    - L
+    - M
+    - "N"
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - T
+    - U
+    - V
+    - X
+    - "Y"
+    - Z
+    - "["
+    - \
+    - "]"
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+    - l
+    - m
+    - "n"
+    - o
+    - p
+    - q
+    - r
+    - s
+    - t
+    - u
+    - v
+    - x
+    - "y"
+    - "}"
+    - «
+    - ¬
+    - ·
+    - »
+    - Æ
+    - É
+    - Î
+    - Ï
+    - à
+    - á
+    - â
+    - ã
+    - æ
+    - è
+    - é
+    - î
+    - ï
+    - ò
+    - ó
+    - ù
+    - ú
+    - ū
+    - ǘ
+    - ʹ
+    - ́
+    - ΐ
+    - Α
+    - Β
+    - Γ
+    - Δ
+    - Ε
+    - Ζ
+    - Η
+    - Θ
+    - Ι
+    - Κ
+    - Λ
+    - Μ
+    - Ν
+    - Ο
+    - Π
+    - Ρ
+    - Σ
+    - Τ
+    - Υ
+    - Φ
+    - Χ
+    - Ω
+    - ά
+    - έ
+    - ή
+    - ί
+    - α
+    - β
+    - γ
+    - δ
+    - ε
+    - ζ
+    - η
+    - θ
+    - ι
+    - κ
+    - λ
+    - μ
+    - ν
+    - ξ
+    - ο
+    - π
+    - ρ
+    - ς
+    - σ
+    - τ
+    - υ
+    - φ
+    - χ
+    - ψ
+    - ω
+    - ϊ
+    - ό
+    - ύ
+    - ώ
+    - ḯ
+    - ἀ
+    - ἁ
+    - ἂ
+    - ἃ
+    - ἄ
+    - ἅ
+    - ἆ
+    - ἇ
+    - Ἀ
+    - Ἄ
+    - ἐ
+    - ἑ
+    - ἒ
+    - ἓ
+    - ἔ
+    - ἕ
+    - Ἐ
+    - Ἕ
+    - ἠ
+    - ἡ
+    - ἢ
+    - ἣ
+    - ἤ
+    - ἥ
+    - ἦ
+    - ἧ
+    - Ἡ
+    - ἰ
+    - ἱ
+    - ἳ
+    - ἴ
+    - ἵ
+    - ἶ
+    - ἷ
+    - Ἰ
+    - Ἱ
+    - Ἴ
+    - ὀ
+    - ὁ
+    - ὂ
+    - ὃ
+    - ὄ
+    - ὅ
+    - Ὀ
+    - Ὁ
+    - ὐ
+    - ὑ
+    - ὓ
+    - ὔ
+    - ὕ
+    - ὖ
+    - ὗ
+    - Ὑ
+    - ὠ
+    - ὡ
+    - ὢ
+    - ὣ
+    - ὤ
+    - ὥ
+    - ὦ
+    - ὧ
+    - ὰ
+    - ὲ
+    - ὴ
+    - ὶ
+    - ὸ
+    - ὺ
+    - ὼ
+    - ᾀ
+    - ᾄ
+    - ᾔ
+    - ᾗ
+    - ᾧ
+    - ᾳ
+    - ᾴ
+    - ᾶ
+    - ᾷ
+    - ῃ
+    - ῆ
+    - ῇ
+    - ῒ
+    - ῖ
+    - ῤ
+    - ῥ
+    - ῦ
+    - ῳ
+    - ῶ
+    - ῷ
+    - ‐
+    - ’
+    - “
+    - ”
+    - 〈
+    - 〉
+  transliteration: false
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
