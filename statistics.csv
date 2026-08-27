@@ -1,35 +1,35 @@
 ,uri,title,start,end,metric,count,format,script-type
 0,10.5281/zenodo.13757440,TranscriboQuest 2024 Medieval Literary,800,1500,lines,800,Alto-XML,only-manuscript
-1,10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,files,37,Alto-XML,only-typed
-2,10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,lines,2113,Alto-XML,only-typed
-3,10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,characters,69351,Alto-XML,only-typed
-4,10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,regions,262,Alto-XML,only-typed
-5,10.5281/zenodo.7467249,"ÖNB, Cod. 3891. Ground Truth",1200,1299,lines,952,Page-XML,only-manuscript
-6,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
-7,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
-8,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
-9,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,lines,36027,Page-XML,mainly-manuscript
-10,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,characters,3494619,Page-XML,mainly-manuscript
-11,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,files,2660,Page-XML,mainly-manuscript
-12,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,regions,4254,Page-XML,mainly-manuscript
-13,https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC,AMSMB HTR,1208,1499,lines,3369,Page-XML,only-manuscript
-14,https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC,AMSMB HTR,1208,1499,files,100,Page-XML,only-manuscript
-15,https://doi.org/10.11588/data/EGOKEI,Ground truth data for printed Devanagari,1880,1953,lines,4333,Alto-XML,only-typed
-16,https://doi.org/10.11588/data/L2KRZO,Ground Truth data for printed Malayalam,1850,1996,pages,43,Page-XML,only-typed
-17,https://doi.org/10.5281/zenodo.11046061,Incunabula Reichenau,1470,1510,pages,2200,Page-XML,only-typed
-18,https://doi.org/10.5281/zenodo.13757236,TranscriboQuest_Arabic_team,1200,1600,lines,153,Alto-XML,only-manuscript
-19,https://doi.org/10.5281/zenodo.14356190,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript,1665,1665,pages,10,Alto-XML,only-manuscript
-20,https://doi.org/10.5281/zenodo.14714089,"ÖNB Cod. Syr. 1, Ground Truth from HTR Winter School 2024",1545,1545,lines,2869,Page-XML,only-manuscript
-21,https://doi.org/10.5281/zenodo.15303243,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1673 (Mscr.Dresd.K.117) - 17th century Kurrent manuscript ,1673,1673,pages,20,Alto-XML,only-manuscript
-22,https://doi.org/10.5281/zenodo.15303398,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1653-56 (Mscr.Dresd.K.113) - 17th century Kurrent manuscript,1653,1656,pages,12,Alto-XML,only-manuscript
-23,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,files,18,Alto-XML,only-manuscript
-24,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,74,Alto-XML,only-manuscript
-25,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,59696,Alto-XML,only-manuscript
-26,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,1279,Alto-XML,only-manuscript
-27,https://doi.org/10.5281/zenodo.17978574,Transcriptions from medieval manuscripts related to the Augustinian canonesses in Inzigkofen,1400,1499,lines,9726,Page-XML,only-manuscript
-28,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,pages,266,Page-XML,only-manuscript
-29,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,lines,17836,Page-XML,only-manuscript
-30,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,characters,311392,Page-XML,only-manuscript
+1,10.5281/zenodo.7467249,"ÖNB, Cod. 3891. Ground Truth",1200,1299,lines,952,Page-XML,only-manuscript
+2,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,pages,169,Alto-XML,only-typed
+3,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,lines,19022,Alto-XML,only-typed
+4,http://dx.doi.org/10.34847/nkl.acb724xs,Données vérité de terrain HTR+ Annuaire des propriétaires et des propriétés de Paris et du département de la Seine (1898-1923),1898,1923,characters,641401,Alto-XML,only-typed
+5,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,lines,36027,Page-XML,mainly-manuscript
+6,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,characters,3494619,Page-XML,mainly-manuscript
+7,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,files,2660,Page-XML,mainly-manuscript
+8,http://dx.doi.org/10.5281/zenodo.4243023,University of Denver Jewish Consumptives Relief Society Medical Records   Training and Validation Set,1900,1950,regions,4254,Page-XML,mainly-manuscript
+9,https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC,AMSMB HTR,1208,1499,lines,3369,Page-XML,only-manuscript
+10,https://dataverse.bsc.es/citation?persistentId=perma:BSC/0VB0MC,AMSMB HTR,1208,1499,files,100,Page-XML,only-manuscript
+11,https://doi.org/10.11588/data/EGOKEI,Ground truth data for printed Devanagari,1880,1953,lines,4333,Alto-XML,only-typed
+12,https://doi.org/10.11588/data/L2KRZO,Ground Truth data for printed Malayalam,1850,1996,pages,43,Page-XML,only-typed
+13,https://doi.org/10.5281/zenodo.11046061,Incunabula Reichenau,1470,1510,pages,2200,Page-XML,only-typed
+14,https://doi.org/10.5281/zenodo.13757236,TranscriboQuest_Arabic_team,1200,1600,lines,153,Alto-XML,only-manuscript
+15,https://doi.org/10.5281/zenodo.14356190,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript,1665,1665,pages,10,Alto-XML,only-manuscript
+16,https://doi.org/10.5281/zenodo.14714089,"ÖNB Cod. Syr. 1, Ground Truth from HTR Winter School 2024",1545,1545,lines,2869,Page-XML,only-manuscript
+17,https://doi.org/10.5281/zenodo.15303243,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1673 (Mscr.Dresd.K.117) - 17th century Kurrent manuscript ,1673,1673,pages,20,Alto-XML,only-manuscript
+18,https://doi.org/10.5281/zenodo.15303398,Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1653-56 (Mscr.Dresd.K.113) - 17th century Kurrent manuscript,1653,1656,pages,12,Alto-XML,only-manuscript
+19,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,files,18,Alto-XML,only-manuscript
+20,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,74,Alto-XML,only-manuscript
+21,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,59696,Alto-XML,only-manuscript
+22,https://doi.org/10.5281/zenodo.17062963,TranscriboQuest 2025 Medieval Vernacular Religious Texts,1000,1499,lines,1279,Alto-XML,only-manuscript
+23,https://doi.org/10.5281/zenodo.17978574,Transcriptions from medieval manuscripts related to the Augustinian canonesses in Inzigkofen,1400,1499,lines,9726,Page-XML,only-manuscript
+24,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,pages,266,Page-XML,only-manuscript
+25,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,lines,17836,Page-XML,only-manuscript
+26,https://doi.org/10.5281/zenodo.18157525,"MS Jerusalem, Saint Mark’s Monastery 36, Ground Truth from HTR Winter School 2025",1100,1399,characters,311392,Page-XML,only-manuscript
+27,https://doi.org/10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,files,37,Alto-XML,only-typed
+28,https://doi.org/10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,lines,2113,Alto-XML,only-typed
+29,https://doi.org/10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,characters,69351,Alto-XML,only-typed
+30,https://doi.org/10.5281/zenodo.22098097,old-ancient-greek-print-dataset,1644,2000,regions,262,Alto-XML,only-typed
 31,https://doi.org/10.5281/zenodo.3643393,Jeu de données OCR - Incunables sévillans 1494-1500,1494,1500,lines,4836,Alto-XML,only-typed
 32,https://doi.org/10.5281/zenodo.5153263,"Handwritten Text Recognition Ground Truth Set: StABS Ratsbücher O10, Urfehdenbuch X",1563,1569,lines,8000,Page-XML,only-manuscript
 33,https://doi.org/10.5281/zenodo.5179361,Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662),1292,1570,lines,60000,Page-XML,only-manuscript

@@ -50,311 +50,6 @@
   - count: 800
     metric: lines
 - authors:
-  - name: Maïna
-    orcid: 0009-0001-6479-2401
-    roles:
-    - transcriber
-    surname: Laurent
-  - name: Antonia
-    orcid: 0000-0002-6458-0986
-    roles:
-    - support
-    surname: Karamolegkou
-  - name: Thibault
-    orcid: 0000-0003-1852-9204
-    roles:
-    - project-manager
-    - support
-    surname: Clérice
-  automatically-aligned: false
-  characters:
-    members:
-    - ' '
-    - '"'
-    - '&'
-    - "'"
-    - (
-    - )
-    - '*'
-    - ','
-    - '-'
-    - .
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - ':'
-    - ;
-    - '?'
-    - A
-    - B
-    - C
-    - D
-    - E
-    - F
-    - G
-    - H
-    - I
-    - J
-    - L
-    - M
-    - N
-    - O
-    - P
-    - Q
-    - R
-    - S
-    - T
-    - U
-    - V
-    - X
-    - Y
-    - Z
-    - '['
-    - \
-    - ']'
-    - a
-    - b
-    - c
-    - d
-    - e
-    - f
-    - g
-    - h
-    - i
-    - j
-    - l
-    - m
-    - n
-    - o
-    - p
-    - q
-    - r
-    - s
-    - t
-    - u
-    - v
-    - x
-    - y
-    - '}'
-    - «
-    - ¬
-    - ·
-    - »
-    - Æ
-    - É
-    - Î
-    - Ï
-    - à
-    - á
-    - â
-    - ã
-    - æ
-    - è
-    - é
-    - î
-    - ï
-    - ò
-    - ó
-    - ù
-    - ú
-    - ū
-    - ǘ
-    - ʹ
-    - ́
-    - ΐ
-    - Α
-    - Β
-    - Γ
-    - Δ
-    - Ε
-    - Ζ
-    - Η
-    - Θ
-    - Ι
-    - Κ
-    - Λ
-    - Μ
-    - Ν
-    - Ο
-    - Π
-    - Ρ
-    - Σ
-    - Τ
-    - Υ
-    - Φ
-    - Χ
-    - Ω
-    - ά
-    - έ
-    - ή
-    - ί
-    - α
-    - β
-    - γ
-    - δ
-    - ε
-    - ζ
-    - η
-    - θ
-    - ι
-    - κ
-    - λ
-    - μ
-    - ν
-    - ξ
-    - ο
-    - π
-    - ρ
-    - ς
-    - σ
-    - τ
-    - υ
-    - φ
-    - χ
-    - ψ
-    - ω
-    - ϊ
-    - ό
-    - ύ
-    - ώ
-    - ḯ
-    - ἀ
-    - ἁ
-    - ἂ
-    - ἃ
-    - ἄ
-    - ἅ
-    - ἆ
-    - ἇ
-    - Ἀ
-    - Ἄ
-    - ἐ
-    - ἑ
-    - ἒ
-    - ἓ
-    - ἔ
-    - ἕ
-    - Ἐ
-    - Ἕ
-    - ἠ
-    - ἡ
-    - ἢ
-    - ἣ
-    - ἤ
-    - ἥ
-    - ἦ
-    - ἧ
-    - Ἡ
-    - ἰ
-    - ἱ
-    - ἳ
-    - ἴ
-    - ἵ
-    - ἶ
-    - ἷ
-    - Ἰ
-    - Ἱ
-    - Ἴ
-    - ὀ
-    - ὁ
-    - ὂ
-    - ὃ
-    - ὄ
-    - ὅ
-    - Ὀ
-    - Ὁ
-    - ὐ
-    - ὑ
-    - ὓ
-    - ὔ
-    - ὕ
-    - ὖ
-    - ὗ
-    - Ὑ
-    - ὠ
-    - ὡ
-    - ὢ
-    - ὣ
-    - ὤ
-    - ὥ
-    - ὦ
-    - ὧ
-    - ὰ
-    - ὲ
-    - ὴ
-    - ὶ
-    - ὸ
-    - ὺ
-    - ὼ
-    - ᾀ
-    - ᾄ
-    - ᾔ
-    - ᾗ
-    - ᾧ
-    - ᾳ
-    - ᾴ
-    - ᾶ
-    - ᾷ
-    - ῃ
-    - ῆ
-    - ῇ
-    - ῒ
-    - ῖ
-    - ῤ
-    - ῥ
-    - ῦ
-    - ῳ
-    - ῶ
-    - ῷ
-    - ‐
-    - ’
-    - “
-    - ”
-    - 〈
-    - 〉
-    mode: NFKC
-    transliteration: false
-  description: Ancient greek dataset, with printed documents dated from 1644 to 
-    2000.
-  format: Alto-XML
-  hands:
-    count: less-than-11
-    precision: exact
-  language:
-  - grc
-  - lat
-  license:
-    name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-  production-software: eScriptorium
-  project-name: CLLG
-  project-website: https://cllg-project.github.io/
-  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-  script:
-  - iso: Grek
-  script-type: only-typed
-  time:
-    notAfter: '2000'
-    notBefore: '1644'
-  title: old-ancient-greek-print-dataset
-  url: 10.5281/zenodo.22098097
-  volume:
-  - count: 37
-    metric: files
-  - count: 2113
-    metric: lines
-  - count: 69351
-    metric: characters
-  - count: 262
-    metric: regions
-- authors:
   - name: Ainonen
     roles:
     - transcriber
@@ -1753,6 +1448,317 @@
     metric: lines
   - count: 311392
     metric: characters
+- _bibtex: "@misc{https://doi.org/10.5281/zenodo.22098097,\n  doi = {10.5281/ZENODO.22098097},\n\
+    \  url = {https://zenodo.org/doi/10.5281/zenodo.22098097},\n  author = {Laurent,
+    Maïna and Karamolegkou, Antonia and Clérice, Thibault},\n  keywords = {ancient-greek,
+    OCR},\n  language = {grc},\n  title = {old-ancient-greek-print-dataset},\n  publisher
+    = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0
+    International}\n}\n"
+  authors:
+  - name: Maïna
+    orcid: 0009-0001-6479-2401
+    roles:
+    - transcriber
+    surname: Laurent
+  - name: Antonia
+    orcid: 0000-0002-6458-0986
+    roles:
+    - support
+    surname: Karamolegkou
+  - name: Thibault
+    orcid: 0000-0003-1852-9204
+    roles:
+    - project-manager
+    - support
+    surname: Clérice
+  automatically-aligned: false
+  characters:
+    members:
+    - ' '
+    - '"'
+    - '&'
+    - "'"
+    - (
+    - )
+    - '*'
+    - ','
+    - '-'
+    - .
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - ':'
+    - ;
+    - '?'
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - I
+    - J
+    - L
+    - M
+    - N
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - T
+    - U
+    - V
+    - X
+    - Y
+    - Z
+    - '['
+    - \
+    - ']'
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+    - l
+    - m
+    - n
+    - o
+    - p
+    - q
+    - r
+    - s
+    - t
+    - u
+    - v
+    - x
+    - y
+    - '}'
+    - «
+    - ¬
+    - ·
+    - »
+    - Æ
+    - É
+    - Î
+    - Ï
+    - à
+    - á
+    - â
+    - ã
+    - æ
+    - è
+    - é
+    - î
+    - ï
+    - ò
+    - ó
+    - ù
+    - ú
+    - ū
+    - ǘ
+    - ʹ
+    - ́
+    - ΐ
+    - Α
+    - Β
+    - Γ
+    - Δ
+    - Ε
+    - Ζ
+    - Η
+    - Θ
+    - Ι
+    - Κ
+    - Λ
+    - Μ
+    - Ν
+    - Ο
+    - Π
+    - Ρ
+    - Σ
+    - Τ
+    - Υ
+    - Φ
+    - Χ
+    - Ω
+    - ά
+    - έ
+    - ή
+    - ί
+    - α
+    - β
+    - γ
+    - δ
+    - ε
+    - ζ
+    - η
+    - θ
+    - ι
+    - κ
+    - λ
+    - μ
+    - ν
+    - ξ
+    - ο
+    - π
+    - ρ
+    - ς
+    - σ
+    - τ
+    - υ
+    - φ
+    - χ
+    - ψ
+    - ω
+    - ϊ
+    - ό
+    - ύ
+    - ώ
+    - ḯ
+    - ἀ
+    - ἁ
+    - ἂ
+    - ἃ
+    - ἄ
+    - ἅ
+    - ἆ
+    - ἇ
+    - Ἀ
+    - Ἄ
+    - ἐ
+    - ἑ
+    - ἒ
+    - ἓ
+    - ἔ
+    - ἕ
+    - Ἐ
+    - Ἕ
+    - ἠ
+    - ἡ
+    - ἢ
+    - ἣ
+    - ἤ
+    - ἥ
+    - ἦ
+    - ἧ
+    - Ἡ
+    - ἰ
+    - ἱ
+    - ἳ
+    - ἴ
+    - ἵ
+    - ἶ
+    - ἷ
+    - Ἰ
+    - Ἱ
+    - Ἴ
+    - ὀ
+    - ὁ
+    - ὂ
+    - ὃ
+    - ὄ
+    - ὅ
+    - Ὀ
+    - Ὁ
+    - ὐ
+    - ὑ
+    - ὓ
+    - ὔ
+    - ὕ
+    - ὖ
+    - ὗ
+    - Ὑ
+    - ὠ
+    - ὡ
+    - ὢ
+    - ὣ
+    - ὤ
+    - ὥ
+    - ὦ
+    - ὧ
+    - ὰ
+    - ὲ
+    - ὴ
+    - ὶ
+    - ὸ
+    - ὺ
+    - ὼ
+    - ᾀ
+    - ᾄ
+    - ᾔ
+    - ᾗ
+    - ᾧ
+    - ᾳ
+    - ᾴ
+    - ᾶ
+    - ᾷ
+    - ῃ
+    - ῆ
+    - ῇ
+    - ῒ
+    - ῖ
+    - ῤ
+    - ῥ
+    - ῦ
+    - ῳ
+    - ῶ
+    - ῷ
+    - ‐
+    - ’
+    - “
+    - ”
+    - 〈
+    - 〉
+    mode: NFKC
+    transliteration: false
+  description: Ancient greek dataset, with printed documents dated from 1644 to 
+    2000.
+  format: Alto-XML
+  hands:
+    count: less-than-11
+    precision: exact
+  language:
+  - grc
+  - lat
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  production-software: eScriptorium
+  project-name: CLLG
+  project-website: https://cllg-project.github.io/
+  schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+  script:
+  - iso: Grek
+  script-type: only-typed
+  time:
+    notAfter: '2000'
+    notBefore: '1644'
+  title: old-ancient-greek-print-dataset
+  url: https://doi.org/10.5281/zenodo.22098097
+  volume:
+  - count: 37
+    metric: files
+  - count: 2113
+    metric: lines
+  - count: 69351
+    metric: characters
+  - count: 262
+    metric: regions
 - _bibtex: "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n\
     \  url = {https://zenodo.org/doi/10.5281/zenodo.3643393},\n  author = {Matthias
     Gille Levenson, },\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles
