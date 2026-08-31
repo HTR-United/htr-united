@@ -1379,6 +1379,156 @@
     "_bibtex": "@misc{https://doi.org/10.5281/zenodo.18157525,\n  doi = {10.5281/ZENODO.18157525},\n  url = {https://zenodo.org/doi/10.5281/zenodo.18157525},\n  author = {Ishac, Ephrem Aboud and Roughan, Christine and Balski, Julius and Jamali, Nima and Kilicci, Jeanette and Lin, Chia-Wei and Macar, Andrei and Malesevic, Branko and Maric, Stefan and Reano, Daniele and Sawaya, Rita and Stutz, Jonathan},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syr},\n  title = {HTR Winter School 2025 - Syriac, MS Jerusalem, Saint Mark's Monastery 36},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "362a02e8c"
   },
+  "4b9332a46": {
+    "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
+    "title": "Ibero-Romance Handwriting in Arabic Script (IRHAS)",
+    "url": "https://doi.org/10.5281/zenodo.21824878",
+    "authors": [
+      {
+        "name": "Olivier",
+        "orcid": "0000-0001-7809-3890",
+        "roles": [
+          "transcriber",
+          "project-manager",
+          "quality-control"
+        ],
+        "surname": "Brisville-Fertin"
+      },
+      {
+        "name": "Ryane",
+        "roles": [
+          "transcriber"
+        ],
+        "surname": "Bensalah"
+      }
+    ],
+    "institutions": [],
+    "description": "The Ibero-Romance Handwriting in Arabic Script dataset comprises 22 extracts from 19 different\n manuscripts. It constitutes a first open and documented ATR dataset for Spanish Ajami better\n known as Aljamiado (Ibero-Romance written in Arabic script). It was curated with the e-Scriptorium interface (https://escriptorium.eu/) which operates on the Kraken engine (https://kraken.re/main/index.html).",
+    "language": [
+      "osp",
+      "arg",
+      "ara"
+    ],
+    "script": [
+      {
+        "iso": "Arab"
+      }
+    ],
+    "script-type": "only-manuscript",
+    "production-software": "eScriptorium + Kraken",
+    "time": {
+      "notBefore": "1400",
+      "notAfter": "1610"
+    },
+    "hands": {
+      "count": "more-than-10",
+      "precision": "estimated"
+    },
+    "transcription-guidelines": "Segmentation: The criteria adopted follow those of the [SegmOnto](https://segmonto.github.io/) project: Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, Nicola Carboni, SegmOnto, A Controlled Vocabulary to Describe the Layout of Pages, version 0.9, Gen\u00e8ve/Lyon/Paris, 2023, [https://segmonto.github.io/](https://segmonto.github.io/).\n### Zoning\n\n* The text block (justification frame) is zoned as `MainZone`.\n* Catchwords are zoned as `QuireMarkZone` with a `DefaultLine`.\n* Visual elements (manicules, headpieces, ornaments, etc.) are zoned as `GraphicZone`.\n* Marginal additions are zoned as `MarginTextZone`.\n* Physical damage is zoned as `DamageZone`.\n* Numbering (pagination, foliation, etc.) is zoned as `NumberingZone`.\n* Archival stamps are zoned as `StampZone`.\n* Running headers at the top of the page are zoned as `RunningTitleZone`.\n\n### Lines\n\n* The baseline is `DefaultLine`. It is used for the main body text, marginal additions, catchwords, page numbering, and, where applicable, running titles.\n* Certain elements of the body text that are visually highlighted (subtitles, highlighted terms, prayers) may be tagged with an appropriate attribute: `DefaultLine:bold`, `DefaultLine:red`.\n* Some documents alternate between red and black lines, or bold and regular lines, to mark supralinear translations. These can be tagged with the corresponding attribute: `DefaultLine:red`, `DefaultLine:bold`.\n* Titles may be tagged as `HeadingLine` if they are visually highlighted.\n* Titles enclosed within cartouches/panels are tagged as `HeadingLine`.\n* Suitable attributes may be assigned: bold (`HeadingLine:bold`) or rubricated (`HeadingLine:rubric`) attributes.\n* Additions that break the line structure are tagged as an interlinear line (`InterlinearLine`).\n* If the addition is written in another color, the interlinear line may carry a color attribute (`InterlinearLine:red`).\n## Transcription\n\nThe approach is predominantly graphemic to ensure optimal compatibility with ATR (Automated Text Recognition) models for Arabic script, in particular the principles of the DataLab BASHtr project.\n\nThe guidelines below draw upon the experience of the CATMuS project on medieval Western Latin scripts, as well as the recommendations of OpenITI.\n\n### Consonants\n\n* In general, letters\u2014regardless of their positional form\u2014correspond to a single Unicode character, mostly from the Unicode Arabic Chart; their variation is allographic rather than graphemic (for certain final forms and word spacing, see below).\n* Consonants are transcribed as faithfully as possible, even in cases of obvious diacritic dot errors.\n* Maghrebi *q\u0101f* and *f\u0101\u02be* are transcribed as `\u06a7` (`U+06A7`) and `\u06a2` (`U+06A2`) respectively.\n* Omissions of diacritic dots on dotted letters are represented as follows:\n* Using `\u066e` (`U+066E`) for *b\u0101\u02be*, *t\u0101\u02be*, *\u1e6f\u0101\u02be*, and for initial and medial *n\u016bn*, and *y\u0101\u02be*;\n* `\u06a1` (`U+06A1`) for dotless *f\u0101\u02be* and *q\u0101f*.\n* In final position, using `\u06ba` (`U+06BA`) for *n\u016bn*, and `\u0649` (`U+0649`) for *y\u0101\u02be*.\n* In cases of corrected diacritic dots, the correction should be respected: a `\u062e` corrected into a `\u062c` will be transcribed as `\u062c`.\n* Consonant corrections made by strikethroughs are enclosed in curly braces `{}` alongside the text, if legible (see also below for punctuation and decorative elements).\n* Insertion marks are transcribed using: `\u2038` (`U+2038`).\n* Final letterforms may mark a word boundary even if non-syntactic or non-morphological (to be evaluated): `\u0643\u064f\u0646\u0652 \u0628\u064e\u0651\u0644\u064e\u063a\u064e\u0631\u0652`.\n* Silent final *h\u0101\u02be* letters may mark the end of a Romance term; they should be rendered as `\u0647`. When this hook/loop appears in word-medial position, it should be retained followed by a space, depending on whether a clear loop or hook is discernible (to be evaluated).\n\n### Vowels and Combining Characters\n\n* Vocalisation is transcribed in full, as shown in the examples, including the superscript *alif* (`\u0670` `U+0670`), incomplete vocalisation in *All\u0101h* (`\u0627\u064e\u0644\u0644\u064e\u0651\u0647\u0652`), or the *tanw\u012bn*, even when seemingly misused to mark gemination: `\u0628\u064b\u0627\u0631\u064f`, `\u0643\u064e\u0628\u064d\u062a\u064f\u0644\u064f`, `\u0628\u064c\u0631\u0652`.\n* The *hamza* is transcribed according to its position: independent, or combined above/below a seat: `\u0634\u064e\u0627\u0649\u0650\u0655\u062f\u064f`, `\u0621\u064e\u0627\u0644\u0652 \u0645\u064e\u0626\u064e\u0627\u0634\u0652\u062a\u064f\u0631\u064f`, `\u0644\u064f\u0634\u064e\u0644\u0652\u06a2\u064e\u06a7\u0650\u064a\u0621\u064e\u0627\u0634\u0652`.\n* Combining diacritics combined dynamically with base characters (`\u0627` / `\u0649` / `\u0648` + `\u0654` `U+0654` / `\u0655` `U+0655` / `\u0653` `U+0653`) are preferred over precomposed characters (`\u0623`, `\u0625`, `\u0624`, `\u0622`).\n* Instances of vowels attached to an *alif* serving as a *wa\u1e63l* are represented by: `\u0871` (`U+0871`), `\u0875` (`U+0875`), `\u0872` (`U+0872`), generally depending on the preceding vowel or, alternatively, the placement of the vowel stroke (to be evaluated).\n\n### Word Separation\n\n* Spacing should reflect physical manuscript separations, which are generally syntagmatic in Aljamiado: `\u0643\u064f\u0646\u064e\u0627\u0644\u064f\u0651\u0634\u0652`. In case of doubt, separation should be judged based on line spacing or split morphologically.\n* In Arabic text passages, current morpho-syntactic word boundaries has been observed in IRHAS v.1, but should not be observed any longer.\n* Line justification extensions (*ta\u1e6dw\u012bl* / *ka\u0161\u012bda*) are ignored during transcription.\n\n### Punctuation\n\n* Only three-dot punctuation marks are retained: `\u061e` (`U+061E`). Other decorative in-line elements are omitted or may be zoned as `GraphicZone`.\n* Graphic elements masking an underlying text correction are transcribed as such, enclosed in curly braces `{}`.",
+    "volume": [
+      {
+        "count": 480,
+        "metric": "files"
+      },
+      {
+        "count": 10825,
+        "metric": "lines"
+      },
+      {
+        "count": 550299,
+        "metric": "characters"
+      },
+      {
+        "count": 1505,
+        "metric": "regions"
+      },
+      {
+        "count": 663,
+        "metric": "pages"
+      }
+    ],
+    "automatically-aligned": false,
+    "characters": {
+      "mode": "NFD",
+      "members": [
+        " ",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "b",
+        "i",
+        "s",
+        "{",
+        "}",
+        "\u061e",
+        "\u0621",
+        "\u0627",
+        "\u0628",
+        "\u0629",
+        "\u062a",
+        "\u062b",
+        "\u062c",
+        "\u062d",
+        "\u062e",
+        "\u062f",
+        "\u0630",
+        "\u0631",
+        "\u0632",
+        "\u0633",
+        "\u0634",
+        "\u0635",
+        "\u0636",
+        "\u0637",
+        "\u0638",
+        "\u0639",
+        "\u063a",
+        "\u0643",
+        "\u0644",
+        "\u0645",
+        "\u0646",
+        "\u0647",
+        "\u0648",
+        "\u0649",
+        "\u064a",
+        "\u064b",
+        "\u064c",
+        "\u064d",
+        "\u064e",
+        "\u064f",
+        "\u0650",
+        "\u0651",
+        "\u0652",
+        "\u0653",
+        "\u0654",
+        "\u0655",
+        "\u066e",
+        "\u0670",
+        "\u06a1",
+        "\u06a2",
+        "\u06a7",
+        "\u06ba",
+        "\u06e5",
+        "\u0871",
+        "\u0872",
+        "\u0875",
+        "\u2038"
+      ],
+      "transliteration": false
+    },
+    "license": {
+      "name": "CC-BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "format": "Alto-XML",
+    "_pid": "4b9332a46"
+  },
   "b90ed62f6": {
     "schema": "https://htr-united.github.io/schema/2023-06-27/schema.json",
     "title": "old-ancient-greek-print-dataset",
