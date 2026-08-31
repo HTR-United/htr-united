@@ -1,0 +1,259 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Ibero-Romance Handwriting in Arabic Script (IRHAS)
+url: https://doi.org/10.5281/zenodo.21824878
+authors:
+  - surname: Brisville-Fertin
+    name: Olivier
+    roles:
+      - transcriber
+      - project-manager
+      - quality-control
+    orcid: 0000-0001-7809-3890
+  - surname: Bensalah
+    name: Ryane
+    roles:
+      - transcriber
+institutions: []
+description: |-
+   The Ibero-Romance Handwriting in Arabic Script dataset comprises 22 extracts from 19 different
+    manuscripts. It constitutes a first open and documented ATR dataset for Spanish Ajami better
+    known as Aljamiado (Ibero-Romance written in Arabic script). It was curated with the e-Scriptorium interface (https://escriptorium.eu/) which operates on the Kraken engine (https://kraken.re/main/index.html).
+language:
+  - osp
+  - arg
+  - ara
+script:
+  - iso: Arab
+script-type: only-manuscript
+production-software: eScriptorium + Kraken
+time:
+  notBefore: "1400"
+  notAfter: "1610"
+hands:
+  count: more-than-10
+  precision: estimated
+transcription-guidelines: >-
+  Segmentation: The criteria adopted follow those of the [SegmOnto](https://segmonto.github.io/)
+  project: Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, Nicola Carboni,
+  SegmOnto, A Controlled Vocabulary to Describe the Layout of Pages, version 0.9, Genève/Lyon/Paris,
+  2023, [https://segmonto.github.io/](https://segmonto.github.io/).
+
+  ### Zoning
+
+
+  * The text block (justification frame) is zoned as `MainZone`.
+
+  * Catchwords are zoned as `QuireMarkZone` with a `DefaultLine`.
+
+  * Visual elements (manicules, headpieces, ornaments, etc.) are zoned as `GraphicZone`.
+
+  * Marginal additions are zoned as `MarginTextZone`.
+
+  * Physical damage is zoned as `DamageZone`.
+
+  * Numbering (pagination, foliation, etc.) is zoned as `NumberingZone`.
+
+  * Archival stamps are zoned as `StampZone`.
+
+  * Running headers at the top of the page are zoned as `RunningTitleZone`.
+
+
+  ### Lines
+
+
+  * The baseline is `DefaultLine`. It is used for the main body text, marginal additions,
+  catchwords, page numbering, and, where applicable, running titles.
+
+  * Certain elements of the body text that are visually highlighted (subtitles, highlighted terms,
+  prayers) may be tagged with an appropriate attribute: `DefaultLine:bold`, `DefaultLine:red`.
+
+  * Some documents alternate between red and black lines, or bold and regular lines, to mark
+  supralinear translations. These can be tagged with the corresponding attribute: `DefaultLine:red`,
+  `DefaultLine:bold`.
+
+  * Titles may be tagged as `HeadingLine` if they are visually highlighted.
+
+  * Titles enclosed within cartouches/panels are tagged as `HeadingLine`.
+
+  * Suitable attributes may be assigned: bold (`HeadingLine:bold`) or rubricated
+  (`HeadingLine:rubric`) attributes.
+
+  * Additions that break the line structure are tagged as an interlinear line (`InterlinearLine`).
+
+  * If the addition is written in another color, the interlinear line may carry a color attribute
+  (`InterlinearLine:red`).
+
+  ## Transcription
+
+
+  The approach is predominantly graphemic to ensure optimal compatibility with ATR (Automated Text
+  Recognition) models for Arabic script, in particular the principles of the DataLab BASHtr project.
+
+
+  The guidelines below draw upon the experience of the CATMuS project on medieval Western Latin
+  scripts, as well as the recommendations of OpenITI.
+
+
+  ### Consonants
+
+
+  * In general, letters—regardless of their positional form—correspond to a single Unicode
+  character, mostly from the Unicode Arabic Chart; their variation is allographic rather than
+  graphemic (for certain final forms and word spacing, see below).
+
+  * Consonants are transcribed as faithfully as possible, even in cases of obvious diacritic dot
+  errors.
+
+  * Maghrebi *qāf* and *fāʾ* are transcribed as `ڧ` (`U+06A7`) and `ڢ` (`U+06A2`) respectively.
+
+  * Omissions of diacritic dots on dotted letters are represented as follows:
+
+  * Using `ٮ` (`U+066E`) for *bāʾ*, *tāʾ*, *ṯāʾ*, and for initial and medial *nūn*, and *yāʾ*;
+
+  * `ڡ` (`U+06A1`) for dotless *fāʾ* and *qāf*.
+
+  * In final position, using `ں` (`U+06BA`) for *nūn*, and `ى` (`U+0649`) for *yāʾ*.
+
+  * In cases of corrected diacritic dots, the correction should be respected: a `خ` corrected into a
+  `ج` will be transcribed as `ج`.
+
+  * Consonant corrections made by strikethroughs are enclosed in curly braces `{}` alongside the
+  text, if legible (see also below for punctuation and decorative elements).
+
+  * Insertion marks are transcribed using: `‸` (`U+2038`).
+
+  * Final letterforms may mark a word boundary even if non-syntactic or non-morphological (to be
+  evaluated): `كُنْ بَّلَغَرْ`.
+
+  * Silent final *hāʾ* letters may mark the end of a Romance term; they should be rendered as `ه`.
+  When this hook/loop appears in word-medial position, it should be retained followed by a space,
+  depending on whether a clear loop or hook is discernible (to be evaluated).
+
+
+  ### Vowels and Combining Characters
+
+
+  * Vocalisation is transcribed in full, as shown in the examples, including the superscript *alif*
+  (`ٰ` `U+0670`), incomplete vocalisation in *Allāh* (`اَللَّهْ`), or the *tanwīn*, even when
+  seemingly misused to mark gemination: `بًارُ`, `كَبٍتُلُ`, `بٌرْ`.
+
+  * The *hamza* is transcribed according to its position: independent, or combined above/below a
+  seat: `شَاىِٕدُ`, `ءَالْ مَئَاشْتُرُ`, `لُشَلْڢَڧِيءَاشْ`.
+
+  * Combining diacritics combined dynamically with base characters (`ا` / `ى` / `و` + `ٔ` `U+0654` /
+  `ٕ` `U+0655` / `ٓ` `U+0653`) are preferred over precomposed characters (`أ`, `إ`, `ؤ`, `آ`).
+
+  * Instances of vowels attached to an *alif* serving as a *waṣl* are represented by: `ࡱ`
+  (`U+0871`), `ࡵ` (`U+0875`), `ࡲ` (`U+0872`), generally depending on the preceding vowel or,
+  alternatively, the placement of the vowel stroke (to be evaluated).
+
+
+  ### Word Separation
+
+
+  * Spacing should reflect physical manuscript separations, which are generally syntagmatic in
+  Aljamiado: `كُنَالُّشْ`. In case of doubt, separation should be judged based on line spacing or
+  split morphologically.
+
+  * In Arabic text passages, current morpho-syntactic word boundaries has been observed in IRHAS
+  v.1, but should not be observed any longer.
+
+  * Line justification extensions (*taṭwīl* / *kašīda*) are ignored during transcription.
+
+
+  ### Punctuation
+
+
+  * Only three-dot punctuation marks are retained: `؞` (`U+061E`). Other decorative in-line elements
+  are omitted or may be zoned as `GraphicZone`.
+
+  * Graphic elements masking an underlying text correction are transcribed as such, enclosed in
+  curly braces `{}`.
+volume:
+  - metric: files
+    count: 480
+  - metric: lines
+    count: 10825
+  - metric: characters
+    count: 550299
+  - metric: regions
+    count: 1505
+  - metric: pages
+    count: 663
+automatically-aligned: false
+characters:
+  mode: NFD
+  members:
+    - " "
+    - "0"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - b
+    - i
+    - s
+    - "{"
+    - "}"
+    - ؞
+    - ء
+    - ا
+    - ب
+    - ة
+    - ت
+    - ث
+    - ج
+    - ح
+    - خ
+    - د
+    - ذ
+    - ر
+    - ز
+    - س
+    - ش
+    - ص
+    - ض
+    - ط
+    - ظ
+    - ع
+    - غ
+    - ك
+    - ل
+    - م
+    - ن
+    - ه
+    - و
+    - ى
+    - ي
+    - ً
+    - ٌ
+    - ٍ
+    - َ
+    - ُ
+    - ِ
+    - ّ
+    - ْ
+    - ٓ
+    - ٔ
+    - ٕ
+    - ٮ
+    - ٰ
+    - ڡ
+    - ڢ
+    - ڧ
+    - ں
+    - ۥ
+    - ࡱ
+    - ࡲ
+    - ࡵ
+    - ‸
+  transliteration: false
+license:
+  name: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
