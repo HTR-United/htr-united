@@ -1,0 +1,66 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Henri Pirenne Manuscripts Dataset
+url: https://zenodo.org/records/19038925
+authors:
+ - name: Carmen
+   surname: Carrasco Lujan
+   orcid: 0009-0004-1508-9076
+   roles:
+     - quality-control
+ - name: Sébastien
+   surname: de Valeriola
+   orcid: 0000-0002-0000-9051
+   roles:
+     - project-manager
+ - name: Alexis
+   surname: Wilkin
+   orcid: 0000-0001-9984-5799
+   roles:
+     - project-manager
+ - name: Floriana
+   surname: Ceresato
+   roles:
+     - support
+ - name: Anthony
+   surname: Leroy
+   orcid: 0000-0002-8434-8551
+   roles:
+     - support
+ - name: Nicolas
+   surname: Hachez
+   roles:
+     - transcriber
+ - name: Chloé
+   surname: de Wolf
+   roles:
+     - transcriber
+institutions: []
+description: >-
+ This dataset contains manually corrected ground truth data for Handwritten
+ Text Recognition (HTR) of manuscripts written by the Belgian historian Henri
+ Pirenne. The manuscripts date from 1909 to 1935 and were produced in Pirenne’s
+ handwriting.
+project-name: >-
+ "De main de maître". Vers une transcription automatique des archives de
+ l’historien Henri Pirenne et leur analyse génétique et intellectuelle
+project-website: https://quadihum.ulb.be/de-main-de-maitre/
+language:
+ - fra
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: only-manuscript
+time:
+ notBefore: '1909'
+ notAfter: '1935'
+hands:
+ count: '1'
+ precision: exact
+license:
+ name: CC-BY-SA 4.0
+ url: https://creativecommons.org/licenses/by-sa/4.0/
+format: Alto-XML
+volume:
+ - metric: lines
+   count: 20757
