@@ -1527,6 +1527,7 @@
       "url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "format": "Alto-XML",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.21824878,\n  doi = {10.5281/ZENODO.21824878},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21824878},\n  author = {Brisville-Fertin, Olivier},\n  keywords = {Handwritten Text Recognition, Arabic Script, Maghribi Script, Ajami Texts, Aljamiado Manuscripts, Mudejar and Morisco Manuscripts},\n  language = {osp},\n  title = {Ibero-Romance Handwriting in Arabic Script (IRHAS)},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution Share Alike 4.0 International}\n}\n",
     "_pid": "4b9332a46"
   },
   "b90ed62f6": {
