@@ -1,0 +1,59 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Kat -57 ground truth dataset
+url: https://zenodo.org/records/14679534
+authors: []
+institutions: []
+description: >-
+ Background
+
+
+ Catalogue -1957 is an alphabetic library catalogue listing Lund University
+ Library’s holdings up to 1957. A project has been ongoing to scan and
+ transcribe the catalogue cards.
+
+
+ About 10.000 cards were manually transcribed to create a ground truth dataset.
+
+
+ From 2178 card drawers, one drawer for every letter in the alphabet was
+ selected to transcribe, except for in the letter S, where two drawers were
+ selected.
+
+
+ The writing on the catalogue cards is a mix of typewriter and handwriting.
+ There are more than 10 different hands.
+
+
+ The cards were transcribed by a small team at the University Library.
+
+
+ Dataset
+
+
+ The set consists of PNG images with corresponding PAGE XML files. The
+ transcriptions were made in eScriptorium.
+language:
+ - swe
+ - deu
+ - eng
+ - fra
+ - dan
+ - nor
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+ - iso: Latn
+script-type: evenly-mixed
+time:
+ notBefore: '1880'
+ notAfter: '1957'
+hands:
+ count: more-than-10
+ precision: estimated
+license:
+ name: CC-BY 4.0
+ url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+volume:
+ - metric: pages
+   count: 10000
