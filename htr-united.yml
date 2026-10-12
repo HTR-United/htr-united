@@ -188,16 +188,7 @@
   volume:
   - count: 952
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n\
-    \  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen
-    and Elgarrista, Gabriela and Mélanie-Becquet, Frédérique},\n  keywords = {Paris,
-    Historical source material, HTR, Transcripción, Apprentissage (intelligence artificielle)},\n\
-    \  language = {fr},\n  title = {Données vérité de terrain HTR+ Annuaire des propriétaires
-    et des propriétés de Paris et du département de la Seine (1898-1923)},\n  publisher
-    = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n  year = {2022},\n  copyright
-    = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n\
-    }\n"
-  authors:
+- authors:
   - name: Elgarrista
     roles:
     - transcriber
@@ -685,13 +676,7 @@
   volume:
   - count: 153
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.14356190,\n  doi = {10.5281/ZENODO.14356190},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.14356190},\n  author = {Beckert,
-    Stefan},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR):
-    Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript},\n\
-    \  publisher = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution
-    4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Stefan
     orcid: 0009-0005-2394-0075
     roles:
@@ -770,16 +755,7 @@
   volume:
   - count: 10
     metric: pages
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.14714089,\n  doi = {10.5281/ZENODO.14714089},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.14714089},\n  author = {Aboud
-    Ishac, Ephrem and Roughan, Christine and Awad, Ammar and Emilio, Carlo Biuzzi
-    and Chandran, Saranya and Griggs, Jennifer and Ivanova, Polina and Malešević,
-    Branko and Marić, Stefan and Nateri, Francesca and Petrov, Ivan and Tava, Cristina
-    and Thomas, Maria S.},\n  keywords = {handwritten text recognition, HTR, Syriac,
-    ground truth, Transkribus, eScriptorium},\n  language = {syc},\n  title = {HTR
-    Winter School 2024 - Syriac, ÖNB Cod. Syr. 1},\n  publisher = {Zenodo},\n  year
-    = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Ephrem
     orcid: 0000-0003-2943-6556
     roles:
@@ -1270,13 +1246,7 @@
     metric: lines
   - count: 1279
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.17978574,\n  doi = {10.5281/ZENODO.17978574},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.17978574},\n  author = {Eichenberger,
-    Nicole},\n  keywords = {HTR, Transcription},\n  language = {gmh},\n  title = {Transcriptions
-    from medieval manuscripts related to the Augustinian canonesses in Inzigkofen},\n\
-    \  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution
-    4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Nicole
     orcid: 0000-0002-3941-9461
     surname: Eichenberger
@@ -1316,16 +1286,7 @@
   volume:
   - count: 9726
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.18157525,\n  doi = {10.5281/ZENODO.18157525},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.18157525},\n  author = {Ishac,
-    Ephrem Aboud and Roughan, Christine and Balski, Julius and Jamali, Nima and Kilicci,
-    Jeanette and Lin, Chia-Wei and Macar, Andrei and Malesevic, Branko and Maric,
-    Stefan and Reano, Daniele and Sawaya, Rita and Stutz, Jonathan},\n  keywords =
-    {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n\
-    \  language = {syr},\n  title = {HTR Winter School 2025 - Syriac, MS Jerusalem,
-    Saint Mark's Monastery 36},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright
-    = {Creative Commons Attribution 4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Ephrem
     orcid: 0000-0003-2943-6556
     roles:
@@ -1454,7 +1415,7 @@
     Script, Ajami Texts, Aljamiado Manuscripts, Mudejar and Morisco Manuscripts},\n\
     \  language = {osp},\n  title = {Ibero-Romance Handwriting in Arabic Script (IRHAS)},\n\
     \  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution
-    Share Alike 4.0 International}\n}\n"
+    Non Commercial Share Alike 4.0 International}\n}\n"
   authors:
   - name: Olivier
     orcid: 0000-0001-7809-3890
@@ -2056,14 +2017,7 @@
     metric: characters
   - count: 262
     metric: regions
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.3643393},\n  author = {Matthias
-    Gille Levenson, },\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles
-    of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de données de segmentation
-    et de reconnaissance optique de caractères - Kraken - Incunables sévillans 1494-1500},\n\
-    \  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution
-    Non Commercial 4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Gille Levenson
     orcid: 0000-0001-9488-5986
     roles:
@@ -2207,16 +2161,7 @@
   volume:
   - count: 8000
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.5179361,\n  doi = {10.5281/ZENODO.5179361},\n\
-    \  url = {https://zenodo.org/record/5179361},\n  author = {Halter-Pernet, Colette
-    and Teuscher, Simon and Hodel, Tobias and Barwitzki, Lukas and Egloff, Salome
-    and Henggeler, Fabian and Nadig, Michael and Steinmann, Anina and Stettler, Sabine
-    and Prada Ziegler, Ismail},\n  keywords = {Scholarly Edition, Monastery, Königsfelden
-    Abbey, Poor Clares, Franciscan Friars, Hapsburg, Handwritten Text Recognition},\n\
-    \  title = {Charters and Records of Königsfelden Abbey and Bailiwick (1308-1662)},\n\
-    \  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution
-    4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Hodel
     roles:
     - transcriber
@@ -2264,14 +2209,7 @@
   volume:
   - count: 60000
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n\
-    \  url = {https://zenodo.org/doi/10.5281/zenodo.6414086},\n  author = {Liesbeth
-    Keijser, },\n  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische
-    Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n\
-    \  language = {odt},\n  title = {6000 ground truth of VOC and notarial deeds 3.000.000
-    HTR of VOC, WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n\
-    \  copyright = {Creative Commons Attribution 4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Keijser
     roles:
     - transcriber
@@ -2415,16 +2353,7 @@
   volume:
   - count: 28000
     metric: lines
-- _bibtex: "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n\
-    \  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and
-    Bolte, Henrike and Führer, Veronika and Hausleitner, Felix and Hutterer, Sarah
-    and Lüthi, Tim and Nancu, Mihaela and Passoni, Erica and Pataki, Katalin and Schröcksnadel,
-    Sophie and Verri, Giovanni and Wegener, Dennis and Hofert, Sandra},\n  keywords
-    = {Digital Humanities, Handwritten Text Recognition, German, Nikolaus-von-Dinkelsbühl-Redaktor},\n\
-    \  title = {Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release},\n\
-    \  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution
-    4.0 International}\n}\n"
-  authors:
+- authors:
   - name: Berger
     orcid: 0000-0002-6627-5272
     surname: Michael

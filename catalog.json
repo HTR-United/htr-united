@@ -342,7 +342,6 @@
     "transcription-guidelines": "Transcription diplomatique. Les accolades n'ont pas \u00e9t\u00e9 segment\u00e9es.\n",
     "production-software": "Transkribus",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.34847/nkl.acb724xs,\n  doi = {10.34847/NKL.ACB724XS},\n  url = {https://nakala.fr/10.34847/nkl.acb724xs},\n  author = {Brando, Carmen and Elgarrista, Gabriela and M\u00e9lanie-Becquet, Fr\u00e9d\u00e9rique},\n  keywords = {Paris, Historical source material, HTR, Transcripci\u00f3n, Apprentissage (intelligence artificielle)},\n  language = {fr},\n  title = {Donn\u00e9es v\u00e9rit\u00e9 de terrain HTR+ Annuaire des propri\u00e9taires et des propri\u00e9t\u00e9s de Paris et du d\u00e9partement de la Seine (1898-1923)},\n  publisher = {NAKALA - https://nakala.fr (Huma-Num - CNRS)},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
     "_pid": "c326a6fee"
   },
   "7a99090c5": {
@@ -807,7 +806,6 @@
       }
     ],
     "transcription-guidelines": "Transcription guidelines are oriented on the DTABF-M schema (https://www.deutschestextarchiv.de/doku/basisformat/manuskript.html), but have been adapted as follows:\n\n- I and J majuscules are not distinguished\n- u and v are reproduced true to the original (e.g. vnd)\n- Long-s (\u017f) and round-s (s) are distinguished\n- sz ligature is rendered as \u00df in Kurrent scripts and as sz (e.g. \"Libusza\") in Antiqua scripts\n- ij ligature is rendered as y\n- other ligatures, if they occur at all, are dissolved\n- r graphemes are rendered as r in their modern day form\n- an m with a nasal stroke was rendered as a simple m\n- Where possible, abbreviation signs (Abbrechungszeichen) for the contemporary identification of abbreviations have been included as single letters and not marked separately. The subsequent punctuation mark (\u201c.\u201d or \u201c:\u201d) for further identification of the abbreviation has also been included (cf. also Capelli, 1928, Lexicon abbreviaturarum I, p.X) \n- Diacritics in u were not marked\n- In the case of uncertain capitalization, an approximation is sought via the letter size",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14356190,\n  doi = {10.5281/ZENODO.14356190},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14356190},\n  author = {Beckert, Stefan},\n  title = {Ground Truth Set for Handwritten Text Recognition (HTR/OCR): Dresdner Hofdiarium 1665 (Mscr.Dresd.K.80) - 17th century Kurrent manuscript},\n  publisher = {Zenodo},\n  year = {2024},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "07c3105cd"
   },
   "6c810ce76": {
@@ -950,7 +948,6 @@
     ],
     "citation-file-link": "https://github.com/HTR-School-Vienna/2024--Syriac/blob/main/CITATION.cff",
     "transcription-guidelines": "The segmentation of the folios followed the SegmOnto vocabulary for annotation of regions:\n\n- MainZone: the main column of text.\n- MainZone-gold: any sections of the main column where the text is written in gold block characters, as in the start of the text here. (The - character is a substitution for SegmOnto's recommended : character for declaring subtypes, since Transkribus did not allow for use of the colon character in the region name.)\n- MarginTextZone: any marginal words or phrases, including catchwords. Also used for interlinear glosses.\n- NumberingZone: any page or folio numbers.\n\nThe transcription includes spaces, the Syriac letters, some diacritics, punctuation, and no vowel dots or markings.\n\n- Allowed diacritics:\n - Syome\n - Dots over feminine suffix heh\n - Dots in pronouns: above for demonstrative, below for personal\n - Dots in verbs: to distinguish participles and perfects\n - Dots to distinguish homographs\n- Excluded diacritics:\n - Vowel dots\n - Dots of hardening and softening (qushoyo and rukokho)\n\nPunctuation marks were not normalized, but rather transcribed as they appear in the manuscript (. \u0706 \u0707 : \u0700).\n\nTranskribus's unclear tag was used when readings were uncertain or the text was damaged or unclear.",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.14714089,\n  doi = {10.5281/ZENODO.14714089},\n  url = {https://zenodo.org/doi/10.5281/zenodo.14714089},\n  author = {Aboud Ishac, Ephrem and Roughan, Christine and Awad, Ammar and Emilio, Carlo Biuzzi and Chandran, Saranya and Griggs, Jennifer and Ivanova, Polina and Male\u0161evi\u0107, Branko and Mari\u0107, Stefan and Nateri, Francesca and Petrov, Ivan and Tava, Cristina and Thomas, Maria S.},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syc},\n  title = {HTR Winter School 2024 - Syriac, \u00d6NB Cod. Syr. 1},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "6c810ce76"
   },
   "0cd54f1c8": {
@@ -1234,7 +1231,6 @@
       }
     ],
     "transcription-guidelines": "The transcriptions are mainly graphematic, reproducing the scribes' usage of long s/round s, i/j, u/v, and superscripts. All abbreviations were kept, using a relatively small set of special characters.",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.17978574,\n  doi = {10.5281/ZENODO.17978574},\n  url = {https://zenodo.org/doi/10.5281/zenodo.17978574},\n  author = {Eichenberger, Nicole},\n  keywords = {HTR, Transcription},\n  language = {gmh},\n  title = {Transcriptions from medieval manuscripts related to the Augustinian canonesses in Inzigkofen},\n  publisher = {Zenodo},\n  year = {2025},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "890971120"
   },
   "362a02e8c": {
@@ -1376,7 +1372,6 @@
     ],
     "citation-file-link": "https://github.com/HTR-School-Vienna/2025-syriac/blob/main/CITATION.cff",
     "transcription-guidelines": "The segmentation of the folios followed the SegmOnto vocabulary for annotation of regions:\n\n- MainZone: the main column of text.\n- MarginTextZone: any marginal words or phrases, including catchwords. Also used for interlinear glosses.\n- NumberingZone: any page or folio numbers.\n\nThe transcription guidelines included spaces, the Syriac letters, some diacritics, punctuation, and no vowel dots or markings.\n\n- Allowed diacritics:\n  - Syome\n  - Dots over feminine suffix heh\n  - Dots in pronouns: above for demonstrative, below for personal\n  - Dots in verbs: to distinguish participles and perfects\n  - Dots to distinguish homographs\n- Excluded diacritics:\n  - Vowel dots\n  - Dots of hardening and softening (qushoyo and rukokho)\n\nPunctuation marks were not normalized, but rather transcribed as they appear in the manuscript (. \u0706 \u0707 : \u0700).",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.18157525,\n  doi = {10.5281/ZENODO.18157525},\n  url = {https://zenodo.org/doi/10.5281/zenodo.18157525},\n  author = {Ishac, Ephrem Aboud and Roughan, Christine and Balski, Julius and Jamali, Nima and Kilicci, Jeanette and Lin, Chia-Wei and Macar, Andrei and Malesevic, Branko and Maric, Stefan and Reano, Daniele and Sawaya, Rita and Stutz, Jonathan},\n  keywords = {handwritten text recognition, HTR, Syriac, ground truth, Transkribus, eScriptorium},\n  language = {syr},\n  title = {HTR Winter School 2025 - Syriac, MS Jerusalem, Saint Mark's Monastery 36},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "362a02e8c"
   },
   "4b9332a46": {
@@ -1527,7 +1522,7 @@
       "url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "format": "Alto-XML",
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.21824878,\n  doi = {10.5281/ZENODO.21824878},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21824878},\n  author = {Brisville-Fertin, Olivier},\n  keywords = {Handwritten Text Recognition, Arabic Script, Maghribi Script, Ajami Texts, Aljamiado Manuscripts, Mudejar and Morisco Manuscripts},\n  language = {osp},\n  title = {Ibero-Romance Handwriting in Arabic Script (IRHAS)},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution Share Alike 4.0 International}\n}\n",
+    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.21824878,\n  doi = {10.5281/ZENODO.21824878},\n  url = {https://zenodo.org/doi/10.5281/zenodo.21824878},\n  author = {Brisville-Fertin, Olivier},\n  keywords = {Handwritten Text Recognition, Arabic Script, Maghribi Script, Ajami Texts, Aljamiado Manuscripts, Mudejar and Morisco Manuscripts},\n  language = {osp},\n  title = {Ibero-Romance Handwriting in Arabic Script (IRHAS)},\n  publisher = {Zenodo},\n  year = {2026},\n  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}\n}\n",
     "_pid": "4b9332a46"
   },
   "b90ed62f6": {
@@ -1923,7 +1918,6 @@
     ],
     "transcription-guidelines": "Transcription diplomatique, sans normalisation, sans r\u00e9solution d'abr\u00e9viations ni corrections. ",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.3643393,\n  doi = {10.5281/ZENODO.3643393},\n  url = {https://zenodo.org/doi/10.5281/zenodo.3643393},\n  author = {Matthias Gille Levenson, },\n  keywords = {ocr, eScriptorium, kraken, incunabula, Gilles of Rome, Estanislao Polono, Meinardo Ungut},\n  title = {Jeu de donn\u00e9es de segmentation et de reconnaissance optique de caract\u00e8res - Kraken - Incunables s\u00e9villans 1494-1500},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution Non Commercial 4.0 International}\n}\n",
     "_pid": "fbe9216af"
   },
   "7dcc35e88": {
@@ -2140,7 +2134,6 @@
     "transcription-guidelines": "See: https://www.koenigsfelden.uzh.ch/exist/apps/ssrq/intro.html#richtlinien",
     "production-software": "Transkribus",
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.5179361,\n  doi = {10.5281/ZENODO.5179361},\n  url = {https://zenodo.org/record/5179361},\n  author = {Halter-Pernet, Colette and Teuscher, Simon and Hodel, Tobias and Barwitzki, Lukas and Egloff, Salome and Henggeler, Fabian and Nadig, Michael and Steinmann, Anina and Stettler, Sabine and Prada Ziegler, Ismail},\n  keywords = {Scholarly Edition, Monastery, K\u00f6nigsfelden Abbey, Poor Clares, Franciscan Friars, Hapsburg, Handwritten Text Recognition},\n  title = {Charters and Records of K\u00f6nigsfelden Abbey and Bailiwick (1308-1662)},\n  publisher = {Zenodo},\n  year = {2021},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "782b1e7da"
   },
   "3989ce92b": {
@@ -2221,7 +2214,6 @@
       }
     ],
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.6414086,\n  doi = {10.5281/ZENODO.6414086},\n  url = {https://zenodo.org/doi/10.5281/zenodo.6414086},\n  author = {Liesbeth Keijser, },\n  keywords = {Transciptions, Verenigde Oost-Indische Compagnie, West-Indische Compagnie, Notarial deeds, Nationaal Archief, Noord-Hollands Archief, Transkribus},\n  language = {odt},\n  title = {6000 ground truth of VOC and notarial deeds 3.000.000 HTR of VOC, WIC and notarial deeds},\n  publisher = {Zenodo},\n  year = {2020},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "3989ce92b"
   },
   "58807c215": {
@@ -2377,7 +2369,6 @@
       }
     ],
     "automatically-aligned": false,
-    "_bibtex": "@misc{https://doi.org/10.5281/zenodo.7466927,\n  doi = {10.5281/ZENODO.7466927},\n  url = {https://zenodo.org/record/7466927},\n  author = {Berger, Michael and Bolte, Henrike and F\u00fchrer, Veronika and Hausleitner, Felix and Hutterer, Sarah and L\u00fcthi, Tim and Nancu, Mihaela and Passoni, Erica and Pataki, Katalin and Schr\u00f6cksnadel, Sophie and Verri, Giovanni and Wegener, Dennis and Hofert, Sandra},\n  keywords = {Digital Humanities, Handwritten Text Recognition, German, Nikolaus-von-Dinkelsb\u00fchl-Redaktor},\n  title = {Klosterneuburg, Stiftsbibl., Cod. 48 - Ground Truth: Initial Release},\n  publisher = {Zenodo},\n  year = {2022},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
     "_pid": "939d02cb9"
   },
   "69f2aaf10": {
