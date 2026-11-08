@@ -1,0 +1,180 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Manuscript witnesses of Guillaume Cretin's Chronique française (1515 - 1525)
+url: https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum-htr/htr-training-data
+authors:
+  - surname: Roulet
+    name: Théo
+    roles:
+      - transcriber
+      - quality-control
+    orcid: 0009-0008-2944-1455
+  - surname: Delvallée
+    name: Ellen
+    roles:
+      - transcriber
+      - project-manager
+  - surname: Brix
+    name: Antoine
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  18 manuscripts written in the first half of the XVIth century, all copies of one of 6 books of the
+  Chronique française. Produced in the context of the ANR Project Rhef-R - Les Rhétoriqueurs face à
+  la Renaissance : hybridations génériques autour de 1500 - hosted at Litt&Arts (UMR 5316), Univ.
+  Grenoble Alpes - CNRS, Grenoble, France.
+project-name: CreNum
+project-website: https://crenum.elan-numerique.fr/
+language:
+  - frm
+script:
+  - iso: Latn
+script-type: only-manuscript
+production-software: eScriptorium + Kraken, YALTAI (YOLO)
+time:
+  notBefore: "1500"
+  notAfter: "1550"
+hands:
+  count: more-than-10
+  precision: estimated
+transcription-guidelines: >
+  - abbreviations are not expanded
+
+  - alphabetic signs are transcribed using the modern Latin alphabet
+
+  - u / v and i / j are not distinguished (we only use u and i ). 
+
+  - all special characters are represented with MUFI choosing the ones recommanded by the CATMUS
+  guidelines
+volume:
+  - metric: files
+    count: 453
+  - metric: lines
+    count: 11299
+  - metric: characters
+    count: 414836
+  - metric: regions
+    count: 1137
+automatically-aligned: false
+characters:
+  mode: NFC
+  members:
+    - " "
+    - "&"
+    - (
+    - )
+    - ","
+    - "-"
+    - .
+    - /
+    - "0"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - ":"
+    - "?"
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - I
+    - J
+    - L
+    - M
+    - "N"
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - T
+    - U
+    - V
+    - X
+    - "Y"
+    - "["
+    - "]"
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+    - k
+    - l
+    - m
+    - "n"
+    - o
+    - p
+    - q
+    - r
+    - s
+    - t
+    - u
+    - v
+    - x
+    - "y"
+    - z
+    - "\_"
+    - §
+    - ¶
+    - õ
+    - ā
+    - đ
+    - ē
+    - ī
+    - ł
+    - ō
+    - ū
+    - ſ
+    - ȳ
+    - ̄
+    - ̾
+    - ͤ
+    - ͥ
+    - ͧ
+    - ͫ
+    - ͬ
+    - ͭ
+    - ͯ
+    - ჻
+    - ᷑
+    - ᷚ
+    - ᷝ
+    - ᷠ
+    - ᷤ
+    - ḡ
+    - ẜ
+    - ẽ
+    - ’
+    - ‸
+    - ⁊
+    - ⟦
+    - ⟧
+    - ꝑ
+    - ꝓ
+    - ꝙ
+    - ꝟ
+    - ꝯ
+    - ꝰ
+    - 
+    - 
+  transliteration: false
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
