@@ -1,6 +1,6 @@
 schema: https://htr-united.github.io/schema/2023-06-27/schema.json
 title: HTR Dataset for Leibniz's Manuscripts (17th–Early 18th Century)
-url: https://huggingface.co/datasets/DenisaB/htr_leibniz_dataset_v1; https://doi.org/10.5281/zenodo.21622297
+url: https://doi.org/10.5281/zenodo.21622297
 authors:
   - surname: Bumba
     name: Denisa-Florina
