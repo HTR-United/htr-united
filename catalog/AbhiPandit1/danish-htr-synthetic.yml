@@ -1,0 +1,45 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: Danish HTR Synthetic Lines (18th-century style)
+url: https://github.com/AbhiPandit1/danish-htr-synthetic
+authors:
+- name: Abhishek
+  surname: Jha
+  roles:
+  - project-manager
+  - digitization
+  - quality-control
+institutions: []
+description: 160,000 synthetic text-line images with exact ground truth, generated
+  to support HTR of 18th-century Danish administrative and parish records. Genuine
+  18th-century Danish text (authentic orthography, abbreviations and record phrasing,
+  reshuffled at line level) is rendered through gothic-cursive and copperplate-style
+  fonts with realistic degradation including paper texture, stroke-weight variation,
+  blur, noise and simulated bleed-through, so the label error rate is zero by construction.
+  Intended as an augmentation source alongside real data for low-resource historical
+  Danish. Line-level only (no page layout). The repository holds the manifest, samples
+  and documentation; the full 160k images are on Zenodo (DOI 10.5281/zenodo.22093255).
+  Known characteristics (diacritic fidelity by font, inherited editorial marks) are
+  documented in the README.
+language:
+- dan
+production-software: Custom Python rendering and degradation pipeline
+script:
+- iso: Latf
+script-type: only-manuscript
+time:
+  notBefore: '1700'
+  notAfter: '1800'
+hands:
+  count: unknown
+  precision: estimated
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Image-Text-Pairs
+volume:
+- metric: lines
+  count: 160000
+- metric: images
+  count: 160000
+- metric: files
+  count: 160001
