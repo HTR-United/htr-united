@@ -1,0 +1,89 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: HTR Dataset for Leibniz's Manuscripts (17th–Early 18th Century)
+url: https://doi.org/10.5281/zenodo.21622297
+authors:
+  - surname: Bumba
+    name: Denisa-Florina
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+    orcid: 0009-0000-7533-0926
+  - surname: Rabouin
+    name: David
+    roles:
+      - project-manager
+    orcid: 0000-0002-9046-5535
+  - surname: Giovannangeli
+    name: Vincent
+    roles:
+      - transcriber
+  - surname: Siebert
+    name: Harald
+    roles:
+      - transcriber
+  - surname: Just
+    name: Pauline
+    roles:
+      - transcriber 
+  - surname: Steiger
+    name: Anne
+    roles:
+      - transcriber 
+  - surname: Jaffrezic
+    name: Audrey
+    roles:
+      - transcriber
+  - surname: Garnier
+    name: Mathias
+    roles:
+      - transcriber
+  - surname: Michel
+    name: Florian
+    roles:
+      - transcriber
+  - surname: Cai
+    name: Jiarui
+    roles:
+      - transcriber
+  - surname: Giraud-Hua
+    name: Sébastien
+    roles:
+      - transcriber
+institutions: []
+description: >-
+  This dataset provides ground truth data for Handwritten Text Recognition (HTR) of Gottfried
+  Wilhelm Leibniz's manuscripts (17th–early 18th century), composed of transcribed and manually
+  corrected folios together with automatically aligned ground truth for fine-tuning HTR models. 
+
+
+  It comprises a manually corrected "clean" subset of 20,139 lines across 275 pages and a "noisy"
+  subset of 43,372 lines across 735 pages, produced by aligning existing ground truth with the
+  output of the FoNDUE-GD-v2 HTR model (https://doi.org/10.5281/zenodo.14399779).
+project-name: ERC PHILIUMM - The Philosophy of Leibniz in the Light of his Unpublished Mathematical Manuscripts
+project-website: https://cordis.europa.eu/project/id/101020985
+language:
+  - lat
+  - fra
+script:
+  - iso: Latn
+script-type: only-manuscript
+production-software: eScriptorium + Kraken
+time:
+  notBefore: "1660"
+  notAfter: "1716"
+hands:
+  count: 1-per-file
+  precision: exact
+transcription-guidelines: >-
+  Les abréviations ont été développées, tout mot ou séquence de mots raturée ont été transcrits si
+  lisibles. Un mot ou séquence de mots illisibles ont été marqués par "_" pour signaler une
+  omission.
+volume:
+  - metric: lines
+    count: 63511
+automatically-aligned: true
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
